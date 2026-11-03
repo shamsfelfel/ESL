@@ -32,6 +32,8 @@ for _stream in (sys.stdout, sys.stderr):
 
 def load_build_helpers():
     """Reuse build.py's MP3 frame walker rather than writing a second one."""
+    # importing build.py would otherwise drop a __pycache__ into a lesson folder
+    sys.dont_write_bytecode = True
     for candidate in sorted(ROOT.glob("lessons/*/build.py")):
         spec = importlib.util.spec_from_file_location("_build", candidate)
         module = importlib.util.module_from_spec(spec)
