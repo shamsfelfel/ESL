@@ -1,0 +1,537 @@
+{
+  "lesson": 3,
+  "slug": "test-01",
+  "title": "Progress Test 1 — after Lessons 1 to 3",
+  "level": "A2 · checks Lessons 1, 2 and 3",
+  "topic": "Everything so far: daily routine, keeping files safe, and computing",
+  "time": "about 90 minutes, in one sitting if possible",
+  "skills": "Listening → Reading → Vocabulary and grammar → Writing → Speaking",
+  "new_in_this_lesson": "two texts she has never seen, the eight TOEFL question types from Lessons 1 to 3, and a score that says which lesson to go back to",
+  "passage_words": 241,
+  "footer": "Progress Test 1 — after Lessons 1 to 3",
+  "voices": {
+    "reader": {
+      "voice": "en-GB-RyanNeural",
+      "rate": "-10%",
+      "pitch": "+0Hz"
+    },
+    "narrator": {
+      "voice": "en-GB-SoniaNeural",
+      "rate": "-5%",
+      "pitch": "+0Hz"
+    },
+    "slow": {
+      "voice": "en-GB-RyanNeural",
+      "rate": "-25%",
+      "pitch": "+0Hz"
+    }
+  },
+  "how_to_work": [
+    "Sit the whole test in one go if you can, with a clock, and do not open part 06 until you have finished.",
+    "Start with **01-listening.mp3** and do not read the sheet before you play it. Sections 2, 3 and 4 are paper only.",
+    "Play **05-speaking.mp3** last and record your three answers.",
+    "Then open part 06, mark yourself out of 100, and read the table that says which lesson to go back to."
+  ],
+  "full_section": {
+    "parts": [
+      "01",
+      "05"
+    ],
+    "gap": 3,
+    "closing": [
+      {
+        "pause": 2
+      },
+      {
+        "say": "This is the end of progress test one.",
+        "voice": "narrator"
+      }
+    ]
+  },
+  "parts": [
+    {
+      "number": "01",
+      "slug": "listening",
+      "title": "Section 1 — Listening",
+      "minutes": 20,
+      "sheet": true,
+      "audio": true,
+      "markdown": "### Section 1 — Listening (20 marks, about 20 minutes)\n\n> **Do not read anything in this section before you listen.** Play `01-listening.mp3`. You will hear a short passage **two times**, then the six questions. Answer on this sheet.\n\n**1. (Factual, 3 marks)** What time does Nadia arrive at the office?\n\n- A. At seven o'clock.\n- B. At eight o'clock.\n- C. At nine o'clock.\n- D. The passage does not say.\n\n**2. (Factual, 3 marks)** What was Nadia doing when her colleague turned the computer off?\n\n- A. She was checking the printer.\n- B. She was writing a long report.\n- C. She was reading her email.\n- D. She was talking to the room.\n\n**3. (Negative factual, 3 marks)** According to the passage, the office did all of the following EXCEPT\n\n- A. make a new rule.\n- B. ask people to look at the screen first.\n- C. buy a second computer.\n- D. ask people to ask the room first.\n\n**4. (Vocabulary in context, 3 marks)** The word \"shared\" in the last line is closest in meaning to\n\n- A. used by many people.\n- B. very old.\n- C. broken.\n- D. bought last week.\n\n**5. (Inference, 3 marks)** It can be inferred from the passage that\n\n- A. Nadia lost a whole day of work.\n- B. the colleague turned the computer off on purpose.\n- C. Nadia now keeps more than one copy of her work.\n- D. the office bought a new printer.\n\n**6. (Short answer, 5 marks)** What rule did the office make after Nadia lost her work?\n\n> \\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_",
+      "segments": [
+        {
+          "say": "Progress test one. Section one. Listening.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 1
+        },
+        {
+          "say": "You will hear a short passage about an office and a shared computer. You will hear it two times. Do not read anything. Listen only.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 2
+        },
+        {
+          "say": "Now listen.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 1.5
+        },
+        {
+          "say": "Nadia works in a small office with four other people. They share one computer for their reports. Every morning, Nadia arrives at eight o'clock and checks the printer before anyone else needs it.\n\nLast Monday, she was writing a long report when a colleague turned the computer off. He did not know that Nadia was working on it. She lost one hour of work.\n\nAfter that, the office made a simple rule. Before anyone turns the computer off, they must look at the screen and ask the room. Nadia also started to save her work in two places: on the computer and in her email.\n\nNow she says the same thing to every new person in the office: \"The computer is a shared tool. Your work is not.\" ",
+          "voice": "reader"
+        },
+        {
+          "pause": 4
+        },
+        {
+          "say": "Now listen again.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 1.5
+        },
+        {
+          "say": "Nadia works in a small office with four other people. They share one computer for their reports. Every morning, Nadia arrives at eight o'clock and checks the printer before anyone else needs it.\n\nLast Monday, she was writing a long report when a colleague turned the computer off. He did not know that Nadia was working on it. She lost one hour of work.\n\nAfter that, the office made a simple rule. Before anyone turns the computer off, they must look at the screen and ask the room. Nadia also started to save her work in two places: on the computer and in her email.\n\nNow she says the same thing to every new person in the office: \"The computer is a shared tool. Your work is not.\" ",
+          "voice": "reader"
+        },
+        {
+          "pause": 3
+        },
+        {
+          "say": "Now answer questions one to six on your sheet. You may look at the questions now.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 2
+        },
+        {
+          "say": "Question 1.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 0.6
+        },
+        {
+          "say": "What time does Nadia arrive at the office?",
+          "voice": "narrator"
+        },
+        {
+          "pause": 0.8
+        },
+        {
+          "say": "A. At seven o'clock.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 0.5
+        },
+        {
+          "say": "B. At eight o'clock.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 0.5
+        },
+        {
+          "say": "C. At nine o'clock.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 0.5
+        },
+        {
+          "say": "D. The passage does not say.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 0.5
+        },
+        {
+          "pause": 12
+        },
+        {
+          "say": "Question 2.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 0.6
+        },
+        {
+          "say": "What was Nadia doing when her colleague turned the computer off?",
+          "voice": "narrator"
+        },
+        {
+          "pause": 0.8
+        },
+        {
+          "say": "A. She was checking the printer.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 0.5
+        },
+        {
+          "say": "B. She was writing a long report.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 0.5
+        },
+        {
+          "say": "C. She was reading her email.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 0.5
+        },
+        {
+          "say": "D. She was talking to the room.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 0.5
+        },
+        {
+          "pause": 12
+        },
+        {
+          "say": "Question 3.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 0.6
+        },
+        {
+          "say": "According to the passage, the office did all of the following EXCEPT",
+          "voice": "narrator"
+        },
+        {
+          "pause": 0.8
+        },
+        {
+          "say": "A. make a new rule.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 0.5
+        },
+        {
+          "say": "B. ask people to look at the screen first.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 0.5
+        },
+        {
+          "say": "C. buy a second computer.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 0.5
+        },
+        {
+          "say": "D. ask people to ask the room first.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 0.5
+        },
+        {
+          "pause": 12
+        },
+        {
+          "say": "Question 4.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 0.6
+        },
+        {
+          "say": "The word \"shared\" in the last line is closest in meaning to",
+          "voice": "narrator"
+        },
+        {
+          "pause": 0.8
+        },
+        {
+          "say": "A. used by many people.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 0.5
+        },
+        {
+          "say": "B. very old.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 0.5
+        },
+        {
+          "say": "C. broken.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 0.5
+        },
+        {
+          "say": "D. bought last week.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 0.5
+        },
+        {
+          "pause": 12
+        },
+        {
+          "say": "Question 5.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 0.6
+        },
+        {
+          "say": "It can be inferred from the passage that",
+          "voice": "narrator"
+        },
+        {
+          "pause": 0.8
+        },
+        {
+          "say": "A. Nadia lost a whole day of work.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 0.5
+        },
+        {
+          "say": "B. the colleague turned the computer off on purpose.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 0.5
+        },
+        {
+          "say": "C. Nadia now keeps more than one copy of her work.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 0.5
+        },
+        {
+          "say": "D. the office bought a new printer.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 0.5
+        },
+        {
+          "pause": 12
+        },
+        {
+          "say": "Question six.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 0.6
+        },
+        {
+          "say": "What rule did the office make after Nadia lost her work?",
+          "voice": "narrator"
+        },
+        {
+          "pause": 15
+        },
+        {
+          "say": "This is the end of section one.",
+          "voice": "narrator"
+        }
+      ]
+    },
+    {
+      "number": "02",
+      "slug": "reading",
+      "title": "Section 2 — Reading",
+      "minutes": 25,
+      "sheet": true,
+      "audio": false,
+      "print_only": {
+        "markers": [
+          "[A]",
+          "[B]",
+          "[C]",
+          "[D]"
+        ],
+        "note": "The sentence-insertion markers are printed only. This section has no audio at all: it is a reading test."
+      },
+      "markdown": "### Section 2 — Reading (30 marks, about 25 minutes)\n\n### Passage: *Two Kinds of Memory* (241 words)\n\nA computer keeps information in two different places, and the difference between them matters every single day.\n\nThe first place is the memory the computer uses while it is working. Programmers call it RAM. When you open a file, the computer copies it into this memory, because this memory is very fast. But it is not safe. **[A]** When the electricity stops, everything inside it disappears immediately.\n\nThe second place is the disk. **[B]** The disk is slower, but it keeps your files when the machine is off. This is why your teacher tells you to save often. Saving means moving your work from the fast memory to the slow one.\n\nMany students learn this rule the hard way. **[C]** They write for two hours, the power stops, and the work is gone — not because the computer is broken, but because the work never left the fast memory.\n\nThere is a second lesson after the first one. A file on one disk is still a file in one place. **[D]** If the disk stops working, or the laptop is lost, the file is gone with it. A backup is a copy on a different machine, in a different place.\n\nGood habits are small ones. Save every few minutes. Keep one copy somewhere else. Then, once a month, check that the second copy really opens. Many people make backups for years without ever testing them, and they discover the problem on the worst possible day.\n\n---\n\n**1. (Factual, 4 marks)** What does the computer do when you open a file?\n\n- A. It copies the file into the fast memory.\n- B. It sends the file to another machine.\n- C. It makes a backup of the file.\n- D. It turns the disk off.\n\n**2. (Factual, 4 marks)** According to the passage, what is the disk good at?\n\n- A. Working very fast.\n- B. Keeping files when the machine is off.\n- C. Making copies on other machines.\n- D. Testing backups once a month.\n\n**3. (Negative factual, 4 marks)** The writer advises all of the following EXCEPT\n\n- A. save every few minutes.\n- B. keep one copy somewhere else.\n- C. check that the second copy opens.\n- D. buy a faster computer.\n\n**4. (Vocabulary in context, 4 marks)** The word \"disappears\" in paragraph 2 is closest in meaning to\n\n- A. becomes slow.\n- B. is gone.\n- C. is copied.\n- D. is saved.\n\n**5. (Reference, 4 marks)** In the sentence, if the disk stops working, the file is gone with it, the word \"it\" refers to\n\n- A. the backup.\n- B. the fast memory.\n- C. the disk.\n- D. the copy.\n\n**6. (Inference, 4 marks)** It can be inferred from the passage that\n\n- A. a backup on the same disk is not really a backup.\n- B. RAM is more useful than a disk.\n- C. most students never lose their work.\n- D. testing a backup is a waste of time.\n\n**7. (Sentence insertion, 3 marks)** Look at the four letters **[A] [B] [C] [D]** in the passage. Where would this sentence best fit?\n\n> *It exists only while the power is on.*\n\n- A. At **[A]**\n- B. At **[B]**\n- C. At **[C]**\n- D. At **[D]**\n\n**8. (Purpose of a paragraph, 3 marks)** Why does the writer mention students who write for two hours?\n\n- A. To show what happens when work never leaves the fast memory.\n- B. To explain how a disk is built.\n- C. To show that students work too slowly.\n- D. To criticise teachers who ask for long essays."
+    },
+    {
+      "number": "03",
+      "slug": "vocabulary-and-grammar",
+      "title": "Section 3 — Vocabulary and grammar",
+      "minutes": 20,
+      "sheet": true,
+      "audio": false,
+      "markdown": "### Section 3 — Vocabulary and grammar (30 marks, about 20 minutes)\n\n**Part A — Vocabulary (10 marks, 1 each).** Write one word in each gap.\n\n1. A home inside a building is a \\_\\_\\_\\_.\n2. A second copy of your files in another place is a \\_\\_\\_\\_.\n3. A big computer that keeps files for many people is a \\_\\_\\_\\_.\n4. The program you use to open websites is a \\_\\_\\_\\_.\n5. To put electricity into a battery is to \\_\\_\\_\\_.\n6. To go away and not be seen is to \\_\\_\\_\\_.\n7. Not able to move = \\_\\_\\_\\_.\n8. In every place = \\_\\_\\_\\_.\n9. A thing you use to do work is a \\_\\_\\_\\_.\n10. The opposite of *upload* is \\_\\_\\_\\_.\n\n**Part B — Grammar (10 marks, 1 each).** Put the verb in the right tense, or choose the right word.\n\n1. Every morning Sami \\_\\_\\_\\_ (wake up) at six o'clock.\n2. Last year Maha \\_\\_\\_\\_ (study) design.\n3. She \\_\\_\\_\\_ (not find) her phone.\n4. \\_\\_\\_\\_ you \\_\\_\\_\\_ (have) a backup?\n5. At eight o'clock Omar \\_\\_\\_\\_ (sit) at his desk.\n6. The students \\_\\_\\_\\_ (laugh) when the lights went out.\n7. The computer turned off while it \\_\\_\\_\\_ (write) to the server.\n8. Omar \\_\\_\\_\\_ (not laugh).\n9. He was uploading his files \\_\\_\\_\\_ the screen stopped. (*when* / *while*)\n10. \\_\\_\\_\\_ she was typing, the power stopped. (*when* / *while*)\n\n**Part C — The three sounds of *-ed* (5 marks, 1 each).** Write <span class=\"ipa\">/t/</span>, <span class=\"ipa\">/d/</span> or <span class=\"ipa\">/ɪd/</span>.\n\n1. **looked** \\_\\_\\_\\_\n2. **explained** \\_\\_\\_\\_\n3. **wanted** \\_\\_\\_\\_\n4. **helped** \\_\\_\\_\\_\n5. **needed** \\_\\_\\_\\_\n\n**Part D — Which word is different? (5 marks, 1 each.)** Circle it.\n\n1. server — browser — software — breakfast\n2. studied — took — kept — important\n3. cable — screen — drive — version\n4. slow — stuck — quick — fast\n5. backup — copy — folder — careful"
+    },
+    {
+      "number": "04",
+      "slug": "writing",
+      "title": "Section 4 — Writing",
+      "minutes": 15,
+      "sheet": true,
+      "audio": false,
+      "markdown": "### Section 4 — Writing (10 marks, about 15 minutes)\n\nWrite **10–12 sentences** about this:\n\n> **A day when technology let you down.** What were you doing? What happened? What do you do differently now?\n\n**You must use:**\n\n- the past continuous at least **twice** (*I was working…*, *while I was typing…*);\n- the past simple for the short action that interrupted it;\n- at least **five** words from Lessons 1, 2 and 3.\n\n**How it is marked**\n\n| | Marks |\n|---|---|\n| The story is clear and in the right order | 3 |\n| Past simple and past continuous used correctly | 4 |\n| Five or more course words used correctly | 2 |\n| Capital letters and full stops | 1 |"
+    },
+    {
+      "number": "05",
+      "slug": "speaking",
+      "title": "Section 5 — Speaking",
+      "minutes": 10,
+      "sheet": true,
+      "audio": true,
+      "markdown": "### Section 5 — Speaking (10 marks, about 10 minutes)\n\nPlay `05-speaking.mp3`. You have **15 seconds to prepare** and **45 seconds to speak** for each question. Record all three answers on your phone and send them to your teacher.\n\n1. Describe your morning. Use wake up, breakfast, then, and after that.\n2. Tell me about a time you lost something, or a time your work stopped. What were you doing? What happened?\n3. Where do you keep your most important files, and why is that safe?\n\n**How it is marked**\n\n| | Marks |\n|---|---|\n| The answer is on the question and long enough | 3 |\n| Tenses are mostly correct | 3 |\n| Course vocabulary is used | 2 |\n| Speech is clear, without long stops | 2 |",
+      "segments": [
+        {
+          "say": "Progress test one. Section five. Speaking.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 1
+        },
+        {
+          "say": "There are three questions. For each one you have fifteen seconds to prepare and forty-five seconds to speak. Record all three answers and send them to your teacher.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 2
+        },
+        {
+          "say": "Speaking question 1.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 0.6
+        },
+        {
+          "say": "Describe your morning. Use wake up, breakfast, then, and after that.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 1
+        },
+        {
+          "say": "Preparation time. Fifteen seconds.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 15
+        },
+        {
+          "say": "Begin speaking now.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 45
+        },
+        {
+          "say": "Stop speaking.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 2
+        },
+        {
+          "say": "Speaking question 2.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 0.6
+        },
+        {
+          "say": "Tell me about a time you lost something, or a time your work stopped. What were you doing? What happened?",
+          "voice": "narrator"
+        },
+        {
+          "pause": 1
+        },
+        {
+          "say": "Preparation time. Fifteen seconds.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 15
+        },
+        {
+          "say": "Begin speaking now.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 45
+        },
+        {
+          "say": "Stop speaking.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 2
+        },
+        {
+          "say": "Speaking question 3.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 0.6
+        },
+        {
+          "say": "Where do you keep your most important files, and why is that safe?",
+          "voice": "narrator"
+        },
+        {
+          "pause": 1
+        },
+        {
+          "say": "Preparation time. Fifteen seconds.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 15
+        },
+        {
+          "say": "Begin speaking now.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 45
+        },
+        {
+          "say": "Stop speaking.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 2
+        },
+        {
+          "say": "This is the end of section five, and the end of the spoken part of the test.",
+          "voice": "narrator"
+        }
+      ]
+    },
+    {
+      "number": "06",
+      "slug": "answer-key",
+      "title": "Answer key, marking and what to do next",
+      "minutes": 10,
+      "sheet": true,
+      "audio": false,
+      "css_id": "answer-key",
+      "in_whole": false,
+      "markdown": "**Section 1 — Listening (20 marks)**\n\n| Q | Answer | Marks |\n|---|---|---|\n| 1 | B | 3 |\n| 2 | B | 3 |\n| 3 | C | 3 |\n| 4 | A | 3 |\n| 5 | C | 3 |\n| 6 | Before anyone turns the computer off, they must look at the screen and ask the room. | 5 |\n\n**Section 2 — Reading (30 marks)**\n\n| Q | Answer | Marks |\n|---|---|---|\n| 1 | A | 4 |\n| 2 | B | 4 |\n| 3 | D | 4 |\n| 4 | B | 4 |\n| 5 | C | 4 |\n| 6 | A | 4 |\n| 7 | A | 3 |\n| 8 | A | 3 |\n\n*Why 7 is **[A]***: the sentence explains *why* the fast memory is not safe, so it can only follow *\"But it is not safe.\"* At **[B]** and **[C]** it contradicts the disk, which keeps files with the power off.\n\n*Why 8 is **A***: that paragraph is an example of the rule in the paragraph before it, not a new fact about disks and not a complaint about students.\n\n**Section 3 — Vocabulary and grammar (30 marks)**\n\n**Part A:** 1. flat · 2. backup · 3. server · 4. browser · 5. charge · 6. disappear · 7. stuck · 8. everywhere · 9. tool · 10. download\n\n**Part B:** 1. wakes up · 2. studied · 3. did not find · 4. Did … have · 5. was sitting · 6. were laughing · 7. was writing · 8. was not laughing · 9. when · 10. While\n\n**Part C:** 1. /t/ · 2. /d/ · 3. /ɪd/ · 4. /t/ · 5. /ɪd/\n\n**Part D:** 1. breakfast (the others are computer words) · 2. important (the others are past-simple verbs) · 3. version (the others are things you can touch) · 4. stuck (the others describe speed) · 5. careful (the others are nouns about files)\n\n**Section 4 — Writing (10 marks)** and **Section 5 — Speaking (10 marks)**: mark with the tables on those sheets.\n\n### What the score means {: #what-the-score-means }\n\n| Score | What to do next |\n|---|---|\n| 85–100 | Strong. Go to Lesson 4 at full speed. |\n| 70–84 | On track for B2. Go to Lesson 4. |\n| 55–69 | Revise the weakest section below, then go to Lesson 4. |\n| Under 55 | Repeat Lessons 2 and 3 before going on. |\n\nThis is a **progress test against this course**, not a TOEFL score. It says whether the first three lessons have stuck, and which one to go back to. A real TOEFL iBT estimate needs full-length sections and a far longer reading passage; the first of those comes after Lesson 8.\n\n### Which lesson to go back to {: #which-lesson }\n\n| Weak section | Go back to |\n|---|---|\n| Section 1 — Listening | Lesson 1 part 01 and Lesson 3 part 01. Listen with no text, twice, every day for a week. |\n| Section 2 — Reading | Lesson 2 part 06 and Lesson 3 part 06. The question types are the same every lesson; only the text changes. |\n| Section 3 Part A — Vocabulary | The vocabulary part of whichever lesson the missed words came from (the lesson number is in the key above). |\n| Section 3 Part B — Grammar | Lesson 2 part 04 for the past simple, Lesson 3 part 04 for the past continuous. |\n| Section 3 Part C — *-ed* sounds | Lesson 2 part 05. |\n| Section 4 — Writing | Lesson 3 part 09, and rewrite the same task. |\n| Section 5 — Speaking | Lesson 3 part 08. Record, listen to yourself, record again. |\n\n### Teacher notes {: #teacher-notes }\n\n**What this test is for.** Three lessons is early for a test, and that is the point: it catches a wrong habit while it is still cheap to fix. The two texts are new, so nothing here can be answered from memory of the lessons.\n\n**Where the marks sit.** Half the paper (Sections 1 and 2) is the TOEFL-type question set the course has used since Lesson 1, in the same six types plus the two added in Lessons 2 and 3. If she scores well on the lessons and badly here, the problem is transfer to an unseen text, not the types.\n\n**The tense items are the ones to watch.** Section 3 Part B items 5 to 10 separate past simple from past continuous. An Arabic speaker who marks the past once will write *while I worked*; if items 9 and 10 are both wrong, go straight back to Lesson 3 section 3.4 and drill *when* against *while* before Lesson 4.\n\n**The listening passage is played twice**, as in every lesson so far. From the test after Lesson 6, play it once: by then the listen-twice rule has done its work and TOEFL itself plays nothing twice.\n\n**Marking the open sections.** Sections 4 and 5 are 20 of the 100 marks and are teacher judgement against the small tables on their sheets. Mark them before adding the objective score, so a strong story does not soften a weak tense count."
+    }
+  ]
+}

@@ -1,0 +1,217 @@
+/* Offline course app. Phone first; the same palette as the printed sheets. */
+
+:root {
+  --ink:    #1a1d21;
+  --muted:  #5d646e;
+  --rule:   #dfe3e8;
+  --accent: #15607a;
+  --wash:   #f1f6f8;
+  --warm:   #fbf6ec;
+  --bg:     #ffffff;
+  --card:   #ffffff;
+  --ok:     #1d6b45;
+  --gutter: 16px;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --ink:    #e9edf1;
+    --muted:  #9aa4b0;
+    --rule:   #2b3138;
+    --accent: #6fc2de;
+    --wash:   #1a2026;
+    --warm:   #241f16;
+    --bg:     #10151a;
+    --card:   #161c22;
+    --ok:     #6fd19d;
+  }
+}
+
+* { box-sizing: border-box; }
+
+html { -webkit-text-size-adjust: 100%; }
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--ink);
+  font: 16px/1.55 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  padding-bottom: env(safe-area-inset-bottom);
+}
+
+a { color: var(--accent); }
+
+/* ---------- top bar ---------- */
+
+.bar {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px var(--gutter);
+  background: var(--accent);
+  color: #fff;
+  padding-top: calc(10px + env(safe-area-inset-top));
+}
+@media (prefers-color-scheme: dark) {
+  .bar { background: #0e2a35; }
+}
+.bar-home { color: #fff; text-decoration: none; flex: 1; min-width: 0; }
+.bar-title {
+  font-weight: 600;
+  letter-spacing: -0.01em;
+  display: block;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+/* ---------- layout ---------- */
+
+main {
+  max-width: 44rem;
+  margin: 0 auto;
+  padding: 18px var(--gutter) 8px;
+  outline: none;
+}
+
+.foot {
+  max-width: 44rem;
+  margin: 0 auto;
+  padding: 24px var(--gutter) 32px;
+  color: var(--muted);
+  font-size: 13px;
+  border-top: 1px solid var(--rule);
+  margin-top: 24px;
+}
+.foot p { margin: 0 0 4px; }
+
+h1 { font-size: 22px; line-height: 1.2; margin: 0 0 6px; letter-spacing: -0.015em; }
+h2 { font-size: 16px; margin: 26px 0 10px; color: var(--accent); }
+p  { margin: 0 0 10px; }
+
+.lede { color: var(--muted); margin-bottom: 18px; }
+.dim  { color: var(--muted); font-size: 13px; }
+.loading { color: var(--muted); }
+
+.back {
+  display: inline-block;
+  margin-bottom: 12px;
+  font-size: 14px;
+  text-decoration: none;
+}
+.back::before { content: "\2190  "; }
+
+/* ---------- cards ---------- */
+
+.card {
+  display: block;
+  background: var(--card);
+  border: 1px solid var(--rule);
+  border-radius: 12px;
+  padding: 14px 16px;
+  margin-bottom: 12px;
+  text-decoration: none;
+  color: inherit;
+}
+.card:active { background: var(--wash); }
+.card h3 { margin: 0 0 4px; font-size: 17px; color: var(--accent); }
+.card .meta { color: var(--muted); font-size: 13.5px; }
+
+.tag {
+  display: inline-block;
+  font-size: 11.5px;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--muted);
+  border: 1px solid var(--rule);
+  border-radius: 99px;
+  padding: 1px 8px;
+  margin-bottom: 6px;
+}
+.tag-test { color: #8a5a12; border-color: #d8a13c; }
+@media (prefers-color-scheme: dark) { .tag-test { color: #e0b367; } }
+
+/* ---------- meta block ---------- */
+
+.facts {
+  background: var(--wash);
+  border-radius: 10px;
+  padding: 12px 14px;
+  margin: 0 0 16px;
+  font-size: 14px;
+}
+.facts div { margin-bottom: 3px; }
+.facts div:last-child { margin-bottom: 0; }
+.facts b { font-weight: 600; }
+
+/* ---------- parts ---------- */
+
+.part {
+  border: 1px solid var(--rule);
+  border-radius: 12px;
+  padding: 12px 14px;
+  margin-bottom: 10px;
+  background: var(--card);
+}
+.part-head { display: flex; align-items: baseline; gap: 8px; }
+.part-no {
+  font-variant-numeric: tabular-nums;
+  font-weight: 700;
+  color: var(--accent);
+  font-size: 14px;
+}
+.part-title { font-weight: 600; flex: 1; }
+.part-min { color: var(--muted); font-size: 13px; white-space: nowrap; }
+
+.row { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; margin-top: 10px; }
+
+audio { width: 100%; margin-top: 10px; height: 38px; }
+
+/* ---------- buttons ---------- */
+
+.btn {
+  font: inherit;
+  font-size: 14px;
+  padding: 7px 13px;
+  border-radius: 99px;
+  border: 1px solid var(--accent);
+  background: transparent;
+  color: var(--accent);
+  cursor: pointer;
+  text-decoration: none;
+  display: inline-block;
+  min-height: 36px;
+}
+.btn-small { font-size: 13px; padding: 5px 11px; min-height: 30px; }
+.btn-fill { background: var(--accent); color: #fff; }
+.bar .btn { border-color: #fff; color: #fff; }
+.btn:disabled { opacity: 0.55; cursor: default; }
+.btn-saved { border-color: var(--ok); color: var(--ok); }
+
+.pill {
+  font-size: 12px;
+  border-radius: 99px;
+  padding: 3px 10px;
+  border: 1px solid currentColor;
+}
+.pill-quiet { opacity: 0.9; }
+.saved { color: var(--ok); font-size: 13px; font-weight: 600; }
+
+/* ---------- steps ---------- */
+
+ol.steps { margin: 0 0 16px; padding-left: 20px; }
+ol.steps li { margin-bottom: 6px; }
+
+.note {
+  background: var(--warm);
+  border-left: 3px solid #d8a13c;
+  border-radius: 0 8px 8px 0;
+  padding: 10px 12px;
+  font-size: 14px;
+  margin: 0 0 16px;
+}
+@media (prefers-color-scheme: dark) { .note { color: #e8ddc8; } }

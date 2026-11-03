@@ -1,0 +1,1685 @@
+{
+  "lesson": 3,
+  "slug": "lesson-03",
+  "title": "Lesson 3 — The Night the Network Failed",
+  "level": "A2 (third step)",
+  "topic": "Computing and student life: files, servers and backups",
+  "time": "6 sessions, 45–55 minutes each",
+  "skills": "Listening → Reading → Vocabulary → Grammar → Comprehension → Speaking → Writing",
+  "new_in_this_lesson": "the past continuous, the weak sounds of was and were, a longer passage of 320 words, and one new question type: purpose of a paragraph",
+  "passage_words": 320,
+  "footer": "Lesson 3 — The Night the Network Failed",
+  "voices": {
+    "reader": {
+      "voice": "en-GB-RyanNeural",
+      "rate": "-10%",
+      "pitch": "+0Hz"
+    },
+    "narrator": {
+      "voice": "en-GB-SoniaNeural",
+      "rate": "-5%",
+      "pitch": "+0Hz"
+    },
+    "slow": {
+      "voice": "en-GB-RyanNeural",
+      "rate": "-25%",
+      "pitch": "+0Hz"
+    }
+  },
+  "how_to_work": [
+    "Play **01-passage.mp3** and listen twice with no text in front of you. Do not open the PDF yet.",
+    "Then work through the parts in number order. Part 04 is grammar and has no audio; part 05 needs its audio, because the weak sounds of *was* and *were* cannot be heard from the page.",
+    "Record your speaking answers on your phone, and send them with your writing and your self-report.",
+    "Open part 11, the answer key, only when parts 01 to 10 are finished."
+  ],
+  "full_section": {
+    "parts": [
+      "01",
+      "02",
+      "06",
+      "07"
+    ],
+    "gap": 3,
+    "closing": [
+      {
+        "pause": 2
+      },
+      {
+        "say": "This is the end of lesson three.",
+        "voice": "narrator"
+      }
+    ]
+  },
+  "parts": [
+    {
+      "number": "01",
+      "slug": "passage",
+      "title": "Passage — The Night the Network Failed",
+      "minutes": 20,
+      "sheet": true,
+      "audio": true,
+      "print_only": {
+        "markers": [
+          "[A]",
+          "[B]",
+          "[C]",
+          "[D]"
+        ],
+        "note": "The sentence-insertion markers are printed in the passage and are never read aloud: the student has to find the four places on the page."
+      },
+      "markdown": "> **How to do the listening.** Same rule as Lessons 1 and 2: the student listens **twice with no text**, then reads.\n> Audio files: `01-passage.mp3` first, then the other parts in order. Part `05-weak-forms.mp3` is new — the weak sounds of *was* and *were*.\n\n### 1.1 Before listening (2 minutes, Arabic is fine here)\n\n1. Where do you keep the work you are doing now?\n2. What do you do when the electricity stops in the middle of your work?\n3. How many copies of your most important file do you have?\n\n### 1.4 Now read the passage\n\n### Passage: *The Night the Network Failed* (320 words)\n\nLast March, Omar was finishing his final project at the computer centre. He was studying software engineering, and the project was the most important work of his year. The college wanted it on Friday morning.\n\n**[A]** On Tuesday evening, he was sitting at his usual desk. The room was quiet. Three other students were working near the window, and the lights were low. Omar was uploading his files to the college server when the screen stopped moving.\n\nAt first he was not worried. The internet in the building was often slow, so he waited. He checked the cable. He restarted the browser. Nothing changed on the screen. The upload was stuck at sixty per cent.\n\n**[B]** Then the lights went out. The electricity was off, and the room was completely dark. The other students were laughing, because this happened almost every week. Omar was not laughing. His computer turned off while it was writing to the server, and he did not know which files arrived and which did not.\n\nWhen the power came back, twenty minutes later, he opened his folder again. The file was there, but it was broken. The computer could not open it. He tried it again, and then he tried it on another machine. Three months of work were inside that file.\n\n**[C]** Then he remembered something his teacher said in the first week: \"Save often, and save in two places.\" He opened his email. While he was uploading the file that evening, he also sent a copy to himself — not because he was careful, but because he wanted to read it at home.\n\nThe copy was from Sunday. It was two days old.\n\n**[D]** Omar finished the project that night. He slept for four hours. In the morning, before his class, he bought a small USB drive. Now, when he is working on something important, he saves it in three places: the computer, his email, and the drive.\n\n### 1.5 Read aloud\n\nRead the passage aloud **once** and record it. Compare it with your Lesson 2 recording: are you stopping less often?",
+      "segments": [
+        {
+          "say": "Lesson three. The night the network failed. Listening practice.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 1
+        },
+        {
+          "say": "You will hear a story about a student and his final project. The story happened in the past. Listen for what was happening when the trouble started. You will hear it two times. Do not read the text. Listen only.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 2
+        },
+        {
+          "say": "Now listen.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 1.5
+        },
+        {
+          "say": "Last March, Omar was finishing his final project at the computer centre. He was studying software engineering, and the project was the most important work of his year. The college wanted it on Friday morning.\n\nOn Tuesday evening, he was sitting at his usual desk. The room was quiet. Three other students were working near the window, and the lights were low. Omar was uploading his files to the college server when the screen stopped moving.\n\nAt first he was not worried. The internet in the building was often slow, so he waited. He checked the cable. He restarted the browser. Nothing changed on the screen. The upload was stuck at sixty per cent.\n\nThen the lights went out. The electricity was off, and the room was completely dark. The other students were laughing, because this happened almost every week. Omar was not laughing. His computer turned off while it was writing to the server, and he did not know which files arrived and which did not.\n\nWhen the power came back, twenty minutes later, he opened his folder again. The file was there, but it was broken. The computer could not open it. He tried it again, and then he tried it on another machine. Three months of work were inside that file.\n\nThen he remembered something his teacher said in the first week: \"Save often, and save in two places.\" He opened his email. While he was uploading the file that evening, he also sent a copy to himself — not because he was careful, but because he wanted to read it at home.\n\nThe copy was from Sunday. It was two days old.\n\nOmar finished the project that night. He slept for four hours. In the morning, before his class, he bought a small USB drive. Now, when he is working on something important, he saves it in three places: the computer, his email, and the drive.",
+          "voice": "reader"
+        },
+        {
+          "pause": 4
+        },
+        {
+          "say": "Now listen again.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 1.5
+        },
+        {
+          "say": "Last March, Omar was finishing his final project at the computer centre. He was studying software engineering, and the project was the most important work of his year. The college wanted it on Friday morning.\n\nOn Tuesday evening, he was sitting at his usual desk. The room was quiet. Three other students were working near the window, and the lights were low. Omar was uploading his files to the college server when the screen stopped moving.\n\nAt first he was not worried. The internet in the building was often slow, so he waited. He checked the cable. He restarted the browser. Nothing changed on the screen. The upload was stuck at sixty per cent.\n\nThen the lights went out. The electricity was off, and the room was completely dark. The other students were laughing, because this happened almost every week. Omar was not laughing. His computer turned off while it was writing to the server, and he did not know which files arrived and which did not.\n\nWhen the power came back, twenty minutes later, he opened his folder again. The file was there, but it was broken. The computer could not open it. He tried it again, and then he tried it on another machine. Three months of work were inside that file.\n\nThen he remembered something his teacher said in the first week: \"Save often, and save in two places.\" He opened his email. While he was uploading the file that evening, he also sent a copy to himself — not because he was careful, but because he wanted to read it at home.\n\nThe copy was from Sunday. It was two days old.\n\nOmar finished the project that night. He slept for four hours. In the morning, before his class, he bought a small USB drive. Now, when he is working on something important, he saves it in three places: the computer, his email, and the drive.",
+          "voice": "reader"
+        },
+        {
+          "pause": 2
+        },
+        {
+          "say": "This is the end of the passage.",
+          "voice": "narrator"
+        }
+      ]
+    },
+    {
+      "number": "02",
+      "slug": "listening-questions",
+      "title": "Listening questions",
+      "minutes": 10,
+      "sheet": true,
+      "audio": true,
+      "markdown": "### 1.2 Listening — first time (no text)\n\n- **L1.** Who is the story about, and what was he studying?\n- **L2.** What was he doing when the screen stopped moving?\n- **L3.** What saved his work in the end?\n- **L4.** How old was the copy he found?\n\n### 1.3 Listening — second time (no text)\n\nWrite **four verbs in the past continuous** that you heard (*was* or *were* + *-ing*). Then write **one word** you heard but did not understand.",
+      "segments": [
+        {
+          "say": "Now answer the listening questions. Write a short answer for each one.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 2
+        },
+        {
+          "say": "Question one. Who is the story about, and what was he studying?",
+          "voice": "narrator"
+        },
+        {
+          "pause": 10
+        },
+        {
+          "say": "Question two. What was he doing when the screen stopped moving?",
+          "voice": "narrator"
+        },
+        {
+          "pause": 10
+        },
+        {
+          "say": "Question three. What saved his work in the end?",
+          "voice": "narrator"
+        },
+        {
+          "pause": 10
+        },
+        {
+          "say": "Question four. How old was the copy he found?",
+          "voice": "narrator"
+        },
+        {
+          "pause": 10
+        },
+        {
+          "say": "This is the end of the listening questions.",
+          "voice": "narrator"
+        }
+      ]
+    },
+    {
+      "number": "03",
+      "slug": "vocabulary",
+      "title": "Vocabulary and Lesson 1 recall",
+      "minutes": 35,
+      "sheet": true,
+      "audio": true,
+      "markdown": "### 2.1 Key words\n\n| # | Word | Type | Simple meaning | Arabic | Example |\n|---|---|---|---|---|---|\n| 1 | server | noun | a big computer that keeps files for many people | خادم | He was uploading his files to the college **server**. |\n| 2 | upload | verb | to send a file from your computer to the internet | يرفع | The **upload** was stuck at sixty per cent. |\n| 3 | project | noun | a large piece of work you do over a long time | مشروع | It was the most important **project** of his year. |\n| 4 | software | noun | the programs that run on a computer | برمجيات | He was studying **software** engineering. |\n| 5 | screen | noun | the part of a computer you look at | شاشة | The **screen** stopped moving. |\n| 6 | restart | verb | to start something again | يعيد التشغيل | He **restarted** the browser. |\n| 7 | browser | noun | the program you use to open websites | متصفح | He restarted the **browser**. |\n| 8 | stuck | adjective | not able to move | عالق | The upload was **stuck**. |\n| 9 | broken | adjective | damaged, and not working | تالف | The file was there, but it was **broken**. |\n| 10 | cable | noun | the wire that joins two machines | كابل | He checked the **cable**. |\n| 11 | version | noun | one form of something that changes over time | إصدار | It was not the newest **version**. |\n| 12 | save | verb | to keep your work on a computer | يحفظ | **Save** often, and save in two places. |\n| 13 | per cent | noun | one part in every hundred | بالمئة | The upload was stuck at sixty **per cent**. |\n| 14 | careful | adjective | giving attention so nothing goes wrong | حَذِر | Not because he was **careful**. |\n\n### 2.2 Synonyms and opposites\n\n| Word | Synonym | Opposite |\n|---|---|---|\n| upload | send up | download |\n| broken | damaged | working / fine |\n| stuck | not moving | moving / free |\n| careful | giving attention | careless |\n| quiet | silent | noisy / loud |\n| finish | complete | start / begin |\n| dark | with no light | bright / light |\n| often | many times | never / rarely |\n\n### 2.3 Expressions to learn\n\n| Expression | What it really means |\n|---|---|\n| **at first** | in the beginning, before things changed |\n| **per cent** | in every hundred (*sixty per cent* = 60 in every 100) |\n| **the power came back** | the electricity returned |\n| **save in two places** | keep two copies, in different places |\n| **three months of work** | work that took three months |\n| **in the middle of** | while something was still happening |\n| **not because … but because** | the real reason is the second one |\n\n### 2.4 Vocabulary practice\n\n**A. Write the opposite:**\n\n1. upload → \\_\\_\\_\\_\\_\\_\\_\\_\n2. careful → \\_\\_\\_\\_\\_\\_\\_\\_\n3. broken → \\_\\_\\_\\_\\_\\_\\_\\_\n4. noisy → \\_\\_\\_\\_\\_\\_\\_\\_\n5. finish → \\_\\_\\_\\_\\_\\_\\_\\_\n\n**B. Which word is different? Say why:**\n\n1. server — browser — software — evening\n2. screen — cable — drive — project\n3. stuck — broken — damaged — careful\n\n**C. Say it in your own words:**\n\n1. What is a server?\n2. What does *stuck* mean?",
+      "segments": [
+        {
+          "say": "Vocabulary practice. You will hear a word, then its meaning, then an example sentence. Repeat the word in the silence.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 2
+        },
+        {
+          "say": "Word 1.",
+          "voice": "narrator"
+        },
+        {
+          "say": "server",
+          "voice": "reader"
+        },
+        {
+          "pause": 3
+        },
+        {
+          "say": "server. a big computer that keeps files for many people.",
+          "voice": "reader"
+        },
+        {
+          "pause": 1
+        },
+        {
+          "say": "He was uploading his files to the college server.",
+          "voice": "reader"
+        },
+        {
+          "pause": 3
+        },
+        {
+          "say": "Word 2.",
+          "voice": "narrator"
+        },
+        {
+          "say": "upload",
+          "voice": "reader"
+        },
+        {
+          "pause": 3
+        },
+        {
+          "say": "upload. to send a file from your computer to the internet.",
+          "voice": "reader"
+        },
+        {
+          "pause": 1
+        },
+        {
+          "say": "The upload was stuck at sixty per cent.",
+          "voice": "reader"
+        },
+        {
+          "pause": 3
+        },
+        {
+          "say": "Word 3.",
+          "voice": "narrator"
+        },
+        {
+          "say": "project",
+          "voice": "reader"
+        },
+        {
+          "pause": 3
+        },
+        {
+          "say": "project. a large piece of work you do over a long time.",
+          "voice": "reader"
+        },
+        {
+          "pause": 1
+        },
+        {
+          "say": "It was the most important project of his year.",
+          "voice": "reader"
+        },
+        {
+          "pause": 3
+        },
+        {
+          "say": "Word 4.",
+          "voice": "narrator"
+        },
+        {
+          "say": "software",
+          "voice": "reader"
+        },
+        {
+          "pause": 3
+        },
+        {
+          "say": "software. the programs that run on a computer.",
+          "voice": "reader"
+        },
+        {
+          "pause": 1
+        },
+        {
+          "say": "He was studying software engineering.",
+          "voice": "reader"
+        },
+        {
+          "pause": 3
+        },
+        {
+          "say": "Word 5.",
+          "voice": "narrator"
+        },
+        {
+          "say": "screen",
+          "voice": "reader"
+        },
+        {
+          "pause": 3
+        },
+        {
+          "say": "screen. the part of a computer you look at.",
+          "voice": "reader"
+        },
+        {
+          "pause": 1
+        },
+        {
+          "say": "The screen stopped moving.",
+          "voice": "reader"
+        },
+        {
+          "pause": 3
+        },
+        {
+          "say": "Word 6.",
+          "voice": "narrator"
+        },
+        {
+          "say": "restart",
+          "voice": "reader"
+        },
+        {
+          "pause": 3
+        },
+        {
+          "say": "restart. to start something again.",
+          "voice": "reader"
+        },
+        {
+          "pause": 1
+        },
+        {
+          "say": "He restarted the browser.",
+          "voice": "reader"
+        },
+        {
+          "pause": 3
+        },
+        {
+          "say": "Word 7.",
+          "voice": "narrator"
+        },
+        {
+          "say": "browser",
+          "voice": "reader"
+        },
+        {
+          "pause": 3
+        },
+        {
+          "say": "browser. the program you use to open websites.",
+          "voice": "reader"
+        },
+        {
+          "pause": 1
+        },
+        {
+          "say": "He restarted the browser.",
+          "voice": "reader"
+        },
+        {
+          "pause": 3
+        },
+        {
+          "say": "Word 8.",
+          "voice": "narrator"
+        },
+        {
+          "say": "stuck",
+          "voice": "reader"
+        },
+        {
+          "pause": 3
+        },
+        {
+          "say": "stuck. not able to move.",
+          "voice": "reader"
+        },
+        {
+          "pause": 1
+        },
+        {
+          "say": "The upload was stuck.",
+          "voice": "reader"
+        },
+        {
+          "pause": 3
+        },
+        {
+          "say": "Word 9.",
+          "voice": "narrator"
+        },
+        {
+          "say": "broken",
+          "voice": "reader"
+        },
+        {
+          "pause": 3
+        },
+        {
+          "say": "broken. damaged, and not working.",
+          "voice": "reader"
+        },
+        {
+          "pause": 1
+        },
+        {
+          "say": "The file was there, but it was broken.",
+          "voice": "reader"
+        },
+        {
+          "pause": 3
+        },
+        {
+          "say": "Word 10.",
+          "voice": "narrator"
+        },
+        {
+          "say": "cable",
+          "voice": "reader"
+        },
+        {
+          "pause": 3
+        },
+        {
+          "say": "cable. the wire that joins two machines.",
+          "voice": "reader"
+        },
+        {
+          "pause": 1
+        },
+        {
+          "say": "He checked the cable.",
+          "voice": "reader"
+        },
+        {
+          "pause": 3
+        },
+        {
+          "say": "Word 11.",
+          "voice": "narrator"
+        },
+        {
+          "say": "version",
+          "voice": "reader"
+        },
+        {
+          "pause": 3
+        },
+        {
+          "say": "version. one form of something that changes over time.",
+          "voice": "reader"
+        },
+        {
+          "pause": 1
+        },
+        {
+          "say": "It was not the newest version.",
+          "voice": "reader"
+        },
+        {
+          "pause": 3
+        },
+        {
+          "say": "Word 12.",
+          "voice": "narrator"
+        },
+        {
+          "say": "save",
+          "voice": "reader"
+        },
+        {
+          "pause": 3
+        },
+        {
+          "say": "save. to keep your work on a computer.",
+          "voice": "reader"
+        },
+        {
+          "pause": 1
+        },
+        {
+          "say": "Save often, and save in two places.",
+          "voice": "reader"
+        },
+        {
+          "pause": 3
+        },
+        {
+          "say": "Word 13.",
+          "voice": "narrator"
+        },
+        {
+          "say": "per cent",
+          "voice": "reader"
+        },
+        {
+          "pause": 3
+        },
+        {
+          "say": "per cent. one part in every hundred.",
+          "voice": "reader"
+        },
+        {
+          "pause": 1
+        },
+        {
+          "say": "The upload was stuck at sixty per cent.",
+          "voice": "reader"
+        },
+        {
+          "pause": 3
+        },
+        {
+          "say": "Word 14.",
+          "voice": "narrator"
+        },
+        {
+          "say": "careful",
+          "voice": "reader"
+        },
+        {
+          "pause": 3
+        },
+        {
+          "say": "careful. giving attention so nothing goes wrong.",
+          "voice": "reader"
+        },
+        {
+          "pause": 1
+        },
+        {
+          "say": "Not because he was careful.",
+          "voice": "reader"
+        },
+        {
+          "pause": 3
+        },
+        {
+          "pause": 1.5
+        },
+        {
+          "say": "Now five words from lesson one. Say the meaning before you hear it.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 2
+        },
+        {
+          "say": "check",
+          "voice": "reader"
+        },
+        {
+          "pause": 5
+        },
+        {
+          "say": "to look at something to get information",
+          "voice": "reader"
+        },
+        {
+          "pause": 1
+        },
+        {
+          "say": "centre",
+          "voice": "reader"
+        },
+        {
+          "pause": 5
+        },
+        {
+          "say": "a place where people meet, learn or work",
+          "voice": "reader"
+        },
+        {
+          "pause": 1
+        },
+        {
+          "say": "tool",
+          "voice": "reader"
+        },
+        {
+          "pause": 5
+        },
+        {
+          "say": "a thing you use to do work",
+          "voice": "reader"
+        },
+        {
+          "pause": 1
+        },
+        {
+          "say": "slow",
+          "voice": "reader"
+        },
+        {
+          "pause": 5
+        },
+        {
+          "say": "not fast",
+          "voice": "reader"
+        },
+        {
+          "pause": 1
+        },
+        {
+          "say": "wake up",
+          "voice": "reader"
+        },
+        {
+          "pause": 5
+        },
+        {
+          "say": "to stop sleeping",
+          "voice": "reader"
+        },
+        {
+          "pause": 1
+        },
+        {
+          "say": "This is the end of the vocabulary practice.",
+          "voice": "narrator"
+        }
+      ]
+    },
+    {
+      "number": "04",
+      "slug": "grammar-past-continuous",
+      "title": "Grammar — the past continuous",
+      "minutes": 40,
+      "sheet": true,
+      "audio": false,
+      "markdown": "We use the past continuous for an action that was **in the middle of happening** in the past: *At eight o'clock, Omar **was uploading** his files.*\n\n### 3.1 How we make it\n\n**was / were** + verb **-ing**\n\n| Person | Past continuous |\n|---|---|\n| I / he / she / it | **was** working |\n| you / we / they | **were** working |\n\n### 3.2 What we use it for\n\n- An action in the middle of happening: *At eight o'clock he **was uploading** his files.*\n- A long action stopped by a short one: *He **was uploading** his files **when** the screen stopped.*\n- Two long actions at the same time: ***While** the students **were laughing**, Omar **was looking** at his screen.*\n- The background of a story: *The room was quiet. Three students **were working** near the window.*\n\n### 3.4 Past simple or past continuous?\n\n| Past simple — the short, finished action | Past continuous — the longer action around it |\n|---|---|\n| The screen **stopped**. | He **was uploading** his files. |\n| The lights **went** out. | The students **were working**. |\n| The computer **turned** off. | It **was writing** to the server. |\n\nThe rule to remember: **when** + past simple, **while** + past continuous.\n\n### 3.5 Negative and question\n\n|  | Form | Example |\n|---|---|---|\n| Negative | **was not / were not** + *-ing* | Omar **was not laughing**. |\n| Question | **Was / Were** + person + *-ing* | **Were** the students **laughing**? |\n\n### 3.6 Grammar practice\n\n**A. Put the verb in the past continuous:**\n\n1. At eight o'clock, Omar \\_\\_\\_\\_\\_\\_\\_\\_ (sit) at his usual desk.\n2. Three students \\_\\_\\_\\_\\_\\_\\_\\_ (work) near the window.\n3. The computer turned off while it \\_\\_\\_\\_\\_\\_\\_\\_ (write) to the server.\n4. \\_\\_\\_\\_\\_\\_\\_\\_ the students \\_\\_\\_\\_\\_\\_\\_\\_ (laugh)?\n5. Omar \\_\\_\\_\\_\\_\\_\\_\\_ (not laugh).\n\n**B. Choose the past simple or the past continuous:**\n\n1. He (uploaded / was uploading) his files when the screen (stopped / was stopping).\n2. While the power (was / was being) off, the students (talked / were talking).\n3. He (found / was finding) the email while he (looked / was looking) for the file."
+    },
+    {
+      "number": "05",
+      "slug": "weak-forms",
+      "title": "The sounds of was and were",
+      "minutes": 20,
+      "sheet": true,
+      "audio": true,
+      "markdown": "### 3.3 The two sounds of *was* and *were* (listen to `05-weak-forms.mp3`)\n\nIn a sentence, *was* and *were* are almost always **weak** — short and quiet. They are **strong** only at the end of a sentence, or when we want to insist that something is true.\n\n| Word | Weak (normal, inside a sentence) | Strong (at the end, or to insist) |\n|---|---|---|\n| was | <span class=\"ipa\">/wəz/</span> | <span class=\"ipa\">/wɒz/</span> |\n| were | <span class=\"ipa\">/wə/</span> | <span class=\"ipa\">/wɜː/</span> |\n\n| Weak | Strong |\n|---|---|\n| *He was working at his desk.* | *Yes, he was.* |\n| *The room was quiet.* | *It was.* |\n| *Three students were working near the window.* | *Yes, they were.* |\n| *The lights were low.* | *They were.* |\n\nIn the audio you hear each pair twice, then a short test: say whether the *was* or *were* you hear is **weak** or **strong**, then listen to the answer.",
+      "segments": [
+        {
+          "say": "Pronunciation. The two sounds of was and were.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 1
+        },
+        {
+          "say": "Inside a sentence, was and were are weak: short and quiet. At the end of a sentence, or when we insist that something is true, they are strong. Listen to each pair, then repeat.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 2
+        },
+        {
+          "say": "He was working at his desk.",
+          "voice": "reader"
+        },
+        {
+          "pause": 3
+        },
+        {
+          "say": "Yes, he was.",
+          "voice": "reader"
+        },
+        {
+          "pause": 3
+        },
+        {
+          "pause": 1
+        },
+        {
+          "say": "The room was quiet.",
+          "voice": "reader"
+        },
+        {
+          "pause": 3
+        },
+        {
+          "say": "It was.",
+          "voice": "reader"
+        },
+        {
+          "pause": 3
+        },
+        {
+          "pause": 1
+        },
+        {
+          "say": "Three students were working near the window.",
+          "voice": "reader"
+        },
+        {
+          "pause": 3
+        },
+        {
+          "say": "Yes, they were.",
+          "voice": "reader"
+        },
+        {
+          "pause": 3
+        },
+        {
+          "pause": 1
+        },
+        {
+          "say": "The lights were low.",
+          "voice": "reader"
+        },
+        {
+          "pause": 3
+        },
+        {
+          "say": "They were.",
+          "voice": "reader"
+        },
+        {
+          "pause": 3
+        },
+        {
+          "pause": 1
+        },
+        {
+          "say": "Now the test. You will hear a sentence. Say whether the was or the were you hear is weak or strong. Then you will hear the answer.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 2
+        },
+        {
+          "say": "Sentence 1.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 0.4
+        },
+        {
+          "say": "Omar was uploading his files.",
+          "voice": "reader"
+        },
+        {
+          "pause": 4
+        },
+        {
+          "say": "The answer is weak.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 1
+        },
+        {
+          "say": "Sentence 2.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 0.4
+        },
+        {
+          "say": "Yes, he was.",
+          "voice": "reader"
+        },
+        {
+          "pause": 4
+        },
+        {
+          "say": "The answer is strong.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 1
+        },
+        {
+          "say": "Sentence 3.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 0.4
+        },
+        {
+          "say": "The students were laughing.",
+          "voice": "reader"
+        },
+        {
+          "pause": 4
+        },
+        {
+          "say": "The answer is weak.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 1
+        },
+        {
+          "say": "Sentence 4.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 0.4
+        },
+        {
+          "say": "They were.",
+          "voice": "reader"
+        },
+        {
+          "pause": 4
+        },
+        {
+          "say": "The answer is strong.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 1
+        },
+        {
+          "say": "Sentence 5.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 0.4
+        },
+        {
+          "say": "The file was broken.",
+          "voice": "reader"
+        },
+        {
+          "pause": 4
+        },
+        {
+          "say": "The answer is weak.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 1
+        },
+        {
+          "say": "Sentence 6.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 0.4
+        },
+        {
+          "say": "It was.",
+          "voice": "reader"
+        },
+        {
+          "pause": 4
+        },
+        {
+          "say": "The answer is strong.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 1
+        },
+        {
+          "say": "This is the end of the pronunciation practice.",
+          "voice": "narrator"
+        }
+      ]
+    },
+    {
+      "number": "06",
+      "slug": "comprehension",
+      "title": "Comprehension — TOEFL question types",
+      "minutes": 40,
+      "sheet": true,
+      "audio": true,
+      "markdown": "### Part A — Multiple choice\n\n**1. (Factual)** What was Omar studying?\n\n- A. Design.\n- B. Software engineering.\n- C. Electricity.\n- D. The passage does not say.\n\n**2. (Factual)** What was Omar doing when the screen stopped moving?\n\n- A. He was reading his email.\n- B. He was uploading his files to the college server.\n- C. He was restarting the browser.\n- D. He was talking to the other students.\n\n**3. (Negative factual)** According to the passage, Omar did all of the following EXCEPT\n\n- A. check the cable.\n- B. restart the browser.\n- C. call his teacher.\n- D. open his email.\n\n**4. (Vocabulary in context)** The word \"stuck\" in the passage is closest in meaning to\n\n- A. not moving.\n- B. very fast.\n- C. finished.\n- D. broken into pieces.\n\n**5. (Reference)** In the sentence, the file was there, but it was broken, the word \"it\" refers to\n\n- A. the folder.\n- B. the server.\n- C. the file.\n- D. the computer.\n\n**6. (Inference)** It can be inferred from the passage that\n\n- A. Omar sent the copy to himself because he was afraid of losing the file.\n- B. Omar lost three months of work.\n- C. power cuts were common in that building.\n- D. the other students lost their work too.\n\n**7. (Sentence insertion)** Look at the four letters **[A] [B] [C] [D]** in the passage. Where would this sentence best fit?\n\n> *It was not the newest version, but it opened without a problem.*\n\n- A. At **[A]**\n- B. At **[B]**\n- C. At **[C]**\n- D. At **[D]**\n\n**8. (Purpose of a paragraph — NEW)** Why does the writer mention what Omar's teacher said in the first week?\n\n- A. To show that Omar was a careful student.\n- B. To explain how Omar found a second copy of his work.\n- C. To criticise the college for its electricity.\n- D. To show that the teacher was angry with Omar.\n\n### Part C — Fill in the blanks\n\nUse these words. There are **two extra words** you will not need.\n\n> *server · stuck · broken · cable · version · save · per cent · careful · browser · project*\n\n1. Omar was finishing his final \\_\\_\\_\\_\\_\\_\\_\\_ at the computer centre.\n2. He was uploading his files to the college \\_\\_\\_\\_\\_\\_\\_\\_.\n3. The upload was \\_\\_\\_\\_\\_\\_\\_\\_ at sixty \\_\\_\\_\\_\\_\\_\\_\\_.\n4. He checked the \\_\\_\\_\\_\\_\\_\\_\\_ and restarted the \\_\\_\\_\\_\\_\\_\\_\\_.\n5. The file was there, but it was \\_\\_\\_\\_\\_\\_\\_\\_.\n6. His teacher said: \"\\_\\_\\_\\_\\_\\_\\_\\_ often, and save in two places.\"\n\n### Part D — Summary\n\nWrite the story in **two sentences only**. Use the past continuous once.\n\n> Sentence 1 — what went wrong: \\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\n> Sentence 2 — what saved his work: \\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_",
+      "segments": [
+        {
+          "say": "Now get ready to answer the questions about the passage. You may look at the passage while you answer.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 2
+        },
+        {
+          "say": "Question 1.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 0.6
+        },
+        {
+          "say": "What was Omar studying?",
+          "voice": "narrator"
+        },
+        {
+          "pause": 0.8
+        },
+        {
+          "say": "A. Design.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 0.5
+        },
+        {
+          "say": "B. Software engineering.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 0.5
+        },
+        {
+          "say": "C. Electricity.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 0.5
+        },
+        {
+          "say": "D. The passage does not say.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 0.5
+        },
+        {
+          "pause": 12
+        },
+        {
+          "say": "Question 2.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 0.6
+        },
+        {
+          "say": "What was Omar doing when the screen stopped moving?",
+          "voice": "narrator"
+        },
+        {
+          "pause": 0.8
+        },
+        {
+          "say": "A. He was reading his email.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 0.5
+        },
+        {
+          "say": "B. He was uploading his files to the college server.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 0.5
+        },
+        {
+          "say": "C. He was restarting the browser.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 0.5
+        },
+        {
+          "say": "D. He was talking to the other students.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 0.5
+        },
+        {
+          "pause": 12
+        },
+        {
+          "say": "Question 3.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 0.6
+        },
+        {
+          "say": "According to the passage, Omar did all of the following EXCEPT",
+          "voice": "narrator"
+        },
+        {
+          "pause": 0.8
+        },
+        {
+          "say": "A. check the cable.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 0.5
+        },
+        {
+          "say": "B. restart the browser.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 0.5
+        },
+        {
+          "say": "C. call his teacher.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 0.5
+        },
+        {
+          "say": "D. open his email.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 0.5
+        },
+        {
+          "pause": 12
+        },
+        {
+          "say": "Question 4.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 0.6
+        },
+        {
+          "say": "The word \"stuck\" in the passage is closest in meaning to",
+          "voice": "narrator"
+        },
+        {
+          "pause": 0.8
+        },
+        {
+          "say": "A. not moving.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 0.5
+        },
+        {
+          "say": "B. very fast.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 0.5
+        },
+        {
+          "say": "C. finished.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 0.5
+        },
+        {
+          "say": "D. broken into pieces.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 0.5
+        },
+        {
+          "pause": 12
+        },
+        {
+          "say": "Question 5.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 0.6
+        },
+        {
+          "say": "In the sentence, the file was there, but it was broken, the word \"it\" refers to",
+          "voice": "narrator"
+        },
+        {
+          "pause": 0.8
+        },
+        {
+          "say": "A. the folder.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 0.5
+        },
+        {
+          "say": "B. the server.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 0.5
+        },
+        {
+          "say": "C. the file.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 0.5
+        },
+        {
+          "say": "D. the computer.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 0.5
+        },
+        {
+          "pause": 12
+        },
+        {
+          "say": "Question 6.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 0.6
+        },
+        {
+          "say": "It can be inferred from the passage that",
+          "voice": "narrator"
+        },
+        {
+          "pause": 0.8
+        },
+        {
+          "say": "A. Omar sent the copy to himself because he was afraid of losing the file.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 0.5
+        },
+        {
+          "say": "B. Omar lost three months of work.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 0.5
+        },
+        {
+          "say": "C. power cuts were common in that building.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 0.5
+        },
+        {
+          "say": "D. the other students lost their work too.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 0.5
+        },
+        {
+          "pause": 12
+        },
+        {
+          "say": "Question seven.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 0.6
+        },
+        {
+          "say": "Look at the four letters, A, B, C and D, in your passage. They show four places where a sentence could be added. Listen to the sentence, then choose the best place.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 1
+        },
+        {
+          "say": "It was not the newest version, but it opened without a problem.",
+          "voice": "reader"
+        },
+        {
+          "pause": 2
+        },
+        {
+          "say": "Listen to the sentence again.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 1
+        },
+        {
+          "say": "It was not the newest version, but it opened without a problem.",
+          "voice": "reader"
+        },
+        {
+          "pause": 1
+        },
+        {
+          "say": "A. At letter A.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 0.5
+        },
+        {
+          "say": "B. At letter B.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 0.5
+        },
+        {
+          "say": "C. At letter C.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 0.5
+        },
+        {
+          "say": "D. At letter D.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 0.5
+        },
+        {
+          "pause": 20
+        },
+        {
+          "say": "Question eight.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 0.6
+        },
+        {
+          "say": "This question asks why the writer wrote one part of the passage. Think about what that paragraph does for the whole story.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 1
+        },
+        {
+          "say": "Why does the writer mention what Omar's teacher said in the first week?",
+          "voice": "narrator"
+        },
+        {
+          "pause": 0.8
+        },
+        {
+          "say": "A. To show that Omar was a careful student.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 0.5
+        },
+        {
+          "say": "B. To explain how Omar found a second copy of his work.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 0.5
+        },
+        {
+          "say": "C. To criticise the college for its electricity.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 0.5
+        },
+        {
+          "say": "D. To show that the teacher was angry with Omar.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 0.5
+        },
+        {
+          "pause": 15
+        },
+        {
+          "pause": 1.5
+        },
+        {
+          "say": "Last task. Write the story in two sentences only. Use the past continuous once. Sentence one: what went wrong. Sentence two: what saved his work. You have ninety seconds.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 90
+        },
+        {
+          "say": "This is the end of the questions.",
+          "voice": "narrator"
+        }
+      ]
+    },
+    {
+      "number": "07",
+      "slug": "true-false",
+      "title": "True / false",
+      "minutes": 15,
+      "sheet": true,
+      "audio": true,
+      "markdown": "### Part B — True / False\n\nWrite **T** or **F**. If it is false, write the correct sentence.\n\n1. Omar was studying design. \\_\\_\\_\\_\n2. The upload stopped at sixty per cent. \\_\\_\\_\\_\n3. Omar was laughing with the other students. \\_\\_\\_\\_\n4. The power came back after twenty minutes. \\_\\_\\_\\_\n5. The copy in his email was from Tuesday. \\_\\_\\_\\_\n6. Omar bought a USB drive the next morning. \\_\\_\\_\\_",
+      "segments": [
+        {
+          "say": "True or false. You will hear six sentences. Say true or false. If the sentence is false, say the correct sentence.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 2
+        },
+        {
+          "say": "Sentence 1.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 0.5
+        },
+        {
+          "say": "Omar was studying design.",
+          "voice": "reader"
+        },
+        {
+          "pause": 8
+        },
+        {
+          "say": "Sentence 2.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 0.5
+        },
+        {
+          "say": "The upload stopped at sixty per cent.",
+          "voice": "reader"
+        },
+        {
+          "pause": 8
+        },
+        {
+          "say": "Sentence 3.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 0.5
+        },
+        {
+          "say": "Omar was laughing with the other students.",
+          "voice": "reader"
+        },
+        {
+          "pause": 8
+        },
+        {
+          "say": "Sentence 4.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 0.5
+        },
+        {
+          "say": "The power came back after twenty minutes.",
+          "voice": "reader"
+        },
+        {
+          "pause": 8
+        },
+        {
+          "say": "Sentence 5.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 0.5
+        },
+        {
+          "say": "The copy in his email was from Tuesday.",
+          "voice": "reader"
+        },
+        {
+          "pause": 8
+        },
+        {
+          "say": "Sentence 6.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 0.5
+        },
+        {
+          "say": "Omar bought a USB drive the next morning.",
+          "voice": "reader"
+        },
+        {
+          "pause": 8
+        },
+        {
+          "say": "This is the end of the true or false questions.",
+          "voice": "narrator"
+        }
+      ]
+    },
+    {
+      "number": "08",
+      "slug": "speaking",
+      "title": "Speaking",
+      "minutes": 25,
+      "sheet": true,
+      "audio": true,
+      "markdown": "### 5.1 Speaking (record each answer, 45 seconds)\n\n1. Tell the story of Omar in your own words. Use while, when, at first, and after that.\n2. Describe a time when you were working and something stopped you. What were you doing? What happened?\n3. Where do you save your most important files now? Is that enough? Why?\n\n**Useful sentence starters:**\n\n- *I was working on \\_\\_\\_\\_ when \\_\\_\\_\\_.*\n- *While I was \\_\\_\\_\\_, the \\_\\_\\_\\_ stopped.*\n- *At first I thought \\_\\_\\_\\_.*\n- *After that, I started to \\_\\_\\_\\_.*\n- *I save my files on \\_\\_\\_\\_, because \\_\\_\\_\\_.*",
+      "segments": [
+        {
+          "say": "Speaking practice. For each question you will have fifteen seconds to prepare and forty-five seconds to speak. Record your answer on your phone.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 2
+        },
+        {
+          "say": "Speaking question 1.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 0.6
+        },
+        {
+          "say": "Tell the story of Omar in your own words. Use while, when, at first, and after that.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 1
+        },
+        {
+          "say": "Preparation time. Fifteen seconds.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 15
+        },
+        {
+          "say": "Begin speaking now.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 45
+        },
+        {
+          "say": "Stop speaking.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 2
+        },
+        {
+          "say": "Speaking question 2.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 0.6
+        },
+        {
+          "say": "Describe a time when you were working and something stopped you. What were you doing? What happened?",
+          "voice": "narrator"
+        },
+        {
+          "pause": 1
+        },
+        {
+          "say": "Preparation time. Fifteen seconds.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 15
+        },
+        {
+          "say": "Begin speaking now.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 45
+        },
+        {
+          "say": "Stop speaking.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 2
+        },
+        {
+          "say": "Speaking question 3.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 0.6
+        },
+        {
+          "say": "Where do you save your most important files now? Is that enough? Why?",
+          "voice": "narrator"
+        },
+        {
+          "pause": 1
+        },
+        {
+          "say": "Preparation time. Fifteen seconds.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 15
+        },
+        {
+          "say": "Begin speaking now.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 45
+        },
+        {
+          "say": "Stop speaking.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 2
+        },
+        {
+          "say": "This is the end of the speaking practice.",
+          "voice": "narrator"
+        }
+      ]
+    },
+    {
+      "number": "09",
+      "slug": "writing",
+      "title": "Writing — The Day Something Stopped My Work",
+      "minutes": 35,
+      "sheet": true,
+      "audio": false,
+      "markdown": "### 5.2 Writing — \"The Day Something Stopped My Work\" (10–12 sentences)\n\n**Model answer (copy the shape, change the words):**\n\n> Last year, I was writing a long report for my course. I was working at home in the evening, and the room was quiet. While I was typing, the electricity stopped. My laptop had no battery, so the screen went dark. At first I was angry, because I did not save the file. I waited for two hours. When the power came back, I opened the file again. The computer showed an old version from the morning. I lost three hours of work. Now I save my work every ten minutes, and I keep a copy on a USB drive. It is a small habit, but it helps.\n\n**Checklist before you send it:**\n\n- [ ] I used the past continuous for the long action (*I was writing*, *while I was typing*).\n- [ ] I used the past simple for the short action that stopped it (*the electricity stopped*).\n- [ ] I used **when** with the past simple and **while** with the past continuous.\n- [ ] I used at least **5 new words** from Session 2.\n- [ ] I used at least **2 words** from Lesson 1 or Lesson 2.\n- [ ] Capital letters and full stops are correct.\n- [ ] My text has 10–12 sentences."
+    },
+    {
+      "number": "10",
+      "slug": "review",
+      "title": "Review",
+      "minutes": 30,
+      "sheet": true,
+      "audio": true,
+      "markdown": "### 6.1 Listen again (no text)\n\n1. Name three things Omar did when the screen stopped moving.\n2. Why did he have a second copy of his file?\n\n### 6.2 Mini-quiz (12 marks)\n\n1. The past continuous of *work*, for *he*, is \\_\\_\\_\\_\\_\\_\\_\\_\n2. The past continuous of *laugh*, for *they*, is \\_\\_\\_\\_\\_\\_\\_\\_\n3. We use \\_\\_\\_\\_ with the past simple and \\_\\_\\_\\_ with the past continuous. (*when* / *while*) \\_\\_\\_\\_\\_\\_\\_\\_\n4. The opposite of *upload* is \\_\\_\\_\\_\\_\\_\\_\\_\n5. The opposite of *careful* is \\_\\_\\_\\_\\_\\_\\_\\_\n6. A big computer that keeps files for many people is a \\_\\_\\_\\_\\_\\_\\_\\_\n7. The program you use to open websites is a \\_\\_\\_\\_\\_\\_\\_\\_\n8. Not able to move = \\_\\_\\_\\_\\_\\_\\_\\_\n9. Write a sentence with *while* and the past continuous.\n10. Write a negative sentence in the past continuous.\n11. Write one sentence with **version**.\n12. Tell the story of the passage in two sentences, from memory.\n\n### 6.3 Lesson 3 self-report\n\n| Question | Answer |\n|---|---|\n| Minutes studied this week | |\n| Hardest part (listening / reading / vocabulary / grammar / speaking / writing) | |\n| Past-continuous sentences I can now make without thinking | |\n| Words from Lesson 1 I have forgotten | |\n| One thing I want to repeat next week | |",
+      "segments": [
+        {
+          "say": "Review. Listen to the passage again, with no text, and answer these questions.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 2
+        },
+        {
+          "say": "Question one. Name three things Omar did when the screen stopped moving.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 10
+        },
+        {
+          "say": "Question two. Why did he have a second copy of his file?",
+          "voice": "narrator"
+        },
+        {
+          "pause": 10
+        },
+        {
+          "pause": 1.5
+        },
+        {
+          "say": "Now the mini-quiz. Twelve marks. Answer in the silence after each question.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 2
+        },
+        {
+          "say": "One. The past continuous of work, for he, is",
+          "voice": "narrator"
+        },
+        {
+          "pause": 6
+        },
+        {
+          "say": "Two. The past continuous of laugh, for they, is",
+          "voice": "narrator"
+        },
+        {
+          "pause": 6
+        },
+        {
+          "say": "Three. Which word goes with the past simple, when or while?",
+          "voice": "narrator"
+        },
+        {
+          "pause": 8
+        },
+        {
+          "say": "Four. The opposite of upload is",
+          "voice": "narrator"
+        },
+        {
+          "pause": 6
+        },
+        {
+          "say": "Five. The opposite of careful is",
+          "voice": "narrator"
+        },
+        {
+          "pause": 6
+        },
+        {
+          "say": "Six. A big computer that keeps files for many people is a",
+          "voice": "narrator"
+        },
+        {
+          "pause": 6
+        },
+        {
+          "say": "Seven. The program you use to open websites is a",
+          "voice": "narrator"
+        },
+        {
+          "pause": 6
+        },
+        {
+          "say": "Eight. Not able to move is",
+          "voice": "narrator"
+        },
+        {
+          "pause": 6
+        },
+        {
+          "say": "Nine. Write a sentence with while and the past continuous.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 15
+        },
+        {
+          "say": "Ten. Write a negative sentence in the past continuous.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 15
+        },
+        {
+          "say": "Eleven. Write one sentence with version.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 15
+        },
+        {
+          "say": "Twelve. Tell the story of the passage in two sentences, from memory.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 20
+        },
+        {
+          "say": "This is the end of the review.",
+          "voice": "narrator"
+        }
+      ]
+    },
+    {
+      "number": "11",
+      "slug": "answer-key",
+      "title": "Answer key and teacher notes",
+      "minutes": 10,
+      "sheet": true,
+      "audio": false,
+      "css_id": "answer-key",
+      "markdown": "**Listening:** L1 — Omar, software engineering · L2 — uploading his files to the college server · L3 — a copy he had sent to his own email · L4 — two days old (from Sunday)\n\n**Part A (MCQ):** 1-B · 2-B · 3-C · 4-A · 5-C · 6-C · 7-D · 8-B\n\n*Why 7 is **[D]***: the sentence says the copy opened, so it can only follow *\"The copy was from Sunday. It was two days old.\"* At **[C]** it would contradict the broken file described just before it.\n\n*Why 8 is **[B]***: the teacher's words are what make Omar think of his email, so that paragraph exists to explain how he found the second copy — not to describe Omar, and not to blame the college.\n\n**Part B (True/False):**\n\n1. F — He was studying software engineering.\n2. T\n3. F — Omar was not laughing.\n4. T\n5. F — It was from Sunday.\n6. T\n\n**Part C (Fill in the blanks):** 1. project · 2. server · 3. stuck, per cent · 4. cable, browser · 5. broken · 6. Save\n*(Extra words: version, careful)*\n\n**2.4 A (Opposites):** 1. download · 2. careless · 3. working / fine · 4. quiet / silent · 5. start / begin\n\n**2.4 B (Odd one out):** 1. evening (the others are computer words) · 2. project (the others are things you can touch) · 3. careful (the others mean damaged or not moving)\n\n**3.6 A (Past continuous):** 1. was sitting · 2. were working · 3. was writing · 4. Were … laughing · 5. was not laughing\n**3.6 B (Simple or continuous):** 1. was uploading, stopped · 2. was, were talking · 3. found, was looking\n\n**Mini-quiz:** 1. was working · 2. were laughing · 3. when, while · 4. download · 5. careless · 6. server · 7. browser · 8. stuck · 9–12. teacher judgement\n\n### Teacher Notes {: #teacher-notes }\n\n**What changed from Lesson 2.** The passage grew from 244 to 320 words, the past continuous joins the past simple, and an eighth question type — purpose of a paragraph — joins sentence insertion. The pronunciation slot moves from the three sounds of *-ed* to the weak forms of *was* and *were*. The order of the sessions, the self-report and the six original TOEFL question types are deliberately unchanged, so only one thing is new at a time.\n\n**The one real difficulty.** Not the form — *was* + *-ing* is easy to build — but knowing when to choose it. Arabic marks the progressive past differently, so the student will reach for the past simple everywhere and say *while I worked, the power stopped*. Drill the pair in 3.4 until *while* automatically pulls *-ing* behind it.\n\n**Why this story.** The vocabulary is the vocabulary of her actual working life: server, upload, browser, version, save. She is about to carry application files, scans and transcripts between machines, and the passage teaches that problem while teaching the tense. It is also the third story in a row in which the lesson is *keep a second copy* — that repetition is intentional.\n\n**Success criteria for Lesson 3.** The student should be able to:\n\n- answer L1–L4 correctly on the second hearing;\n- retell the story in 5–6 sentences using at least two past-continuous verbs;\n- choose correctly between past simple and past continuous in 3.6 B;\n- hear the difference between weak and strong *was*;\n- use 10 of the 14 key words in her own sentence;\n- write 10 sentences about a personal past event with fewer than 4 tense errors.\n\n**If it is too easy:** Lesson 4 goes to 400 words, adds the present perfect (*I have saved it*), and the MCQ set adds a rhetorical-purpose question about the whole passage.\n**If it is too hard:** keep the same passage for a second week, drop question 8, and drill only 3.1 and 3.4.\n\n**A note on spaced recall.** `03-vocabulary.mp3` ends with five Lesson 1 words — *check, centre, tool, slow, wake up* — which are the five she has **not** heard since Lesson 1, because Lesson 2 recalled the other five. Lesson 2's own words come back in Lesson 4. Keep that two-lesson gap: it is the gap, not the repetition, that moves a word into long-term memory."
+    },
+    {
+      "number": "12",
+      "slug": "passage-slow",
+      "title": "Passage, extra slow",
+      "minutes": 10,
+      "sheet": false,
+      "audio": true,
+      "segments": [
+        {
+          "say": "Slow version. The passage, read slowly, one time.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 2
+        },
+        {
+          "say": "Last March, Omar was finishing his final project at the computer centre. He was studying software engineering, and the project was the most important work of his year. The college wanted it on Friday morning.\n\nOn Tuesday evening, he was sitting at his usual desk. The room was quiet. Three other students were working near the window, and the lights were low. Omar was uploading his files to the college server when the screen stopped moving.\n\nAt first he was not worried. The internet in the building was often slow, so he waited. He checked the cable. He restarted the browser. Nothing changed on the screen. The upload was stuck at sixty per cent.\n\nThen the lights went out. The electricity was off, and the room was completely dark. The other students were laughing, because this happened almost every week. Omar was not laughing. His computer turned off while it was writing to the server, and he did not know which files arrived and which did not.\n\nWhen the power came back, twenty minutes later, he opened his folder again. The file was there, but it was broken. The computer could not open it. He tried it again, and then he tried it on another machine. Three months of work were inside that file.\n\nThen he remembered something his teacher said in the first week: \"Save often, and save in two places.\" He opened his email. While he was uploading the file that evening, he also sent a copy to himself — not because he was careful, but because he wanted to read it at home.\n\nThe copy was from Sunday. It was two days old.\n\nOmar finished the project that night. He slept for four hours. In the morning, before his class, he bought a small USB drive. Now, when he is working on something important, he saves it in three places: the computer, his email, and the drive.",
+          "voice": "slow"
+        }
+      ]
+    }
+  ]
+}

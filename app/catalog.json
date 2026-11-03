@@ -1,0 +1,667 @@
+{
+  "title": "English, A1+ to B2",
+  "subtitle": "A guided course for one student, built to work offline.",
+  "generated": "2026-11-03",
+  "courses": [
+    {
+      "kind": "lesson",
+      "slug": "lesson-01",
+      "path": "lessons/lesson-01",
+      "number": 1,
+      "title": "Lesson 1 — A Day with a Phone",
+      "level": "A1+ (entry) → first step toward A2",
+      "topic": "Daily routine and basic IT",
+      "time": "5 short sessions, 40–50 minutes each",
+      "skills": "Listening → Reading → Vocabulary → Comprehension → Speaking → Writing",
+      "new": "present simple, time expressions (at six o'clock, every morning, in the evening), and the five core TOEFL question types",
+      "minutes": 215,
+      "bytes": 11210141,
+      "howToWork": [
+        "Play **01-passage.mp3** and listen twice with no text in front of you. Do not open the PDF yet.",
+        "Then work through the parts in number order, one part at a time. Play the MP3 of a part before you open its sheet.",
+        "Record your speaking answers on your phone, and send them with your writing and your self-report.",
+        "Open part 09, the answer key, only when parts 01 to 08 are finished."
+      ],
+      "whole": {
+        "pdf": {
+          "file": "00-lesson.pdf",
+          "bytes": 56014
+        },
+        "mp3": {
+          "file": "00-full-section.mp3",
+          "bytes": 3239712,
+          "seconds": 540.0
+        }
+      },
+      "parts": [
+        {
+          "number": "01",
+          "slug": "passage",
+          "title": "Passage — Sami's Morning",
+          "minutes": 20,
+          "pdf": {
+            "file": "01-passage.pdf",
+            "bytes": 21450
+          },
+          "mp3": {
+            "file": "01-passage.mp3",
+            "bytes": 1068768,
+            "seconds": 178.1
+          }
+        },
+        {
+          "number": "02",
+          "slug": "listening-questions",
+          "title": "Listening questions",
+          "minutes": 10,
+          "pdf": {
+            "file": "02-listening-questions.pdf",
+            "bytes": 13489
+          },
+          "mp3": {
+            "file": "02-listening-questions.mp3",
+            "bytes": 319680,
+            "seconds": 53.3
+          }
+        },
+        {
+          "number": "03",
+          "slug": "vocabulary",
+          "title": "Vocabulary",
+          "minutes": 35,
+          "pdf": {
+            "file": "03-vocabulary.pdf",
+            "bytes": 28461
+          },
+          "mp3": {
+            "file": "03-vocabulary.mp3",
+            "bytes": 1408032,
+            "seconds": 234.7
+          }
+        },
+        {
+          "number": "04",
+          "slug": "comprehension",
+          "title": "Comprehension — TOEFL question types",
+          "minutes": 30,
+          "pdf": {
+            "file": "04-comprehension.pdf",
+            "bytes": 20454
+          },
+          "mp3": {
+            "file": "04-comprehension.mp3",
+            "bytes": 1188720,
+            "seconds": 198.1
+          }
+        },
+        {
+          "number": "05",
+          "slug": "true-false",
+          "title": "True / false",
+          "minutes": 15,
+          "pdf": {
+            "file": "05-true-false.pdf",
+            "bytes": 13735
+          },
+          "mp3": {
+            "file": "05-true-false.mp3",
+            "bytes": 582048,
+            "seconds": 97.0
+          }
+        },
+        {
+          "number": "06",
+          "slug": "speaking",
+          "title": "Speaking",
+          "minutes": 25,
+          "pdf": {
+            "file": "06-speaking.pdf",
+            "bytes": 17030
+          },
+          "mp3": {
+            "file": "06-speaking.mp3",
+            "bytes": 1492560,
+            "seconds": 248.8
+          }
+        },
+        {
+          "number": "07",
+          "slug": "writing",
+          "title": "Writing — My Morning",
+          "minutes": 30,
+          "pdf": {
+            "file": "07-writing.pdf",
+            "bytes": 17314
+          }
+        },
+        {
+          "number": "08",
+          "slug": "review",
+          "title": "Review",
+          "minutes": 30,
+          "pdf": {
+            "file": "08-review.pdf",
+            "bytes": 19130
+          },
+          "mp3": {
+            "file": "08-review.mp3",
+            "bytes": 1120896,
+            "seconds": 186.8
+          }
+        },
+        {
+          "number": "09",
+          "slug": "answer-key",
+          "title": "Answer key and teacher notes",
+          "minutes": 10,
+          "pdf": {
+            "file": "09-answer-key.pdf",
+            "bytes": 20184
+          }
+        },
+        {
+          "number": "10",
+          "slug": "passage-slow",
+          "title": "Passage, extra slow",
+          "minutes": 10,
+          "mp3": {
+            "file": "10-passage-slow.mp3",
+            "bytes": 562464,
+            "seconds": 93.7
+          }
+        }
+      ]
+    },
+    {
+      "kind": "lesson",
+      "slug": "lesson-02",
+      "path": "lessons/lesson-02",
+      "number": 2,
+      "title": "Lesson 2 — The Lost Photographs",
+      "level": "A1+ → A2 (second step)",
+      "topic": "Keeping files safe, student life",
+      "time": "6 sessions, 45–55 minutes each",
+      "skills": "Listening → Reading → Vocabulary → Grammar → Comprehension → Speaking → Writing",
+      "new": "the past simple (studied, took, lost), a longer passage of 244 words, sentence insertion, a two-sentence written summary, and the first spaced recall of Lesson 1 vocabulary",
+      "minutes": 280,
+      "bytes": 16390259,
+      "howToWork": [
+        "Play **01-passage.mp3** and listen twice with no text in front of you. Do not open the PDF yet.",
+        "Then work through the parts in number order. Part 04 is grammar and has no audio; part 05 needs its audio, because the three sounds of *-ed* cannot be heard from the page.",
+        "Record your speaking answers on your phone, and send them with your writing and your self-report.",
+        "Open part 11, the answer key, only when parts 01 to 10 are finished."
+      ],
+      "whole": {
+        "pdf": {
+          "file": "00-lesson.pdf",
+          "bytes": 71670
+        },
+        "mp3": {
+          "file": "00-full-section.mp3",
+          "bytes": 4627440,
+          "seconds": 771.2
+        }
+      },
+      "parts": [
+        {
+          "number": "01",
+          "slug": "passage",
+          "title": "Passage — The Lost Photographs",
+          "minutes": 20,
+          "pdf": {
+            "file": "01-passage.pdf",
+            "bytes": 21898
+          },
+          "mp3": {
+            "file": "01-passage.mp3",
+            "bytes": 1362096,
+            "seconds": 227.0
+          }
+        },
+        {
+          "number": "02",
+          "slug": "listening-questions",
+          "title": "Listening questions",
+          "minutes": 10,
+          "pdf": {
+            "file": "02-listening-questions.pdf",
+            "bytes": 13087
+          },
+          "mp3": {
+            "file": "02-listening-questions.mp3",
+            "bytes": 397584,
+            "seconds": 66.3
+          }
+        },
+        {
+          "number": "03",
+          "slug": "vocabulary",
+          "title": "Vocabulary and Lesson 1 recall",
+          "minutes": 35,
+          "pdf": {
+            "file": "03-vocabulary.pdf",
+            "bytes": 28653
+          },
+          "mp3": {
+            "file": "03-vocabulary.mp3",
+            "bytes": 2015712,
+            "seconds": 336.0
+          }
+        },
+        {
+          "number": "04",
+          "slug": "grammar-past-simple",
+          "title": "Grammar — the past simple",
+          "minutes": 35,
+          "pdf": {
+            "file": "04-grammar-past-simple.pdf",
+            "bytes": 20655
+          }
+        },
+        {
+          "number": "05",
+          "slug": "ed-sounds",
+          "title": "The three sounds of -ed",
+          "minutes": 20,
+          "pdf": {
+            "file": "05-ed-sounds.pdf",
+            "bytes": 16544
+          },
+          "mp3": {
+            "file": "05-ed-sounds.mp3",
+            "bytes": 1421568,
+            "seconds": 236.9
+          }
+        },
+        {
+          "number": "06",
+          "slug": "comprehension",
+          "title": "Comprehension — TOEFL question types",
+          "minutes": 35,
+          "pdf": {
+            "file": "06-comprehension.pdf",
+            "bytes": 22089
+          },
+          "mp3": {
+            "file": "06-comprehension.mp3",
+            "bytes": 2180736,
+            "seconds": 363.5
+          }
+        },
+        {
+          "number": "07",
+          "slug": "true-false",
+          "title": "True / false",
+          "minutes": 15,
+          "pdf": {
+            "file": "07-true-false.pdf",
+            "bytes": 13595
+          },
+          "mp3": {
+            "file": "07-true-false.mp3",
+            "bytes": 606384,
+            "seconds": 101.1
+          }
+        },
+        {
+          "number": "08",
+          "slug": "speaking",
+          "title": "Speaking",
+          "minutes": 25,
+          "pdf": {
+            "file": "08-speaking.pdf",
+            "bytes": 16644
+          },
+          "mp3": {
+            "file": "08-speaking.mp3",
+            "bytes": 1502784,
+            "seconds": 250.5
+          }
+        },
+        {
+          "number": "09",
+          "slug": "writing",
+          "title": "Writing — The Day I Lost Something",
+          "minutes": 35,
+          "pdf": {
+            "file": "09-writing.pdf",
+            "bytes": 17884
+          }
+        },
+        {
+          "number": "10",
+          "slug": "review",
+          "title": "Review",
+          "minutes": 30,
+          "pdf": {
+            "file": "10-review.pdf",
+            "bytes": 18648
+          },
+          "mp3": {
+            "file": "10-review.mp3",
+            "bytes": 1257984,
+            "seconds": 209.7
+          }
+        },
+        {
+          "number": "11",
+          "slug": "answer-key",
+          "title": "Answer key and teacher notes",
+          "minutes": 10,
+          "pdf": {
+            "file": "11-answer-key.pdf",
+            "bytes": 25804
+          }
+        },
+        {
+          "number": "12",
+          "slug": "passage-slow",
+          "title": "Passage, extra slow",
+          "minutes": 10,
+          "mp3": {
+            "file": "12-passage-slow.mp3",
+            "bytes": 730800,
+            "seconds": 121.8
+          }
+        }
+      ]
+    },
+    {
+      "kind": "lesson",
+      "slug": "lesson-03",
+      "path": "lessons/lesson-03",
+      "number": 3,
+      "title": "Lesson 3 — The Night the Network Failed",
+      "level": "A2 (third step)",
+      "topic": "Computing and student life: files, servers and backups",
+      "time": "6 sessions, 45–55 minutes each",
+      "skills": "Listening → Reading → Vocabulary → Grammar → Comprehension → Speaking → Writing",
+      "new": "the past continuous, the weak sounds of was and were, a longer passage of 320 words, and one new question type: purpose of a paragraph",
+      "minutes": 290,
+      "bytes": 17822651,
+      "howToWork": [
+        "Play **01-passage.mp3** and listen twice with no text in front of you. Do not open the PDF yet.",
+        "Then work through the parts in number order. Part 04 is grammar and has no audio; part 05 needs its audio, because the weak sounds of *was* and *were* cannot be heard from the page.",
+        "Record your speaking answers on your phone, and send them with your writing and your self-report.",
+        "Open part 11, the answer key, only when parts 01 to 10 are finished."
+      ],
+      "whole": {
+        "pdf": {
+          "file": "00-lesson.pdf",
+          "bytes": 77119
+        },
+        "mp3": {
+          "file": "00-full-section.mp3",
+          "bytes": 5402304,
+          "seconds": 900.4
+        }
+      },
+      "parts": [
+        {
+          "number": "01",
+          "slug": "passage",
+          "title": "Passage — The Night the Network Failed",
+          "minutes": 20,
+          "pdf": {
+            "file": "01-passage.pdf",
+            "bytes": 23886
+          },
+          "mp3": {
+            "file": "01-passage.mp3",
+            "bytes": 1848528,
+            "seconds": 308.1
+          }
+        },
+        {
+          "number": "02",
+          "slug": "listening-questions",
+          "title": "Listening questions",
+          "minutes": 10,
+          "pdf": {
+            "file": "02-listening-questions.pdf",
+            "bytes": 15640
+          },
+          "mp3": {
+            "file": "02-listening-questions.mp3",
+            "bytes": 409104,
+            "seconds": 68.2
+          }
+        },
+        {
+          "number": "03",
+          "slug": "vocabulary",
+          "title": "Vocabulary and Lesson 1 recall",
+          "minutes": 35,
+          "pdf": {
+            "file": "03-vocabulary.pdf",
+            "bytes": 30225
+          },
+          "mp3": {
+            "file": "03-vocabulary.mp3",
+            "bytes": 2041056,
+            "seconds": 340.2
+          }
+        },
+        {
+          "number": "04",
+          "slug": "grammar-past-continuous",
+          "title": "Grammar — the past continuous",
+          "minutes": 40,
+          "pdf": {
+            "file": "04-grammar-past-continuous.pdf",
+            "bytes": 22193
+          }
+        },
+        {
+          "number": "05",
+          "slug": "weak-forms",
+          "title": "The sounds of was and were",
+          "minutes": 20,
+          "pdf": {
+            "file": "05-weak-forms.pdf",
+            "bytes": 21277
+          },
+          "mp3": {
+            "file": "05-weak-forms.mp3",
+            "bytes": 912240,
+            "seconds": 152.0
+          }
+        },
+        {
+          "number": "06",
+          "slug": "comprehension",
+          "title": "Comprehension — TOEFL question types",
+          "minutes": 40,
+          "pdf": {
+            "file": "06-comprehension.pdf",
+            "bytes": 22330
+          },
+          "mp3": {
+            "file": "06-comprehension.mp3",
+            "bytes": 2475216,
+            "seconds": 412.5
+          }
+        },
+        {
+          "number": "07",
+          "slug": "true-false",
+          "title": "True / false",
+          "minutes": 15,
+          "pdf": {
+            "file": "07-true-false.pdf",
+            "bytes": 14131
+          },
+          "mp3": {
+            "file": "07-true-false.mp3",
+            "bytes": 588384,
+            "seconds": 98.1
+          }
+        },
+        {
+          "number": "08",
+          "slug": "speaking",
+          "title": "Speaking",
+          "minutes": 25,
+          "pdf": {
+            "file": "08-speaking.pdf",
+            "bytes": 17280
+          },
+          "mp3": {
+            "file": "08-speaking.mp3",
+            "bytes": 1525392,
+            "seconds": 254.2
+          }
+        },
+        {
+          "number": "09",
+          "slug": "writing",
+          "title": "Writing — The Day Something Stopped My Work",
+          "minutes": 35,
+          "pdf": {
+            "file": "09-writing.pdf",
+            "bytes": 19484
+          }
+        },
+        {
+          "number": "10",
+          "slug": "review",
+          "title": "Review",
+          "minutes": 30,
+          "pdf": {
+            "file": "10-review.pdf",
+            "bytes": 19376
+          },
+          "mp3": {
+            "file": "10-review.mp3",
+            "bytes": 1303056,
+            "seconds": 217.2
+          }
+        },
+        {
+          "number": "11",
+          "slug": "answer-key",
+          "title": "Answer key and teacher notes",
+          "minutes": 10,
+          "pdf": {
+            "file": "11-answer-key.pdf",
+            "bytes": 26718
+          }
+        },
+        {
+          "number": "12",
+          "slug": "passage-slow",
+          "title": "Passage, extra slow",
+          "minutes": 10,
+          "mp3": {
+            "file": "12-passage-slow.mp3",
+            "bytes": 1007712,
+            "seconds": 168.0
+          }
+        }
+      ]
+    },
+    {
+      "kind": "test",
+      "slug": "test-01",
+      "path": "tests/test-01",
+      "number": 3,
+      "title": "Progress Test 1 — after Lessons 1 to 3",
+      "level": "A2 · checks Lessons 1, 2 and 3",
+      "topic": "Everything so far: daily routine, keeping files safe, and computing",
+      "time": "about 90 minutes, in one sitting if possible",
+      "skills": "Listening → Reading → Vocabulary and grammar → Writing → Speaking",
+      "new": "two texts she has never seen, the eight TOEFL question types from Lessons 1 to 3, and a score that says which lesson to go back to",
+      "minutes": 100,
+      "bytes": 7201329,
+      "howToWork": [
+        "Sit the whole test in one go if you can, with a clock, and do not open part 06 until you have finished.",
+        "Start with **01-listening.mp3** and do not read the sheet before you play it. Sections 2, 3 and 4 are paper only.",
+        "Play **05-speaking.mp3** last and record your three answers.",
+        "Then open part 06, mark yourself out of 100, and read the table that says which lesson to go back to."
+      ],
+      "whole": {
+        "pdf": {
+          "file": "00-lesson.pdf",
+          "bytes": 40133
+        },
+        "mp3": {
+          "file": "00-full-section.mp3",
+          "bytes": 3542400,
+          "seconds": 590.4
+        }
+      },
+      "parts": [
+        {
+          "number": "01",
+          "slug": "listening",
+          "title": "Section 1 — Listening",
+          "minutes": 20,
+          "pdf": {
+            "file": "01-listening.pdf",
+            "bytes": 19257
+          },
+          "mp3": {
+            "file": "01-listening.mp3",
+            "bytes": 1928304,
+            "seconds": 321.4
+          }
+        },
+        {
+          "number": "02",
+          "slug": "reading",
+          "title": "Section 2 — Reading",
+          "minutes": 25,
+          "pdf": {
+            "file": "02-reading.pdf",
+            "bytes": 21617
+          }
+        },
+        {
+          "number": "03",
+          "slug": "vocabulary-and-grammar",
+          "title": "Section 3 — Vocabulary and grammar",
+          "minutes": 20,
+          "pdf": {
+            "file": "03-vocabulary-and-grammar.pdf",
+            "bytes": 19187
+          }
+        },
+        {
+          "number": "04",
+          "slug": "writing",
+          "title": "Section 4 — Writing",
+          "minutes": 15,
+          "pdf": {
+            "file": "04-writing.pdf",
+            "bytes": 17552
+          }
+        },
+        {
+          "number": "05",
+          "slug": "speaking",
+          "title": "Section 5 — Speaking",
+          "minutes": 10,
+          "pdf": {
+            "file": "05-speaking.pdf",
+            "bytes": 18081
+          },
+          "mp3": {
+            "file": "05-speaking.mp3",
+            "bytes": 1567152,
+            "seconds": 261.2
+          }
+        },
+        {
+          "number": "06",
+          "slug": "answer-key",
+          "title": "Answer key, marking and what to do next",
+          "minutes": 10,
+          "pdf": {
+            "file": "06-answer-key.pdf",
+            "bytes": 27646
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -378,15 +378,19 @@ def build_sheets(lesson: dict, wanted: list[dict], whole: bool) -> dict[str, int
 
     if whole:
         body = [f'<h1>{lesson["title"]}</h1>', lesson_meta_block(lesson)]
-        for part in parts_with_sheet(lesson):
+        # a part may keep itself out of the combined document: a test paper
+        # should not carry its own answer key
+        for part in [p for p in parts_with_sheet(lesson) if p.get("in_whole", True)]:
             ident = f' id="{part["css_id"]}"' if part.get("css_id") else ""
             body.append(f'<h2{ident}>{part["number"]} &middot; {part["title"]}</h2>')
             body.append(_to_html(engine, part["markdown"]))
         out = HERE / "00-lesson.pdf"
         pages = render_pdf(lesson["title"], "".join(body), out, sheets)
         size = out.stat().st_size
-        print(f"  {out.name:<32} {pages:>2} pages  {fmt_size(size):>9}   "
-              f"the whole lesson, answer key last")
+        left_out = [p for p in parts_with_sheet(lesson) if not p.get("in_whole", True)]
+        note = ("every sheet, answer key last" if not left_out else
+                "every sheet except " + ", ".join(p["slug"] for p in left_out))
+        print(f"  {out.name:<32} {pages:>2} pages  {fmt_size(size):>9}   {note}")
         written[out.name] = pages
 
     return written
@@ -535,11 +539,15 @@ def write_readme(lesson: dict, pages: dict[str, int] | None = None) -> Path:
 
     big = []
     whole_pdf, whole_mp3 = HERE / "00-lesson.pdf", HERE / "00-full-section.mp3"
+    left_out = [p for p in parts_with_sheet(lesson) if not p.get("in_whole", True)]
     if whole_pdf.exists():
         n = pages.get(whole_pdf.name) or pdf_pages(whole_pdf)
+        covers = ("every part sheet in one printable document, answer key last"
+                  if not left_out else
+                  "every part sheet in one printable document, without "
+                  + " or ".join(p["title"].lower() for p in left_out))
         big.append(
-            "- [00-lesson.pdf](00-lesson.pdf) — every part sheet in one printable "
-            "document, answer key last"
+            f"- [00-lesson.pdf](00-lesson.pdf) — {covers}"
             f"{f', {n} pages' if n else ''}, "
             f"{fmt_size(whole_pdf.stat().st_size)}. **The large option.**")
     if whole_mp3.exists():
