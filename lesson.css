@@ -1,0 +1,197 @@
+/* Print stylesheet for the English lessons (A4, two-colour, student-friendly).
+   One copy for the whole repository: every lesson renders with this file.
+   The page footer text is not here - build.py adds it from lesson.json, so the
+   lesson name never has to be edited in two places. */
+
+@page {
+  size: A4;
+  margin: 18mm 16mm 20mm 16mm;
+  @bottom-center {
+    font-family: "Inter", "Segoe UI", Arial, sans-serif;
+    font-size: 7.5pt;
+    color: #8a8f98;
+  }
+}
+
+:root {
+  --ink:    #1a1d21;
+  --muted:  #5d646e;
+  --rule:   #dfe3e8;
+  --accent: #15607a;
+  --wash:   #f1f6f8;
+  --warm:   #fbf6ec;
+}
+
+html { font-size: 10.6pt; }
+
+body {
+  font-family: "Source Serif 4", "DejaVu Serif", Cambria, "Times New Roman", serif;
+  color: var(--ink);
+  line-height: 1.52;
+  hyphens: none;
+}
+
+/* Arabic glosses pick up a Naskh face automatically: the Latin faces come
+   first, so only the glyphs they lack fall through to the Arabic ones. */
+td, th, p, li {
+  font-family: "Source Serif 4", "DejaVu Serif", Cambria, "Times New Roman",
+               "Noto Naskh Arabic", "Sakkal Majalla", "Segoe UI",
+               "Segoe UI Emoji", serif;
+}
+
+/* ---------- headings ---------- */
+
+h1 {
+  font-family: "Inter", "Segoe UI", Arial, sans-serif;
+  font-size: 22pt;
+  font-weight: 600;
+  letter-spacing: -0.015em;
+  color: var(--accent);
+  margin: 0 0 2mm;
+  line-height: 1.15;
+}
+
+h2 {
+  font-family: "Inter", "Segoe UI", Arial, sans-serif;
+  font-size: 13pt;
+  font-weight: 600;
+  color: var(--accent);
+  margin: 9mm 0 3mm;
+  padding-bottom: 1.6mm;
+  border-bottom: 1.2pt solid var(--accent);
+  break-after: avoid;
+  break-before: auto;
+}
+
+h3 {
+  font-family: "Inter", "Segoe UI", Arial, sans-serif, "Segoe UI Emoji";
+  font-size: 10.8pt;
+  font-weight: 600;
+  color: var(--ink);
+  margin: 5.5mm 0 2mm;
+  break-after: avoid;
+}
+
+/* the passage heading */
+h3:has(+ p) { break-after: avoid; }
+
+/* ---------- body text ---------- */
+
+p { margin: 0 0 2.6mm; }
+strong { font-weight: 600; }
+
+/* header block of the first page: the bold "label: value" lines */
+h1 + p {
+  font-family: "Inter", "Segoe UI", Arial, sans-serif;
+  font-size: 9pt;
+  line-height: 1.75;
+  color: var(--muted);
+  background: var(--wash);
+  border-radius: 2mm;
+  padding: 3.5mm 4mm;
+  margin-bottom: 4mm;
+}
+h1 + p strong { color: var(--ink); }
+
+/* ---------- callout (blockquote) ---------- */
+
+blockquote {
+  margin: 3mm 0 4mm;
+  padding: 3mm 4mm;
+  background: var(--warm);
+  border-left: 2.5pt solid #d8a13c;
+  border-radius: 0 2mm 2mm 0;
+  font-size: 9.6pt;
+  color: #44403a;
+  break-inside: avoid;
+}
+blockquote p:last-child { margin-bottom: 0; }
+
+/* ---------- lists ---------- */
+
+ol, ul { margin: 0 0 3mm; padding-left: 6.5mm; }
+li { margin-bottom: 1.1mm; }
+
+/* MCQ option lists: tighter, no bullet, hanging letters */
+h3 + ul, p + ul { list-style: none; padding-left: 4mm; }
+h3 + ul > li, p + ul > li { margin-bottom: 0.8mm; }
+
+/* answer checkboxes: drawn, not a glyph, so no font has to carry the box */
+li.check { list-style: none; }
+li.check::before {
+  content: "";
+  display: inline-block;
+  width: 3mm;
+  height: 3mm;
+  border: 0.5pt solid var(--muted);
+  border-radius: 0.5mm;
+  margin-right: 1.8mm;
+}
+
+/* ---------- tables ---------- */
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 2mm 0 4.5mm;
+  font-size: 9.2pt;
+  break-inside: auto;
+}
+thead { display: table-header-group; }
+tr { break-inside: avoid; }
+
+th {
+  font-family: "Inter", "Segoe UI", Arial, sans-serif;
+  font-weight: 600;
+  font-size: 8.4pt;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: var(--muted);
+  text-align: left;
+  padding: 1.8mm 2mm;
+  border-bottom: 1pt solid var(--accent);
+}
+
+td {
+  padding: 1.6mm 2mm;
+  border-bottom: 0.4pt solid var(--rule);
+  vertical-align: top;
+}
+
+tbody tr:nth-child(even) { background: #fafbfc; }
+
+/* ---------- rules and page breaks ---------- */
+
+hr {
+  border: 0;
+  border-top: 0.4pt solid var(--rule);
+  margin: 6mm 0;
+}
+
+/* in the whole-lesson PDF each part is an h2, so each part starts a fresh page */
+h2:not(:first-of-type) { break-before: page; border-top: 0; }
+
+/* ---------- answer key and teacher notes ---------- */
+
+h2#answer-key { color: #7a4a15; border-bottom-color: #c98b3a; }
+h3#teacher-notes { color: #7a4a15; }
+
+em { font-style: italic; }
+code {
+  font-family: "DejaVu Sans Mono", Consolas, monospace;
+  font-size: 8.8pt;
+  background: var(--wash);
+  padding: 0.3mm 1mm;
+  border-radius: 1mm;
+}
+
+/* the metadata block at the top reads as a list of fields, one per line */
+h1 + p br { line-height: 2; }
+
+/* IPA symbols: no serif face here carries U+026A, so pin these to a sans
+   face that does. Checked on this machine: Segoe UI and Arial both have it. */
+.ipa {
+  font-family: "DejaVu Sans", "Noto Sans", "Segoe UI", Arial, sans-serif;
+  font-size: 0.94em;
+  white-space: nowrap;
+}

@@ -1,0 +1,1763 @@
+{
+  "lesson": 2,
+  "slug": "lesson-02",
+  "title": "Lesson 2 — The Lost Photographs",
+  "level": "A1+ → A2 (second step)",
+  "topic": "Keeping files safe, student life",
+  "time": "6 sessions, 45–55 minutes each",
+  "skills": "Listening → Reading → Vocabulary → Grammar → Comprehension → Speaking → Writing",
+  "new_in_this_lesson": "the past simple (studied, took, lost), a longer passage of 244 words, sentence insertion, a two-sentence written summary, and the first spaced recall of Lesson 1 vocabulary",
+  "passage_words": 244,
+  "footer": "Lesson 2 — The Lost Photographs",
+  "voices": {
+    "reader": {
+      "voice": "en-GB-RyanNeural",
+      "rate": "-10%",
+      "pitch": "+0Hz"
+    },
+    "narrator": {
+      "voice": "en-GB-SoniaNeural",
+      "rate": "-5%",
+      "pitch": "+0Hz"
+    },
+    "slow": {
+      "voice": "en-GB-RyanNeural",
+      "rate": "-25%",
+      "pitch": "+0Hz"
+    }
+  },
+  "how_to_work": [
+    "Play **01-passage.mp3** and listen twice with no text in front of you. Do not open the PDF yet.",
+    "Then work through the parts in number order. Part 04 is grammar and has no audio; part 05 needs its audio, because the three sounds of *-ed* cannot be heard from the page.",
+    "Record your speaking answers on your phone, and send them with your writing and your self-report.",
+    "Open part 11, the answer key, only when parts 01 to 10 are finished."
+  ],
+  "full_section": {
+    "parts": [
+      "01",
+      "02",
+      "06",
+      "07"
+    ],
+    "gap": 3,
+    "closing": [
+      {
+        "pause": 2
+      },
+      {
+        "say": "This is the end of lesson two.",
+        "voice": "narrator"
+      }
+    ]
+  },
+  "parts": [
+    {
+      "number": "01",
+      "slug": "passage",
+      "title": "Passage — The Lost Photographs",
+      "minutes": 20,
+      "sheet": true,
+      "audio": true,
+      "segments": [
+        {
+          "say": "Lesson two. The lost photographs. Listening practice.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 1
+        },
+        {
+          "say": "You will hear a story about a student and her photographs. The story happened in the past. You will hear it two times. Do not read the text. Listen only.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 2
+        },
+        {
+          "say": "Now listen.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 1.5
+        },
+        {
+          "say": "Last year, Maha was a student at a college in Gaza. She studied design, and she loved her work. Every week she took photographs of her city - the market, the sea, the old streets. She kept all of them on her phone.\n\nOne morning in May, Maha put her phone in her bag and went to college. At eleven o'clock, she opened the bag. The phone was not there. She looked everywhere, but she did not find it.\n\nShe was sad about the phone, but she was much sadder about the photographs. There were more than two thousand of them, and she had no other copy. Three years of work disappeared in one morning.\n\nHer teacher listened to her story and asked one question: \"Did you have a backup?\" Maha did not know the word. The teacher explained it in a simple way. A backup is a second copy of your files in another place. If you lose the first copy, you still have the second one.\n\nThat week, Maha learned how to make backups. She copied her new photographs to a laptop. She also copied the most important ones to a memory card, and she kept the card at home. When the internet was good, she sent some folders to an online drive.\n\nMaha still remembers her lost photographs. But now she says the same thing to every new student: \"Your phone is not a safe place. It is only one place.\"",
+          "voice": "reader"
+        },
+        {
+          "pause": 4
+        },
+        {
+          "say": "Now listen again.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 1.5
+        },
+        {
+          "say": "Last year, Maha was a student at a college in Gaza. She studied design, and she loved her work. Every week she took photographs of her city - the market, the sea, the old streets. She kept all of them on her phone.\n\nOne morning in May, Maha put her phone in her bag and went to college. At eleven o'clock, she opened the bag. The phone was not there. She looked everywhere, but she did not find it.\n\nShe was sad about the phone, but she was much sadder about the photographs. There were more than two thousand of them, and she had no other copy. Three years of work disappeared in one morning.\n\nHer teacher listened to her story and asked one question: \"Did you have a backup?\" Maha did not know the word. The teacher explained it in a simple way. A backup is a second copy of your files in another place. If you lose the first copy, you still have the second one.\n\nThat week, Maha learned how to make backups. She copied her new photographs to a laptop. She also copied the most important ones to a memory card, and she kept the card at home. When the internet was good, she sent some folders to an online drive.\n\nMaha still remembers her lost photographs. But now she says the same thing to every new student: \"Your phone is not a safe place. It is only one place.\"",
+          "voice": "reader"
+        },
+        {
+          "pause": 2
+        },
+        {
+          "say": "This is the end of the passage.",
+          "voice": "narrator"
+        }
+      ],
+      "print_only": {
+        "markers": [
+          "[A]",
+          "[B]",
+          "[C]",
+          "[D]"
+        ],
+        "note": "The sentence-insertion markers are printed in the passage and are never read aloud: the student has to find the four places on the page."
+      },
+      "markdown": "> **How to do the listening.** Same rule as Lesson 1: the student listens **twice with no text**, then reads.\n> Audio files: `01-passage.mp3` first, then the other parts in order. Part `05-ed-sounds.mp3` is new — a past-simple verb drill.\n\n### 1.1 Before listening (2 minutes, Arabic is fine here)\n\n1. What is on your phone that you would not want to lose?\n2. Have you ever lost a phone, a file, or a photograph?\n3. Where do you keep a second copy of important things?\n\n### 1.4 Now read the passage\n\n### Passage: *The Lost Photographs* (244 words)\n\nLast year, Maha was a student at a college in Gaza. She studied design, and she loved her work. Every week she took photographs of her city — the market, the sea, the old streets. She kept all of them on her phone.\n\n**[A]** One morning in May, Maha put her phone in her bag and went to college. At eleven o'clock, she opened the bag. The phone was not there. She looked everywhere, but she did not find it.\n\n**[B]** She was sad about the phone, but she was much sadder about the photographs. There were more than two thousand of them, and she had no other copy. Three years of work disappeared in one morning.\n\n**[C]** Her teacher listened to her story and asked one question: \"Did you have a backup?\" Maha did not know the word. The teacher explained it in a simple way. A backup is a second copy of your files in another place. If you lose the first copy, you still have the second one.\n\n**[D]** That week, Maha learned how to make backups. She copied her new photographs to a laptop. She also copied the most important ones to a memory card, and she kept the card at home. When the internet was good, she sent some folders to an online drive.\n\nMaha still remembers her lost photographs. But now she says the same thing to every new student: \"Your phone is not a safe place. It is only one place.\"\n\n### 1.5 Read aloud\n\nRead the passage aloud **once** and record it. Compare it with your Lesson 1 recording: are the sentences easier now?"
+    },
+    {
+      "number": "02",
+      "slug": "listening-questions",
+      "title": "Listening questions",
+      "minutes": 10,
+      "sheet": true,
+      "audio": true,
+      "segments": [
+        {
+          "say": "Now answer the listening questions. Write a short answer for each one.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 2
+        },
+        {
+          "say": "Question one. Who is the story about?",
+          "voice": "narrator"
+        },
+        {
+          "pause": 10
+        },
+        {
+          "say": "Question two. What did she lose?",
+          "voice": "narrator"
+        },
+        {
+          "pause": 10
+        },
+        {
+          "say": "Question three. Did the story happen this year or last year?",
+          "voice": "narrator"
+        },
+        {
+          "pause": 10
+        },
+        {
+          "say": "Question four. Who asked her a question about a backup?",
+          "voice": "narrator"
+        },
+        {
+          "pause": 10
+        },
+        {
+          "say": "This is the end of the listening questions.",
+          "voice": "narrator"
+        }
+      ],
+      "markdown": "### 1.2 Listening — first time (no text)\n\n- **L1.** Who is the story about?\n- **L2.** What did she lose?\n- **L3.** Did the story happen this year or last year?\n- **L4.** Who asked her a question about a backup?\n\n### 1.3 Listening — second time (no text)\n\nWrite **four verbs** you heard. Then write **one word** you heard but did not understand."
+    },
+    {
+      "number": "03",
+      "slug": "vocabulary",
+      "title": "Vocabulary and Lesson 1 recall",
+      "minutes": 35,
+      "sheet": true,
+      "audio": true,
+      "segments": [
+        {
+          "say": "Vocabulary practice. You will hear a word, then its meaning, then an example sentence. Repeat the word in the silence.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 2
+        },
+        {
+          "say": "Word 1.",
+          "voice": "narrator"
+        },
+        {
+          "say": "college",
+          "voice": "reader"
+        },
+        {
+          "pause": 3
+        },
+        {
+          "say": "college. a place to study after school.",
+          "voice": "reader"
+        },
+        {
+          "pause": 1
+        },
+        {
+          "say": "She was a student at a college.",
+          "voice": "reader"
+        },
+        {
+          "pause": 3
+        },
+        {
+          "say": "Word 2.",
+          "voice": "narrator"
+        },
+        {
+          "say": "design",
+          "voice": "reader"
+        },
+        {
+          "pause": 3
+        },
+        {
+          "say": "design. planning how something looks.",
+          "voice": "reader"
+        },
+        {
+          "pause": 1
+        },
+        {
+          "say": "She studied design.",
+          "voice": "reader"
+        },
+        {
+          "pause": 3
+        },
+        {
+          "say": "Word 3.",
+          "voice": "narrator"
+        },
+        {
+          "say": "keep, kept",
+          "voice": "reader"
+        },
+        {
+          "pause": 3
+        },
+        {
+          "say": "keep, kept. to have something and not lose it.",
+          "voice": "reader"
+        },
+        {
+          "pause": 1
+        },
+        {
+          "say": "She kept the photos on her phone.",
+          "voice": "reader"
+        },
+        {
+          "pause": 3
+        },
+        {
+          "say": "Word 4.",
+          "voice": "narrator"
+        },
+        {
+          "say": "lose, lost",
+          "voice": "reader"
+        },
+        {
+          "pause": 3
+        },
+        {
+          "say": "lose, lost. to not have something any more.",
+          "voice": "reader"
+        },
+        {
+          "pause": 1
+        },
+        {
+          "say": "She lost her phone.",
+          "voice": "reader"
+        },
+        {
+          "pause": 3
+        },
+        {
+          "say": "Word 5.",
+          "voice": "narrator"
+        },
+        {
+          "say": "everywhere",
+          "voice": "reader"
+        },
+        {
+          "pause": 3
+        },
+        {
+          "say": "everywhere. in every place.",
+          "voice": "reader"
+        },
+        {
+          "pause": 1
+        },
+        {
+          "say": "She looked everywhere.",
+          "voice": "reader"
+        },
+        {
+          "pause": 3
+        },
+        {
+          "say": "Word 6.",
+          "voice": "narrator"
+        },
+        {
+          "say": "disappear",
+          "voice": "reader"
+        },
+        {
+          "pause": 3
+        },
+        {
+          "say": "disappear. to go away and not be seen.",
+          "voice": "reader"
+        },
+        {
+          "pause": 1
+        },
+        {
+          "say": "Three years of work disappeared.",
+          "voice": "reader"
+        },
+        {
+          "pause": 3
+        },
+        {
+          "say": "Word 7.",
+          "voice": "narrator"
+        },
+        {
+          "say": "copy",
+          "voice": "reader"
+        },
+        {
+          "pause": 3
+        },
+        {
+          "say": "copy. another one exactly the same.",
+          "voice": "reader"
+        },
+        {
+          "pause": 1
+        },
+        {
+          "say": "She had no other copy.",
+          "voice": "reader"
+        },
+        {
+          "pause": 3
+        },
+        {
+          "say": "Word 8.",
+          "voice": "narrator"
+        },
+        {
+          "say": "backup",
+          "voice": "reader"
+        },
+        {
+          "pause": 3
+        },
+        {
+          "say": "backup. a second copy kept in another place.",
+          "voice": "reader"
+        },
+        {
+          "pause": 1
+        },
+        {
+          "say": "Did you have a backup?",
+          "voice": "reader"
+        },
+        {
+          "pause": 3
+        },
+        {
+          "say": "Word 9.",
+          "voice": "narrator"
+        },
+        {
+          "say": "explain",
+          "voice": "reader"
+        },
+        {
+          "pause": 3
+        },
+        {
+          "say": "explain. to make something easy to understand.",
+          "voice": "reader"
+        },
+        {
+          "pause": 1
+        },
+        {
+          "say": "The teacher explained it.",
+          "voice": "reader"
+        },
+        {
+          "pause": 3
+        },
+        {
+          "say": "Word 10.",
+          "voice": "narrator"
+        },
+        {
+          "say": "memory card",
+          "voice": "reader"
+        },
+        {
+          "pause": 3
+        },
+        {
+          "say": "memory card. a small card that holds files.",
+          "voice": "reader"
+        },
+        {
+          "pause": 1
+        },
+        {
+          "say": "She used a memory card.",
+          "voice": "reader"
+        },
+        {
+          "pause": 3
+        },
+        {
+          "say": "Word 11.",
+          "voice": "narrator"
+        },
+        {
+          "say": "folder",
+          "voice": "reader"
+        },
+        {
+          "pause": 3
+        },
+        {
+          "say": "folder. a place on a computer that holds files.",
+          "voice": "reader"
+        },
+        {
+          "pause": 1
+        },
+        {
+          "say": "She sent some folders.",
+          "voice": "reader"
+        },
+        {
+          "pause": 3
+        },
+        {
+          "say": "Word 12.",
+          "voice": "narrator"
+        },
+        {
+          "say": "drive",
+          "voice": "reader"
+        },
+        {
+          "pause": 3
+        },
+        {
+          "say": "drive. a place that stores files.",
+          "voice": "reader"
+        },
+        {
+          "pause": 1
+        },
+        {
+          "say": "She used an online drive.",
+          "voice": "reader"
+        },
+        {
+          "pause": 3
+        },
+        {
+          "say": "Word 13.",
+          "voice": "narrator"
+        },
+        {
+          "say": "important",
+          "voice": "reader"
+        },
+        {
+          "pause": 3
+        },
+        {
+          "say": "important. something that matters a lot.",
+          "voice": "reader"
+        },
+        {
+          "pause": 1
+        },
+        {
+          "say": "The most important photographs.",
+          "voice": "reader"
+        },
+        {
+          "pause": 3
+        },
+        {
+          "say": "Word 14.",
+          "voice": "narrator"
+        },
+        {
+          "say": "remember",
+          "voice": "reader"
+        },
+        {
+          "pause": 3
+        },
+        {
+          "say": "remember. to keep something in your mind.",
+          "voice": "reader"
+        },
+        {
+          "pause": 1
+        },
+        {
+          "say": "She still remembers them.",
+          "voice": "reader"
+        },
+        {
+          "pause": 3
+        },
+        {
+          "pause": 1.5
+        },
+        {
+          "say": "Now five words from lesson one. Say the meaning before you hear it.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 2
+        },
+        {
+          "say": "safe",
+          "voice": "reader"
+        },
+        {
+          "pause": 5
+        },
+        {
+          "say": "protected, not in danger",
+          "voice": "reader"
+        },
+        {
+          "pause": 1
+        },
+        {
+          "say": "document",
+          "voice": "reader"
+        },
+        {
+          "pause": 5
+        },
+        {
+          "say": "a file with writing in it",
+          "voice": "reader"
+        },
+        {
+          "pause": 1
+        },
+        {
+          "say": "electricity",
+          "voice": "reader"
+        },
+        {
+          "pause": 5
+        },
+        {
+          "say": "the power that makes machines work",
+          "voice": "reader"
+        },
+        {
+          "pause": 1
+        },
+        {
+          "say": "practise",
+          "voice": "reader"
+        },
+        {
+          "pause": 5
+        },
+        {
+          "say": "to do something many times to learn it",
+          "voice": "reader"
+        },
+        {
+          "pause": 1
+        },
+        {
+          "say": "charge",
+          "voice": "reader"
+        },
+        {
+          "pause": 5
+        },
+        {
+          "say": "to put electricity into a battery",
+          "voice": "reader"
+        },
+        {
+          "pause": 1
+        },
+        {
+          "say": "This is the end of the vocabulary practice.",
+          "voice": "narrator"
+        }
+      ],
+      "markdown": "### 2.1 Key words\n\n| # | Word | Type | Simple meaning | Arabic | Example |\n|---|------|------|----------------|--------|---------|\n| 1 | college | noun | a place to study after school | كلية | She was a student at a college. |\n| 2 | design | noun | planning how something looks | تصميم | She studied **design**. |\n| 3 | keep / kept | verb | to have something and not lose it | يحفظ | She **kept** the photos on her phone. |\n| 4 | lose / lost | verb | to not have something any more | يفقد | She **lost** her phone. |\n| 5 | everywhere | adverb | in every place | في كل مكان | She looked **everywhere**. |\n| 6 | disappear | verb | to go away and not be seen | يختفي | Three years of work **disappeared**. |\n| 7 | copy | noun / verb | another one exactly the same | نسخة / ينسخ | She had no other **copy**. |\n| 8 | backup | noun | a second copy kept in another place | نسخة احتياطية | Did you have a **backup**? |\n| 9 | explain | verb | to make something easy to understand | يشرح | The teacher **explained** it. |\n| 10 | memory card | noun | a small card that holds files | بطاقة ذاكرة | She used a **memory card**. |\n| 11 | folder | noun | a place on a computer that holds files | مجلد | She sent some **folders**. |\n| 12 | drive | noun | a place that stores files (here: online) | مشغّل / سحابة | She used an online **drive**. |\n| 13 | important | adjective | something that matters a lot | مهم | The most **important** photos. |\n| 14 | remember | verb | to keep something in your mind | يتذكر | She still **remembers** them. |\n\n### 2.2 Synonyms and opposites\n\n| Word | Synonym | Opposite |\n|------|---------|----------|\n| lose | misplace | find / keep |\n| disappear | go away | appear |\n| important | serious, big | small, not important |\n| remember | keep in mind | forget |\n| sad | unhappy | happy / glad |\n| explain | make clear | confuse |\n| safe | protected | in danger |\n| everywhere | in all places | nowhere |\n\n### 2.3 Expressions to learn\n\n| Expression | What it really means |\n|------------|----------------------|\n| **make a backup** | create a second copy of your files |\n| **look everywhere** | search in all places |\n| **in one morning** | in a very short time |\n| **the most important** | more important than all the others |\n| **three years of work** | work that took three years |\n| **she had no other copy** | there was only one copy, and it was lost |\n| **it is only one place** | do not trust one place alone |\n\n### 2.4 Vocabulary practice\n\n**A. Write the opposite:**\n\n1. remember → \\_\\_\\_\\_\\_\\_\\_\\_\n2. find → \\_\\_\\_\\_\\_\\_\\_\\_\n3. appear → \\_\\_\\_\\_\\_\\_\\_\\_\n4. happy → \\_\\_\\_\\_\\_\\_\\_\\_\n5. nowhere → \\_\\_\\_\\_\\_\\_\\_\\_\n\n**B. Which word is different? Say why:**\n\n1. folder — copy — backup — market\n2. college — teacher — student — memory card\n3. lost — kept — took — important\n\n**C. Say it in your own words:**\n\n1. What is a backup?\n2. What does *everywhere* mean?"
+    },
+    {
+      "number": "04",
+      "slug": "grammar-past-simple",
+      "title": "Grammar — the past simple",
+      "minutes": 35,
+      "sheet": true,
+      "audio": false,
+      "markdown": "We use the past simple for a finished action in the past: *Last year she **studied** design.*\n\n### 3.1 Regular verbs — add **-ed**\n\n| Now | Last year |\n|---|---|\n| study | studi**ed** |\n| love | lov**ed** |\n| look | look**ed** |\n| copy | copi**ed** |\n| explain | explain**ed** |\n| disappear | disappear**ed** |\n| learn | learn**ed** |\n| remember | remember**ed** |\n\n### 3.2 Irregular verbs — you must learn each one\n\n| Now | Last year |\n|---|---|\n| is / are | **was / were** |\n| take | **took** |\n| keep | **kept** |\n| put | **put** |\n| go | **went** |\n| open | opened *(regular)* |\n| find | **found** |\n| have | **had** |\n| say | **said** |\n| send | **sent** |\n\n### 3.4 Negative and question\n\n| | Form | Example |\n|---|---|---|\n| Negative | **did not** + base verb | She **did not find** it. (not *did not found*) |\n| Question | **Did** + person + base verb | **Did** you **have** a backup? |\n\n### 3.5 Grammar practice\n\n**A. Put the verb in the past simple:**\n\n1. Last year she \\_\\_\\_\\_\\_\\_\\_\\_ (study) design.\n2. She \\_\\_\\_\\_\\_\\_\\_\\_ (take) photographs every week.\n3. She \\_\\_\\_\\_\\_\\_\\_\\_ (put) her phone in her bag.\n4. She \\_\\_\\_\\_\\_\\_\\_\\_ (not find) it.\n5. The teacher \\_\\_\\_\\_\\_\\_\\_\\_ (explain) the word.\n6. She \\_\\_\\_\\_\\_\\_\\_\\_ (send) some folders to an online drive.\n\n**B. Write the question:**\n\n1. \\_\\_\\_\\_\\_\\_\\_\\_ you \\_\\_\\_\\_\\_\\_\\_\\_ (have) a backup?\n2. \\_\\_\\_\\_\\_\\_\\_\\_ she \\_\\_\\_\\_\\_\\_\\_\\_ (find) her phone?"
+    },
+    {
+      "number": "05",
+      "slug": "ed-sounds",
+      "title": "The three sounds of -ed",
+      "minutes": 20,
+      "sheet": true,
+      "audio": true,
+      "segments": [
+        {
+          "say": "Pronunciation. The three sounds of E D.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 1
+        },
+        {
+          "say": "When we add E D to a verb, the letters do not change, but the sound changes. There are three sounds. Listen, then repeat.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 2
+        },
+        {
+          "say": "Sound number 1: a T sound.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 0.5
+        },
+        {
+          "say": "after a quiet sound like k, p or s.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 1
+        },
+        {
+          "say": "looked",
+          "voice": "reader"
+        },
+        {
+          "pause": 3
+        },
+        {
+          "say": "helped",
+          "voice": "reader"
+        },
+        {
+          "pause": 3
+        },
+        {
+          "say": "worked",
+          "voice": "reader"
+        },
+        {
+          "pause": 3
+        },
+        {
+          "say": "asked",
+          "voice": "reader"
+        },
+        {
+          "pause": 3
+        },
+        {
+          "say": "stopped",
+          "voice": "reader"
+        },
+        {
+          "pause": 3
+        },
+        {
+          "pause": 1
+        },
+        {
+          "say": "Sound number 2: a D sound.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 0.5
+        },
+        {
+          "say": "after a voiced sound like v, n or l.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 1
+        },
+        {
+          "say": "loved",
+          "voice": "reader"
+        },
+        {
+          "pause": 3
+        },
+        {
+          "say": "explained",
+          "voice": "reader"
+        },
+        {
+          "pause": 3
+        },
+        {
+          "say": "listened",
+          "voice": "reader"
+        },
+        {
+          "pause": 3
+        },
+        {
+          "say": "remembered",
+          "voice": "reader"
+        },
+        {
+          "pause": 3
+        },
+        {
+          "say": "opened",
+          "voice": "reader"
+        },
+        {
+          "pause": 3
+        },
+        {
+          "pause": 1
+        },
+        {
+          "say": "Sound number 3: an I D sound.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 0.5
+        },
+        {
+          "say": "after t or d, and here you hear an extra syllable.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 1
+        },
+        {
+          "say": "wanted",
+          "voice": "reader"
+        },
+        {
+          "pause": 3
+        },
+        {
+          "say": "needed",
+          "voice": "reader"
+        },
+        {
+          "pause": 3
+        },
+        {
+          "say": "started",
+          "voice": "reader"
+        },
+        {
+          "pause": 3
+        },
+        {
+          "say": "waited",
+          "voice": "reader"
+        },
+        {
+          "pause": 3
+        },
+        {
+          "say": "decided",
+          "voice": "reader"
+        },
+        {
+          "pause": 3
+        },
+        {
+          "pause": 1
+        },
+        {
+          "say": "Now the test. You will hear a verb. Say which sound you hear: the first, the second, or the third. Then you will hear the answer.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 2
+        },
+        {
+          "say": "Verb 1.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 0.4
+        },
+        {
+          "say": "studied",
+          "voice": "reader"
+        },
+        {
+          "pause": 4
+        },
+        {
+          "say": "The answer is sound number two, a D sound.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 1
+        },
+        {
+          "say": "Verb 2.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 0.4
+        },
+        {
+          "say": "looked",
+          "voice": "reader"
+        },
+        {
+          "pause": 4
+        },
+        {
+          "say": "The answer is sound number one, a T sound.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 1
+        },
+        {
+          "say": "Verb 3.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 0.4
+        },
+        {
+          "say": "wanted",
+          "voice": "reader"
+        },
+        {
+          "pause": 4
+        },
+        {
+          "say": "The answer is sound number three, an I D sound.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 1
+        },
+        {
+          "say": "Verb 4.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 0.4
+        },
+        {
+          "say": "copied",
+          "voice": "reader"
+        },
+        {
+          "pause": 4
+        },
+        {
+          "say": "The answer is sound number two, a D sound.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 1
+        },
+        {
+          "say": "Verb 5.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 0.4
+        },
+        {
+          "say": "helped",
+          "voice": "reader"
+        },
+        {
+          "pause": 4
+        },
+        {
+          "say": "The answer is sound number one, a T sound.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 1
+        },
+        {
+          "say": "Verb 6.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 0.4
+        },
+        {
+          "say": "needed",
+          "voice": "reader"
+        },
+        {
+          "pause": 4
+        },
+        {
+          "say": "The answer is sound number three, an I D sound.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 1
+        },
+        {
+          "say": "Verb 7.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 0.4
+        },
+        {
+          "say": "disappeared",
+          "voice": "reader"
+        },
+        {
+          "pause": 4
+        },
+        {
+          "say": "The answer is sound number two, a D sound.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 1
+        },
+        {
+          "say": "Verb 8.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 0.4
+        },
+        {
+          "say": "asked",
+          "voice": "reader"
+        },
+        {
+          "pause": 4
+        },
+        {
+          "say": "The answer is sound number one, a T sound.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 1
+        },
+        {
+          "say": "This is the end of the pronunciation practice.",
+          "voice": "narrator"
+        }
+      ],
+      "markdown": "### 3.3 The three sounds of **-ed** (listen to `05-ed-sounds.mp3`)\n\nIn the audio these are called **sound one**, **sound two** and **sound three**, in the same order as the table.\n\n| Sound | Example | Why |\n|---|---|---|\n| <span class=\"ipa\">/t/</span> | look**ed**, help**ed** | after a quiet sound like k, p, s |\n| <span class=\"ipa\">/d/</span> | lov**ed**, explain**ed** | after a voiced sound like v, n, l |\n| <span class=\"ipa\">/ɪd/</span> | want**ed**, need**ed** | after **t** or **d** |"
+    },
+    {
+      "number": "06",
+      "slug": "comprehension",
+      "title": "Comprehension — TOEFL question types",
+      "minutes": 35,
+      "sheet": true,
+      "audio": true,
+      "segments": [
+        {
+          "say": "Now get ready to answer the questions about the passage. You may look at the passage while you answer.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 2
+        },
+        {
+          "say": "Question 1.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 0.6
+        },
+        {
+          "say": "What did Maha study at college?",
+          "voice": "narrator"
+        },
+        {
+          "pause": 0.8
+        },
+        {
+          "say": "A. Photography.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 0.5
+        },
+        {
+          "say": "B. Design.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 0.5
+        },
+        {
+          "say": "C. Computers.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 0.5
+        },
+        {
+          "say": "D. The passage does not say.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 0.5
+        },
+        {
+          "pause": 12
+        },
+        {
+          "say": "Question 2.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 0.6
+        },
+        {
+          "say": "When did Maha lose her phone?",
+          "voice": "narrator"
+        },
+        {
+          "pause": 0.8
+        },
+        {
+          "say": "A. On a morning in May.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 0.5
+        },
+        {
+          "say": "B. At eleven o'clock at night.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 0.5
+        },
+        {
+          "say": "C. Three years ago.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 0.5
+        },
+        {
+          "say": "D. On her way home from the market.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 0.5
+        },
+        {
+          "pause": 12
+        },
+        {
+          "say": "Question 3.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 0.6
+        },
+        {
+          "say": "According to the passage, Maha made a copy of her photographs in all of the following places EXCEPT",
+          "voice": "narrator"
+        },
+        {
+          "pause": 0.8
+        },
+        {
+          "say": "A. a laptop.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 0.5
+        },
+        {
+          "say": "B. a memory card.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 0.5
+        },
+        {
+          "say": "C. an online drive.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 0.5
+        },
+        {
+          "say": "D. a second phone.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 0.5
+        },
+        {
+          "pause": 12
+        },
+        {
+          "say": "Question 4.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 0.6
+        },
+        {
+          "say": "The word \"disappeared\" in the passage is closest in meaning to",
+          "voice": "narrator"
+        },
+        {
+          "pause": 0.8
+        },
+        {
+          "say": "A. became old.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 0.5
+        },
+        {
+          "say": "B. were sold.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 0.5
+        },
+        {
+          "say": "C. were gone.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 0.5
+        },
+        {
+          "say": "D. became slow.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 0.5
+        },
+        {
+          "pause": 12
+        },
+        {
+          "say": "Question 5.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 0.6
+        },
+        {
+          "say": "In the sentence, if you lose the first copy, you still have the second one, the word \"one\" refers to",
+          "voice": "narrator"
+        },
+        {
+          "pause": 0.8
+        },
+        {
+          "say": "A. the file.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 0.5
+        },
+        {
+          "say": "B. the copy.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 0.5
+        },
+        {
+          "say": "C. the place.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 0.5
+        },
+        {
+          "say": "D. the phone.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 0.5
+        },
+        {
+          "pause": 12
+        },
+        {
+          "say": "Question 6.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 0.6
+        },
+        {
+          "say": "It can be inferred from the passage that Maha",
+          "voice": "narrator"
+        },
+        {
+          "pause": 0.8
+        },
+        {
+          "say": "A. did not understand the word backup before she lost her phone.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 0.5
+        },
+        {
+          "say": "B. found her phone later that week.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 0.5
+        },
+        {
+          "say": "C. stopped taking photographs after that day.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 0.5
+        },
+        {
+          "say": "D. did not trust her teacher.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 0.5
+        },
+        {
+          "pause": 12
+        },
+        {
+          "say": "Question seven.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 0.6
+        },
+        {
+          "say": "Look at the four letters, A, B, C and D, in your passage. They show four places where a sentence could be added. Listen to the sentence, then choose the best place.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 1
+        },
+        {
+          "say": "She asked her friends, she asked the college office, and she walked back to the market.",
+          "voice": "reader"
+        },
+        {
+          "pause": 2
+        },
+        {
+          "say": "Listen to the sentence again.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 1
+        },
+        {
+          "say": "She asked her friends, she asked the college office, and she walked back to the market.",
+          "voice": "reader"
+        },
+        {
+          "pause": 1
+        },
+        {
+          "say": "A. At letter A.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 0.5
+        },
+        {
+          "say": "B. At letter B.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 0.5
+        },
+        {
+          "say": "C. At letter C.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 0.5
+        },
+        {
+          "say": "D. At letter D.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 0.5
+        },
+        {
+          "pause": 20
+        },
+        {
+          "pause": 1.5
+        },
+        {
+          "say": "Last task. Write the story in two sentences only. Use the past simple. Sentence one: what happened. Sentence two: what she learned. You have ninety seconds.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 90
+        },
+        {
+          "say": "This is the end of the questions.",
+          "voice": "narrator"
+        }
+      ],
+      "markdown": "### Part A — Multiple choice\n\n**1. (Factual)** What did Maha study at college?\n\n- A. Photography\n- B. Design\n- C. Computers\n- D. The passage does not say\n\n**2. (Factual)** When did Maha lose her phone?\n\n- A. On a morning in May\n- B. At eleven o'clock at night\n- C. Three years ago\n- D. On her way home from the market\n\n**3. (Negative factual)** According to the passage, Maha made a copy of her photographs in all of the following places EXCEPT\n\n- A. a laptop\n- B. a memory card\n- C. an online drive\n- D. a second phone\n\n**4. (Vocabulary in context)** The word **\"disappeared\"** in the passage is closest in meaning to\n\n- A. became old\n- B. were sold\n- C. were gone\n- D. became slow\n\n**5. (Reference)** In the sentence *\"If you lose the first copy, you still have the second **one**\"*, the word **\"one\"** refers to\n\n- A. the file\n- B. the copy\n- C. the place\n- D. the phone\n\n**6. (Inference)** It can be inferred from the passage that Maha\n\n- A. did not understand the word *backup* before she lost her phone\n- B. found her phone later that week\n- C. stopped taking photographs after that day\n- D. did not trust her teacher\n\n**7. (Sentence insertion — NEW)** Look at the four letters **[A] [B] [C] [D]** in the passage. Where would this sentence best fit?\n\n> *She asked her friends, she asked the college office, and she walked back to the market.*\n\n- A. At **[A]**\n- B. At **[B]**\n- C. At **[C]**\n- D. At **[D]**\n\n### Part C — Fill in the blanks\n\nUse these words. There are **two extra words** you will not need.\n\n> *backup · college · everywhere · disappeared · copy · folders · memory card · important · explained · design*\n\n1. Maha was a student at a \\_\\_\\_\\_\\_\\_\\_\\_ in Gaza.\n2. She looked \\_\\_\\_\\_\\_\\_\\_\\_, but she did not find the phone.\n3. Three years of work \\_\\_\\_\\_\\_\\_\\_\\_ in one morning.\n4. A \\_\\_\\_\\_\\_\\_\\_\\_ is a second copy of your files in another place.\n5. The teacher \\_\\_\\_\\_\\_\\_\\_\\_ the word in a simple way.\n6. She copied the most \\_\\_\\_\\_\\_\\_\\_\\_ photographs to a \\_\\_\\_\\_\\_\\_\\_\\_.\n7. She sent some \\_\\_\\_\\_\\_\\_\\_\\_ to an online drive.\n\n### Part D — Summary (NEW)\n\nWrite the story in **two sentences only**. Use the past simple.\n\n> Sentence 1 — what happened: \\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\n> Sentence 2 — what she learned: \\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_"
+    },
+    {
+      "number": "07",
+      "slug": "true-false",
+      "title": "True / false",
+      "minutes": 15,
+      "sheet": true,
+      "audio": true,
+      "segments": [
+        {
+          "say": "True or false. You will hear six sentences. Say true or false. If the sentence is false, say the correct sentence.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 2
+        },
+        {
+          "say": "Sentence 1.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 0.5
+        },
+        {
+          "say": "Maha was a teacher at the college.",
+          "voice": "reader"
+        },
+        {
+          "pause": 8
+        },
+        {
+          "say": "Sentence 2.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 0.5
+        },
+        {
+          "say": "She had more than two thousand photographs.",
+          "voice": "reader"
+        },
+        {
+          "pause": 8
+        },
+        {
+          "say": "Sentence 3.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 0.5
+        },
+        {
+          "say": "She had a second copy of her photographs on a laptop before she lost the phone.",
+          "voice": "reader"
+        },
+        {
+          "pause": 8
+        },
+        {
+          "say": "Sentence 4.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 0.5
+        },
+        {
+          "say": "Her teacher asked her about a backup.",
+          "voice": "reader"
+        },
+        {
+          "pause": 8
+        },
+        {
+          "say": "Sentence 5.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 0.5
+        },
+        {
+          "say": "She kept the memory card at the college.",
+          "voice": "reader"
+        },
+        {
+          "pause": 8
+        },
+        {
+          "say": "Sentence 6.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 0.5
+        },
+        {
+          "say": "She sent some folders to an online drive when the internet was good.",
+          "voice": "reader"
+        },
+        {
+          "pause": 8
+        },
+        {
+          "say": "This is the end of the true or false questions.",
+          "voice": "narrator"
+        }
+      ],
+      "markdown": "### Part B — True / False\n\nWrite **T** or **F**. If it is false, write the correct sentence.\n\n1. Maha was a teacher at the college. \\_\\_\\_\\_\n2. She had more than two thousand photographs. \\_\\_\\_\\_\n3. She had a second copy of her photographs on a laptop before she lost the phone. \\_\\_\\_\\_\n4. Her teacher asked her about a backup. \\_\\_\\_\\_\n5. She kept the memory card at the college. \\_\\_\\_\\_\n6. She sent some folders to an online drive when the internet was good. \\_\\_\\_\\_"
+    },
+    {
+      "number": "08",
+      "slug": "speaking",
+      "title": "Speaking",
+      "minutes": 25,
+      "sheet": true,
+      "audio": true,
+      "segments": [
+        {
+          "say": "Speaking practice. For each question you will have fifteen seconds to prepare and forty-five seconds to speak. Record your answer on your phone.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 2
+        },
+        {
+          "say": "Speaking question 1.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 0.6
+        },
+        {
+          "say": "Tell the story of Maha in your own words. Use last year, then, and after that.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 1
+        },
+        {
+          "say": "Preparation time. Fifteen seconds.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 15
+        },
+        {
+          "say": "Begin speaking now.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 45
+        },
+        {
+          "say": "Stop speaking.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 2
+        },
+        {
+          "say": "Speaking question 2.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 0.6
+        },
+        {
+          "say": "Tell me about a time you lost something. What happened?",
+          "voice": "narrator"
+        },
+        {
+          "pause": 1
+        },
+        {
+          "say": "Preparation time. Fifteen seconds.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 15
+        },
+        {
+          "say": "Begin speaking now.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 45
+        },
+        {
+          "say": "Stop speaking.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 2
+        },
+        {
+          "say": "Speaking question 3.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 0.6
+        },
+        {
+          "say": "Where do you keep your important files? Is that safe? Why?",
+          "voice": "narrator"
+        },
+        {
+          "pause": 1
+        },
+        {
+          "say": "Preparation time. Fifteen seconds.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 15
+        },
+        {
+          "say": "Begin speaking now.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 45
+        },
+        {
+          "say": "Stop speaking.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 2
+        },
+        {
+          "say": "This is the end of the speaking practice.",
+          "voice": "narrator"
+        }
+      ],
+      "markdown": "### 5.1 Speaking (record each answer, 45 seconds)\n\n1. Tell the story of Maha in your own words. Use *last year, then, after that*.\n2. Tell me about a time you lost something. What happened?\n3. Where do you keep your important files? Is that safe? Why?\n\n**Useful sentence starters:**\n\n- *Last year, I \\_\\_\\_\\_.*\n- *One day, I lost \\_\\_\\_\\_.*\n- *I looked everywhere, but I did not find it.*\n- *After that, I learned to \\_\\_\\_\\_.*\n- *I keep my files on \\_\\_\\_\\_, because \\_\\_\\_\\_.*"
+    },
+    {
+      "number": "09",
+      "slug": "writing",
+      "title": "Writing — The Day I Lost Something",
+      "minutes": 35,
+      "sheet": true,
+      "audio": false,
+      "markdown": "### 5.2 Writing — \"The Day I Lost Something\" (8–10 sentences)\n\n**Model answer (copy the shape, change the words):**\n\n> Last year, I lost my student card. One morning, I put it in my pocket and went to college. At ten o'clock, I opened my pocket, but the card was not there. I looked everywhere. I asked my friends, and I walked back to the bus station. I did not find it. The office gave me a new card after one week. Now I keep a photograph of my card on my computer. It is a small backup, but it helps.\n\n**Checklist before you send it:**\n\n- [ ] I used the past simple in every sentence about the past.\n- [ ] I wrote *did not find*, not *did not found*.\n- [ ] I used at least **5 new words** from Session 2.\n- [ ] I used at least **2 irregular verbs** from Session 3.2.\n- [ ] Capital letters and full stops are correct.\n- [ ] My text has 8–10 sentences."
+    },
+    {
+      "number": "10",
+      "slug": "review",
+      "title": "Review",
+      "minutes": 30,
+      "sheet": true,
+      "audio": true,
+      "segments": [
+        {
+          "say": "Review. Listen to the passage again, with no text.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 2
+        },
+        {
+          "say": "Question one. Name three places where Maha put a copy of her photographs.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 10
+        },
+        {
+          "say": "Question two. What does she say now to every new student?",
+          "voice": "narrator"
+        },
+        {
+          "pause": 10
+        },
+        {
+          "pause": 1.5
+        },
+        {
+          "say": "Now the mini-quiz. Twelve marks. Answer in the silence after each question.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 2
+        },
+        {
+          "say": "One. The past simple of take is",
+          "voice": "narrator"
+        },
+        {
+          "pause": 6
+        },
+        {
+          "say": "Two. The past simple of keep is",
+          "voice": "narrator"
+        },
+        {
+          "pause": 6
+        },
+        {
+          "say": "Three. The past simple of study is",
+          "voice": "narrator"
+        },
+        {
+          "pause": 6
+        },
+        {
+          "say": "Four. The opposite of remember is",
+          "voice": "narrator"
+        },
+        {
+          "pause": 6
+        },
+        {
+          "say": "Five. The opposite of appear is",
+          "voice": "narrator"
+        },
+        {
+          "pause": 6
+        },
+        {
+          "say": "Six. A second copy of your files in another place is a",
+          "voice": "narrator"
+        },
+        {
+          "pause": 6
+        },
+        {
+          "say": "Seven. A place on a computer that holds files is a",
+          "voice": "narrator"
+        },
+        {
+          "pause": 6
+        },
+        {
+          "say": "Eight. In every place is",
+          "voice": "narrator"
+        },
+        {
+          "pause": 6
+        },
+        {
+          "say": "Nine. Write a question in the past simple using did.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 15
+        },
+        {
+          "say": "Ten. Write a negative sentence in the past simple.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 15
+        },
+        {
+          "say": "Eleven. Write one sentence with important.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 15
+        },
+        {
+          "say": "Twelve. Tell the story of the passage in one sentence, from memory.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 20
+        },
+        {
+          "say": "This is the end of the review.",
+          "voice": "narrator"
+        }
+      ],
+      "markdown": "### 6.1 Listen again (no text)\n\n1. Name three places where Maha put a copy of her photographs.\n2. What does she say now to every new student?\n\n### 6.2 Mini-quiz (12 marks)\n\n1. The past simple of *take* is \\_\\_\\_\\_\\_\\_\\_\\_.\n2. The past simple of *keep* is \\_\\_\\_\\_\\_\\_\\_\\_.\n3. The past simple of *study* is \\_\\_\\_\\_\\_\\_\\_\\_.\n4. The opposite of *remember* is \\_\\_\\_\\_\\_\\_\\_\\_.\n5. The opposite of *appear* is \\_\\_\\_\\_\\_\\_\\_\\_.\n6. A second copy of your files in another place = a \\_\\_\\_\\_\\_\\_\\_\\_.\n7. A place on a computer that holds files = a \\_\\_\\_\\_\\_\\_\\_\\_.\n8. In every place = \\_\\_\\_\\_\\_\\_\\_\\_.\n9. Write a question in the past simple using **did**.\n10. Write a negative sentence in the past simple.\n11. Write one sentence with **important**.\n12. Tell the story of the passage in one sentence, from memory.\n\n### 6.3 Lesson 2 self-report\n\n| Question | Answer |\n|---|---|\n| Minutes studied this week | |\n| Hardest part (listening / reading / vocabulary / grammar / speaking / writing) | |\n| Past-simple verbs I can now use without thinking | |\n| Words from Lesson 1 I have forgotten | |\n| One thing I want to repeat next week | |"
+    },
+    {
+      "number": "11",
+      "slug": "answer-key",
+      "title": "Answer key and teacher notes",
+      "minutes": 10,
+      "sheet": true,
+      "audio": false,
+      "css_id": "answer-key",
+      "markdown": "**Listening:** L1 — Maha, a student (at a college in Gaza) · L2 — her phone, and more than two thousand photographs · L3 — last year · L4 — her teacher\n\n**Part A (MCQ):** 1-B · 2-A · 3-D · 4-C · 5-B · 6-A · 7-B\n\n*Why 7 is **[B]***: the sentence describes searching, so it follows *\"She looked everywhere, but she did not find it.\"* — it belongs at the start of the next paragraph, before she turns to the photographs.\n\n**Part B (True/False):**\n\n1. F — She was a student at the college.\n2. T\n3. F — She had no other copy before she lost the phone.\n4. T\n5. F — She kept the memory card at home.\n6. T\n\n**Part C (Fill in the blanks):** 1. college · 2. everywhere · 3. disappeared · 4. backup · 5. explained · 6. important, memory card · 7. folders\n*(Extra words: copy, design)*\n\n**2.4 A (Opposites):** 1. forget · 2. lose · 3. disappear · 4. sad / unhappy · 5. everywhere\n\n**2.4 B (Odd one out):** 1. market (the others are computer words) · 2. memory card (the others are people/places at a college) · 3. important (the others are past-simple verbs)\n\n**3.5 A (Past simple):** 1. studied · 2. took · 3. put · 4. did not find · 5. explained · 6. sent\n**3.5 B (Questions):** 1. Did … have · 2. Did … find\n\n**Mini-quiz:** 1. took · 2. kept · 3. studied · 4. forget · 5. disappear · 6. backup · 7. folder · 8. everywhere · 9–12. teacher judgement\n\n### Teacher Notes {: #teacher-notes }\n\n**What changed from Lesson 1.** The passage grew from 185 to 244 words, the tense moved from present simple to past simple, and a seventh question type (sentence insertion) joined the set. Everything else — the order of the sessions, the five original TOEFL question types, the self-report — is deliberately identical, so only one thing is new at a time.\n\n**The one real difficulty.** Not the vocabulary: the *did not + base verb* rule. Arabic speakers very often produce *did not found*, because the past is already marked once. Correct it every time this week, even in speech, and it usually settles by Lesson 4.\n\n**Why this story.** The student is a postgraduate applying for an exchange: within a year they will be carrying their own application files, scans and transcripts between machines. The passage teaches the vocabulary of that problem while teaching the tense.\n\n**Success criteria for Lesson 2.** The student should be able to:\n\n- answer L1–L4 correctly on the second hearing;\n- retell the story in 4–5 past-simple sentences without the text;\n- form a correct negative and a correct question in the past simple;\n- use 10 of the 14 key words in their own sentence;\n- write 8 sentences about a personal past event with fewer than 4 tense errors.\n\n**If it is too easy:** Lesson 3 goes to 320 words with past continuous (*while she was walking*), and the MCQ set adds a \"purpose of the paragraph\" question.\n**If it is too hard:** keep the same passage for a second week, drop the sentence-insertion question, and drill only Session 3.1 and 3.4.\n\n**A note on Lesson 1 words.** The self-report asks which Lesson 1 words have been forgotten on purpose, and `05-ed-sounds.mp3`'s companion — the last minute of `03-vocabulary.mp3` — brings five Lesson 1 words back with a five-second gap before the meaning is given. Keep that habit every week: spaced recall, not repetition inside one week, is what moves vocabulary into long-term memory."
+    },
+    {
+      "number": "12",
+      "slug": "passage-slow",
+      "title": "Passage, extra slow",
+      "minutes": 10,
+      "sheet": false,
+      "audio": true,
+      "segments": [
+        {
+          "say": "Slow version. The passage, read slowly, one time.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 2
+        },
+        {
+          "say": "Last year, Maha was a student at a college in Gaza. She studied design, and she loved her work. Every week she took photographs of her city - the market, the sea, the old streets. She kept all of them on her phone.\n\nOne morning in May, Maha put her phone in her bag and went to college. At eleven o'clock, she opened the bag. The phone was not there. She looked everywhere, but she did not find it.\n\nShe was sad about the phone, but she was much sadder about the photographs. There were more than two thousand of them, and she had no other copy. Three years of work disappeared in one morning.\n\nHer teacher listened to her story and asked one question: \"Did you have a backup?\" Maha did not know the word. The teacher explained it in a simple way. A backup is a second copy of your files in another place. If you lose the first copy, you still have the second one.\n\nThat week, Maha learned how to make backups. She copied her new photographs to a laptop. She also copied the most important ones to a memory card, and she kept the card at home. When the internet was good, she sent some folders to an online drive.\n\nMaha still remembers her lost photographs. But now she says the same thing to every new student: \"Your phone is not a safe place. It is only one place.\"",
+          "voice": "slow"
+        }
+      ]
+    }
+  ]
+}

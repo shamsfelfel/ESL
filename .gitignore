@@ -1,0 +1,9 @@
+# Text-to-speech cache: shared by every lesson, rebuildable, never committed.
+.audio-cache/
+
+# Build scratch
+*.part
+__pycache__/
+
+# The generated PDFs and MP3s under lessons/ ARE committed on purpose, so the
+# student can download one file without running anything.

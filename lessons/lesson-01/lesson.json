@@ -1,0 +1,1158 @@
+{
+  "lesson": 1,
+  "slug": "lesson-01",
+  "title": "Lesson 1 — A Day with a Phone",
+  "level": "A1+ (entry) → first step toward A2",
+  "topic": "Daily routine and basic IT",
+  "time": "5 short sessions, 40–50 minutes each",
+  "skills": "Listening → Reading → Vocabulary → Comprehension → Speaking → Writing",
+  "new_in_this_lesson": "present simple, time expressions (at six o'clock, every morning, in the evening), and the five core TOEFL question types",
+  "passage_words": 185,
+  "footer": "Lesson 1 — A Day with a Phone",
+  "voices": {
+    "reader": {
+      "voice": "en-GB-RyanNeural",
+      "rate": "-10%",
+      "pitch": "+0Hz"
+    },
+    "narrator": {
+      "voice": "en-GB-SoniaNeural",
+      "rate": "-5%",
+      "pitch": "+0Hz"
+    },
+    "slow": {
+      "voice": "en-GB-RyanNeural",
+      "rate": "-25%",
+      "pitch": "+0Hz"
+    }
+  },
+  "how_to_work": [
+    "Play **01-passage.mp3** and listen twice with no text in front of you. Do not open the PDF yet.",
+    "Then work through the parts in number order, one part at a time. Play the MP3 of a part before you open its sheet.",
+    "Record your speaking answers on your phone, and send them with your writing and your self-report.",
+    "Open part 09, the answer key, only when parts 01 to 08 are finished."
+  ],
+  "full_section": {
+    "parts": [
+      "01",
+      "02",
+      "04",
+      "05"
+    ],
+    "gap": 3,
+    "closing": [
+      {
+        "pause": 2
+      },
+      {
+        "say": "This is the end of lesson one.",
+        "voice": "narrator"
+      }
+    ]
+  },
+  "parts": [
+    {
+      "number": "01",
+      "slug": "passage",
+      "title": "Passage — Sami's Morning",
+      "minutes": 20,
+      "sheet": true,
+      "audio": true,
+      "segments": [
+        {
+          "say": "Lesson one. A day with a phone. Listening practice.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 1
+        },
+        {
+          "say": "You will hear a short passage about a young man and his daily routine. You will hear it two times. Do not read the text. Listen only.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 2
+        },
+        {
+          "say": "Now listen.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 1.5
+        },
+        {
+          "say": "Sami lives in a small flat with his family. He is twenty years old. Every morning he wakes up at six o'clock. The first thing he does is look at his phone.\n\nOn his phone, Sami checks the weather and reads messages from his friends. Then he eats breakfast with his mother and his sister. They drink tea and eat bread, cheese and olives.\n\nAt seven o'clock, Sami goes to the computer centre near his house. He studies computers there. He learns how to use email, how to write documents, and how to keep his files safe. His teacher says, \"A computer is only a tool. The important thing is the person who uses it.\"\n\nSami likes his class, but the internet is often slow. Sometimes the electricity stops and the computers turn off. Then the students talk and practise on paper until the power comes back.\n\nIn the evening, Sami helps his sister with her homework. Before he sleeps, he puts his phone on the table and charges it for the next day.",
+          "voice": "reader"
+        },
+        {
+          "pause": 4
+        },
+        {
+          "say": "Now listen again.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 1.5
+        },
+        {
+          "say": "Sami lives in a small flat with his family. He is twenty years old. Every morning he wakes up at six o'clock. The first thing he does is look at his phone.\n\nOn his phone, Sami checks the weather and reads messages from his friends. Then he eats breakfast with his mother and his sister. They drink tea and eat bread, cheese and olives.\n\nAt seven o'clock, Sami goes to the computer centre near his house. He studies computers there. He learns how to use email, how to write documents, and how to keep his files safe. His teacher says, \"A computer is only a tool. The important thing is the person who uses it.\"\n\nSami likes his class, but the internet is often slow. Sometimes the electricity stops and the computers turn off. Then the students talk and practise on paper until the power comes back.\n\nIn the evening, Sami helps his sister with her homework. Before he sleeps, he puts his phone on the table and charges it for the next day.",
+          "voice": "reader"
+        },
+        {
+          "pause": 2
+        },
+        {
+          "say": "This is the end of the passage.",
+          "voice": "narrator"
+        }
+      ],
+      "markdown": "> **How to do the listening.** The student listens **before** seeing the text, twice, then reads.\n> Options: (1) you read the passage aloud slowly, about 90 words per minute, with a short pause at every full stop; (2) paste the passage into any free text-to-speech tool and set the speed to 0.8×.\n> Rule for Lesson 1: **no reading during the first two listenings.**\n\n### 1.1 Before listening (2 minutes, speak in Arabic if needed)\n\n1. What is the first thing you do in the morning?\n2. Do you use a phone or a computer every day?\n3. What makes studying difficult in your area?\n\n### 1.4 Now read the passage\n\n### 📖 Passage: *Sami's Morning* (185 words)\n\nSami lives in a small flat with his family. He is twenty years old. Every morning he wakes up at six o'clock. The first thing he does is look at his phone.\n\nOn his phone, Sami checks the weather and reads messages from his friends. Then he eats breakfast with his mother and his sister. They drink tea and eat bread, cheese and olives.\n\nAt seven o'clock, Sami goes to the computer centre near his house. He studies computers there. He learns how to use email, how to write documents, and how to keep his files safe. His teacher says, \"A computer is only a tool. The important thing is the person who uses it.\"\n\nSami likes his class, but the internet is often slow. Sometimes the electricity stops and the computers turn off. Then the students talk and practise on paper until the power comes back.\n\nIn the evening, Sami helps his sister with her homework. Before he sleeps, he puts his phone on the table and charges it for the next day.\n\n### 1.5 Read aloud\n\nRead the passage aloud **once**. Record it on the phone. Keep the recording — we will compare it with Lesson 4."
+    },
+    {
+      "number": "02",
+      "slug": "listening-questions",
+      "title": "Listening questions",
+      "minutes": 10,
+      "sheet": true,
+      "audio": true,
+      "segments": [
+        {
+          "say": "Now answer the listening questions. Write a short answer for each one.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 2
+        },
+        {
+          "say": "Question one. How old is the person in the story?",
+          "voice": "narrator"
+        },
+        {
+          "pause": 10
+        },
+        {
+          "say": "Question two. What does he study?",
+          "voice": "narrator"
+        },
+        {
+          "pause": 10
+        },
+        {
+          "say": "Question three. Is the story about the morning, the evening, or both?",
+          "voice": "narrator"
+        },
+        {
+          "pause": 10
+        },
+        {
+          "say": "This is the end of the listening questions.",
+          "voice": "narrator"
+        }
+      ],
+      "markdown": "### 1.2 Listening task — first time (eyes closed, no text)\n\nListen and answer with one word or a short phrase:\n\n- **L1.** How old is the person in the story?\n- **L2.** What does he study?\n- **L3.** Is the story about the morning, the evening, or both?\n\n### 1.3 Listening task — second time\n\nWrite down **three words** you heard and understood. Write down **one word** you heard but did not understand."
+    },
+    {
+      "number": "03",
+      "slug": "vocabulary",
+      "title": "Vocabulary",
+      "minutes": 35,
+      "sheet": true,
+      "audio": true,
+      "segments": [
+        {
+          "say": "Vocabulary practice. You will hear a word, then its meaning, then an example sentence. Repeat the word in the silence.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 2
+        },
+        {
+          "say": "Word 1.",
+          "voice": "narrator"
+        },
+        {
+          "say": "flat",
+          "voice": "reader"
+        },
+        {
+          "pause": 3
+        },
+        {
+          "say": "flat. a home inside a building.",
+          "voice": "reader"
+        },
+        {
+          "pause": 1
+        },
+        {
+          "say": "They live in a small flat.",
+          "voice": "reader"
+        },
+        {
+          "pause": 3
+        },
+        {
+          "say": "Word 2.",
+          "voice": "narrator"
+        },
+        {
+          "say": "wake up",
+          "voice": "reader"
+        },
+        {
+          "pause": 3
+        },
+        {
+          "say": "wake up. to stop sleeping.",
+          "voice": "reader"
+        },
+        {
+          "pause": 1
+        },
+        {
+          "say": "I wake up at six o'clock.",
+          "voice": "reader"
+        },
+        {
+          "pause": 3
+        },
+        {
+          "say": "Word 3.",
+          "voice": "narrator"
+        },
+        {
+          "say": "check",
+          "voice": "reader"
+        },
+        {
+          "pause": 3
+        },
+        {
+          "say": "check. to look at something to get information.",
+          "voice": "reader"
+        },
+        {
+          "pause": 1
+        },
+        {
+          "say": "He checks the weather on his phone.",
+          "voice": "reader"
+        },
+        {
+          "pause": 3
+        },
+        {
+          "say": "Word 4.",
+          "voice": "narrator"
+        },
+        {
+          "say": "breakfast",
+          "voice": "reader"
+        },
+        {
+          "pause": 3
+        },
+        {
+          "say": "breakfast. the first meal of the day.",
+          "voice": "reader"
+        },
+        {
+          "pause": 1
+        },
+        {
+          "say": "We eat breakfast together.",
+          "voice": "reader"
+        },
+        {
+          "pause": 3
+        },
+        {
+          "say": "Word 5.",
+          "voice": "narrator"
+        },
+        {
+          "say": "centre",
+          "voice": "reader"
+        },
+        {
+          "pause": 3
+        },
+        {
+          "say": "centre. a place where people meet, learn or work.",
+          "voice": "reader"
+        },
+        {
+          "pause": 1
+        },
+        {
+          "say": "He goes to the computer centre.",
+          "voice": "reader"
+        },
+        {
+          "pause": 3
+        },
+        {
+          "say": "Word 6.",
+          "voice": "narrator"
+        },
+        {
+          "say": "document",
+          "voice": "reader"
+        },
+        {
+          "pause": 3
+        },
+        {
+          "say": "document. a file with writing in it.",
+          "voice": "reader"
+        },
+        {
+          "pause": 1
+        },
+        {
+          "say": "He learns how to write a document.",
+          "voice": "reader"
+        },
+        {
+          "pause": 3
+        },
+        {
+          "say": "Word 7.",
+          "voice": "narrator"
+        },
+        {
+          "say": "safe",
+          "voice": "reader"
+        },
+        {
+          "pause": 3
+        },
+        {
+          "say": "safe. protected, not in danger.",
+          "voice": "reader"
+        },
+        {
+          "pause": 1
+        },
+        {
+          "say": "Keep your files safe.",
+          "voice": "reader"
+        },
+        {
+          "pause": 3
+        },
+        {
+          "say": "Word 8.",
+          "voice": "narrator"
+        },
+        {
+          "say": "tool",
+          "voice": "reader"
+        },
+        {
+          "pause": 3
+        },
+        {
+          "say": "tool. a thing you use to do work.",
+          "voice": "reader"
+        },
+        {
+          "pause": 1
+        },
+        {
+          "say": "A computer is only a tool.",
+          "voice": "reader"
+        },
+        {
+          "pause": 3
+        },
+        {
+          "say": "Word 9.",
+          "voice": "narrator"
+        },
+        {
+          "say": "slow",
+          "voice": "reader"
+        },
+        {
+          "pause": 3
+        },
+        {
+          "say": "slow. not fast.",
+          "voice": "reader"
+        },
+        {
+          "pause": 1
+        },
+        {
+          "say": "The internet is often slow.",
+          "voice": "reader"
+        },
+        {
+          "pause": 3
+        },
+        {
+          "say": "Word 10.",
+          "voice": "narrator"
+        },
+        {
+          "say": "electricity",
+          "voice": "reader"
+        },
+        {
+          "pause": 3
+        },
+        {
+          "say": "electricity. the power that makes machines work.",
+          "voice": "reader"
+        },
+        {
+          "pause": 1
+        },
+        {
+          "say": "Sometimes the electricity stops.",
+          "voice": "reader"
+        },
+        {
+          "pause": 3
+        },
+        {
+          "say": "Word 11.",
+          "voice": "narrator"
+        },
+        {
+          "say": "practise",
+          "voice": "reader"
+        },
+        {
+          "pause": 3
+        },
+        {
+          "say": "practise. to do something many times to learn it.",
+          "voice": "reader"
+        },
+        {
+          "pause": 1
+        },
+        {
+          "say": "The students practise on paper.",
+          "voice": "reader"
+        },
+        {
+          "pause": 3
+        },
+        {
+          "say": "Word 12.",
+          "voice": "narrator"
+        },
+        {
+          "say": "charge",
+          "voice": "reader"
+        },
+        {
+          "pause": 3
+        },
+        {
+          "say": "charge. to put electricity into a battery.",
+          "voice": "reader"
+        },
+        {
+          "pause": 1
+        },
+        {
+          "say": "He charges his phone every night.",
+          "voice": "reader"
+        },
+        {
+          "pause": 3
+        },
+        {
+          "say": "This is the end of the vocabulary practice.",
+          "voice": "narrator"
+        }
+      ],
+      "markdown": "### 2.1 Key words\n\n| # | Word | Type | Simple meaning | Arabic | Example |\n|---|------|------|----------------|--------|---------|\n| 1 | flat | noun | a home inside a building | شقة | They live in a small **flat**. |\n| 2 | wake up | verb | stop sleeping | يستيقظ | I **wake up** at six. |\n| 3 | check | verb | look at something to get information | يتفقّد | He **checks** the weather. |\n| 4 | breakfast | noun | the first meal of the day | الفطور | We eat **breakfast** together. |\n| 5 | centre | noun | a place where people meet, learn or work | مركز | A computer **centre**. |\n| 6 | document | noun | a file with writing in it | مستند | He writes a **document**. |\n| 7 | safe | adj. | not in danger; protected | آمن | Keep your files **safe**. |\n| 8 | tool | noun | a thing you use to do work | أداة | A computer is a **tool**. |\n| 9 | slow | adj. | not fast | بطيء | The internet is **slow**. |\n| 10 | electricity | noun | the power that makes machines work | الكهرباء | The **electricity** stops. |\n| 11 | practise | verb | do something many times to learn it | يتدرّب | They **practise** on paper. |\n| 12 | charge | verb | put electricity into a battery | يشحن | He **charges** his phone. |\n\n### 2.2 Synonyms and opposites\n\n| Word | Synonym (same meaning) | Opposite |\n|------|------------------------|----------|\n| slow | not quick | fast |\n| safe | protected | dangerous / in danger |\n| small | little | big / large |\n| difficult | hard | easy |\n| wake up | get up | go to sleep |\n| stop | finish | start / continue |\n| near | close to | far from |\n| help | assist | ignore |\n\n### 2.3 Expressions to learn\n\n| Expression | What it really means |\n|------------|----------------------|\n| **wake up** | stop sleeping |\n| **turn off** | stop working / stop the power (computers **turn off**) |\n| **come back** | return (*the power comes back* = the electricity returns) |\n| **check the weather** | look to see if it is hot, cold or rainy |\n| **keep your files safe** | protect your files so you do not lose them |\n| **only a tool** | it is just a thing — the person is more important |\n| **the first thing he does** | the action before all other actions |\n\n### 2.4 Vocabulary practice\n\n**A. Write the opposite:**\n\n1. fast → \\_\\_\\_\\_\\_\\_\\_\\_\n2. big → \\_\\_\\_\\_\\_\\_\\_\\_\n3. easy → \\_\\_\\_\\_\\_\\_\\_\\_\n4. dangerous → \\_\\_\\_\\_\\_\\_\\_\\_\n5. far from → \\_\\_\\_\\_\\_\\_\\_\\_\n\n**B. Which word is different? Circle it and say why:**\n\n1. breakfast — tea — bread — document\n2. phone — computer — olives — email\n3. slow — fast — quick — safe"
+    },
+    {
+      "number": "04",
+      "slug": "comprehension",
+      "title": "Comprehension — TOEFL question types",
+      "minutes": 30,
+      "sheet": true,
+      "audio": true,
+      "segments": [
+        {
+          "say": "Now get ready to answer the questions about the passage. You may look at the passage while you answer.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 2
+        },
+        {
+          "say": "Question 1.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 0.6
+        },
+        {
+          "say": "What does Sami do first in the morning?",
+          "voice": "narrator"
+        },
+        {
+          "pause": 0.8
+        },
+        {
+          "say": "A. He eats breakfast.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 0.5
+        },
+        {
+          "say": "B. He looks at his phone.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 0.5
+        },
+        {
+          "say": "C. He goes to the computer centre.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 0.5
+        },
+        {
+          "say": "D. He helps his sister.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 0.5
+        },
+        {
+          "pause": 12
+        },
+        {
+          "say": "Question 2.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 0.6
+        },
+        {
+          "say": "What do Sami and his family eat for breakfast?",
+          "voice": "narrator"
+        },
+        {
+          "pause": 0.8
+        },
+        {
+          "say": "A. Bread, cheese and olives.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 0.5
+        },
+        {
+          "say": "B. Rice and chicken.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 0.5
+        },
+        {
+          "say": "C. Only tea.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 0.5
+        },
+        {
+          "say": "D. The passage does not say.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 0.5
+        },
+        {
+          "pause": 12
+        },
+        {
+          "say": "Question 3.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 0.6
+        },
+        {
+          "say": "According to the passage, Sami learns all of the following EXCEPT",
+          "voice": "narrator"
+        },
+        {
+          "pause": 0.8
+        },
+        {
+          "say": "A. how to use email.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 0.5
+        },
+        {
+          "say": "B. how to write documents.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 0.5
+        },
+        {
+          "say": "C. how to repair computers.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 0.5
+        },
+        {
+          "say": "D. how to keep his files safe.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 0.5
+        },
+        {
+          "pause": 12
+        },
+        {
+          "say": "Question 4.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 0.6
+        },
+        {
+          "say": "The word \"slow\" in the passage is closest in meaning to",
+          "voice": "narrator"
+        },
+        {
+          "pause": 0.8
+        },
+        {
+          "say": "A. not working.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 0.5
+        },
+        {
+          "say": "B. not fast.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 0.5
+        },
+        {
+          "say": "C. very expensive.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 0.5
+        },
+        {
+          "say": "D. very new.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 0.5
+        },
+        {
+          "pause": 12
+        },
+        {
+          "say": "Question 5.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 0.6
+        },
+        {
+          "say": "In the sentence, the important thing is the person who uses it, the word \"it\" refers to",
+          "voice": "narrator"
+        },
+        {
+          "pause": 0.8
+        },
+        {
+          "say": "A. the teacher.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 0.5
+        },
+        {
+          "say": "B. the class.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 0.5
+        },
+        {
+          "say": "C. the computer.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 0.5
+        },
+        {
+          "say": "D. the file.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 0.5
+        },
+        {
+          "pause": 12
+        },
+        {
+          "say": "Question 6.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 0.6
+        },
+        {
+          "say": "It can be inferred from the passage that",
+          "voice": "narrator"
+        },
+        {
+          "pause": 0.8
+        },
+        {
+          "say": "A. Sami does not like studying computers.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 0.5
+        },
+        {
+          "say": "B. the students stop learning when the electricity stops.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 0.5
+        },
+        {
+          "say": "C. the students continue learning even without computers.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 0.5
+        },
+        {
+          "say": "D. Sami has his own computer at home.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 0.5
+        },
+        {
+          "pause": 12
+        },
+        {
+          "say": "This is the end of the multiple choice questions.",
+          "voice": "narrator"
+        }
+      ],
+      "markdown": "### Part A — Multiple choice (choose ONE answer)\n\n**1. (Factual)** What does Sami do first in the morning?\n\n- A. He eats breakfast.\n- B. He looks at his phone.\n- C. He goes to the computer centre.\n- D. He helps his sister.\n\n**2. (Factual)** What do Sami and his family eat for breakfast?\n\n- A. Bread, cheese and olives\n- B. Rice and chicken\n- C. Only tea\n- D. The passage does not say\n\n**3. (Negative factual)** According to the passage, Sami learns all of the following EXCEPT\n\n- A. how to use email\n- B. how to write documents\n- C. how to repair computers\n- D. how to keep his files safe\n\n**4. (Vocabulary in context)** The word **\"slow\"** in the passage is closest in meaning to\n\n- A. not working\n- B. not fast\n- C. very expensive\n- D. very new\n\n**5. (Reference)** In the sentence *\"The important thing is the person who uses **it**\"*, the word **\"it\"** refers to\n\n- A. the teacher\n- B. the class\n- C. the computer\n- D. the file\n\n**6. (Inference)** It can be inferred from the passage that\n\n- A. Sami does not like studying computers\n- B. the students stop learning when the electricity stops\n- C. the students continue learning even without computers\n- D. Sami has his own computer at home\n\n### Part C — Fill in the blanks\n\nUse these words. There are **two extra words** you will not need.\n\n> *charges · slow · tea · safe · tool · electricity · difficult · homework · centre*\n\n1. Sami goes to a computer \\_\\_\\_\\_\\_\\_\\_\\_ near his house.\n2. He learns how to keep his files \\_\\_\\_\\_\\_\\_\\_\\_.\n3. His teacher says a computer is only a \\_\\_\\_\\_\\_\\_\\_\\_.\n4. The internet in the class is often \\_\\_\\_\\_\\_\\_\\_\\_.\n5. Sometimes the \\_\\_\\_\\_\\_\\_\\_\\_ stops.\n6. In the evening, Sami helps his sister with her \\_\\_\\_\\_\\_\\_\\_\\_.\n7. Before he sleeps, he \\_\\_\\_\\_\\_\\_\\_\\_ his phone."
+    },
+    {
+      "number": "05",
+      "slug": "true-false",
+      "title": "True / false",
+      "minutes": 15,
+      "sheet": true,
+      "audio": true,
+      "segments": [
+        {
+          "say": "True or false. You will hear six sentences. Say true or false. If the sentence is false, say the correct sentence.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 2
+        },
+        {
+          "say": "Sentence 1.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 0.5
+        },
+        {
+          "say": "Sami wakes up at seven o'clock.",
+          "voice": "reader"
+        },
+        {
+          "pause": 8
+        },
+        {
+          "say": "Sentence 2.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 0.5
+        },
+        {
+          "say": "Sami lives alone.",
+          "voice": "reader"
+        },
+        {
+          "pause": 8
+        },
+        {
+          "say": "Sentence 3.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 0.5
+        },
+        {
+          "say": "The computer centre is near his house.",
+          "voice": "reader"
+        },
+        {
+          "pause": 8
+        },
+        {
+          "say": "Sentence 4.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 0.5
+        },
+        {
+          "say": "The internet is always fast.",
+          "voice": "reader"
+        },
+        {
+          "pause": 8
+        },
+        {
+          "say": "Sentence 5.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 0.5
+        },
+        {
+          "say": "The students use paper when the computers turn off.",
+          "voice": "reader"
+        },
+        {
+          "pause": 8
+        },
+        {
+          "say": "Sentence 6.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 0.5
+        },
+        {
+          "say": "Sami charges his phone in the morning.",
+          "voice": "reader"
+        },
+        {
+          "pause": 8
+        },
+        {
+          "say": "This is the end of the true or false questions.",
+          "voice": "narrator"
+        }
+      ],
+      "markdown": "### Part B — True / False\n\nWrite **T** or **F**. If it is **False**, write the correct sentence.\n\n1. Sami wakes up at seven o'clock. \\_\\_\\_\\_\n2. Sami lives alone. \\_\\_\\_\\_\n3. The computer centre is near his house. \\_\\_\\_\\_\n4. The internet is always fast. \\_\\_\\_\\_\n5. The students use paper when the computers turn off. \\_\\_\\_\\_\n6. Sami charges his phone in the morning. \\_\\_\\_\\_"
+    },
+    {
+      "number": "06",
+      "slug": "speaking",
+      "title": "Speaking",
+      "minutes": 25,
+      "sheet": true,
+      "audio": true,
+      "segments": [
+        {
+          "say": "Speaking practice. For each question you will have fifteen seconds to prepare and forty-five seconds to speak. Record your answer on your phone.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 2
+        },
+        {
+          "say": "Speaking question 1.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 0.6
+        },
+        {
+          "say": "Describe your morning. Use the words wake up, breakfast, then, and after that.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 1
+        },
+        {
+          "say": "Preparation time. Fifteen seconds.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 15
+        },
+        {
+          "say": "Begin speaking now.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 45
+        },
+        {
+          "say": "Stop speaking.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 2
+        },
+        {
+          "say": "Speaking question 2.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 0.6
+        },
+        {
+          "say": "What do you use your phone for? Give two things.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 1
+        },
+        {
+          "say": "Preparation time. Fifteen seconds.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 15
+        },
+        {
+          "say": "Begin speaking now.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 45
+        },
+        {
+          "say": "Stop speaking.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 2
+        },
+        {
+          "say": "Speaking question 3.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 0.6
+        },
+        {
+          "say": "Is a computer important for your study? Why?",
+          "voice": "narrator"
+        },
+        {
+          "pause": 1
+        },
+        {
+          "say": "Preparation time. Fifteen seconds.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 15
+        },
+        {
+          "say": "Begin speaking now.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 45
+        },
+        {
+          "say": "Stop speaking.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 2
+        },
+        {
+          "say": "This is the end of the speaking practice.",
+          "voice": "narrator"
+        }
+      ],
+      "markdown": "### 4.1 Speaking (record each answer on the phone, 30–45 seconds)\n\n1. Describe your morning. Use *wake up, breakfast, then, after that*.\n2. What do you use your phone for? Give two things.\n3. Is a computer important for your study? Why?\n\n**Useful sentence starters:**\n\n- *I wake up at \\_\\_\\_\\_ o'clock.*\n- *The first thing I do is \\_\\_\\_\\_.*\n- *After that, I \\_\\_\\_\\_.*\n- *I use my phone to \\_\\_\\_\\_.*\n- *I think a computer is important because \\_\\_\\_\\_.*"
+    },
+    {
+      "number": "07",
+      "slug": "writing",
+      "title": "Writing — My Morning",
+      "minutes": 30,
+      "sheet": true,
+      "audio": false,
+      "markdown": "### 4.2 Writing — \"My Morning\" (6–8 sentences)\n\n**Model answer (copy the shape, change the words):**\n\n> I wake up at seven o'clock. The first thing I do is drink water. Then I eat breakfast with my family. We eat bread and cheese. After breakfast, I study English for one hour. I use my phone to read messages. In the evening, I charge my phone.\n\n**Checklist before you send it:**\n\n- [ ] Every sentence starts with a capital letter.\n- [ ] Every sentence ends with a full stop (.)\n- [ ] I used *I wake up*, not *I wakes up*.\n- [ ] I used at least **4 new words** from Session 2.\n- [ ] My text has 6–8 sentences."
+    },
+    {
+      "number": "08",
+      "slug": "review",
+      "title": "Review",
+      "minutes": 30,
+      "sheet": true,
+      "audio": true,
+      "segments": [
+        {
+          "say": "Review. Listen to the passage again, with no text, and answer these questions.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 2
+        },
+        {
+          "say": "Question one. Name three things Sami does with his phone.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 10
+        },
+        {
+          "say": "Question two. Why do the students work on paper?",
+          "voice": "narrator"
+        },
+        {
+          "pause": 10
+        },
+        {
+          "pause": 1.5
+        },
+        {
+          "say": "Now the mini-quiz. Ten marks. Answer in the silence after each question.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 2
+        },
+        {
+          "say": "One. The opposite of fast is",
+          "voice": "narrator"
+        },
+        {
+          "pause": 6
+        },
+        {
+          "say": "Two. The opposite of safe is",
+          "voice": "narrator"
+        },
+        {
+          "pause": 6
+        },
+        {
+          "say": "Three. To stop sleeping is to",
+          "voice": "narrator"
+        },
+        {
+          "pause": 6
+        },
+        {
+          "say": "Four. To put electricity in a battery is to",
+          "voice": "narrator"
+        },
+        {
+          "pause": 6
+        },
+        {
+          "say": "Five. A thing you use to do work is a",
+          "voice": "narrator"
+        },
+        {
+          "pause": 6
+        },
+        {
+          "say": "Six. A file with writing in it is a",
+          "voice": "narrator"
+        },
+        {
+          "pause": 6
+        },
+        {
+          "say": "Seven. Write a sentence with check.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 15
+        },
+        {
+          "say": "Eight. Write a sentence with practise.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 15
+        },
+        {
+          "say": "Nine. Write a sentence with electricity.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 15
+        },
+        {
+          "say": "Ten. Say the passage title and one sentence about it, from memory.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 20
+        },
+        {
+          "say": "This is the end of the review.",
+          "voice": "narrator"
+        }
+      ],
+      "markdown": "### 5.1 Listen again (no text) and answer\n\n1. Name three things Sami does with his phone.\n2. Why do the students work on paper?\n\n### 5.2 Mini-quiz (10 marks)\n\n1. The opposite of *fast* is \\_\\_\\_\\_\\_\\_\\_\\_.\n2. The opposite of *safe* is \\_\\_\\_\\_\\_\\_\\_\\_.\n3. *To stop sleeping* = to \\_\\_\\_\\_ \\_\\_\\_\\_.\n4. *To put electricity in a battery* = to \\_\\_\\_\\_\\_\\_\\_\\_.\n5. A thing you use to do work = a \\_\\_\\_\\_\\_\\_\\_\\_.\n6. A file with writing in it = a \\_\\_\\_\\_\\_\\_\\_\\_.\n7. Write a sentence with **check**.\n8. Write a sentence with **practise**.\n9. Write a sentence with **electricity**.\n10. Say the passage title and one sentence about it, from memory.\n\n### 5.3 Lesson 1 self-report (send to the teacher)\n\n| Question | Answer |\n|---|---|\n| Minutes studied this week | |\n| Hardest part (listening / reading / vocabulary / speaking / writing) | |\n| New words I can now use without looking | |\n| One thing I want to repeat next week | |"
+    },
+    {
+      "number": "09",
+      "slug": "answer-key",
+      "title": "Answer key and teacher notes",
+      "minutes": 10,
+      "sheet": true,
+      "audio": false,
+      "css_id": "answer-key",
+      "markdown": "**Listening:** L1 — twenty years old · L2 — computers · L3 — both (morning and evening)\n\n**Part A (MCQ):** 1-B · 2-A · 3-C · 4-B · 5-C · 6-C\n\n**Part B (True/False):**\n\n1. F — He wakes up at six o'clock.\n2. F — He lives with his family.\n3. T\n4. F — The internet is often slow.\n5. T\n6. F — He charges it before he sleeps / in the evening.\n\n**Part C (Fill in the blanks):** 1. centre · 2. safe · 3. tool · 4. slow · 5. electricity · 6. homework · 7. charges\n*(Extra words: tea, difficult)*\n\n**2.4 A (Opposites):** 1. slow · 2. small / little · 3. difficult / hard · 4. safe · 5. near / close to\n\n**2.4 B (Odd one out):** 1. document (the others are food/drink) · 2. olives (the others are technology) · 3. safe (the others describe speed)\n\n**Mini-quiz:** 1. slow · 2. dangerous · 3. wake up · 4. charge · 5. tool · 6. document · 7–10. teacher judgement\n\n### Teacher Notes {: #teacher-notes }\n\n**Why this order.** Listening before reading stops the student from \"reading with the ears\" — at A1 the habit of matching sound to text too early blocks real listening later. From Lesson 3 we can shorten the gap.\n\n**What Lesson 1 deliberately does NOT do.** No grammar rules, no past tense, no abstract vocabulary, no long sentences. The passage uses only present simple and about 120 distinct words, most of them in the first 500 most-frequent English words.\n\n**Success criteria for Lesson 1.** The student should be able to:\n\n- answer the three listening questions correctly on the second hearing;\n- read the passage aloud in under 2 minutes without stopping;\n- use 8 of the 12 key words in their own sentence;\n- write 6 correct simple sentences about their own morning.\n\n**If it is too easy:** move to Lesson 2 with a 250-word passage, add past simple, and add a 2-question summary task.\n**If it is too hard:** split the passage into two halves across two weeks and cut the vocabulary list to 8 words.\n\n**Toward B2.** The TOEFL question types in Part A (factual, negative factual, vocabulary in context, reference, inference) are the same five types the student will meet at B2 level. We keep the types constant for 8 months and raise only the text difficulty — so the exam format never becomes the obstacle."
+    },
+    {
+      "number": "10",
+      "slug": "passage-slow",
+      "title": "Passage, extra slow",
+      "minutes": 10,
+      "sheet": false,
+      "audio": true,
+      "segments": [
+        {
+          "say": "Slow version. The passage, read slowly, one time.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 2
+        },
+        {
+          "say": "Sami lives in a small flat with his family. He is twenty years old. Every morning he wakes up at six o'clock. The first thing he does is look at his phone.\n\nOn his phone, Sami checks the weather and reads messages from his friends. Then he eats breakfast with his mother and his sister. They drink tea and eat bread, cheese and olives.\n\nAt seven o'clock, Sami goes to the computer centre near his house. He studies computers there. He learns how to use email, how to write documents, and how to keep his files safe. His teacher says, \"A computer is only a tool. The important thing is the person who uses it.\"\n\nSami likes his class, but the internet is often slow. Sometimes the electricity stops and the computers turn off. Then the students talk and practise on paper until the power comes back.\n\nIn the evening, Sami helps his sister with her homework. Before he sleeps, he puts his phone on the table and charges it for the next day.",
+          "voice": "slow"
+        }
+      ]
+    }
+  ]
+}
