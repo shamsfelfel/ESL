@@ -837,6 +837,218 @@
       ]
     },
     {
+      "kind": "lesson",
+      "slug": "lesson-05",
+      "path": "lessons/lesson-05",
+      "number": 5,
+      "title": "Lesson 5 — The Two O'Clock Class",
+      "level": "A2+ → B1 (fifth step)",
+      "topic": "Teaching computers, volunteering and small steady progress",
+      "time": "6 sessions, 50–60 minutes each",
+      "skills": "Listening → Reading → Vocabulary → Grammar → Comprehension → Speaking → Writing",
+      "new": "the present perfect continuous with for and since, the -ing ending and the weak been, a longer passage of 481 words, and the last new question type: the writer's attitude. The comprehension set reaches ten questions, the size of a real TOEFL set.",
+      "minutes": 305,
+      "bytes": 20381779,
+      "howToWork": [
+        "Play **01-passage.mp3** and listen twice with no text in front of you. Do not open the PDF yet.",
+        "Then work through the parts in number order. Part 04 is grammar and has no audio; part 05 needs its audio most of all, because *has*, *been* and *-ing* all shrink in speech.",
+        "Part 06 has ten questions this time. Do it in one sitting, with a clock, the way the exam will be.",
+        "Open part 11, the answer key, only when parts 01 to 10 are finished."
+      ],
+      "games": [
+        {
+          "number": "13",
+          "slug": "crossword",
+          "title": "Crossword",
+          "minutes": 15,
+          "file": "13-crossword.html",
+          "bytes": 36170
+        },
+        {
+          "number": "14",
+          "slug": "word-search",
+          "title": "Word search",
+          "minutes": 10,
+          "file": "14-word-search.html",
+          "bytes": 21062
+        }
+      ],
+      "whole": {
+        "pdf": {
+          "file": "00-lesson.pdf",
+          "bytes": 87195
+        },
+        "mp3": {
+          "file": "00-full-section.mp3",
+          "bytes": 6382368,
+          "seconds": 1063.7
+        }
+      },
+      "parts": [
+        {
+          "number": "01",
+          "slug": "passage",
+          "title": "Passage — The Two O'Clock Class",
+          "minutes": 20,
+          "pdf": {
+            "file": "01-passage.pdf",
+            "bytes": 24826
+          },
+          "mp3": {
+            "file": "01-passage.mp3",
+            "bytes": 2276928,
+            "seconds": 379.5
+          }
+        },
+        {
+          "number": "02",
+          "slug": "listening-questions",
+          "title": "Listening questions",
+          "minutes": 10,
+          "pdf": {
+            "file": "02-listening-questions.pdf",
+            "bytes": 16052
+          },
+          "mp3": {
+            "file": "02-listening-questions.mp3",
+            "bytes": 409680,
+            "seconds": 68.3
+          }
+        },
+        {
+          "number": "03",
+          "slug": "vocabulary",
+          "title": "Vocabulary and Lesson 3 recall",
+          "minutes": 35,
+          "pdf": {
+            "file": "03-vocabulary.pdf",
+            "bytes": 30448
+          },
+          "mp3": {
+            "file": "03-vocabulary.mp3",
+            "bytes": 2054736,
+            "seconds": 342.5
+          }
+        },
+        {
+          "number": "04",
+          "slug": "grammar-present-perfect-continuous",
+          "title": "Grammar — the present perfect continuous",
+          "minutes": 50,
+          "pdf": {
+            "file": "04-grammar-present-perfect-continuous.pdf",
+            "bytes": 25843
+          }
+        },
+        {
+          "number": "05",
+          "slug": "ing-and-been",
+          "title": "The -ing ending and been",
+          "minutes": 20,
+          "pdf": {
+            "file": "05-ing-and-been.pdf",
+            "bytes": 22004
+          },
+          "mp3": {
+            "file": "05-ing-and-been.mp3",
+            "bytes": 1137600,
+            "seconds": 189.6
+          }
+        },
+        {
+          "number": "06",
+          "slug": "comprehension",
+          "title": "Comprehension — a full TOEFL set of ten",
+          "minutes": 45,
+          "pdf": {
+            "file": "06-comprehension.pdf",
+            "bytes": 24003
+          },
+          "mp3": {
+            "file": "06-comprehension.mp3",
+            "bytes": 3017232,
+            "seconds": 502.9
+          }
+        },
+        {
+          "number": "07",
+          "slug": "true-false",
+          "title": "True / false",
+          "minutes": 15,
+          "pdf": {
+            "file": "07-true-false.pdf",
+            "bytes": 14386
+          },
+          "mp3": {
+            "file": "07-true-false.mp3",
+            "bytes": 597024,
+            "seconds": 99.5
+          }
+        },
+        {
+          "number": "08",
+          "slug": "speaking",
+          "title": "Speaking",
+          "minutes": 25,
+          "pdf": {
+            "file": "08-speaking.pdf",
+            "bytes": 17500
+          },
+          "mp3": {
+            "file": "08-speaking.mp3",
+            "bytes": 1524672,
+            "seconds": 254.1
+          }
+        },
+        {
+          "number": "09",
+          "slug": "writing",
+          "title": "Writing — Something I Have Been Doing for a Long Time",
+          "minutes": 35,
+          "pdf": {
+            "file": "09-writing.pdf",
+            "bytes": 19445
+          }
+        },
+        {
+          "number": "10",
+          "slug": "review",
+          "title": "Review",
+          "minutes": 30,
+          "pdf": {
+            "file": "10-review.pdf",
+            "bytes": 20300
+          },
+          "mp3": {
+            "file": "10-review.mp3",
+            "bytes": 1321920,
+            "seconds": 220.3
+          }
+        },
+        {
+          "number": "11",
+          "slug": "answer-key",
+          "title": "Answer key and teacher notes",
+          "minutes": 10,
+          "pdf": {
+            "file": "11-answer-key.pdf",
+            "bytes": 31601
+          }
+        },
+        {
+          "number": "12",
+          "slug": "passage-slow",
+          "title": "Passage, extra slow",
+          "minutes": 10,
+          "mp3": {
+            "file": "12-passage-slow.mp3",
+            "bytes": 1268784,
+            "seconds": 211.5
+          }
+        }
+      ]
+    },
+    {
       "kind": "test",
       "slug": "test-01",
       "path": "tests/test-01",

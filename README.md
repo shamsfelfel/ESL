@@ -44,8 +44,9 @@ Four rules hold for the whole course:
 - **The question types never change.** Comprehension questions follow TOEFL iBT
   types from Lesson 1 on: factual, negative factual, vocabulary in context,
   reference and inference, with sentence insertion added in Lesson 2, purpose
-  of a paragraph in Lesson 3 and the purpose of the whole passage in Lesson 4.
-  Only the text gets harder, so the exam format never becomes the obstacle.
+  of a paragraph in Lesson 3, the purpose of the whole passage in Lesson 4 and
+  the writer's attitude in Lesson 5 — eight types in all, complete from Lesson 5
+  on. Only the text gets harder, so the exam format never becomes the obstacle.
 - **Vocabulary comes back two lessons later.** Words from two lessons earlier
   are heard again inside each new lesson — spaced recall, not repetition inside
   one lesson.
@@ -64,7 +65,7 @@ Four rules hold for the whole course:
 | 2 | Past simple | Present simple → where frequency words go |
 | 3 | Past continuous | Past simple → time expressions, *ago*, five more irregular verbs |
 | 4 | Present perfect | Past continuous → two long actions at once, a moment in the past |
-| 5 | Present perfect continuous | Present simple → the present simple for timetables and permanent facts |
+| 5 | Present perfect continuous | Present simple → timetables, fixed arrangements and permanent facts |
 | 6 | Future: *will* / *going to* | Present perfect → *for* and *since* against exact dates |
 | 7 | Past perfect | Past continuous → background in longer narrative |
 | 8 | Modals of obligation and ability | Past simple → time clauses and sequencing |
@@ -81,11 +82,16 @@ contrast table. Vocabulary spirals the same way, on a fixed two-lesson gap.
 | [Lesson 2](lessons/lesson-02/README.md) | [The Lost Photographs](lessons/lesson-02/README.md) | A1+ → A2 | Keeping files safe, student life | Past simple, the three sounds of `-ed`, sentence insertion, a two-sentence written summary, the first spaced recall of Lesson 1 vocabulary. 244-word passage. | Complete |
 | [Lesson 3](lessons/lesson-03/README.md) | [The Night the Network Failed](lessons/lesson-03/README.md) | A2 | Computing and student life: files, servers and backups | Past continuous, the weak sounds of *was* and *were*, purpose of a paragraph. 320-word passage. | Complete |
 | [Lesson 4](lessons/lesson-04/README.md) | [One Small Thing, Many Times](lessons/lesson-04/README.md) | A2+ | Web design, online learning and a small shop | Present perfect with *for*, *since*, *never*, *already* and *yet*, the short forms of *have* and *has*, purpose of the whole passage, the first spaced recall of Lesson 2 vocabulary. 400-word passage. | Complete |
+| [Lesson 5](lessons/lesson-05/README.md) | [The Two O'Clock Class](lessons/lesson-05/README.md) | A2+ → B1 | Teaching computers, volunteering and small steady progress | Present perfect continuous, the *-ing* ending and the weak *been*, the writer's attitude — and the comprehension set reaches ten questions, the size of a real TOEFL set. 481-word passage. | Complete |
 
-Lesson 5 is planned to go to roughly 480 words and add the present perfect
-continuous, with a second whole-passage question about the writer's attitude.
-Later lessons are built at most four lessons ahead of the student, so each one
-can still answer the mistakes she is actually making.
+**The question set is now complete.** Ten questions, eight types, introduced one
+at a time across five lessons. From Lesson 6 nothing new is added to the format;
+only the text gets harder. That was the promise made in Lesson 1, and this is
+where it is kept.
+
+Lesson 6 is planned to go to roughly 550 words and add the future with *will*
+and *going to*. Later lessons are built at most four lessons ahead of the
+student, so each one can still answer the mistakes she is actually making.
 
 ## Tests
 
@@ -147,6 +153,7 @@ lesson folder: [Lesson 1](lessons/lesson-01/README.md),
 [Lesson 2](lessons/lesson-02/README.md),
 [Lesson 3](lessons/lesson-03/README.md),
 [Lesson 4](lessons/lesson-04/README.md),
+[Lesson 5](lessons/lesson-05/README.md),
 [Progress Test 1](tests/test-01/README.md). Each one has a table of parts in
 study order.
 

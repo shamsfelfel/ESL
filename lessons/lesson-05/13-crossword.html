@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Crossword - Lesson 5 — The Two O'Clock Class</title>
+<meta name="theme-color" content="#15607a">
+<style>
+:root{--ink:#1a1d21;--muted:#5d646e;--rule:#dfe3e8;--accent:#15607a;
+--wash:#f1f6f8;--bg:#fff;--ok:#1d6b45;--bad:#a4302a}
+@media(prefers-color-scheme:dark){:root{--ink:#e9edf1;--muted:#9aa4b0;
+--rule:#2b3138;--accent:#6fc2de;--wash:#1a2026;--bg:#10151a;--ok:#6fd19d;--bad:#e8857f}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);padding:16px;
+font:16px/1.5 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+.wrap{max-width:46rem;margin:0 auto}
+h1{font-size:20px;margin:0 0 2px;color:var(--accent)}
+.sub{color:var(--muted);font-size:14px;margin:0 0 14px}
+.bar{display:flex;gap:8px;flex-wrap:wrap;margin:14px 0}
+button{font:inherit;font-size:14px;padding:7px 14px;border-radius:99px;
+border:1px solid var(--accent);background:transparent;color:var(--accent);cursor:pointer;min-height:38px}
+button.primary{background:var(--accent);color:#fff}
+.msg{min-height:22px;font-size:14px;font-weight:600;margin-bottom:6px}
+.msg.good{color:var(--ok)}.msg.bad{color:var(--bad)}
+table.grid{border-collapse:collapse;margin:0 auto 6px}
+table.grid td{padding:0;border:0}
+.cell{width:var(--sq);height:var(--sq);position:relative;border:1px solid var(--rule);
+background:var(--wash)}
+.cell.block{border:0;background:transparent}
+.cell input{width:100%;height:100%;border:0;background:transparent;text-align:center;
+font:600 calc(var(--sq)*0.52)/1 inherit;color:var(--ink);text-transform:uppercase;padding:0}
+.cell input:focus{outline:2px solid var(--accent);outline-offset:-2px}
+.cell.right input{color:var(--ok)}
+.cell.wrong input{color:var(--bad)}
+.num{position:absolute;top:1px;left:2px;font-size:calc(var(--sq)*0.28);color:var(--muted);
+pointer-events:none}
+.clues{display:grid;grid-template-columns:1fr;gap:18px;margin-top:18px}
+@media(min-width:620px){.clues{grid-template-columns:1fr 1fr}}
+.clues h2{font-size:14px;text-transform:uppercase;letter-spacing:.05em;color:var(--muted);
+margin:0 0 6px}
+ol.clue{margin:0;padding-left:0;list-style:none}
+ol.clue li{margin-bottom:6px;font-size:14.5px;display:flex;gap:7px}
+ol.clue b{color:var(--accent);min-width:1.6em;text-align:right}
+ol.clue li.done{color:var(--muted);text-decoration:line-through}
+.ar{font-size:13px;color:var(--muted)}
+.ws td{border:0}
+.ws .cell{background:transparent;border:0;display:flex;align-items:center;
+justify-content:center;font-weight:600;font-size:calc(var(--sq)*0.5);cursor:pointer;
+user-select:none;-webkit-user-select:none;border-radius:4px}
+.ws .cell.sel{background:var(--accent);color:#fff}
+.ws .cell.found{background:var(--wash);color:var(--ok)}
+.words{display:flex;flex-wrap:wrap;gap:6px 14px;margin-top:14px}
+.words span{font-size:14.5px}
+.words span.found{color:var(--muted);text-decoration:line-through}
+.foot{margin-top:26px;border-top:1px solid var(--rule);padding-top:10px;
+font-size:13px;color:var(--muted)}
+.foot a{color:var(--accent)}
+
+:root{--sq:min(5.2vw, 32px)}</style>
+</head>
+<body><div class="wrap">
+<h1>Crossword</h1>
+<p class="sub">Lesson 5 — The Two O'Clock Class &middot; 19 words from this lesson. Read the meaning, write the word.</p>
+<div class="msg" id="msg"></div>
+<table class="grid"><tbody>
+<tr><td><div class="cell block"></div></td><td><div class="cell block"></div></td><td><div class="cell block"></div></td><td><div class="cell block"></div></td><td><div class="cell block"></div></td><td><div class="cell block"></div></td><td><div class="cell block"></div></td><td><div class="cell block"></div></td><td><div class="cell block"></div></td><td><div class="cell block"></div></td><td><div class="cell block"></div></td><td><div class="cell" data-r="0" data-c="11"><span class="num">1</span><input maxlength="1" inputmode="latin" autocomplete="off" aria-label="row 1 column 12"></div></td><td><div class="cell" data-r="0" data-c="12"><input maxlength="1" inputmode="latin" autocomplete="off" aria-label="row 1 column 13"></div></td><td><div class="cell" data-r="0" data-c="13"><input maxlength="1" inputmode="latin" autocomplete="off" aria-label="row 1 column 14"></div></td><td><div class="cell" data-r="0" data-c="14"><input maxlength="1" inputmode="latin" autocomplete="off" aria-label="row 1 column 15"></div></td><td><div class="cell" data-r="0" data-c="15"><input maxlength="1" inputmode="latin" autocomplete="off" aria-label="row 1 column 16"></div></td><td><div class="cell" data-r="0" data-c="16"><input maxlength="1" inputmode="latin" autocomplete="off" aria-label="row 1 column 17"></div></td></tr>
+<tr><td><div class="cell block"></div></td><td><div class="cell block"></div></td><td><div class="cell block"></div></td><td><div class="cell block"></div></td><td><div class="cell block"></div></td><td><div class="cell block"></div></td><td><div class="cell block"></div></td><td><div class="cell block"></div></td><td><div class="cell block"></div></td><td><div class="cell" data-r="1" data-c="9"><span class="num">2</span><input maxlength="1" inputmode="latin" autocomplete="off" aria-label="row 2 column 10"></div></td><td><div class="cell block"></div></td><td><div class="cell" data-r="1" data-c="11"><input maxlength="1" inputmode="latin" autocomplete="off" aria-label="row 2 column 12"></div></td><td><div class="cell block"></div></td><td><div class="cell block"></div></td><td><div class="cell block"></div></td><td><div class="cell block"></div></td><td><div class="cell block"></div></td></tr>
+<tr><td><div class="cell block"></div></td><td><div class="cell block"></div></td><td><div class="cell block"></div></td><td><div class="cell block"></div></td><td><div class="cell block"></div></td><td><div class="cell block"></div></td><td><div class="cell block"></div></td><td><div class="cell block"></div></td><td><div class="cell" data-r="2" data-c="8"><span class="num">3</span><input maxlength="1" inputmode="latin" autocomplete="off" aria-label="row 3 column 9"></div></td><td><div class="cell" data-r="2" data-c="9"><input maxlength="1" inputmode="latin" autocomplete="off" aria-label="row 3 column 10"></div></td><td><div class="cell" data-r="2" data-c="10"><input maxlength="1" inputmode="latin" autocomplete="off" aria-label="row 3 column 11"></div></td><td><div class="cell" data-r="2" data-c="11"><input maxlength="1" inputmode="latin" autocomplete="off" aria-label="row 3 column 12"></div></td><td><div class="cell" data-r="2" data-c="12"><input maxlength="1" inputmode="latin" autocomplete="off" aria-label="row 3 column 13"></div></td><td><div class="cell" data-r="2" data-c="13"><input maxlength="1" inputmode="latin" autocomplete="off" aria-label="row 3 column 14"></div></td><td><div class="cell" data-r="2" data-c="14"><input maxlength="1" inputmode="latin" autocomplete="off" aria-label="row 3 column 15"></div></td><td><div class="cell block"></div></td><td><div class="cell block"></div></td></tr>
+<tr><td><div class="cell block"></div></td><td><div class="cell block"></div></td><td><div class="cell block"></div></td><td><div class="cell block"></div></td><td><div class="cell block"></div></td><td><div class="cell block"></div></td><td><div class="cell block"></div></td><td><div class="cell block"></div></td><td><div class="cell block"></div></td><td><div class="cell" data-r="3" data-c="9"><input maxlength="1" inputmode="latin" autocomplete="off" aria-label="row 4 column 10"></div></td><td><div class="cell block"></div></td><td><div class="cell" data-r="3" data-c="11"><input maxlength="1" inputmode="latin" autocomplete="off" aria-label="row 4 column 12"></div></td><td><div class="cell block"></div></td><td><div class="cell block"></div></td><td><div class="cell block"></div></td><td><div class="cell block"></div></td><td><div class="cell" data-r="3" data-c="16"><span class="num">4</span><input maxlength="1" inputmode="latin" autocomplete="off" aria-label="row 4 column 17"></div></td></tr>
+<tr><td><div class="cell block"></div></td><td><div class="cell block"></div></td><td><div class="cell block"></div></td><td><div class="cell block"></div></td><td><div class="cell block"></div></td><td><div class="cell block"></div></td><td><div class="cell block"></div></td><td><div class="cell block"></div></td><td><div class="cell" data-r="4" data-c="8"><span class="num">5</span><input maxlength="1" inputmode="latin" autocomplete="off" aria-label="row 5 column 9"></div></td><td><div class="cell" data-r="4" data-c="9"><input maxlength="1" inputmode="latin" autocomplete="off" aria-label="row 5 column 10"></div></td><td><div class="cell" data-r="4" data-c="10"><input maxlength="1" inputmode="latin" autocomplete="off" aria-label="row 5 column 11"></div></td><td><div class="cell" data-r="4" data-c="11"><input maxlength="1" inputmode="latin" autocomplete="off" aria-label="row 5 column 12"></div></td><td><div class="cell" data-r="4" data-c="12"><input maxlength="1" inputmode="latin" autocomplete="off" aria-label="row 5 column 13"></div></td><td><div class="cell" data-r="4" data-c="13"><input maxlength="1" inputmode="latin" autocomplete="off" aria-label="row 5 column 14"></div></td><td><div class="cell" data-r="4" data-c="14"><input maxlength="1" inputmode="latin" autocomplete="off" aria-label="row 5 column 15"></div></td><td><div class="cell" data-r="4" data-c="15"><input maxlength="1" inputmode="latin" autocomplete="off" aria-label="row 5 column 16"></div></td><td><div class="cell" data-r="4" data-c="16"><input maxlength="1" inputmode="latin" autocomplete="off" aria-label="row 5 column 17"></div></td></tr>
+<tr><td><div class="cell block"></div></td><td><div class="cell" data-r="5" data-c="1"><span class="num">6</span><input maxlength="1" inputmode="latin" autocomplete="off" aria-label="row 6 column 2"></div></td><td><div class="cell block"></div></td><td><div class="cell block"></div></td><td><div class="cell" data-r="5" data-c="4"><span class="num">7</span><input maxlength="1" inputmode="latin" autocomplete="off" aria-label="row 6 column 5"></div></td><td><div class="cell" data-r="5" data-c="5"><input maxlength="1" inputmode="latin" autocomplete="off" aria-label="row 6 column 6"></div></td><td><div class="cell" data-r="5" data-c="6"><span class="num">8</span><input maxlength="1" inputmode="latin" autocomplete="off" aria-label="row 6 column 7"></div></td><td><div class="cell" data-r="5" data-c="7"><input maxlength="1" inputmode="latin" autocomplete="off" aria-label="row 6 column 8"></div></td><td><div class="cell block"></div></td><td><div class="cell" data-r="5" data-c="9"><input maxlength="1" inputmode="latin" autocomplete="off" aria-label="row 6 column 10"></div></td><td><div class="cell block"></div></td><td><div class="cell" data-r="5" data-c="11"><input maxlength="1" inputmode="latin" autocomplete="off" aria-label="row 6 column 12"></div></td><td><div class="cell block"></div></td><td><div class="cell block"></div></td><td><div class="cell block"></div></td><td><div class="cell block"></div></td><td><div class="cell" data-r="5" data-c="16"><input maxlength="1" inputmode="latin" autocomplete="off" aria-label="row 6 column 17"></div></td></tr>
+<tr><td><div class="cell block"></div></td><td><div class="cell" data-r="6" data-c="1"><input maxlength="1" inputmode="latin" autocomplete="off" aria-label="row 7 column 2"></div></td><td><div class="cell block"></div></td><td><div class="cell" data-r="6" data-c="3"><span class="num">9</span><input maxlength="1" inputmode="latin" autocomplete="off" aria-label="row 7 column 4"></div></td><td><div class="cell block"></div></td><td><div class="cell block"></div></td><td><div class="cell" data-r="6" data-c="6"><input maxlength="1" inputmode="latin" autocomplete="off" aria-label="row 7 column 7"></div></td><td><div class="cell block"></div></td><td><div class="cell block"></div></td><td><div class="cell" data-r="6" data-c="9"><input maxlength="1" inputmode="latin" autocomplete="off" aria-label="row 7 column 10"></div></td><td><div class="cell block"></div></td><td><div class="cell" data-r="6" data-c="11"><input maxlength="1" inputmode="latin" autocomplete="off" aria-label="row 7 column 12"></div></td><td><div class="cell block"></div></td><td><div class="cell" data-r="6" data-c="13"><span class="num">10</span><input maxlength="1" inputmode="latin" autocomplete="off" aria-label="row 7 column 14"></div></td><td><div class="cell" data-r="6" data-c="14"><input maxlength="1" inputmode="latin" autocomplete="off" aria-label="row 7 column 15"></div></td><td><div class="cell" data-r="6" data-c="15"><input maxlength="1" inputmode="latin" autocomplete="off" aria-label="row 7 column 16"></div></td><td><div class="cell" data-r="6" data-c="16"><input maxlength="1" inputmode="latin" autocomplete="off" aria-label="row 7 column 17"></div></td></tr>
+<tr><td><div class="cell block"></div></td><td><div class="cell" data-r="7" data-c="1"><input maxlength="1" inputmode="latin" autocomplete="off" aria-label="row 8 column 2"></div></td><td><div class="cell block"></div></td><td><div class="cell" data-r="7" data-c="3"><input maxlength="1" inputmode="latin" autocomplete="off" aria-label="row 8 column 4"></div></td><td><div class="cell block"></div></td><td><div class="cell" data-r="7" data-c="5"><span class="num">11</span><input maxlength="1" inputmode="latin" autocomplete="off" aria-label="row 8 column 6"></div></td><td><div class="cell" data-r="7" data-c="6"><input maxlength="1" inputmode="latin" autocomplete="off" aria-label="row 8 column 7"></div></td><td><div class="cell" data-r="7" data-c="7"><input maxlength="1" inputmode="latin" autocomplete="off" aria-label="row 8 column 8"></div></td><td><div class="cell" data-r="7" data-c="8"><input maxlength="1" inputmode="latin" autocomplete="off" aria-label="row 8 column 9"></div></td><td><div class="cell" data-r="7" data-c="9"><input maxlength="1" inputmode="latin" autocomplete="off" aria-label="row 8 column 10"></div></td><td><div class="cell block"></div></td><td><div class="cell block"></div></td><td><div class="cell block"></div></td><td><div class="cell" data-r="7" data-c="13"><input maxlength="1" inputmode="latin" autocomplete="off" aria-label="row 8 column 14"></div></td><td><div class="cell block"></div></td><td><div class="cell block"></div></td><td><div class="cell" data-r="7" data-c="16"><input maxlength="1" inputmode="latin" autocomplete="off" aria-label="row 8 column 17"></div></td></tr>
+<tr><td><div class="cell block"></div></td><td><div class="cell" data-r="8" data-c="1"><input maxlength="1" inputmode="latin" autocomplete="off" aria-label="row 9 column 2"></div></td><td><div class="cell block"></div></td><td><div class="cell" data-r="8" data-c="3"><input maxlength="1" inputmode="latin" autocomplete="off" aria-label="row 9 column 4"></div></td><td><div class="cell block"></div></td><td><div class="cell block"></div></td><td><div class="cell" data-r="8" data-c="6"><input maxlength="1" inputmode="latin" autocomplete="off" aria-label="row 9 column 7"></div></td><td><div class="cell block"></div></td><td><div class="cell block"></div></td><td><div class="cell" data-r="8" data-c="9"><span class="num">12</span><input maxlength="1" inputmode="latin" autocomplete="off" aria-label="row 9 column 10"></div></td><td><div class="cell" data-r="8" data-c="10"><input maxlength="1" inputmode="latin" autocomplete="off" aria-label="row 9 column 11"></div></td><td><div class="cell" data-r="8" data-c="11"><input maxlength="1" inputmode="latin" autocomplete="off" aria-label="row 9 column 12"></div></td><td><div class="cell" data-r="8" data-c="12"><input maxlength="1" inputmode="latin" autocomplete="off" aria-label="row 9 column 13"></div></td><td><div class="cell" data-r="8" data-c="13"><input maxlength="1" inputmode="latin" autocomplete="off" aria-label="row 9 column 14"></div></td><td><div class="cell" data-r="8" data-c="14"><input maxlength="1" inputmode="latin" autocomplete="off" aria-label="row 9 column 15"></div></td><td><div class="cell block"></div></td><td><div class="cell" data-r="8" data-c="16"><input maxlength="1" inputmode="latin" autocomplete="off" aria-label="row 9 column 17"></div></td></tr>
+<tr><td><div class="cell" data-r="9" data-c="0"><span class="num">13</span><input maxlength="1" inputmode="latin" autocomplete="off" aria-label="row 10 column 1"></div></td><td><div class="cell" data-r="9" data-c="1"><input maxlength="1" inputmode="latin" autocomplete="off" aria-label="row 10 column 2"></div></td><td><div class="cell" data-r="9" data-c="2"><input maxlength="1" inputmode="latin" autocomplete="off" aria-label="row 10 column 3"></div></td><td><div class="cell" data-r="9" data-c="3"><input maxlength="1" inputmode="latin" autocomplete="off" aria-label="row 10 column 4"></div></td><td><div class="cell" data-r="9" data-c="4"><input maxlength="1" inputmode="latin" autocomplete="off" aria-label="row 10 column 5"></div></td><td><div class="cell" data-r="9" data-c="5"><input maxlength="1" inputmode="latin" autocomplete="off" aria-label="row 10 column 6"></div></td><td><div class="cell" data-r="9" data-c="6"><input maxlength="1" inputmode="latin" autocomplete="off" aria-label="row 10 column 7"></div></td><td><div class="cell" data-r="9" data-c="7"><input maxlength="1" inputmode="latin" autocomplete="off" aria-label="row 10 column 8"></div></td><td><div class="cell block"></div></td><td><div class="cell block"></div></td><td><div class="cell block"></div></td><td><div class="cell block"></div></td><td><div class="cell block"></div></td><td><div class="cell" data-r="9" data-c="13"><input maxlength="1" inputmode="latin" autocomplete="off" aria-label="row 10 column 14"></div></td><td><div class="cell block"></div></td><td><div class="cell block"></div></td><td><div class="cell block"></div></td></tr>
+<tr><td><div class="cell block"></div></td><td><div class="cell" data-r="10" data-c="1"><input maxlength="1" inputmode="latin" autocomplete="off" aria-label="row 11 column 2"></div></td><td><div class="cell block"></div></td><td><div class="cell" data-r="10" data-c="3"><input maxlength="1" inputmode="latin" autocomplete="off" aria-label="row 11 column 4"></div></td><td><div class="cell block"></div></td><td><div class="cell block"></div></td><td><div class="cell" data-r="10" data-c="6"><input maxlength="1" inputmode="latin" autocomplete="off" aria-label="row 11 column 7"></div></td><td><div class="cell block"></div></td><td><div class="cell block"></div></td><td><div class="cell block"></div></td><td><div class="cell block"></div></td><td><div class="cell block"></div></td><td><div class="cell" data-r="10" data-c="12"><span class="num">14</span><input maxlength="1" inputmode="latin" autocomplete="off" aria-label="row 11 column 13"></div></td><td><div class="cell" data-r="10" data-c="13"><input maxlength="1" inputmode="latin" autocomplete="off" aria-label="row 11 column 14"></div></td><td><div class="cell" data-r="10" data-c="14"><input maxlength="1" inputmode="latin" autocomplete="off" aria-label="row 11 column 15"></div></td><td><div class="cell" data-r="10" data-c="15"><input maxlength="1" inputmode="latin" autocomplete="off" aria-label="row 11 column 16"></div></td><td><div class="cell" data-r="10" data-c="16"><input maxlength="1" inputmode="latin" autocomplete="off" aria-label="row 11 column 17"></div></td></tr>
+<tr><td><div class="cell block"></div></td><td><div class="cell" data-r="11" data-c="1"><input maxlength="1" inputmode="latin" autocomplete="off" aria-label="row 12 column 2"></div></td><td><div class="cell block"></div></td><td><div class="cell" data-r="11" data-c="3"><input maxlength="1" inputmode="latin" autocomplete="off" aria-label="row 12 column 4"></div></td><td><div class="cell block"></div></td><td><div class="cell" data-r="11" data-c="5"><span class="num">15</span><input maxlength="1" inputmode="latin" autocomplete="off" aria-label="row 12 column 6"></div></td><td><div class="cell" data-r="11" data-c="6"><input maxlength="1" inputmode="latin" autocomplete="off" aria-label="row 12 column 7"></div></td><td><div class="cell" data-r="11" data-c="7"><span class="num">16</span><input maxlength="1" inputmode="latin" autocomplete="off" aria-label="row 12 column 8"></div></td><td><div class="cell" data-r="11" data-c="8"><input maxlength="1" inputmode="latin" autocomplete="off" aria-label="row 12 column 9"></div></td><td><div class="cell" data-r="11" data-c="9"><input maxlength="1" inputmode="latin" autocomplete="off" aria-label="row 12 column 10"></div></td><td><div class="cell" data-r="11" data-c="10"><input maxlength="1" inputmode="latin" autocomplete="off" aria-label="row 12 column 11"></div></td><td><div class="cell" data-r="11" data-c="11"><input maxlength="1" inputmode="latin" autocomplete="off" aria-label="row 12 column 12"></div></td><td><div class="cell block"></div></td><td><div class="cell block"></div></td><td><div class="cell block"></div></td><td><div class="cell block"></div></td><td><div class="cell block"></div></td></tr>
+<tr><td><div class="cell block"></div></td><td><div class="cell" data-r="12" data-c="1"><input maxlength="1" inputmode="latin" autocomplete="off" aria-label="row 13 column 2"></div></td><td><div class="cell block"></div></td><td><div class="cell" data-r="12" data-c="3"><input maxlength="1" inputmode="latin" autocomplete="off" aria-label="row 13 column 4"></div></td><td><div class="cell block"></div></td><td><div class="cell block"></div></td><td><div class="cell block"></div></td><td><div class="cell" data-r="12" data-c="7"><input maxlength="1" inputmode="latin" autocomplete="off" aria-label="row 13 column 8"></div></td><td><div class="cell block"></div></td><td><div class="cell block"></div></td><td><div class="cell block"></div></td><td><div class="cell block"></div></td><td><div class="cell block"></div></td><td><div class="cell block"></div></td><td><div class="cell block"></div></td><td><div class="cell block"></div></td><td><div class="cell block"></div></td></tr>
+<tr><td><div class="cell block"></div></td><td><div class="cell block"></div></td><td><div class="cell block"></div></td><td><div class="cell block"></div></td><td><div class="cell block"></div></td><td><div class="cell block"></div></td><td><div class="cell block"></div></td><td><div class="cell" data-r="13" data-c="7"><input maxlength="1" inputmode="latin" autocomplete="off" aria-label="row 14 column 8"></div></td><td><div class="cell block"></div></td><td><div class="cell block"></div></td><td><div class="cell block"></div></td><td><div class="cell block"></div></td><td><div class="cell block"></div></td><td><div class="cell block"></div></td><td><div class="cell block"></div></td><td><div class="cell block"></div></td><td><div class="cell block"></div></td></tr>
+<tr><td><div class="cell block"></div></td><td><div class="cell block"></div></td><td><div class="cell block"></div></td><td><div class="cell block"></div></td><td><div class="cell block"></div></td><td><div class="cell block"></div></td><td><div class="cell block"></div></td><td><div class="cell" data-r="14" data-c="7"><input maxlength="1" inputmode="latin" autocomplete="off" aria-label="row 15 column 8"></div></td><td><div class="cell block"></div></td><td><div class="cell block"></div></td><td><div class="cell block"></div></td><td><div class="cell block"></div></td><td><div class="cell block"></div></td><td><div class="cell block"></div></td><td><div class="cell block"></div></td><td><div class="cell block"></div></td><td><div class="cell block"></div></td></tr>
+<tr><td><div class="cell block"></div></td><td><div class="cell block"></div></td><td><div class="cell block"></div></td><td><div class="cell block"></div></td><td><div class="cell block"></div></td><td><div class="cell block"></div></td><td><div class="cell" data-r="15" data-c="6"><span class="num">17</span><input maxlength="1" inputmode="latin" autocomplete="off" aria-label="row 16 column 7"></div></td><td><div class="cell" data-r="15" data-c="7"><input maxlength="1" inputmode="latin" autocomplete="off" aria-label="row 16 column 8"></div></td><td><div class="cell" data-r="15" data-c="8"><input maxlength="1" inputmode="latin" autocomplete="off" aria-label="row 16 column 9"></div></td><td><div class="cell" data-r="15" data-c="9"><input maxlength="1" inputmode="latin" autocomplete="off" aria-label="row 16 column 10"></div></td><td><div class="cell" data-r="15" data-c="10"><input maxlength="1" inputmode="latin" autocomplete="off" aria-label="row 16 column 11"></div></td><td><div class="cell" data-r="15" data-c="11"><input maxlength="1" inputmode="latin" autocomplete="off" aria-label="row 16 column 12"></div></td><td><div class="cell block"></div></td><td><div class="cell block"></div></td><td><div class="cell block"></div></td><td><div class="cell block"></div></td><td><div class="cell block"></div></td></tr>
+<tr><td><div class="cell block"></div></td><td><div class="cell block"></div></td><td><div class="cell block"></div></td><td><div class="cell block"></div></td><td><div class="cell block"></div></td><td><div class="cell block"></div></td><td><div class="cell block"></div></td><td><div class="cell" data-r="16" data-c="7"><input maxlength="1" inputmode="latin" autocomplete="off" aria-label="row 17 column 8"></div></td><td><div class="cell block"></div></td><td><div class="cell block"></div></td><td><div class="cell block"></div></td><td><div class="cell block"></div></td><td><div class="cell block"></div></td><td><div class="cell block"></div></td><td><div class="cell block"></div></td><td><div class="cell block"></div></td><td><div class="cell block"></div></td></tr>
+<tr><td><div class="cell block"></div></td><td><div class="cell block"></div></td><td><div class="cell block"></div></td><td><div class="cell block"></div></td><td><div class="cell block"></div></td><td><div class="cell block"></div></td><td><div class="cell block"></div></td><td><div class="cell" data-r="17" data-c="7"><input maxlength="1" inputmode="latin" autocomplete="off" aria-label="row 18 column 8"></div></td><td><div class="cell block"></div></td><td><div class="cell block"></div></td><td><div class="cell block"></div></td><td><div class="cell block"></div></td><td><div class="cell block"></div></td><td><div class="cell block"></div></td><td><div class="cell block"></div></td><td><div class="cell block"></div></td><td><div class="cell block"></div></td></tr>
+</tbody></table>
+<div class="bar">
+  <button class="primary" id="check">Check</button>
+  <button id="reveal">Show a letter</button>
+  <button id="clear">Clear</button>
+</div>
+<div class="clues">
+  <div><h2>Across</h2><ol class="clue" id="across"><li data-num="1" data-dir="across"><b>1</b><span>damaged, and not working <span class="ar">(6)</span></span></li>
+<li data-num="3" data-dir="across"><b>3</b><span>to start something again <span class="ar">(7)</span></span></li>
+<li data-num="5" data-dir="across"><b>5</b><span>a list of what happens at what time <span class="ar">جدول زمني</span> <span class="ar">(9)</span></span></li>
+<li data-num="7" data-dir="across"><b>7</b><span>to write using a keyboard <span class="ar">يكتب على لوحة المفاتيح</span> <span class="ar">(4)</span></span></li>
+<li data-num="10" data-dir="across"><b>10</b><span>to keep your work on a computer <span class="ar">(4)</span></span></li>
+<li data-num="11" data-dir="across"><b>11</b><span>the thing you move to point at the screen <span class="ar">فأرة</span> <span class="ar">(5)</span></span></li>
+<li data-num="12" data-dir="across"><b>12</b><span>to mend something that is broken <span class="ar">يصلح</span> <span class="ar">(6)</span></span></li>
+<li data-num="13" data-dir="across"><b>13</b><span>the programs that run on a computer <span class="ar">(8)</span></span></li>
+<li data-num="14" data-dir="across"><b>14</b><span>to press the button on a mouse <span class="ar">ينقر</span> <span class="ar">(5)</span></span></li>
+<li data-num="15" data-dir="across"><b>15</b><span>to get better <span class="ar">يتحسّن</span> <span class="ar">(7)</span></span></li>
+<li data-num="17" data-dir="across"><b>17</b><span>a big computer that keeps files for many people <span class="ar">(6)</span></span></li></ol></div>
+  <div><h2>Down</h2><ol class="clue" id="down"><li data-num="1" data-dir="down"><b>1</b><span>the part that holds power inside a machine <span class="ar">بطارية</span> <span class="ar">(7)</span></span></li>
+<li data-num="2" data-dir="down"><b>2</b><span>a person who has just started to learn <span class="ar">مبتدئ</span> <span class="ar">(8)</span></span></li>
+<li data-num="4" data-dir="down"><b>4</b><span>to remove something from a computer <span class="ar">يحذف</span> <span class="ar">(6)</span></span></li>
+<li data-num="6" data-dir="down"><b>6</b><span>the part with all the letters on it <span class="ar">لوحة المفاتيح</span> <span class="ar">(8)</span></span></li>
+<li data-num="8" data-dir="down"><b>8</b><span>something a computer runs to do a job <span class="ar">برنامج</span> <span class="ar">(7)</span></span></li>
+<li data-num="9" data-dir="down"><b>9</b><span>to put a program onto a computer <span class="ar">يثبّت</span> <span class="ar">(7)</span></span></li>
+<li data-num="10" data-dir="down"><b>10</b><span>something you can do well because you learned it <span class="ar">مهارة</span> <span class="ar">(5)</span></span></li>
+<li data-num="16" data-dir="down"><b>16</b><span>able to wait without getting angry <span class="ar">صبور</span> <span class="ar">(7)</span></span></li></ol></div>
+</div>
+<p class="foot">Every word here is from this lesson. &nbsp;
+<a href="README.md">Back to the lesson</a></p>
+</div>
+<script>
+const SOL = {"0,11": "B", "0,12": "R", "0,13": "O", "0,14": "K", "0,15": "E", "0,16": "N", "1,9": "B", "1,11": "A", "2,8": "R", "2,9": "E", "2,10": "S", "2,11": "T", "2,12": "A", "2,13": "R", "2,14": "T", "3,9": "G", "3,11": "T", "3,16": "D", "4,8": "T", "4,9": "I", "4,10": "M", "4,11": "E", "4,12": "T", "4,13": "A", "4,14": "B", "4,15": "L", "4,16": "E", "5,1": "K", "5,4": "T", "5,5": "Y", "5,6": "P", "5,7": "E", "5,9": "N", "5,11": "R", "5,16": "L", "6,1": "E", "6,3": "I", "6,6": "R", "6,9": "N", "6,11": "Y", "6,13": "S", "6,14": "A", "6,15": "V", "6,16": "E", "7,1": "Y", "7,3": "N", "7,5": "M", "7,6": "O", "7,7": "U", "7,8": "S", "7,9": "E", "7,13": "K", "7,16": "T", "8,1": "B", "8,3": "S", "8,6": "G", "8,9": "R", "8,10": "E", "8,11": "P", "8,12": "A", "8,13": "I", "8,14": "R", "8,16": "E", "9,0": "S", "9,1": "O", "9,2": "F", "9,3": "T", "9,4": "W", "9,5": "A", "9,6": "R", "9,7": "E", "9,13": "L", "10,1": "A", "10,3": "A", "10,6": "A", "10,12": "C", "10,13": "L", "10,14": "I", "10,15": "C", "10,16": "K", "11,1": "R", "11,3": "L", "11,5": "I", "11,6": "M", "11,7": "P", "11,8": "R", "11,9": "O", "11,10": "V", "11,11": "E", "12,1": "D", "12,3": "L", "12,7": "A", "13,7": "T", "14,7": "I", "15,6": "S", "15,7": "E", "15,8": "R", "15,9": "V", "15,10": "E", "15,11": "R", "16,7": "N", "17,7": "T"}, ENTRIES = [{"word": "BROKEN", "r": 0, "c": 11, "dir": "across", "num": 1}, {"word": "BATTERY", "r": 0, "c": 11, "dir": "down", "num": 1}, {"word": "BEGINNER", "r": 1, "c": 9, "dir": "down", "num": 2}, {"word": "RESTART", "r": 2, "c": 8, "dir": "across", "num": 3}, {"word": "DELETE", "r": 3, "c": 16, "dir": "down", "num": 4}, {"word": "TIMETABLE", "r": 4, "c": 8, "dir": "across", "num": 5}, {"word": "KEYBOARD", "r": 5, "c": 1, "dir": "down", "num": 6}, {"word": "TYPE", "r": 5, "c": 4, "dir": "across", "num": 7}, {"word": "PROGRAM", "r": 5, "c": 6, "dir": "down", "num": 8}, {"word": "INSTALL", "r": 6, "c": 3, "dir": "down", "num": 9}, {"word": "SAVE", "r": 6, "c": 13, "dir": "across", "num": 10}, {"word": "SKILL", "r": 6, "c": 13, "dir": "down", "num": 10}, {"word": "MOUSE", "r": 7, "c": 5, "dir": "across", "num": 11}, {"word": "REPAIR", "r": 8, "c": 9, "dir": "across", "num": 12}, {"word": "SOFTWARE", "r": 9, "c": 0, "dir": "across", "num": 13}, {"word": "CLICK", "r": 10, "c": 12, "dir": "across", "num": 14}, {"word": "IMPROVE", "r": 11, "c": 5, "dir": "across", "num": 15}, {"word": "PATIENT", "r": 11, "c": 7, "dir": "down", "num": 16}, {"word": "SERVER", "r": 15, "c": 6, "dir": "across", "num": 17}];
+const cells = {};
+document.querySelectorAll('.cell[data-r]').forEach(d => {
+  cells[d.dataset.r + ',' + d.dataset.c] = d;
+  const i = d.querySelector('input');
+  i.addEventListener('input', () => {
+    i.value = i.value.toUpperCase().replace(/[^A-Z]/g, '');
+    d.classList.remove('right', 'wrong');
+    if (i.value) move(+d.dataset.r, +d.dataset.c, 1);
+    save();
+  });
+  i.addEventListener('keydown', e => {
+    const r = +d.dataset.r, c = +d.dataset.c;
+    if (e.key === 'Backspace' && !i.value) { move(r, c, -1); }
+    else if (e.key === 'ArrowRight') { focus(r, c + 1); e.preventDefault(); }
+    else if (e.key === 'ArrowLeft')  { focus(r, c - 1); e.preventDefault(); }
+    else if (e.key === 'ArrowDown')  { focus(r + 1, c); e.preventDefault(); }
+    else if (e.key === 'ArrowUp')    { focus(r - 1, c); e.preventDefault(); }
+  });
+});
+let dir = 'across';
+function focus(r, c) { const d = cells[r + ',' + c]; if (d) d.querySelector('input').focus(); }
+function move(r, c, step) {
+  if (dir === 'across') focus(r, c + step); else focus(r + step, c);
+}
+document.querySelectorAll('#across li, #down li').forEach(li => {
+  li.addEventListener('click', () => {
+    dir = li.dataset.dir;
+    const e = ENTRIES.find(x => x.num == li.dataset.num && x.dir === dir);
+    if (e) focus(e.r, e.c);
+  });
+});
+function save() {
+  const v = {};
+  for (const k in cells) { const t = cells[k].querySelector('input').value; if (t) v[k] = t; }
+  try { localStorage.setItem(KEY, JSON.stringify(v)); } catch (e) {}
+}
+const KEY = 'crossword:' + location.pathname;
+try {
+  const v = JSON.parse(localStorage.getItem(KEY) || '{}');
+  for (const k in v) if (cells[k]) cells[k].querySelector('input').value = v[k];
+} catch (e) {}
+const msg = document.getElementById('msg');
+document.getElementById('check').onclick = () => {
+  let right = 0, wrong = 0, empty = 0;
+  for (const k in cells) {
+    const d = cells[k], i = d.querySelector('input');
+    d.classList.remove('right', 'wrong');
+    if (!i.value) { empty++; continue; }
+    if (i.value === SOL[k]) { d.classList.add('right'); right++; }
+    else { d.classList.add('wrong'); wrong++; }
+  }
+  markDone();
+  msg.className = 'msg ' + (wrong ? 'bad' : (empty ? '' : 'good'));
+  msg.textContent = wrong ? wrong + ' letter' + (wrong > 1 ? 's are' : ' is') + ' wrong.'
+    : (empty ? right + ' right, ' + empty + ' still empty.' : 'All correct. Well done.');
+};
+document.getElementById('reveal').onclick = () => {
+  const empty = Object.keys(cells).filter(k => !cells[k].querySelector('input').value);
+  if (!empty.length) { msg.textContent = 'Nothing left to show.'; return; }
+  const k = empty[Math.floor(Math.random() * empty.length)];
+  cells[k].querySelector('input').value = SOL[k];
+  save(); markDone();
+  msg.className = 'msg'; msg.textContent = 'One letter filled in for you.';
+};
+document.getElementById('clear').onclick = () => {
+  for (const k in cells) {
+    cells[k].querySelector('input').value = '';
+    cells[k].classList.remove('right', 'wrong');
+  }
+  document.querySelectorAll('li.done').forEach(li => li.classList.remove('done'));
+  save(); msg.textContent = '';
+};
+function markDone() {
+  ENTRIES.forEach(e => {
+    let got = '';
+    for (let i = 0; i < e.word.length; i++) {
+      const k = e.dir === 'across' ? e.r + ',' + (e.c + i) : (e.r + i) + ',' + e.c;
+      got += (cells[k] ? cells[k].querySelector('input').value : '') || ' ';
+    }
+    const li = document.querySelector('li[data-num="' + e.num + '"][data-dir="' + e.dir + '"]');
+    if (li) li.classList.toggle('done', got === e.word);
+  });
+}
+markDone();
+</script>
+</body>
+</html>

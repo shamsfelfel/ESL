@@ -1,0 +1,1996 @@
+{
+  "lesson": 5,
+  "slug": "lesson-05",
+  "title": "Lesson 5 — The Two O'Clock Class",
+  "level": "A2+ → B1 (fifth step)",
+  "topic": "Teaching computers, volunteering and small steady progress",
+  "time": "6 sessions, 50–60 minutes each",
+  "skills": "Listening → Reading → Vocabulary → Grammar → Comprehension → Speaking → Writing",
+  "new_in_this_lesson": "the present perfect continuous with for and since, the -ing ending and the weak been, a longer passage of 481 words, and the last new question type: the writer's attitude. The comprehension set reaches ten questions, the size of a real TOEFL set.",
+  "passage_words": 481,
+  "footer": "Lesson 5 — The Two O'Clock Class",
+  "voices": {
+    "reader": {
+      "voice": "en-GB-RyanNeural",
+      "rate": "-10%",
+      "pitch": "+0Hz"
+    },
+    "narrator": {
+      "voice": "en-GB-SoniaNeural",
+      "rate": "-5%",
+      "pitch": "+0Hz"
+    },
+    "slow": {
+      "voice": "en-GB-RyanNeural",
+      "rate": "-25%",
+      "pitch": "+0Hz"
+    }
+  },
+  "vocabulary": [
+    {
+      "word": "keyboard",
+      "answer": "KEYBOARD",
+      "type": "noun",
+      "meaning": "the part with all the letters on it",
+      "arabic": "لوحة المفاتيح"
+    },
+    {
+      "word": "type",
+      "answer": "TYPE",
+      "type": "verb",
+      "meaning": "to write using a keyboard",
+      "arabic": "يكتب على لوحة المفاتيح"
+    },
+    {
+      "word": "mouse",
+      "answer": "MOUSE",
+      "type": "noun",
+      "meaning": "the thing you move to point at the screen",
+      "arabic": "فأرة"
+    },
+    {
+      "word": "click",
+      "answer": "CLICK",
+      "type": "verb",
+      "meaning": "to press the button on a mouse",
+      "arabic": "ينقر"
+    },
+    {
+      "word": "install",
+      "answer": "INSTALL",
+      "type": "verb",
+      "meaning": "to put a program onto a computer",
+      "arabic": "يثبّت"
+    },
+    {
+      "word": "program",
+      "answer": "PROGRAM",
+      "type": "noun",
+      "meaning": "something a computer runs to do a job",
+      "arabic": "برنامج"
+    },
+    {
+      "word": "delete",
+      "answer": "DELETE",
+      "type": "verb",
+      "meaning": "to remove something from a computer",
+      "arabic": "يحذف"
+    },
+    {
+      "word": "beginner",
+      "answer": "BEGINNER",
+      "type": "noun",
+      "meaning": "a person who has just started to learn",
+      "arabic": "مبتدئ"
+    },
+    {
+      "word": "patient",
+      "answer": "PATIENT",
+      "type": "adjective",
+      "meaning": "able to wait without getting angry",
+      "arabic": "صبور"
+    },
+    {
+      "word": "repair",
+      "answer": "REPAIR",
+      "type": "verb",
+      "meaning": "to mend something that is broken",
+      "arabic": "يصلح"
+    },
+    {
+      "word": "battery",
+      "answer": "BATTERY",
+      "type": "noun",
+      "meaning": "the part that holds power inside a machine",
+      "arabic": "بطارية"
+    },
+    {
+      "word": "timetable",
+      "answer": "TIMETABLE",
+      "type": "noun",
+      "meaning": "a list of what happens at what time",
+      "arabic": "جدول زمني"
+    },
+    {
+      "word": "skill",
+      "answer": "SKILL",
+      "type": "noun",
+      "meaning": "something you can do well because you learned it",
+      "arabic": "مهارة"
+    },
+    {
+      "word": "improve",
+      "answer": "IMPROVE",
+      "type": "verb",
+      "meaning": "to get better",
+      "arabic": "يتحسّن"
+    }
+  ],
+  "recall": [
+    {
+      "word": "server",
+      "answer": "SERVER",
+      "meaning": "a big computer that keeps files for many people"
+    },
+    {
+      "word": "software",
+      "answer": "SOFTWARE",
+      "meaning": "the programs that run on a computer"
+    },
+    {
+      "word": "restart",
+      "answer": "RESTART",
+      "meaning": "to start something again"
+    },
+    {
+      "word": "broken",
+      "answer": "BROKEN",
+      "meaning": "damaged, and not working"
+    },
+    {
+      "word": "save",
+      "answer": "SAVE",
+      "meaning": "to keep your work on a computer"
+    }
+  ],
+  "how_to_work": [
+    "Play **01-passage.mp3** and listen twice with no text in front of you. Do not open the PDF yet.",
+    "Then work through the parts in number order. Part 04 is grammar and has no audio; part 05 needs its audio most of all, because *has*, *been* and *-ing* all shrink in speech.",
+    "Part 06 has ten questions this time. Do it in one sitting, with a clock, the way the exam will be.",
+    "Open part 11, the answer key, only when parts 01 to 10 are finished."
+  ],
+  "full_section": {
+    "parts": [
+      "01",
+      "02",
+      "06",
+      "07"
+    ],
+    "gap": 3,
+    "closing": [
+      {
+        "pause": 2
+      },
+      {
+        "say": "This is the end of lesson five.",
+        "voice": "narrator"
+      }
+    ]
+  },
+  "games": [
+    {
+      "number": "13",
+      "slug": "crossword",
+      "title": "Crossword",
+      "style": "crossword",
+      "minutes": 15
+    },
+    {
+      "number": "14",
+      "slug": "word-search",
+      "title": "Word search",
+      "style": "word-search",
+      "minutes": 10
+    }
+  ],
+  "parts": [
+    {
+      "number": "01",
+      "slug": "passage",
+      "title": "Passage — The Two O'Clock Class",
+      "minutes": 20,
+      "sheet": true,
+      "audio": true,
+      "print_only": {
+        "markers": [
+          "[A]",
+          "[B]",
+          "[C]",
+          "[D]"
+        ],
+        "note": "The sentence-insertion markers are printed in the passage and are never read aloud."
+      },
+      "markdown": "> **How to do the listening.** The same rule as every lesson so far: the student listens **twice with no text**, then reads.\n> Audio files: `01-passage.mp3` first, then the other parts in order. Part `05-ing-and-been.mp3` is new — the *-ing* ending and the weak *been*.\n\n### 1.1 Before listening (2 minutes, Arabic is fine here)\n\n1. What have you been learning for a long time?\n2. Is there something you do at the same time every week?\n3. Who taught you to use a computer, and how?\n\n### 1.4 Now read the passage\n\n### Passage: *The Two O'Clock Class* (481 words)\n\nRana is twenty-six, and for the last eighteen months she has been teaching a free computer class for children. It happens in one room above her father's shop, and it starts at two o'clock every Saturday.\n\n**[A]** She is not a teacher. She studied accounting, and she works in an office four days a week. But three years ago she watched a boy in the market trying to fill in a form on a borrowed phone, typing with one finger, and she could not stop thinking about it.\n\nThe class has eleven children in it now. Most of them are beginners. They have been learning the same small things, again and again: how to hold a mouse, how to click once and not twice, where the letters are on the keyboard, how to save a file before the power goes.\n\n**[B]** The electricity comes for about six hours a day, and nobody knows which six. So Rana keeps a timetable on the wall, and ignores it when she has to. The two laptops in the room are old. One of them has a battery that lasts forty minutes; the other has none at all, and it stops the moment the power stops.\n\nHer brother has been repairing those two laptops since the class began. He works in a phone shop six days a week, and he comes here on the seventh. He is patient in a way that Rana says she is not. He has installed the same program four times on the same machine, because a child deleted it four times, and he has never once sounded angry about it.\n\n**[C]** The children are getting faster. Six months ago most of them typed with one finger, like the boy in the market. Now four of them type without looking down, and one girl, who is nine, has been teaching her own mother in the evenings. Two of them have been coming since the first Saturday and have not missed one.\n\nRana has been keeping a list since the first Saturday. It has one line for each child: what they can do, and what they are still finding hard. She has not shown it to anyone. It is four pages long now.\n\n**[D]** People ask her how long she will go on with it. She says she does not know, and that it is not really the right question. The right question, she says, is what a child can do at the end of a year that she could not do at the beginning. For that, the list on her desk already has an answer.\n\nShe has been doing this for eighteen months, and she has never asked anyone for money. In that time the class has lost four children and gained seven. The room still has two old laptops. The electricity still comes for six hours a day, and still nobody knows which six.\n\n### 1.5 Read aloud\n\nRead the passage aloud **once** and record it. This is the longest passage so far: see whether you can keep going to the end without stopping.",
+      "segments": [
+        {
+          "say": "Lesson five. The two o'clock class. Listening practice.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 1
+        },
+        {
+          "say": "You will hear a story about a woman who teaches a free computer class. Listen for how long she has been doing it, and what the children can do now. You will hear it two times. Do not read the text. Listen only.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 2
+        },
+        {
+          "say": "Now listen.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 1.5
+        },
+        {
+          "say": "Rana is twenty-six, and for the last eighteen months she has been teaching a free computer class for children. It happens in one room above her father's shop, and it starts at two o'clock every Saturday.\n\nShe is not a teacher. She studied accounting, and she works in an office four days a week. But three years ago she watched a boy in the market trying to fill in a form on a borrowed phone, typing with one finger, and she could not stop thinking about it.\n\nThe class has eleven children in it now. Most of them are beginners. They have been learning the same small things, again and again: how to hold a mouse, how to click once and not twice, where the letters are on the keyboard, how to save a file before the power goes.\n\nThe electricity comes for about six hours a day, and nobody knows which six. So Rana keeps a timetable on the wall, and ignores it when she has to. The two laptops in the room are old. One of them has a battery that lasts forty minutes; the other has none at all, and it stops the moment the power stops.\n\nHer brother has been repairing those two laptops since the class began. He works in a phone shop six days a week, and he comes here on the seventh. He is patient in a way that Rana says she is not. He has installed the same program four times on the same machine, because a child deleted it four times, and he has never once sounded angry about it.\n\nThe children are getting faster. Six months ago most of them typed with one finger, like the boy in the market. Now four of them type without looking down, and one girl, who is nine, has been teaching her own mother in the evenings. Two of them have been coming since the first Saturday and have not missed one.\n\nRana has been keeping a list since the first Saturday. It has one line for each child: what they can do, and what they are still finding hard. She has not shown it to anyone. It is four pages long now.\n\nPeople ask her how long she will go on with it. She says she does not know, and that it is not really the right question. The right question, she says, is what a child can do at the end of a year that she could not do at the beginning. For that, the list on her desk already has an answer.\n\nShe has been doing this for eighteen months, and she has never asked anyone for money. In that time the class has lost four children and gained seven. The room still has two old laptops. The electricity still comes for six hours a day, and still nobody knows which six.",
+          "voice": "reader"
+        },
+        {
+          "pause": 4
+        },
+        {
+          "say": "Now listen again.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 1.5
+        },
+        {
+          "say": "Rana is twenty-six, and for the last eighteen months she has been teaching a free computer class for children. It happens in one room above her father's shop, and it starts at two o'clock every Saturday.\n\nShe is not a teacher. She studied accounting, and she works in an office four days a week. But three years ago she watched a boy in the market trying to fill in a form on a borrowed phone, typing with one finger, and she could not stop thinking about it.\n\nThe class has eleven children in it now. Most of them are beginners. They have been learning the same small things, again and again: how to hold a mouse, how to click once and not twice, where the letters are on the keyboard, how to save a file before the power goes.\n\nThe electricity comes for about six hours a day, and nobody knows which six. So Rana keeps a timetable on the wall, and ignores it when she has to. The two laptops in the room are old. One of them has a battery that lasts forty minutes; the other has none at all, and it stops the moment the power stops.\n\nHer brother has been repairing those two laptops since the class began. He works in a phone shop six days a week, and he comes here on the seventh. He is patient in a way that Rana says she is not. He has installed the same program four times on the same machine, because a child deleted it four times, and he has never once sounded angry about it.\n\nThe children are getting faster. Six months ago most of them typed with one finger, like the boy in the market. Now four of them type without looking down, and one girl, who is nine, has been teaching her own mother in the evenings. Two of them have been coming since the first Saturday and have not missed one.\n\nRana has been keeping a list since the first Saturday. It has one line for each child: what they can do, and what they are still finding hard. She has not shown it to anyone. It is four pages long now.\n\nPeople ask her how long she will go on with it. She says she does not know, and that it is not really the right question. The right question, she says, is what a child can do at the end of a year that she could not do at the beginning. For that, the list on her desk already has an answer.\n\nShe has been doing this for eighteen months, and she has never asked anyone for money. In that time the class has lost four children and gained seven. The room still has two old laptops. The electricity still comes for six hours a day, and still nobody knows which six.",
+          "voice": "reader"
+        },
+        {
+          "pause": 2
+        },
+        {
+          "say": "This is the end of the passage.",
+          "voice": "narrator"
+        }
+      ]
+    },
+    {
+      "number": "02",
+      "slug": "listening-questions",
+      "title": "Listening questions",
+      "minutes": 10,
+      "sheet": true,
+      "audio": true,
+      "markdown": "### 1.2 Listening — first time (no text)\n\n- **L1.** Who is the story about, and what has she been doing?\n- **L2.** How long has she been doing it?\n- **L3.** What time does the class start, and on which day?\n- **L4.** Who repairs the two laptops?\n\n### 1.3 Listening — second time (no text)\n\nWrite **four verbs in the present perfect continuous** that you heard (*has* or *have* + *been* + *-ing*). Then write **one word** you heard but did not understand.",
+      "segments": [
+        {
+          "say": "Now answer the listening questions. Write a short answer for each one.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 2
+        },
+        {
+          "say": "Question one. Who is the story about, and what has she been doing?",
+          "voice": "narrator"
+        },
+        {
+          "pause": 10
+        },
+        {
+          "say": "Question two. How long has she been doing it?",
+          "voice": "narrator"
+        },
+        {
+          "pause": 10
+        },
+        {
+          "say": "Question three. What time does the class start, and on which day?",
+          "voice": "narrator"
+        },
+        {
+          "pause": 10
+        },
+        {
+          "say": "Question four. Who repairs the two laptops?",
+          "voice": "narrator"
+        },
+        {
+          "pause": 10
+        },
+        {
+          "say": "This is the end of the listening questions.",
+          "voice": "narrator"
+        }
+      ]
+    },
+    {
+      "number": "03",
+      "slug": "vocabulary",
+      "title": "Vocabulary and Lesson 3 recall",
+      "minutes": 35,
+      "sheet": true,
+      "audio": true,
+      "markdown": "### 2.1 Key words\n\n| # | Word | Type | Simple meaning | Arabic | Example |\n|---|---|---|---|---|---|\n| 1 | keyboard | noun | the part with all the letters on it | لوحة المفاتيح | They learn where the letters are on the **keyboard**. |\n| 2 | type | verb | to write using a keyboard | يكتب على لوحة المفاتيح | Four of them **type** without looking down. |\n| 3 | mouse | noun | the thing you move to point at the screen | فأرة | They learn how to hold a **mouse**. |\n| 4 | click | verb | to press the button on a mouse | ينقر | How to **click** once and not twice. |\n| 5 | install | verb | to put a program onto a computer | يثبّت | He has **installed** the same program four times. |\n| 6 | program | noun | something a computer runs to do a job | برنامج | A child deleted the **program**. |\n| 7 | delete | verb | to remove something from a computer | يحذف | A child **deleted** it four times. |\n| 8 | beginner | noun | a person who has just started to learn | مبتدئ | Most of them are **beginners**. |\n| 9 | patient | adjective | able to wait without getting angry | صبور | He is **patient** in a way that Rana is not. |\n| 10 | repair | verb | to mend something that is broken | يصلح | Her brother has been **repairing** the laptops. |\n| 11 | battery | noun | the part that holds power inside a machine | بطارية | One laptop has a **battery** that lasts forty minutes. |\n| 12 | timetable | noun | a list of what happens at what time | جدول زمني | Rana keeps a **timetable** on the wall. |\n| 13 | skill | noun | something you can do well because you learned it | مهارة | Typing is a **skill**. |\n| 14 | improve | verb | to get better | يتحسّن | The children **improve** every month. |\n\n### 2.2 Synonyms and opposites\n\n| Word | Synonym | Opposite |\n|---|---|---|\n| repair | mend, fix | break |\n| patient | calm | impatient |\n| improve | get better | get worse |\n| beginner | a new learner | expert |\n| delete | remove | keep |\n| old | not new | new |\n| free | costing nothing | expensive |\n| begin | start | finish / end |\n\n### 2.3 Expressions to learn\n\n| Expression | What it really means |\n|---|---|\n| **again and again** | many times, without stopping |\n| **for the last eighteen months** | from eighteen months ago until now |\n| **since the class began** | from that moment until now |\n| **one finger at a time** | slowly, the way a beginner types |\n| **without looking down** | without looking at the keyboard |\n| **the moment the power stops** | at exactly that second |\n| **go on with it** | continue doing it |\n\n### 2.4 Vocabulary practice\n\n**A. Write the opposite:**\n\n1. patient → \\_\\_\\_\\_\\_\\_\\_\\_\n2. improve → \\_\\_\\_\\_\\_\\_\\_\\_\n3. delete → \\_\\_\\_\\_\\_\\_\\_\\_\n4. beginner → \\_\\_\\_\\_\\_\\_\\_\\_\n5. repair → \\_\\_\\_\\_\\_\\_\\_\\_\n\n**B. Which word is different? Say why:**\n\n1. mouse — keyboard — battery — timetable\n2. install — delete — repair — patient\n3. beginner — child — mother — program\n\n**C. Say it in your own words:**\n\n1. What is a beginner?\n2. What does *patient* mean?",
+      "segments": [
+        {
+          "say": "Vocabulary practice. You will hear a word, then its meaning, then an example sentence. Repeat the word in the silence.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 2
+        },
+        {
+          "say": "Word 1.",
+          "voice": "narrator"
+        },
+        {
+          "say": "keyboard",
+          "voice": "reader"
+        },
+        {
+          "pause": 3
+        },
+        {
+          "say": "keyboard. the part with all the letters on it.",
+          "voice": "reader"
+        },
+        {
+          "pause": 1
+        },
+        {
+          "say": "They learn where the letters are on the keyboard.",
+          "voice": "reader"
+        },
+        {
+          "pause": 3
+        },
+        {
+          "say": "Word 2.",
+          "voice": "narrator"
+        },
+        {
+          "say": "type",
+          "voice": "reader"
+        },
+        {
+          "pause": 3
+        },
+        {
+          "say": "type. to write using a keyboard.",
+          "voice": "reader"
+        },
+        {
+          "pause": 1
+        },
+        {
+          "say": "Four of them type without looking down.",
+          "voice": "reader"
+        },
+        {
+          "pause": 3
+        },
+        {
+          "say": "Word 3.",
+          "voice": "narrator"
+        },
+        {
+          "say": "mouse",
+          "voice": "reader"
+        },
+        {
+          "pause": 3
+        },
+        {
+          "say": "mouse. the thing you move to point at the screen.",
+          "voice": "reader"
+        },
+        {
+          "pause": 1
+        },
+        {
+          "say": "They learn how to hold a mouse.",
+          "voice": "reader"
+        },
+        {
+          "pause": 3
+        },
+        {
+          "say": "Word 4.",
+          "voice": "narrator"
+        },
+        {
+          "say": "click",
+          "voice": "reader"
+        },
+        {
+          "pause": 3
+        },
+        {
+          "say": "click. to press the button on a mouse.",
+          "voice": "reader"
+        },
+        {
+          "pause": 1
+        },
+        {
+          "say": "How to click once and not twice.",
+          "voice": "reader"
+        },
+        {
+          "pause": 3
+        },
+        {
+          "say": "Word 5.",
+          "voice": "narrator"
+        },
+        {
+          "say": "install",
+          "voice": "reader"
+        },
+        {
+          "pause": 3
+        },
+        {
+          "say": "install. to put a program onto a computer.",
+          "voice": "reader"
+        },
+        {
+          "pause": 1
+        },
+        {
+          "say": "He has installed the same program four times.",
+          "voice": "reader"
+        },
+        {
+          "pause": 3
+        },
+        {
+          "say": "Word 6.",
+          "voice": "narrator"
+        },
+        {
+          "say": "program",
+          "voice": "reader"
+        },
+        {
+          "pause": 3
+        },
+        {
+          "say": "program. something a computer runs to do a job.",
+          "voice": "reader"
+        },
+        {
+          "pause": 1
+        },
+        {
+          "say": "A child deleted the program.",
+          "voice": "reader"
+        },
+        {
+          "pause": 3
+        },
+        {
+          "say": "Word 7.",
+          "voice": "narrator"
+        },
+        {
+          "say": "delete",
+          "voice": "reader"
+        },
+        {
+          "pause": 3
+        },
+        {
+          "say": "delete. to remove something from a computer.",
+          "voice": "reader"
+        },
+        {
+          "pause": 1
+        },
+        {
+          "say": "A child deleted it four times.",
+          "voice": "reader"
+        },
+        {
+          "pause": 3
+        },
+        {
+          "say": "Word 8.",
+          "voice": "narrator"
+        },
+        {
+          "say": "beginner",
+          "voice": "reader"
+        },
+        {
+          "pause": 3
+        },
+        {
+          "say": "beginner. a person who has just started to learn.",
+          "voice": "reader"
+        },
+        {
+          "pause": 1
+        },
+        {
+          "say": "Most of them are beginners.",
+          "voice": "reader"
+        },
+        {
+          "pause": 3
+        },
+        {
+          "say": "Word 9.",
+          "voice": "narrator"
+        },
+        {
+          "say": "patient",
+          "voice": "reader"
+        },
+        {
+          "pause": 3
+        },
+        {
+          "say": "patient. able to wait without getting angry.",
+          "voice": "reader"
+        },
+        {
+          "pause": 1
+        },
+        {
+          "say": "He is patient in a way that Rana is not.",
+          "voice": "reader"
+        },
+        {
+          "pause": 3
+        },
+        {
+          "say": "Word 10.",
+          "voice": "narrator"
+        },
+        {
+          "say": "repair",
+          "voice": "reader"
+        },
+        {
+          "pause": 3
+        },
+        {
+          "say": "repair. to mend something that is broken.",
+          "voice": "reader"
+        },
+        {
+          "pause": 1
+        },
+        {
+          "say": "Her brother has been repairing the laptops.",
+          "voice": "reader"
+        },
+        {
+          "pause": 3
+        },
+        {
+          "say": "Word 11.",
+          "voice": "narrator"
+        },
+        {
+          "say": "battery",
+          "voice": "reader"
+        },
+        {
+          "pause": 3
+        },
+        {
+          "say": "battery. the part that holds power inside a machine.",
+          "voice": "reader"
+        },
+        {
+          "pause": 1
+        },
+        {
+          "say": "One laptop has a battery that lasts forty minutes.",
+          "voice": "reader"
+        },
+        {
+          "pause": 3
+        },
+        {
+          "say": "Word 12.",
+          "voice": "narrator"
+        },
+        {
+          "say": "timetable",
+          "voice": "reader"
+        },
+        {
+          "pause": 3
+        },
+        {
+          "say": "timetable. a list of what happens at what time.",
+          "voice": "reader"
+        },
+        {
+          "pause": 1
+        },
+        {
+          "say": "Rana keeps a timetable on the wall.",
+          "voice": "reader"
+        },
+        {
+          "pause": 3
+        },
+        {
+          "say": "Word 13.",
+          "voice": "narrator"
+        },
+        {
+          "say": "skill",
+          "voice": "reader"
+        },
+        {
+          "pause": 3
+        },
+        {
+          "say": "skill. something you can do well because you learned it.",
+          "voice": "reader"
+        },
+        {
+          "pause": 1
+        },
+        {
+          "say": "Typing is a skill.",
+          "voice": "reader"
+        },
+        {
+          "pause": 3
+        },
+        {
+          "say": "Word 14.",
+          "voice": "narrator"
+        },
+        {
+          "say": "improve",
+          "voice": "reader"
+        },
+        {
+          "pause": 3
+        },
+        {
+          "say": "improve. to get better.",
+          "voice": "reader"
+        },
+        {
+          "pause": 1
+        },
+        {
+          "say": "The children improve every month.",
+          "voice": "reader"
+        },
+        {
+          "pause": 3
+        },
+        {
+          "pause": 1.5
+        },
+        {
+          "say": "Now five words from lesson three. Say the meaning before you hear it.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 2
+        },
+        {
+          "say": "server",
+          "voice": "reader"
+        },
+        {
+          "pause": 5
+        },
+        {
+          "say": "a big computer that keeps files for many people",
+          "voice": "reader"
+        },
+        {
+          "pause": 1
+        },
+        {
+          "say": "software",
+          "voice": "reader"
+        },
+        {
+          "pause": 5
+        },
+        {
+          "say": "the programs that run on a computer",
+          "voice": "reader"
+        },
+        {
+          "pause": 1
+        },
+        {
+          "say": "restart",
+          "voice": "reader"
+        },
+        {
+          "pause": 5
+        },
+        {
+          "say": "to start something again",
+          "voice": "reader"
+        },
+        {
+          "pause": 1
+        },
+        {
+          "say": "broken",
+          "voice": "reader"
+        },
+        {
+          "pause": 5
+        },
+        {
+          "say": "damaged, and not working",
+          "voice": "reader"
+        },
+        {
+          "pause": 1
+        },
+        {
+          "say": "save",
+          "voice": "reader"
+        },
+        {
+          "pause": 5
+        },
+        {
+          "say": "to keep your work on a computer",
+          "voice": "reader"
+        },
+        {
+          "pause": 1
+        },
+        {
+          "say": "This is the end of the vocabulary practice.",
+          "voice": "narrator"
+        }
+      ]
+    },
+    {
+      "number": "04",
+      "slug": "grammar-present-perfect-continuous",
+      "title": "Grammar — the present perfect continuous",
+      "minutes": 50,
+      "sheet": true,
+      "audio": false,
+      "markdown": "### Come back to: the present simple\n\nLesson 1 taught the shape and Lesson 2 added where frequency words go. Two lines\nto remind you:\n\n| I / you / we / they | work |\n|---|---|\n| he / she / it | work**s** |\n\n**New this time: the present simple is not only for habits.**\n\nIt is also the tense for a **timetable or a fixed arrangement**:\n\n- *The class **starts** at two o'clock every Saturday.*\n- *The centre **opens** at nine and **closes** at four.*\n\nAnd for something that is **simply true**, with no time attached:\n\n- *The electricity **comes** for about six hours a day.*\n- *Water **boils** at one hundred degrees.*\n\nLook at the first one again. *The class starts at two* is not a habit at all —\nit is the timetable, and it can even point at a fixed event in the future\n(*the exam **starts** on Monday*). Arabic would often reach for a future form\nthere. English does not.\n\n**Quick practice.** Present simple, or present perfect continuous?\n\n1. The class \\_\\_\\_\\_\\_\\_\\_\\_ (start) at two o'clock every Saturday.\n2. She \\_\\_\\_\\_\\_\\_\\_\\_ (teach) the class for eighteen months.\n3. The electricity \\_\\_\\_\\_\\_\\_\\_\\_ (come) for six hours a day.\n4. Her brother \\_\\_\\_\\_\\_\\_\\_\\_ (repair) the laptops since the class began.\n\n---\n\nWe use the present perfect continuous for something that started in the past, has gone on for a length of time, and **is still going on now**: *She **has been teaching** the class for eighteen months* — and she is teaching it still.\n\n### 3.1 How we make it\n\n**have / has** + **been** + verb **-ing**\n\n| Person | Present perfect continuous |\n|---|---|\n| I / you / we / they | **have been** working |\n| he / she / it | **has been** working |\n\n### 3.2 What we use it for\n\n- **How long something has been going on**: *He **has been repairing** those laptops since the class began.*\n- An action that is **still happening now**: *She **has been keeping** a list since the first Saturday.*\n- Something repeated **again and again** over a period: *They **have been learning** the same small things.*\n\nIt almost always comes with **for** or **since**, or a phrase like *all year*,\n*again and again*, *for the last eighteen months*.\n\n### 3.4 Present perfect, or present perfect continuous?\n\n| Present perfect — the result, how many | Present perfect continuous — the activity, how long |\n|---|---|\n| He **has installed** the program four times. | He **has been repairing** the laptops for a year. |\n| She **has not shown** the list to anyone. | She **has been keeping** the list since the first Saturday. |\n| The class **has lost** four children. | She **has been doing** this for eighteen months. |\n\nA short way to hold it: the simple one counts **how many**, the continuous one measures **how long**.\n\n### 3.5 Negative and question\n\n|  | Form | Example |\n|---|---|---|\n| Negative | **have not / has not been** + *-ing* | She **has not been teaching** this year. |\n| Question | **Have / Has** + person + **been** + *-ing* | **How long has** she **been teaching**? |\n\n### 3.6 Grammar practice\n\n**A. Put the verb in the present perfect continuous:**\n\n1. Rana \\_\\_\\_\\_\\_\\_\\_\\_ (teach) the class for eighteen months.\n2. The children \\_\\_\\_\\_\\_\\_\\_\\_ (learn) the same small things.\n3. Her brother \\_\\_\\_\\_\\_\\_\\_\\_ (repair) the laptops since the class began.\n4. One girl \\_\\_\\_\\_\\_\\_\\_\\_ (teach) her own mother in the evenings.\n5. \\_\\_\\_\\_\\_\\_\\_\\_ how long \\_\\_\\_\\_\\_\\_\\_\\_ you \\_\\_\\_\\_\\_\\_\\_\\_ (study) English?\n\n**B. Simple or continuous?**\n\n1. He (has installed / has been installing) the program four times.\n2. She (has kept / has been keeping) the list since the first Saturday.\n3. The class (has lost / has been losing) four children.\n4. They (have learned / have been learning) the same things again and again.\n\n**C. Write *for* or *since*:**\n\n1. \\_\\_\\_\\_ eighteen months\n2. \\_\\_\\_\\_ the class began\n3. \\_\\_\\_\\_ the first Saturday\n4. \\_\\_\\_\\_ three years"
+    },
+    {
+      "number": "05",
+      "slug": "ing-and-been",
+      "title": "The -ing ending and been",
+      "minutes": 20,
+      "sheet": true,
+      "audio": true,
+      "markdown": "### 3.3 The *-ing* ending, and *been* (listen to `05-ing-and-been.mp3`)\n\nThis tense is three small words joined together, and all three of them shrink in speech. If you cannot hear them, you cannot hear the tense.\n\n**1. *-ing* ends with one sound, not two.**\n\n| Spelling | Sound | Not this |\n|---|---|---|\n| working | <span class=\"ipa\">/ˈwɜːkɪŋ/</span> | <span class=\"ipa\">/ˈwɜːkɪn/</span> |\n| teaching | <span class=\"ipa\">/ˈtiːtʃɪŋ/</span> | <span class=\"ipa\">/ˈtiːtʃɪn/</span> |\n| learning | <span class=\"ipa\">/ˈlɜːnɪŋ/</span> | <span class=\"ipa\">/ˈlɜːnɪn/</span> |\n| repairing | <span class=\"ipa\">/rɪˈpeərɪŋ/</span> | <span class=\"ipa\">/rɪˈpeərɪn/</span> |\n| keeping | <span class=\"ipa\">/ˈkiːpɪŋ/</span> | <span class=\"ipa\">/ˈkiːpɪn/</span> |\n\nThe last sound is <span class=\"ipa\">/ŋ/</span>, made at the back of the mouth with the tongue down. There is **no** <span class=\"ipa\">/g/</span> after it, and it is not <span class=\"ipa\">/n/</span> at the front of the mouth.\n\n**2. *been* is weak.**\n\nInside the tense, *been* is short and quiet: <span class=\"ipa\">/bɪn/</span>, not <span class=\"ipa\">/biːn/</span>.\n\n| Written | What you actually hear |\n|---|---|\n| She has been working. | <span class=\"ipa\">/ʃiːz bɪn ˈwɜːkɪŋ/</span> |\n| They have been learning. | <span class=\"ipa\">/ðeɪv bɪn ˈlɜːnɪŋ/</span> |\n| He has been repairing it. | <span class=\"ipa\">/hiːz bɪn rɪˈpeərɪŋ ɪt/</span> |\n\nSo *has been working* can arrive as one short run of sound. In the audio you hear each one twice, and then a test: say whether what you hear is **finished** or **still going**.",
+      "segments": [
+        {
+          "say": "Pronunciation. The I N G ending, and the word been.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 1
+        },
+        {
+          "say": "This tense is three small words joined together, and all three shrink in speech. Listen to each word twice, then repeat it.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 2
+        },
+        {
+          "say": "working",
+          "voice": "reader"
+        },
+        {
+          "pause": 1
+        },
+        {
+          "say": "working",
+          "voice": "reader"
+        },
+        {
+          "pause": 3
+        },
+        {
+          "say": "teaching",
+          "voice": "reader"
+        },
+        {
+          "pause": 1
+        },
+        {
+          "say": "teaching",
+          "voice": "reader"
+        },
+        {
+          "pause": 3
+        },
+        {
+          "say": "learning",
+          "voice": "reader"
+        },
+        {
+          "pause": 1
+        },
+        {
+          "say": "learning",
+          "voice": "reader"
+        },
+        {
+          "pause": 3
+        },
+        {
+          "say": "repairing",
+          "voice": "reader"
+        },
+        {
+          "pause": 1
+        },
+        {
+          "say": "repairing",
+          "voice": "reader"
+        },
+        {
+          "pause": 3
+        },
+        {
+          "say": "keeping",
+          "voice": "reader"
+        },
+        {
+          "pause": 1
+        },
+        {
+          "say": "keeping",
+          "voice": "reader"
+        },
+        {
+          "pause": 3
+        },
+        {
+          "pause": 1
+        },
+        {
+          "say": "The ending is one sound, made at the back of the mouth. It is not an N at the front of the mouth, and there is no hard G after it.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 2
+        },
+        {
+          "say": "Now the word been. Inside this tense it is short and quiet. Listen.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 1.5
+        },
+        {
+          "say": "She has been working.",
+          "voice": "reader"
+        },
+        {
+          "pause": 1
+        },
+        {
+          "say": "She has been working.",
+          "voice": "reader"
+        },
+        {
+          "pause": 3
+        },
+        {
+          "say": "They have been learning.",
+          "voice": "reader"
+        },
+        {
+          "pause": 1
+        },
+        {
+          "say": "They have been learning.",
+          "voice": "reader"
+        },
+        {
+          "pause": 3
+        },
+        {
+          "say": "He has been repairing it.",
+          "voice": "reader"
+        },
+        {
+          "pause": 1
+        },
+        {
+          "say": "He has been repairing it.",
+          "voice": "reader"
+        },
+        {
+          "pause": 3
+        },
+        {
+          "pause": 1
+        },
+        {
+          "say": "Now the test. You will hear a sentence. Say whether the action is finished, or still going. Then you will hear the answer.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 2
+        },
+        {
+          "say": "Sentence 1.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 0.4
+        },
+        {
+          "say": "She has been teaching the class.",
+          "voice": "reader"
+        },
+        {
+          "pause": 4
+        },
+        {
+          "say": "The answer is still going.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 1
+        },
+        {
+          "say": "Sentence 2.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 0.4
+        },
+        {
+          "say": "She has taught the class.",
+          "voice": "reader"
+        },
+        {
+          "pause": 4
+        },
+        {
+          "say": "The answer is finished.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 1
+        },
+        {
+          "say": "Sentence 3.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 0.4
+        },
+        {
+          "say": "They have been learning the keyboard.",
+          "voice": "reader"
+        },
+        {
+          "pause": 4
+        },
+        {
+          "say": "The answer is still going.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 1
+        },
+        {
+          "say": "Sentence 4.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 0.4
+        },
+        {
+          "say": "They have learned the keyboard.",
+          "voice": "reader"
+        },
+        {
+          "pause": 4
+        },
+        {
+          "say": "The answer is finished.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 1
+        },
+        {
+          "say": "Sentence 5.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 0.4
+        },
+        {
+          "say": "He has been repairing the laptop.",
+          "voice": "reader"
+        },
+        {
+          "pause": 4
+        },
+        {
+          "say": "The answer is still going.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 1
+        },
+        {
+          "say": "Sentence 6.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 0.4
+        },
+        {
+          "say": "He has repaired the laptop.",
+          "voice": "reader"
+        },
+        {
+          "pause": 4
+        },
+        {
+          "say": "The answer is finished.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 1
+        },
+        {
+          "say": "This is the end of the pronunciation practice.",
+          "voice": "narrator"
+        }
+      ]
+    },
+    {
+      "number": "06",
+      "slug": "comprehension",
+      "title": "Comprehension — a full TOEFL set of ten",
+      "minutes": 45,
+      "sheet": true,
+      "audio": true,
+      "markdown": "### Part A — Multiple choice\n\n> This is a full set of ten, the size of a real TOEFL reading set.\n\n**1. (Factual)** What did Rana study?\n\n- A. Teaching.\n- B. Accounting.\n- C. Computers.\n- D. The passage does not say.\n\n**2. (Factual)** How long has Rana been teaching the class?\n\n- A. Six months.\n- B. Eighteen months.\n- C. Three years.\n- D. Forty minutes.\n\n**3. (Negative factual)** According to the passage, the children have been learning all of the following EXCEPT\n\n- A. how to hold a mouse.\n- B. where the letters are on the keyboard.\n- C. how to repair a laptop.\n- D. how to save a file before the power goes.\n\n**4. (Vocabulary in context)** The word \"ignores\" in the passage is closest in meaning to\n\n- A. takes no notice of.\n- B. writes down.\n- C. repairs.\n- D. reads aloud.\n\n**5. (Reference)** In the sentence, the other has none at all, the word \"none\" refers to\n\n- A. no laptop.\n- B. no battery.\n- C. no child.\n- D. no power cut.\n\n**6. (Inference)** It can be inferred from the passage that\n\n- A. Rana plans to stop the class soon.\n- B. Rana measures the class by what the children can do, not by how long it has run.\n- C. the children's parents pay for the class.\n- D. her brother was trained to repair computers.\n\n**7. (Sentence insertion)** Look at the four letters **[A] [B] [C] [D]** in the passage. Where would this sentence best fit?\n\n> *Nothing in the room can be relied on.*\n\n- A. At **[A]**\n- B. At **[B]**\n- C. At **[C]**\n- D. At **[D]**\n\n**8. (Purpose of a paragraph)** Why does the writer mention the boy in the market?\n\n- A. To show that Rana is a trained teacher.\n- B. To explain what made Rana start the class.\n- C. To criticise the schools in the area.\n- D. To show that phones are difficult to use.\n\n**9. (Purpose of the whole passage)** What is the writer's main purpose in the whole passage?\n\n- A. To explain how to teach children to type.\n- B. To describe how one person has kept a small class going, and what it has produced.\n- C. To ask the reader for money for the class.\n- D. To compare two kinds of laptop.\n\n**10. (The writer's attitude — NEW)** Which word best describes the writer's attitude towards Rana?\n\n- A. Amused.\n- B. Doubtful.\n- C. Respectful.\n- D. Uninterested.\n\n### Part C — Fill in the blanks\n\nUse these words. There are **two extra words** you will not need.\n\n> *beginners · keyboard · battery · timetable · repairs · installed · patient · volunteer · skill*\n\n1. Most of the children are \\_\\_\\_\\_\\_\\_\\_\\_.\n2. They are learning where the letters are on the \\_\\_\\_\\_\\_\\_\\_\\_.\n3. One laptop has a \\_\\_\\_\\_\\_\\_\\_\\_ that lasts forty minutes.\n4. Rana keeps a \\_\\_\\_\\_\\_\\_\\_\\_ on the wall.\n5. Her brother \\_\\_\\_\\_\\_\\_\\_\\_ the two laptops.\n6. He has \\_\\_\\_\\_\\_\\_\\_\\_ the same program four times.\n7. He is very \\_\\_\\_\\_\\_\\_\\_\\_.\n\n### Part D — Summary\n\nWrite the story in **two sentences only**. Use the present perfect continuous once.\n\n> Sentence 1 — what Rana has been doing: \\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\n> Sentence 2 — what has changed for the children: \\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_",
+      "segments": [
+        {
+          "say": "Now get ready to answer the questions about the passage. There are ten questions this time, the number a real exam gives you for one passage. You may look at the passage while you answer.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 2
+        },
+        {
+          "say": "Question 1.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 0.6
+        },
+        {
+          "say": "What did Rana study?",
+          "voice": "narrator"
+        },
+        {
+          "pause": 0.8
+        },
+        {
+          "say": "A. Teaching.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 0.5
+        },
+        {
+          "say": "B. Accounting.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 0.5
+        },
+        {
+          "say": "C. Computers.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 0.5
+        },
+        {
+          "say": "D. The passage does not say.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 0.5
+        },
+        {
+          "pause": 12
+        },
+        {
+          "say": "Question 2.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 0.6
+        },
+        {
+          "say": "How long has Rana been teaching the class?",
+          "voice": "narrator"
+        },
+        {
+          "pause": 0.8
+        },
+        {
+          "say": "A. Six months.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 0.5
+        },
+        {
+          "say": "B. Eighteen months.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 0.5
+        },
+        {
+          "say": "C. Three years.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 0.5
+        },
+        {
+          "say": "D. Forty minutes.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 0.5
+        },
+        {
+          "pause": 12
+        },
+        {
+          "say": "Question 3.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 0.6
+        },
+        {
+          "say": "According to the passage, the children have been learning all of the following EXCEPT",
+          "voice": "narrator"
+        },
+        {
+          "pause": 0.8
+        },
+        {
+          "say": "A. how to hold a mouse.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 0.5
+        },
+        {
+          "say": "B. where the letters are on the keyboard.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 0.5
+        },
+        {
+          "say": "C. how to repair a laptop.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 0.5
+        },
+        {
+          "say": "D. how to save a file before the power goes.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 0.5
+        },
+        {
+          "pause": 12
+        },
+        {
+          "say": "Question 4.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 0.6
+        },
+        {
+          "say": "The word \"ignores\" in the passage is closest in meaning to",
+          "voice": "narrator"
+        },
+        {
+          "pause": 0.8
+        },
+        {
+          "say": "A. takes no notice of.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 0.5
+        },
+        {
+          "say": "B. writes down.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 0.5
+        },
+        {
+          "say": "C. repairs.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 0.5
+        },
+        {
+          "say": "D. reads aloud.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 0.5
+        },
+        {
+          "pause": 12
+        },
+        {
+          "say": "Question 5.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 0.6
+        },
+        {
+          "say": "In the sentence, the other has none at all, the word \"none\" refers to",
+          "voice": "narrator"
+        },
+        {
+          "pause": 0.8
+        },
+        {
+          "say": "A. no laptop.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 0.5
+        },
+        {
+          "say": "B. no battery.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 0.5
+        },
+        {
+          "say": "C. no child.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 0.5
+        },
+        {
+          "say": "D. no power cut.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 0.5
+        },
+        {
+          "pause": 12
+        },
+        {
+          "say": "Question 6.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 0.6
+        },
+        {
+          "say": "It can be inferred from the passage that",
+          "voice": "narrator"
+        },
+        {
+          "pause": 0.8
+        },
+        {
+          "say": "A. Rana plans to stop the class soon.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 0.5
+        },
+        {
+          "say": "B. Rana measures the class by what the children can do, not by how long it has run.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 0.5
+        },
+        {
+          "say": "C. the children's parents pay for the class.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 0.5
+        },
+        {
+          "say": "D. her brother was trained to repair computers.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 0.5
+        },
+        {
+          "pause": 12
+        },
+        {
+          "say": "Question seven.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 0.6
+        },
+        {
+          "say": "Look at the four letters, A, B, C and D, in your passage. They show four places where a sentence could be added. Listen to the sentence, then choose the best place.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 1
+        },
+        {
+          "say": "Nothing in the room can be relied on.",
+          "voice": "reader"
+        },
+        {
+          "pause": 2
+        },
+        {
+          "say": "Listen to the sentence again.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 1
+        },
+        {
+          "say": "Nothing in the room can be relied on.",
+          "voice": "reader"
+        },
+        {
+          "pause": 1
+        },
+        {
+          "say": "A. At letter A.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 0.5
+        },
+        {
+          "say": "B. At letter B.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 0.5
+        },
+        {
+          "say": "C. At letter C.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 0.5
+        },
+        {
+          "say": "D. At letter D.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 0.5
+        },
+        {
+          "pause": 20
+        },
+        {
+          "say": "Question eight.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 0.6
+        },
+        {
+          "say": "This question asks why the writer wrote one part of the passage.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 1
+        },
+        {
+          "say": "Why does the writer mention the boy in the market?",
+          "voice": "narrator"
+        },
+        {
+          "pause": 0.8
+        },
+        {
+          "say": "A. To show that Rana is a trained teacher.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 0.5
+        },
+        {
+          "say": "B. To explain what made Rana start the class.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 0.5
+        },
+        {
+          "say": "C. To criticise the schools in the area.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 0.5
+        },
+        {
+          "say": "D. To show that phones are difficult to use.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 0.5
+        },
+        {
+          "pause": 15
+        },
+        {
+          "say": "Question nine.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 0.6
+        },
+        {
+          "say": "This one asks about the whole passage, not one paragraph.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 1
+        },
+        {
+          "say": "What is the writer's main purpose in the whole passage?",
+          "voice": "narrator"
+        },
+        {
+          "pause": 0.8
+        },
+        {
+          "say": "A. To explain how to teach children to type.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 0.5
+        },
+        {
+          "say": "B. To describe how one person has kept a small class going, and what it has produced.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 0.5
+        },
+        {
+          "say": "C. To ask the reader for money for the class.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 0.5
+        },
+        {
+          "say": "D. To compare two kinds of laptop.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 0.5
+        },
+        {
+          "pause": 20
+        },
+        {
+          "say": "Question ten.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 0.6
+        },
+        {
+          "say": "This one is new. It asks how the writer feels about the person in the passage. The writer never says it directly, so listen for which details were chosen.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 1
+        },
+        {
+          "say": "Which word best describes the writer's attitude towards Rana?",
+          "voice": "narrator"
+        },
+        {
+          "pause": 0.8
+        },
+        {
+          "say": "A. Amused.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 0.5
+        },
+        {
+          "say": "B. Doubtful.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 0.5
+        },
+        {
+          "say": "C. Respectful.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 0.5
+        },
+        {
+          "say": "D. Uninterested.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 0.5
+        },
+        {
+          "pause": 15
+        },
+        {
+          "pause": 1.5
+        },
+        {
+          "say": "Last task. Write the story in two sentences only. Use the present perfect continuous once. Sentence one: what Rana has been doing. Sentence two: what has changed for the children. You have ninety seconds.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 90
+        },
+        {
+          "say": "This is the end of the questions.",
+          "voice": "narrator"
+        }
+      ]
+    },
+    {
+      "number": "07",
+      "slug": "true-false",
+      "title": "True / false",
+      "minutes": 15,
+      "sheet": true,
+      "audio": true,
+      "markdown": "### Part B — True / False\n\nWrite **T** or **F**. If it is false, write the correct sentence.\n\n1. Rana trained as a teacher. \\_\\_\\_\\_\n2. The class starts at two o'clock on Saturdays. \\_\\_\\_\\_\n3. Both laptops have working batteries. \\_\\_\\_\\_\n4. Her brother has been repairing the laptops since the class began. \\_\\_\\_\\_\n5. Rana has shown her list to the children's parents. \\_\\_\\_\\_\n6. The class has more children now than when it began. \\_\\_\\_\\_",
+      "segments": [
+        {
+          "say": "True or false. You will hear six sentences. Say true or false. If the sentence is false, say the correct sentence.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 2
+        },
+        {
+          "say": "Sentence 1.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 0.5
+        },
+        {
+          "say": "Rana trained as a teacher.",
+          "voice": "reader"
+        },
+        {
+          "pause": 8
+        },
+        {
+          "say": "Sentence 2.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 0.5
+        },
+        {
+          "say": "The class starts at two o'clock on Saturdays.",
+          "voice": "reader"
+        },
+        {
+          "pause": 8
+        },
+        {
+          "say": "Sentence 3.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 0.5
+        },
+        {
+          "say": "Both laptops have working batteries.",
+          "voice": "reader"
+        },
+        {
+          "pause": 8
+        },
+        {
+          "say": "Sentence 4.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 0.5
+        },
+        {
+          "say": "Her brother has been repairing the laptops since the class began.",
+          "voice": "reader"
+        },
+        {
+          "pause": 8
+        },
+        {
+          "say": "Sentence 5.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 0.5
+        },
+        {
+          "say": "Rana has shown her list to the children's parents.",
+          "voice": "reader"
+        },
+        {
+          "pause": 8
+        },
+        {
+          "say": "Sentence 6.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 0.5
+        },
+        {
+          "say": "The class has more children now than when it began.",
+          "voice": "reader"
+        },
+        {
+          "pause": 8
+        },
+        {
+          "say": "This is the end of the true or false questions.",
+          "voice": "narrator"
+        }
+      ]
+    },
+    {
+      "number": "08",
+      "slug": "speaking",
+      "title": "Speaking",
+      "minutes": 25,
+      "sheet": true,
+      "audio": true,
+      "markdown": "### 5.1 Speaking (record each answer, 45 seconds)\n\n1. Tell the story of Rana in your own words. Use for, since, and has been doing.\n2. What have you been learning or practising for a long time? How long have you been doing it?\n3. Describe something you do at a fixed time every week. What time does it start, and what happens?\n\n**Useful sentence starters:**\n\n- *I have been \\_\\_\\_\\_ing for \\_\\_\\_\\_ years.*\n- *I have been doing it since \\_\\_\\_\\_.*\n- *It starts at \\_\\_\\_\\_ o'clock every \\_\\_\\_\\_.*\n- *At first I could not \\_\\_\\_\\_, and now I can \\_\\_\\_\\_.*\n- *I have not finished yet, because \\_\\_\\_\\_.*",
+      "segments": [
+        {
+          "say": "Speaking practice. For each question you will have fifteen seconds to prepare and forty-five seconds to speak. Record your answer on your phone.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 2
+        },
+        {
+          "say": "Speaking question 1.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 0.6
+        },
+        {
+          "say": "Tell the story of Rana in your own words. Use for, since, and has been doing.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 1
+        },
+        {
+          "say": "Preparation time. Fifteen seconds.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 15
+        },
+        {
+          "say": "Begin speaking now.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 45
+        },
+        {
+          "say": "Stop speaking.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 2
+        },
+        {
+          "say": "Speaking question 2.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 0.6
+        },
+        {
+          "say": "What have you been learning or practising for a long time? How long have you been doing it?",
+          "voice": "narrator"
+        },
+        {
+          "pause": 1
+        },
+        {
+          "say": "Preparation time. Fifteen seconds.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 15
+        },
+        {
+          "say": "Begin speaking now.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 45
+        },
+        {
+          "say": "Stop speaking.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 2
+        },
+        {
+          "say": "Speaking question 3.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 0.6
+        },
+        {
+          "say": "Describe something you do at a fixed time every week. What time does it start, and what happens?",
+          "voice": "narrator"
+        },
+        {
+          "pause": 1
+        },
+        {
+          "say": "Preparation time. Fifteen seconds.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 15
+        },
+        {
+          "say": "Begin speaking now.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 45
+        },
+        {
+          "say": "Stop speaking.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 2
+        },
+        {
+          "say": "This is the end of the speaking practice.",
+          "voice": "narrator"
+        }
+      ]
+    },
+    {
+      "number": "09",
+      "slug": "writing",
+      "title": "Writing — Something I Have Been Doing for a Long Time",
+      "minutes": 35,
+      "sheet": true,
+      "audio": false,
+      "markdown": "### 5.2 Writing — \"Something I Have Been Doing for a Long Time\" (14–16 sentences)\n\n**Model answer (copy the shape, change the words):**\n\n> I have been studying English for four years, and I have been doing it almost entirely alone. My class at school finished when I was seventeen. Since then I have been using free videos and a small notebook. I write every new word in it, and I read the old pages on Fridays. The notebook is a timetable of a kind: it tells me what I have been forgetting. For the last eight months I have also been writing one short text every week. At first they were four sentences long and full of tense mistakes. They are longer now, and the mistakes have changed, which my teacher says is a good sign. I have not become fluent, and I do not expect to this year. But I have been improving in a way I can measure, because the notebook keeps the evidence. The class I take online starts at seven o'clock every Tuesday. I have missed it twice in eight months. That is the part I am most pleased about.\n\n**Checklist before you send it:**\n\n- [ ] I used the present perfect continuous at least **four** times.\n- [ ] I used the present simple for a timetable or something simply true.\n- [ ] I used **for** with a length of time and **since** with a point in time.\n- [ ] I used the present perfect simple at least once for *how many*.\n- [ ] I used at least **5 new words** from Session 2.\n- [ ] I used at least **2 words** from Lesson 3 or Lesson 4.\n- [ ] My text has 14–16 sentences."
+    },
+    {
+      "number": "10",
+      "slug": "review",
+      "title": "Review",
+      "minutes": 30,
+      "sheet": true,
+      "audio": true,
+      "markdown": "### 6.1 Listen again (no text)\n\n1. Name three things the children have been learning.\n2. What does Rana say is the right question to ask about the class?\n\n### 6.2 Mini-quiz (12 marks)\n\n1. The present perfect continuous of *work*, for *she*, is \\_\\_\\_\\_\\_\\_\\_\\_\n2. We use \\_\\_\\_\\_ with a length of time and \\_\\_\\_\\_ with a point in time. (*for* / *since*) \\_\\_\\_\\_\\_\\_\\_\\_\n3. Which one counts *how many*: the simple or the continuous? \\_\\_\\_\\_\\_\\_\\_\\_\n4. The opposite of *patient* is \\_\\_\\_\\_\\_\\_\\_\\_\n5. The opposite of *improve* is \\_\\_\\_\\_\\_\\_\\_\\_\n6. A person who has just started to learn is a \\_\\_\\_\\_\\_\\_\\_\\_\n7. To put a program onto a computer is to \\_\\_\\_\\_\\_\\_\\_\\_\n8. The part that holds power inside a machine is a \\_\\_\\_\\_\\_\\_\\_\\_\n9. Write a sentence with *since* and the present perfect continuous.\n10. Write a question beginning *How long*.\n11. Write one sentence with **timetable**.\n12. Tell the story of the passage in two sentences, from memory.\n\n### 6.3 Lesson 5 self-report\n\n| Question | Answer |\n|---|---|\n| Minutes studied this week | |\n| Hardest part (listening / reading / vocabulary / grammar / speaking / writing) | |\n| Present-perfect-continuous sentences I can now make without thinking | |\n| Words from Lesson 3 I have forgotten | |\n| One thing I want to repeat next week | |",
+      "segments": [
+        {
+          "say": "Review. Listen to the passage again, with no text, and answer these questions.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 2
+        },
+        {
+          "say": "Question one. Name three things the children have been learning.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 10
+        },
+        {
+          "say": "Question two. What does Rana say is the right question to ask about the class?",
+          "voice": "narrator"
+        },
+        {
+          "pause": 10
+        },
+        {
+          "pause": 1.5
+        },
+        {
+          "say": "Now the mini-quiz. Twelve marks. Answer in the silence after each question.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 2
+        },
+        {
+          "say": "One. The present perfect continuous of work, for she, is",
+          "voice": "narrator"
+        },
+        {
+          "pause": 6
+        },
+        {
+          "say": "Two. Which word goes with a length of time, for or since?",
+          "voice": "narrator"
+        },
+        {
+          "pause": 8
+        },
+        {
+          "say": "Three. Which one counts how many: the simple or the continuous?",
+          "voice": "narrator"
+        },
+        {
+          "pause": 6
+        },
+        {
+          "say": "Four. The opposite of patient is",
+          "voice": "narrator"
+        },
+        {
+          "pause": 6
+        },
+        {
+          "say": "Five. The opposite of improve is",
+          "voice": "narrator"
+        },
+        {
+          "pause": 6
+        },
+        {
+          "say": "Six. A person who has just started to learn is a",
+          "voice": "narrator"
+        },
+        {
+          "pause": 6
+        },
+        {
+          "say": "Seven. To put a program onto a computer is to",
+          "voice": "narrator"
+        },
+        {
+          "pause": 6
+        },
+        {
+          "say": "Eight. The part that holds power inside a machine is a",
+          "voice": "narrator"
+        },
+        {
+          "pause": 6
+        },
+        {
+          "say": "Nine. Write a sentence with since and the present perfect continuous.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 15
+        },
+        {
+          "say": "Ten. Write a question beginning How long.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 15
+        },
+        {
+          "say": "Eleven. Write one sentence with timetable.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 15
+        },
+        {
+          "say": "Twelve. Tell the story of the passage in two sentences, from memory.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 20
+        },
+        {
+          "say": "This is the end of the review.",
+          "voice": "narrator"
+        }
+      ]
+    },
+    {
+      "number": "11",
+      "slug": "answer-key",
+      "title": "Answer key and teacher notes",
+      "minutes": 10,
+      "sheet": true,
+      "audio": false,
+      "css_id": "answer-key",
+      "markdown": "**Listening:** L1 — Rana; she has been teaching a free computer class for children · L2 — for eighteen months · L3 — two o'clock, every Saturday · L4 — her brother\n\n**Part A (MCQ):** 1-B · 2-B · 3-C · 4-A · 5-B · 6-B · 7-B · 8-B · 9-B · 10-C\n\n*Why 7 is **[B]***: the sentence is about things that cannot be depended on, and only the paragraph after **[B]** is about unreliable things — six hours of electricity nobody can predict, one dead battery, one laptop that stops the moment the power does.\n\n*Why 8 is **[B]***: the boy in the market is the reason the class exists. He is not evidence about schools, and the paragraph is not about phones.\n\n*Why 9 is **[B]***: the passage gives no instructions and asks for nothing. It follows one person over eighteen months and ends on what the children can now do.\n\n*Why 10 is **C, respectful***: the writer never praises Rana directly — there is no \"wonderful\", no \"heroic\". Instead the admiration is carried by what is chosen and reported: the brother who never once sounded angry, the list she has shown to nobody, the last paragraph that refuses a neat ending. Watch for this: in TOEFL, attitude is almost always shown by **selection of detail**, not by adjectives.\n\n**Part B (True/False):**\n\n1. F — She studied accounting.\n2. T\n3. F — One has a battery that lasts forty minutes; the other has none.\n4. T\n5. F — She has not shown it to anyone.\n6. T — It has lost four and gained seven.\n\n**Part C (Fill in the blanks):** 1. beginners · 2. keyboard · 3. battery · 4. timetable · 5. repairs · 6. installed · 7. patient\n*(Extra words: volunteer, skill)*\n\n**2.4 A (Opposites):** 1. impatient · 2. get worse · 3. keep · 4. expert · 5. break\n\n**2.4 B (Odd one out):** 1. timetable (the others are parts of a machine) · 2. patient (the others are things you do to a computer) · 3. program (the others are people)\n\n**Come back to (present simple or continuous):** 1. starts · 2. has been teaching · 3. comes · 4. has been repairing\n\n**3.6 A (Present perfect continuous):** 1. has been teaching · 2. have been learning · 3. has been repairing · 4. has been teaching · 5. How long have … been studying\n**3.6 B (Simple or continuous):** 1. has installed · 2. has been keeping · 3. has lost · 4. have been learning\n**3.6 C (for / since):** 1. for · 2. since · 3. since · 4. for\n\n**Mini-quiz:** 1. she has been working · 2. for, since · 3. the simple · 4. impatient · 5. get worse · 6. beginner · 7. install · 8. battery · 9–12. teacher judgement\n\n### Teacher Notes {: #teacher-notes }\n\n**What changed from Lesson 4.** The passage grew from 400 to 481 words, the present perfect continuous joins the present perfect, and the comprehension set reaches **ten questions** — the size of a real TOEFL reading set, and the first time the course has given her a full one. The tenth type, the writer's attitude, is the last of the set; from here nothing new is added and only the text gets harder, which was the promise made in Lesson 1.\n\n**The one real difficulty.** Not the form, which is mechanical, but knowing when *has done* will not do. Arabic speakers reach for the simple form for everything, and *I have studied English since 2019* is not wrong — it is just weaker than *I have been studying*. Use 3.4 and 3.6 B: the simple counts **how many**, the continuous measures **how long**. If she can say which of those a sentence is doing, she will choose correctly.\n\n**Why the pronunciation part is the one to protect.** This tense is *has* + *been* + *-ing*, and in speech all three shrink: */ʃiːz bɪn ˈwɜːkɪŋ/*. A student who writes it perfectly can still fail to hear it, and then loses the tense in every conversation. Part 05 is not decoration.\n\n**On the \"Come back to\" section.** It takes the present simple, which Lessons 1 and 2 taught as habit, and adds the use that nobody teaches early: timetables and fixed arrangements. *The exam starts on Monday* is a future event in a present tense, and Arabic would mark the future there. It is a small thing that makes her English sound considerably less translated.\n\n**Why this story.** Four passages have now been about things going wrong and being recovered. This one is about something slowly going right, and it is the first with a character who is not a student. It also gives the attitude question something to bite on: the admiration in it is never stated, only shown, which is exactly what the new question type tests.\n\n**Success criteria for Lesson 5.** The student should be able to:\n\n- answer L1–L4 correctly on the second hearing;\n- hear *she's been working* and write it in full;\n- form the present perfect continuous and ask *How long have you been …?*;\n- choose correctly between simple and continuous in 3.6 B;\n- use the present simple for a timetable without reaching for the future;\n- use 10 of the 14 key words in her own sentence;\n- write 14 sentences about a long activity with fewer than 4 tense errors.\n\n**If it is too easy:** Lesson 6 goes to about 550 words and adds the future with *will* and *going to*, with no new question type — the set is complete.\n**If it is too hard:** keep the same passage for a second week, drop question 10, and drill only the Come back to section and 3.4.\n\n**A note on spaced recall.** `03-vocabulary.mp3` ends with five Lesson 3 words — *server, software, restart, broken, save*. Lesson 4 recalled Lesson 2, so the two-lesson gap holds. Lesson 4's words are due back in Lesson 6."
+    },
+    {
+      "number": "12",
+      "slug": "passage-slow",
+      "title": "Passage, extra slow",
+      "minutes": 10,
+      "sheet": false,
+      "audio": true,
+      "segments": [
+        {
+          "say": "Slow version. The passage, read slowly, one time.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 2
+        },
+        {
+          "say": "Rana is twenty-six, and for the last eighteen months she has been teaching a free computer class for children. It happens in one room above her father's shop, and it starts at two o'clock every Saturday.\n\nShe is not a teacher. She studied accounting, and she works in an office four days a week. But three years ago she watched a boy in the market trying to fill in a form on a borrowed phone, typing with one finger, and she could not stop thinking about it.\n\nThe class has eleven children in it now. Most of them are beginners. They have been learning the same small things, again and again: how to hold a mouse, how to click once and not twice, where the letters are on the keyboard, how to save a file before the power goes.\n\nThe electricity comes for about six hours a day, and nobody knows which six. So Rana keeps a timetable on the wall, and ignores it when she has to. The two laptops in the room are old. One of them has a battery that lasts forty minutes; the other has none at all, and it stops the moment the power stops.\n\nHer brother has been repairing those two laptops since the class began. He works in a phone shop six days a week, and he comes here on the seventh. He is patient in a way that Rana says she is not. He has installed the same program four times on the same machine, because a child deleted it four times, and he has never once sounded angry about it.\n\nThe children are getting faster. Six months ago most of them typed with one finger, like the boy in the market. Now four of them type without looking down, and one girl, who is nine, has been teaching her own mother in the evenings. Two of them have been coming since the first Saturday and have not missed one.\n\nRana has been keeping a list since the first Saturday. It has one line for each child: what they can do, and what they are still finding hard. She has not shown it to anyone. It is four pages long now.\n\nPeople ask her how long she will go on with it. She says she does not know, and that it is not really the right question. The right question, she says, is what a child can do at the end of a year that she could not do at the beginning. For that, the list on her desk already has an answer.\n\nShe has been doing this for eighteen months, and she has never asked anyone for money. In that time the class has lost four children and gained seven. The room still has two old laptops. The electricity still comes for six hours a day, and still nobody knows which six.",
+          "voice": "slow"
+        }
+      ]
+    }
+  ]
+}
