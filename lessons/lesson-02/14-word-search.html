@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Word search - Lesson 2 — The Lost Photographs</title>
+<meta name="theme-color" content="#15607a">
+<style>
+:root{--ink:#1a1d21;--muted:#5d646e;--rule:#dfe3e8;--accent:#15607a;
+--wash:#f1f6f8;--bg:#fff;--ok:#1d6b45;--bad:#a4302a}
+@media(prefers-color-scheme:dark){:root{--ink:#e9edf1;--muted:#9aa4b0;
+--rule:#2b3138;--accent:#6fc2de;--wash:#1a2026;--bg:#10151a;--ok:#6fd19d;--bad:#e8857f}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);padding:16px;
+font:16px/1.5 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+.wrap{max-width:46rem;margin:0 auto}
+h1{font-size:20px;margin:0 0 2px;color:var(--accent)}
+.sub{color:var(--muted);font-size:14px;margin:0 0 14px}
+.bar{display:flex;gap:8px;flex-wrap:wrap;margin:14px 0}
+button{font:inherit;font-size:14px;padding:7px 14px;border-radius:99px;
+border:1px solid var(--accent);background:transparent;color:var(--accent);cursor:pointer;min-height:38px}
+button.primary{background:var(--accent);color:#fff}
+.msg{min-height:22px;font-size:14px;font-weight:600;margin-bottom:6px}
+.msg.good{color:var(--ok)}.msg.bad{color:var(--bad)}
+table.grid{border-collapse:collapse;margin:0 auto 6px}
+table.grid td{padding:0;border:0}
+.cell{width:var(--sq);height:var(--sq);position:relative;border:1px solid var(--rule);
+background:var(--wash)}
+.cell.block{border:0;background:transparent}
+.cell input{width:100%;height:100%;border:0;background:transparent;text-align:center;
+font:600 calc(var(--sq)*0.52)/1 inherit;color:var(--ink);text-transform:uppercase;padding:0}
+.cell input:focus{outline:2px solid var(--accent);outline-offset:-2px}
+.cell.right input{color:var(--ok)}
+.cell.wrong input{color:var(--bad)}
+.num{position:absolute;top:1px;left:2px;font-size:calc(var(--sq)*0.28);color:var(--muted);
+pointer-events:none}
+.clues{display:grid;grid-template-columns:1fr;gap:18px;margin-top:18px}
+@media(min-width:620px){.clues{grid-template-columns:1fr 1fr}}
+.clues h2{font-size:14px;text-transform:uppercase;letter-spacing:.05em;color:var(--muted);
+margin:0 0 6px}
+ol.clue{margin:0;padding-left:0;list-style:none}
+ol.clue li{margin-bottom:6px;font-size:14.5px;display:flex;gap:7px}
+ol.clue b{color:var(--accent);min-width:1.6em;text-align:right}
+ol.clue li.done{color:var(--muted);text-decoration:line-through}
+.ar{font-size:13px;color:var(--muted)}
+.ws td{border:0}
+.ws .cell{background:transparent;border:0;display:flex;align-items:center;
+justify-content:center;font-weight:600;font-size:calc(var(--sq)*0.5);cursor:pointer;
+user-select:none;-webkit-user-select:none;border-radius:4px}
+.ws .cell.sel{background:var(--accent);color:#fff}
+.ws .cell.found{background:var(--wash);color:var(--ok)}
+.words{display:flex;flex-wrap:wrap;gap:6px 14px;margin-top:14px}
+.words span{font-size:14.5px}
+.words span.found{color:var(--muted);text-decoration:line-through}
+.foot{margin-top:26px;border-top:1px solid var(--rule);padding-top:10px;
+font-size:13px;color:var(--muted)}
+.foot a{color:var(--accent)}
+
+:root{--sq:min(6.6vw, 30px)}</style>
+</head>
+<body><div class="wrap">
+<h1>Word search</h1>
+<p class="sub">Lesson 2 — The Lost Photographs &middot; 19 words from this lesson. Find them all.</p>
+<div class="msg" id="msg"></div>
+<table class="grid ws"><tbody>
+<tr><td><div class="cell" data-r="0" data-c="0">T</div></td><td><div class="cell" data-r="0" data-c="1">N</div></td><td><div class="cell" data-r="0" data-c="2">A</div></td><td><div class="cell" data-r="0" data-c="3">T</div></td><td><div class="cell" data-r="0" data-c="4">R</div></td><td><div class="cell" data-r="0" data-c="5">O</div></td><td><div class="cell" data-r="0" data-c="6">P</div></td><td><div class="cell" data-r="0" data-c="7">M</div></td><td><div class="cell" data-r="0" data-c="8">I</div></td><td><div class="cell" data-r="0" data-c="9">E</div></td><td><div class="cell" data-r="0" data-c="10">E</div></td><td><div class="cell" data-r="0" data-c="11">C</div></td><td><div class="cell" data-r="0" data-c="12">K</div></td></tr>
+<tr><td><div class="cell" data-r="1" data-c="0">A</div></td><td><div class="cell" data-r="1" data-c="1">D</div></td><td><div class="cell" data-r="1" data-c="2">R</div></td><td><div class="cell" data-r="1" data-c="3">I</div></td><td><div class="cell" data-r="1" data-c="4">R</div></td><td><div class="cell" data-r="1" data-c="5">T</div></td><td><div class="cell" data-r="1" data-c="6">D</div></td><td><div class="cell" data-r="1" data-c="7">T</div></td><td><div class="cell" data-r="1" data-c="8">E</div></td><td><div class="cell" data-r="1" data-c="9">R</div></td><td><div class="cell" data-r="1" data-c="10">T</div></td><td><div class="cell" data-r="1" data-c="11">A</div></td><td><div class="cell" data-r="1" data-c="12">A</div></td></tr>
+<tr><td><div class="cell" data-r="2" data-c="0">C</div></td><td><div class="cell" data-r="2" data-c="1">E</div></td><td><div class="cell" data-r="2" data-c="2">M</div></td><td><div class="cell" data-r="2" data-c="3">A</div></td><td><div class="cell" data-r="2" data-c="4">A</div></td><td><div class="cell" data-r="2" data-c="5">E</div></td><td><div class="cell" data-r="2" data-c="6">N</div></td><td><div class="cell" data-r="2" data-c="7">R</div></td><td><div class="cell" data-r="2" data-c="8">P</div></td><td><div class="cell" data-r="2" data-c="9">E</div></td><td><div class="cell" data-r="2" data-c="10">E</div></td><td><div class="cell" data-r="2" data-c="11">K</div></td><td><div class="cell" data-r="2" data-c="12">E</div></td></tr>
+<tr><td><div class="cell" data-r="3" data-c="0">H</div></td><td><div class="cell" data-r="3" data-c="1">G</div></td><td><div class="cell" data-r="3" data-c="2">L</div></td><td><div class="cell" data-r="3" data-c="3">R</div></td><td><div class="cell" data-r="3" data-c="4">E</div></td><td><div class="cell" data-r="3" data-c="5">E</div></td><td><div class="cell" data-r="3" data-c="6">M</div></td><td><div class="cell" data-r="3" data-c="7">N</div></td><td><div class="cell" data-r="3" data-c="8">I</div></td><td><div class="cell" data-r="3" data-c="9">M</div></td><td><div class="cell" data-r="3" data-c="10">M</div></td><td><div class="cell" data-r="3" data-c="11">R</div></td><td><div class="cell" data-r="3" data-c="12">P</div></td></tr>
+<tr><td><div class="cell" data-r="4" data-c="0">A</div></td><td><div class="cell" data-r="4" data-c="1">E</div></td><td><div class="cell" data-r="4" data-c="2">A</div></td><td><div class="cell" data-r="4" data-c="3">E</div></td><td><div class="cell" data-r="4" data-c="4">M</div></td><td><div class="cell" data-r="4" data-c="5">P</div></td><td><div class="cell" data-r="4" data-c="6">I</div></td><td><div class="cell" data-r="4" data-c="7">E</div></td><td><div class="cell" data-r="4" data-c="8">E</div></td><td><div class="cell" data-r="4" data-c="9">V</div></td><td><div class="cell" data-r="4" data-c="10">E</div></td><td><div class="cell" data-r="4" data-c="11">E</div></td><td><div class="cell" data-r="4" data-c="12">R</div></td></tr>
+<tr><td><div class="cell" data-r="5" data-c="0">R</div></td><td><div class="cell" data-r="5" data-c="1">C</div></td><td><div class="cell" data-r="5" data-c="2">A</div></td><td><div class="cell" data-r="5" data-c="3">U</div></td><td><div class="cell" data-r="5" data-c="4">C</div></td><td><div class="cell" data-r="5" data-c="5">A</div></td><td><div class="cell" data-r="5" data-c="6">P</div></td><td><div class="cell" data-r="5" data-c="7">M</div></td><td><div class="cell" data-r="5" data-c="8">M</div></td><td><div class="cell" data-r="5" data-c="9">H</div></td><td><div class="cell" data-r="5" data-c="10">E</div></td><td><div class="cell" data-r="5" data-c="11">S</div></td><td><div class="cell" data-r="5" data-c="12">A</div></td></tr>
+<tr><td><div class="cell" data-r="6" data-c="0">G</div></td><td><div class="cell" data-r="6" data-c="1">D</div></td><td><div class="cell" data-r="6" data-c="2">C</div></td><td><div class="cell" data-r="6" data-c="3">C</div></td><td><div class="cell" data-r="6" data-c="4">L</div></td><td><div class="cell" data-r="6" data-c="5">T</div></td><td><div class="cell" data-r="6" data-c="6">O</div></td><td><div class="cell" data-r="6" data-c="7">A</div></td><td><div class="cell" data-r="6" data-c="8">W</div></td><td><div class="cell" data-r="6" data-c="9">B</div></td><td><div class="cell" data-r="6" data-c="10">R</div></td><td><div class="cell" data-r="6" data-c="11">O</div></td><td><div class="cell" data-r="6" data-c="12">C</div></td></tr>
+<tr><td><div class="cell" data-r="7" data-c="0">E</div></td><td><div class="cell" data-r="7" data-c="1">O</div></td><td><div class="cell" data-r="7" data-c="2">E</div></td><td><div class="cell" data-r="7" data-c="3">P</div></td><td><div class="cell" data-r="7" data-c="4">O</div></td><td><div class="cell" data-r="7" data-c="5">R</div></td><td><div class="cell" data-r="7" data-c="6">R</div></td><td><div class="cell" data-r="7" data-c="7">Y</div></td><td><div class="cell" data-r="7" data-c="8">S</div></td><td><div class="cell" data-r="7" data-c="9">E</div></td><td><div class="cell" data-r="7" data-c="10">E</div></td><td><div class="cell" data-r="7" data-c="11">L</div></td><td><div class="cell" data-r="7" data-c="12">T</div></td></tr>
+<tr><td><div class="cell" data-r="8" data-c="0">D</div></td><td><div class="cell" data-r="8" data-c="1">C</div></td><td><div class="cell" data-r="8" data-c="2">X</div></td><td><div class="cell" data-r="8" data-c="3">S</div></td><td><div class="cell" data-r="8" data-c="4">Y</div></td><td><div class="cell" data-r="8" data-c="5">L</div></td><td><div class="cell" data-r="8" data-c="6">R</div></td><td><div class="cell" data-r="8" data-c="7">I</div></td><td><div class="cell" data-r="8" data-c="8">D</div></td><td><div class="cell" data-r="8" data-c="9">I</div></td><td><div class="cell" data-r="8" data-c="10">Y</div></td><td><div class="cell" data-r="8" data-c="11">R</div></td><td><div class="cell" data-r="8" data-c="12">I</div></td></tr>
+<tr><td><div class="cell" data-r="9" data-c="0">H</div></td><td><div class="cell" data-r="9" data-c="1">E</div></td><td><div class="cell" data-r="9" data-c="2">Y</div></td><td><div class="cell" data-r="9" data-c="3">C</div></td><td><div class="cell" data-r="9" data-c="4">I</div></td><td><div class="cell" data-r="9" data-c="5">E</div></td><td><div class="cell" data-r="9" data-c="6">L</div></td><td><div class="cell" data-r="9" data-c="7">L</div></td><td><div class="cell" data-r="9" data-c="8">C</div></td><td><div class="cell" data-r="9" data-c="9">S</div></td><td><div class="cell" data-r="9" data-c="10">D</div></td><td><div class="cell" data-r="9" data-c="11">I</div></td><td><div class="cell" data-r="9" data-c="12">S</div></td></tr>
+<tr><td><div class="cell" data-r="10" data-c="0">P</div></td><td><div class="cell" data-r="10" data-c="1">A</div></td><td><div class="cell" data-r="10" data-c="2">A</div></td><td><div class="cell" data-r="10" data-c="3">P</div></td><td><div class="cell" data-r="10" data-c="4">V</div></td><td><div class="cell" data-r="10" data-c="5">G</div></td><td><div class="cell" data-r="10" data-c="6">O</div></td><td><div class="cell" data-r="10" data-c="7">E</div></td><td><div class="cell" data-r="10" data-c="8">C</div></td><td><div class="cell" data-r="10" data-c="9">I</div></td><td><div class="cell" data-r="10" data-c="10">A</div></td><td><div class="cell" data-r="10" data-c="11">D</div></td><td><div class="cell" data-r="10" data-c="12">E</div></td></tr>
+<tr><td><div class="cell" data-r="11" data-c="0">A</div></td><td><div class="cell" data-r="11" data-c="1">R</div></td><td><div class="cell" data-r="11" data-c="2">D</div></td><td><div class="cell" data-r="11" data-c="3">E</div></td><td><div class="cell" data-r="11" data-c="4">O</div></td><td><div class="cell" data-r="11" data-c="5">F</div></td><td><div class="cell" data-r="11" data-c="6">N</div></td><td><div class="cell" data-r="11" data-c="7">E</div></td><td><div class="cell" data-r="11" data-c="8">G</div></td><td><div class="cell" data-r="11" data-c="9">A</div></td><td><div class="cell" data-r="11" data-c="10">T</div></td><td><div class="cell" data-r="11" data-c="11">F</div></td><td><div class="cell" data-r="11" data-c="12">R</div></td></tr>
+<tr><td><div class="cell" data-r="12" data-c="0">D</div></td><td><div class="cell" data-r="12" data-c="1">S</div></td><td><div class="cell" data-r="12" data-c="2">O</div></td><td><div class="cell" data-r="12" data-c="3">B</div></td><td><div class="cell" data-r="12" data-c="4">A</div></td><td><div class="cell" data-r="12" data-c="5">C</div></td><td><div class="cell" data-r="12" data-c="6">K</div></td><td><div class="cell" data-r="12" data-c="7">U</div></td><td><div class="cell" data-r="12" data-c="8">P</div></td><td><div class="cell" data-r="12" data-c="9">E</div></td><td><div class="cell" data-r="12" data-c="10">E</div></td><td><div class="cell" data-r="12" data-c="11">Y</div></td><td><div class="cell" data-r="12" data-c="12">E</div></td></tr>
+</tbody></table>
+<div class="bar">
+  <button id="reveal">Show one word</button>
+  <button id="clear">Start again</button>
+</div>
+<div class="words" id="words"><span data-word="BACKUP">backup <span class="ar">نسخة احتياطية</span></span>
+<span data-word="CHARGE">charge</span>
+<span data-word="COLLEGE">college <span class="ar">كلية</span></span>
+<span data-word="COPY">copy <span class="ar">نسخة / ينسخ</span></span>
+<span data-word="DESIGN">design <span class="ar">تصميم</span></span>
+<span data-word="DISAPPEAR">disappear <span class="ar">يختفي</span></span>
+<span data-word="DOCUMENT">document</span>
+<span data-word="DRIVE">drive <span class="ar">مشغّل / سحابة</span></span>
+<span data-word="ELECTRICITY">electricity</span>
+<span data-word="EVERYWHERE">everywhere <span class="ar">في كل مكان</span></span>
+<span data-word="EXPLAIN">explain <span class="ar">يشرح</span></span>
+<span data-word="FOLDER">folder <span class="ar">مجلد</span></span>
+<span data-word="IMPORTANT">important <span class="ar">مهم</span></span>
+<span data-word="KEEP">keep / kept <span class="ar">يحفظ</span></span>
+<span data-word="LOSE">lose / lost <span class="ar">يفقد</span></span>
+<span data-word="MEMORYCARD">memory card <span class="ar">بطاقة ذاكرة</span></span>
+<span data-word="PRACTISE">practise</span>
+<span data-word="REMEMBER">remember <span class="ar">يتذكر</span></span>
+<span data-word="SAFE">safe</span></div>
+<p class="sub" style="margin-top:14px">Tap the first letter, then the last letter.
+Words go in any direction, including backwards.</p>
+<p class="foot">Every word here is from this lesson. &nbsp;
+<a href="README.md">Back to the lesson</a></p>
+</div>
+<script>
+const WORDS = [{"word": "BACKUP", "display": "backup", "r": 12, "c": 3, "dr": 0, "dc": 1, "clue": "a second copy kept in another place", "arabic": "\u0646\u0633\u062e\u0629 \u0627\u062d\u062a\u064a\u0627\u0637\u064a\u0629"}, {"word": "CHARGE", "display": "charge", "r": 2, "c": 0, "dr": 1, "dc": 0, "clue": "to put electricity into a battery", "arabic": ""}, {"word": "COLLEGE", "display": "college", "r": 6, "c": 3, "dr": 1, "dc": 1, "clue": "a place to study after school", "arabic": "\u0643\u0644\u064a\u0629"}, {"word": "COPY", "display": "copy", "r": 12, "c": 5, "dr": -1, "dc": -1, "clue": "another one exactly the same", "arabic": "\u0646\u0633\u062e\u0629 / \u064a\u0646\u0633\u062e"}, {"word": "DESIGN", "display": "design", "r": 6, "c": 1, "dr": 1, "dc": 1, "clue": "planning how something looks", "arabic": "\u062a\u0635\u0645\u064a\u0645"}, {"word": "DISAPPEAR", "display": "disappear", "r": 9, "c": 10, "dr": -1, "dc": -1, "clue": "to go away and not be seen", "arabic": "\u064a\u062e\u062a\u0641\u064a"}, {"word": "DOCUMENT", "display": "document", "r": 8, "c": 0, "dr": -1, "dc": 1, "clue": "a file with writing in it", "arabic": ""}, {"word": "DRIVE", "display": "drive", "r": 1, "c": 6, "dr": 1, "dc": 1, "clue": "a place that stores files (here: online)", "arabic": "\u0645\u0634\u063a\u0651\u0644 / \u0633\u062d\u0627\u0628\u0629"}, {"word": "ELECTRICITY", "display": "electricity", "r": 2, "c": 1, "dr": 1, "dc": 1, "clue": "the power that makes machines work", "arabic": ""}, {"word": "EVERYWHERE", "display": "everywhere", "r": 11, "c": 3, "dr": -1, "dc": 1, "clue": "in every place", "arabic": "\u0641\u064a \u0643\u0644 \u0645\u0643\u0627\u0646"}, {"word": "EXPLAIN", "display": "explain", "r": 9, "c": 1, "dr": -1, "dc": 1, "clue": "to make something easy to understand", "arabic": "\u064a\u0634\u0631\u062d"}, {"word": "FOLDER", "display": "folder", "r": 11, "c": 5, "dr": -1, "dc": 1, "clue": "a place on a computer that holds files", "arabic": "\u0645\u062c\u0644\u062f"}, {"word": "IMPORTANT", "display": "important", "r": 0, "c": 8, "dr": 0, "dc": -1, "clue": "something that matters a lot", "arabic": "\u0645\u0647\u0645"}, {"word": "KEEP", "display": "keep / kept", "r": 2, "c": 11, "dr": 0, "dc": -1, "clue": "to have something and not lose it", "arabic": "\u064a\u062d\u0641\u0638"}, {"word": "LOSE", "display": "lose / lost", "r": 7, "c": 11, "dr": -1, "dc": 0, "clue": "to not have something any more", "arabic": "\u064a\u0641\u0642\u062f"}, {"word": "MEMORYCARD", "display": "memory card", "r": 3, "c": 9, "dr": 1, "dc": -1, "clue": "a small card that holds files", "arabic": "\u0628\u0637\u0627\u0642\u0629 \u0630\u0627\u0643\u0631\u0629"}, {"word": "PRACTISE", "display": "practise", "r": 3, "c": 12, "dr": 1, "dc": 0, "clue": "to do something many times to learn it", "arabic": ""}, {"word": "REMEMBER", "display": "remember", "r": 1, "c": 4, "dr": 1, "dc": 1, "clue": "to keep something in your mind", "arabic": "\u064a\u062a\u0630\u0643\u0631"}, {"word": "SAFE", "display": "safe", "r": 9, "c": 9, "dr": 1, "dc": 1, "clue": "protected, not in danger", "arabic": ""}];
+const size = 13;
+const cellOf = {};
+document.querySelectorAll('.ws .cell').forEach(d => cellOf[d.dataset.r + ',' + d.dataset.c] = d);
+const KEY = 'wordsearch:' + location.pathname;
+let found = [];
+try { found = JSON.parse(localStorage.getItem(KEY) || '[]'); } catch (e) {}
+let start = null;
+const msg = document.getElementById('msg');
+
+function paint() {
+  WORDS.forEach(w => {
+    if (!found.includes(w.word)) return;
+    for (let i = 0; i < w.word.length; i++) {
+      const d = cellOf[(w.r + w.dr * i) + ',' + (w.c + w.dc * i)];
+      if (d) d.classList.add('found');
+    }
+    const s = document.querySelector('[data-word="' + w.word + '"]');
+    if (s) s.classList.add('found');
+  });
+  const left = WORDS.length - found.length;
+  if (!left) { msg.className = 'msg good'; msg.textContent = 'All found. Well done.'; }
+}
+function clearSel() {
+  document.querySelectorAll('.ws .cell.sel').forEach(d => d.classList.remove('sel'));
+}
+document.querySelectorAll('.ws .cell').forEach(d => {
+  d.addEventListener('click', () => {
+    const r = +d.dataset.r, c = +d.dataset.c;
+    if (!start) { clearSel(); start = [r, c]; d.classList.add('sel'); return; }
+    const [sr, sc] = start;
+    const dr = Math.sign(r - sr), dc = Math.sign(c - sc);
+    const len = Math.max(Math.abs(r - sr), Math.abs(c - sc)) + 1;
+    const straight = (r === sr || c === sc || Math.abs(r - sr) === Math.abs(c - sc));
+    start = null; clearSel();
+    if (!straight) { msg.className = 'msg bad'; msg.textContent = 'Lines only: across, down or corner to corner.'; return; }
+    let got = '';
+    for (let i = 0; i < len; i++) {
+      const cell = cellOf[(sr + dr * i) + ',' + (sc + dc * i)];
+      got += cell ? cell.textContent.trim() : '';
+    }
+    const hit = WORDS.find(w => w.word === got || w.word === got.split('').reverse().join(''));
+    if (hit && !found.includes(hit.word)) {
+      found.push(hit.word);
+      try { localStorage.setItem(KEY, JSON.stringify(found)); } catch (e) {}
+      msg.className = 'msg good';
+      msg.textContent = hit.display + ' - ' + hit.clue;
+      paint();
+    } else if (hit) {
+      msg.className = 'msg'; msg.textContent = 'Already found.';
+    } else {
+      msg.className = 'msg bad'; msg.textContent = 'Not one of the words.';
+    }
+  });
+});
+document.getElementById('reveal').onclick = () => {
+  const left = WORDS.filter(w => !found.includes(w.word));
+  if (!left.length) { msg.textContent = 'Nothing left to find.'; return; }
+  const w = left[Math.floor(Math.random() * left.length)];
+  found.push(w.word);
+  try { localStorage.setItem(KEY, JSON.stringify(found)); } catch (e) {}
+  msg.className = 'msg'; msg.textContent = 'Shown: ' + w.display;
+  paint();
+};
+document.getElementById('clear').onclick = () => {
+  found = [];
+  try { localStorage.removeItem(KEY); } catch (e) {}
+  document.querySelectorAll('.found').forEach(d => d.classList.remove('found'));
+  msg.textContent = ''; msg.className = 'msg';
+};
+paint();
+</script>
+</body>
+</html>

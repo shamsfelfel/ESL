@@ -8,6 +8,133 @@
   "skills": "Listening → Reading → Vocabulary → Grammar → Comprehension → Speaking → Writing",
   "new_in_this_lesson": "the past simple (studied, took, lost), a longer passage of 244 words, sentence insertion, a two-sentence written summary, and the first spaced recall of Lesson 1 vocabulary",
   "passage_words": 244,
+  "vocabulary": [
+    {
+      "word": "college",
+      "answer": "COLLEGE",
+      "type": "noun",
+      "meaning": "a place to study after school",
+      "arabic": "كلية"
+    },
+    {
+      "word": "design",
+      "answer": "DESIGN",
+      "type": "noun",
+      "meaning": "planning how something looks",
+      "arabic": "تصميم"
+    },
+    {
+      "word": "keep / kept",
+      "answer": "KEEP",
+      "type": "verb",
+      "meaning": "to have something and not lose it",
+      "arabic": "يحفظ"
+    },
+    {
+      "word": "lose / lost",
+      "answer": "LOSE",
+      "type": "verb",
+      "meaning": "to not have something any more",
+      "arabic": "يفقد"
+    },
+    {
+      "word": "everywhere",
+      "answer": "EVERYWHERE",
+      "type": "adverb",
+      "meaning": "in every place",
+      "arabic": "في كل مكان"
+    },
+    {
+      "word": "disappear",
+      "answer": "DISAPPEAR",
+      "type": "verb",
+      "meaning": "to go away and not be seen",
+      "arabic": "يختفي"
+    },
+    {
+      "word": "copy",
+      "answer": "COPY",
+      "type": "noun / verb",
+      "meaning": "another one exactly the same",
+      "arabic": "نسخة / ينسخ"
+    },
+    {
+      "word": "backup",
+      "answer": "BACKUP",
+      "type": "noun",
+      "meaning": "a second copy kept in another place",
+      "arabic": "نسخة احتياطية"
+    },
+    {
+      "word": "explain",
+      "answer": "EXPLAIN",
+      "type": "verb",
+      "meaning": "to make something easy to understand",
+      "arabic": "يشرح"
+    },
+    {
+      "word": "memory card",
+      "answer": "MEMORYCARD",
+      "type": "noun",
+      "meaning": "a small card that holds files",
+      "arabic": "بطاقة ذاكرة"
+    },
+    {
+      "word": "folder",
+      "answer": "FOLDER",
+      "type": "noun",
+      "meaning": "a place on a computer that holds files",
+      "arabic": "مجلد"
+    },
+    {
+      "word": "drive",
+      "answer": "DRIVE",
+      "type": "noun",
+      "meaning": "a place that stores files (here: online)",
+      "arabic": "مشغّل / سحابة"
+    },
+    {
+      "word": "important",
+      "answer": "IMPORTANT",
+      "type": "adjective",
+      "meaning": "something that matters a lot",
+      "arabic": "مهم"
+    },
+    {
+      "word": "remember",
+      "answer": "REMEMBER",
+      "type": "verb",
+      "meaning": "to keep something in your mind",
+      "arabic": "يتذكر"
+    }
+  ],
+  "recall": [
+    {
+      "word": "safe",
+      "answer": "SAFE",
+      "meaning": "protected, not in danger"
+    },
+    {
+      "word": "document",
+      "answer": "DOCUMENT",
+      "meaning": "a file with writing in it"
+    },
+    {
+      "word": "electricity",
+      "answer": "ELECTRICITY",
+      "meaning": "the power that makes machines work"
+    },
+    {
+      "word": "practise",
+      "answer": "PRACTISE",
+      "meaning": "to do something many times to learn it"
+    },
+    {
+      "word": "charge",
+      "answer": "CHARGE",
+      "meaning": "to put electricity into a battery"
+    }
+  ],
   "footer": "Lesson 2 — The Lost Photographs",
   "voices": {
     "reader": {
@@ -50,6 +177,22 @@
       }
     ]
   },
+  "games": [
+    {
+      "number": "13",
+      "slug": "crossword",
+      "title": "Crossword",
+      "style": "crossword",
+      "minutes": 15
+    },
+    {
+      "number": "14",
+      "slug": "word-search",
+      "title": "Word search",
+      "style": "word-search",
+      "minutes": 10
+    }
+  ],
   "parts": [
     {
       "number": "01",

@@ -1,0 +1,1904 @@
+{
+  "lesson": 4,
+  "slug": "lesson-04",
+  "title": "Lesson 4 — One Small Thing, Many Times",
+  "level": "A2+ (fourth step)",
+  "topic": "Web design, online learning and a small shop",
+  "time": "6 sessions, 45–55 minutes each",
+  "skills": "Listening → Reading → Vocabulary → Grammar → Comprehension → Speaking → Writing",
+  "new_in_this_lesson": "the present perfect with for, since, never, already and yet, the short forms of have and has, a longer passage of 400 words, and one new question type: the purpose of the whole passage",
+  "passage_words": 400,
+  "vocabulary": [
+    {
+      "word": "website",
+      "answer": "WEBSITE",
+      "type": "noun",
+      "meaning": "a group of pages on the internet",
+      "arabic": "موقع إلكتروني"
+    },
+    {
+      "word": "page",
+      "answer": "PAGE",
+      "type": "noun",
+      "meaning": "one screen of a website",
+      "arabic": "صفحة"
+    },
+    {
+      "word": "online",
+      "answer": "ONLINE",
+      "type": "adjective",
+      "meaning": "on the internet; connected",
+      "arabic": "على الإنترنت"
+    },
+    {
+      "word": "course",
+      "answer": "COURSE",
+      "type": "noun",
+      "meaning": "a set of lessons on one subject",
+      "arabic": "دورة"
+    },
+    {
+      "word": "publish",
+      "answer": "PUBLISH",
+      "type": "verb",
+      "meaning": "to put something on the internet for everyone",
+      "arabic": "ينشر"
+    },
+    {
+      "word": "customer",
+      "answer": "CUSTOMER",
+      "type": "noun",
+      "meaning": "a person who buys something",
+      "arabic": "زبون"
+    },
+    {
+      "word": "price",
+      "answer": "PRICE",
+      "type": "noun",
+      "meaning": "how much money something costs",
+      "arabic": "سعر"
+    },
+    {
+      "word": "connection",
+      "answer": "CONNECTION",
+      "type": "noun",
+      "meaning": "the link between your machine and the internet",
+      "arabic": "اتصال"
+    },
+    {
+      "word": "button",
+      "answer": "BUTTON",
+      "type": "noun",
+      "meaning": "the thing you press on a screen",
+      "arabic": "زر"
+    },
+    {
+      "word": "account",
+      "answer": "ACCOUNT",
+      "type": "noun",
+      "meaning": "your own name and password on a website",
+      "arabic": "حساب"
+    },
+    {
+      "word": "password",
+      "answer": "PASSWORD",
+      "type": "noun",
+      "meaning": "the secret word that opens your account",
+      "arabic": "كلمة المرور"
+    },
+    {
+      "word": "update",
+      "answer": "UPDATE",
+      "type": "verb",
+      "meaning": "to make something newer",
+      "arabic": "يحدّث"
+    },
+    {
+      "word": "free",
+      "answer": "FREE",
+      "type": "adjective",
+      "meaning": "costing no money",
+      "arabic": "مجاني"
+    },
+    {
+      "word": "order",
+      "answer": "ORDER",
+      "type": "verb",
+      "meaning": "to ask a shop to send you something",
+      "arabic": "يطلب"
+    }
+  ],
+  "recall": [
+    {
+      "word": "backup",
+      "answer": "BACKUP",
+      "meaning": "a second copy kept in another place"
+    },
+    {
+      "word": "folder",
+      "answer": "FOLDER",
+      "meaning": "a place on a computer that holds files"
+    },
+    {
+      "word": "drive",
+      "answer": "DRIVE",
+      "meaning": "a place that stores files"
+    },
+    {
+      "word": "explain",
+      "answer": "EXPLAIN",
+      "meaning": "to make something easy to understand"
+    },
+    {
+      "word": "remember",
+      "answer": "REMEMBER",
+      "meaning": "to keep something in your mind"
+    }
+  ],
+  "footer": "Lesson 4 — One Small Thing, Many Times",
+  "voices": {
+    "reader": {
+      "voice": "en-GB-RyanNeural",
+      "rate": "-10%",
+      "pitch": "+0Hz"
+    },
+    "narrator": {
+      "voice": "en-GB-SoniaNeural",
+      "rate": "-5%",
+      "pitch": "+0Hz"
+    },
+    "slow": {
+      "voice": "en-GB-RyanNeural",
+      "rate": "-25%",
+      "pitch": "+0Hz"
+    }
+  },
+  "how_to_work": [
+    "Play **01-passage.mp3** and listen twice with no text in front of you. Do not open the PDF yet.",
+    "Then work through the parts in number order. Part 04 is grammar and has no audio; part 05 needs its audio, because *have* and *has* nearly disappear in speech and cannot be heard from the page.",
+    "Record your speaking answers on your phone, and send them with your writing and your self-report.",
+    "Open part 11, the answer key, only when parts 01 to 10 are finished."
+  ],
+  "full_section": {
+    "parts": [
+      "01",
+      "02",
+      "06",
+      "07"
+    ],
+    "gap": 3,
+    "closing": [
+      {
+        "pause": 2
+      },
+      {
+        "say": "This is the end of lesson four.",
+        "voice": "narrator"
+      }
+    ]
+  },
+  "games": [
+    {
+      "number": "13",
+      "slug": "crossword",
+      "title": "Crossword",
+      "style": "crossword",
+      "minutes": 15
+    },
+    {
+      "number": "14",
+      "slug": "word-search",
+      "title": "Word search",
+      "style": "word-search",
+      "minutes": 10
+    }
+  ],
+  "parts": [
+    {
+      "number": "01",
+      "slug": "passage",
+      "title": "Passage — One Small Thing, Many Times",
+      "minutes": 20,
+      "sheet": true,
+      "audio": true,
+      "print_only": {
+        "markers": [
+          "[A]",
+          "[B]",
+          "[C]",
+          "[D]"
+        ],
+        "note": "The sentence-insertion markers are printed in the passage and are never read aloud: the student has to find the four places on the page."
+      },
+      "markdown": "> **How to do the listening.** The same rule as every lesson so far: the student listens **twice with no text**, then reads.\n> Audio files: `01-passage.mp3` first, then the other parts in order. Part `05-have-has-forms.mp3` is new — the short forms of *have* and *has*.\n\n### 1.1 Before listening (2 minutes, Arabic is fine here)\n\n1. What have you learned without a teacher?\n2. How long have you studied English?\n3. Is there something you started and have not finished yet?\n\n### 1.4 Now read the passage\n\n### Passage: *One Small Thing, Many Times* (400 words)\n\nLina is twenty-four. She lives in Gaza, and she has studied information technology at her college for three years. She has also done something her teachers never asked for: she has taught herself web design.\n\n**[A]** It started two years ago, with a free course on the internet. The course has more than forty lessons, and Lina has finished thirty-eight of them. She has never met her teacher. He lives in another country, and she has only seen his hands, moving on a keyboard, in short videos.\n\nThe connection in her building is slow, so she has learned to work in a careful way. She downloads a lesson at night, when the internet is quieter. She watches it in the morning, with no connection at all. She has lost her work many times, and now she saves every few minutes.\n\n**[B]** Her uncle has a small shop near the market. He has sold the same things for twenty years — bags, shoes, school things — and he has always sold them in the same way. People come to the shop, or they telephone him.\n\nIn March, Lina built a website for the shop. It is a simple one: four pages, some photographs, the prices, and a button that opens a message to her uncle's phone. She published it on a free service, because the shop has no money for anything else. It took her eleven days.\n\n**[C]** Since March, the shop has had customers from three other cities. They have never seen the shop, and they will probably never see it. They found the website, they looked at the prices, and they sent a message. Two of them have ordered from the shop more than once.\n\nHer uncle has not learned to use a computer, and he does not want to. He has never used email. But he has asked Lina for two new pages, and he has started to say \"my website\" when he talks to his friends.\n\n**[D]** Lina has not finished the course yet. Two lessons are left, and they are the hardest ones. She has already decided what she will build after them: an account system, so that a customer can see what he has ordered before.\n\nShe says the same thing to every student who asks her how to begin. \"I have not done anything big,\" she says. \"I have done one small thing, many times, for two years\".\n\n### 1.5 Read aloud\n\nRead the passage aloud **once** and record it. Compare it with your Lesson 3 recording: is the voice steadier now?",
+      "segments": [
+        {
+          "say": "Lesson four. One small thing, many times. Listening practice.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 1
+        },
+        {
+          "say": "You will hear a story about a student who taught herself web design. Listen for what she has done, and how long she has been doing it. You will hear it two times. Do not read the text. Listen only.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 2
+        },
+        {
+          "say": "Now listen.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 1.5
+        },
+        {
+          "say": "Lina is twenty-four. She lives in Gaza, and she has studied information technology at her college for three years. She has also done something her teachers never asked for: she has taught herself web design.\n\nIt started two years ago, with a free course on the internet. The course has more than forty lessons, and Lina has finished thirty-eight of them. She has never met her teacher. He lives in another country, and she has only seen his hands, moving on a keyboard, in short videos.\n\nThe connection in her building is slow, so she has learned to work in a careful way. She downloads a lesson at night, when the internet is quieter. She watches it in the morning, with no connection at all. She has lost her work many times, and now she saves every few minutes.\n\nHer uncle has a small shop near the market. He has sold the same things for twenty years — bags, shoes, school things — and he has always sold them in the same way. People come to the shop, or they telephone him.\n\nIn March, Lina built a website for the shop. It is a simple one: four pages, some photographs, the prices, and a button that opens a message to her uncle's phone. She published it on a free service, because the shop has no money for anything else. It took her eleven days.\n\nSince March, the shop has had customers from three other cities. They have never seen the shop, and they will probably never see it. They found the website, they looked at the prices, and they sent a message. Two of them have ordered from the shop more than once.\n\nHer uncle has not learned to use a computer, and he does not want to. He has never used email. But he has asked Lina for two new pages, and he has started to say \"my website\" when he talks to his friends.\n\nLina has not finished the course yet. Two lessons are left, and they are the hardest ones. She has already decided what she will build after them: an account system, so that a customer can see what he has ordered before.\n\nShe says the same thing to every student who asks her how to begin. \"I have not done anything big,\" she says. \"I have done one small thing, many times, for two years\".",
+          "voice": "reader"
+        },
+        {
+          "pause": 4
+        },
+        {
+          "say": "Now listen again.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 1.5
+        },
+        {
+          "say": "Lina is twenty-four. She lives in Gaza, and she has studied information technology at her college for three years. She has also done something her teachers never asked for: she has taught herself web design.\n\nIt started two years ago, with a free course on the internet. The course has more than forty lessons, and Lina has finished thirty-eight of them. She has never met her teacher. He lives in another country, and she has only seen his hands, moving on a keyboard, in short videos.\n\nThe connection in her building is slow, so she has learned to work in a careful way. She downloads a lesson at night, when the internet is quieter. She watches it in the morning, with no connection at all. She has lost her work many times, and now she saves every few minutes.\n\nHer uncle has a small shop near the market. He has sold the same things for twenty years — bags, shoes, school things — and he has always sold them in the same way. People come to the shop, or they telephone him.\n\nIn March, Lina built a website for the shop. It is a simple one: four pages, some photographs, the prices, and a button that opens a message to her uncle's phone. She published it on a free service, because the shop has no money for anything else. It took her eleven days.\n\nSince March, the shop has had customers from three other cities. They have never seen the shop, and they will probably never see it. They found the website, they looked at the prices, and they sent a message. Two of them have ordered from the shop more than once.\n\nHer uncle has not learned to use a computer, and he does not want to. He has never used email. But he has asked Lina for two new pages, and he has started to say \"my website\" when he talks to his friends.\n\nLina has not finished the course yet. Two lessons are left, and they are the hardest ones. She has already decided what she will build after them: an account system, so that a customer can see what he has ordered before.\n\nShe says the same thing to every student who asks her how to begin. \"I have not done anything big,\" she says. \"I have done one small thing, many times, for two years\".",
+          "voice": "reader"
+        },
+        {
+          "pause": 2
+        },
+        {
+          "say": "This is the end of the passage.",
+          "voice": "narrator"
+        }
+      ]
+    },
+    {
+      "number": "02",
+      "slug": "listening-questions",
+      "title": "Listening questions",
+      "minutes": 10,
+      "sheet": true,
+      "audio": true,
+      "markdown": "### 1.2 Listening — first time (no text)\n\n- **L1.** Who is the story about, and what has she taught herself?\n- **L2.** How long has she studied at her college?\n- **L3.** What did she build in March, and who for?\n- **L4.** Has she finished the course?\n\n### 1.3 Listening — second time (no text)\n\nWrite **four verbs in the present perfect** that you heard (*has* or *have* + the past participle). Then write **one word** you heard but did not understand.",
+      "segments": [
+        {
+          "say": "Now answer the listening questions. Write a short answer for each one.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 2
+        },
+        {
+          "say": "Question one. Who is the story about, and what has she taught herself?",
+          "voice": "narrator"
+        },
+        {
+          "pause": 10
+        },
+        {
+          "say": "Question two. How long has she studied at her college?",
+          "voice": "narrator"
+        },
+        {
+          "pause": 10
+        },
+        {
+          "say": "Question three. What did she build in March, and who for?",
+          "voice": "narrator"
+        },
+        {
+          "pause": 10
+        },
+        {
+          "say": "Question four. Has she finished the course?",
+          "voice": "narrator"
+        },
+        {
+          "pause": 10
+        },
+        {
+          "say": "This is the end of the listening questions.",
+          "voice": "narrator"
+        }
+      ]
+    },
+    {
+      "number": "03",
+      "slug": "vocabulary",
+      "title": "Vocabulary and Lesson 2 recall",
+      "minutes": 35,
+      "sheet": true,
+      "audio": true,
+      "markdown": "### 2.1 Key words\n\n| # | Word | Type | Simple meaning | Arabic | Example |\n|---|---|---|---|---|---|\n| 1 | website | noun | a group of pages on the internet | موقع إلكتروني | Lina built a **website** for the shop. |\n| 2 | page | noun | one screen of a website | صفحة | The site has four **pages**. |\n| 3 | online | adjective | on the internet; connected | على الإنترنت | She took a free **online** course. |\n| 4 | course | noun | a set of lessons on one subject | دورة | The **course** has more than forty lessons. |\n| 5 | publish | verb | to put something on the internet for everyone | ينشر | She **published** it on a free service. |\n| 6 | customer | noun | a person who buys something | زبون | The shop has had **customers** from other cities. |\n| 7 | price | noun | how much money something costs | سعر | They looked at the **prices**. |\n| 8 | connection | noun | the link between your machine and the internet | اتصال | The **connection** in her building is slow. |\n| 9 | button | noun | the thing you press on a screen | زر | A **button** opens a message to his phone. |\n| 10 | account | noun | your own name and password on a website | حساب | She will build an **account** system. |\n| 11 | password | noun | the secret word that opens your account | كلمة المرور | Never give anyone your **password**. |\n| 12 | update | verb | to make something newer | يحدّث | He has asked her to **update** the prices. |\n| 13 | free | adjective | costing no money | مجاني | It started with a **free** course. |\n| 14 | order | verb | to ask a shop to send you something | يطلب | A customer can see what he has **ordered**. |\n\n### 2.2 Synonyms and opposites\n\n| Word | Synonym | Opposite |\n|---|---|---|\n| free | costing nothing | expensive |\n| online | on the internet | offline |\n| publish | put it online | hide / keep private |\n| customer | buyer | seller / shopkeeper |\n| hardest | most difficult | easiest |\n| quiet | with little noise | busy / noisy |\n| begin | start | finish / end |\n| many | a lot of | few |\n\n### 2.3 Expressions to learn\n\n| Expression | What it really means |\n|---|---|\n| **teach yourself** | learn something with no teacher |\n| **step by step** | one small part at a time |\n| **for two years** | a length of time, from then until now |\n| **since March** | a point in time, from then until now |\n| **not … yet** | it has not happened, but it probably will |\n| **many times** | again and again |\n| **he has started to say** | he did not say it before, and now he does |\n\n### 2.4 Vocabulary practice\n\n**A. Write the opposite:**\n\n1. free → \\_\\_\\_\\_\\_\\_\\_\\_\n2. online → \\_\\_\\_\\_\\_\\_\\_\\_\n3. publish → \\_\\_\\_\\_\\_\\_\\_\\_\n4. customer → \\_\\_\\_\\_\\_\\_\\_\\_\n5. begin → \\_\\_\\_\\_\\_\\_\\_\\_\n\n**B. Which word is different? Say why:**\n\n1. website — page — link — market\n2. customer — price — shop — password\n3. published — built — found — free\n\n**C. Say it in your own words:**\n\n1. What is a website?\n2. What does *publish* mean?",
+      "segments": [
+        {
+          "say": "Vocabulary practice. You will hear a word, then its meaning, then an example sentence. Repeat the word in the silence.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 2
+        },
+        {
+          "say": "Word 1.",
+          "voice": "narrator"
+        },
+        {
+          "say": "website",
+          "voice": "reader"
+        },
+        {
+          "pause": 3
+        },
+        {
+          "say": "website. a group of pages on the internet.",
+          "voice": "reader"
+        },
+        {
+          "pause": 1
+        },
+        {
+          "say": "Lina built a website for the shop.",
+          "voice": "reader"
+        },
+        {
+          "pause": 3
+        },
+        {
+          "say": "Word 2.",
+          "voice": "narrator"
+        },
+        {
+          "say": "page",
+          "voice": "reader"
+        },
+        {
+          "pause": 3
+        },
+        {
+          "say": "page. one screen of a website.",
+          "voice": "reader"
+        },
+        {
+          "pause": 1
+        },
+        {
+          "say": "The site has four pages.",
+          "voice": "reader"
+        },
+        {
+          "pause": 3
+        },
+        {
+          "say": "Word 3.",
+          "voice": "narrator"
+        },
+        {
+          "say": "online",
+          "voice": "reader"
+        },
+        {
+          "pause": 3
+        },
+        {
+          "say": "online. on the internet; connected.",
+          "voice": "reader"
+        },
+        {
+          "pause": 1
+        },
+        {
+          "say": "She took a free online course.",
+          "voice": "reader"
+        },
+        {
+          "pause": 3
+        },
+        {
+          "say": "Word 4.",
+          "voice": "narrator"
+        },
+        {
+          "say": "course",
+          "voice": "reader"
+        },
+        {
+          "pause": 3
+        },
+        {
+          "say": "course. a set of lessons on one subject.",
+          "voice": "reader"
+        },
+        {
+          "pause": 1
+        },
+        {
+          "say": "The course has more than forty lessons.",
+          "voice": "reader"
+        },
+        {
+          "pause": 3
+        },
+        {
+          "say": "Word 5.",
+          "voice": "narrator"
+        },
+        {
+          "say": "publish",
+          "voice": "reader"
+        },
+        {
+          "pause": 3
+        },
+        {
+          "say": "publish. to put something on the internet for everyone.",
+          "voice": "reader"
+        },
+        {
+          "pause": 1
+        },
+        {
+          "say": "She published it on a free service.",
+          "voice": "reader"
+        },
+        {
+          "pause": 3
+        },
+        {
+          "say": "Word 6.",
+          "voice": "narrator"
+        },
+        {
+          "say": "customer",
+          "voice": "reader"
+        },
+        {
+          "pause": 3
+        },
+        {
+          "say": "customer. a person who buys something.",
+          "voice": "reader"
+        },
+        {
+          "pause": 1
+        },
+        {
+          "say": "The shop has had customers from other cities.",
+          "voice": "reader"
+        },
+        {
+          "pause": 3
+        },
+        {
+          "say": "Word 7.",
+          "voice": "narrator"
+        },
+        {
+          "say": "price",
+          "voice": "reader"
+        },
+        {
+          "pause": 3
+        },
+        {
+          "say": "price. how much money something costs.",
+          "voice": "reader"
+        },
+        {
+          "pause": 1
+        },
+        {
+          "say": "They looked at the prices.",
+          "voice": "reader"
+        },
+        {
+          "pause": 3
+        },
+        {
+          "say": "Word 8.",
+          "voice": "narrator"
+        },
+        {
+          "say": "connection",
+          "voice": "reader"
+        },
+        {
+          "pause": 3
+        },
+        {
+          "say": "connection. the link between your machine and the internet.",
+          "voice": "reader"
+        },
+        {
+          "pause": 1
+        },
+        {
+          "say": "The connection in her building is slow.",
+          "voice": "reader"
+        },
+        {
+          "pause": 3
+        },
+        {
+          "say": "Word 9.",
+          "voice": "narrator"
+        },
+        {
+          "say": "button",
+          "voice": "reader"
+        },
+        {
+          "pause": 3
+        },
+        {
+          "say": "button. the thing you press on a screen.",
+          "voice": "reader"
+        },
+        {
+          "pause": 1
+        },
+        {
+          "say": "A button opens a message to his phone.",
+          "voice": "reader"
+        },
+        {
+          "pause": 3
+        },
+        {
+          "say": "Word 10.",
+          "voice": "narrator"
+        },
+        {
+          "say": "account",
+          "voice": "reader"
+        },
+        {
+          "pause": 3
+        },
+        {
+          "say": "account. your own name and password on a website.",
+          "voice": "reader"
+        },
+        {
+          "pause": 1
+        },
+        {
+          "say": "She will build an account system.",
+          "voice": "reader"
+        },
+        {
+          "pause": 3
+        },
+        {
+          "say": "Word 11.",
+          "voice": "narrator"
+        },
+        {
+          "say": "password",
+          "voice": "reader"
+        },
+        {
+          "pause": 3
+        },
+        {
+          "say": "password. the secret word that opens your account.",
+          "voice": "reader"
+        },
+        {
+          "pause": 1
+        },
+        {
+          "say": "Never give anyone your password.",
+          "voice": "reader"
+        },
+        {
+          "pause": 3
+        },
+        {
+          "say": "Word 12.",
+          "voice": "narrator"
+        },
+        {
+          "say": "update",
+          "voice": "reader"
+        },
+        {
+          "pause": 3
+        },
+        {
+          "say": "update. to make something newer.",
+          "voice": "reader"
+        },
+        {
+          "pause": 1
+        },
+        {
+          "say": "He has asked her to update the prices.",
+          "voice": "reader"
+        },
+        {
+          "pause": 3
+        },
+        {
+          "say": "Word 13.",
+          "voice": "narrator"
+        },
+        {
+          "say": "free",
+          "voice": "reader"
+        },
+        {
+          "pause": 3
+        },
+        {
+          "say": "free. costing no money.",
+          "voice": "reader"
+        },
+        {
+          "pause": 1
+        },
+        {
+          "say": "It started with a free course.",
+          "voice": "reader"
+        },
+        {
+          "pause": 3
+        },
+        {
+          "say": "Word 14.",
+          "voice": "narrator"
+        },
+        {
+          "say": "order",
+          "voice": "reader"
+        },
+        {
+          "pause": 3
+        },
+        {
+          "say": "order. to ask a shop to send you something.",
+          "voice": "reader"
+        },
+        {
+          "pause": 1
+        },
+        {
+          "say": "A customer can see what he has ordered.",
+          "voice": "reader"
+        },
+        {
+          "pause": 3
+        },
+        {
+          "pause": 1.5
+        },
+        {
+          "say": "Now five words from lesson two. Say the meaning before you hear it.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 2
+        },
+        {
+          "say": "backup",
+          "voice": "reader"
+        },
+        {
+          "pause": 5
+        },
+        {
+          "say": "a second copy kept in another place",
+          "voice": "reader"
+        },
+        {
+          "pause": 1
+        },
+        {
+          "say": "folder",
+          "voice": "reader"
+        },
+        {
+          "pause": 5
+        },
+        {
+          "say": "a place on a computer that holds files",
+          "voice": "reader"
+        },
+        {
+          "pause": 1
+        },
+        {
+          "say": "drive",
+          "voice": "reader"
+        },
+        {
+          "pause": 5
+        },
+        {
+          "say": "a place that stores files",
+          "voice": "reader"
+        },
+        {
+          "pause": 1
+        },
+        {
+          "say": "explain",
+          "voice": "reader"
+        },
+        {
+          "pause": 5
+        },
+        {
+          "say": "to make something easy to understand",
+          "voice": "reader"
+        },
+        {
+          "pause": 1
+        },
+        {
+          "say": "remember",
+          "voice": "reader"
+        },
+        {
+          "pause": 5
+        },
+        {
+          "say": "to keep something in your mind",
+          "voice": "reader"
+        },
+        {
+          "pause": 1
+        },
+        {
+          "say": "This is the end of the vocabulary practice.",
+          "voice": "narrator"
+        }
+      ]
+    },
+    {
+      "number": "04",
+      "slug": "grammar-present-perfect",
+      "title": "Grammar — the present perfect",
+      "minutes": 40,
+      "sheet": true,
+      "audio": false,
+      "markdown": "We use the present perfect when the past still touches now: *She **has built** a website* — and the website is there today.\n\n### 3.1 How we make it\n\n**have / has** + the **past participle**\n\n| Person | Present perfect |\n|---|---|\n| I / you / we / they | **have** finished |\n| he / she / it | **has** finished |\n\nThe past participle of a regular verb is the *-ed* form you already know. The common irregular ones must be learned:\n\n| Now | Past participle |\n|---|---|\n| be | **been** |\n| do | **done** |\n| see | **seen** |\n| take | **taken** |\n| build | **built** |\n| lose | **lost** |\n| sell | **sold** |\n| meet | **met** |\n| pay | **paid** |\n| finish | finish**ed** *(regular)* |\n| learn | learn**ed** *(regular)* |\n| decide | decid**ed** *(regular)* |\n\n### 3.2 What we use it for\n\n- **Experience**, at any time in your life: *She **has never met** her teacher.*\n- Something that **started in the past and is still true**: *He **has sold** the same things for twenty years.*\n- A past action with a **result now**: *She **has lost** her work many times, so now she saves every few minutes.*\n- With **for** and **since**: ***for*** + a length of time (*for two years*), ***since*** + a point in time (*since March*).\n\n### 3.4 Present perfect or past simple?\n\n| Past simple — finished time | Present perfect — unfinished, or the result now |\n|---|---|\n| *In March*, she **built** a website. | *Since March*, the shop **has had** new customers. |\n| She **published** it on a free service. | She **has not finished** the course yet. |\n| It **took** her eleven days. | He **has sold** the same things for twenty years. |\n\nThe rule to remember: if the sentence says **when** it happened and that time is over (*in March, two years ago, yesterday*), use the past simple. If it says **for**, **since**, **yet**, **already**, **ever** or **never**, use the present perfect.\n\n### 3.5 Negative and question\n\n|  | Form | Example |\n|---|---|---|\n| Negative | **have not / has not** + participle | He **has not learned** to use a computer. |\n| Question | **Have / Has** + person + participle | **Has** she **finished** the course? |\n\n### 3.6 Grammar practice\n\n**A. Put the verb in the present perfect:**\n\n1. Lina \\_\\_\\_\\_\\_\\_\\_\\_ (study) at her college for three years.\n2. She \\_\\_\\_\\_\\_\\_\\_\\_ (never / meet) her teacher.\n3. The shop \\_\\_\\_\\_\\_\\_\\_\\_ (have) customers from other cities since March.\n4. She \\_\\_\\_\\_\\_\\_\\_\\_ (not finish) the course yet.\n5. He \\_\\_\\_\\_\\_\\_\\_\\_ (already / ask) for two new pages.\n6. They \\_\\_\\_\\_\\_\\_\\_\\_ (never / see) the shop.\n\n**B. Past simple or present perfect?**\n\n1. In March, she (built / has built) a website.\n2. Since March, the shop (had / has had) new customers.\n3. She (published / has published) it on a free service.\n4. She (did not finish / has not finished) the course yet.\n5. Her uncle (sold / has sold) the same things for twenty years.\n\n**C. Write *for* or *since*:**\n\n1. \\_\\_\\_\\_ three years\n2. \\_\\_\\_\\_ March\n3. \\_\\_\\_\\_ twenty years\n4. \\_\\_\\_\\_ she was a child"
+    },
+    {
+      "number": "05",
+      "slug": "have-has-forms",
+      "title": "The short forms of have and has",
+      "minutes": 20,
+      "sheet": true,
+      "audio": true,
+      "markdown": "### 3.3 The short forms of *have* and *has* (listen to `05-have-has-forms.mp3`)\n\nIn speech, *have* and *has* are almost never said in full. They join the word before them and become very short. This is why the present perfect is hard to **hear** even when it is easy to write.\n\n| Full | Short form | Sound |\n|---|---|---|\n| I have | I've | <span class=\"ipa\">/aɪv/</span> |\n| you have | you've | <span class=\"ipa\">/juːv/</span> |\n| they have | they've | <span class=\"ipa\">/ðeɪv/</span> |\n| he has | he's | <span class=\"ipa\">/hiːz/</span> |\n| she has | she's | <span class=\"ipa\">/ʃiːz/</span> |\n| it has | it's | <span class=\"ipa\">/ɪts/</span> |\n| have not | haven't | <span class=\"ipa\">/ˈhævənt/</span> |\n| has not | hasn't | <span class=\"ipa\">/ˈhæzənt/</span> |\n\nInside a sentence, a full *have* or *has* is also weak and quiet: <span class=\"ipa\">/həv/</span> and <span class=\"ipa\">/həz/</span>, not <span class=\"ipa\">/hæv/</span> and <span class=\"ipa\">/hæz/</span>.\n\n### The one that catches everybody\n\n***she's*** is two different words.\n\n| You hear | It means | How you know |\n|---|---|---|\n| *She's **finished** the course.* | she **has** finished | a past participle comes after it |\n| *She's **a student**.* | she **is** a student | a noun or an adjective comes after it |\n\nThe word **after** *she's* tells you which one it is. The same is true of *he's* and *it's*.\n\nIn the audio you hear each pair twice — the full form, then the short one — and then a test: say whether the *'s* you hear means **has** or **is**, and listen to the answer.",
+      "segments": [
+        {
+          "say": "Pronunciation. The short forms of have and has.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 1
+        },
+        {
+          "say": "In speech, have and has are almost never said in full. They join the word before them and become very short. Listen to each pair: first the full form, then the short one. Repeat the short one.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 2
+        },
+        {
+          "say": "I have finished the lesson.",
+          "voice": "reader"
+        },
+        {
+          "pause": 1
+        },
+        {
+          "say": "I've finished the lesson.",
+          "voice": "reader"
+        },
+        {
+          "pause": 3
+        },
+        {
+          "pause": 1
+        },
+        {
+          "say": "She has built a website.",
+          "voice": "reader"
+        },
+        {
+          "pause": 1
+        },
+        {
+          "say": "She's built a website.",
+          "voice": "reader"
+        },
+        {
+          "pause": 3
+        },
+        {
+          "pause": 1
+        },
+        {
+          "say": "They have never seen the shop.",
+          "voice": "reader"
+        },
+        {
+          "pause": 1
+        },
+        {
+          "say": "They've never seen the shop.",
+          "voice": "reader"
+        },
+        {
+          "pause": 3
+        },
+        {
+          "pause": 1
+        },
+        {
+          "say": "He has not learned to use a computer.",
+          "voice": "reader"
+        },
+        {
+          "pause": 1
+        },
+        {
+          "say": "He hasn't learned to use a computer.",
+          "voice": "reader"
+        },
+        {
+          "pause": 3
+        },
+        {
+          "pause": 1
+        },
+        {
+          "say": "We have already decided.",
+          "voice": "reader"
+        },
+        {
+          "pause": 1
+        },
+        {
+          "say": "We've already decided.",
+          "voice": "reader"
+        },
+        {
+          "pause": 3
+        },
+        {
+          "pause": 1
+        },
+        {
+          "say": "Now the hard one. She's can mean she has, or she is. The word after it tells you. If a past participle comes next, it means has. If a noun or an adjective comes next, it means is.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 2
+        },
+        {
+          "say": "You will hear a sentence. Say whether the short form means has or is. Then you will hear the answer.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 2
+        },
+        {
+          "say": "Sentence 1.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 0.4
+        },
+        {
+          "say": "She's finished the course.",
+          "voice": "reader"
+        },
+        {
+          "pause": 4
+        },
+        {
+          "say": "The answer is has.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 1
+        },
+        {
+          "say": "Sentence 2.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 0.4
+        },
+        {
+          "say": "She's a student at the college.",
+          "voice": "reader"
+        },
+        {
+          "pause": 4
+        },
+        {
+          "say": "The answer is is.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 1
+        },
+        {
+          "say": "Sentence 3.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 0.4
+        },
+        {
+          "say": "He's sold the same things for twenty years.",
+          "voice": "reader"
+        },
+        {
+          "pause": 4
+        },
+        {
+          "say": "The answer is has.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 1
+        },
+        {
+          "say": "Sentence 4.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 0.4
+        },
+        {
+          "say": "He's in the shop now.",
+          "voice": "reader"
+        },
+        {
+          "pause": 4
+        },
+        {
+          "say": "The answer is is.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 1
+        },
+        {
+          "say": "Sentence 5.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 0.4
+        },
+        {
+          "say": "It's taken her eleven days.",
+          "voice": "reader"
+        },
+        {
+          "pause": 4
+        },
+        {
+          "say": "The answer is has.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 1
+        },
+        {
+          "say": "Sentence 6.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 0.4
+        },
+        {
+          "say": "It's a simple website.",
+          "voice": "reader"
+        },
+        {
+          "pause": 4
+        },
+        {
+          "say": "The answer is is.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 1
+        },
+        {
+          "say": "This is the end of the pronunciation practice.",
+          "voice": "narrator"
+        }
+      ]
+    },
+    {
+      "number": "06",
+      "slug": "comprehension",
+      "title": "Comprehension — TOEFL question types",
+      "minutes": 40,
+      "sheet": true,
+      "audio": true,
+      "markdown": "### Part A — Multiple choice\n\n**1. (Factual)** What has Lina taught herself?\n\n- A. Information technology.\n- B. Web design.\n- C. Photography.\n- D. The passage does not say.\n\n**2. (Factual)** How long has her uncle sold the same things?\n\n- A. For two years.\n- B. For eleven days.\n- C. For twenty years.\n- D. Since March.\n\n**3. (Negative factual)** According to the passage, Lina has done all of the following EXCEPT\n\n- A. finished thirty-eight lessons.\n- B. built a website for the shop.\n- C. met her teacher.\n- D. lost her work many times.\n\n**4. (Vocabulary in context)** The word \"published\" in the passage is closest in meaning to\n\n- A. printed on paper.\n- B. put on the internet.\n- C. sold to a customer.\n- D. kept in a folder.\n\n**5. (Reference)** In the sentence, she published it on a free service, the word \"it\" refers to\n\n- A. the course.\n- B. the shop.\n- C. the website.\n- D. the message.\n\n**6. (Inference)** It can be inferred from the passage that\n\n- A. Lina's uncle has learned web design from her.\n- B. the slow connection has changed the way Lina works.\n- C. the shop has closed since March.\n- D. Lina will stop the course after thirty-eight lessons.\n\n**7. (Sentence insertion)** Look at the four letters **[A] [B] [C] [D]** in the passage. Where would this sentence best fit?\n\n> *The whole thing has cost the shop nothing at all.*\n\n- A. At **[A]**\n- B. At **[B]**\n- C. At **[C]**\n- D. At **[D]**\n\n**8. (Purpose of a paragraph)** Why does the writer mention that Lina downloads a lesson at night?\n\n- A. To show that she prefers working at night.\n- B. To show how she has worked around a slow connection.\n- C. To explain why she has never met her teacher.\n- D. To criticise the internet company.\n\n**9. (Purpose of the whole passage — NEW)** What is the writer's main purpose in the whole passage?\n\n- A. To explain how to build a website.\n- B. To show that small work, repeated over a long time, produces a real result.\n- C. To advertise a free online course.\n- D. To describe daily life in Gaza.\n\n### Part C — Fill in the blanks\n\nUse these words. There are **two extra words** you will not need.\n\n> *course · connection · website · prices · published · customers · account · online · password*\n\n1. It started with a free \\_\\_\\_\\_\\_\\_\\_\\_ on the internet.\n2. The \\_\\_\\_\\_\\_\\_\\_\\_ in her building is slow.\n3. In March she built a \\_\\_\\_\\_\\_\\_\\_\\_ for her uncle's shop.\n4. The site shows four pages, some photographs and the \\_\\_\\_\\_\\_\\_\\_\\_.\n5. She \\_\\_\\_\\_\\_\\_\\_\\_ it on a free service.\n6. Since March, the shop has had \\_\\_\\_\\_\\_\\_\\_\\_ from three other cities.\n7. She has already decided to build an \\_\\_\\_\\_\\_\\_\\_\\_ system.\n\n### Part D — Summary\n\nWrite the story in **two sentences only**. Use the present perfect once.\n\n> Sentence 1 — what she has done: \\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\n> Sentence 2 — what has changed for the shop: \\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_",
+      "segments": [
+        {
+          "say": "Now get ready to answer the questions about the passage. You may look at the passage while you answer.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 2
+        },
+        {
+          "say": "Question 1.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 0.6
+        },
+        {
+          "say": "What has Lina taught herself?",
+          "voice": "narrator"
+        },
+        {
+          "pause": 0.8
+        },
+        {
+          "say": "A. Information technology.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 0.5
+        },
+        {
+          "say": "B. Web design.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 0.5
+        },
+        {
+          "say": "C. Photography.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 0.5
+        },
+        {
+          "say": "D. The passage does not say.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 0.5
+        },
+        {
+          "pause": 12
+        },
+        {
+          "say": "Question 2.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 0.6
+        },
+        {
+          "say": "How long has her uncle sold the same things?",
+          "voice": "narrator"
+        },
+        {
+          "pause": 0.8
+        },
+        {
+          "say": "A. For two years.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 0.5
+        },
+        {
+          "say": "B. For eleven days.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 0.5
+        },
+        {
+          "say": "C. For twenty years.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 0.5
+        },
+        {
+          "say": "D. Since March.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 0.5
+        },
+        {
+          "pause": 12
+        },
+        {
+          "say": "Question 3.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 0.6
+        },
+        {
+          "say": "According to the passage, Lina has done all of the following EXCEPT",
+          "voice": "narrator"
+        },
+        {
+          "pause": 0.8
+        },
+        {
+          "say": "A. finished thirty-eight lessons.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 0.5
+        },
+        {
+          "say": "B. built a website for the shop.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 0.5
+        },
+        {
+          "say": "C. met her teacher.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 0.5
+        },
+        {
+          "say": "D. lost her work many times.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 0.5
+        },
+        {
+          "pause": 12
+        },
+        {
+          "say": "Question 4.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 0.6
+        },
+        {
+          "say": "The word \"published\" in the passage is closest in meaning to",
+          "voice": "narrator"
+        },
+        {
+          "pause": 0.8
+        },
+        {
+          "say": "A. printed on paper.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 0.5
+        },
+        {
+          "say": "B. put on the internet.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 0.5
+        },
+        {
+          "say": "C. sold to a customer.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 0.5
+        },
+        {
+          "say": "D. kept in a folder.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 0.5
+        },
+        {
+          "pause": 12
+        },
+        {
+          "say": "Question 5.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 0.6
+        },
+        {
+          "say": "In the sentence, she published it on a free service, the word \"it\" refers to",
+          "voice": "narrator"
+        },
+        {
+          "pause": 0.8
+        },
+        {
+          "say": "A. the course.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 0.5
+        },
+        {
+          "say": "B. the shop.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 0.5
+        },
+        {
+          "say": "C. the website.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 0.5
+        },
+        {
+          "say": "D. the message.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 0.5
+        },
+        {
+          "pause": 12
+        },
+        {
+          "say": "Question 6.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 0.6
+        },
+        {
+          "say": "It can be inferred from the passage that",
+          "voice": "narrator"
+        },
+        {
+          "pause": 0.8
+        },
+        {
+          "say": "A. Lina's uncle has learned web design from her.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 0.5
+        },
+        {
+          "say": "B. the slow connection has changed the way Lina works.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 0.5
+        },
+        {
+          "say": "C. the shop has closed since March.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 0.5
+        },
+        {
+          "say": "D. Lina will stop the course after thirty-eight lessons.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 0.5
+        },
+        {
+          "pause": 12
+        },
+        {
+          "say": "Question seven.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 0.6
+        },
+        {
+          "say": "Look at the four letters, A, B, C and D, in your passage. They show four places where a sentence could be added. Listen to the sentence, then choose the best place.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 1
+        },
+        {
+          "say": "The whole thing has cost the shop nothing at all.",
+          "voice": "reader"
+        },
+        {
+          "pause": 2
+        },
+        {
+          "say": "Listen to the sentence again.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 1
+        },
+        {
+          "say": "The whole thing has cost the shop nothing at all.",
+          "voice": "reader"
+        },
+        {
+          "pause": 1
+        },
+        {
+          "say": "A. At letter A.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 0.5
+        },
+        {
+          "say": "B. At letter B.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 0.5
+        },
+        {
+          "say": "C. At letter C.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 0.5
+        },
+        {
+          "say": "D. At letter D.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 0.5
+        },
+        {
+          "pause": 20
+        },
+        {
+          "say": "Question eight.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 0.6
+        },
+        {
+          "say": "This question asks why the writer wrote one part of the passage.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 1
+        },
+        {
+          "say": "Why does the writer mention that Lina downloads a lesson at night?",
+          "voice": "narrator"
+        },
+        {
+          "pause": 0.8
+        },
+        {
+          "say": "A. To show that she prefers working at night.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 0.5
+        },
+        {
+          "say": "B. To show how she has worked around a slow connection.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 0.5
+        },
+        {
+          "say": "C. To explain why she has never met her teacher.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 0.5
+        },
+        {
+          "say": "D. To criticise the internet company.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 0.5
+        },
+        {
+          "pause": 15
+        },
+        {
+          "say": "Question nine. This one is new.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 0.6
+        },
+        {
+          "say": "It asks about the whole passage, not one paragraph. Think about why the writer told this story at all, and what the last two sentences are doing.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 1
+        },
+        {
+          "say": "What is the writer's main purpose in the whole passage?",
+          "voice": "narrator"
+        },
+        {
+          "pause": 0.8
+        },
+        {
+          "say": "A. To explain how to build a website.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 0.5
+        },
+        {
+          "say": "B. To show that small work, repeated over a long time, produces a real result.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 0.5
+        },
+        {
+          "say": "C. To advertise a free online course.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 0.5
+        },
+        {
+          "say": "D. To describe daily life in Gaza.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 0.5
+        },
+        {
+          "pause": 20
+        },
+        {
+          "pause": 1.5
+        },
+        {
+          "say": "Last task. Write the story in two sentences only. Use the present perfect once. Sentence one: what she has done. Sentence two: what has changed for the shop. You have ninety seconds.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 90
+        },
+        {
+          "say": "This is the end of the questions.",
+          "voice": "narrator"
+        }
+      ]
+    },
+    {
+      "number": "07",
+      "slug": "true-false",
+      "title": "True / false",
+      "minutes": 15,
+      "sheet": true,
+      "audio": true,
+      "markdown": "### Part B — True / False\n\nWrite **T** or **F**. If it is false, write the correct sentence.\n\n1. Lina has finished the whole course. \\_\\_\\_\\_\n2. She has never met her teacher. \\_\\_\\_\\_\n3. Her uncle has used a computer for twenty years. \\_\\_\\_\\_\n4. The website has four pages. \\_\\_\\_\\_\n5. The customers from other cities have visited the shop. \\_\\_\\_\\_\n6. Lina paid nothing to publish the website. \\_\\_\\_\\_",
+      "segments": [
+        {
+          "say": "True or false. You will hear six sentences. Say true or false. If the sentence is false, say the correct sentence.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 2
+        },
+        {
+          "say": "Sentence 1.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 0.5
+        },
+        {
+          "say": "Lina has finished the whole course.",
+          "voice": "reader"
+        },
+        {
+          "pause": 8
+        },
+        {
+          "say": "Sentence 2.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 0.5
+        },
+        {
+          "say": "She has never met her teacher.",
+          "voice": "reader"
+        },
+        {
+          "pause": 8
+        },
+        {
+          "say": "Sentence 3.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 0.5
+        },
+        {
+          "say": "Her uncle has used a computer for twenty years.",
+          "voice": "reader"
+        },
+        {
+          "pause": 8
+        },
+        {
+          "say": "Sentence 4.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 0.5
+        },
+        {
+          "say": "The website has four pages.",
+          "voice": "reader"
+        },
+        {
+          "pause": 8
+        },
+        {
+          "say": "Sentence 5.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 0.5
+        },
+        {
+          "say": "The customers from other cities have visited the shop.",
+          "voice": "reader"
+        },
+        {
+          "pause": 8
+        },
+        {
+          "say": "Sentence 6.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 0.5
+        },
+        {
+          "say": "Lina paid nothing to publish the website.",
+          "voice": "reader"
+        },
+        {
+          "pause": 8
+        },
+        {
+          "say": "This is the end of the true or false questions.",
+          "voice": "narrator"
+        }
+      ]
+    },
+    {
+      "number": "08",
+      "slug": "speaking",
+      "title": "Speaking",
+      "minutes": 25,
+      "sheet": true,
+      "audio": true,
+      "markdown": "### 5.1 Speaking (record each answer, 45 seconds)\n\n1. Tell the story of Lina in your own words. Use for, since, already, and never.\n2. What have you taught yourself, with no teacher? How long have you done it?\n3. What have you not finished yet, and why not?\n\n**Useful sentence starters:**\n\n- *I have studied \\_\\_\\_\\_ for \\_\\_\\_\\_ years.*\n- *I have never \\_\\_\\_\\_.*\n- *I have already \\_\\_\\_\\_, but I have not \\_\\_\\_\\_ yet.*\n- *Since \\_\\_\\_\\_, I have \\_\\_\\_\\_.*\n- *I taught myself \\_\\_\\_\\_, because \\_\\_\\_\\_.*",
+      "segments": [
+        {
+          "say": "Speaking practice. For each question you will have fifteen seconds to prepare and forty-five seconds to speak. Record your answer on your phone.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 2
+        },
+        {
+          "say": "Speaking question 1.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 0.6
+        },
+        {
+          "say": "Tell the story of Lina in your own words. Use for, since, already, and never.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 1
+        },
+        {
+          "say": "Preparation time. Fifteen seconds.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 15
+        },
+        {
+          "say": "Begin speaking now.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 45
+        },
+        {
+          "say": "Stop speaking.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 2
+        },
+        {
+          "say": "Speaking question 2.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 0.6
+        },
+        {
+          "say": "What have you taught yourself, with no teacher? How long have you done it?",
+          "voice": "narrator"
+        },
+        {
+          "pause": 1
+        },
+        {
+          "say": "Preparation time. Fifteen seconds.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 15
+        },
+        {
+          "say": "Begin speaking now.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 45
+        },
+        {
+          "say": "Stop speaking.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 2
+        },
+        {
+          "say": "Speaking question 3.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 0.6
+        },
+        {
+          "say": "What have you not finished yet, and why not?",
+          "voice": "narrator"
+        },
+        {
+          "pause": 1
+        },
+        {
+          "say": "Preparation time. Fifteen seconds.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 15
+        },
+        {
+          "say": "Begin speaking now.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 45
+        },
+        {
+          "say": "Stop speaking.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 2
+        },
+        {
+          "say": "This is the end of the speaking practice.",
+          "voice": "narrator"
+        }
+      ]
+    },
+    {
+      "number": "09",
+      "slug": "writing",
+      "title": "Writing — Something I Have Done, Step by Step",
+      "minutes": 35,
+      "sheet": true,
+      "audio": false,
+      "markdown": "### 5.2 Writing — \"Something I Have Done, Step by Step\" (12–14 sentences)\n\n**Model answer (copy the shape, change the words):**\n\n> I have studied English for four years. I started at school, and I was not good at it. Three years ago, I began to study alone, because my class was too fast for me. I have used free videos on the internet since then. I have finished more than two hundred short lessons. I have never paid for a course. At first, I understood almost nothing, and I wrote every new word in a small notebook. Now I have four notebooks, and I read the old ones on Fridays. I have not finished yet. I still make mistakes with tenses, and I have never spoken to a person from England. But my teacher has said that my writing has changed this year. It is slow work, and it is the only work that has helped me.\n\n**Checklist before you send it:**\n\n- [ ] I used the present perfect at least **four** times.\n- [ ] I used the past simple for the things that happened at a finished time.\n- [ ] I used **for** with a length of time and **since** with a point in time.\n- [ ] I used *not … yet*, *already* or *never* at least once.\n- [ ] I used at least **5 new words** from Session 2.\n- [ ] I used at least **2 words** from Lesson 2 or Lesson 3.\n- [ ] My text has 12–14 sentences."
+    },
+    {
+      "number": "10",
+      "slug": "review",
+      "title": "Review",
+      "minutes": 30,
+      "sheet": true,
+      "audio": true,
+      "markdown": "### 6.1 Listen again (no text)\n\n1. Name three things Lina has done in the last two years.\n2. What has changed for her uncle's shop since March?\n\n### 6.2 Mini-quiz (12 marks)\n\n1. The past participle of *build* is \\_\\_\\_\\_\\_\\_\\_\\_\n2. The past participle of *lose* is \\_\\_\\_\\_\\_\\_\\_\\_\n3. The past participle of *see* is \\_\\_\\_\\_\\_\\_\\_\\_\n4. We use \\_\\_\\_\\_ with a length of time and \\_\\_\\_\\_ with a point in time. (*for* / *since*) \\_\\_\\_\\_\\_\\_\\_\\_\n5. The opposite of *free* is \\_\\_\\_\\_\\_\\_\\_\\_\n6. The opposite of *online* is \\_\\_\\_\\_\\_\\_\\_\\_\n7. A group of pages on the internet is a \\_\\_\\_\\_\\_\\_\\_\\_\n8. A person who buys something is a \\_\\_\\_\\_\\_\\_\\_\\_\n9. Write a sentence with *never* and the present perfect.\n10. Write a negative sentence in the present perfect.\n11. Write one sentence with **publish**.\n12. Tell the story of the passage in two sentences, from memory.\n\n### 6.3 Lesson 4 self-report\n\n| Question | Answer |\n|---|---|\n| Minutes studied this week | |\n| Hardest part (listening / reading / vocabulary / grammar / speaking / writing) | |\n| Present-perfect sentences I can now make without thinking | |\n| Words from Lesson 2 I have forgotten | |\n| One thing I want to repeat next week | |",
+      "segments": [
+        {
+          "say": "Review. Listen to the passage again, with no text, and answer these questions.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 2
+        },
+        {
+          "say": "Question one. Name three things Lina has done in the last two years.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 10
+        },
+        {
+          "say": "Question two. What has changed for her uncle's shop since March?",
+          "voice": "narrator"
+        },
+        {
+          "pause": 10
+        },
+        {
+          "pause": 1.5
+        },
+        {
+          "say": "Now the mini-quiz. Twelve marks. Answer in the silence after each question.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 2
+        },
+        {
+          "say": "One. The past participle of build is",
+          "voice": "narrator"
+        },
+        {
+          "pause": 6
+        },
+        {
+          "say": "Two. The past participle of lose is",
+          "voice": "narrator"
+        },
+        {
+          "pause": 6
+        },
+        {
+          "say": "Three. The past participle of see is",
+          "voice": "narrator"
+        },
+        {
+          "pause": 6
+        },
+        {
+          "say": "Four. Which word goes with a length of time, for or since?",
+          "voice": "narrator"
+        },
+        {
+          "pause": 8
+        },
+        {
+          "say": "Five. The opposite of free is",
+          "voice": "narrator"
+        },
+        {
+          "pause": 6
+        },
+        {
+          "say": "Six. The opposite of online is",
+          "voice": "narrator"
+        },
+        {
+          "pause": 6
+        },
+        {
+          "say": "Seven. A group of pages on the internet is a",
+          "voice": "narrator"
+        },
+        {
+          "pause": 6
+        },
+        {
+          "say": "Eight. A person who buys something is a",
+          "voice": "narrator"
+        },
+        {
+          "pause": 6
+        },
+        {
+          "say": "Nine. Write a sentence with never and the present perfect.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 15
+        },
+        {
+          "say": "Ten. Write a negative sentence in the present perfect.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 15
+        },
+        {
+          "say": "Eleven. Write one sentence with publish.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 15
+        },
+        {
+          "say": "Twelve. Tell the story of the passage in two sentences, from memory.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 20
+        },
+        {
+          "say": "This is the end of the review.",
+          "voice": "narrator"
+        }
+      ]
+    },
+    {
+      "number": "11",
+      "slug": "answer-key",
+      "title": "Answer key and teacher notes",
+      "minutes": 10,
+      "sheet": true,
+      "audio": false,
+      "css_id": "answer-key",
+      "markdown": "**Listening:** L1 — Lina; she has taught herself web design · L2 — for three years · L3 — a website, for her uncle's shop · L4 — no, she has not finished it yet (two lessons are left)\n\n**Part A (MCQ):** 1-B · 2-C · 3-C · 4-B · 5-C · 6-B · 7-C · 8-B · 9-B\n\n*Why 7 is **[C]***: the sentence is about cost, and it can only follow the paragraph that says the site was published on a free service because the shop has no money. At **[B]** and **[D]** there is no cost in the text near it.\n\n*Why 8 is **[B]***: downloading at night is an example of working around the slow connection named in the sentence before it. It is not about preference, and the teacher is in a different paragraph.\n\n*Why 9 is **[B]***: the passage is not instructions, and it is not about Gaza in general. Every part of it — thirty-eight lessons, eleven days, one small shop — builds to Lina's own last line about doing one small thing many times.\n\n**Part B (True/False):**\n\n1. F — She has finished thirty-eight lessons; two are left.\n2. T\n3. F — He has not learned to use a computer.\n4. T\n5. F — They have never seen the shop.\n6. T\n\n**Part C (Fill in the blanks):** 1. course · 2. connection · 3. website · 4. prices · 5. published · 6. customers · 7. account\n*(Extra words: online, password)*\n\n**2.4 A (Opposites):** 1. expensive · 2. offline · 3. hide / keep private · 4. seller / shopkeeper · 5. finish / end\n\n**2.4 B (Odd one out):** 1. market (the others are parts of the internet) · 2. password (the others belong to a shop) · 3. free (the others are past-simple verbs)\n\n**3.6 A (Present perfect):** 1. has studied · 2. has never met · 3. has had · 4. has not finished · 5. has already asked · 6. have never seen\n**3.6 B (Simple or perfect):** 1. built · 2. has had · 3. published · 4. has not finished · 5. has sold\n**3.6 C (for / since):** 1. for · 2. since · 3. for · 4. since\n\n**Mini-quiz:** 1. built · 2. lost · 3. seen · 4. for, since · 5. expensive · 6. offline · 7. website · 8. customer · 9–12. teacher judgement\n\n### Teacher Notes {: #teacher-notes }\n\n**What changed from Lesson 3.** The passage grew from 320 to 400 words, the present perfect joins the past simple and the past continuous, and an eighth question type — the purpose of the whole passage — closes the set. The pronunciation slot follows the grammar again, as it has since Lesson 2: the three sounds of *-ed*, then the weak *was* and *were*, now the short forms of *have* and *has*. Everything else is deliberately unchanged.\n\n**The one real difficulty.** Not the form. It is choosing between *I did* and *I have done*, and Arabic gives no help: both land on the same past. The test is whether the sentence names a finished time. Drill 3.4 and 3.6 B until *in March* pulls the past simple and *since March* pulls the present perfect without thought. Expect *I have built it in March* for several weeks, and correct it every time.\n\n**Why the listening matters more this week.** *Have* and *has* almost disappear in speech. A student who can write *she has finished* will still hear *she's finished* as *she's finish*, and then lose the tense entirely. That is the reason part 05 exists, and the reason the *she's* table is on the sheet: the word after the contraction is the only clue, and she has to learn to use it.\n\n**Why this story.** It is the first passage with no disaster in it. Lessons 1 to 3 were a slow internet, a lost phone and a power cut — real, but if every passage is a loss the course starts teaching helplessness. This one is about a person whose work accumulated, which is also the honest description of what this course asks of her. The vocabulary is the vocabulary of putting your own work in front of other people: publish, account, customer, update.\n\n**Success criteria for Lesson 4.** The student should be able to:\n\n- answer L1–L4 correctly on the second hearing;\n- hear *she's finished* and say whether it means *has* or *is*;\n- form the present perfect of ten verbs, including five irregular participles;\n- choose correctly between past simple and present perfect in 3.6 B;\n- use *for* and *since* correctly;\n- use 10 of the 14 key words in her own sentence;\n- write 12 sentences about her own experience with fewer than 4 tense errors.\n\n**If it is too easy:** Lesson 5 goes to about 480 words, adds the present perfect continuous (*she has been studying*), and the comprehension set gains a second whole-passage question about the writer's attitude.\n**If it is too hard:** keep the same passage for a second week, drop question 9, and drill only 3.1 and 3.4.\n\n**A note on spaced recall.** `03-vocabulary.mp3` ends with five Lesson 2 words — *backup, folder, drive, explain, remember*. Lessons 2 and 3 both recalled Lesson 1, so Lesson 2's words have waited two lessons, which is exactly the gap this course keeps. Lesson 3's words are due back in Lesson 5."
+    },
+    {
+      "number": "12",
+      "slug": "passage-slow",
+      "title": "Passage, extra slow",
+      "minutes": 10,
+      "sheet": false,
+      "audio": true,
+      "segments": [
+        {
+          "say": "Slow version. The passage, read slowly, one time.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 2
+        },
+        {
+          "say": "Lina is twenty-four. She lives in Gaza, and she has studied information technology at her college for three years. She has also done something her teachers never asked for: she has taught herself web design.\n\nIt started two years ago, with a free course on the internet. The course has more than forty lessons, and Lina has finished thirty-eight of them. She has never met her teacher. He lives in another country, and she has only seen his hands, moving on a keyboard, in short videos.\n\nThe connection in her building is slow, so she has learned to work in a careful way. She downloads a lesson at night, when the internet is quieter. She watches it in the morning, with no connection at all. She has lost her work many times, and now she saves every few minutes.\n\nHer uncle has a small shop near the market. He has sold the same things for twenty years — bags, shoes, school things — and he has always sold them in the same way. People come to the shop, or they telephone him.\n\nIn March, Lina built a website for the shop. It is a simple one: four pages, some photographs, the prices, and a button that opens a message to her uncle's phone. She published it on a free service, because the shop has no money for anything else. It took her eleven days.\n\nSince March, the shop has had customers from three other cities. They have never seen the shop, and they will probably never see it. They found the website, they looked at the prices, and they sent a message. Two of them have ordered from the shop more than once.\n\nHer uncle has not learned to use a computer, and he does not want to. He has never used email. But he has asked Lina for two new pages, and he has started to say \"my website\" when he talks to his friends.\n\nLina has not finished the course yet. Two lessons are left, and they are the hardest ones. She has already decided what she will build after them: an account system, so that a customer can see what he has ordered before.\n\nShe says the same thing to every student who asks her how to begin. \"I have not done anything big,\" she says. \"I have done one small thing, many times, for two years\".",
+          "voice": "slow"
+        }
+      ]
+    }
+  ]
+}

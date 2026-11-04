@@ -17,12 +17,12 @@
 | 05 | Section 5 — Speaking | [PDF](05-speaking.pdf) | [MP3](05-speaking.mp3) | 10 |
 | 06 | Answer key, marking and what to do next | [PDF](06-answer-key.pdf) | — | 10 |
 
-Total audio in the numbered parts: **9 minutes 42 seconds**. The whole folder is **6.9 MB** —
+Total audio in the numbered parts: **9 minutes 42 seconds**. The whole folder is **7.0 MB** —
 that is what downloading all of it costs.
 
 ## The whole lesson in one file
 
-- [00-lesson.pdf](00-lesson.pdf) — every part sheet in one printable document, without answer key, marking and what to do next, 8 pages, 39 KB. **The large option.**
+- [00-lesson.pdf](00-lesson.pdf) — every part sheet in one printable document, without answer key, marking and what to do next, 39 KB. **The large option.**
 - [00-full-section.mp3](00-full-section.mp3) — the question tracks end to end, like a real exam section, 10 minutes, 3.4 MB. **The large option.**
 
 ## How to work through this lesson

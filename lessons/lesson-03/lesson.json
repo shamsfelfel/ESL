@@ -8,6 +8,133 @@
   "skills": "Listening → Reading → Vocabulary → Grammar → Comprehension → Speaking → Writing",
   "new_in_this_lesson": "the past continuous, the weak sounds of was and were, a longer passage of 320 words, and one new question type: purpose of a paragraph",
   "passage_words": 320,
+  "vocabulary": [
+    {
+      "word": "server",
+      "answer": "SERVER",
+      "type": "noun",
+      "meaning": "a big computer that keeps files for many people",
+      "arabic": "خادم"
+    },
+    {
+      "word": "upload",
+      "answer": "UPLOAD",
+      "type": "verb",
+      "meaning": "to send a file from your computer to the internet",
+      "arabic": "يرفع"
+    },
+    {
+      "word": "project",
+      "answer": "PROJECT",
+      "type": "noun",
+      "meaning": "a large piece of work you do over a long time",
+      "arabic": "مشروع"
+    },
+    {
+      "word": "software",
+      "answer": "SOFTWARE",
+      "type": "noun",
+      "meaning": "the programs that run on a computer",
+      "arabic": "برمجيات"
+    },
+    {
+      "word": "screen",
+      "answer": "SCREEN",
+      "type": "noun",
+      "meaning": "the part of a computer you look at",
+      "arabic": "شاشة"
+    },
+    {
+      "word": "restart",
+      "answer": "RESTART",
+      "type": "verb",
+      "meaning": "to start something again",
+      "arabic": "يعيد التشغيل"
+    },
+    {
+      "word": "browser",
+      "answer": "BROWSER",
+      "type": "noun",
+      "meaning": "the program you use to open websites",
+      "arabic": "متصفح"
+    },
+    {
+      "word": "stuck",
+      "answer": "STUCK",
+      "type": "adjective",
+      "meaning": "not able to move",
+      "arabic": "عالق"
+    },
+    {
+      "word": "broken",
+      "answer": "BROKEN",
+      "type": "adjective",
+      "meaning": "damaged, and not working",
+      "arabic": "تالف"
+    },
+    {
+      "word": "cable",
+      "answer": "CABLE",
+      "type": "noun",
+      "meaning": "the wire that joins two machines",
+      "arabic": "كابل"
+    },
+    {
+      "word": "version",
+      "answer": "VERSION",
+      "type": "noun",
+      "meaning": "one form of something that changes over time",
+      "arabic": "إصدار"
+    },
+    {
+      "word": "save",
+      "answer": "SAVE",
+      "type": "verb",
+      "meaning": "to keep your work on a computer",
+      "arabic": "يحفظ"
+    },
+    {
+      "word": "per cent",
+      "answer": "PERCENT",
+      "type": "noun",
+      "meaning": "one part in every hundred",
+      "arabic": "بالمئة"
+    },
+    {
+      "word": "careful",
+      "answer": "CAREFUL",
+      "type": "adjective",
+      "meaning": "giving attention so nothing goes wrong",
+      "arabic": "حَذِر"
+    }
+  ],
+  "recall": [
+    {
+      "word": "check",
+      "answer": "CHECK",
+      "meaning": "to look at something to get information"
+    },
+    {
+      "word": "centre",
+      "answer": "CENTRE",
+      "meaning": "a place where people meet, learn or work"
+    },
+    {
+      "word": "tool",
+      "answer": "TOOL",
+      "meaning": "a thing you use to do work"
+    },
+    {
+      "word": "slow",
+      "answer": "SLOW",
+      "meaning": "not fast"
+    },
+    {
+      "word": "wake up",
+      "answer": "WAKEUP",
+      "meaning": "to stop sleeping"
+    }
+  ],
   "footer": "Lesson 3 — The Night the Network Failed",
   "voices": {
     "reader": {
@@ -50,6 +177,22 @@
       }
     ]
   },
+  "games": [
+    {
+      "number": "13",
+      "slug": "crossword",
+      "title": "Crossword",
+      "style": "crossword",
+      "minutes": 15
+    },
+    {
+      "number": "14",
+      "slug": "word-search",
+      "title": "Word search",
+      "style": "word-search",
+      "minutes": 10
+    }
+  ],
   "parts": [
     {
       "number": "01",

@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Crossword - Lesson 1 — A Day with a Phone</title>
+<meta name="theme-color" content="#15607a">
+<style>
+:root{--ink:#1a1d21;--muted:#5d646e;--rule:#dfe3e8;--accent:#15607a;
+--wash:#f1f6f8;--bg:#fff;--ok:#1d6b45;--bad:#a4302a}
+@media(prefers-color-scheme:dark){:root{--ink:#e9edf1;--muted:#9aa4b0;
+--rule:#2b3138;--accent:#6fc2de;--wash:#1a2026;--bg:#10151a;--ok:#6fd19d;--bad:#e8857f}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);padding:16px;
+font:16px/1.5 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+.wrap{max-width:46rem;margin:0 auto}
+h1{font-size:20px;margin:0 0 2px;color:var(--accent)}
+.sub{color:var(--muted);font-size:14px;margin:0 0 14px}
+.bar{display:flex;gap:8px;flex-wrap:wrap;margin:14px 0}
+button{font:inherit;font-size:14px;padding:7px 14px;border-radius:99px;
+border:1px solid var(--accent);background:transparent;color:var(--accent);cursor:pointer;min-height:38px}
+button.primary{background:var(--accent);color:#fff}
+.msg{min-height:22px;font-size:14px;font-weight:600;margin-bottom:6px}
+.msg.good{color:var(--ok)}.msg.bad{color:var(--bad)}
+table.grid{border-collapse:collapse;margin:0 auto 6px}
+table.grid td{padding:0;border:0}
+.cell{width:var(--sq);height:var(--sq);position:relative;border:1px solid var(--rule);
+background:var(--wash)}
+.cell.block{border:0;background:transparent}
+.cell input{width:100%;height:100%;border:0;background:transparent;text-align:center;
+font:600 calc(var(--sq)*0.52)/1 inherit;color:var(--ink);text-transform:uppercase;padding:0}
+.cell input:focus{outline:2px solid var(--accent);outline-offset:-2px}
+.cell.right input{color:var(--ok)}
+.cell.wrong input{color:var(--bad)}
+.num{position:absolute;top:1px;left:2px;font-size:calc(var(--sq)*0.28);color:var(--muted);
+pointer-events:none}
+.clues{display:grid;grid-template-columns:1fr;gap:18px;margin-top:18px}
+@media(min-width:620px){.clues{grid-template-columns:1fr 1fr}}
+.clues h2{font-size:14px;text-transform:uppercase;letter-spacing:.05em;color:var(--muted);
+margin:0 0 6px}
+ol.clue{margin:0;padding-left:0;list-style:none}
+ol.clue li{margin-bottom:6px;font-size:14.5px;display:flex;gap:7px}
+ol.clue b{color:var(--accent);min-width:1.6em;text-align:right}
+ol.clue li.done{color:var(--muted);text-decoration:line-through}
+.ar{font-size:13px;color:var(--muted)}
+.ws td{border:0}
+.ws .cell{background:transparent;border:0;display:flex;align-items:center;
+justify-content:center;font-weight:600;font-size:calc(var(--sq)*0.5);cursor:pointer;
+user-select:none;-webkit-user-select:none;border-radius:4px}
+.ws .cell.sel{background:var(--accent);color:#fff}
+.ws .cell.found{background:var(--wash);color:var(--ok)}
+.words{display:flex;flex-wrap:wrap;gap:6px 14px;margin-top:14px}
+.words span{font-size:14.5px}
+.words span.found{color:var(--muted);text-decoration:line-through}
+.foot{margin-top:26px;border-top:1px solid var(--rule);padding-top:10px;
+font-size:13px;color:var(--muted)}
+.foot a{color:var(--accent)}
+
+:root{--sq:min(6.8vw, 32px)}</style>
+</head>
+<body><div class="wrap">
+<h1>Crossword</h1>
+<p class="sub">Lesson 1 — A Day with a Phone &middot; 12 words from this lesson. Read the meaning, write the word.</p>
+<div class="msg" id="msg"></div>
+<table class="grid"><tbody>
+<tr><td><div class="cell block"></div></td><td><div class="cell block"></div></td><td><div class="cell block"></div></td><td><div class="cell block"></div></td><td><div class="cell" data-r="0" data-c="4"><span class="num">1</span><input maxlength="1" inputmode="latin" autocomplete="off" aria-label="row 1 column 5"></div></td><td><div class="cell block"></div></td><td><div class="cell block"></div></td><td><div class="cell block"></div></td><td><div class="cell block"></div></td><td><div class="cell block"></div></td><td><div class="cell block"></div></td><td><div class="cell block"></div></td><td><div class="cell block"></div></td></tr>
+<tr><td><div class="cell block"></div></td><td><div class="cell block"></div></td><td><div class="cell" data-r="1" data-c="2"><span class="num">2</span><input maxlength="1" inputmode="latin" autocomplete="off" aria-label="row 2 column 3"></div></td><td><div class="cell block"></div></td><td><div class="cell" data-r="1" data-c="4"><input maxlength="1" inputmode="latin" autocomplete="off" aria-label="row 2 column 5"></div></td><td><div class="cell block"></div></td><td><div class="cell block"></div></td><td><div class="cell block"></div></td><td><div class="cell block"></div></td><td><div class="cell block"></div></td><td><div class="cell block"></div></td><td><div class="cell block"></div></td><td><div class="cell block"></div></td></tr>
+<tr><td><div class="cell block"></div></td><td><div class="cell block"></div></td><td><div class="cell" data-r="2" data-c="2"><input maxlength="1" inputmode="latin" autocomplete="off" aria-label="row 3 column 3"></div></td><td><div class="cell block"></div></td><td><div class="cell" data-r="2" data-c="4"><input maxlength="1" inputmode="latin" autocomplete="off" aria-label="row 3 column 5"></div></td><td><div class="cell block"></div></td><td><div class="cell block"></div></td><td><div class="cell" data-r="2" data-c="7"><span class="num">3</span><input maxlength="1" inputmode="latin" autocomplete="off" aria-label="row 3 column 8"></div></td><td><div class="cell block"></div></td><td><div class="cell block"></div></td><td><div class="cell block"></div></td><td><div class="cell block"></div></td><td><div class="cell block"></div></td></tr>
+<tr><td><div class="cell block"></div></td><td><div class="cell block"></div></td><td><div class="cell" data-r="3" data-c="2"><span class="num">4</span><input maxlength="1" inputmode="latin" autocomplete="off" aria-label="row 4 column 3"></div></td><td><div class="cell" data-r="3" data-c="3"><input maxlength="1" inputmode="latin" autocomplete="off" aria-label="row 4 column 4"></div></td><td><div class="cell" data-r="3" data-c="4"><input maxlength="1" inputmode="latin" autocomplete="off" aria-label="row 4 column 5"></div></td><td><div class="cell" data-r="3" data-c="5"><span class="num">5</span><input maxlength="1" inputmode="latin" autocomplete="off" aria-label="row 4 column 6"></div></td><td><div class="cell" data-r="3" data-c="6"><input maxlength="1" inputmode="latin" autocomplete="off" aria-label="row 4 column 7"></div></td><td><div class="cell" data-r="3" data-c="7"><input maxlength="1" inputmode="latin" autocomplete="off" aria-label="row 4 column 8"></div></td><td><div class="cell" data-r="3" data-c="8"><input maxlength="1" inputmode="latin" autocomplete="off" aria-label="row 4 column 9"></div></td><td><div class="cell" data-r="3" data-c="9"><input maxlength="1" inputmode="latin" autocomplete="off" aria-label="row 4 column 10"></div></td><td><div class="cell" data-r="3" data-c="10"><input maxlength="1" inputmode="latin" autocomplete="off" aria-label="row 4 column 11"></div></td><td><div class="cell" data-r="3" data-c="11"><input maxlength="1" inputmode="latin" autocomplete="off" aria-label="row 4 column 12"></div></td><td><div class="cell" data-r="3" data-c="12"><input maxlength="1" inputmode="latin" autocomplete="off" aria-label="row 4 column 13"></div></td></tr>
+<tr><td><div class="cell block"></div></td><td><div class="cell block"></div></td><td><div class="cell" data-r="4" data-c="2"><input maxlength="1" inputmode="latin" autocomplete="off" aria-label="row 5 column 3"></div></td><td><div class="cell block"></div></td><td><div class="cell block"></div></td><td><div class="cell" data-r="4" data-c="5"><input maxlength="1" inputmode="latin" autocomplete="off" aria-label="row 5 column 6"></div></td><td><div class="cell block"></div></td><td><div class="cell" data-r="4" data-c="7"><input maxlength="1" inputmode="latin" autocomplete="off" aria-label="row 5 column 8"></div></td><td><div class="cell block"></div></td><td><div class="cell block"></div></td><td><div class="cell block"></div></td><td><div class="cell block"></div></td><td><div class="cell block"></div></td></tr>
+<tr><td><div class="cell block"></div></td><td><div class="cell block"></div></td><td><div class="cell" data-r="5" data-c="2"><input maxlength="1" inputmode="latin" autocomplete="off" aria-label="row 6 column 3"></div></td><td><div class="cell block"></div></td><td><div class="cell block"></div></td><td><div class="cell" data-r="5" data-c="5"><input maxlength="1" inputmode="latin" autocomplete="off" aria-label="row 6 column 6"></div></td><td><div class="cell block"></div></td><td><div class="cell" data-r="5" data-c="7"><span class="num">6</span><input maxlength="1" inputmode="latin" autocomplete="off" aria-label="row 6 column 8"></div></td><td><div class="cell" data-r="5" data-c="8"><input maxlength="1" inputmode="latin" autocomplete="off" aria-label="row 6 column 9"></div></td><td><div class="cell" data-r="5" data-c="9"><input maxlength="1" inputmode="latin" autocomplete="off" aria-label="row 6 column 10"></div></td><td><div class="cell" data-r="5" data-c="10"><input maxlength="1" inputmode="latin" autocomplete="off" aria-label="row 6 column 11"></div></td><td><div class="cell" data-r="5" data-c="11"><input maxlength="1" inputmode="latin" autocomplete="off" aria-label="row 6 column 12"></div></td><td><div class="cell" data-r="5" data-c="12"><input maxlength="1" inputmode="latin" autocomplete="off" aria-label="row 6 column 13"></div></td></tr>
+<tr><td><div class="cell block"></div></td><td><div class="cell block"></div></td><td><div class="cell" data-r="6" data-c="2"><input maxlength="1" inputmode="latin" autocomplete="off" aria-label="row 7 column 3"></div></td><td><div class="cell block"></div></td><td><div class="cell block"></div></td><td><div class="cell" data-r="6" data-c="5"><input maxlength="1" inputmode="latin" autocomplete="off" aria-label="row 7 column 6"></div></td><td><div class="cell block"></div></td><td><div class="cell" data-r="6" data-c="7"><input maxlength="1" inputmode="latin" autocomplete="off" aria-label="row 7 column 8"></div></td><td><div class="cell block"></div></td><td><div class="cell block"></div></td><td><div class="cell block"></div></td><td><div class="cell block"></div></td><td><div class="cell block"></div></td></tr>
+<tr><td><div class="cell" data-r="7" data-c="0"><span class="num">7</span><input maxlength="1" inputmode="latin" autocomplete="off" aria-label="row 8 column 1"></div></td><td><div class="cell" data-r="7" data-c="1"><input maxlength="1" inputmode="latin" autocomplete="off" aria-label="row 8 column 2"></div></td><td><div class="cell" data-r="7" data-c="2"><input maxlength="1" inputmode="latin" autocomplete="off" aria-label="row 8 column 3"></div></td><td><div class="cell" data-r="7" data-c="3"><input maxlength="1" inputmode="latin" autocomplete="off" aria-label="row 8 column 4"></div></td><td><div class="cell block"></div></td><td><div class="cell" data-r="7" data-c="5"><input maxlength="1" inputmode="latin" autocomplete="off" aria-label="row 8 column 6"></div></td><td><div class="cell block"></div></td><td><div class="cell" data-r="7" data-c="7"><input maxlength="1" inputmode="latin" autocomplete="off" aria-label="row 8 column 8"></div></td><td><div class="cell block"></div></td><td><div class="cell block"></div></td><td><div class="cell block"></div></td><td><div class="cell block"></div></td><td><div class="cell block"></div></td></tr>
+<tr><td><div class="cell block"></div></td><td><div class="cell block"></div></td><td><div class="cell" data-r="8" data-c="2"><input maxlength="1" inputmode="latin" autocomplete="off" aria-label="row 9 column 3"></div></td><td><div class="cell block"></div></td><td><div class="cell block"></div></td><td><div class="cell block"></div></td><td><div class="cell block"></div></td><td><div class="cell" data-r="8" data-c="7"><span class="num">8</span><input maxlength="1" inputmode="latin" autocomplete="off" aria-label="row 9 column 8"></div></td><td><div class="cell" data-r="8" data-c="8"><input maxlength="1" inputmode="latin" autocomplete="off" aria-label="row 9 column 9"></div></td><td><div class="cell" data-r="8" data-c="9"><input maxlength="1" inputmode="latin" autocomplete="off" aria-label="row 9 column 10"></div></td><td><div class="cell" data-r="8" data-c="10"><span class="num">9</span><input maxlength="1" inputmode="latin" autocomplete="off" aria-label="row 9 column 11"></div></td><td><div class="cell block"></div></td><td><div class="cell block"></div></td></tr>
+<tr><td><div class="cell block"></div></td><td><div class="cell block"></div></td><td><div class="cell" data-r="9" data-c="2"><span class="num">10</span><input maxlength="1" inputmode="latin" autocomplete="off" aria-label="row 10 column 3"></div></td><td><div class="cell" data-r="9" data-c="3"><input maxlength="1" inputmode="latin" autocomplete="off" aria-label="row 10 column 4"></div></td><td><div class="cell" data-r="9" data-c="4"><input maxlength="1" inputmode="latin" autocomplete="off" aria-label="row 10 column 5"></div></td><td><div class="cell" data-r="9" data-c="5"><input maxlength="1" inputmode="latin" autocomplete="off" aria-label="row 10 column 6"></div></td><td><div class="cell block"></div></td><td><div class="cell" data-r="9" data-c="7"><input maxlength="1" inputmode="latin" autocomplete="off" aria-label="row 10 column 8"></div></td><td><div class="cell block"></div></td><td><div class="cell block"></div></td><td><div class="cell" data-r="9" data-c="10"><input maxlength="1" inputmode="latin" autocomplete="off" aria-label="row 10 column 11"></div></td><td><div class="cell block"></div></td><td><div class="cell block"></div></td></tr>
+<tr><td><div class="cell block"></div></td><td><div class="cell block"></div></td><td><div class="cell block"></div></td><td><div class="cell block"></div></td><td><div class="cell block"></div></td><td><div class="cell block"></div></td><td><div class="cell block"></div></td><td><div class="cell block"></div></td><td><div class="cell block"></div></td><td><div class="cell block"></div></td><td><div class="cell" data-r="10" data-c="10"><input maxlength="1" inputmode="latin" autocomplete="off" aria-label="row 11 column 11"></div></td><td><div class="cell block"></div></td><td><div class="cell block"></div></td></tr>
+<tr><td><div class="cell block"></div></td><td><div class="cell block"></div></td><td><div class="cell block"></div></td><td><div class="cell block"></div></td><td><div class="cell block"></div></td><td><div class="cell" data-r="11" data-c="5"><span class="num">11</span><input maxlength="1" inputmode="latin" autocomplete="off" aria-label="row 12 column 6"></div></td><td><div class="cell" data-r="11" data-c="6"><input maxlength="1" inputmode="latin" autocomplete="off" aria-label="row 12 column 7"></div></td><td><div class="cell" data-r="11" data-c="7"><span class="num">12</span><input maxlength="1" inputmode="latin" autocomplete="off" aria-label="row 12 column 8"></div></td><td><div class="cell" data-r="11" data-c="8"><input maxlength="1" inputmode="latin" autocomplete="off" aria-label="row 12 column 9"></div></td><td><div class="cell" data-r="11" data-c="9"><input maxlength="1" inputmode="latin" autocomplete="off" aria-label="row 12 column 10"></div></td><td><div class="cell" data-r="11" data-c="10"><input maxlength="1" inputmode="latin" autocomplete="off" aria-label="row 12 column 11"></div></td><td><div class="cell" data-r="11" data-c="11"><input maxlength="1" inputmode="latin" autocomplete="off" aria-label="row 12 column 12"></div></td><td><div class="cell" data-r="11" data-c="12"><input maxlength="1" inputmode="latin" autocomplete="off" aria-label="row 12 column 13"></div></td></tr>
+<tr><td><div class="cell block"></div></td><td><div class="cell block"></div></td><td><div class="cell block"></div></td><td><div class="cell block"></div></td><td><div class="cell block"></div></td><td><div class="cell block"></div></td><td><div class="cell block"></div></td><td><div class="cell" data-r="12" data-c="7"><input maxlength="1" inputmode="latin" autocomplete="off" aria-label="row 13 column 8"></div></td><td><div class="cell block"></div></td><td><div class="cell block"></div></td><td><div class="cell" data-r="12" data-c="10"><input maxlength="1" inputmode="latin" autocomplete="off" aria-label="row 13 column 11"></div></td><td><div class="cell block"></div></td><td><div class="cell block"></div></td></tr>
+<tr><td><div class="cell block"></div></td><td><div class="cell block"></div></td><td><div class="cell block"></div></td><td><div class="cell block"></div></td><td><div class="cell block"></div></td><td><div class="cell block"></div></td><td><div class="cell block"></div></td><td><div class="cell" data-r="13" data-c="7"><input maxlength="1" inputmode="latin" autocomplete="off" aria-label="row 14 column 8"></div></td><td><div class="cell block"></div></td><td><div class="cell block"></div></td><td><div class="cell" data-r="13" data-c="10"><input maxlength="1" inputmode="latin" autocomplete="off" aria-label="row 14 column 11"></div></td><td><div class="cell block"></div></td><td><div class="cell block"></div></td></tr>
+<tr><td><div class="cell block"></div></td><td><div class="cell block"></div></td><td><div class="cell block"></div></td><td><div class="cell block"></div></td><td><div class="cell block"></div></td><td><div class="cell block"></div></td><td><div class="cell block"></div></td><td><div class="cell" data-r="14" data-c="7"><input maxlength="1" inputmode="latin" autocomplete="off" aria-label="row 15 column 8"></div></td><td><div class="cell block"></div></td><td><div class="cell block"></div></td><td><div class="cell block"></div></td><td><div class="cell block"></div></td><td><div class="cell block"></div></td></tr>
+<tr><td><div class="cell block"></div></td><td><div class="cell block"></div></td><td><div class="cell block"></div></td><td><div class="cell block"></div></td><td><div class="cell block"></div></td><td><div class="cell block"></div></td><td><div class="cell block"></div></td><td><div class="cell" data-r="15" data-c="7"><input maxlength="1" inputmode="latin" autocomplete="off" aria-label="row 16 column 8"></div></td><td><div class="cell block"></div></td><td><div class="cell block"></div></td><td><div class="cell block"></div></td><td><div class="cell block"></div></td><td><div class="cell block"></div></td></tr>
+<tr><td><div class="cell block"></div></td><td><div class="cell block"></div></td><td><div class="cell block"></div></td><td><div class="cell block"></div></td><td><div class="cell block"></div></td><td><div class="cell block"></div></td><td><div class="cell block"></div></td><td><div class="cell" data-r="16" data-c="7"><input maxlength="1" inputmode="latin" autocomplete="off" aria-label="row 17 column 8"></div></td><td><div class="cell block"></div></td><td><div class="cell block"></div></td><td><div class="cell block"></div></td><td><div class="cell block"></div></td><td><div class="cell block"></div></td></tr>
+</tbody></table>
+<div class="bar">
+  <button class="primary" id="check">Check</button>
+  <button id="reveal">Show a letter</button>
+  <button id="clear">Clear</button>
+</div>
+<div class="clues">
+  <div><h2>Across</h2><ol class="clue" id="across"><li data-num="4" data-dir="across"><b>4</b><span>the power that makes machines work <span class="ar">الكهرباء</span> <span class="ar">(11)</span></span></li>
+<li data-num="6" data-dir="across"><b>6</b><span>a place where people meet, learn or work <span class="ar">مركز</span> <span class="ar">(6)</span></span></li>
+<li data-num="7" data-dir="across"><b>7</b><span>a home inside a building <span class="ar">شقة</span> <span class="ar">(4)</span></span></li>
+<li data-num="8" data-dir="across"><b>8</b><span>not fast <span class="ar">بطيء</span> <span class="ar">(4)</span></span></li>
+<li data-num="10" data-dir="across"><b>10</b><span>a thing you use to do work <span class="ar">أداة</span> <span class="ar">(4)</span></span></li>
+<li data-num="11" data-dir="across"><b>11</b><span>a file with writing in it <span class="ar">مستند</span> <span class="ar">(8)</span></span></li></ol></div>
+  <div><h2>Down</h2><ol class="clue" id="down"><li data-num="1" data-dir="down"><b>1</b><span>not in danger; protected <span class="ar">آمن</span> <span class="ar">(4)</span></span></li>
+<li data-num="2" data-dir="down"><b>2</b><span>the first meal of the day <span class="ar">الفطور</span> <span class="ar">(9)</span></span></li>
+<li data-num="3" data-dir="down"><b>3</b><span>do something many times to learn it <span class="ar">يتدرّب</span> <span class="ar">(8)</span></span></li>
+<li data-num="5" data-dir="down"><b>5</b><span>look at something to get information <span class="ar">يتفقّد</span> <span class="ar">(5)</span></span></li>
+<li data-num="9" data-dir="down"><b>9</b><span>stop sleeping <i>(two words, written as one)</i> <span class="ar">يستيقظ</span> <span class="ar">(6)</span></span></li>
+<li data-num="12" data-dir="down"><b>12</b><span>put electricity into a battery <span class="ar">يشحن</span> <span class="ar">(6)</span></span></li></ol></div>
+</div>
+<p class="foot">Every word here is from this lesson. &nbsp;
+<a href="README.md">Back to the lesson</a></p>
+</div>
+<script>
+const SOL = {"0,4": "S", "1,2": "B", "1,4": "A", "2,2": "R", "2,4": "F", "2,7": "P", "3,2": "E", "3,3": "L", "3,4": "E", "3,5": "C", "3,6": "T", "3,7": "R", "3,8": "I", "3,9": "C", "3,10": "I", "3,11": "T", "3,12": "Y", "4,2": "A", "4,5": "H", "4,7": "A", "5,2": "K", "5,5": "E", "5,7": "C", "5,8": "E", "5,9": "N", "5,10": "T", "5,11": "R", "5,12": "E", "6,2": "F", "6,5": "C", "6,7": "T", "7,0": "F", "7,1": "L", "7,2": "A", "7,3": "T", "7,5": "K", "7,7": "I", "8,2": "S", "8,7": "S", "8,8": "L", "8,9": "O", "8,10": "W", "9,2": "T", "9,3": "O", "9,4": "O", "9,5": "L", "9,7": "E", "9,10": "A", "10,10": "K", "11,5": "D", "11,6": "O", "11,7": "C", "11,8": "U", "11,9": "M", "11,10": "E", "11,11": "N", "11,12": "T", "12,7": "H", "12,10": "U", "13,7": "A", "13,10": "P", "14,7": "R", "15,7": "G", "16,7": "E"}, ENTRIES = [{"word": "SAFE", "r": 0, "c": 4, "dir": "down", "num": 1}, {"word": "BREAKFAST", "r": 1, "c": 2, "dir": "down", "num": 2}, {"word": "PRACTISE", "r": 2, "c": 7, "dir": "down", "num": 3}, {"word": "ELECTRICITY", "r": 3, "c": 2, "dir": "across", "num": 4}, {"word": "CHECK", "r": 3, "c": 5, "dir": "down", "num": 5}, {"word": "CENTRE", "r": 5, "c": 7, "dir": "across", "num": 6}, {"word": "FLAT", "r": 7, "c": 0, "dir": "across", "num": 7}, {"word": "SLOW", "r": 8, "c": 7, "dir": "across", "num": 8}, {"word": "WAKEUP", "r": 8, "c": 10, "dir": "down", "num": 9}, {"word": "TOOL", "r": 9, "c": 2, "dir": "across", "num": 10}, {"word": "DOCUMENT", "r": 11, "c": 5, "dir": "across", "num": 11}, {"word": "CHARGE", "r": 11, "c": 7, "dir": "down", "num": 12}];
+const cells = {};
+document.querySelectorAll('.cell[data-r]').forEach(d => {
+  cells[d.dataset.r + ',' + d.dataset.c] = d;
+  const i = d.querySelector('input');
+  i.addEventListener('input', () => {
+    i.value = i.value.toUpperCase().replace(/[^A-Z]/g, '');
+    d.classList.remove('right', 'wrong');
+    if (i.value) move(+d.dataset.r, +d.dataset.c, 1);
+    save();
+  });
+  i.addEventListener('keydown', e => {
+    const r = +d.dataset.r, c = +d.dataset.c;
+    if (e.key === 'Backspace' && !i.value) { move(r, c, -1); }
+    else if (e.key === 'ArrowRight') { focus(r, c + 1); e.preventDefault(); }
+    else if (e.key === 'ArrowLeft')  { focus(r, c - 1); e.preventDefault(); }
+    else if (e.key === 'ArrowDown')  { focus(r + 1, c); e.preventDefault(); }
+    else if (e.key === 'ArrowUp')    { focus(r - 1, c); e.preventDefault(); }
+  });
+});
+let dir = 'across';
+function focus(r, c) { const d = cells[r + ',' + c]; if (d) d.querySelector('input').focus(); }
+function move(r, c, step) {
+  if (dir === 'across') focus(r, c + step); else focus(r + step, c);
+}
+document.querySelectorAll('#across li, #down li').forEach(li => {
+  li.addEventListener('click', () => {
+    dir = li.dataset.dir;
+    const e = ENTRIES.find(x => x.num == li.dataset.num && x.dir === dir);
+    if (e) focus(e.r, e.c);
+  });
+});
+function save() {
+  const v = {};
+  for (const k in cells) { const t = cells[k].querySelector('input').value; if (t) v[k] = t; }
+  try { localStorage.setItem(KEY, JSON.stringify(v)); } catch (e) {}
+}
+const KEY = 'crossword:' + location.pathname;
+try {
+  const v = JSON.parse(localStorage.getItem(KEY) || '{}');
+  for (const k in v) if (cells[k]) cells[k].querySelector('input').value = v[k];
+} catch (e) {}
+const msg = document.getElementById('msg');
+document.getElementById('check').onclick = () => {
+  let right = 0, wrong = 0, empty = 0;
+  for (const k in cells) {
+    const d = cells[k], i = d.querySelector('input');
+    d.classList.remove('right', 'wrong');
+    if (!i.value) { empty++; continue; }
+    if (i.value === SOL[k]) { d.classList.add('right'); right++; }
+    else { d.classList.add('wrong'); wrong++; }
+  }
+  markDone();
+  msg.className = 'msg ' + (wrong ? 'bad' : (empty ? '' : 'good'));
+  msg.textContent = wrong ? wrong + ' letter' + (wrong > 1 ? 's are' : ' is') + ' wrong.'
+    : (empty ? right + ' right, ' + empty + ' still empty.' : 'All correct. Well done.');
+};
+document.getElementById('reveal').onclick = () => {
+  const empty = Object.keys(cells).filter(k => !cells[k].querySelector('input').value);
+  if (!empty.length) { msg.textContent = 'Nothing left to show.'; return; }
+  const k = empty[Math.floor(Math.random() * empty.length)];
+  cells[k].querySelector('input').value = SOL[k];
+  save(); markDone();
+  msg.className = 'msg'; msg.textContent = 'One letter filled in for you.';
+};
+document.getElementById('clear').onclick = () => {
+  for (const k in cells) {
+    cells[k].querySelector('input').value = '';
+    cells[k].classList.remove('right', 'wrong');
+  }
+  document.querySelectorAll('li.done').forEach(li => li.classList.remove('done'));
+  save(); msg.textContent = '';
+};
+function markDone() {
+  ENTRIES.forEach(e => {
+    let got = '';
+    for (let i = 0; i < e.word.length; i++) {
+      const k = e.dir === 'across' ? e.r + ',' + (e.c + i) : (e.r + i) + ',' + e.c;
+      got += (cells[k] ? cells[k].querySelector('input').value : '') || ' ';
+    }
+    const li = document.querySelector('li[data-num="' + e.num + '"][data-dir="' + e.dir + '"]');
+    if (li) li.classList.toggle('done', got === e.word);
+  });
+}
+markDone();
+</script>
+</body>
+</html>

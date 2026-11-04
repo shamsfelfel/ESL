@@ -8,6 +8,92 @@
   "skills": "Listening → Reading → Vocabulary → Comprehension → Speaking → Writing",
   "new_in_this_lesson": "present simple, time expressions (at six o'clock, every morning, in the evening), and the five core TOEFL question types",
   "passage_words": 185,
+  "vocabulary": [
+    {
+      "word": "flat",
+      "answer": "FLAT",
+      "type": "noun",
+      "meaning": "a home inside a building",
+      "arabic": "شقة"
+    },
+    {
+      "word": "wake up",
+      "answer": "WAKEUP",
+      "type": "verb",
+      "meaning": "stop sleeping",
+      "arabic": "يستيقظ"
+    },
+    {
+      "word": "check",
+      "answer": "CHECK",
+      "type": "verb",
+      "meaning": "look at something to get information",
+      "arabic": "يتفقّد"
+    },
+    {
+      "word": "breakfast",
+      "answer": "BREAKFAST",
+      "type": "noun",
+      "meaning": "the first meal of the day",
+      "arabic": "الفطور"
+    },
+    {
+      "word": "centre",
+      "answer": "CENTRE",
+      "type": "noun",
+      "meaning": "a place where people meet, learn or work",
+      "arabic": "مركز"
+    },
+    {
+      "word": "document",
+      "answer": "DOCUMENT",
+      "type": "noun",
+      "meaning": "a file with writing in it",
+      "arabic": "مستند"
+    },
+    {
+      "word": "safe",
+      "answer": "SAFE",
+      "type": "adj.",
+      "meaning": "not in danger; protected",
+      "arabic": "آمن"
+    },
+    {
+      "word": "tool",
+      "answer": "TOOL",
+      "type": "noun",
+      "meaning": "a thing you use to do work",
+      "arabic": "أداة"
+    },
+    {
+      "word": "slow",
+      "answer": "SLOW",
+      "type": "adj.",
+      "meaning": "not fast",
+      "arabic": "بطيء"
+    },
+    {
+      "word": "electricity",
+      "answer": "ELECTRICITY",
+      "type": "noun",
+      "meaning": "the power that makes machines work",
+      "arabic": "الكهرباء"
+    },
+    {
+      "word": "practise",
+      "answer": "PRACTISE",
+      "type": "verb",
+      "meaning": "do something many times to learn it",
+      "arabic": "يتدرّب"
+    },
+    {
+      "word": "charge",
+      "answer": "CHARGE",
+      "type": "verb",
+      "meaning": "put electricity into a battery",
+      "arabic": "يشحن"
+    }
+  ],
   "footer": "Lesson 1 — A Day with a Phone",
   "voices": {
     "reader": {
@@ -50,6 +136,22 @@
       }
     ]
   },
+  "games": [
+    {
+      "number": "11",
+      "slug": "crossword",
+      "title": "Crossword",
+      "style": "crossword",
+      "minutes": 15
+    },
+    {
+      "number": "12",
+      "slug": "word-search",
+      "title": "Word search",
+      "style": "word-search",
+      "minutes": 10
+    }
+  ],
   "parts": [
     {
       "number": "01",

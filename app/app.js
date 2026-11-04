@@ -51,6 +51,13 @@
     return (part.pdf ? part.pdf.bytes : 0) + (part.mp3 ? part.mp3.bytes : 0);
   }
 
+  function gameFiles(course, game) { return [course.path + "/" + game.file]; }
+
+  function lessonBytes(course) {
+    var t = course.parts.reduce(function (n, p) { return n + partBytes(p); }, 0);
+    return (course.games || []).reduce(function (n, g) { return n + g.bytes; }, t);
+  }
+
   // ------------------------------------------------------------ cache state
 
   function cacheOpen() {
@@ -178,6 +185,24 @@
         '<div class="row">' + links.join("") + saveBtn + "</div></div>";
     }).join("");
 
+    var games = "";
+    if (c.games && c.games.length) {
+      games = "<h2>After the lesson: two word games</h2>" +
+        '<p class="dim">Both are built from this lesson\'s own words, so nothing ' +
+        "in them is new. They work with no connection once saved.</p>" +
+        c.games.map(function (g, i) {
+          return '<div class="part"><div class="part-head">' +
+            '<span class="part-no">' + esc(g.number) + "</span>" +
+            '<span class="part-title">' + esc(g.title) + "</span>" +
+            '<span class="part-min">' + g.minutes + " min</span></div>" +
+            '<div class="row"><a class="btn btn-small" target="_blank" ' +
+            'rel="noopener" href="' + esc(c.path + "/" + g.file) + '">Play &middot; ' +
+            fmtSize(g.bytes) + "</a>" +
+            '<button class="btn btn-small saveGame" data-game="' + i + '">Save ' +
+            fmtSize(g.bytes) + "</button></div></div>";
+        }).join("");
+    }
+
     render('<a class="back" href="#/">All lessons</a>' +
       "<h1>" + esc(c.title) + "</h1>" +
       '<div class="facts">' +
@@ -187,10 +212,10 @@
       "<div><b>New here:</b> " + esc(c.new) + "</div>" +
       "</div>" +
       "<h2>How to work through this</h2><ol class=\"steps\">" + steps + "</ol>" +
-      '<div class="row"><button class="btn btn-fill" id="saveAll">Save every part ' +
-      "&middot; " + fmtSize(c.parts.reduce(function (t, p) { return t + partBytes(p); }, 0)) +
+      '<div class="row"><button class="btn btn-fill" id="saveAll">Save everything ' +
+      "&middot; " + fmtSize(lessonBytes(c)) +
       '</button><button class="btn btn-small" id="dropAll">Remove saved</button></div>' +
-      "<h2>The parts, in order</h2>" + parts + whole);
+      "<h2>The parts, in order</h2>" + parts + games + whole);
 
     wireLesson(c);
   }
@@ -204,11 +229,13 @@
   }
 
   function wireLesson(c) {
-    var buttons = [].slice.call(view.querySelectorAll("button.save"));
+    var buttons = [].slice.call(view.querySelectorAll("button.save"))
+      .concat([].slice.call(view.querySelectorAll("button.saveGame")));
 
     buttons.forEach(function (btn) {
-      var part = c.parts[+btn.dataset.part];
-      var files = partFiles(c, part);
+      var isGame = btn.classList.contains("saveGame");
+      var part = isGame ? c.games[+btn.dataset.game] : c.parts[+btn.dataset.part];
+      var files = isGame ? gameFiles(c, part) : partFiles(c, part);
 
       isSaved(files).then(function (saved) { mark(btn, saved, part); });
 
@@ -234,15 +261,10 @@
     if (all) {
       all.addEventListener("click", function () {
         all.disabled = true;
-        all.textContent = "Saving every part…";
-        var urls = c.parts.reduce(function (acc, p) {
-          return acc.concat(partFiles(c, p));
-        }, []);
-        save(urls).then(function () {
+        all.textContent = "Saving everything…";
+        save(allFiles(c)).then(function () {
           all.textContent = "Saved. This lesson works offline.";
-          buttons.forEach(function (b) {
-            mark(b, true, c.parts[+b.dataset.part]);
-          });
+          buttons.forEach(function (b) { mark(b, true, itemOf(c, b)); });
           storageLine();
         }).catch(function (err) {
           all.textContent = "Some parts did not save — try again";
@@ -255,19 +277,14 @@
     var none = view.querySelector("#dropAll");
     if (none) {
       none.addEventListener("click", function () {
-        var urls = c.parts.reduce(function (acc, p) {
-          return acc.concat(partFiles(c, p));
-        }, []);
+        var urls = allFiles(c);
         if (c.whole.pdf) urls.push(c.path + "/" + c.whole.pdf.file);
         if (c.whole.mp3) urls.push(c.path + "/" + c.whole.mp3.file);
         drop(urls).then(function () {
-          buttons.forEach(function (b) {
-            mark(b, false, c.parts[+b.dataset.part]);
-          });
-          if (all) { all.disabled = false; }
+          buttons.forEach(function (b) { mark(b, false, itemOf(c, b)); });
           if (all) {
-            all.textContent = "Save every part · " + fmtSize(
-              c.parts.reduce(function (t, p) { return t + partBytes(p); }, 0));
+            all.disabled = false;
+            all.textContent = "Save everything · " + fmtSize(lessonBytes(c));
           }
           storageLine();
         });
@@ -275,9 +292,25 @@
     }
   }
 
-  function mark(btn, saved, part) {
-    btn.textContent = saved ? "Saved — remove" : "Save " + fmtSize(partBytes(part));
+  function mark(btn, saved, item) {
+    var bytes = (item && item.bytes != null) ? item.bytes : partBytes(item);
+    btn.textContent = saved ? "Saved — remove" : "Save " + fmtSize(bytes);
     btn.classList.toggle("btn-saved", saved);
+  }
+
+  /* The part or game a Save button belongs to, whichever kind it is. */
+  function itemOf(c, btn) {
+    return btn.classList.contains("saveGame")
+      ? c.games[+btn.dataset.game] : c.parts[+btn.dataset.part];
+  }
+
+  function allFiles(c) {
+    var urls = c.parts.reduce(function (acc, p) {
+      return acc.concat(partFiles(c, p));
+    }, []);
+    return (c.games || []).reduce(function (acc, g) {
+      return acc.concat(gameFiles(c, g));
+    }, urls);
   }
 
   // ------------------------------------------------------------------ routing

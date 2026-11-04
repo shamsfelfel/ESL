@@ -23,13 +23,23 @@
 | 11 | Answer key and teacher notes | [PDF](11-answer-key.pdf) | — | 10 |
 | 12 | Passage, extra slow | — | [MP3](12-passage-slow.mp3) | 10 |
 
-Total audio in the numbered parts: **31 minutes 52 seconds**. The whole folder is **15.7 MB** —
+Total audio in the numbered parts: **31 minutes 52 seconds**. The whole folder is **15.8 MB** —
 that is what downloading all of it costs.
 
 ## The whole lesson in one file
 
-- [00-lesson.pdf](00-lesson.pdf) — every part sheet in one printable document, answer key last, 16 pages, 70 KB. **The large option.**
+- [00-lesson.pdf](00-lesson.pdf) — every part sheet in one printable document, answer key last, 70 KB. **The large option.**
 - [00-full-section.mp3](00-full-section.mp3) — the question tracks end to end, like a real exam section, 13 minutes, 4.4 MB. **The large option.**
+
+## After the lesson: two word games
+
+Both are built from this lesson's own words, so nothing in them is new. They
+open in a browser, work with no connection, and remember what you have done.
+
+| No. | Game | Minutes | Size |
+|---|---|---|---|
+| 13 | [Crossword](13-crossword.html) | 15 | 38 KB |
+| 14 | [Word search](14-word-search.html) | 10 | 21 KB |
 
 ## How to work through this lesson
 

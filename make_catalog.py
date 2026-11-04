@@ -86,8 +86,16 @@ def collect(folder: Path, kind: str) -> dict | None:
         entry = {k: v for k, v in entry.items() if v is not None}
         parts.append(entry)
 
+    games = []
+    for g in meta.get("games", []):
+        f = folder / f"{g['number']}-{g['slug']}.html"
+        if f.is_file():
+            games.append({"number": g["number"], "slug": g["slug"],
+                          "title": g["title"], "minutes": g["minutes"],
+                          "file": f.name, "bytes": f.stat().st_size})
+
     built = [f for f in folder.iterdir() if f.is_file()
-             and f.suffix.lower() in (".pdf", ".mp3")]
+             and f.suffix.lower() in (".pdf", ".mp3", ".html")]
     return {
         "kind": kind,
         "slug": meta["slug"],
@@ -102,6 +110,7 @@ def collect(folder: Path, kind: str) -> dict | None:
         "minutes": sum(p["minutes"] for p in meta["parts"]),
         "bytes": sum(f.stat().st_size for f in built),
         "howToWork": meta.get("how_to_work", []),
+        "games": games,
         "whole": {k: v for k, v in (
             ("pdf", describe(folder, "00-lesson.pdf", False)),
             ("mp3", describe(folder, "00-full-section.mp3", True)),
@@ -137,8 +146,9 @@ def main() -> int:
     total = sum(c["bytes"] for c in courses)
     files = sum(len([p for p in c["parts"] if "pdf" in p])
                 + len([p for p in c["parts"] if "mp3" in p]) for c in courses)
+    games = sum(len(c["games"]) for c in courses)
     print(f"{OUT.relative_to(ROOT).as_posix()}: {len(courses)} entries, "
-          f"{files} part files, {total / 1048576:.1f} MB of content")
+          f"{files} part files, {games} games, {total / 1048576:.1f} MB of content")
     for c in courses:
         missing = [f"{p['number']}-{p['slug']}" for p in c["parts"]
                    if "pdf" not in p and "mp3" not in p]
