@@ -15,6 +15,15 @@
 var SHELL = "esl-shell-v1";
 var CONTENT = "esl-content-v1";
 
+/* Both of this course's caches start with this, and the activate handler
+ * below deletes nothing that does not. The course shares an origin with five
+ * sibling courses and the hub at shamsfelfel.github.io, and caches.keys()
+ * lists every one of their caches alongside ours -- so clearing everything
+ * that was not SHELL or CONTENT, which is what this used to do, took the
+ * other five offline every time this app was deployed.
+ */
+var PREFIX = "esl-";
+
 var SHELL_FILES = [
   "./",
   "index.html",
@@ -43,8 +52,11 @@ self.addEventListener("activate", function (event) {
   event.waitUntil(
     caches.keys().then(function (names) {
       return Promise.all(names.map(function (n) {
-        // keep the content cache across versions; only retire old shells
-        if (n !== SHELL && n !== CONTENT) return caches.delete(n);
+        // keep the content cache across versions; only retire old shells,
+        // and only ever this course's own -- a name without our prefix
+        // belongs to a sibling course on the same origin.
+        if (n === SHELL || n === CONTENT) return null;
+        return n.indexOf(PREFIX) === 0 ? caches.delete(n) : null;
       }));
     }).then(function () { return self.clients.claim(); })
   );
