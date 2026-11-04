@@ -2,7 +2,7 @@
 
 **Level:** A2 (third step)
 **Topic:** Computing and student life: files, servers and backups
-**Time:** 6 sessions, 45–55 minutes each — about 290 minutes of work in all
+**Time:** 6 sessions, 45–55 minutes each — about 300 minutes of work in all
 **Skills:** Listening → Reading → Vocabulary → Grammar → Comprehension → Speaking → Writing
 **New in this lesson:** the past continuous, the weak sounds of was and were, a longer passage of 320 words, and one new question type: purpose of a paragraph
 
@@ -13,7 +13,7 @@
 | 01 | Passage — The Night the Network Failed | [PDF](01-passage.pdf) | [MP3](01-passage.mp3) | 20 |
 | 02 | Listening questions | [PDF](02-listening-questions.pdf) | [MP3](02-listening-questions.mp3) | 10 |
 | 03 | Vocabulary and Lesson 1 recall | [PDF](03-vocabulary.pdf) | [MP3](03-vocabulary.mp3) | 35 |
-| 04 | Grammar — the past continuous | [PDF](04-grammar-past-continuous.pdf) | — | 40 |
+| 04 | Grammar — the past continuous | [PDF](04-grammar-past-continuous.pdf) | — | 50 |
 | 05 | The sounds of was and were | [PDF](05-weak-forms.pdf) | [MP3](05-weak-forms.mp3) | 20 |
 | 06 | Comprehension — TOEFL question types | [PDF](06-comprehension.pdf) | [MP3](06-comprehension.mp3) | 40 |
 | 07 | True / false | [PDF](07-true-false.pdf) | [MP3](07-true-false.mp3) | 15 |
@@ -28,7 +28,7 @@ that is what downloading all of it costs.
 
 ## The whole lesson in one file
 
-- [00-lesson.pdf](00-lesson.pdf) — every part sheet in one printable document, answer key last, 75 KB. **The large option.**
+- [00-lesson.pdf](00-lesson.pdf) — every part sheet in one printable document, answer key last, 16 pages, 78 KB. **The large option.**
 - [00-full-section.mp3](00-full-section.mp3) — the question tracks end to end, like a real exam section, 15 minutes, 5.2 MB. **The large option.**
 
 ## After the lesson: two word games

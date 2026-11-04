@@ -33,7 +33,7 @@ whether a file can be downloaded at all.
 
 The sessions always run in the same order:
 
-listening → reading → vocabulary → grammar (from Lesson 2) → comprehension →
+listening → reading → vocabulary → grammar → comprehension →
 speaking → writing → review
 
 Four rules hold for the whole course:
@@ -51,6 +51,27 @@ Four rules hold for the whole course:
   one lesson.
 - **One new thing at a time.** Each lesson changes the tense, or the question
   set, or the length — not all three.
+- **Grammar spirals.** No tense is taught once and dropped. Each lesson's
+  grammar part opens with **Come back to**: a tense from an earlier lesson,
+  re-stated in a few lines and then expanded with something held back the first
+  time. The expansion is what makes it a spiral rather than repetition.
+
+### The grammar spiral
+
+| Lesson | Introduces | Comes back to, and expands |
+|---|---|---|
+| 1 | Present simple, as a pattern taken from the passage | — (the course starts here) |
+| 2 | Past simple | Present simple → where frequency words go |
+| 3 | Past continuous | Past simple → time expressions, *ago*, five more irregular verbs |
+| 4 | Present perfect | Past continuous → two long actions at once, a moment in the past |
+| 5 | Present perfect continuous | Present simple → the present simple for timetables and permanent facts |
+| 6 | Future: *will* / *going to* | Present perfect → *for* and *since* against exact dates |
+| 7 | Past perfect | Past continuous → background in longer narrative |
+| 8 | Modals of obligation and ability | Past simple → time clauses and sequencing |
+
+Every tense therefore gets at least two turns: the lesson that introduces it,
+the later lesson that comes back to it, and usually a third appearance in a
+contrast table. Vocabulary spirals the same way, on a fixed two-lesson gap.
 
 ## Lessons
 

@@ -4,8 +4,8 @@
   "title": "Lesson 1 — A Day with a Phone",
   "level": "A1+ (entry) → first step toward A2",
   "topic": "Daily routine and basic IT",
-  "time": "5 short sessions, 40–50 minutes each",
-  "skills": "Listening → Reading → Vocabulary → Comprehension → Speaking → Writing",
+  "time": "6 short sessions, 40–50 minutes each",
+  "skills": "Listening → Reading → Vocabulary → Grammar → Comprehension → Speaking → Writing",
   "new_in_this_lesson": "present simple, time expressions (at six o'clock, every morning, in the evening), and the five core TOEFL question types",
   "passage_words": 185,
   "vocabulary": [
@@ -116,14 +116,14 @@
     "Play **01-passage.mp3** and listen twice with no text in front of you. Do not open the PDF yet.",
     "Then work through the parts in number order, one part at a time. Play the MP3 of a part before you open its sheet.",
     "Record your speaking answers on your phone, and send them with your writing and your self-report.",
-    "Open part 09, the answer key, only when parts 01 to 08 are finished."
+    "Open part 10, the answer key, only when parts 01 to 09 are finished."
   ],
   "full_section": {
     "parts": [
       "01",
       "02",
-      "04",
-      "05"
+      "05",
+      "06"
     ],
     "gap": 3,
     "closing": [
@@ -138,14 +138,14 @@
   },
   "games": [
     {
-      "number": "11",
+      "number": "12",
       "slug": "crossword",
       "title": "Crossword",
       "style": "crossword",
       "minutes": 15
     },
     {
-      "number": "12",
+      "number": "13",
       "slug": "word-search",
       "title": "Word search",
       "style": "word-search",
@@ -577,6 +577,15 @@
     },
     {
       "number": "04",
+      "slug": "grammar-present-simple",
+      "title": "Grammar — the present simple",
+      "minutes": 30,
+      "sheet": true,
+      "audio": false,
+      "markdown": "Lesson 1 has no tense to come back to yet — this is where the course starts.\nEverything below is already in the passage you have read.\n\n### 3.1 One shape, one change\n\nEvery sentence about *now*, *every day* or *always* uses the same shape. Only\n*he*, *she* and *it* change it, by adding **-s**.\n\n| Person | Verb |\n|---|---|\n| I / you / we / they | **wake up**, **eat**, **study** |\n| he / she / it | **wakes up**, **eats**, **studies** |\n\n### 3.2 Straight from the passage\n\n| From the passage | Why |\n|---|---|\n| Sami **lives** in a small flat. | *he* → lives |\n| He **wakes up** at six o'clock. | *he* → wakes |\n| They **drink** tea. | *they* → drink |\n| The students **talk** and **practise**. | *they* → talk |\n| The internet **is** often slow. | *it* → is |\n\n### 3.3 The time words that go with it\n\n> *every morning · every day · at six o'clock · in the evening · sometimes ·\n> often · always · before he sleeps*\n\nWhen you see one of these, the verb takes this shape. They are the signal.\n\n### 3.4 Negative and question\n\n| | Form | Example |\n|---|---|---|\n| Negative | **do not / does not** + the plain verb | He **does not use** a computer at home. |\n| Question | **Do / Does** + person + the plain verb | **Does** he **study** computers? |\n\nNote the plain verb after *does*: *does he **study***, never *does he studies*.\n\n### 3.5 Grammar practice\n\n**A. Write the verb in the right shape:**\n\n1. Sami \\_\\_\\_\\_\\_\\_\\_\\_ (live) in a small flat.\n2. He \\_\\_\\_\\_\\_\\_\\_\\_ (wake up) at six o'clock.\n3. They \\_\\_\\_\\_\\_\\_\\_\\_ (eat) bread and cheese.\n4. The internet \\_\\_\\_\\_\\_\\_\\_\\_ (be) often slow.\n5. The students \\_\\_\\_\\_\\_\\_\\_\\_ (practise) on paper.\n6. Sami \\_\\_\\_\\_\\_\\_\\_\\_ (help) his sister.\n\n**B. Make it negative:**\n\n1. He uses a computer at home. → \\_\\_\\_\\_\\_\\_\\_\\_\n2. They drink coffee. → \\_\\_\\_\\_\\_\\_\\_\\_\n\n**C. Make it a question:**\n\n1. He studies computers. → \\_\\_\\_\\_\\_\\_\\_\\_\n2. They eat breakfast together. → \\_\\_\\_\\_\\_\\_\\_\\_"
+    },
+    {
+      "number": "05",
       "slug": "comprehension",
       "title": "Comprehension — TOEFL question types",
       "minutes": 30,
@@ -868,7 +877,7 @@
       "markdown": "### Part A — Multiple choice (choose ONE answer)\n\n**1. (Factual)** What does Sami do first in the morning?\n\n- A. He eats breakfast.\n- B. He looks at his phone.\n- C. He goes to the computer centre.\n- D. He helps his sister.\n\n**2. (Factual)** What do Sami and his family eat for breakfast?\n\n- A. Bread, cheese and olives\n- B. Rice and chicken\n- C. Only tea\n- D. The passage does not say\n\n**3. (Negative factual)** According to the passage, Sami learns all of the following EXCEPT\n\n- A. how to use email\n- B. how to write documents\n- C. how to repair computers\n- D. how to keep his files safe\n\n**4. (Vocabulary in context)** The word **\"slow\"** in the passage is closest in meaning to\n\n- A. not working\n- B. not fast\n- C. very expensive\n- D. very new\n\n**5. (Reference)** In the sentence *\"The important thing is the person who uses **it**\"*, the word **\"it\"** refers to\n\n- A. the teacher\n- B. the class\n- C. the computer\n- D. the file\n\n**6. (Inference)** It can be inferred from the passage that\n\n- A. Sami does not like studying computers\n- B. the students stop learning when the electricity stops\n- C. the students continue learning even without computers\n- D. Sami has his own computer at home\n\n### Part C — Fill in the blanks\n\nUse these words. There are **two extra words** you will not need.\n\n> *charges · slow · tea · safe · tool · electricity · difficult · homework · centre*\n\n1. Sami goes to a computer \\_\\_\\_\\_\\_\\_\\_\\_ near his house.\n2. He learns how to keep his files \\_\\_\\_\\_\\_\\_\\_\\_.\n3. His teacher says a computer is only a \\_\\_\\_\\_\\_\\_\\_\\_.\n4. The internet in the class is often \\_\\_\\_\\_\\_\\_\\_\\_.\n5. Sometimes the \\_\\_\\_\\_\\_\\_\\_\\_ stops.\n6. In the evening, Sami helps his sister with her \\_\\_\\_\\_\\_\\_\\_\\_.\n7. Before he sleeps, he \\_\\_\\_\\_\\_\\_\\_\\_ his phone."
     },
     {
-      "number": "05",
+      "number": "06",
       "slug": "true-false",
       "title": "True / false",
       "minutes": 15,
@@ -974,7 +983,7 @@
       "markdown": "### Part B — True / False\n\nWrite **T** or **F**. If it is **False**, write the correct sentence.\n\n1. Sami wakes up at seven o'clock. \\_\\_\\_\\_\n2. Sami lives alone. \\_\\_\\_\\_\n3. The computer centre is near his house. \\_\\_\\_\\_\n4. The internet is always fast. \\_\\_\\_\\_\n5. The students use paper when the computers turn off. \\_\\_\\_\\_\n6. Sami charges his phone in the morning. \\_\\_\\_\\_"
     },
     {
-      "number": "06",
+      "number": "07",
       "slug": "speaking",
       "title": "Speaking",
       "minutes": 25,
@@ -1101,7 +1110,7 @@
       "markdown": "### 4.1 Speaking (record each answer on the phone, 30–45 seconds)\n\n1. Describe your morning. Use *wake up, breakfast, then, after that*.\n2. What do you use your phone for? Give two things.\n3. Is a computer important for your study? Why?\n\n**Useful sentence starters:**\n\n- *I wake up at \\_\\_\\_\\_ o'clock.*\n- *The first thing I do is \\_\\_\\_\\_.*\n- *After that, I \\_\\_\\_\\_.*\n- *I use my phone to \\_\\_\\_\\_.*\n- *I think a computer is important because \\_\\_\\_\\_.*"
     },
     {
-      "number": "07",
+      "number": "08",
       "slug": "writing",
       "title": "Writing — My Morning",
       "minutes": 30,
@@ -1110,7 +1119,7 @@
       "markdown": "### 4.2 Writing — \"My Morning\" (6–8 sentences)\n\n**Model answer (copy the shape, change the words):**\n\n> I wake up at seven o'clock. The first thing I do is drink water. Then I eat breakfast with my family. We eat bread and cheese. After breakfast, I study English for one hour. I use my phone to read messages. In the evening, I charge my phone.\n\n**Checklist before you send it:**\n\n- [ ] Every sentence starts with a capital letter.\n- [ ] Every sentence ends with a full stop (.)\n- [ ] I used *I wake up*, not *I wakes up*.\n- [ ] I used at least **4 new words** from Session 2.\n- [ ] My text has 6–8 sentences."
     },
     {
-      "number": "08",
+      "number": "09",
       "slug": "review",
       "title": "Review",
       "minutes": 30,
@@ -1226,17 +1235,17 @@
       "markdown": "### 5.1 Listen again (no text) and answer\n\n1. Name three things Sami does with his phone.\n2. Why do the students work on paper?\n\n### 5.2 Mini-quiz (10 marks)\n\n1. The opposite of *fast* is \\_\\_\\_\\_\\_\\_\\_\\_.\n2. The opposite of *safe* is \\_\\_\\_\\_\\_\\_\\_\\_.\n3. *To stop sleeping* = to \\_\\_\\_\\_ \\_\\_\\_\\_.\n4. *To put electricity in a battery* = to \\_\\_\\_\\_\\_\\_\\_\\_.\n5. A thing you use to do work = a \\_\\_\\_\\_\\_\\_\\_\\_.\n6. A file with writing in it = a \\_\\_\\_\\_\\_\\_\\_\\_.\n7. Write a sentence with **check**.\n8. Write a sentence with **practise**.\n9. Write a sentence with **electricity**.\n10. Say the passage title and one sentence about it, from memory.\n\n### 5.3 Lesson 1 self-report (send to the teacher)\n\n| Question | Answer |\n|---|---|\n| Minutes studied this week | |\n| Hardest part (listening / reading / vocabulary / speaking / writing) | |\n| New words I can now use without looking | |\n| One thing I want to repeat next week | |"
     },
     {
-      "number": "09",
+      "number": "10",
       "slug": "answer-key",
       "title": "Answer key and teacher notes",
       "minutes": 10,
       "sheet": true,
       "audio": false,
       "css_id": "answer-key",
-      "markdown": "**Listening:** L1 — twenty years old · L2 — computers · L3 — both (morning and evening)\n\n**Part A (MCQ):** 1-B · 2-A · 3-C · 4-B · 5-C · 6-C\n\n**Part B (True/False):**\n\n1. F — He wakes up at six o'clock.\n2. F — He lives with his family.\n3. T\n4. F — The internet is often slow.\n5. T\n6. F — He charges it before he sleeps / in the evening.\n\n**Part C (Fill in the blanks):** 1. centre · 2. safe · 3. tool · 4. slow · 5. electricity · 6. homework · 7. charges\n*(Extra words: tea, difficult)*\n\n**2.4 A (Opposites):** 1. slow · 2. small / little · 3. difficult / hard · 4. safe · 5. near / close to\n\n**2.4 B (Odd one out):** 1. document (the others are food/drink) · 2. olives (the others are technology) · 3. safe (the others describe speed)\n\n**Mini-quiz:** 1. slow · 2. dangerous · 3. wake up · 4. charge · 5. tool · 6. document · 7–10. teacher judgement\n\n### Teacher Notes {: #teacher-notes }\n\n**Why this order.** Listening before reading stops the student from \"reading with the ears\" — at A1 the habit of matching sound to text too early blocks real listening later. From Lesson 3 we can shorten the gap.\n\n**What Lesson 1 deliberately does NOT do.** No grammar rules, no past tense, no abstract vocabulary, no long sentences. The passage uses only present simple and about 120 distinct words, most of them in the first 500 most-frequent English words.\n\n**Success criteria for Lesson 1.** The student should be able to:\n\n- answer the three listening questions correctly on the second hearing;\n- read the passage aloud in under 2 minutes without stopping;\n- use 8 of the 12 key words in their own sentence;\n- write 6 correct simple sentences about their own morning.\n\n**If it is too easy:** move to Lesson 2 with a 250-word passage, add past simple, and add a 2-question summary task.\n**If it is too hard:** split the passage into two halves across two weeks and cut the vocabulary list to 8 words.\n\n**Toward B2.** The TOEFL question types in Part A (factual, negative factual, vocabulary in context, reference, inference) are the same five types the student will meet at B2 level. We keep the types constant for 8 months and raise only the text difficulty — so the exam format never becomes the obstacle."
+      "markdown": "**Listening:** L1 — twenty years old · L2 — computers · L3 — both (morning and evening)\n\n**Part A (MCQ):** 1-B · 2-A · 3-C · 4-B · 5-C · 6-C\n\n**Part B (True/False):**\n\n1. F — He wakes up at six o'clock.\n2. F — He lives with his family.\n3. T\n4. F — The internet is often slow.\n5. T\n6. F — He charges it before he sleeps / in the evening.\n\n**Part C (Fill in the blanks):** 1. centre · 2. safe · 3. tool · 4. slow · 5. electricity · 6. homework · 7. charges\n*(Extra words: tea, difficult)*\n\n**2.4 A (Opposites):** 1. slow · 2. small / little · 3. difficult / hard · 4. safe · 5. near / close to\n\n**2.4 B (Odd one out):** 1. document (the others are food/drink) · 2. olives (the others are technology) · 3. safe (the others describe speed)\n\n**3.5 A (Present simple):** 1. lives · 2. wakes up · 3. eat · 4. is · 5. practise · 6. helps\n**3.5 B (Negative):** 1. He does not use a computer at home. · 2. They do not drink coffee.\n**3.5 C (Question):** 1. Does he study computers? · 2. Do they eat breakfast together?\n\n**Mini-quiz:** 1. slow · 2. dangerous · 3. wake up · 4. charge · 5. tool · 6. document · 7–10. teacher judgement\n\n### Teacher Notes {: #teacher-notes }\n\n**Why this order.** Listening before reading stops the student from \"reading with the ears\" — at A1 the habit of matching sound to text too early blocks real listening later. From Lesson 3 we can shorten the gap.\n\n**What Lesson 1 deliberately does NOT do.** No past tense, no abstract vocabulary, no long sentences. The passage uses only present simple and about 120 distinct words, most of them in the first 500 most-frequent English words. The present simple in part 04 is shown as a pattern taken from the passage, not as a rule to memorise; it is the first turn of the grammar spiral, and Lesson 2 comes back to it.\n\n**Success criteria for Lesson 1.** The student should be able to:\n\n- answer the three listening questions correctly on the second hearing;\n- read the passage aloud in under 2 minutes without stopping;\n- use 8 of the 12 key words in their own sentence;\n- write 6 correct simple sentences about their own morning.\n\n**If it is too easy:** move to Lesson 2 with a 250-word passage, add past simple, and add a 2-question summary task.\n**If it is too hard:** split the passage into two halves across two weeks and cut the vocabulary list to 8 words.\n\n**Toward B2.** The TOEFL question types in Part A (factual, negative factual, vocabulary in context, reference, inference) are the same five types the student will meet at B2 level. We keep the types constant for 8 months and raise only the text difficulty — so the exam format never becomes the obstacle."
     },
     {
-      "number": "10",
+      "number": "11",
       "slug": "passage-slow",
       "title": "Passage, extra slow",
       "minutes": 10,

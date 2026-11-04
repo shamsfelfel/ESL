@@ -2,7 +2,7 @@
 
 **Level:** A2+ (fourth step)
 **Topic:** Web design, online learning and a small shop
-**Time:** 6 sessions, 45–55 minutes each — about 290 minutes of work in all
+**Time:** 6 sessions, 45–55 minutes each — about 300 minutes of work in all
 **Skills:** Listening → Reading → Vocabulary → Grammar → Comprehension → Speaking → Writing
 **New in this lesson:** the present perfect with for, since, never, already and yet, the short forms of have and has, a longer passage of 400 words, and one new question type: the purpose of the whole passage
 
@@ -13,7 +13,7 @@
 | 01 | Passage — One Small Thing, Many Times | [PDF](01-passage.pdf) | [MP3](01-passage.mp3) | 20 |
 | 02 | Listening questions | [PDF](02-listening-questions.pdf) | [MP3](02-listening-questions.mp3) | 10 |
 | 03 | Vocabulary and Lesson 2 recall | [PDF](03-vocabulary.pdf) | [MP3](03-vocabulary.mp3) | 35 |
-| 04 | Grammar — the present perfect | [PDF](04-grammar-present-perfect.pdf) | — | 40 |
+| 04 | Grammar — the present perfect | [PDF](04-grammar-present-perfect.pdf) | — | 50 |
 | 05 | The short forms of have and has | [PDF](05-have-has-forms.pdf) | [MP3](05-have-has-forms.mp3) | 20 |
 | 06 | Comprehension — TOEFL question types | [PDF](06-comprehension.pdf) | [MP3](06-comprehension.mp3) | 40 |
 | 07 | True / false | [PDF](07-true-false.pdf) | [MP3](07-true-false.mp3) | 15 |
@@ -28,7 +28,7 @@ that is what downloading all of it costs.
 
 ## The whole lesson in one file
 
-- [00-lesson.pdf](00-lesson.pdf) — every part sheet in one printable document, answer key last, 80 KB. **The large option.**
+- [00-lesson.pdf](00-lesson.pdf) — every part sheet in one printable document, answer key last, 17 pages, 82 KB. **The large option.**
 - [00-full-section.mp3](00-full-section.mp3) — the question tracks end to end, like a real exam section, 16 minutes, 5.7 MB. **The large option.**
 
 ## After the lesson: two word games
