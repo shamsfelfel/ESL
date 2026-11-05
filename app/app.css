@@ -88,6 +88,26 @@ main {
 }
 .foot p { margin: 0 0 4px; }
 
+/* The author's byline. 32px from a 200x200 source, so it is never upscaled. */
+.byline {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+  margin: 0 0 10px;
+  color: var(--ink);
+  font-weight: 600;
+  font-size: 14px;
+}
+.byline-face {
+  flex: none;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 1px solid var(--rule);
+}
+.byline-sep { color: var(--muted); font-weight: 400; }
+
 h1 { font-size: 22px; line-height: 1.2; margin: 0 0 6px; letter-spacing: -0.015em; }
 h2 { font-size: 16px; margin: 26px 0 10px; color: var(--accent); }
 p  { margin: 0 0 10px; }
