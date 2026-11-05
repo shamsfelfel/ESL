@@ -187,8 +187,15 @@
 
     var games = "";
     if (c.games && c.games.length) {
-      games = "<h2>After the lesson: two word games</h2>" +
-        '<p class="dim">Both are built from this lesson\'s own words, so nothing ' +
+      // a lesson may carry two games or five, so the heading counts them
+      var n = c.games.length;
+      var spelled = ["no", "one", "two", "three", "four", "five", "six",
+        "seven", "eight", "nine"][n] || String(n);
+      games = "<h2>After the lesson: " + spelled + " word game" +
+        (n === 1 ? "" : "s") + "</h2>" +
+        '<p class="dim">' +
+        (n === 1 ? "It is" : n === 2 ? "Both are" : "Every one is") +
+        " built from this lesson's own words, so nothing " +
         "in them is new. They work with no connection once saved.</p>" +
         c.games.map(function (g, i) {
           return '<div class="part"><div class="part-head">' +

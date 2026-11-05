@@ -65,6 +65,15 @@ BYTES_PER_SECOND = 6000.0          # 48 kbps constant bit rate
 
 BASE_WPM = 150.0                   # speech rate used for the estimates
 
+# The games a lesson may ask for. Each one is built from the lesson's own
+# vocabulary block and nothing else.
+GAME_STYLES = ("crossword", "word-search", "memory", "criss-cross", "cryptogram")
+
+# The memory game's icons setting pairs a word with a drawing instead of a
+# meaning, so it needs enough drawn words to be a game at all.
+MEMORY_MIN_ICONS = 6
+MEMORY_PAIRS = 10                  # pairs dealt per round, unless the game says
+
 
 # ---------------------------------------------------------------------------
 # Where the repository root is
@@ -205,6 +214,12 @@ def fmt_size(nbytes: float) -> str:
     return f"{nbytes / 1024:.0f} KB" if nbytes < 1024 * 1024 else f"{nbytes / 1048576:.1f} MB"
 
 
+def _esc(text: str) -> str:
+    """Lesson text on its way into a game page, which is HTML and then JSON."""
+    return (text.replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;")
+                .replace('"', "&quot;"))
+
+
 # ---------------------------------------------------------------------------
 # The lesson file
 # ---------------------------------------------------------------------------
@@ -272,16 +287,40 @@ def validate(lesson: dict) -> None:
             problems.append(f"vocabulary {word!r}: answer must be 3+ letters, A-Z")
         if not entry.get("meaning", "").strip():
             problems.append(f"vocabulary {word!r}: no meaning to use as a clue")
+    # an icon is named, never drawn, in a lesson file: the drawing lives in
+    # icons.json at the repository root and is shared by every lesson
+    known_icons = available_icons()
+    for entry in lesson.get("vocabulary", []) + lesson.get("recall", []):
+        name = entry.get("icon")
+        if name and name not in known_icons:
+            problems.append(
+                f"vocabulary {entry.get('word', '?')!r}: no icon named {name!r} in "
+                f"icons.json. It has: {', '.join(sorted(known_icons)) or 'nothing'}")
+
     for game in lesson.get("games", []):
         where = f"game {game.get('number')} ({game.get('slug', '?')})"
-        if game.get("style") not in ("crossword", "word-search"):
-            problems.append(f"{where}: unknown style {game.get('style')!r}")
+        if game.get("style") not in GAME_STYLES:
+            problems.append(f"{where}: unknown style {game.get('style')!r}. "
+                            f"Known styles: {', '.join(GAME_STYLES)}")
         if not re.fullmatch(r"\d{2}", str(game.get("number", ""))):
             problems.append(f"{where}: number must be two digits")
         if game.get("number") in seen:
             problems.append(f"{where}: number collides with a part")
         if not lesson.get("vocabulary"):
             problems.append(f"{where}: needs a vocabulary block to build from")
+        # the two games that need more than a word and a meaning say so here,
+        # rather than building something empty and leaving her to find out
+        if game.get("style") == "criss-cross" and not any(
+                v.get("arabic") for v in lesson.get("vocabulary", [])):
+            problems.append(f"{where}: clued by the Arabic gloss, but no key word "
+                            "has an arabic field")
+        if game.get("style") == "memory":
+            iconed = sum(1 for v in lesson.get("vocabulary", [])
+                         + lesson.get("recall", []) if v.get("icon"))
+            if iconed < MEMORY_MIN_ICONS:
+                problems.append(
+                    f"{where}: its icons setting needs at least {MEMORY_MIN_ICONS} "
+                    f"words with an \"icon\", and this lesson has {iconed}")
     for num in (lesson.get("full_section") or {}).get("parts", []):
         if num not in seen:
             problems.append(f"full_section lists part {num}, which does not exist")
@@ -517,11 +556,65 @@ async def build_audio(lesson: dict, wanted: list[dict], whole: bool,
 # ---------------------------------------------------------------------------
 # Word games
 #
-# Two styles, built from the lesson's own vocabulary block, so a game can never
+# Five styles, built from the lesson's own vocabulary block, so a game can never
 # drill a word the lesson does not teach. Each game is one self-contained HTML
 # file with its CSS and JavaScript inline and no libraries at all: it opens from
 # the app, from the folder, or from a phone with no connection.
+#
+#   crossword     clued by the English meaning   meaning -> word, the hard way
+#   word-search   the same words, Arabic beside  recognition and spelling
+#   memory        flip-card pairs, three modes   word <-> drawing or meaning
+#   criss-cross   clued by the Arabic gloss      Arabic -> word, with a word bank
+#   cryptogram    one substitution over them all spelling, and deduction
+#
+# The drawings the memory game uses are named here and drawn in icons.json at
+# the repository root, shared by every lesson, so this script still holds no
+# lesson content of any kind.
 # ---------------------------------------------------------------------------
+
+_ICONS: dict | None = None
+
+
+def load_icons() -> dict:
+    """icons.json from the repository root: name -> hand-drawn SVG markup.
+
+    Missing or broken, the memory game simply has no drawings and falls back to
+    meanings; it is the lesson file naming an icon that is not there that is an
+    error, and validate() catches that one.
+    """
+    global _ICONS
+    if _ICONS is None:
+        path = repo_root() / "icons.json"
+        try:
+            data = json.loads(path.read_text(encoding="utf-8"))
+        except (OSError, json.JSONDecodeError):
+            data = {}
+        _ICONS = {
+            "viewBox": data.get("viewBox", "0 0 24 24"),
+            "attrs": data.get("attrs", {}),
+            "icons": data.get("icons", {}),
+        }
+    return _ICONS
+
+
+def available_icons() -> dict:
+    return load_icons()["icons"]
+
+
+def icon_svg(name: str) -> str:
+    """One icon as inline SVG, or "" if the lesson named none.
+
+    Single colour on purpose: it inherits currentColor, so one drawing serves
+    both the light and the dark page, and nothing is fetched.
+    """
+    spec = load_icons()
+    markup = spec["icons"].get(name)
+    if not markup:
+        return ""
+    attrs = " ".join(f'{k}="{v}"' for k, v in spec["attrs"].items())
+    return (f'<svg class="ic" viewBox="{spec["viewBox"]}" {attrs} '
+            f'aria-hidden="true">{markup}</svg>')
+
 
 def game_words(lesson: dict) -> list[dict]:
     """Every word a game may use: the key words, then the recalled ones.
@@ -533,10 +626,12 @@ def game_words(lesson: dict) -> list[dict]:
     out = []
     for v in lesson.get("vocabulary", []):
         out.append({"answer": v["answer"], "word": v["word"],
-                    "clue": v["meaning"], "arabic": v.get("arabic", "")})
+                    "clue": v["meaning"], "arabic": v.get("arabic", ""),
+                    "type": v.get("type", ""), "icon": v.get("icon", "")})
     for r in lesson.get("recall", []):
         out.append({"answer": r["answer"], "word": r["word"],
-                    "clue": r["meaning"], "arabic": ""})
+                    "clue": r["meaning"], "arabic": "",
+                    "type": r.get("type", ""), "icon": r.get("icon", "")})
     seen, unique = set(), []
     for w in out:
         # a grid needs letters, and three is the shortest that can cross anything
@@ -599,19 +694,20 @@ def _lay_one(order: list[dict]):
     return grid, placed, skipped
 
 
-def layout_crossword(words: list[dict]):
+def layout_crossword(words: list[dict], seed: str = "crossword"):
     """Try many orderings and keep the best grid.
 
     One greedy pass leaves a word or two unplaceable, and a vocabulary game
     that silently drops words is worse than useless. So the pass is repeated
     with different orderings, each anchored on a long word, and the attempt
     that places the most words wins; a tie goes to the tighter grid. The
-    orderings are seeded, so a rebuild produces the identical puzzle.
+    orderings are seeded, so a rebuild produces the identical puzzle — and two
+    grids in one lesson get different seeds, so they are different puzzles.
     """
     import random
     base = sorted(words, key=lambda w: (-len(w["answer"]), w["answer"]))
     orders = [base]
-    rng = random.Random("crossword:" + "".join(w["answer"] for w in base))
+    rng = random.Random(seed + ":" + "".join(w["answer"] for w in base))
     for _ in range(150):
         order = base[:]
         rng.shuffle(order)
@@ -754,6 +850,57 @@ user-select:none;-webkit-user-select:none;border-radius:4px}
 .foot{margin-top:26px;border-top:1px solid var(--rule);padding-top:10px;
 font-size:13px;color:var(--muted)}
 .foot a{color:var(--accent)}
+/* memory pairs */
+.modes{display:inline-flex;border:1px solid var(--accent);border-radius:99px;overflow:hidden}
+.modes button{border:0;border-radius:0;padding:7px 15px}
+.modes button+button{border-left:1px solid var(--accent)}
+.modes button.on{background:var(--accent);color:#fff}
+.stat{font-size:14px;color:var(--muted);margin:12px 0 0}
+.stat b{color:var(--ink)}
+.mem{display:grid;grid-template-columns:repeat(4,1fr);gap:7px;margin-top:14px}
+@media(min-width:560px){.mem{grid-template-columns:repeat(5,1fr);gap:10px}}
+.card{position:relative;aspect-ratio:1;border:0;padding:0;background:none;cursor:pointer;
+min-height:0;perspective:700px}
+.card .in{position:absolute;inset:0;transition:transform .32s;transform-style:preserve-3d}
+.card.up .in{transform:rotateY(180deg)}
+.card .face{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;
+flex-direction:column;gap:3px;text-align:center;padding:5px;border:1px solid var(--rule);
+border-radius:9px;overflow:hidden;backface-visibility:hidden;-webkit-backface-visibility:hidden}
+.card .back{background:var(--wash);color:var(--accent);font:700 19px/1 inherit}
+.card .front{background:var(--bg);color:var(--ink);transform:rotateY(180deg);
+font-size:clamp(9.5px,2.5vw,12.5px);line-height:1.25;overflow-wrap:anywhere}
+.card .front .w{font-weight:700;font-size:clamp(12px,3.2vw,16px);color:var(--accent)}
+.card.done .face{border-color:var(--ok)}
+.card.done .front{color:var(--ok)}
+.card.done .front .w{color:var(--ok)}
+.card.done .ic{color:var(--ok)}
+.card.done{cursor:default}
+.ic{width:48%;height:auto;max-height:54%;color:var(--accent)}
+/* criss-cross */
+.arclue{direction:rtl;unicode-bidi:isolate;font-size:15.5px}
+.bank{display:flex;flex-wrap:wrap;gap:6px 9px;margin-top:10px}
+.bank span{border:1px solid var(--rule);border-radius:99px;padding:3px 11px;font-size:14px}
+.bank span.found{color:var(--muted);text-decoration:line-through;border-style:dashed}
+/* cryptogram */
+.cg{display:flex;flex-wrap:wrap;gap:15px 22px;margin-top:4px}
+.cw{display:flex;flex-direction:column;gap:5px}
+.cw .cl{font-size:13px;color:var(--muted);max-width:22rem}
+.cw.done .cl{color:var(--ok)}
+.cw .row{display:flex;gap:3px}
+.bx{width:var(--sq);display:flex;flex-direction:column;align-items:center;gap:2px}
+.bx input{width:100%;height:var(--sq);border:1px solid var(--rule);
+border-bottom:2px solid var(--accent);border-radius:4px 4px 0 0;background:var(--wash);
+text-align:center;color:var(--ink);font:600 calc(var(--sq)*0.5)/1 inherit;
+text-transform:uppercase;padding:0}
+.bx input:focus{outline:2px solid var(--accent);outline-offset:-2px}
+.bx.given input{background:transparent;border-bottom-color:var(--rule);color:var(--muted)}
+.bx.right input{color:var(--ok)}
+.bx.wrong input{color:var(--bad)}
+.bx .cph{font-size:calc(var(--sq)*0.36);color:var(--muted)}
+.keytab{display:flex;flex-wrap:wrap;gap:4px;margin-top:6px}
+.keytab span{border:1px solid var(--rule);border-radius:5px;padding:2px 7px;
+font-size:12.5px;color:var(--muted)}
+.keytab span b{color:var(--accent)}
 """
 
 
@@ -782,14 +929,12 @@ def _game_page(title: str, lesson: dict, subtitle: str, body: str, script: str,
 """
 
 
-def build_crossword(lesson: dict, out: Path) -> dict:
-    cells, placed, skipped = layout_crossword(game_words(lesson))
-    height, width = len(cells), len(cells[0])
-
+def _grid_rows(cells, placed) -> list[str]:
+    """The letter grid as table rows: one input per letter, blanks left blank."""
     rows = []
-    for r in range(height):
+    for r in range(len(cells)):
         tds = []
-        for c in range(width):
+        for c in range(len(cells[0])):
             ch = cells[r][c]
             if ch is None:
                 tds.append('<td><div class="cell block"></div></td>')
@@ -802,39 +947,10 @@ def build_crossword(lesson: dict, out: Path) -> dict:
                 f'<input maxlength="1" inputmode="latin" autocomplete="off" '
                 f'aria-label="row {r + 1} column {c + 1}"></div></td>')
         rows.append("<tr>" + "".join(tds) + "</tr>")
+    return rows
 
-    def clue_list(direction):
-        items = []
-        for p in placed:
-            if p["dir"] != direction:
-                continue
-            arabic = f' <span class="ar">{p["arabic"]}</span>' if p["arabic"] else ""
-            # "wake up" and "memory card" go in as one run of letters
-            joined = (" <i>(two words, written as one)</i>"
-                      if " " in p["word"].split("/")[0].strip() else "")
-            items.append(f'<li data-num="{p["num"]}" data-dir="{direction}">'
-                         f'<b>{p["num"]}</b><span>{p["clue"]}{joined}{arabic}'
-                         f' <span class="ar">({len(p["answer"])})</span></span></li>')
-        return "\n".join(items)
 
-    body = f"""<div class="msg" id="msg"></div>
-<table class="grid"><tbody>
-{chr(10).join(rows)}
-</tbody></table>
-<div class="bar">
-  <button class="primary" id="check">Check</button>
-  <button id="reveal">Show a letter</button>
-  <button id="clear">Clear</button>
-</div>
-<div class="clues">
-  <div><h2>Across</h2><ol class="clue" id="across">{clue_list("across")}</ol></div>
-  <div><h2>Down</h2><ol class="clue" id="down">{clue_list("down")}</ol></div>
-</div>"""
-
-    solution = {f"{r},{c}": cells[r][c]
-                for r in range(height) for c in range(width) if cells[r][c]}
-
-    script = """
+_CROSSWORD_JS = """
 const SOL = __SOL__, ENTRIES = __ENT__;
 const cells = {};
 document.querySelectorAll('.cell[data-r]').forEach(d => {
@@ -844,7 +960,7 @@ document.querySelectorAll('.cell[data-r]').forEach(d => {
     i.value = i.value.toUpperCase().replace(/[^A-Z]/g, '');
     d.classList.remove('right', 'wrong');
     if (i.value) move(+d.dataset.r, +d.dataset.c, 1);
-    save();
+    save(); markDone();
   });
   i.addEventListener('keydown', e => {
     const r = +d.dataset.r, c = +d.dataset.c;
@@ -872,7 +988,7 @@ function save() {
   for (const k in cells) { const t = cells[k].querySelector('input').value; if (t) v[k] = t; }
   try { localStorage.setItem(KEY, JSON.stringify(v)); } catch (e) {}
 }
-const KEY = 'crossword:' + location.pathname;
+const KEY = '__KEY__:' + location.pathname;
 try {
   const v = JSON.parse(localStorage.getItem(KEY) || '{}');
   for (const k in v) if (cells[k]) cells[k].querySelector('input').value = v[k];
@@ -906,7 +1022,8 @@ document.getElementById('clear').onclick = () => {
     cells[k].classList.remove('right', 'wrong');
   }
   document.querySelectorAll('li.done').forEach(li => li.classList.remove('done'));
-  save(); msg.textContent = '';
+  document.querySelectorAll('.bank span.found').forEach(s => s.classList.remove('found'));
+  save(); msg.textContent = ''; msg.className = 'msg';
 };
 function markDone() {
   ENTRIES.forEach(e => {
@@ -917,22 +1034,71 @@ function markDone() {
     }
     const li = document.querySelector('li[data-num="' + e.num + '"][data-dir="' + e.dir + '"]');
     if (li) li.classList.toggle('done', got === e.word);
+    const chip = document.querySelector('.bank span[data-word="' + e.word + '"]');
+    if (chip) chip.classList.toggle('found', got === e.word);
   });
 }
 markDone();
 """
+
+
+def _crossword_script(cells, placed, key: str) -> str:
+    """The shared grid script: typing, arrow keys, check, reveal, saved progress."""
+    solution = {f"{r},{c}": cells[r][c]
+                for r in range(len(cells)) for c in range(len(cells[0]))
+                if cells[r][c]}
     entries = [{"word": p["answer"], "r": p["r"], "c": p["c"],
                 "dir": p["dir"], "num": p["num"]} for p in placed]
-    script = (script.replace("__SOL__", json.dumps(solution))
-                    .replace("__ENT__", json.dumps(entries)))
+    return (_CROSSWORD_JS.replace("__SOL__", json.dumps(solution))
+                         .replace("__ENT__", json.dumps(entries))
+                         .replace("__KEY__", key))
 
-    square = "min(8.6vw, 34px)" if width <= 11 else f"min({88 / width:.1f}vw, 32px)"
+
+def _grid_square(width: int) -> str:
+    return "min(8.6vw, 34px)" if width <= 11 else f"min({88 / width:.1f}vw, 32px)"
+
+
+def build_crossword(lesson: dict, out: Path) -> dict:
+    cells, placed, skipped = layout_crossword(game_words(lesson))
+    height, width = len(cells), len(cells[0])
+    rows = _grid_rows(cells, placed)
+
+    def clue_list(direction):
+        items = []
+        for p in placed:
+            if p["dir"] != direction:
+                continue
+            arabic = f' <span class="ar">{p["arabic"]}</span>' if p["arabic"] else ""
+            # "wake up" and "memory card" go in as one run of letters
+            joined = (" <i>(two words, written as one)</i>"
+                      if " " in p["word"].split("/")[0].strip() else "")
+            items.append(f'<li data-num="{p["num"]}" data-dir="{direction}">'
+                         f'<b>{p["num"]}</b><span>{p["clue"]}{joined}{arabic}'
+                         f' <span class="ar">({len(p["answer"])})</span></span></li>')
+        return "\n".join(items)
+
+    body = f"""<div class="msg" id="msg"></div>
+<table class="grid"><tbody>
+{chr(10).join(rows)}
+</tbody></table>
+<div class="bar">
+  <button class="primary" id="check">Check</button>
+  <button id="reveal">Show a letter</button>
+  <button id="clear">Clear</button>
+</div>
+<div class="clues">
+  <div><h2>Across</h2><ol class="clue" id="across">{clue_list("across")}</ol></div>
+  <div><h2>Down</h2><ol class="clue" id="down">{clue_list("down")}</ol></div>
+</div>"""
+
+    script = _crossword_script(cells, placed, "crossword")
+
     out.write_text(_game_page(
         "Crossword", lesson,
         f"{len(placed)} words from this lesson. Read the meaning, write the word.",
-        body, script, square), encoding="utf-8")
+        body, script, _grid_square(width)), encoding="utf-8")
     return {"words": len(placed), "skipped": [s["word"] for s in skipped],
-            "size": f"{width}x{height}"}
+            "note": f"grid {width}x{height}"}
 
 
 def build_word_search(lesson: dict, out: Path) -> dict:
@@ -1044,7 +1210,386 @@ paint();
         "Word search", lesson,
         f"{len(placed)} words from this lesson. Find them all.",
         body, script, f"min({86 / size:.1f}vw, 30px)"), encoding="utf-8")
-    return {"words": len(placed), "size": f"{size}x{size}"}
+    return {"words": len(placed), "note": f"grid {size}x{size}"}
+
+
+def build_memory(lesson: dict, out: Path, game: dict) -> dict:
+    """Flip-card pairs: a word against a drawing of it, or against its meaning.
+
+    Three settings, because abstract words do not draw well. **Icons** pairs a
+    word with its drawing, and so deals only from the words that have one —
+    fewer pairs, and the fastest round. **Meanings** pairs every word with its
+    short English meaning. **Mixed** takes the drawing where there is one and
+    the meaning where there is not, which is the whole list.
+    """
+    pool = [{"w": _esc(w["word"]), "m": _esc(w["clue"]), "i": icon_svg(w["icon"])}
+            for w in game_words(lesson)]
+    drawn = sum(1 for p in pool if p["i"])
+    pairs = int(game.get("pairs", MEMORY_PAIRS))
+
+    body = """<div class="bar">
+  <div class="modes" id="modes">
+    <button data-mode="icons" type="button">Icons</button>
+    <button data-mode="meanings" type="button">Meanings</button>
+    <button data-mode="mixed" class="on" type="button">Mixed</button>
+  </div>
+  <button id="again" type="button">New game</button>
+</div>
+<div class="msg" id="msg"></div>
+<div class="mem" id="board"></div>
+<p class="stat" id="stat"></p>
+<p class="sub" style="margin-top:14px">Turn over two cards. A word and its
+drawing, or a word and its meaning, stay face up. Everything else turns back.</p>"""
+
+    script = """
+const POOL = __POOL__, PAIRS = __PAIRS__;
+const board = document.getElementById('board');
+const msg = document.getElementById('msg');
+const stat = document.getElementById('stat');
+const BKEY = 'memory-best:' + location.pathname;
+let best = {};
+try { best = JSON.parse(sessionStorage.getItem(BKEY) || '{}'); } catch (e) {}
+let mode = 'mixed', moves = 0, done = 0, total = 0, open = [], busy = false;
+
+function shuffle(a) {
+  for (let i = a.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    const t = a[i]; a[i] = a[j]; a[j] = t;
+  }
+  return a;
+}
+function partner(item) {
+  const meaning = '<span>' + item.m + '</span>';
+  if (mode === 'icons') return item.i;
+  if (mode === 'meanings') return meaning;
+  return item.i || meaning;
+}
+function show(extra) {
+  const b = best[mode];
+  stat.innerHTML = 'Moves: <b>' + moves + '</b> &nbsp;\\u00b7&nbsp; Pairs found: <b>' +
+    done + ' of ' + total + '</b> &nbsp;\\u00b7&nbsp; Best this session: <b>' +
+    (b ? b + ' moves' : '\\u2014') + '</b>';
+  if (extra !== undefined) { msg.className = 'msg good'; msg.textContent = extra; }
+}
+function deal() {
+  const usable = POOL.filter(p => mode !== 'icons' || p.i);
+  const chosen = shuffle(usable.slice()).slice(0, Math.min(PAIRS, usable.length));
+  total = chosen.length; done = 0; moves = 0; open = []; busy = false;
+  const cards = [];
+  chosen.forEach(function (item, n) {
+    cards.push({ pair: n, html: '<span class="w">' + item.w + '</span>' });
+    cards.push({ pair: n, html: partner(item) });
+  });
+  shuffle(cards);
+  board.innerHTML = cards.map(function (c) {
+    return '<button type="button" class="card" data-pair="' + c.pair +
+      '" aria-label="Turn over a card"><span class="in">' +
+      '<span class="face back" aria-hidden="true">?</span>' +
+      '<span class="face front">' + c.html + '</span></span></button>';
+  }).join('');
+  board.querySelectorAll('.card').forEach(function (b) {
+    b.addEventListener('click', function () { flip(b); });
+  });
+  msg.className = 'msg'; msg.textContent = '';
+  if (total < 2) {
+    msg.className = 'msg bad';
+    msg.textContent = 'This lesson has too few drawn words for that setting.';
+  }
+  show();
+}
+function flip(b) {
+  if (busy || b.classList.contains('done') || b.classList.contains('up')) return;
+  b.classList.add('up');
+  open.push(b);
+  if (open.length < 2) { return; }
+  moves++;
+  const x = open[0], y = open[1];
+  if (x.dataset.pair === y.dataset.pair) {
+    x.classList.add('done'); y.classList.add('done');
+    open = []; done++;
+    if (done === total) {
+      const b0 = best[mode];
+      const record = !b0 || moves < b0;
+      if (record) {
+        best[mode] = moves;
+        try { sessionStorage.setItem(BKEY, JSON.stringify(best)); } catch (e) {}
+      }
+      show('All ' + total + ' pairs in ' + moves + ' moves.' +
+           (record ? ' That is your best so far.' : ''));
+      return;
+    }
+  } else {
+    busy = true;
+    setTimeout(function () {
+      x.classList.remove('up'); y.classList.remove('up');
+      open = []; busy = false;
+    }, 900);
+  }
+  show();
+}
+document.querySelectorAll('#modes button').forEach(function (b) {
+  b.addEventListener('click', function () {
+    document.querySelectorAll('#modes button').forEach(function (o) {
+      o.classList.toggle('on', o === b);
+    });
+    mode = b.dataset.mode;
+    deal();
+  });
+});
+document.getElementById('again').onclick = deal;
+deal();
+"""
+    script = (script.replace("__POOL__", json.dumps(pool))
+                    .replace("__PAIRS__", str(pairs)))
+
+    dealt = min(pairs, len(pool))
+    out.write_text(_game_page(
+        "Memory pairs", lesson,
+        f"{dealt} pairs a round, drawn from this lesson's {len(pool)} words. "
+        f"{drawn} of them have a picture.",
+        body, script, "min(8.6vw, 34px)"), encoding="utf-8")
+    return {"words": len(pool),
+            "note": f"{dealt} pairs a round, {drawn} drawn"}
+
+
+def build_criss_cross(lesson: dict, out: Path) -> dict:
+    """The second crossword: the same grid engine, clued the other way round.
+
+    The crossword asks her to go from an English meaning to the English word,
+    which is the hard direction. This one gives the Arabic and a bank of the
+    words, which is the gentler direction and a different day's puzzle. Only
+    the key words carry an Arabic gloss, so the word set differs too, and with
+    its own seed the grid comes out different as well.
+    """
+    words = [w for w in game_words(lesson) if w["arabic"]]
+    cells, placed, skipped = layout_crossword(words, seed="criss-cross")
+    height, width = len(cells), len(cells[0])
+    rows = _grid_rows(cells, placed)
+
+    def clue_list(direction):
+        items = []
+        for p in placed:
+            if p["dir"] != direction:
+                continue
+            joined = (" <i>(two words, written as one)</i>"
+                      if " " in p["word"].split("/")[0].strip() else "")
+            kind = f'{p["type"]}, ' if p["type"] else ""
+            items.append(f'<li data-num="{p["num"]}" data-dir="{direction}">'
+                         f'<b>{p["num"]}</b><span>'
+                         f'<span class="arclue" dir="rtl">{_esc(p["arabic"])}</span>'
+                         f'{joined} <span class="ar">({kind}{len(p["answer"])})</span>'
+                         f"</span></li>")
+        return "\n".join(items)
+
+    bank = "\n".join(
+        f'<span data-word="{p["answer"]}">{_esc(p["word"])}</span>'
+        for p in sorted(placed, key=lambda p: p["answer"]))
+
+    body = f"""<div class="msg" id="msg"></div>
+<table class="grid"><tbody>
+{chr(10).join(rows)}
+</tbody></table>
+<div class="bar">
+  <button class="primary" id="check" type="button">Check</button>
+  <button id="reveal" type="button">Show a letter</button>
+  <button id="clear" type="button">Clear</button>
+</div>
+<div class="clues">
+  <div><h2>Across</h2><ol class="clue" id="across">{clue_list("across")}</ol></div>
+  <div><h2>Down</h2><ol class="clue" id="down">{clue_list("down")}</ol></div>
+</div>
+<p class="sub" style="margin-top:18px">All {len(placed)} words, in no order. Each
+one goes in once.</p>
+<div class="bank">{bank}</div>"""
+
+    script = _crossword_script(cells, placed, "crisscross")
+
+    out.write_text(_game_page(
+        "Criss-cross", lesson,
+        f"{len(placed)} key words. Read the Arabic, write the English.",
+        body, script, _grid_square(width)), encoding="utf-8")
+    return {"words": len(placed), "skipped": [s["word"] for s in skipped],
+            "note": f"grid {width}x{height}, Arabic clues"}
+
+
+def _substitution(seed: str) -> dict:
+    """One letter for another, the same everywhere, and no letter left alone.
+
+    A cryptogram in which some letter stands for itself gives a free answer
+    away and reads as a mistake, so the permutation is re-drawn until nothing
+    is a fixed point. Seeded, so the puzzle is the same every rebuild.
+    """
+    import random
+    plain = [chr(ord("A") + i) for i in range(26)]
+    rng = random.Random("cryptogram:" + seed)
+    for _attempt in range(400):
+        shuffled = plain[:]
+        rng.shuffle(shuffled)
+        if all(a != b for a, b in zip(plain, shuffled)):
+            return dict(zip(plain, shuffled))
+    return dict(zip(plain, plain[1:] + plain[:1]))      # never reached in practice
+
+
+def build_cryptogram(lesson: dict, out: Path, game: dict) -> dict:
+    """One substitution cipher across all of the lesson's key words.
+
+    Every A is the same letter in every word, so the words help each other:
+    crack one and letters fall out of the rest. The English meaning is given,
+    which makes it a spelling drill with a deduction on top rather than a
+    guessing game, and the consistency is what checks her — a wrong letter
+    shows up in another word as nonsense.
+    """
+    keys = {v["answer"] for v in lesson.get("vocabulary", [])}
+    words = [w for w in game_words(lesson) if w["answer"] in keys]
+    cipher = _substitution(lesson["slug"])
+
+    counts: dict[str, int] = {}
+    for w in words:
+        for ch in w["answer"]:
+            counts[cipher[ch]] = counts.get(cipher[ch], 0) + 1
+    free = int(game.get("given", 3))
+    # the commonest letters are the ones that unlock the most elsewhere
+    given = sorted(sorted(counts, key=lambda c: (-counts[c], c))[:free])
+
+    blocks = []
+    for w in words:
+        boxes = "".join(
+            f'<span class="bx" data-c="{cipher[ch]}">'
+            f'<input maxlength="1" inputmode="latin" autocomplete="off" '
+            f'aria-label="letter {cipher[ch]}">'
+            f'<span class="cph">{cipher[ch]}</span></span>'
+            for ch in w["answer"])
+        note = (" (two words, written as one)"
+                if " " in w["word"].split("/")[0].strip() else "")
+        blocks.append(f'<div class="cw" data-word="{w["answer"]}">'
+                      f'<div class="cl">{_esc(w["clue"])}{note}</div>'
+                      f'<div class="row">{boxes}</div></div>')
+
+    letters = "".join(f'<span data-c="{c}">{c} &rarr; <b>?</b></span>'
+                      for c in sorted(counts))
+
+    body = f"""<div class="msg" id="msg"></div>
+<div class="cg">
+{chr(10).join(blocks)}
+</div>
+<div class="bar">
+  <button class="primary" id="check" type="button">Check</button>
+  <button id="reveal" type="button">Show a letter</button>
+  <button id="clear" type="button">Clear</button>
+</div>
+<p class="sub" style="margin-top:4px">Your letters so far. {len(given)} are
+given to start you off.</p>
+<div class="keytab" id="keytab">{letters}</div>"""
+
+    script = """
+const MAP = __MAP__, GIVEN = __GIVEN__;
+const KEY = 'cryptogram:' + location.pathname;
+const msg = document.getElementById('msg');
+const boxes = Array.prototype.slice.call(document.querySelectorAll('.bx'));
+let guess = {};
+
+function load() {
+  guess = {};
+  try { guess = JSON.parse(localStorage.getItem(KEY) || '{}'); } catch (e) {}
+  GIVEN.forEach(function (c) { guess[c] = MAP[c]; });
+}
+function save() {
+  try { localStorage.setItem(KEY, JSON.stringify(guess)); } catch (e) {}
+}
+function paint() {
+  boxes.forEach(function (b) {
+    const c = b.dataset.c;
+    b.querySelector('input').value = guess[c] || '';
+    b.classList.toggle('given', GIVEN.indexOf(c) >= 0);
+  });
+  document.querySelectorAll('#keytab span').forEach(function (s) {
+    s.querySelector('b').textContent = guess[s.dataset.c] || '?';
+  });
+  document.querySelectorAll('.cw').forEach(function (w) {
+    let got = '';
+    w.querySelectorAll('.bx').forEach(function (b) { got += guess[b.dataset.c] || ' '; });
+    w.classList.toggle('done', got === w.dataset.word);
+  });
+}
+boxes.forEach(function (b, n) {
+  const input = b.querySelector('input');
+  input.addEventListener('input', function () {
+    const v = input.value.toUpperCase().replace(/[^A-Z]/g, '');
+    const c = b.dataset.c;
+    if (GIVEN.indexOf(c) >= 0) { paint(); return; }
+    if (v) { guess[c] = v; } else { delete guess[c]; }
+    boxes.forEach(function (o) { o.classList.remove('right', 'wrong'); });
+    save(); paint();
+    if (v) {
+      for (let i = n + 1; i < boxes.length; i++) {
+        if (GIVEN.indexOf(boxes[i].dataset.c) < 0) {
+          boxes[i].querySelector('input').focus();
+          break;
+        }
+      }
+    }
+  });
+  input.addEventListener('keydown', function (e) {
+    if (e.key === 'Backspace' && !input.value) {
+      for (let i = n - 1; i >= 0; i--) {
+        if (GIVEN.indexOf(boxes[i].dataset.c) < 0) {
+          boxes[i].querySelector('input').focus();
+          break;
+        }
+      }
+    }
+  });
+});
+document.getElementById('check').onclick = function () {
+  let right = 0, wrong = 0, empty = 0;
+  boxes.forEach(function (b) {
+    const c = b.dataset.c;
+    b.classList.remove('right', 'wrong');
+    if (!guess[c]) { empty++; return; }
+    if (guess[c] === MAP[c]) { b.classList.add('right'); right++; }
+    else { b.classList.add('wrong'); wrong++; }
+  });
+  msg.className = 'msg ' + (wrong ? 'bad' : (empty ? '' : 'good'));
+  msg.textContent = wrong
+    ? wrong + ' letter' + (wrong > 1 ? 's are' : ' is') + ' wrong. The same letter is ' +
+      'wrong everywhere it appears, so one correction fixes several.'
+    : (empty ? right + ' right, ' + empty + ' still empty.' : 'All correct. Well done.');
+};
+document.getElementById('reveal').onclick = function () {
+  const left = Object.keys(MAP).filter(function (c) {
+    return boxes.some(function (b) { return b.dataset.c === c; }) && guess[c] !== MAP[c];
+  });
+  if (!left.length) { msg.className = 'msg'; msg.textContent = 'Nothing left to show.'; return; }
+  const c = left[Math.floor(Math.random() * left.length)];
+  guess[c] = MAP[c];
+  save(); paint();
+  boxes.forEach(function (b) { b.classList.remove('right', 'wrong'); });
+  msg.className = 'msg';
+  msg.textContent = c + ' is ' + MAP[c] + ', everywhere it appears.';
+};
+document.getElementById('clear').onclick = function () {
+  guess = {};
+  GIVEN.forEach(function (c) { guess[c] = MAP[c]; });
+  save(); paint();
+  boxes.forEach(function (b) { b.classList.remove('right', 'wrong'); });
+  msg.textContent = ''; msg.className = 'msg';
+};
+load(); paint();
+"""
+    # the student only ever needs the letters that appear, not all 26
+    used = {c: p for p, c in cipher.items() if c in counts}
+    script = (script.replace("__MAP__", json.dumps(used))
+                    .replace("__GIVEN__", json.dumps(given)))
+
+    longest = max((len(w["answer"]) for w in words), default=8)
+    square = f"min({82 / longest:.1f}vw, 30px)"
+    out.write_text(_game_page(
+        "Cryptogram", lesson,
+        f"{len(words)} key words in one code. Every letter stands for the same "
+        f"letter in every word.",
+        body, script, square), encoding="utf-8")
+    return {"words": len(words),
+            "note": f"{len(counts)} letters in play, {len(given)} given"}
 
 
 def games_of(lesson: dict) -> list[dict]:
@@ -1063,13 +1608,19 @@ def build_games(lesson: dict, wanted: list[dict]) -> dict[str, int]:
             info = build_crossword(lesson, out)
         elif game["style"] == "word-search":
             info = build_word_search(lesson, out)
+        elif game["style"] == "memory":
+            info = build_memory(lesson, out, game)
+        elif game["style"] == "criss-cross":
+            info = build_criss_cross(lesson, out)
+        elif game["style"] == "cryptogram":
+            info = build_cryptogram(lesson, out, game)
         else:
             raise SystemExit(f"unknown game style: {game['style']!r}")
         size = out.stat().st_size
         note = (f"   CHECK: {len(info['skipped'])} word(s) would not fit: "
                 f"{', '.join(info['skipped'])}" if info.get("skipped") else "")
         print(f"  {out.name:<32} {info['words']:>2} words  {fmt_size(size):>9}   "
-              f"grid {info['size']}{note}")
+              f"{info['note']}{note}")
         written[out.name] = info["words"]
     return written
 
@@ -1145,11 +1696,18 @@ def write_readme(lesson: dict, pages: dict[str, int] | None = None) -> Path:
             f'| {g["number"]} | [{g["title"]}]({game_name(g)}) | {g["minutes"]} | '
             f'{fmt_size((HERE / game_name(g)).stat().st_size)} |'
             for g in built_games)
+        count = len(built_games)
+        spelled = {1: "one", 2: "two", 3: "three", 4: "four", 5: "five", 6: "six",
+                   7: "seven", 8: "eight", 9: "nine"}.get(count, str(count))
+        heading = f"{spelled} word game" + ("" if count == 1 else "s")
+        lead = ("It is" if count == 1 else "Both are" if count == 2
+                else "Every one is")
         games_block = f"""
-## After the lesson: two word games
+## After the lesson: {heading}
 
-Both are built from this lesson's own words, so nothing in them is new. They
-open in a browser, work with no connection, and remember what you have done.
+{lead} built from this lesson's own words, so nothing in them is new. They open
+in a browser and need no connection at all, and the puzzles keep what you have
+already filled in.
 
 | No. | Game | Minutes | Size |
 |---|---|---|---|
@@ -1249,6 +1807,8 @@ def check(lesson: dict) -> int:
 
     print(f"  silence test : {len(silence_mp3(1.0))} bytes for 1.0 s  (expect 6048)")
     print(f"  cache        : {cache_dir()}")
+    print(f"  icons        : {len(available_icons())} drawings in "
+          f"{(repo_root() / 'icons.json').name}")
 
     print("\nLesson")
     print(f"  file         : {LESSON_FILE.name} - valid")
@@ -1256,6 +1816,12 @@ def check(lesson: dict) -> int:
     print(f"  parts        : {len(lesson['parts'])} "
           f"({len(parts_with_sheet(lesson))} with a sheet, "
           f"{len(parts_with_audio(lesson))} with audio)")
+    drawn = sum(1 for v in lesson.get("vocabulary", []) + lesson.get("recall", [])
+                if v.get("icon"))
+    print(f"  games        : {len(games_of(lesson))} "
+          f"({', '.join(g['style'] for g in games_of(lesson)) or 'none'})")
+    print(f"  words        : {len(game_words(lesson))} for the games, "
+          f"{drawn} of them with a drawing")
 
     print("\nReady. Run:  python build.py --plan\n" if not bad else
           "\nFix the lines above, then run:  python build.py --check\n")
