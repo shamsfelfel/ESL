@@ -12,7 +12,7 @@
  * request against a cached file is answered here with a real 206 slice.
  */
 
-var SHELL = "esl-shell-v2";
+var SHELL = "esl-shell-v3";
 var CONTENT = "esl-content-v1";
 
 /* Both of this course's caches start with this, and the activate handler
