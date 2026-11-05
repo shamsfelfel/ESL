@@ -66,9 +66,9 @@ Four rules hold for the whole course:
 | 3 | Past continuous | Past simple → time expressions, *ago*, five more irregular verbs |
 | 4 | Present perfect | Past continuous → two long actions at once, a moment in the past |
 | 5 | Present perfect continuous | Present simple → timetables, fixed arrangements and permanent facts |
-| 6 | Future: *will* / *going to* | Present perfect → *for* and *since* against exact dates |
-| 7 | Past perfect | Past continuous → background in longer narrative |
-| 8 | Modals of obligation and ability | Past simple → time clauses and sequencing |
+| 6 | Future: *will* / *going to* | Present perfect → *for* and *since* against an exact date |
+| 7 | Modals: *can*, *could*, *should*, *must*, *have to* | Present perfect continuous → the state verbs that never take it |
+| 8 | First and second conditional | Future → the present simple in time clauses (*when*, *until*, *as soon as*) |
 
 Every tense therefore gets at least two turns: the lesson that introduces it,
 the later lesson that comes back to it, and usually a third appearance in a
@@ -83,15 +83,40 @@ contrast table. Vocabulary spirals the same way, on a fixed two-lesson gap.
 | [Lesson 3](lessons/lesson-03/README.md) | [The Night the Network Failed](lessons/lesson-03/README.md) | A2 | Computing and student life: files, servers and backups | Past continuous, the weak sounds of *was* and *were*, purpose of a paragraph. 320-word passage. | Complete |
 | [Lesson 4](lessons/lesson-04/README.md) | [One Small Thing, Many Times](lessons/lesson-04/README.md) | A2+ | Web design, online learning and a small shop | Present perfect with *for*, *since*, *never*, *already* and *yet*, the short forms of *have* and *has*, purpose of the whole passage, the first spaced recall of Lesson 2 vocabulary. 400-word passage. | Complete |
 | [Lesson 5](lessons/lesson-05/README.md) | [The Two O'Clock Class](lessons/lesson-05/README.md) | A2+ → B1 | Teaching computers, volunteering and small steady progress | Present perfect continuous, the *-ing* ending and the weak *been*, the writer's attitude — and the comprehension set reaches ten questions, the size of a real TOEFL set. 481-word passage. | Complete |
+| [Lesson 6](lessons/lesson-06/README.md) | [A Plan for Tuesday](lessons/lesson-06/README.md) | B1 | Planning a week of study around the hours of electricity | The future with *will* and *going to*, the short `'ll` and the weak *going to*, the present perfect against an exact date — and the first lesson with five games. 504-word passage. | Complete |
+| [Lesson 7](lessons/lesson-07/README.md) | [The Bench by the Stairs](lessons/lesson-07/README.md) | B1 | A student repair bench: rules, faults and judgement | Modals — *can*, *could*, *should*, *must*, *have to* — weak *can* against *can't*, *have to* said as *hafta*, and the state verbs that never take the continuous. 510-word passage. | Complete |
+| [Lesson 8](lessons/lesson-08/README.md) | [The Line We Share](lessons/lesson-08/README.md) | B1 | A shared connection, a class at eight, and an application abroad | The first and second conditional, the contracted `'d` for *would* and *had*, the weak *if*-clause, and the present simple in time clauses. 516-word passage. | Complete |
 
 **The question set is now complete.** Ten questions, eight types, introduced one
 at a time across five lessons. From Lesson 6 nothing new is added to the format;
-only the text gets harder. That was the promise made in Lesson 1, and this is
-where it is kept.
+only the text gets harder. That was the promise made in Lesson 1, and it has now
+been kept for three lessons running.
 
-Lesson 6 is planned to go to roughly 550 words and add the future with *will*
-and *going to*. Later lessons are built at most four lessons ahead of the
-student, so each one can still answer the mistakes she is actually making.
+### The length stops climbing at Lesson 6
+
+The first five passages ran 185, 244, 320, 400, 481 words — about a quarter
+longer every week, and 2.6 times longer in five weeks. That is faster than
+anybody consolidates, and the plan to take Lesson 6 to 550 words was wrong.
+
+**Lessons 6, 7 and 8 therefore hold at about 500 words: 504, 510, 516.** Three
+lessons at one length is deliberate. Difficulty still rises every week, but
+through everything except length —
+
+- the grammar step: the future, then the modals, then the conditionals;
+- denser and more technical vocabulary (*capacitor*, *latency*, *bandwidth*,
+  *static*, *inverter*);
+- text that argues and weighs rather than only narrates;
+- the passage read at a slightly more natural pace, with part 12 still slow.
+
+The question set does not move at all, so none of the new difficulty is spent on
+working out what is being asked.
+
+Lesson 9 is not written yet, and whether the length rises again there is a
+question about the student rather than about the material: the self-report at
+6.3 of each lesson is where the answer should come from. A second progress test,
+covering Lessons 4 to 8, would fit naturally before it. Later lessons are built
+at most four lessons ahead of the student, so each one can still answer the
+mistakes she is actually making.
 
 ## Tests
 
@@ -109,20 +134,35 @@ the whole test can be printed without printing its own answers.
 
 ## Word games
 
-Every lesson ends with two games, numbered after its last part. Both are built
-from that lesson's own vocabulary, so nothing in them is new, and both are a
+Every lesson ends with games, numbered after its last part. Each one is built
+from that lesson's own vocabulary, so nothing in them is new, and each is a
 single HTML file with no libraries — they open from the app, from the folder or
-from a phone with no connection, and they remember where you stopped.
+from a phone with no connection, and the puzzles remember where you stopped.
 
-| Game | What it drills | Direction |
-|---|---|---|
-| Crossword | The 14 key words and the 5 recalled ones, clued by their English meaning | Meaning → word, which is the harder way round and the one that matters for writing |
-| Word search | The same words, with the Arabic beside each | Recognition and spelling: a gentler warm-up before the crossword |
+**Lessons 1 to 5 have two games each. Lessons 6, 7 and 8 have five.**
+
+| No. | Game | What it drills | Direction |
+|---|---|---|---|
+| 13 | Crossword | The 14 key words and the 5 recalled ones, clued by their English meaning | Meaning → word, the harder way round and the one that matters for writing |
+| 14 | Word search | The same words, with the Arabic beside each | Recognition and spelling: a gentler warm-up before the crossword |
+| 15 | Memory pairs | Ten pairs a round: a word against a drawing of it, or against its short English meaning | Recall, both ways, with no writing at all |
+| 16 | Criss-cross | A second crossword over the 14 key words only, clued by the **Arabic** gloss, with the word bank given | Arabic → English word: the gentler direction, and a different grid |
+| 17 | Cryptogram | One substitution cipher across all 14 key words, clued by their English meanings | Spelling, plus deduction — every letter stands for the same letter in every word |
 
 They are generated by `build.py` from the `vocabulary` block in `lesson.json`,
 never written by hand, so a game cannot drill a word the lesson does not teach.
-If a word will not fit the crossword grid the build says so rather than dropping
-it quietly.
+If a word will not fit a grid the build says so rather than dropping it quietly.
+
+**Memory pairs** has a toggle with three settings. *Icons* pairs each word with
+a drawing and so deals only from the words that have one; *meanings* pairs every
+word with its English meaning; *mixed* takes the drawing where there is one and
+the meaning where there is not. Abstract words do not draw well, which is why
+only concrete words get a picture. The drawings are hand-made inline SVG in
+[`icons.json`](icons.json) at the repository root — one colour, `currentColor`,
+no files and no icon fonts — and a vocabulary entry asks for one with
+`"icon": "laptop"`. The set is shared, so a later lesson reuses what is already
+drawn. Giving Lessons 1 to 5 the other three games needs drawings for about
+seventy more words, and that is a separate decision.
 
 ## The app
 
@@ -154,6 +194,9 @@ lesson folder: [Lesson 1](lessons/lesson-01/README.md),
 [Lesson 3](lessons/lesson-03/README.md),
 [Lesson 4](lessons/lesson-04/README.md),
 [Lesson 5](lessons/lesson-05/README.md),
+[Lesson 6](lessons/lesson-06/README.md),
+[Lesson 7](lessons/lesson-07/README.md),
+[Lesson 8](lessons/lesson-08/README.md),
 [Progress Test 1](tests/test-01/README.md). Each one has a table of parts in
 study order.
 
@@ -164,8 +207,10 @@ study order.
   listen twice without reading anything.
 - **The answer key is a separate file on purpose.** It is the last numbered
   part. Open it only when the parts before it are finished.
-- **The two games come after the answer key.** Play them a few days later, not
-  the same evening: the gap is what moves a word into memory.
+- **The games come after the answer key.** Play them a few days later, not the
+  same evening: the gap is what moves a word into memory. In Lessons 6 to 8
+  there are five of them, so spread them over the week rather than doing them
+  in one sitting.
 
 If your connection is good and you would rather have one file, each lesson also
 offers `00-lesson.pdf` (the whole lesson printed) and `00-full-section.mp3` (the
@@ -201,8 +246,8 @@ Then refresh the app's catalogue from the repository root:
 python make_catalog.py
 ```
 
-`--build` writes every sheet, every MP3, both games and that folder's
-`README.md`, then
+`--build` writes every sheet, every MP3, every game the lesson asks for and that
+folder's `README.md`, then
 reports each file with its length and size and the folder total. Use
 `--only 01 04` for selected parts, `--pdf-only` when there is no connection, and
 `--audio-only` to skip the sheets. Every spoken segment is cached by its text in
@@ -216,6 +261,13 @@ download a single file without running anything. One stylesheet,
 lesson name from the JSON rather than from the stylesheet. A part may set
 `"in_whole": false` to stay out of the combined PDF, which is how the test keeps
 its answer key off the printed paper.
+
+Two files at the root are shared by every lesson in the same way. `lesson.css`
+styles the sheets; [`icons.json`](icons.json) holds the drawings the memory game
+uses, as inline SVG keyed by name. A lesson never draws anything itself — it
+names an icon, `"icon": "laptop"`, and `build.py` inlines the markup. Naming one
+that is not there is an error `--check` reports by name, rather than a game that
+quietly comes out short.
 
 On Windows, WeasyPrint also needs the GTK runtime libraries (libgobject, pango),
 which `pip` does not install; `python build.py --check` says so plainly if they

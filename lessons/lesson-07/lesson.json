@@ -1,0 +1,2032 @@
+{
+ "lesson": 7,
+ "slug": "lesson-07",
+ "title": "Lesson 7 — The Bench by the Stairs",
+ "level": "B1 (seventh step)",
+ "topic": "A student repair bench: rules, faults and judgement",
+ "time": "6 sessions, 50–60 minutes each",
+ "skills": "Listening → Reading → Vocabulary → Grammar → Comprehension → Speaking → Writing",
+ "new_in_this_lesson": "the modals can, could, should, must and have to, the weak can against can't and have to said as hafta, and the state verbs that never take the continuous. The passage stays at about 500 words; the question set is unchanged.",
+ "passage_words": 510,
+ "footer": "Lesson 7 — The Bench by the Stairs",
+ "voices": {
+  "reader": {
+   "voice": "en-GB-RyanNeural",
+   "rate": "-10%",
+   "pitch": "+0Hz"
+  },
+  "narrator": {
+   "voice": "en-GB-SoniaNeural",
+   "rate": "-5%",
+   "pitch": "+0Hz"
+  },
+  "slow": {
+   "voice": "en-GB-RyanNeural",
+   "rate": "-25%",
+   "pitch": "+0Hz"
+  }
+ },
+ "vocabulary": [
+  {
+   "word": "bench",
+   "answer": "BENCH",
+   "type": "noun",
+   "meaning": "the long strong table you work at with your hands",
+   "arabic": "طاولة عمل",
+   "icon": "workbench"
+  },
+  {
+   "word": "screwdriver",
+   "answer": "SCREWDRIVER",
+   "type": "noun",
+   "meaning": "the tool you turn screws with",
+   "arabic": "مفك براغي",
+   "icon": "screwdriver"
+  },
+  {
+   "word": "fault",
+   "answer": "FAULT",
+   "type": "noun",
+   "meaning": "the thing that is wrong with a machine",
+   "arabic": "عطل",
+   "icon": "warning"
+  },
+  {
+   "word": "diagnose",
+   "answer": "DIAGNOSE",
+   "type": "verb",
+   "meaning": "to find out what is wrong, before you try to mend it",
+   "arabic": "يُشخّص العطل"
+  },
+  {
+   "word": "component",
+   "answer": "COMPONENT",
+   "type": "noun",
+   "meaning": "one separate part inside a machine",
+   "arabic": "قطعة",
+   "icon": "chip"
+  },
+  {
+   "word": "static",
+   "answer": "STATIC",
+   "type": "noun",
+   "meaning": "the electricity that builds up on your body and can kill a chip",
+   "arabic": "كهرباء ساكنة"
+  },
+  {
+   "word": "capacitor",
+   "answer": "CAPACITOR",
+   "type": "noun",
+   "meaning": "a part that stores electricity and can hold it after the power is off",
+   "arabic": "مُكثِّف"
+  },
+  {
+   "word": "fan",
+   "answer": "FAN",
+   "type": "noun",
+   "meaning": "the part that turns and blows air to keep a machine cool",
+   "arabic": "مروحة",
+   "icon": "fan"
+  },
+  {
+   "word": "overheat",
+   "answer": "OVERHEAT",
+   "type": "verb",
+   "meaning": "to get too hot to go on working safely",
+   "arabic": "يسخن أكثر من اللازم",
+   "icon": "thermometer"
+  },
+  {
+   "word": "dust",
+   "answer": "DUST",
+   "type": "noun",
+   "meaning": "the fine dry dirt that settles on everything and blocks a fan",
+   "arabic": "غبار"
+  },
+  {
+   "word": "replace",
+   "answer": "REPLACE",
+   "type": "verb",
+   "meaning": "to take an old part out and put a new one in its place",
+   "arabic": "يستبدل"
+  },
+  {
+   "word": "label",
+   "answer": "LABEL",
+   "type": "verb",
+   "meaning": "to write on something to say what it is",
+   "arabic": "يضع ملصقاً",
+   "icon": "label"
+  },
+  {
+   "word": "warranty",
+   "answer": "WARRANTY",
+   "type": "noun",
+   "meaning": "the maker's promise to mend a machine free for a set time",
+   "arabic": "ضمان"
+  },
+  {
+   "word": "log",
+   "answer": "LOG",
+   "type": "noun",
+   "meaning": "a written record, kept in order, of what was done",
+   "arabic": "سجل",
+   "icon": "notebook"
+  }
+ ],
+ "recall": [
+  {
+   "word": "battery",
+   "answer": "BATTERY",
+   "meaning": "the part that holds power inside a machine",
+   "icon": "battery"
+  },
+  {
+   "word": "repair",
+   "answer": "REPAIR",
+   "meaning": "to mend something that is broken"
+  },
+  {
+   "word": "install",
+   "answer": "INSTALL",
+   "meaning": "to put a program onto a computer"
+  },
+  {
+   "word": "program",
+   "answer": "PROGRAM",
+   "meaning": "something a computer runs to do a job"
+  },
+  {
+   "word": "delete",
+   "answer": "DELETE",
+   "meaning": "to remove something from a computer",
+   "icon": "trash"
+  }
+ ],
+ "how_to_work": [
+  "Play **01-passage.mp3** and listen twice with no text in front of you. Do not open the PDF yet.",
+  "Then work through the parts in number order. Part 04 is grammar and has no audio; part 05 needs its audio most of all, because *can* and *can't* are told apart by a vowel, not by the *t*.",
+  "Section 3.5 of the grammar sheet is the one to read twice: *must not* and *do not have to* are opposites, and the passage uses both within four lines of each other.",
+  "Open part 11, the answer key, only when parts 01 to 10 are finished. The five games come days later, not the same evening."
+ ],
+ "full_section": {
+  "parts": [
+   "01",
+   "02",
+   "06",
+   "07"
+  ],
+  "gap": 3,
+  "closing": [
+   {
+    "pause": 2
+   },
+   {
+    "say": "This is the end of lesson seven.",
+    "voice": "narrator"
+   }
+  ]
+ },
+ "games": [
+  {
+   "number": "13",
+   "slug": "crossword",
+   "title": "Crossword",
+   "style": "crossword",
+   "minutes": 15
+  },
+  {
+   "number": "14",
+   "slug": "word-search",
+   "title": "Word search",
+   "style": "word-search",
+   "minutes": 10
+  },
+  {
+   "number": "15",
+   "slug": "memory",
+   "title": "Memory pairs",
+   "style": "memory",
+   "minutes": 10,
+   "pairs": 10
+  },
+  {
+   "number": "16",
+   "slug": "criss-cross",
+   "title": "Criss-cross, Arabic clues",
+   "style": "criss-cross",
+   "minutes": 15
+  },
+  {
+   "number": "17",
+   "slug": "cryptogram",
+   "title": "Cryptogram",
+   "style": "cryptogram",
+   "minutes": 15,
+   "given": 3
+  }
+ ],
+ "parts": [
+  {
+   "number": "01",
+   "slug": "passage",
+   "title": "Passage — The Bench by the Stairs",
+   "minutes": 20,
+   "sheet": true,
+   "audio": true,
+   "print_only": {
+    "markers": [
+     "[A]",
+     "[B]",
+     "[C]",
+     "[D]"
+    ],
+    "note": "The sentence-insertion markers are printed in the passage and are never read aloud."
+   },
+   "markdown": "> **How to do the listening.** The same rule as every lesson so far: the student listens **twice with no text**, then reads.\n> Audio files: `01-passage.mp3` first, then the other parts in order. Part `05-can-and-hafta.mp3` is new — weak *can* against *can't*, and *have to* said as *hafta*.\n\n### 1.1 Before listening (2 minutes, Arabic is fine here)\n\n1. What can you repair yourself, and what must you take to somebody else?\n2. What should a person always do before opening a machine?\n3. Have you ever had to learn something because nobody else would do it?\n\n### 1.4 Now read the passage\n\n### Passage: *The Bench by the Stairs* (510 words)\n\nThe bench is under the stairs in the engineering building, between a window and a cupboard, and it has been there for two years. Two students sit at it on Sunday, Tuesday and Thursday afternoons. Anyone in the college can bring a machine to them, and about half of the machines go away working.\n\n**[A]** Maysa started it in her second year. She is not an engineer either — she studies information systems — but she had to learn, because nobody else was going to repair the department's laptops and she could not work without one. She can change a screen now in forty minutes. She says the first year was mostly learning what she must not touch.\n\nThere is a list of rules taped to the cupboard door, and the first three are about electricity. You must unplug the machine. You must take the battery out if the battery comes out. You must not open a power supply, ever, because a capacitor inside it can hold a charge for days after the plug is pulled, and nothing on this bench is worth that.\n\n**[B]** After that the rules are about care rather than danger. Put the screwdriver down and touch the metal frame before you touch a component, so that the static on your hands goes somewhere harmless. Put every screw in a labelled box, because the screws are not all the same length and a long one in a short hole will go through something. You do not have to be quick. You do have to be able to put it back together.\n\nMost faults are dull to diagnose, which Maysa says is the good news. A laptop that overheats and shuts down usually has a fan packed with dust; you can clean it with a brush and some air, and it will run for another year. A machine that will not start on battery often needs nothing but a new battery.\n\n**[C]** Some things cannot be mended at a bench under the stairs, and the second skill is knowing which. A broken screen can be replaced if the part exists. A board with a burnt track cannot, not here. A machine still under warranty should not be opened at all, because opening it ends the warranty. When the answer is no, Maysa writes the reason on a card, because a person who knows why can decide what to do next.\n\n**[D]** They keep a log. Every machine gets a line: what came in, what they tried, what it needed, whether it worked. The log is how they found out that nine of the last twenty overheating laptops had the same fault, and that they should have checked the fan first every single time.\n\nSamir asked her last month what the bench still needs. She said it must have better light before anything else, that they should have a soldering station, and that they could do twice as much with a second person on Thursdays. \"But you can do a great deal,\" she said, \"with a brush and a list of rules.\"\n\n### 1.5 Read aloud\n\nRead the passage aloud **once** and record it. Watch the modals as you read: *can* should be short and quiet, and *can't* should be long. If they sound the same, slow down and do the paragraph again.\n",
+   "segments": [
+    {
+     "say": "Lesson seven. The Bench by the Stairs. Listening practice.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 1
+    },
+    {
+     "say": "You will hear about a repair bench run by two students in a college. Listen for what they must never do, and for what can and cannot be mended there. You will hear it two times. Do not read the text. Listen only.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 2
+    },
+    {
+     "say": "Now listen.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 1.5
+    },
+    {
+     "say": "The bench is under the stairs in the engineering building, between a window and a cupboard, and it has been there for two years. Two students sit at it on Sunday, Tuesday and Thursday afternoons. Anyone in the college can bring a machine to them, and about half of the machines go away working.\n\nMaysa started it in her second year. She is not an engineer either — she studies information systems — but she had to learn, because nobody else was going to repair the department's laptops and she could not work without one. She can change a screen now in forty minutes. She says the first year was mostly learning what she must not touch.\n\nThere is a list of rules taped to the cupboard door, and the first three are about electricity. You must unplug the machine. You must take the battery out if the battery comes out. You must not open a power supply, ever, because a capacitor inside it can hold a charge for days after the plug is pulled, and nothing on this bench is worth that.\n\nAfter that the rules are about care rather than danger. Put the screwdriver down and touch the metal frame before you touch a component, so that the static on your hands goes somewhere harmless. Put every screw in a labelled box, because the screws are not all the same length and a long one in a short hole will go through something. You do not have to be quick. You do have to be able to put it back together.\n\nMost faults are dull to diagnose, which Maysa says is the good news. A laptop that overheats and shuts down usually has a fan packed with dust; you can clean it with a brush and some air, and it will run for another year. A machine that will not start on battery often needs nothing but a new battery.\n\nSome things cannot be mended at a bench under the stairs, and the second skill is knowing which. A broken screen can be replaced if the part exists. A board with a burnt track cannot, not here. A machine still under warranty should not be opened at all, because opening it ends the warranty. When the answer is no, Maysa writes the reason on a card, because a person who knows why can decide what to do next.\n\nThey keep a log. Every machine gets a line: what came in, what they tried, what it needed, whether it worked. The log is how they found out that nine of the last twenty overheating laptops had the same fault, and that they should have checked the fan first every single time.\n\nSamir asked her last month what the bench still needs. She said it must have better light before anything else, that they should have a soldering station, and that they could do twice as much with a second person on Thursdays. \"But you can do a great deal,\" she said, \"with a brush and a list of rules.\"",
+     "voice": "reader"
+    },
+    {
+     "pause": 4
+    },
+    {
+     "say": "Now listen again.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 1.5
+    },
+    {
+     "say": "The bench is under the stairs in the engineering building, between a window and a cupboard, and it has been there for two years. Two students sit at it on Sunday, Tuesday and Thursday afternoons. Anyone in the college can bring a machine to them, and about half of the machines go away working.\n\nMaysa started it in her second year. She is not an engineer either — she studies information systems — but she had to learn, because nobody else was going to repair the department's laptops and she could not work without one. She can change a screen now in forty minutes. She says the first year was mostly learning what she must not touch.\n\nThere is a list of rules taped to the cupboard door, and the first three are about electricity. You must unplug the machine. You must take the battery out if the battery comes out. You must not open a power supply, ever, because a capacitor inside it can hold a charge for days after the plug is pulled, and nothing on this bench is worth that.\n\nAfter that the rules are about care rather than danger. Put the screwdriver down and touch the metal frame before you touch a component, so that the static on your hands goes somewhere harmless. Put every screw in a labelled box, because the screws are not all the same length and a long one in a short hole will go through something. You do not have to be quick. You do have to be able to put it back together.\n\nMost faults are dull to diagnose, which Maysa says is the good news. A laptop that overheats and shuts down usually has a fan packed with dust; you can clean it with a brush and some air, and it will run for another year. A machine that will not start on battery often needs nothing but a new battery.\n\nSome things cannot be mended at a bench under the stairs, and the second skill is knowing which. A broken screen can be replaced if the part exists. A board with a burnt track cannot, not here. A machine still under warranty should not be opened at all, because opening it ends the warranty. When the answer is no, Maysa writes the reason on a card, because a person who knows why can decide what to do next.\n\nThey keep a log. Every machine gets a line: what came in, what they tried, what it needed, whether it worked. The log is how they found out that nine of the last twenty overheating laptops had the same fault, and that they should have checked the fan first every single time.\n\nSamir asked her last month what the bench still needs. She said it must have better light before anything else, that they should have a soldering station, and that they could do twice as much with a second person on Thursdays. \"But you can do a great deal,\" she said, \"with a brush and a list of rules.\"",
+     "voice": "reader"
+    },
+    {
+     "pause": 2
+    },
+    {
+     "say": "This is the end of the passage.",
+     "voice": "narrator"
+    }
+   ]
+  },
+  {
+   "number": "02",
+   "slug": "listening-questions",
+   "title": "Listening questions",
+   "minutes": 10,
+   "sheet": true,
+   "audio": true,
+   "markdown": "### 1.2 Listening — first time (no text)\n\n- **L1.** Where is the bench, and who sits at it?\n- **L2.** What does Maysa say the first year was mostly about?\n- **L3.** Why must you never open a power supply?\n- **L4.** What usually makes a laptop overheat?\n\n### 1.3 Listening — second time (no text)\n\nWrite **four modal verbs** that you heard, and the verb that followed each one. Then write **one word** you heard but did not understand.\n",
+   "segments": [
+    {
+     "say": "Now answer the listening questions. Write a short answer for each one.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 2
+    },
+    {
+     "say": "Question one. Where is the bench, and who sits at it?",
+     "voice": "narrator"
+    },
+    {
+     "pause": 10
+    },
+    {
+     "say": "Question two. What does Maysa say the first year was mostly about?",
+     "voice": "narrator"
+    },
+    {
+     "pause": 10
+    },
+    {
+     "say": "Question three. Why must you never open a power supply?",
+     "voice": "narrator"
+    },
+    {
+     "pause": 10
+    },
+    {
+     "say": "Question four. What usually makes a laptop overheat?",
+     "voice": "narrator"
+    },
+    {
+     "pause": 10
+    },
+    {
+     "say": "This is the end of the listening questions.",
+     "voice": "narrator"
+    }
+   ]
+  },
+  {
+   "number": "03",
+   "slug": "vocabulary",
+   "title": "Vocabulary and Lesson 5 recall",
+   "minutes": 35,
+   "sheet": true,
+   "audio": true,
+   "markdown": "### 2.1 Key words\n\n| # | Word | Type | Simple meaning | Arabic | Example |\n|---|---|---|---|---|---|\n| 1 | bench | noun | the long strong table you work at with your hands | طاولة عمل | The **bench** is under the stairs in the engineering building. |\n| 2 | screwdriver | noun | the tool you turn screws with | مفك براغي | Put the **screwdriver** down and touch the metal frame first. |\n| 3 | fault | noun | the thing that is wrong with a machine | عطل | Nine of the last twenty laptops had the same **fault**. |\n| 4 | diagnose | verb | to find out what is wrong, before you try to mend it | يُشخّص العطل | Most faults are dull to **diagnose**. |\n| 5 | component | noun | one separate part inside a machine | قطعة | Touch the metal frame before you touch a **component**. |\n| 6 | static | noun | the electricity that builds up on your body and can kill a chip | كهرباء ساكنة | The **static** on your hands goes somewhere harmless. |\n| 7 | capacitor | noun | a part that stores electricity and can hold it after the power is off | مُكثِّف | A **capacitor** can hold a charge for days. |\n| 8 | fan | noun | the part that turns and blows air to keep a machine cool | مروحة | They should have checked the **fan** first every time. |\n| 9 | overheat | verb | to get too hot to go on working safely | يسخن أكثر من اللازم | A laptop that **overheats** usually has a fan full of dust. |\n| 10 | dust | noun | the fine dry dirt that settles on everything and blocks a fan | غبار | The fan was packed with **dust**. |\n| 11 | replace | verb | to take an old part out and put a new one in its place | يستبدل | A broken screen can be **replaced** if the part exists. |\n| 12 | label | verb | to write on something to say what it is | يضع ملصقاً | Put every screw in a **labelled** box. |\n| 13 | warranty | noun | the maker's promise to mend a machine free for a set time | ضمان | A machine still under **warranty** should not be opened. |\n| 14 | log | noun | a written record, kept in order, of what was done | سجل | They keep a **log**, and every machine gets a line. |\n\n### 2.2 Synonyms and opposites\n\n| Word | Synonym | Opposite |\n|---|---|---|\n| fault | problem, defect | a clean bill of health |\n| diagnose | work out what is wrong | guess |\n| replace | swap, change for a new one | keep |\n| overheat | get too hot | cool down |\n| dull | ordinary, not interesting | unusual |\n| harmless | safe, doing no damage | dangerous |\n| label | mark, name | leave blank |\n| under warranty | still covered by the maker | out of warranty |\n\n### 2.3 Expressions to learn\n\n| Expression | What it really means |\n|---|---|\n| **packed with** | completely full of |\n| **go through something** | make a hole in it by accident |\n| **the good news** | the part of the situation that helps you |\n| **not here** | possible somewhere else, but not with what we have |\n| **put it back together** | reassemble it so it works again |\n| **every single time** | on every occasion, without one exception |\n| **a great deal** | a lot |\n\n### 2.4 Vocabulary practice\n\n**A. Write the opposite:**\n\n1. overheat → \\_\\_\\_\\_\\_\\_\\_\\_\n2. replace → \\_\\_\\_\\_\\_\\_\\_\\_\n3. harmless → \\_\\_\\_\\_\\_\\_\\_\\_\n4. dull → \\_\\_\\_\\_\\_\\_\\_\\_\n5. under warranty → \\_\\_\\_\\_\\_\\_\\_\\_\n\n**B. Which word is different? Say why:**\n\n1. screwdriver — brush — bench — warranty\n2. fan — capacitor — component — diagnose\n3. dust — static — log — heat\n\n**C. Say it in your own words:**\n\n1. What is a fault, and how do you diagnose one?\n2. What does *under warranty* mean, and why does it change what you may do?\n",
+   "segments": [
+    {
+     "say": "Vocabulary practice. You will hear a word, then its meaning, then an example sentence. Repeat the word in the silence.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 2
+    },
+    {
+     "say": "Word 1.",
+     "voice": "narrator"
+    },
+    {
+     "say": "bench",
+     "voice": "reader"
+    },
+    {
+     "pause": 3
+    },
+    {
+     "say": "bench. the long strong table you work at with your hands.",
+     "voice": "reader"
+    },
+    {
+     "pause": 1
+    },
+    {
+     "say": "The bench is under the stairs in the engineering building.",
+     "voice": "reader"
+    },
+    {
+     "pause": 3
+    },
+    {
+     "say": "Word 2.",
+     "voice": "narrator"
+    },
+    {
+     "say": "screwdriver",
+     "voice": "reader"
+    },
+    {
+     "pause": 3
+    },
+    {
+     "say": "screwdriver. the tool you turn screws with.",
+     "voice": "reader"
+    },
+    {
+     "pause": 1
+    },
+    {
+     "say": "Put the screwdriver down and touch the metal frame first.",
+     "voice": "reader"
+    },
+    {
+     "pause": 3
+    },
+    {
+     "say": "Word 3.",
+     "voice": "narrator"
+    },
+    {
+     "say": "fault",
+     "voice": "reader"
+    },
+    {
+     "pause": 3
+    },
+    {
+     "say": "fault. the thing that is wrong with a machine.",
+     "voice": "reader"
+    },
+    {
+     "pause": 1
+    },
+    {
+     "say": "Nine of the last twenty laptops had the same fault.",
+     "voice": "reader"
+    },
+    {
+     "pause": 3
+    },
+    {
+     "say": "Word 4.",
+     "voice": "narrator"
+    },
+    {
+     "say": "diagnose",
+     "voice": "reader"
+    },
+    {
+     "pause": 3
+    },
+    {
+     "say": "diagnose. to find out what is wrong, before you try to mend it.",
+     "voice": "reader"
+    },
+    {
+     "pause": 1
+    },
+    {
+     "say": "Most faults are dull to diagnose.",
+     "voice": "reader"
+    },
+    {
+     "pause": 3
+    },
+    {
+     "say": "Word 5.",
+     "voice": "narrator"
+    },
+    {
+     "say": "component",
+     "voice": "reader"
+    },
+    {
+     "pause": 3
+    },
+    {
+     "say": "component. one separate part inside a machine.",
+     "voice": "reader"
+    },
+    {
+     "pause": 1
+    },
+    {
+     "say": "Touch the metal frame before you touch a component.",
+     "voice": "reader"
+    },
+    {
+     "pause": 3
+    },
+    {
+     "say": "Word 6.",
+     "voice": "narrator"
+    },
+    {
+     "say": "static",
+     "voice": "reader"
+    },
+    {
+     "pause": 3
+    },
+    {
+     "say": "static. the electricity that builds up on your body and can kill a chip.",
+     "voice": "reader"
+    },
+    {
+     "pause": 1
+    },
+    {
+     "say": "The static on your hands goes somewhere harmless.",
+     "voice": "reader"
+    },
+    {
+     "pause": 3
+    },
+    {
+     "say": "Word 7.",
+     "voice": "narrator"
+    },
+    {
+     "say": "capacitor",
+     "voice": "reader"
+    },
+    {
+     "pause": 3
+    },
+    {
+     "say": "capacitor. a part that stores electricity and can hold it after the power is off.",
+     "voice": "reader"
+    },
+    {
+     "pause": 1
+    },
+    {
+     "say": "A capacitor can hold a charge for days.",
+     "voice": "reader"
+    },
+    {
+     "pause": 3
+    },
+    {
+     "say": "Word 8.",
+     "voice": "narrator"
+    },
+    {
+     "say": "fan",
+     "voice": "reader"
+    },
+    {
+     "pause": 3
+    },
+    {
+     "say": "fan. the part that turns and blows air to keep a machine cool.",
+     "voice": "reader"
+    },
+    {
+     "pause": 1
+    },
+    {
+     "say": "They should have checked the fan first every time.",
+     "voice": "reader"
+    },
+    {
+     "pause": 3
+    },
+    {
+     "say": "Word 9.",
+     "voice": "narrator"
+    },
+    {
+     "say": "overheat",
+     "voice": "reader"
+    },
+    {
+     "pause": 3
+    },
+    {
+     "say": "overheat. to get too hot to go on working safely.",
+     "voice": "reader"
+    },
+    {
+     "pause": 1
+    },
+    {
+     "say": "A laptop that overheats usually has a fan full of dust.",
+     "voice": "reader"
+    },
+    {
+     "pause": 3
+    },
+    {
+     "say": "Word 10.",
+     "voice": "narrator"
+    },
+    {
+     "say": "dust",
+     "voice": "reader"
+    },
+    {
+     "pause": 3
+    },
+    {
+     "say": "dust. the fine dry dirt that settles on everything and blocks a fan.",
+     "voice": "reader"
+    },
+    {
+     "pause": 1
+    },
+    {
+     "say": "The fan was packed with dust.",
+     "voice": "reader"
+    },
+    {
+     "pause": 3
+    },
+    {
+     "say": "Word 11.",
+     "voice": "narrator"
+    },
+    {
+     "say": "replace",
+     "voice": "reader"
+    },
+    {
+     "pause": 3
+    },
+    {
+     "say": "replace. to take an old part out and put a new one in its place.",
+     "voice": "reader"
+    },
+    {
+     "pause": 1
+    },
+    {
+     "say": "A broken screen can be replaced if the part exists.",
+     "voice": "reader"
+    },
+    {
+     "pause": 3
+    },
+    {
+     "say": "Word 12.",
+     "voice": "narrator"
+    },
+    {
+     "say": "label",
+     "voice": "reader"
+    },
+    {
+     "pause": 3
+    },
+    {
+     "say": "label. to write on something to say what it is.",
+     "voice": "reader"
+    },
+    {
+     "pause": 1
+    },
+    {
+     "say": "Put every screw in a labelled box.",
+     "voice": "reader"
+    },
+    {
+     "pause": 3
+    },
+    {
+     "say": "Word 13.",
+     "voice": "narrator"
+    },
+    {
+     "say": "warranty",
+     "voice": "reader"
+    },
+    {
+     "pause": 3
+    },
+    {
+     "say": "warranty. the maker's promise to mend a machine free for a set time.",
+     "voice": "reader"
+    },
+    {
+     "pause": 1
+    },
+    {
+     "say": "A machine still under warranty should not be opened.",
+     "voice": "reader"
+    },
+    {
+     "pause": 3
+    },
+    {
+     "say": "Word 14.",
+     "voice": "narrator"
+    },
+    {
+     "say": "log",
+     "voice": "reader"
+    },
+    {
+     "pause": 3
+    },
+    {
+     "say": "log. a written record, kept in order, of what was done.",
+     "voice": "reader"
+    },
+    {
+     "pause": 1
+    },
+    {
+     "say": "They keep a log, and every machine gets a line.",
+     "voice": "reader"
+    },
+    {
+     "pause": 3
+    },
+    {
+     "pause": 1.5
+    },
+    {
+     "say": "Now five words from lesson 5. Say the meaning before you hear it.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 2
+    },
+    {
+     "say": "battery",
+     "voice": "reader"
+    },
+    {
+     "pause": 5
+    },
+    {
+     "say": "the part that holds power inside a machine",
+     "voice": "reader"
+    },
+    {
+     "pause": 1
+    },
+    {
+     "say": "repair",
+     "voice": "reader"
+    },
+    {
+     "pause": 5
+    },
+    {
+     "say": "to mend something that is broken",
+     "voice": "reader"
+    },
+    {
+     "pause": 1
+    },
+    {
+     "say": "install",
+     "voice": "reader"
+    },
+    {
+     "pause": 5
+    },
+    {
+     "say": "to put a program onto a computer",
+     "voice": "reader"
+    },
+    {
+     "pause": 1
+    },
+    {
+     "say": "program",
+     "voice": "reader"
+    },
+    {
+     "pause": 5
+    },
+    {
+     "say": "something a computer runs to do a job",
+     "voice": "reader"
+    },
+    {
+     "pause": 1
+    },
+    {
+     "say": "delete",
+     "voice": "reader"
+    },
+    {
+     "pause": 5
+    },
+    {
+     "say": "to remove something from a computer",
+     "voice": "reader"
+    },
+    {
+     "pause": 1
+    },
+    {
+     "say": "This is the end of the vocabulary practice.",
+     "voice": "narrator"
+    }
+   ]
+  },
+  {
+   "number": "04",
+   "slug": "grammar-modals",
+   "title": "Grammar — modals: can, could, should, must, have to",
+   "minutes": 50,
+   "sheet": true,
+   "audio": false,
+   "markdown": "### Come back to: the present perfect continuous\n\nLesson 5 taught **have / has + been + *-ing***, for how long something has been\ngoing on. Two lines to remind you:\n\n| I / you / we / they | **have been** working |\n|---|---|\n| he / she / it | **has been** working |\n\n**New this time: some verbs never take the continuous at all.**\n\nA verb that describes an **action** can be continuous. A verb that describes a\n**state** — something that simply is the case, with nothing happening — cannot:\n\n| State verb | Say this | Never this |\n|---|---|---|\n| be | The bench **has been** there for two years. | has been being |\n| know | She **has known** about the fault for a week. | has been knowing |\n| own | The college **has owned** that laptop since 2019. | has been owning |\n| mean | I **have meant** to ask you for days. | have been meaning |\n| need | It **has needed** a new fan all year. | has been needing |\n| belong | That screwdriver **has belonged** to the bench since the start. | has been belonging |\n\nThe family is small and worth learning as a list: ***be, have* (= own), *know,\nunderstand, believe, need, want, like, love, hate, mean, belong, cost, seem***.\nWith these, use the present perfect **simple** even when you are talking about\nhow long.\n\nA warning: a few of them change meaning and then they *can* be continuous.\n*I **am having** a problem* is an action (experiencing), not ownership. *She\n**is thinking** about it* is an action; *I **think** it is broken* is an\nopinion, and an opinion is a state.\n\n**Quick practice.** Simple or continuous?\n\n1. The bench \\_\\_\\_\\_\\_\\_\\_\\_ (be) under the stairs for two years.\n2. They \\_\\_\\_\\_\\_\\_\\_\\_ (keep) a log since the first week.\n3. She \\_\\_\\_\\_\\_\\_\\_\\_ (know) about that fault for a month.\n4. He \\_\\_\\_\\_\\_\\_\\_\\_ (clean) fans all afternoon.\n\n---\n\nNow the modals. A **modal verb** sits in front of another verb and changes what\nthe sentence is doing: how certain it is, how possible, how necessary, how\npermitted. The whole family behaves the same way, which is the good news.\n\n### 3.1 How they work — three rules, no exceptions\n\n| Rule | Right | Wrong |\n|---|---|---|\n| No *to* after the modal | She **can change** a screen. | she can to change |\n| No **-s** for he / she / it | He **must unplug** it. | he musts unplug |\n| Negative and question need no *do* | **Can** you open it? / You **must not** open it. | do you can open |\n\nThe only one that breaks the pattern is **have to**, which is not really a\nmodal at all: it is the ordinary verb *have*, so it does take *do*, *does* and\n*did* — *Do you **have to** be quick?*\n\n### 3.2 Ability, and permission: *can* and *could*\n\n| | Example |\n|---|---|\n| Ability now | She **can** change a screen in forty minutes. |\n| Ability in the past | She **could not** work without a laptop. |\n| Possibility | A capacitor **can** hold a charge for days. |\n| Permission | Anyone in the college **can** bring a machine to them. |\n| Asking politely | **Could** I leave it here until Thursday? |\n\n*Could* is the past of *can*, and it is also the polite present. Both are\nnormal; the sentence tells you which.\n\n### 3.3 Advice: *should*\n\n**Should** is the weakest of them, and the most useful. It gives advice, not an\norder, and the speaker knows you may do otherwise:\n\n- *You **should** touch the metal frame first.*\n- *A machine under warranty **should not** be opened.*\n- ***Should** I take the battery out?*\n\n**should have + past participle** looks back at advice that was not taken:\n*They **should have checked** the fan first.* They did not, and now they know.\n\n### 3.4 Necessity: *must* and *have to*\n\nBoth mean the thing is necessary. They differ in **where the necessity comes\nfrom**, and the difference is real:\n\n| | Where it comes from | Example |\n|---|---|---|\n| **must** | the speaker, or a rule the speaker owns | *You **must** unplug the machine.* — it is on her list |\n| **have to** | a fact, a law, somebody else | *She **had to** learn, because nobody else would.* |\n\nIn the past, **must has no past tense**: you must use **had to** for both.\n*Yesterday I had to replace the fan*, never *yesterday I must replace*.\n\n### 3.5 The one that catches everybody\n\n**must not** and **do not have to** are opposites, not synonyms:\n\n| | Meaning | Example |\n|---|---|---|\n| **must not** | it is forbidden — do not do it | *You **must not** open a power supply.* |\n| **do not have to** | it is not necessary — do it or do not | *You **do not have to** be quick.* |\n\nRead those two lines twice. *You must not be quick* and *you do not have to be\nquick* are two completely different instructions, and the passage uses both\nkinds within four lines of each other.\n\n### 3.6 Grammar practice\n\n**A. Choose the right modal:**\n\n1. You \\_\\_\\_\\_\\_\\_\\_\\_ unplug the machine before you open it. (rule on the list)\n2. She \\_\\_\\_\\_\\_\\_\\_\\_ change a screen in forty minutes. (ability)\n3. You \\_\\_\\_\\_\\_\\_\\_\\_ touch the metal frame first. (advice)\n4. She \\_\\_\\_\\_\\_\\_\\_\\_ learn, because nobody else would do it. (past necessity)\n5. \\_\\_\\_\\_\\_\\_\\_\\_ I leave the laptop until Thursday? (asking politely)\n\n**B. *must not* or *do not have to*?**\n\n1. You \\_\\_\\_\\_\\_\\_\\_\\_ open a power supply. It is dangerous.\n2. You \\_\\_\\_\\_\\_\\_\\_\\_ be quick. Take all afternoon if you need it.\n3. You \\_\\_\\_\\_\\_\\_\\_\\_ open a machine that is under warranty.\n4. You \\_\\_\\_\\_\\_\\_\\_\\_ label the box, but everybody does.\n\n**C. Put it in the past:**\n\n1. I must replace the fan. → Yesterday I \\_\\_\\_\\_\\_\\_\\_\\_ the fan.\n2. She can repair it. → Last year she \\_\\_\\_\\_\\_\\_\\_\\_ it.\n3. They should check the fan. (but they did not) → They \\_\\_\\_\\_\\_\\_\\_\\_ the fan.\n\n**D. Present perfect simple, or continuous?**\n\n1. The log \\_\\_\\_\\_\\_\\_\\_\\_ (be) on the cupboard since the bench opened.\n2. They \\_\\_\\_\\_\\_\\_\\_\\_ (repair) laptops all afternoon.\n3. She \\_\\_\\_\\_\\_\\_\\_\\_ (know) the answer since Tuesday.\n4. He \\_\\_\\_\\_\\_\\_\\_\\_ (clean) that fan for twenty minutes.\n"
+  },
+  {
+   "number": "05",
+   "slug": "can-and-hafta",
+   "title": "Weak can, hard can't, and have to",
+   "minutes": 20,
+   "sheet": true,
+   "audio": true,
+   "markdown": "### 3.7 Weak *can*, hard *can't*, and *have to* → *hafta* (listen to `05-can-and-hafta.mp3`)\n\nModals are small words that carry the whole meaning of the sentence, and small\nwords are exactly the ones English swallows. Two traps here, and the first one\nchanges the meaning completely.\n\n**1. *can* is weak; *can't* is strong.**\n\nIn a normal positive sentence *can* is unstressed and its vowel collapses to\n<span class=\"ipa\">/ə/</span>. The negative keeps a full, long vowel — and in\nBritish English it is a different vowel altogether:\n\n| Written | What you hear | Which vowel |\n|---|---|---|\n| I **can** fix it. | <span class=\"ipa\">/aɪ kən ˈfɪks ɪt/</span> | short, weak <span class=\"ipa\">/ə/</span> |\n| I **can't** fix it. | <span class=\"ipa\">/aɪ kɑːnt ˈfɪks ɪt/</span> | long <span class=\"ipa\">/ɑː/</span> |\n| She **can** come. | <span class=\"ipa\">/ʃi kən ˈkʌm/</span> | weak |\n| She **can't** come. | <span class=\"ipa\">/ʃi kɑːnt ˈkʌm/</span> | long |\n\nSo you are **not** listening for the *t* — in fast speech the *t* often\ndisappears before another consonant. You are listening for the **length of the\nvowel** and for **where the stress falls**. In *I can fix it* the stress is on\n*fix*; in *I can't fix it* it is on *can't*.\n\n*Can* takes its full sound <span class=\"ipa\">/kæn/</span> back at the end of a\nsentence: *Yes, I **can**.*\n\n**2. *have to* → <span class=\"ipa\">/ˈhæftə/</span>, *has to* → <span class=\"ipa\">/ˈhæstə/</span>.**\n\nBefore another verb, the *v* turns into an *f* — because *t* is voiceless and\nthe *v* follows it round:\n\n| Written | What you actually hear |\n|---|---|\n| I have to go. | <span class=\"ipa\">/aɪ ˈhæftə ˈɡəʊ/</span> |\n| She has to learn. | <span class=\"ipa\">/ʃi ˈhæstə ˈlɜːn/</span> |\n| We had to wait. | <span class=\"ipa\">/wi ˈhætə ˈweɪt/</span> |\n| You don't have to be quick. | <span class=\"ipa\">/jə ˈdəʊnt ˈhæftə bi ˈkwɪk/</span> |\n\n**3. *must* loses its *t* too**, before a consonant: *you must not touch* arrives\nas <span class=\"ipa\">/jə məs nɒt ˈtʌtʃ/</span>.\n\nIn the audio you hear each line twice, and then a test: say whether what you\nhear is **can** or **can't**. Get that one right and you will stop agreeing to\nthings nobody offered.\n",
+   "segments": [
+    {
+     "say": "Pronunciation. Weak can, hard can't, and have to.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 1
+    },
+    {
+     "say": "First, can and can't. In a positive sentence, can is weak and short. In the negative, the vowel is long. Listen to each pair twice.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 2
+    },
+    {
+     "say": "I can fix it.",
+     "voice": "reader"
+    },
+    {
+     "pause": 1
+    },
+    {
+     "say": "I can fix it.",
+     "voice": "reader"
+    },
+    {
+     "pause": 3
+    },
+    {
+     "say": "I can't fix it.",
+     "voice": "reader"
+    },
+    {
+     "pause": 1
+    },
+    {
+     "say": "I can't fix it.",
+     "voice": "reader"
+    },
+    {
+     "pause": 3
+    },
+    {
+     "say": "She can come on Thursday.",
+     "voice": "reader"
+    },
+    {
+     "pause": 1
+    },
+    {
+     "say": "She can come on Thursday.",
+     "voice": "reader"
+    },
+    {
+     "pause": 3
+    },
+    {
+     "say": "She can't come on Thursday.",
+     "voice": "reader"
+    },
+    {
+     "pause": 1
+    },
+    {
+     "say": "She can't come on Thursday.",
+     "voice": "reader"
+    },
+    {
+     "pause": 3
+    },
+    {
+     "pause": 1
+    },
+    {
+     "say": "Do not listen for the T. Listen for the length of the vowel, and for where the stress falls. At the end of a sentence, can takes its full sound back. Listen.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 1.5
+    },
+    {
+     "say": "Yes, I can.",
+     "voice": "reader"
+    },
+    {
+     "pause": 1
+    },
+    {
+     "say": "Yes, I can.",
+     "voice": "reader"
+    },
+    {
+     "pause": 3
+    },
+    {
+     "pause": 1
+    },
+    {
+     "say": "Now have to and has to. Before another verb, the V turns into an F. Listen.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 2
+    },
+    {
+     "say": "I have to go.",
+     "voice": "reader"
+    },
+    {
+     "pause": 1
+    },
+    {
+     "say": "I have to go.",
+     "voice": "reader"
+    },
+    {
+     "pause": 3
+    },
+    {
+     "say": "She has to learn.",
+     "voice": "reader"
+    },
+    {
+     "pause": 1
+    },
+    {
+     "say": "She has to learn.",
+     "voice": "reader"
+    },
+    {
+     "pause": 3
+    },
+    {
+     "say": "We had to wait.",
+     "voice": "reader"
+    },
+    {
+     "pause": 1
+    },
+    {
+     "say": "We had to wait.",
+     "voice": "reader"
+    },
+    {
+     "pause": 3
+    },
+    {
+     "say": "You don't have to be quick.",
+     "voice": "reader"
+    },
+    {
+     "pause": 1
+    },
+    {
+     "say": "You don't have to be quick.",
+     "voice": "reader"
+    },
+    {
+     "pause": 3
+    },
+    {
+     "pause": 1
+    },
+    {
+     "say": "And must loses its T before a consonant. Listen.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 1.5
+    },
+    {
+     "say": "You must not touch it.",
+     "voice": "reader"
+    },
+    {
+     "pause": 1
+    },
+    {
+     "say": "You must not touch it.",
+     "voice": "reader"
+    },
+    {
+     "pause": 3
+    },
+    {
+     "say": "Now the test. You will hear a sentence. Say whether it is can, or can't. Then you will hear the answer.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 2
+    },
+    {
+     "say": "Sentence 1.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 0.4
+    },
+    {
+     "say": "We can replace the screen.",
+     "voice": "reader"
+    },
+    {
+     "pause": 4
+    },
+    {
+     "say": "The answer is can.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 1
+    },
+    {
+     "say": "Sentence 2.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 0.4
+    },
+    {
+     "say": "We can't replace the board.",
+     "voice": "reader"
+    },
+    {
+     "pause": 4
+    },
+    {
+     "say": "The answer is can't.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 1
+    },
+    {
+     "say": "Sentence 3.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 0.4
+    },
+    {
+     "say": "She can open it on Tuesday.",
+     "voice": "reader"
+    },
+    {
+     "pause": 4
+    },
+    {
+     "say": "The answer is can.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 1
+    },
+    {
+     "say": "Sentence 4.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 0.4
+    },
+    {
+     "say": "They can't open a power supply.",
+     "voice": "reader"
+    },
+    {
+     "pause": 4
+    },
+    {
+     "say": "The answer is can't.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 1
+    },
+    {
+     "say": "Sentence 5.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 0.4
+    },
+    {
+     "say": "You can clean the fan with a brush.",
+     "voice": "reader"
+    },
+    {
+     "pause": 4
+    },
+    {
+     "say": "The answer is can.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 1
+    },
+    {
+     "say": "Sentence 6.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 0.4
+    },
+    {
+     "say": "I can't diagnose it without the battery.",
+     "voice": "reader"
+    },
+    {
+     "pause": 4
+    },
+    {
+     "say": "The answer is can't.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 1
+    },
+    {
+     "say": "This is the end of the pronunciation practice.",
+     "voice": "narrator"
+    }
+   ]
+  },
+  {
+   "number": "06",
+   "slug": "comprehension",
+   "title": "Comprehension — a full TOEFL set of ten",
+   "minutes": 45,
+   "sheet": true,
+   "audio": true,
+   "markdown": "### Part A — Multiple choice\n\n> This is a full set of ten, the size of a real TOEFL reading set.\n\n**1. (Factual)** On which days do the students sit at the bench?\n\n- A. Every afternoon.\n- B. Sunday, Tuesday and Thursday.\n- C. Thursday only.\n- D. Whenever a machine arrives.\n\n**2. (Factual)** What does Maysa study?\n\n- A. Engineering.\n- B. Accounting.\n- C. Information systems.\n- D. The passage does not say.\n\n**3. (Negative factual)** According to the passage, all of the following are rules at the bench EXCEPT\n\n- A. unplug the machine first.\n- B. never open a power supply.\n- C. put every screw in a labelled box.\n- D. finish each machine on the day it arrives.\n\n**4. (Vocabulary in context)** The word \"dull\" in the passage is closest in meaning to\n\n- A. ordinary and not interesting.\n- B. dark.\n- C. difficult.\n- D. dangerous.\n\n**5. (Reference)** In the sentence, a long one in a short hole will go through something, the words \"a long one\" refer to\n\n- A. a long box.\n- B. a long screw.\n- C. a long screwdriver.\n- D. a long wait.\n\n**6. (Inference)** It can be inferred from the passage that the log is kept mainly because\n\n- A. the college requires a written record.\n- B. it proves how many machines they have mended.\n- C. patterns in it tell them what to check first next time.\n- D. they need it to claim on the warranty.\n\n**7. (Sentence insertion)** Look at the four letters **[A] [B] [C] [D]** in the passage. Where would this sentence best fit?\n\n> *Not every answer the bench gives is a repair.*\n\n\n- A. At **[A]**\n- B. At **[B]**\n- C. At **[C]**\n- D. At **[D]**\n\n**8. (Purpose of a paragraph)** Why does the writer mention the capacitor?\n\n- A. To show how much Maysa knows about electronics.\n- B. To explain why one of the rules is absolute.\n- C. To warn the reader against buying cheap power supplies.\n- D. To describe how a laptop is built.\n\n**9. (Purpose of the whole passage)** What is the writer's main purpose in the whole passage?\n\n- A. To teach the reader how to repair a laptop.\n- B. To describe how a small student repair bench works, and the judgement it takes to run one.\n- C. To argue that the college should pay for a workshop.\n- D. To compare two ways of cooling a computer.\n\n**10. (The writer's attitude)** Which word best describes the writer's attitude towards Maysa and the bench?\n\n- A. Sentimental.\n- B. Admiring.\n- C. Critical.\n- D. Amused.\n\n### Part C — Fill in the blanks\n\nUse these words. There are **two extra words** you will not need.\n\n> *capacitor · fault · warranty · component · log · dust · diagnose · static · bench*\n\n1. A \\_\\_\\_\\_\\_\\_\\_\\_ can hold a charge for days after the plug is pulled.\n2. Touch the metal frame first, so the \\_\\_\\_\\_\\_\\_\\_\\_ on your hands goes somewhere harmless.\n3. The fan was packed with \\_\\_\\_\\_\\_\\_\\_\\_.\n4. Nine of the last twenty laptops had the same \\_\\_\\_\\_\\_\\_\\_\\_.\n5. They keep a \\_\\_\\_\\_\\_\\_\\_\\_, and every machine gets a line in it.\n6. A machine still under \\_\\_\\_\\_\\_\\_\\_\\_ should not be opened.\n7. Put the screwdriver down before you touch a \\_\\_\\_\\_\\_\\_\\_\\_.\n\n### Part D — Summary\n\nWrite the story in **two sentences only**. Use *must* or *must not* once, and *can* or *cannot* once.\n\n> Sentence 1 — what the rules at the bench are for: \\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\n> Sentence 2 — what the bench can and cannot mend: \\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\n",
+   "segments": [
+    {
+     "say": "Now get ready to answer the questions about the passage. There are ten questions. You may look at the passage while you answer.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 2
+    },
+    {
+     "say": "Question 1.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 0.6
+    },
+    {
+     "say": "On which days do the students sit at the bench?",
+     "voice": "narrator"
+    },
+    {
+     "pause": 0.8
+    },
+    {
+     "say": "A. Every afternoon.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 0.5
+    },
+    {
+     "say": "B. Sunday, Tuesday and Thursday.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 0.5
+    },
+    {
+     "say": "C. Thursday only.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 0.5
+    },
+    {
+     "say": "D. Whenever a machine arrives.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 0.5
+    },
+    {
+     "pause": 12
+    },
+    {
+     "say": "Question 2.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 0.6
+    },
+    {
+     "say": "What does Maysa study?",
+     "voice": "narrator"
+    },
+    {
+     "pause": 0.8
+    },
+    {
+     "say": "A. Engineering.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 0.5
+    },
+    {
+     "say": "B. Accounting.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 0.5
+    },
+    {
+     "say": "C. Information systems.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 0.5
+    },
+    {
+     "say": "D. The passage does not say.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 0.5
+    },
+    {
+     "pause": 12
+    },
+    {
+     "say": "Question 3.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 0.6
+    },
+    {
+     "say": "According to the passage, all of the following are rules at the bench EXCEPT",
+     "voice": "narrator"
+    },
+    {
+     "pause": 0.8
+    },
+    {
+     "say": "A. unplug the machine first.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 0.5
+    },
+    {
+     "say": "B. never open a power supply.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 0.5
+    },
+    {
+     "say": "C. put every screw in a labelled box.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 0.5
+    },
+    {
+     "say": "D. finish each machine on the day it arrives.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 0.5
+    },
+    {
+     "pause": 12
+    },
+    {
+     "say": "Question 4.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 0.6
+    },
+    {
+     "say": "The word \"dull\" in the passage is closest in meaning to",
+     "voice": "narrator"
+    },
+    {
+     "pause": 0.8
+    },
+    {
+     "say": "A. ordinary and not interesting.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 0.5
+    },
+    {
+     "say": "B. dark.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 0.5
+    },
+    {
+     "say": "C. difficult.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 0.5
+    },
+    {
+     "say": "D. dangerous.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 0.5
+    },
+    {
+     "pause": 12
+    },
+    {
+     "say": "Question 5.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 0.6
+    },
+    {
+     "say": "In the sentence, a long one in a short hole will go through something, the words \"a long one\" refer to",
+     "voice": "narrator"
+    },
+    {
+     "pause": 0.8
+    },
+    {
+     "say": "A. a long box.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 0.5
+    },
+    {
+     "say": "B. a long screw.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 0.5
+    },
+    {
+     "say": "C. a long screwdriver.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 0.5
+    },
+    {
+     "say": "D. a long wait.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 0.5
+    },
+    {
+     "pause": 12
+    },
+    {
+     "say": "Question 6.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 0.6
+    },
+    {
+     "say": "It can be inferred from the passage that the log is kept mainly because",
+     "voice": "narrator"
+    },
+    {
+     "pause": 0.8
+    },
+    {
+     "say": "A. the college requires a written record.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 0.5
+    },
+    {
+     "say": "B. it proves how many machines they have mended.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 0.5
+    },
+    {
+     "say": "C. patterns in it tell them what to check first next time.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 0.5
+    },
+    {
+     "say": "D. they need it to claim on the warranty.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 0.5
+    },
+    {
+     "pause": 12
+    },
+    {
+     "say": "Question seven.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 0.6
+    },
+    {
+     "say": "Look at the four letters [A] [B] [C] [D] in the passage. Where would this sentence best fit?",
+     "voice": "narrator"
+    },
+    {
+     "pause": 0.8
+    },
+    {
+     "say": "Not every answer the bench gives is a repair.",
+     "voice": "reader"
+    },
+    {
+     "pause": 1
+    },
+    {
+     "say": "A. At [A]",
+     "voice": "narrator"
+    },
+    {
+     "pause": 0.5
+    },
+    {
+     "say": "B. At [B]",
+     "voice": "narrator"
+    },
+    {
+     "pause": 0.5
+    },
+    {
+     "say": "C. At [C]",
+     "voice": "narrator"
+    },
+    {
+     "pause": 0.5
+    },
+    {
+     "say": "D. At [D]",
+     "voice": "narrator"
+    },
+    {
+     "pause": 0.5
+    },
+    {
+     "pause": 20
+    },
+    {
+     "say": "Question eight.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 0.6
+    },
+    {
+     "say": "Why does the writer mention the capacitor?",
+     "voice": "narrator"
+    },
+    {
+     "pause": 0.8
+    },
+    {
+     "say": "A. To show how much Maysa knows about electronics.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 0.5
+    },
+    {
+     "say": "B. To explain why one of the rules is absolute.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 0.5
+    },
+    {
+     "say": "C. To warn the reader against buying cheap power supplies.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 0.5
+    },
+    {
+     "say": "D. To describe how a laptop is built.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 0.5
+    },
+    {
+     "pause": 15
+    },
+    {
+     "say": "Question nine.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 0.6
+    },
+    {
+     "say": "What is the writer's main purpose in the whole passage?",
+     "voice": "narrator"
+    },
+    {
+     "pause": 0.8
+    },
+    {
+     "say": "A. To teach the reader how to repair a laptop.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 0.5
+    },
+    {
+     "say": "B. To describe how a small student repair bench works, and the judgement it takes to run one.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 0.5
+    },
+    {
+     "say": "C. To argue that the college should pay for a workshop.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 0.5
+    },
+    {
+     "say": "D. To compare two ways of cooling a computer.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 0.5
+    },
+    {
+     "pause": 20
+    },
+    {
+     "say": "Question ten.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 0.6
+    },
+    {
+     "say": "Which word best describes the writer's attitude towards Maysa and the bench?",
+     "voice": "narrator"
+    },
+    {
+     "pause": 0.8
+    },
+    {
+     "say": "A. Sentimental.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 0.5
+    },
+    {
+     "say": "B. Admiring.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 0.5
+    },
+    {
+     "say": "C. Critical.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 0.5
+    },
+    {
+     "say": "D. Amused.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 0.5
+    },
+    {
+     "pause": 15
+    },
+    {
+     "pause": 1.5
+    },
+    {
+     "say": "Last task. Write the story in two sentences only. Use must or must not once, and can or cannot once. Sentence one: what the rules at the bench are for. Sentence two: what the bench can and cannot mend.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 90
+    },
+    {
+     "say": "This is the end of the questions.",
+     "voice": "narrator"
+    }
+   ]
+  },
+  {
+   "number": "07",
+   "slug": "true-false",
+   "title": "True / false",
+   "minutes": 15,
+   "sheet": true,
+   "audio": true,
+   "markdown": "### Part B — True / False\n\nWrite **T** or **F**. If it is false, write the correct sentence.\n\n1. Maysa trained as an engineer. \\_\\_\\_\\_\n2. You must take the battery out if it comes out. \\_\\_\\_\\_\n3. You have to work quickly at the bench. \\_\\_\\_\\_\n4. A board with a burnt track can be mended at the bench. \\_\\_\\_\\_\n5. The log showed that nine of twenty overheating laptops shared a fault. \\_\\_\\_\\_\n6. Maysa says better light matters less than a soldering station. \\_\\_\\_\\_\n",
+   "segments": [
+    {
+     "say": "True or false. You will hear six sentences. Say true or false. If the sentence is false, say the correct sentence.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 2
+    },
+    {
+     "say": "Sentence 1.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 0.5
+    },
+    {
+     "say": "Maysa trained as an engineer.",
+     "voice": "reader"
+    },
+    {
+     "pause": 8
+    },
+    {
+     "say": "Sentence 2.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 0.5
+    },
+    {
+     "say": "You must take the battery out if it comes out.",
+     "voice": "reader"
+    },
+    {
+     "pause": 8
+    },
+    {
+     "say": "Sentence 3.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 0.5
+    },
+    {
+     "say": "You have to work quickly at the bench.",
+     "voice": "reader"
+    },
+    {
+     "pause": 8
+    },
+    {
+     "say": "Sentence 4.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 0.5
+    },
+    {
+     "say": "A board with a burnt track can be mended at the bench.",
+     "voice": "reader"
+    },
+    {
+     "pause": 8
+    },
+    {
+     "say": "Sentence 5.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 0.5
+    },
+    {
+     "say": "The log showed that nine of twenty overheating laptops shared a fault.",
+     "voice": "reader"
+    },
+    {
+     "pause": 8
+    },
+    {
+     "say": "Sentence 6.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 0.5
+    },
+    {
+     "say": "Maysa says better light matters less than a soldering station.",
+     "voice": "reader"
+    },
+    {
+     "pause": 8
+    },
+    {
+     "say": "This is the end of the true or false questions.",
+     "voice": "narrator"
+    }
+   ]
+  },
+  {
+   "number": "08",
+   "slug": "speaking",
+   "title": "Speaking",
+   "minutes": 25,
+   "sheet": true,
+   "audio": true,
+   "markdown": "### 5.1 Speaking (record each answer, 45 seconds)\n\n1. Tell the story of the bench in your own words. Use must, must not and can.\n2. Give three rules for something you know how to do. Use must, must not and should.\n3. Describe something you had to learn because nobody else would do it.\n\n**Useful sentence starters:**\n\n- *Before you \\_\\_\\_\\_, you must \\_\\_\\_\\_.*\n- *You must never \\_\\_\\_\\_, because \\_\\_\\_\\_.*\n- *You don't have to \\_\\_\\_\\_, but you should \\_\\_\\_\\_.*\n- *I had to \\_\\_\\_\\_, because \\_\\_\\_\\_.*\n- *We can \\_\\_\\_\\_ here, but we can't \\_\\_\\_\\_.*\n",
+   "segments": [
+    {
+     "say": "Speaking practice. For each question you will have fifteen seconds to prepare and forty-five seconds to speak. Record your answer on your phone.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 2
+    },
+    {
+     "say": "Speaking question 1.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 0.6
+    },
+    {
+     "say": "Tell the story of the bench in your own words. Use must, must not and can.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 1
+    },
+    {
+     "say": "Preparation time. Fifteen seconds.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 15
+    },
+    {
+     "say": "Begin speaking now.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 45
+    },
+    {
+     "say": "Stop speaking.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 2
+    },
+    {
+     "say": "Speaking question 2.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 0.6
+    },
+    {
+     "say": "Give three rules for something you know how to do. Use must, must not and should.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 1
+    },
+    {
+     "say": "Preparation time. Fifteen seconds.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 15
+    },
+    {
+     "say": "Begin speaking now.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 45
+    },
+    {
+     "say": "Stop speaking.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 2
+    },
+    {
+     "say": "Speaking question 3.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 0.6
+    },
+    {
+     "say": "Describe something you had to learn because nobody else would do it.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 1
+    },
+    {
+     "say": "Preparation time. Fifteen seconds.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 15
+    },
+    {
+     "say": "Begin speaking now.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 45
+    },
+    {
+     "say": "Stop speaking.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 2
+    },
+    {
+     "say": "This is the end of the speaking practice.",
+     "voice": "narrator"
+    }
+   ]
+  },
+  {
+   "number": "09",
+   "slug": "writing",
+   "title": "Writing — How to Do It Properly",
+   "minutes": 35,
+   "sheet": true,
+   "audio": false,
+   "markdown": "### 5.2 Writing — \"How to Do It Properly\" (14–16 sentences)\n\n**Model answer (copy the shape, change the words):**\n\n> I want to explain how to look after a laptop that has to work in a hot room. First, you must keep the air moving. You should never stand it on a bed or a cushion, because the fan takes its air from underneath and soft things close the hole. Second, you have to clean it. Once or twice a year you should open the bottom panel and take the dust out of the fan with a soft brush. You must unplug it and take out the battery before you start, and you must not touch a component before you have touched the metal frame, because the static on your hands can kill a chip you cannot even see. You do not have to be fast. You do have to put every screw back in the hole it came out of, so label the boxes. If the machine is still under warranty you must not open it at all; you should take it back instead, because opening it ends the cover. I have had this laptop for three years and I have known about its fan since the first summer. It overheated twice before I learned any of this. It has not overheated since.\n\n**Checklist before you send it:**\n\n- [ ] I used **must** and **must not** correctly, for rules and for things that are forbidden.\n- [ ] I used **do not have to** at least once, and it means *not necessary*.\n- [ ] I used **should** at least **three** times, for advice.\n- [ ] I used **can** or **cannot** at least **twice**, for what is possible.\n- [ ] I used a state verb in the present perfect **simple**, not continuous.\n- [ ] I used at least **5 new words** from Session 2.\n- [ ] I used at least **2 words** from Lesson 5 or Lesson 6.\n- [ ] My text has 14–16 sentences.\n"
+  },
+  {
+   "number": "10",
+   "slug": "review",
+   "title": "Review",
+   "minutes": 30,
+   "sheet": true,
+   "audio": true,
+   "markdown": "### 6.1 Listen again (no text)\n\n1. Name three rules from the list on the cupboard door.\n2. Why does Maysa write the reason on the card when the answer is no?\n\n### 6.2 Mini-quiz (12 marks)\n\n1. Which modal gives advice rather than an order? \\_\\_\\_\\_\\_\\_\\_\\_\n2. *Must* has no past tense. What do you use instead? \\_\\_\\_\\_\\_\\_\\_\\_\n3. What is the difference between *must not* and *do not have to*? \\_\\_\\_\\_\\_\\_\\_\\_\n4. In speech, *have to* before another verb sounds like \\_\\_\\_\\_\\_\\_\\_\\_\n5. The opposite of *overheat* is \\_\\_\\_\\_\\_\\_\\_\\_\n6. To find out what is wrong before you mend it is to \\_\\_\\_\\_\\_\\_\\_\\_\n7. A written record, kept in order, of what was done is a \\_\\_\\_\\_\\_\\_\\_\\_\n8. Name two verbs that never take the continuous. \\_\\_\\_\\_\\_\\_\\_\\_\n9. Write a sentence with *must not* about something dangerous.\n10. Write a sentence with *had to* about last week.\n11. Write one sentence with **warranty**.\n12. Tell the story of the passage in two sentences, from memory.\n\n### 6.3 Lesson 7 self-report\n\n| Question | Answer |\n|---|---|\n| Minutes studied this week | |\n| Hardest part (listening / reading / vocabulary / grammar / speaking / writing) | |\n| Modal sentences I can now make without thinking | |\n| Words from Lesson 5 I have forgotten | |\n| One thing I want to repeat next week | |\n",
+   "segments": [
+    {
+     "say": "Review. Listen to the passage again, with no text, and answer these questions.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 2
+    },
+    {
+     "say": "Question one. Name three rules from the list on the cupboard door.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 10
+    },
+    {
+     "say": "Question two. Why does Maysa write the reason on the card when the answer is no?",
+     "voice": "narrator"
+    },
+    {
+     "pause": 10
+    },
+    {
+     "pause": 1.5
+    },
+    {
+     "say": "Now the mini-quiz. Twelve marks. Answer in the silence after each question.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 2
+    },
+    {
+     "say": "One. Which modal gives advice rather than an order?",
+     "voice": "narrator"
+    },
+    {
+     "pause": 6
+    },
+    {
+     "say": "Two. Must has no past tense. What do you use instead?",
+     "voice": "narrator"
+    },
+    {
+     "pause": 6
+    },
+    {
+     "say": "Three. What is the difference between must not, and do not have to?",
+     "voice": "narrator"
+    },
+    {
+     "pause": 12
+    },
+    {
+     "say": "Four. In speech, have to before another verb sounds like",
+     "voice": "narrator"
+    },
+    {
+     "pause": 6
+    },
+    {
+     "say": "Five. The opposite of overheat is",
+     "voice": "narrator"
+    },
+    {
+     "pause": 6
+    },
+    {
+     "say": "Six. To find out what is wrong before you mend it is to",
+     "voice": "narrator"
+    },
+    {
+     "pause": 6
+    },
+    {
+     "say": "Seven. A written record, kept in order, of what was done is a",
+     "voice": "narrator"
+    },
+    {
+     "pause": 6
+    },
+    {
+     "say": "Eight. Name two verbs that never take the continuous.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 10
+    },
+    {
+     "say": "Nine. Write a sentence with must not about something dangerous.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 15
+    },
+    {
+     "say": "Ten. Write a sentence with had to about last week.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 15
+    },
+    {
+     "say": "Eleven. Write one sentence with warranty.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 15
+    },
+    {
+     "say": "Twelve. Tell the story of the passage in two sentences, from memory.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 20
+    },
+    {
+     "say": "This is the end of the review.",
+     "voice": "narrator"
+    }
+   ]
+  },
+  {
+   "number": "11",
+   "slug": "answer-key",
+   "title": "Answer key and teacher notes",
+   "minutes": 10,
+   "sheet": true,
+   "audio": false,
+   "css_id": "answer-key",
+   "markdown": "**Listening:** L1 — under the stairs in the engineering building; two students, on Sunday, Tuesday and Thursday afternoons · L2 — learning what she must not touch · L3 — a capacitor inside can hold a charge for days after the plug is pulled · L4 — a fan packed with dust\n\n**Part A (MCQ):** 1-B · 2-C · 3-D · 4-A · 5-B · 6-C · 7-C · 8-B · 9-B · 10-B\n\n*Why 7 is **[C]***: the sentence says that some of what the bench produces is not a repair, and only the paragraph after **[C]** is about the machines they turn away — the burnt board, the one under warranty, the card with the reason on it. The paragraph after **[A]** is Maysa's own history, after **[B]** the rules of care, after **[D]** the log.\n\n*Why 8 is **B***: the capacitor is given so that the rule stops being arbitrary. Every other rule on the list can be bent; that one cannot, and the capacitor is why. It is not there to show off her knowledge or to sell anything.\n\n*Why 9 is **B***: the passage teaches no repair you could actually carry out, asks the college for nothing, and compares nothing. It describes how the bench is run, and most of its detail is about judgement — what to check first, what to refuse.\n\n*Why 10 is **B, admiring***: not *sentimental*, which is the trap. Sentimental writing would call her brave or the bench a lifeline. This writer gives her the last word, reports the rules without comment, and records that only half of the machines go away working. Admiration shown by accurate detail is still admiration, and TOEFL wants the stronger, narrower word.\n\n**Part B (True/False):**\n\n1. F — She studies information systems, and had to learn repair herself.\n2. T\n3. F — You do not have to be quick; you do have to be able to put it back together.\n4. F — It cannot be mended there. A broken screen can be, if the part exists.\n5. T\n6. F — She says it must have better light before anything else.\n\n**Part C (Fill in the blanks):** 1. capacitor · 2. static · 3. dust · 4. fault · 5. log · 6. warranty · 7. component\n*(Extra words: diagnose, bench)*\n\n**2.4 A (Opposites):** 1. cool down · 2. keep · 3. dangerous · 4. unusual / interesting · 5. out of warranty\n\n**2.4 B (Odd one out):** 1. warranty (the others are things on the bench) · 2. diagnose (the others are parts) · 3. log (the others are things that build up or come out of a machine)\n\n**Come back to (simple or continuous):** 1. has been — *be* is a state verb · 2. have been keeping · 3. has known — *know* is a state verb · 4. has been cleaning\n\n**3.6 A (choose the modal):** 1. must · 2. can · 3. should · 4. had to · 5. Could\n\n**3.6 B (*must not* or *do not have to*):** 1. must not · 2. do not have to · 3. must not · 4. do not have to\n\n**3.6 C (past):** 1. had to replace · 2. could repair · 3. should have checked\n\n**3.6 D (simple or continuous):** 1. has been — state verb · 2. have been repairing · 3. has known — state verb · 4. has been cleaning\n\n**Mini-quiz:** 1. should · 2. had to · 3. *must not* is forbidden; *do not have to* is simply not necessary · 4. *hafta* · 5. cool down · 6. diagnose · 7. log · 8. any two of: be, know, own, understand, believe, need, want, like, mean, belong, cost, seem · 9–12. teacher judgement\n\n### Teacher Notes {: #teacher-notes }\n\n**What changed from Lesson 6, and what deliberately did not.** 510 words against Lesson 6's 504 — the plateau is holding, and it is meant to. The difficulty this week is in the grammar and in the vocabulary, which is the most technical the course has used: *capacitor*, *static*, *component*, *diagnose*, *warranty*. The question set is untouched for the second lesson running. By now she should not have to read the question labels at all.\n\n**The one real difficulty.** Section 3.5, and nothing else comes close. **must not** and **do not have to** look like a negative pair and are not: one forbids, the other releases. Arabic marks these with different constructions, so the error is not a translation error — it is a false friend created by English's own symmetry. The passage was written so that both land within four lines of each other (*you must not open a power supply* / *you do not have to be quick*), which gives you a natural place to stop and ask her which is which. If only one thing survives this lesson, make it that.\n\n**The second difficulty, which is quieter.** *Must* has no past. Students who have learned *must* well will write *yesterday I must replace the fan* for months. 3.6 C drills it; so does the speaking question about something she had to learn.\n\n**Why the pronunciation part is the one to protect.** *Can* and *can't* are the only pair in English where mishearing one word reverses the whole sentence, and the difference is not the *t* — in connected speech the *t* usually disappears before a consonant. It is the vowel length and the stress: */kən/* unstressed against */kɑːnt/* long and stressed. A student listening for the *t* will keep agreeing to things nobody offered. The *hafta* / *hasta* section is easier and pays off immediately in listening.\n\n**On the \"Come back to\" section.** Lesson 5 taught the present perfect continuous and did not say that a whole family of verbs refuses it. *I have been knowing him for a year* is a very durable error. The list is short enough to learn outright, and the passage supplies two natural models in its first paragraph — *it has been there for two years* — which is a state verb in the simple, exactly where a student would want the continuous.\n\n**Why this story.** Modals are the grammar of rules, permission and judgement, so the passage had to be somewhere with rules. A repair bench gives all five modals real work in one setting: what you *can* do, what you *could* do with more, what you *should* do, what you *must* do, what you *must not* do, and what somebody *had to* learn. It is also the most technical passage so far, which is where the difficulty has moved now that the length has stopped moving.\n\n**Success criteria for Lesson 7.** The student should be able to:\n\n- answer L1–L4 correctly on the second hearing;\n- hear *we can't replace that* and not write *we can*;\n- choose between *must not* and *do not have to* and explain the difference;\n- use *had to* for past necessity, never *must*;\n- use *should have* + past participle for advice that was not taken;\n- use a state verb in the present perfect simple without reaching for the continuous;\n- use 10 of the 14 key words in her own sentence;\n- write 14 sentences of instructions with fewer than 4 modal errors.\n\n**If it is too easy:** add *may*, *might* and *be able to* to the family, and ask her to rewrite the bench's rules as polite requests for a customer-facing help desk.\n**If it is too hard:** teach *must* / *must not* / *should* only this week and leave *have to* for a second pass. Do not cut part 05, which is worth more than any of the written work here.\n\n**A note on spaced recall.** `03-vocabulary.mp3` ends with five Lesson 5 words — *battery, repair, install, program, delete*. Lesson 6 recalled Lesson 4, so the two-lesson gap holds. Lesson 6's words are due back in Lesson 8.\n\n**A note on the games.** Five again: crossword, word search, memory pairs, criss-cross and cryptogram, all built from this lesson's own vocabulary. The cryptogram is worth setting as the last one, a week after the lesson: the words are long and technical this time (*capacitor*, *screwdriver*, *component*), so the spelling drill is doing real work.\n"
+  },
+  {
+   "number": "12",
+   "slug": "passage-slow",
+   "title": "Passage, extra slow",
+   "minutes": 10,
+   "sheet": false,
+   "audio": true,
+   "segments": [
+    {
+     "say": "Slow version. The passage, read slowly, one time.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 2
+    },
+    {
+     "say": "The bench is under the stairs in the engineering building, between a window and a cupboard, and it has been there for two years. Two students sit at it on Sunday, Tuesday and Thursday afternoons. Anyone in the college can bring a machine to them, and about half of the machines go away working.\n\nMaysa started it in her second year. She is not an engineer either — she studies information systems — but she had to learn, because nobody else was going to repair the department's laptops and she could not work without one. She can change a screen now in forty minutes. She says the first year was mostly learning what she must not touch.\n\nThere is a list of rules taped to the cupboard door, and the first three are about electricity. You must unplug the machine. You must take the battery out if the battery comes out. You must not open a power supply, ever, because a capacitor inside it can hold a charge for days after the plug is pulled, and nothing on this bench is worth that.\n\nAfter that the rules are about care rather than danger. Put the screwdriver down and touch the metal frame before you touch a component, so that the static on your hands goes somewhere harmless. Put every screw in a labelled box, because the screws are not all the same length and a long one in a short hole will go through something. You do not have to be quick. You do have to be able to put it back together.\n\nMost faults are dull to diagnose, which Maysa says is the good news. A laptop that overheats and shuts down usually has a fan packed with dust; you can clean it with a brush and some air, and it will run for another year. A machine that will not start on battery often needs nothing but a new battery.\n\nSome things cannot be mended at a bench under the stairs, and the second skill is knowing which. A broken screen can be replaced if the part exists. A board with a burnt track cannot, not here. A machine still under warranty should not be opened at all, because opening it ends the warranty. When the answer is no, Maysa writes the reason on a card, because a person who knows why can decide what to do next.\n\nThey keep a log. Every machine gets a line: what came in, what they tried, what it needed, whether it worked. The log is how they found out that nine of the last twenty overheating laptops had the same fault, and that they should have checked the fan first every single time.\n\nSamir asked her last month what the bench still needs. She said it must have better light before anything else, that they should have a soldering station, and that they could do twice as much with a second person on Thursdays. \"But you can do a great deal,\" she said, \"with a brush and a list of rules.\"",
+     "voice": "slow"
+    }
+   ]
+  }
+ ]
+}

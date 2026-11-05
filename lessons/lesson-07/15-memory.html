@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Memory pairs - Lesson 7 — The Bench by the Stairs</title>
+<meta name="theme-color" content="#15607a">
+<style>
+:root{--ink:#1a1d21;--muted:#5d646e;--rule:#dfe3e8;--accent:#15607a;
+--wash:#f1f6f8;--bg:#fff;--ok:#1d6b45;--bad:#a4302a}
+@media(prefers-color-scheme:dark){:root{--ink:#e9edf1;--muted:#9aa4b0;
+--rule:#2b3138;--accent:#6fc2de;--wash:#1a2026;--bg:#10151a;--ok:#6fd19d;--bad:#e8857f}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);padding:16px;
+font:16px/1.5 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+.wrap{max-width:46rem;margin:0 auto}
+h1{font-size:20px;margin:0 0 2px;color:var(--accent)}
+.sub{color:var(--muted);font-size:14px;margin:0 0 14px}
+.bar{display:flex;gap:8px;flex-wrap:wrap;margin:14px 0}
+button{font:inherit;font-size:14px;padding:7px 14px;border-radius:99px;
+border:1px solid var(--accent);background:transparent;color:var(--accent);cursor:pointer;min-height:38px}
+button.primary{background:var(--accent);color:#fff}
+.msg{min-height:22px;font-size:14px;font-weight:600;margin-bottom:6px}
+.msg.good{color:var(--ok)}.msg.bad{color:var(--bad)}
+table.grid{border-collapse:collapse;margin:0 auto 6px}
+table.grid td{padding:0;border:0}
+.cell{width:var(--sq);height:var(--sq);position:relative;border:1px solid var(--rule);
+background:var(--wash)}
+.cell.block{border:0;background:transparent}
+.cell input{width:100%;height:100%;border:0;background:transparent;text-align:center;
+font:600 calc(var(--sq)*0.52)/1 inherit;color:var(--ink);text-transform:uppercase;padding:0}
+.cell input:focus{outline:2px solid var(--accent);outline-offset:-2px}
+.cell.right input{color:var(--ok)}
+.cell.wrong input{color:var(--bad)}
+.num{position:absolute;top:1px;left:2px;font-size:calc(var(--sq)*0.28);color:var(--muted);
+pointer-events:none}
+.clues{display:grid;grid-template-columns:1fr;gap:18px;margin-top:18px}
+@media(min-width:620px){.clues{grid-template-columns:1fr 1fr}}
+.clues h2{font-size:14px;text-transform:uppercase;letter-spacing:.05em;color:var(--muted);
+margin:0 0 6px}
+ol.clue{margin:0;padding-left:0;list-style:none}
+ol.clue li{margin-bottom:6px;font-size:14.5px;display:flex;gap:7px}
+ol.clue b{color:var(--accent);min-width:1.6em;text-align:right}
+ol.clue li.done{color:var(--muted);text-decoration:line-through}
+.ar{font-size:13px;color:var(--muted)}
+.ws td{border:0}
+.ws .cell{background:transparent;border:0;display:flex;align-items:center;
+justify-content:center;font-weight:600;font-size:calc(var(--sq)*0.5);cursor:pointer;
+user-select:none;-webkit-user-select:none;border-radius:4px}
+.ws .cell.sel{background:var(--accent);color:#fff}
+.ws .cell.found{background:var(--wash);color:var(--ok)}
+.words{display:flex;flex-wrap:wrap;gap:6px 14px;margin-top:14px}
+.words span{font-size:14.5px}
+.words span.found{color:var(--muted);text-decoration:line-through}
+.foot{margin-top:26px;border-top:1px solid var(--rule);padding-top:10px;
+font-size:13px;color:var(--muted)}
+.foot a{color:var(--accent)}
+/* memory pairs */
+.modes{display:inline-flex;border:1px solid var(--accent);border-radius:99px;overflow:hidden}
+.modes button{border:0;border-radius:0;padding:7px 15px}
+.modes button+button{border-left:1px solid var(--accent)}
+.modes button.on{background:var(--accent);color:#fff}
+.stat{font-size:14px;color:var(--muted);margin:12px 0 0}
+.stat b{color:var(--ink)}
+.mem{display:grid;grid-template-columns:repeat(4,1fr);gap:7px;margin-top:14px}
+@media(min-width:560px){.mem{grid-template-columns:repeat(5,1fr);gap:10px}}
+.card{position:relative;aspect-ratio:1;border:0;padding:0;background:none;cursor:pointer;
+min-height:0;perspective:700px}
+.card .in{position:absolute;inset:0;transition:transform .32s;transform-style:preserve-3d}
+.card.up .in{transform:rotateY(180deg)}
+.card .face{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;
+flex-direction:column;gap:3px;text-align:center;padding:5px;border:1px solid var(--rule);
+border-radius:9px;overflow:hidden;backface-visibility:hidden;-webkit-backface-visibility:hidden}
+.card .back{background:var(--wash);color:var(--accent);font:700 19px/1 inherit}
+.card .front{background:var(--bg);color:var(--ink);transform:rotateY(180deg);
+font-size:clamp(9.5px,2.5vw,12.5px);line-height:1.25;overflow-wrap:anywhere}
+.card .front .w{font-weight:700;font-size:clamp(12px,3.2vw,16px);color:var(--accent)}
+.card.done .face{border-color:var(--ok)}
+.card.done .front{color:var(--ok)}
+.card.done .front .w{color:var(--ok)}
+.card.done .ic{color:var(--ok)}
+.card.done{cursor:default}
+.ic{width:48%;height:auto;max-height:54%;color:var(--accent)}
+/* criss-cross */
+.arclue{direction:rtl;unicode-bidi:isolate;font-size:15.5px}
+.bank{display:flex;flex-wrap:wrap;gap:6px 9px;margin-top:10px}
+.bank span{border:1px solid var(--rule);border-radius:99px;padding:3px 11px;font-size:14px}
+.bank span.found{color:var(--muted);text-decoration:line-through;border-style:dashed}
+/* cryptogram */
+.cg{display:flex;flex-wrap:wrap;gap:15px 22px;margin-top:4px}
+.cw{display:flex;flex-direction:column;gap:5px}
+.cw .cl{font-size:13px;color:var(--muted);max-width:22rem}
+.cw.done .cl{color:var(--ok)}
+.cw .row{display:flex;gap:3px}
+.bx{width:var(--sq);display:flex;flex-direction:column;align-items:center;gap:2px}
+.bx input{width:100%;height:var(--sq);border:1px solid var(--rule);
+border-bottom:2px solid var(--accent);border-radius:4px 4px 0 0;background:var(--wash);
+text-align:center;color:var(--ink);font:600 calc(var(--sq)*0.5)/1 inherit;
+text-transform:uppercase;padding:0}
+.bx input:focus{outline:2px solid var(--accent);outline-offset:-2px}
+.bx.given input{background:transparent;border-bottom-color:var(--rule);color:var(--muted)}
+.bx.right input{color:var(--ok)}
+.bx.wrong input{color:var(--bad)}
+.bx .cph{font-size:calc(var(--sq)*0.36);color:var(--muted)}
+.keytab{display:flex;flex-wrap:wrap;gap:4px;margin-top:6px}
+.keytab span{border:1px solid var(--rule);border-radius:5px;padding:2px 7px;
+font-size:12.5px;color:var(--muted)}
+.keytab span b{color:var(--accent)}
+
+:root{--sq:min(8.6vw, 34px)}</style>
+</head>
+<body><div class="wrap">
+<h1>Memory pairs</h1>
+<p class="sub">Lesson 7 — The Bench by the Stairs &middot; 10 pairs a round, drawn from this lesson's 19 words. 10 of them have a picture.</p>
+<div class="bar">
+  <div class="modes" id="modes">
+    <button data-mode="icons" type="button">Icons</button>
+    <button data-mode="meanings" type="button">Meanings</button>
+    <button data-mode="mixed" class="on" type="button">Mixed</button>
+  </div>
+  <button id="again" type="button">New game</button>
+</div>
+<div class="msg" id="msg"></div>
+<div class="mem" id="board"></div>
+<p class="stat" id="stat"></p>
+<p class="sub" style="margin-top:14px">Turn over two cards. A word and its
+drawing, or a word and its meaning, stay face up. Everything else turns back.</p>
+<p class="foot">Every word here is from this lesson. &nbsp;
+<a href="README.md">Back to the lesson</a></p>
+</div>
+<script>
+const POOL = [{"w": "bench", "m": "the long strong table you work at with your hands", "i": "<svg class=\"ic\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M2.5 12h19\"/><path d=\"M5 12v8.5\"/><path d=\"M19 12v8.5\"/><path d=\"M5 16.6h14\"/><rect x=\"8\" y=\"7.4\" width=\"8\" height=\"4.6\" rx=\"1\"/></svg>"}, {"w": "screwdriver", "m": "the tool you turn screws with", "i": "<svg class=\"ic\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><rect x=\"9.4\" y=\"2.5\" width=\"5.2\" height=\"6\" rx=\"1.7\"/><path d=\"M12 8.5v8\"/><path d=\"M10.6 16.5h2.8L12 21.2z\"/></svg>"}, {"w": "fault", "m": "the thing that is wrong with a machine", "i": "<svg class=\"ic\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M12 3.8 21.6 20.2H2.4z\"/><path d=\"M12 9.6v4.8\"/><circle cx=\"12\" cy=\"17.4\" r=\".9\"/></svg>"}, {"w": "diagnose", "m": "to find out what is wrong, before you try to mend it", "i": ""}, {"w": "component", "m": "one separate part inside a machine", "i": "<svg class=\"ic\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><rect x=\"7\" y=\"7\" width=\"10\" height=\"10\" rx=\"1.6\"/><path d=\"M10 7V3.8\"/><path d=\"M14 7V3.8\"/><path d=\"M10 17v3.2\"/><path d=\"M14 17v3.2\"/><path d=\"M7 10H3.8\"/><path d=\"M7 14H3.8\"/><path d=\"M17 10h3.2\"/><path d=\"M17 14h3.2\"/></svg>"}, {"w": "static", "m": "the electricity that builds up on your body and can kill a chip", "i": ""}, {"w": "capacitor", "m": "a part that stores electricity and can hold it after the power is off", "i": ""}, {"w": "fan", "m": "the part that turns and blows air to keep a machine cool", "i": "<svg class=\"ic\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><circle cx=\"12\" cy=\"12\" r=\"9\"/><circle cx=\"12\" cy=\"12\" r=\"1.9\"/><path d=\"M12 10.1c0-3.3 1.1-5 3.3-5\"/><path d=\"M13.9 12c3.3 0 5 1.1 5 3.3\"/><path d=\"M12 13.9c0 3.3-1.1 5-3.3 5\"/><path d=\"M10.1 12c-3.3 0-5-1.1-5-3.3\"/></svg>"}, {"w": "overheat", "m": "to get too hot to go on working safely", "i": "<svg class=\"ic\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M14 14.3V5.4a2 2 0 1 0-4 0v8.9a3.6 3.6 0 1 0 4 0z\"/><path d=\"M12 9.4v5.6\"/><path d=\"M17.6 7.2c1-1.1 1-2.6 0-3.7\"/><path d=\"M20.3 8.6c1.7-1.9 1.7-4.5 0-6.4\"/></svg>"}, {"w": "dust", "m": "the fine dry dirt that settles on everything and blocks a fan", "i": ""}, {"w": "replace", "m": "to take an old part out and put a new one in its place", "i": ""}, {"w": "label", "m": "to write on something to say what it is", "i": "<svg class=\"ic\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M4.5 6.5h11l4 5.5-4 5.5h-11z\"/><circle cx=\"8.2\" cy=\"12\" r=\"1.3\"/></svg>"}, {"w": "warranty", "m": "the maker's promise to mend a machine free for a set time", "i": ""}, {"w": "log", "m": "a written record, kept in order, of what was done", "i": "<svg class=\"ic\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><rect x=\"4.5\" y=\"3\" width=\"15\" height=\"18\" rx=\"1.8\"/><path d=\"M8 3v18\"/><path d=\"M11 8h5.5\"/><path d=\"M11 12h5.5\"/><path d=\"M11 16h3.5\"/></svg>"}, {"w": "battery", "m": "the part that holds power inside a machine", "i": "<svg class=\"ic\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><rect x=\"2.5\" y=\"7.5\" width=\"16\" height=\"9\" rx=\"2\"/><path d=\"M21 10.5v3\"/><path d=\"M6 10.5v3\"/><path d=\"M9.5 10.5v3\"/><path d=\"M13 10.5v3\"/></svg>"}, {"w": "repair", "m": "to mend something that is broken", "i": ""}, {"w": "install", "m": "to put a program onto a computer", "i": ""}, {"w": "program", "m": "something a computer runs to do a job", "i": ""}, {"w": "delete", "m": "to remove something from a computer", "i": "<svg class=\"ic\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M4.5 7h15\"/><path d=\"M9.5 7V4.8h5V7\"/><path d=\"M6.6 7l1 12.4h8.8L17.4 7\"/><path d=\"M10.4 10.5v6\"/><path d=\"M13.6 10.5v6\"/></svg>"}], PAIRS = 10;
+const board = document.getElementById('board');
+const msg = document.getElementById('msg');
+const stat = document.getElementById('stat');
+const BKEY = 'memory-best:' + location.pathname;
+let best = {};
+try { best = JSON.parse(sessionStorage.getItem(BKEY) || '{}'); } catch (e) {}
+let mode = 'mixed', moves = 0, done = 0, total = 0, open = [], busy = false;
+
+function shuffle(a) {
+  for (let i = a.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    const t = a[i]; a[i] = a[j]; a[j] = t;
+  }
+  return a;
+}
+function partner(item) {
+  const meaning = '<span>' + item.m + '</span>';
+  if (mode === 'icons') return item.i;
+  if (mode === 'meanings') return meaning;
+  return item.i || meaning;
+}
+function show(extra) {
+  const b = best[mode];
+  stat.innerHTML = 'Moves: <b>' + moves + '</b> &nbsp;\u00b7&nbsp; Pairs found: <b>' +
+    done + ' of ' + total + '</b> &nbsp;\u00b7&nbsp; Best this session: <b>' +
+    (b ? b + ' moves' : '\u2014') + '</b>';
+  if (extra !== undefined) { msg.className = 'msg good'; msg.textContent = extra; }
+}
+function deal() {
+  const usable = POOL.filter(p => mode !== 'icons' || p.i);
+  const chosen = shuffle(usable.slice()).slice(0, Math.min(PAIRS, usable.length));
+  total = chosen.length; done = 0; moves = 0; open = []; busy = false;
+  const cards = [];
+  chosen.forEach(function (item, n) {
+    cards.push({ pair: n, html: '<span class="w">' + item.w + '</span>' });
+    cards.push({ pair: n, html: partner(item) });
+  });
+  shuffle(cards);
+  board.innerHTML = cards.map(function (c) {
+    return '<button type="button" class="card" data-pair="' + c.pair +
+      '" aria-label="Turn over a card"><span class="in">' +
+      '<span class="face back" aria-hidden="true">?</span>' +
+      '<span class="face front">' + c.html + '</span></span></button>';
+  }).join('');
+  board.querySelectorAll('.card').forEach(function (b) {
+    b.addEventListener('click', function () { flip(b); });
+  });
+  msg.className = 'msg'; msg.textContent = '';
+  if (total < 2) {
+    msg.className = 'msg bad';
+    msg.textContent = 'This lesson has too few drawn words for that setting.';
+  }
+  show();
+}
+function flip(b) {
+  if (busy || b.classList.contains('done') || b.classList.contains('up')) return;
+  b.classList.add('up');
+  open.push(b);
+  if (open.length < 2) { return; }
+  moves++;
+  const x = open[0], y = open[1];
+  if (x.dataset.pair === y.dataset.pair) {
+    x.classList.add('done'); y.classList.add('done');
+    open = []; done++;
+    if (done === total) {
+      const b0 = best[mode];
+      const record = !b0 || moves < b0;
+      if (record) {
+        best[mode] = moves;
+        try { sessionStorage.setItem(BKEY, JSON.stringify(best)); } catch (e) {}
+      }
+      show('All ' + total + ' pairs in ' + moves + ' moves.' +
+           (record ? ' That is your best so far.' : ''));
+      return;
+    }
+  } else {
+    busy = true;
+    setTimeout(function () {
+      x.classList.remove('up'); y.classList.remove('up');
+      open = []; busy = false;
+    }, 900);
+  }
+  show();
+}
+document.querySelectorAll('#modes button').forEach(function (b) {
+  b.addEventListener('click', function () {
+    document.querySelectorAll('#modes button').forEach(function (o) {
+      o.classList.toggle('on', o === b);
+    });
+    mode = b.dataset.mode;
+    deal();
+  });
+});
+document.getElementById('again').onclick = deal;
+deal();
+</script>
+</body>
+</html>

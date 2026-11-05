@@ -1,0 +1,2050 @@
+{
+ "lesson": 6,
+ "slug": "lesson-06",
+ "title": "Lesson 6 — A Plan for Tuesday",
+ "level": "B1 (sixth step)",
+ "topic": "Planning a week of study around the hours of electricity",
+ "time": "6 sessions, 50–60 minutes each",
+ "skills": "Listening → Reading → Vocabulary → Grammar → Comprehension → Speaking → Writing",
+ "new_in_this_lesson": "the future with will and going to, the short 'll and the weak going to, and the present perfect against an exact date. The passage holds at about 500 words: from here the text gets harder rather than longer, and the question set does not change at all.",
+ "passage_words": 504,
+ "footer": "Lesson 6 — A Plan for Tuesday",
+ "voices": {
+  "reader": {
+   "voice": "en-GB-RyanNeural",
+   "rate": "-10%",
+   "pitch": "+0Hz"
+  },
+  "narrator": {
+   "voice": "en-GB-SoniaNeural",
+   "rate": "-5%",
+   "pitch": "+0Hz"
+  },
+  "slow": {
+   "voice": "en-GB-RyanNeural",
+   "rate": "-25%",
+   "pitch": "+0Hz"
+  }
+ },
+ "vocabulary": [
+  {
+   "word": "inverter",
+   "answer": "INVERTER",
+   "type": "noun",
+   "meaning": "a machine that changes battery power into normal house power",
+   "arabic": "عاكس كهربائي",
+   "icon": "inverter"
+  },
+  {
+   "word": "generator",
+   "answer": "GENERATOR",
+   "type": "noun",
+   "meaning": "a machine that makes electricity from fuel",
+   "arabic": "مولّد كهرباء",
+   "icon": "generator"
+  },
+  {
+   "word": "socket",
+   "answer": "SOCKET",
+   "type": "noun",
+   "meaning": "the hole in the wall that a machine takes power from",
+   "arabic": "مقبس كهرباء",
+   "icon": "socket"
+  },
+  {
+   "word": "plug in",
+   "answer": "PLUGIN",
+   "type": "verb",
+   "meaning": "to join a machine to a socket so that it takes power",
+   "arabic": "يوصل بالكهرباء",
+   "icon": "plug"
+  },
+  {
+   "word": "download",
+   "answer": "DOWNLOAD",
+   "type": "verb",
+   "meaning": "to bring a file from the internet onto your own machine",
+   "arabic": "يُنزِّل ملفاً",
+   "icon": "download"
+  },
+  {
+   "word": "bandwidth",
+   "answer": "BANDWIDTH",
+   "type": "noun",
+   "meaning": "how much data a connection can carry at one time",
+   "arabic": "سعة النطاق"
+  },
+  {
+   "word": "schedule",
+   "answer": "SCHEDULE",
+   "type": "noun",
+   "meaning": "a plan that says what happens at what time",
+   "arabic": "جدول زمني",
+   "icon": "calendar"
+  },
+  {
+   "word": "deadline",
+   "answer": "DEADLINE",
+   "type": "noun",
+   "meaning": "the last day or hour when work can be given in",
+   "arabic": "الموعد النهائي"
+  },
+  {
+   "word": "cloud",
+   "answer": "CLOUD",
+   "type": "noun",
+   "meaning": "storage on the internet, instead of on your own machine",
+   "arabic": "التخزين السحابي",
+   "icon": "cloud"
+  },
+  {
+   "word": "laptop",
+   "answer": "LAPTOP",
+   "type": "noun",
+   "meaning": "a computer you can carry and close",
+   "arabic": "حاسوب محمول",
+   "icon": "laptop"
+  },
+  {
+   "word": "submit",
+   "answer": "SUBMIT",
+   "type": "verb",
+   "meaning": "to send work in officially, for marking or for a decision",
+   "arabic": "يُسلِّم"
+  },
+  {
+   "word": "spare",
+   "answer": "SPARE",
+   "type": "adjective",
+   "meaning": "kept ready in case it is needed",
+   "arabic": "احتياطي"
+  },
+  {
+   "word": "priority",
+   "answer": "PRIORITY",
+   "type": "noun",
+   "meaning": "the thing that must be done before anything else",
+   "arabic": "أولوية"
+  },
+  {
+   "word": "queue",
+   "answer": "QUEUE",
+   "type": "noun",
+   "meaning": "a line of people or jobs waiting, one after another",
+   "arabic": "طابور",
+   "icon": "queue"
+  }
+ ],
+ "recall": [
+  {
+   "word": "connection",
+   "answer": "CONNECTION",
+   "meaning": "the link between your machine and the internet",
+   "icon": "wifi"
+  },
+  {
+   "word": "website",
+   "answer": "WEBSITE",
+   "meaning": "a group of pages on the internet",
+   "icon": "browser"
+  },
+  {
+   "word": "account",
+   "answer": "ACCOUNT",
+   "meaning": "your own name and password on a website",
+   "icon": "person"
+  },
+  {
+   "word": "password",
+   "answer": "PASSWORD",
+   "meaning": "the secret word that opens your account",
+   "icon": "lock"
+  },
+  {
+   "word": "update",
+   "answer": "UPDATE",
+   "meaning": "to make something newer",
+   "icon": "refresh"
+  }
+ ],
+ "how_to_work": [
+  "Play **01-passage.mp3** and listen twice with no text in front of you. Do not open the PDF yet.",
+  "Then work through the parts in number order. Part 04 is grammar and has no audio; part 05 needs its audio most of all, because *will* shrinks to a single consonant and *going to* becomes one word.",
+  "Part 06 is the same ten questions, in the same eight types, as Lesson 5. Nothing in the format is new — only the text. Do it in one sitting, with a clock.",
+  "Open part 11, the answer key, only when parts 01 to 10 are finished. The five games come days later, not the same evening."
+ ],
+ "full_section": {
+  "parts": [
+   "01",
+   "02",
+   "06",
+   "07"
+  ],
+  "gap": 3,
+  "closing": [
+   {
+    "pause": 2
+   },
+   {
+    "say": "This is the end of lesson six.",
+    "voice": "narrator"
+   }
+  ]
+ },
+ "games": [
+  {
+   "number": "13",
+   "slug": "crossword",
+   "title": "Crossword",
+   "style": "crossword",
+   "minutes": 15
+  },
+  {
+   "number": "14",
+   "slug": "word-search",
+   "title": "Word search",
+   "style": "word-search",
+   "minutes": 10
+  },
+  {
+   "number": "15",
+   "slug": "memory",
+   "title": "Memory pairs",
+   "style": "memory",
+   "minutes": 10,
+   "pairs": 10
+  },
+  {
+   "number": "16",
+   "slug": "criss-cross",
+   "title": "Criss-cross, Arabic clues",
+   "style": "criss-cross",
+   "minutes": 15
+  },
+  {
+   "number": "17",
+   "slug": "cryptogram",
+   "title": "Cryptogram",
+   "style": "cryptogram",
+   "minutes": 15,
+   "given": 3
+  }
+ ],
+ "parts": [
+  {
+   "number": "01",
+   "slug": "passage",
+   "title": "Passage — A Plan for Tuesday",
+   "minutes": 20,
+   "sheet": true,
+   "audio": true,
+   "print_only": {
+    "markers": [
+     "[A]",
+     "[B]",
+     "[C]",
+     "[D]"
+    ],
+    "note": "The sentence-insertion markers are printed in the passage and are never read aloud."
+   },
+   "markdown": "> **How to do the listening.** The same rule as every lesson so far: the student listens **twice with no text**, then reads.\n> Audio files: `01-passage.mp3` first, then the other parts in order. Part `05-ll-and-gonna.mp3` is new — the short *'ll* and the weak *going to*.\n\n### 1.1 Before listening (2 minutes, Arabic is fine here)\n\n1. What are you going to do this evening, and what will you do if the power goes off?\n2. Who decides the order of jobs when you work with other people?\n3. What is the first thing you charge when the electricity comes on?\n\n### 1.4 Now read the passage\n\n### Passage: *A Plan for Tuesday* (504 words)\n\nThere are four of them, and between them they have one inverter, one battery, two laptops and a list. The list is on the back of a door in a room at the college, and every Sunday evening they write next week's plan on it. The plan is not about the work. The plan is about the power. Everything else on the list follows from that.\n\n**[A]** The electricity in their part of the city comes in two blocks, and the schedule changes every month. This month it is on from six in the morning until nine, and again from seven at night until eleven. Seven hours. Dalia, who keeps the list, says the first thing you learn is that seven hours is enough, if you decide what each hour is for before it starts.\n\nSo the list has two columns. On the left is what they are going to do while the power is on: plug in both laptops, charge the battery, download the week's lecture videos, and send the group project up to the cloud. On the right is what they will do when it goes off: read, write, plan, and argue about the design. Every line has a name beside it, so nobody is waiting for somebody else to begin.\n\n**[B]** Yousef is in charge of the downloads. \"I am going to start the big files at six,\" he said on Sunday, \"and I'll leave the small ones until the end. If the bandwidth is bad, we will still have the lectures.\" He has learned not to queue everything at once. Last month he put eleven files in the queue at six o'clock and had four of them by nine.\n\nNour is going to finish the database work before Thursday, because the deadline is Thursday night and she is going to submit it on time this week. Hani is going to rebuild the spare laptop, the one with the broken socket, and he says it will be ready by Wednesday. Nobody believes him. He says that every week.\n\n**[C]** There are rules on the list as well, and all of them are about priority. The battery is for the router first and the laptops second. Nothing that can be done on paper is done on a screen while the power is on. And whatever else happens, the project goes to the cloud before eleven, because a file that exists in one place does not really exist.\n\n**[D]** Dalia will not say that the plan always works. Last Tuesday the generator in the building below them failed at half past seven, and the two blocks became one. They lost three hours. But they had sent the project up at seven, so they lost three hours of work and nothing else, which is the whole reason for the rule.\n\nOn Sunday she will write the next list, and it will look much like this one. \"We are not going to get more hours,\" she says. \"So we are going to get better at the hours we have.\"\n\n### 1.5 Read aloud\n\nRead the passage aloud **once** and record it. Watch the two short forms as you read: say *I'll* and <span class=\"ipa\">/ˈɡənə/</span>, not *I will* and *going to*.\n",
+   "segments": [
+    {
+     "say": "Lesson six. A Plan for Tuesday. Listening practice.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 1
+    },
+    {
+     "say": "You will hear about four students who plan their week around the hours of electricity. Listen for what they are going to do while the power is on, and what they will do when it goes off. You will hear it two times. Do not read the text. Listen only.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 2
+    },
+    {
+     "say": "Now listen.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 1.5
+    },
+    {
+     "say": "There are four of them, and between them they have one inverter, one battery, two laptops and a list. The list is on the back of a door in a room at the college, and every Sunday evening they write next week's plan on it. The plan is not about the work. The plan is about the power. Everything else on the list follows from that.\n\nThe electricity in their part of the city comes in two blocks, and the schedule changes every month. This month it is on from six in the morning until nine, and again from seven at night until eleven. Seven hours. Dalia, who keeps the list, says the first thing you learn is that seven hours is enough, if you decide what each hour is for before it starts.\n\nSo the list has two columns. On the left is what they are going to do while the power is on: plug in both laptops, charge the battery, download the week's lecture videos, and send the group project up to the cloud. On the right is what they will do when it goes off: read, write, plan, and argue about the design. Every line has a name beside it, so nobody is waiting for somebody else to begin.\n\nYousef is in charge of the downloads. \"I am going to start the big files at six,\" he said on Sunday, \"and I'll leave the small ones until the end. If the bandwidth is bad, we will still have the lectures.\" He has learned not to queue everything at once. Last month he put eleven files in the queue at six o'clock and had four of them by nine.\n\nNour is going to finish the database work before Thursday, because the deadline is Thursday night and she is going to submit it on time this week. Hani is going to rebuild the spare laptop, the one with the broken socket, and he says it will be ready by Wednesday. Nobody believes him. He says that every week.\n\nThere are rules on the list as well, and all of them are about priority. The battery is for the router first and the laptops second. Nothing that can be done on paper is done on a screen while the power is on. And whatever else happens, the project goes to the cloud before eleven, because a file that exists in one place does not really exist.\n\nDalia will not say that the plan always works. Last Tuesday the generator in the building below them failed at half past seven, and the two blocks became one. They lost three hours. But they had sent the project up at seven, so they lost three hours of work and nothing else, which is the whole reason for the rule.\n\nOn Sunday she will write the next list, and it will look much like this one. \"We are not going to get more hours,\" she says. \"So we are going to get better at the hours we have.\"",
+     "voice": "reader"
+    },
+    {
+     "pause": 4
+    },
+    {
+     "say": "Now listen again.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 1.5
+    },
+    {
+     "say": "There are four of them, and between them they have one inverter, one battery, two laptops and a list. The list is on the back of a door in a room at the college, and every Sunday evening they write next week's plan on it. The plan is not about the work. The plan is about the power. Everything else on the list follows from that.\n\nThe electricity in their part of the city comes in two blocks, and the schedule changes every month. This month it is on from six in the morning until nine, and again from seven at night until eleven. Seven hours. Dalia, who keeps the list, says the first thing you learn is that seven hours is enough, if you decide what each hour is for before it starts.\n\nSo the list has two columns. On the left is what they are going to do while the power is on: plug in both laptops, charge the battery, download the week's lecture videos, and send the group project up to the cloud. On the right is what they will do when it goes off: read, write, plan, and argue about the design. Every line has a name beside it, so nobody is waiting for somebody else to begin.\n\nYousef is in charge of the downloads. \"I am going to start the big files at six,\" he said on Sunday, \"and I'll leave the small ones until the end. If the bandwidth is bad, we will still have the lectures.\" He has learned not to queue everything at once. Last month he put eleven files in the queue at six o'clock and had four of them by nine.\n\nNour is going to finish the database work before Thursday, because the deadline is Thursday night and she is going to submit it on time this week. Hani is going to rebuild the spare laptop, the one with the broken socket, and he says it will be ready by Wednesday. Nobody believes him. He says that every week.\n\nThere are rules on the list as well, and all of them are about priority. The battery is for the router first and the laptops second. Nothing that can be done on paper is done on a screen while the power is on. And whatever else happens, the project goes to the cloud before eleven, because a file that exists in one place does not really exist.\n\nDalia will not say that the plan always works. Last Tuesday the generator in the building below them failed at half past seven, and the two blocks became one. They lost three hours. But they had sent the project up at seven, so they lost three hours of work and nothing else, which is the whole reason for the rule.\n\nOn Sunday she will write the next list, and it will look much like this one. \"We are not going to get more hours,\" she says. \"So we are going to get better at the hours we have.\"",
+     "voice": "reader"
+    },
+    {
+     "pause": 2
+    },
+    {
+     "say": "This is the end of the passage.",
+     "voice": "narrator"
+    }
+   ]
+  },
+  {
+   "number": "02",
+   "slug": "listening-questions",
+   "title": "Listening questions",
+   "minutes": 10,
+   "sheet": true,
+   "audio": true,
+   "markdown": "### 1.2 Listening — first time (no text)\n\n- **L1.** How many people are in the group, and what do they share?\n- **L2.** When is the electricity on this month?\n- **L3.** What does Yousef do first when the power comes on?\n- **L4.** What went wrong last Tuesday?\n\n### 1.3 Listening — second time (no text)\n\nWrite **four future verbs** that you heard — two with *will* or *'ll*, and two with *going to*. Then write **one word** you heard but did not understand.\n",
+   "segments": [
+    {
+     "say": "Now answer the listening questions. Write a short answer for each one.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 2
+    },
+    {
+     "say": "Question one. How many people are in the group, and what do they share?",
+     "voice": "narrator"
+    },
+    {
+     "pause": 10
+    },
+    {
+     "say": "Question two. When is the electricity on this month?",
+     "voice": "narrator"
+    },
+    {
+     "pause": 10
+    },
+    {
+     "say": "Question three. What does Yousef do first when the power comes on?",
+     "voice": "narrator"
+    },
+    {
+     "pause": 10
+    },
+    {
+     "say": "Question four. What went wrong last Tuesday?",
+     "voice": "narrator"
+    },
+    {
+     "pause": 10
+    },
+    {
+     "say": "This is the end of the listening questions.",
+     "voice": "narrator"
+    }
+   ]
+  },
+  {
+   "number": "03",
+   "slug": "vocabulary",
+   "title": "Vocabulary and Lesson 4 recall",
+   "minutes": 35,
+   "sheet": true,
+   "audio": true,
+   "markdown": "### 2.1 Key words\n\n| # | Word | Type | Simple meaning | Arabic | Example |\n|---|---|---|---|---|---|\n| 1 | inverter | noun | a machine that changes battery power into normal house power | عاكس كهربائي | Between them they have one **inverter** and one battery. |\n| 2 | generator | noun | a machine that makes electricity from fuel | مولّد كهرباء | The **generator** in the building below them failed. |\n| 3 | socket | noun | the hole in the wall that a machine takes power from | مقبس كهرباء | The spare laptop is the one with the broken **socket**. |\n| 4 | plug in | verb | to join a machine to a socket so that it takes power | يوصل بالكهرباء | They **plug in** both laptops while the power is on. |\n| 5 | download | verb | to bring a file from the internet onto your own machine | يُنزِّل ملفاً | They **download** the week's lecture videos at six. |\n| 6 | bandwidth | noun | how much data a connection can carry at one time | سعة النطاق | If the **bandwidth** is bad, we will still have the lectures. |\n| 7 | schedule | noun | a plan that says what happens at what time | جدول زمني | The **schedule** changes every month. |\n| 8 | deadline | noun | the last day or hour when work can be given in | الموعد النهائي | The **deadline** is Thursday night. |\n| 9 | cloud | noun | storage on the internet, instead of on your own machine | التخزين السحابي | The project goes to the **cloud** before eleven. |\n| 10 | laptop | noun | a computer you can carry and close | حاسوب محمول | The battery is for the router first and the **laptops** second. |\n| 11 | submit | verb | to send work in officially, for marking or for a decision | يُسلِّم | She is going to **submit** it on time this week. |\n| 12 | spare | adjective | kept ready in case it is needed | احتياطي | Hani is going to rebuild the **spare** laptop. |\n| 13 | priority | noun | the thing that must be done before anything else | أولوية | All of the rules are about **priority**. |\n| 14 | queue | noun | a line of people or jobs waiting, one after another | طابور | He put eleven files in the **queue** at six o'clock. |\n\n### 2.2 Synonyms and opposites\n\n| Word | Synonym | Opposite |\n|---|---|---|\n| spare | extra, kept back | in use |\n| priority | what comes first | what can wait |\n| submit | hand in, send in | keep back |\n| download | bring down | upload |\n| deadline | the last moment | no fixed date |\n| plug in | connect | unplug |\n| queue | line, waiting list | straight through |\n| on purpose | deliberately | by accident |\n\n### 2.3 Expressions to learn\n\n| Expression | What it really means |\n|---|---|\n| **in charge of** | responsible for; it is his job |\n| **at once** | all at the same time |\n| **on time** | not late |\n| **whatever else happens** | even if everything else goes wrong |\n| **get better at** | improve at doing something |\n| **half past seven** | seven thirty |\n| **nobody believes him** | everyone doubts what he says |\n\n### 2.4 Vocabulary practice\n\n**A. Write the opposite:**\n\n1. spare → \\_\\_\\_\\_\\_\\_\\_\\_\n2. download → \\_\\_\\_\\_\\_\\_\\_\\_\n3. submit → \\_\\_\\_\\_\\_\\_\\_\\_\n4. plug in → \\_\\_\\_\\_\\_\\_\\_\\_\n5. priority → \\_\\_\\_\\_\\_\\_\\_\\_\n\n**B. Which word is different? Say why:**\n\n1. inverter — generator — battery — deadline\n2. download — submit — queue — spare\n3. schedule — deadline — priority — socket\n\n**C. Say it in your own words:**\n\n1. What is bandwidth, and when do you notice it?\n2. What does *priority* mean? Give an example from your own week.\n",
+   "segments": [
+    {
+     "say": "Vocabulary practice. You will hear a word, then its meaning, then an example sentence. Repeat the word in the silence.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 2
+    },
+    {
+     "say": "Word 1.",
+     "voice": "narrator"
+    },
+    {
+     "say": "inverter",
+     "voice": "reader"
+    },
+    {
+     "pause": 3
+    },
+    {
+     "say": "inverter. a machine that changes battery power into normal house power.",
+     "voice": "reader"
+    },
+    {
+     "pause": 1
+    },
+    {
+     "say": "Between them they have one inverter and one battery.",
+     "voice": "reader"
+    },
+    {
+     "pause": 3
+    },
+    {
+     "say": "Word 2.",
+     "voice": "narrator"
+    },
+    {
+     "say": "generator",
+     "voice": "reader"
+    },
+    {
+     "pause": 3
+    },
+    {
+     "say": "generator. a machine that makes electricity from fuel.",
+     "voice": "reader"
+    },
+    {
+     "pause": 1
+    },
+    {
+     "say": "The generator in the building below them failed.",
+     "voice": "reader"
+    },
+    {
+     "pause": 3
+    },
+    {
+     "say": "Word 3.",
+     "voice": "narrator"
+    },
+    {
+     "say": "socket",
+     "voice": "reader"
+    },
+    {
+     "pause": 3
+    },
+    {
+     "say": "socket. the hole in the wall that a machine takes power from.",
+     "voice": "reader"
+    },
+    {
+     "pause": 1
+    },
+    {
+     "say": "The spare laptop is the one with the broken socket.",
+     "voice": "reader"
+    },
+    {
+     "pause": 3
+    },
+    {
+     "say": "Word 4.",
+     "voice": "narrator"
+    },
+    {
+     "say": "plug in",
+     "voice": "reader"
+    },
+    {
+     "pause": 3
+    },
+    {
+     "say": "plug in. to join a machine to a socket so that it takes power.",
+     "voice": "reader"
+    },
+    {
+     "pause": 1
+    },
+    {
+     "say": "They plug in both laptops while the power is on.",
+     "voice": "reader"
+    },
+    {
+     "pause": 3
+    },
+    {
+     "say": "Word 5.",
+     "voice": "narrator"
+    },
+    {
+     "say": "download",
+     "voice": "reader"
+    },
+    {
+     "pause": 3
+    },
+    {
+     "say": "download. to bring a file from the internet onto your own machine.",
+     "voice": "reader"
+    },
+    {
+     "pause": 1
+    },
+    {
+     "say": "They download the week's lecture videos at six.",
+     "voice": "reader"
+    },
+    {
+     "pause": 3
+    },
+    {
+     "say": "Word 6.",
+     "voice": "narrator"
+    },
+    {
+     "say": "bandwidth",
+     "voice": "reader"
+    },
+    {
+     "pause": 3
+    },
+    {
+     "say": "bandwidth. how much data a connection can carry at one time.",
+     "voice": "reader"
+    },
+    {
+     "pause": 1
+    },
+    {
+     "say": "If the bandwidth is bad, we will still have the lectures.",
+     "voice": "reader"
+    },
+    {
+     "pause": 3
+    },
+    {
+     "say": "Word 7.",
+     "voice": "narrator"
+    },
+    {
+     "say": "schedule",
+     "voice": "reader"
+    },
+    {
+     "pause": 3
+    },
+    {
+     "say": "schedule. a plan that says what happens at what time.",
+     "voice": "reader"
+    },
+    {
+     "pause": 1
+    },
+    {
+     "say": "The schedule changes every month.",
+     "voice": "reader"
+    },
+    {
+     "pause": 3
+    },
+    {
+     "say": "Word 8.",
+     "voice": "narrator"
+    },
+    {
+     "say": "deadline",
+     "voice": "reader"
+    },
+    {
+     "pause": 3
+    },
+    {
+     "say": "deadline. the last day or hour when work can be given in.",
+     "voice": "reader"
+    },
+    {
+     "pause": 1
+    },
+    {
+     "say": "The deadline is Thursday night.",
+     "voice": "reader"
+    },
+    {
+     "pause": 3
+    },
+    {
+     "say": "Word 9.",
+     "voice": "narrator"
+    },
+    {
+     "say": "cloud",
+     "voice": "reader"
+    },
+    {
+     "pause": 3
+    },
+    {
+     "say": "cloud. storage on the internet, instead of on your own machine.",
+     "voice": "reader"
+    },
+    {
+     "pause": 1
+    },
+    {
+     "say": "The project goes to the cloud before eleven.",
+     "voice": "reader"
+    },
+    {
+     "pause": 3
+    },
+    {
+     "say": "Word 10.",
+     "voice": "narrator"
+    },
+    {
+     "say": "laptop",
+     "voice": "reader"
+    },
+    {
+     "pause": 3
+    },
+    {
+     "say": "laptop. a computer you can carry and close.",
+     "voice": "reader"
+    },
+    {
+     "pause": 1
+    },
+    {
+     "say": "The battery is for the router first and the laptops second.",
+     "voice": "reader"
+    },
+    {
+     "pause": 3
+    },
+    {
+     "say": "Word 11.",
+     "voice": "narrator"
+    },
+    {
+     "say": "submit",
+     "voice": "reader"
+    },
+    {
+     "pause": 3
+    },
+    {
+     "say": "submit. to send work in officially, for marking or for a decision.",
+     "voice": "reader"
+    },
+    {
+     "pause": 1
+    },
+    {
+     "say": "She is going to submit it on time this week.",
+     "voice": "reader"
+    },
+    {
+     "pause": 3
+    },
+    {
+     "say": "Word 12.",
+     "voice": "narrator"
+    },
+    {
+     "say": "spare",
+     "voice": "reader"
+    },
+    {
+     "pause": 3
+    },
+    {
+     "say": "spare. kept ready in case it is needed.",
+     "voice": "reader"
+    },
+    {
+     "pause": 1
+    },
+    {
+     "say": "Hani is going to rebuild the spare laptop.",
+     "voice": "reader"
+    },
+    {
+     "pause": 3
+    },
+    {
+     "say": "Word 13.",
+     "voice": "narrator"
+    },
+    {
+     "say": "priority",
+     "voice": "reader"
+    },
+    {
+     "pause": 3
+    },
+    {
+     "say": "priority. the thing that must be done before anything else.",
+     "voice": "reader"
+    },
+    {
+     "pause": 1
+    },
+    {
+     "say": "All of the rules are about priority.",
+     "voice": "reader"
+    },
+    {
+     "pause": 3
+    },
+    {
+     "say": "Word 14.",
+     "voice": "narrator"
+    },
+    {
+     "say": "queue",
+     "voice": "reader"
+    },
+    {
+     "pause": 3
+    },
+    {
+     "say": "queue. a line of people or jobs waiting, one after another.",
+     "voice": "reader"
+    },
+    {
+     "pause": 1
+    },
+    {
+     "say": "He put eleven files in the queue at six o'clock.",
+     "voice": "reader"
+    },
+    {
+     "pause": 3
+    },
+    {
+     "pause": 1.5
+    },
+    {
+     "say": "Now five words from lesson 4. Say the meaning before you hear it.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 2
+    },
+    {
+     "say": "connection",
+     "voice": "reader"
+    },
+    {
+     "pause": 5
+    },
+    {
+     "say": "the link between your machine and the internet",
+     "voice": "reader"
+    },
+    {
+     "pause": 1
+    },
+    {
+     "say": "website",
+     "voice": "reader"
+    },
+    {
+     "pause": 5
+    },
+    {
+     "say": "a group of pages on the internet",
+     "voice": "reader"
+    },
+    {
+     "pause": 1
+    },
+    {
+     "say": "account",
+     "voice": "reader"
+    },
+    {
+     "pause": 5
+    },
+    {
+     "say": "your own name and password on a website",
+     "voice": "reader"
+    },
+    {
+     "pause": 1
+    },
+    {
+     "say": "password",
+     "voice": "reader"
+    },
+    {
+     "pause": 5
+    },
+    {
+     "say": "the secret word that opens your account",
+     "voice": "reader"
+    },
+    {
+     "pause": 1
+    },
+    {
+     "say": "update",
+     "voice": "reader"
+    },
+    {
+     "pause": 5
+    },
+    {
+     "say": "to make something newer",
+     "voice": "reader"
+    },
+    {
+     "pause": 1
+    },
+    {
+     "say": "This is the end of the vocabulary practice.",
+     "voice": "narrator"
+    }
+   ]
+  },
+  {
+   "number": "04",
+   "slug": "grammar-future-will-and-going-to",
+   "title": "Grammar — the future with will and going to",
+   "minutes": 50,
+   "sheet": true,
+   "audio": false,
+   "markdown": "### Come back to: the present perfect\n\nLesson 4 taught the shape, and *for*, *since*, *never*, *already* and *yet*.\nTwo lines to remind you:\n\n| I / you / we / they | **have** finished |\n|---|---|\n| he / she / it | **has** finished |\n\n**New this time: the present perfect and a finished time do not mix.**\n\nThe present perfect reaches from the past up to now, so it cannot sit beside a\ntime that is closed and gone:\n\n- *She **has submitted** the project.* ✓ — no time given, and now is what matters\n- *She **submitted** it on Thursday.* ✓ — Thursday is finished, so past simple\n- *She has submitted it on Thursday.* ✗ — the two cannot be in one sentence\n\nSo **an exact date pushes you into the past simple**, however recent it is:\n\n| With a finished time → past simple | With *for* or *since* → present perfect |\n|---|---|\n| They **lost** three hours last Tuesday. | They **have lost** three hours this week. |\n| He **queued** eleven files at six o'clock. | He **has queued** files since six. |\n| The generator **failed** at half past seven. | The generator **has failed** twice this month. |\n\n*Last Tuesday*, *at six o'clock*, *yesterday*, *in 2023* — all finished, all\npast simple. *This week*, *today*, *this month* are not finished yet, so the\npresent perfect is still at home in them.\n\n**Quick practice.** Present perfect, or past simple?\n\n1. The generator \\_\\_\\_\\_\\_\\_\\_\\_ (fail) last Tuesday.\n2. They \\_\\_\\_\\_\\_\\_\\_\\_ (not lose) a single file this month.\n3. He \\_\\_\\_\\_\\_\\_\\_\\_ (put) eleven files in the queue at six o'clock.\n4. Dalia \\_\\_\\_\\_\\_\\_\\_\\_ (keep) the list since the first week.\n\n---\n\nNow the other direction. English has two ordinary ways to talk about the future,\nand they are not the same: **going to** looks at a decision that has already\nbeen made, and **will** looks at the moment of speaking.\n\n### 3.1 How we make them\n\n| | Form | Example |\n|---|---|---|\n| *going to* | **am / is / are** + **going to** + verb | She **is going to submit** it on Thursday. |\n| *will* | **will** + verb (no *to*, no *-s*) | It **will be** ready by Wednesday. |\n\n*Will* is the same for everybody: *I will*, *she will*, *they will*. The short\nform is **'ll** — *I'll*, *she'll*, *we'll* — and in speech that is almost all\nyou hear. Part 05 is about exactly that.\n\n### 3.2 *Going to*: the plan that already exists\n\nUse **going to** when the decision was taken **before** you opened your mouth.\n\n- *I **am going to start** the big files at six.* — he decided on Sunday\n- *Nour **is going to finish** the database work before Thursday.* — it is on the list\n- *We **are not going to get** more hours.* — a fact she has already faced\n\nIt is also the future you can **see coming**, because the evidence is in front\nof you:\n\n- *Look at the battery — it **is going to die** in ten minutes.*\n- *The sky is black. It **is going to rain**.*\n\n### 3.3 *Will*: the moment of speaking\n\nUse **will** for a decision, an offer, a promise or an opinion made **now**:\n\n| Use | Example |\n|---|---|\n| Deciding as you speak | *The bandwidth is bad — I**'ll** download the small ones instead.* |\n| Offering | *I**'ll** carry the battery for you.* |\n| Promising | *It **will** be ready by Wednesday.* |\n| Predicting, or giving an opinion | *I think the power **will** come back at seven.* |\n| Refusing (negative) | *The old laptop **won't** start on battery.* |\n\nTwo of those matter most for her: **will** is what you use when you have just\nthis second decided, and **will** is what you use for what you *think* is going\nto happen, with *I think*, *I am sure*, *probably*, *maybe*.\n\n### 3.4 *Will* or *going to*?\n\n| *Going to* — decided already | *Will* — decided now, or only an opinion |\n|---|---|\n| We **are going to** plug in both laptops at six. | If the bandwidth is bad, we **will** take the lectures first. |\n| She **is going to** submit it on time this week. | I think she **will** finish before Thursday. |\n| They **are going to** get better at the hours they have. | Dalia **will not** say that the plan always works. |\n\nA short way to hold it: **the list is *going to*; the conversation is *will*.**\nAnything written on the door was decided on Sunday. Anything said in the room at\nsix o'clock, while the power comes on and something has gone wrong, is *will*.\n\n### 3.5 Negative and question\n\n| | *going to* | *will* |\n|---|---|---|\n| Negative | She **is not going to** ask again. | It **will not** (**won't**) start. |\n| Question | **Are** you **going to** queue them all? | **Will** it be ready by Wednesday? |\n| Short answer | *Yes, I am. / No, I am not.* | *Yes, it will. / No, it won't.* |\n\n### 3.6 Grammar practice\n\n**A. *Going to* or *will*? Say why:**\n\n1. Look at that battery. It \\_\\_\\_\\_\\_\\_\\_\\_ (die) in ten minutes.\n2. The bandwidth is bad tonight — I \\_\\_\\_\\_\\_\\_\\_\\_ (take) the small files first.\n3. It is on the list: we \\_\\_\\_\\_\\_\\_\\_\\_ (plug in) both laptops at six.\n4. I think the power \\_\\_\\_\\_\\_\\_\\_\\_ (come back) at seven.\n5. She \\_\\_\\_\\_\\_\\_\\_\\_ (submit) it on Thursday. It has been planned for a week.\n\n**B. Put the verb in the correct future form:**\n\n1. Hani \\_\\_\\_\\_\\_\\_\\_\\_ (rebuild) the spare laptop this week.\n2. \\_\\_\\_\\_\\_\\_\\_\\_ you \\_\\_\\_\\_\\_\\_\\_\\_ (download) the lectures tonight?\n3. They \\_\\_\\_\\_\\_\\_\\_\\_ (not get) more hours of electricity.\n4. The project \\_\\_\\_\\_\\_\\_\\_\\_ (go) to the cloud before eleven.\n5. I am sure the deadline \\_\\_\\_\\_\\_\\_\\_\\_ (not move).\n\n**C. Present perfect, or past simple?**\n\n1. The generator \\_\\_\\_\\_\\_\\_\\_\\_ (fail) at half past seven.\n2. We \\_\\_\\_\\_\\_\\_\\_\\_ (not miss) a deadline this month.\n3. He \\_\\_\\_\\_\\_\\_\\_\\_ (queue) eleven files last month.\n4. Dalia \\_\\_\\_\\_\\_\\_\\_\\_ (write) the list every Sunday since October.\n"
+  },
+  {
+   "number": "05",
+   "slug": "ll-and-gonna",
+   "title": "The short 'll and the weak going to",
+   "minutes": 20,
+   "sheet": true,
+   "audio": true,
+   "markdown": "### 3.7 The short *'ll*, and the weak *going to* (listen to `05-ll-and-gonna.mp3`)\n\nThe whole future tense can disappear into one sound. If you cannot hear it, you\nwill think somebody is talking about now.\n\n**1. *will* becomes *'ll*, and *'ll* is one consonant.**\n\n| Written in full | What you hear | Not this |\n|---|---|---|\n| I will take it. | <span class=\"ipa\">/aɪl ˈteɪk ɪt/</span> | <span class=\"ipa\">/aɪ wɪl ˈteɪk ɪt/</span> |\n| It will be ready. | <span class=\"ipa\">/ɪtl̩ bi ˈredi/</span> | <span class=\"ipa\">/ɪt wɪl bi ˈredi/</span> |\n| We will still have them. | <span class=\"ipa\">/wil stɪl ˈhæv ðəm/</span> | <span class=\"ipa\">/wiː wɪl .../</span> |\n| She will finish it. | <span class=\"ipa\">/ʃil ˈfɪnɪʃ ɪt/</span> | <span class=\"ipa\">/ʃiː wɪl .../</span> |\n\nThe full <span class=\"ipa\">/wɪl/</span> comes back in three places only: at the\nend of a sentence (*Yes, it **will***), in the negative (***won't***\n<span class=\"ipa\">/wəʊnt/</span>), and when the speaker is insisting.\n\n**2. *going to* becomes <span class=\"ipa\">/ˈɡənə/</span>.**\n\nBefore another verb, *going to* loses almost everything. This is normal speech,\nnot slang, and every speaker does it:\n\n| Written | What you actually hear |\n|---|---|\n| I am going to start at six. | <span class=\"ipa\">/aɪm ˈɡənə ˈstɑːt ət sɪks/</span> |\n| She is going to submit it. | <span class=\"ipa\">/ʃiz ˈɡənə səbˈmɪt ɪt/</span> |\n| We are going to get better. | <span class=\"ipa\">/wə ˈɡənə ɡet ˈbetə/</span> |\n| They are not going to wait. | <span class=\"ipa\">/ðeə nɒt ˈɡənə ˈweɪt/</span> |\n\n**Write *going to*. Say <span class=\"ipa\">/ˈɡənə/</span>.** The written form never\nchanges; only the sound does.\n\n**3. One warning.** *going to* keeps its full sound when *going* is a real verb\nof movement: *I am **going to** the college* <span class=\"ipa\">/ˈɡəʊɪŋ tuː/</span>\n— she is going somewhere, not planning something.\n\nIn the audio you hear each line twice, and then a test: say whether what you\nhear is **will** or **going to**.\n",
+   "segments": [
+    {
+     "say": "Pronunciation. The short L L, and the weak going to.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 1
+    },
+    {
+     "say": "The whole future tense can disappear into one sound. Listen to each line twice, then repeat it.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 2
+    },
+    {
+     "say": "I'll take it.",
+     "voice": "reader"
+    },
+    {
+     "pause": 1
+    },
+    {
+     "say": "I'll take it.",
+     "voice": "reader"
+    },
+    {
+     "pause": 3
+    },
+    {
+     "say": "It'll be ready.",
+     "voice": "reader"
+    },
+    {
+     "pause": 1
+    },
+    {
+     "say": "It'll be ready.",
+     "voice": "reader"
+    },
+    {
+     "pause": 3
+    },
+    {
+     "say": "We'll still have them.",
+     "voice": "reader"
+    },
+    {
+     "pause": 1
+    },
+    {
+     "say": "We'll still have them.",
+     "voice": "reader"
+    },
+    {
+     "pause": 3
+    },
+    {
+     "say": "She'll finish it.",
+     "voice": "reader"
+    },
+    {
+     "pause": 1
+    },
+    {
+     "say": "She'll finish it.",
+     "voice": "reader"
+    },
+    {
+     "pause": 3
+    },
+    {
+     "pause": 1
+    },
+    {
+     "say": "The full word will comes back at the end of a sentence, and in the negative. Listen.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 1.5
+    },
+    {
+     "say": "Yes, it will.",
+     "voice": "reader"
+    },
+    {
+     "pause": 1
+    },
+    {
+     "say": "Yes, it will.",
+     "voice": "reader"
+    },
+    {
+     "pause": 3
+    },
+    {
+     "say": "It won't start on battery.",
+     "voice": "reader"
+    },
+    {
+     "pause": 1
+    },
+    {
+     "say": "It won't start on battery.",
+     "voice": "reader"
+    },
+    {
+     "pause": 3
+    },
+    {
+     "pause": 1
+    },
+    {
+     "say": "Now going to. Before another verb it becomes gonna. This is normal speech, not slang. Write going to. Say gonna.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 2
+    },
+    {
+     "say": "I'm going to start at six.",
+     "voice": "reader"
+    },
+    {
+     "pause": 1
+    },
+    {
+     "say": "I'm going to start at six.",
+     "voice": "reader"
+    },
+    {
+     "pause": 3
+    },
+    {
+     "say": "She's going to submit it.",
+     "voice": "reader"
+    },
+    {
+     "pause": 1
+    },
+    {
+     "say": "She's going to submit it.",
+     "voice": "reader"
+    },
+    {
+     "pause": 3
+    },
+    {
+     "say": "We're going to get better.",
+     "voice": "reader"
+    },
+    {
+     "pause": 1
+    },
+    {
+     "say": "We're going to get better.",
+     "voice": "reader"
+    },
+    {
+     "pause": 3
+    },
+    {
+     "say": "They're not going to wait.",
+     "voice": "reader"
+    },
+    {
+     "pause": 1
+    },
+    {
+     "say": "They're not going to wait.",
+     "voice": "reader"
+    },
+    {
+     "pause": 3
+    },
+    {
+     "pause": 1
+    },
+    {
+     "say": "One warning. When going is a real verb of movement, it keeps its full sound. Listen to the difference.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 1.5
+    },
+    {
+     "say": "I'm going to the college.",
+     "voice": "reader"
+    },
+    {
+     "pause": 2
+    },
+    {
+     "say": "I'm going to finish the work.",
+     "voice": "reader"
+    },
+    {
+     "pause": 3
+    },
+    {
+     "say": "Now the test. You will hear a sentence. Say whether it uses will, or going to. Then you will hear the answer.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 2
+    },
+    {
+     "say": "Sentence 1.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 0.4
+    },
+    {
+     "say": "I'll carry the battery.",
+     "voice": "reader"
+    },
+    {
+     "pause": 4
+    },
+    {
+     "say": "The answer is will.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 1
+    },
+    {
+     "say": "Sentence 2.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 0.4
+    },
+    {
+     "say": "We're going to plug in both laptops.",
+     "voice": "reader"
+    },
+    {
+     "pause": 4
+    },
+    {
+     "say": "The answer is going to.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 1
+    },
+    {
+     "say": "Sentence 3.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 0.4
+    },
+    {
+     "say": "It'll be ready by Wednesday.",
+     "voice": "reader"
+    },
+    {
+     "pause": 4
+    },
+    {
+     "say": "The answer is will.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 1
+    },
+    {
+     "say": "Sentence 4.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 0.4
+    },
+    {
+     "say": "She's going to submit it on Thursday.",
+     "voice": "reader"
+    },
+    {
+     "pause": 4
+    },
+    {
+     "say": "The answer is going to.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 1
+    },
+    {
+     "say": "Sentence 5.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 0.4
+    },
+    {
+     "say": "They won't get more hours.",
+     "voice": "reader"
+    },
+    {
+     "pause": 4
+    },
+    {
+     "say": "The answer is will.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 1
+    },
+    {
+     "say": "Sentence 6.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 0.4
+    },
+    {
+     "say": "I'm going to start the big files at six.",
+     "voice": "reader"
+    },
+    {
+     "pause": 4
+    },
+    {
+     "say": "The answer is going to.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 1
+    },
+    {
+     "say": "This is the end of the pronunciation practice.",
+     "voice": "narrator"
+    }
+   ]
+  },
+  {
+   "number": "06",
+   "slug": "comprehension",
+   "title": "Comprehension — a full TOEFL set of ten",
+   "minutes": 45,
+   "sheet": true,
+   "audio": true,
+   "markdown": "### Part A — Multiple choice\n\n> This is a full set of ten, the size of a real TOEFL reading set.\n\n**1. (Factual)** How many hours of electricity does their area get this month?\n\n- A. Four.\n- B. Seven.\n- C. Eleven.\n- D. Twenty-four.\n\n**2. (Factual)** What is Yousef in charge of?\n\n- A. The battery.\n- B. The list.\n- C. The downloads.\n- D. The spare laptop.\n\n**3. (Negative factual)** According to the passage, all of the following are on the left-hand column of the list EXCEPT\n\n- A. plugging in both laptops.\n- B. charging the battery.\n- C. downloading the lecture videos.\n- D. arguing about the design.\n\n**4. (Vocabulary in context)** The word \"priority\" in the passage is closest in meaning to\n\n- A. what comes first.\n- B. what costs least.\n- C. what is easiest.\n- D. what is written down.\n\n**5. (Reference)** In the sentence, he says it will be ready by Wednesday, the word \"it\" refers to\n\n- A. the list.\n- B. the spare laptop.\n- C. the database work.\n- D. the project.\n\n**6. (Inference)** It can be inferred from the passage that the group\n\n- A. expects the electricity to improve soon.\n- B. has given up planning its week.\n- C. treats the power schedule as something to plan around, not to complain about.\n- D. does most of its work on paper.\n\n**7. (Sentence insertion)** Look at the four letters **[A] [B] [C] [D]** in the passage. Where would this sentence best fit?\n\n> *A plan is only worth anything on the week it is tested.*\n\n\n- A. At **[A]**\n- B. At **[B]**\n- C. At **[C]**\n- D. At **[D]**\n\n**8. (Purpose of a paragraph)** Why does the writer mention the eleven files Yousef queued last month?\n\n- A. To show that the connection is always slow.\n- B. To explain why he now starts the big files first.\n- C. To criticise Yousef for being careless.\n- D. To show how many lectures there are each week.\n\n**9. (Purpose of the whole passage)** What is the writer's main purpose in the whole passage?\n\n- A. To explain how an inverter works.\n- B. To ask the reader to send equipment to the group.\n- C. To show how four students plan a week of study around the hours of electricity they get.\n- D. To compare studying at home with studying at college.\n\n**10. (The writer's attitude)** Which word best describes the writer's attitude towards the group's plan?\n\n- A. Amused.\n- B. Anxious.\n- C. Respectful.\n- D. Uninterested.\n\n### Part C — Fill in the blanks\n\nUse these words. There are **two extra words** you will not need.\n\n> *inverter · schedule · deadline · cloud · queue · spare · priority · bandwidth · generator*\n\n1. The \\_\\_\\_\\_\\_\\_\\_\\_ changes every month, so the plan changes with it.\n2. They have one battery and one \\_\\_\\_\\_\\_\\_\\_\\_ between them.\n3. Yousef put eleven files in the \\_\\_\\_\\_\\_\\_\\_\\_ at six o'clock.\n4. The \\_\\_\\_\\_\\_\\_\\_\\_ for the database work is Thursday night.\n5. The project goes to the \\_\\_\\_\\_\\_\\_\\_\\_ before eleven.\n6. Hani is going to rebuild the \\_\\_\\_\\_\\_\\_\\_\\_ laptop.\n7. Every rule on the list is about \\_\\_\\_\\_\\_\\_\\_\\_.\n\n### Part D — Summary\n\nWrite the story in **two sentences only**. Use *going to* once and *will* once.\n\n> Sentence 1 — what the group is going to do while the power is on: \\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\n> Sentence 2 — what they will do when it goes off: \\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\n",
+   "segments": [
+    {
+     "say": "Now get ready to answer the questions about the passage. There are ten questions. You may look at the passage while you answer.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 2
+    },
+    {
+     "say": "Question 1.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 0.6
+    },
+    {
+     "say": "How many hours of electricity does their area get this month?",
+     "voice": "narrator"
+    },
+    {
+     "pause": 0.8
+    },
+    {
+     "say": "A. Four.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 0.5
+    },
+    {
+     "say": "B. Seven.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 0.5
+    },
+    {
+     "say": "C. Eleven.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 0.5
+    },
+    {
+     "say": "D. Twenty-four.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 0.5
+    },
+    {
+     "pause": 12
+    },
+    {
+     "say": "Question 2.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 0.6
+    },
+    {
+     "say": "What is Yousef in charge of?",
+     "voice": "narrator"
+    },
+    {
+     "pause": 0.8
+    },
+    {
+     "say": "A. The battery.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 0.5
+    },
+    {
+     "say": "B. The list.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 0.5
+    },
+    {
+     "say": "C. The downloads.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 0.5
+    },
+    {
+     "say": "D. The spare laptop.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 0.5
+    },
+    {
+     "pause": 12
+    },
+    {
+     "say": "Question 3.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 0.6
+    },
+    {
+     "say": "According to the passage, all of the following are on the left-hand column of the list EXCEPT",
+     "voice": "narrator"
+    },
+    {
+     "pause": 0.8
+    },
+    {
+     "say": "A. plugging in both laptops.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 0.5
+    },
+    {
+     "say": "B. charging the battery.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 0.5
+    },
+    {
+     "say": "C. downloading the lecture videos.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 0.5
+    },
+    {
+     "say": "D. arguing about the design.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 0.5
+    },
+    {
+     "pause": 12
+    },
+    {
+     "say": "Question 4.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 0.6
+    },
+    {
+     "say": "The word \"priority\" in the passage is closest in meaning to",
+     "voice": "narrator"
+    },
+    {
+     "pause": 0.8
+    },
+    {
+     "say": "A. what comes first.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 0.5
+    },
+    {
+     "say": "B. what costs least.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 0.5
+    },
+    {
+     "say": "C. what is easiest.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 0.5
+    },
+    {
+     "say": "D. what is written down.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 0.5
+    },
+    {
+     "pause": 12
+    },
+    {
+     "say": "Question 5.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 0.6
+    },
+    {
+     "say": "In the sentence, he says it will be ready by Wednesday, the word \"it\" refers to",
+     "voice": "narrator"
+    },
+    {
+     "pause": 0.8
+    },
+    {
+     "say": "A. the list.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 0.5
+    },
+    {
+     "say": "B. the spare laptop.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 0.5
+    },
+    {
+     "say": "C. the database work.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 0.5
+    },
+    {
+     "say": "D. the project.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 0.5
+    },
+    {
+     "pause": 12
+    },
+    {
+     "say": "Question 6.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 0.6
+    },
+    {
+     "say": "It can be inferred from the passage that the group",
+     "voice": "narrator"
+    },
+    {
+     "pause": 0.8
+    },
+    {
+     "say": "A. expects the electricity to improve soon.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 0.5
+    },
+    {
+     "say": "B. has given up planning its week.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 0.5
+    },
+    {
+     "say": "C. treats the power schedule as something to plan around, not to complain about.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 0.5
+    },
+    {
+     "say": "D. does most of its work on paper.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 0.5
+    },
+    {
+     "pause": 12
+    },
+    {
+     "say": "Question seven.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 0.6
+    },
+    {
+     "say": "Look at the four letters [A] [B] [C] [D] in the passage. Where would this sentence best fit?",
+     "voice": "narrator"
+    },
+    {
+     "pause": 0.8
+    },
+    {
+     "say": "A plan is only worth anything on the week it is tested.",
+     "voice": "reader"
+    },
+    {
+     "pause": 1
+    },
+    {
+     "say": "A. At [A]",
+     "voice": "narrator"
+    },
+    {
+     "pause": 0.5
+    },
+    {
+     "say": "B. At [B]",
+     "voice": "narrator"
+    },
+    {
+     "pause": 0.5
+    },
+    {
+     "say": "C. At [C]",
+     "voice": "narrator"
+    },
+    {
+     "pause": 0.5
+    },
+    {
+     "say": "D. At [D]",
+     "voice": "narrator"
+    },
+    {
+     "pause": 0.5
+    },
+    {
+     "pause": 20
+    },
+    {
+     "say": "Question eight.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 0.6
+    },
+    {
+     "say": "Why does the writer mention the eleven files Yousef queued last month?",
+     "voice": "narrator"
+    },
+    {
+     "pause": 0.8
+    },
+    {
+     "say": "A. To show that the connection is always slow.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 0.5
+    },
+    {
+     "say": "B. To explain why he now starts the big files first.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 0.5
+    },
+    {
+     "say": "C. To criticise Yousef for being careless.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 0.5
+    },
+    {
+     "say": "D. To show how many lectures there are each week.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 0.5
+    },
+    {
+     "pause": 15
+    },
+    {
+     "say": "Question nine.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 0.6
+    },
+    {
+     "say": "What is the writer's main purpose in the whole passage?",
+     "voice": "narrator"
+    },
+    {
+     "pause": 0.8
+    },
+    {
+     "say": "A. To explain how an inverter works.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 0.5
+    },
+    {
+     "say": "B. To ask the reader to send equipment to the group.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 0.5
+    },
+    {
+     "say": "C. To show how four students plan a week of study around the hours of electricity they get.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 0.5
+    },
+    {
+     "say": "D. To compare studying at home with studying at college.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 0.5
+    },
+    {
+     "pause": 20
+    },
+    {
+     "say": "Question ten.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 0.6
+    },
+    {
+     "say": "Which word best describes the writer's attitude towards the group's plan?",
+     "voice": "narrator"
+    },
+    {
+     "pause": 0.8
+    },
+    {
+     "say": "A. Amused.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 0.5
+    },
+    {
+     "say": "B. Anxious.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 0.5
+    },
+    {
+     "say": "C. Respectful.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 0.5
+    },
+    {
+     "say": "D. Uninterested.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 0.5
+    },
+    {
+     "pause": 15
+    },
+    {
+     "pause": 1.5
+    },
+    {
+     "say": "Last task. Write the story in two sentences only. Use going to once and will once. Sentence one: what the group is going to do while the power is on. Sentence two: what they will do when it goes off.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 90
+    },
+    {
+     "say": "This is the end of the questions.",
+     "voice": "narrator"
+    }
+   ]
+  },
+  {
+   "number": "07",
+   "slug": "true-false",
+   "title": "True / false",
+   "minutes": 15,
+   "sheet": true,
+   "audio": true,
+   "markdown": "### Part B — True / False\n\nWrite **T** or **F**. If it is false, write the correct sentence.\n\n1. The list on the door is a list of the week's academic work. \\_\\_\\_\\_\n2. The electricity comes in two blocks this month. \\_\\_\\_\\_\n3. Yousef starts the small files first. \\_\\_\\_\\_\n4. Nour's deadline is Thursday night. \\_\\_\\_\\_\n5. The battery is for the laptops before the router. \\_\\_\\_\\_\n6. Last Tuesday they lost the project as well as the three hours. \\_\\_\\_\\_\n",
+   "segments": [
+    {
+     "say": "True or false. You will hear six sentences. Say true or false. If the sentence is false, say the correct sentence.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 2
+    },
+    {
+     "say": "Sentence 1.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 0.5
+    },
+    {
+     "say": "The list on the door is a list of the week's academic work.",
+     "voice": "reader"
+    },
+    {
+     "pause": 8
+    },
+    {
+     "say": "Sentence 2.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 0.5
+    },
+    {
+     "say": "The electricity comes in two blocks this month.",
+     "voice": "reader"
+    },
+    {
+     "pause": 8
+    },
+    {
+     "say": "Sentence 3.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 0.5
+    },
+    {
+     "say": "Yousef starts the small files first.",
+     "voice": "reader"
+    },
+    {
+     "pause": 8
+    },
+    {
+     "say": "Sentence 4.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 0.5
+    },
+    {
+     "say": "Nour's deadline is Thursday night.",
+     "voice": "reader"
+    },
+    {
+     "pause": 8
+    },
+    {
+     "say": "Sentence 5.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 0.5
+    },
+    {
+     "say": "The battery is for the laptops before the router.",
+     "voice": "reader"
+    },
+    {
+     "pause": 8
+    },
+    {
+     "say": "Sentence 6.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 0.5
+    },
+    {
+     "say": "Last Tuesday they lost the project as well as the three hours.",
+     "voice": "reader"
+    },
+    {
+     "pause": 8
+    },
+    {
+     "say": "This is the end of the true or false questions.",
+     "voice": "narrator"
+    }
+   ]
+  },
+  {
+   "number": "08",
+   "slug": "speaking",
+   "title": "Speaking",
+   "minutes": 25,
+   "sheet": true,
+   "audio": true,
+   "markdown": "### 5.1 Speaking (record each answer, 45 seconds)\n\n1. Tell the story of the four students in your own words. Use going to and will.\n2. What are you going to do tomorrow? Name three things that are already decided.\n3. The power goes off in ten minutes and you have not finished. What will you do first, and why?\n\n**Useful sentence starters:**\n\n- *I am going to \\_\\_\\_\\_ before \\_\\_\\_\\_.*\n- *If the power goes off, I'll \\_\\_\\_\\_.*\n- *I think it will \\_\\_\\_\\_, but I am not sure.*\n- *The first priority is \\_\\_\\_\\_, because \\_\\_\\_\\_.*\n- *It is already on my list, so I am going to \\_\\_\\_\\_.*\n",
+   "segments": [
+    {
+     "say": "Speaking practice. For each question you will have fifteen seconds to prepare and forty-five seconds to speak. Record your answer on your phone.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 2
+    },
+    {
+     "say": "Speaking question 1.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 0.6
+    },
+    {
+     "say": "Tell the story of the four students in your own words. Use going to and will.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 1
+    },
+    {
+     "say": "Preparation time. Fifteen seconds.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 15
+    },
+    {
+     "say": "Begin speaking now.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 45
+    },
+    {
+     "say": "Stop speaking.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 2
+    },
+    {
+     "say": "Speaking question 2.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 0.6
+    },
+    {
+     "say": "What are you going to do tomorrow? Name three things that are already decided.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 1
+    },
+    {
+     "say": "Preparation time. Fifteen seconds.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 15
+    },
+    {
+     "say": "Begin speaking now.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 45
+    },
+    {
+     "say": "Stop speaking.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 2
+    },
+    {
+     "say": "Speaking question 3.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 0.6
+    },
+    {
+     "say": "The power goes off in ten minutes and you have not finished. What will you do first, and why?",
+     "voice": "narrator"
+    },
+    {
+     "pause": 1
+    },
+    {
+     "say": "Preparation time. Fifteen seconds.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 15
+    },
+    {
+     "say": "Begin speaking now.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 45
+    },
+    {
+     "say": "Stop speaking.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 2
+    },
+    {
+     "say": "This is the end of the speaking practice.",
+     "voice": "narrator"
+    }
+   ]
+  },
+  {
+   "number": "09",
+   "slug": "writing",
+   "title": "Writing — My Plan for Next Week",
+   "minutes": 35,
+   "sheet": true,
+   "audio": false,
+   "markdown": "### 5.2 Writing — \"My Plan for Next Week\" (14–16 sentences)\n\n**Model answer (copy the shape, change the words):**\n\n> Next week is going to be busy, so I wrote the plan down on Friday. I am going to finish the report for my course before Wednesday, because the deadline is Wednesday night and I am not going to ask for more time again. The electricity in our street comes on at six in the morning and again at eight at night. While it is on I am going to charge the laptop, download the two lectures I have missed, and put the finished chapters in the cloud. When it goes off I will read and make notes on paper, which costs nothing. My first priority is the report; everything else can wait. I think the hardest part will be Tuesday, because I have the class and the deadline on the same day. If the connection is slow I'll download the small files first and leave the videos until the morning. My sister is going to use the spare account for her own work, so we will not fight over the password. I have not planned Thursday yet. I will decide on Wednesday night, when I know what is left. The plan will not survive the week exactly as it is written, but a week with a plan is a different week from a week without one.\n\n**Checklist before you send it:**\n\n- [ ] I used **going to** at least **four** times, for decisions already made.\n- [ ] I used **will** or **'ll** at least **four** times, for opinions and for decisions made in the moment.\n- [ ] I used the past simple, not the present perfect, with a finished time.\n- [ ] I used at least **5 new words** from Session 2.\n- [ ] I used at least **2 words** from Lesson 4 or Lesson 5.\n- [ ] My text has 14–16 sentences.\n"
+  },
+  {
+   "number": "10",
+   "slug": "review",
+   "title": "Review",
+   "minutes": 30,
+   "sheet": true,
+   "audio": true,
+   "markdown": "### 6.1 Listen again (no text)\n\n1. Name three things the group does while the power is on.\n2. Why does the project have to go to the cloud before eleven?\n\n### 6.2 Mini-quiz (12 marks)\n\n1. The short form of *it will* is \\_\\_\\_\\_\\_\\_\\_\\_\n2. Which one is for a decision made at the moment of speaking: *will* or *going to*? \\_\\_\\_\\_\\_\\_\\_\\_\n3. In speech, *going to* before another verb sounds like \\_\\_\\_\\_\\_\\_\\_\\_\n4. The opposite of *download* is \\_\\_\\_\\_\\_\\_\\_\\_\n5. The opposite of *spare* is \\_\\_\\_\\_\\_\\_\\_\\_\n6. A machine that changes battery power into house power is an \\_\\_\\_\\_\\_\\_\\_\\_\n7. The thing that must be done before anything else is the \\_\\_\\_\\_\\_\\_\\_\\_\n8. *She submitted it on Thursday* or *She has submitted it on Thursday* — which is correct, and why? \\_\\_\\_\\_\\_\\_\\_\\_\n9. Write a sentence with *going to* about tomorrow.\n10. Write a sentence with *I'll* about something you decide right now.\n11. Write one sentence with **bandwidth**.\n12. Tell the story of the passage in two sentences, from memory.\n\n### 6.3 Lesson 6 self-report\n\n| Question | Answer |\n|---|---|\n| Minutes studied this week | |\n| Hardest part (listening / reading / vocabulary / grammar / speaking / writing) | |\n| Future sentences I can now make without thinking | |\n| Words from Lesson 4 I have forgotten | |\n| One thing I want to repeat next week | |\n",
+   "segments": [
+    {
+     "say": "Review. Listen to the passage again, with no text, and answer these questions.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 2
+    },
+    {
+     "say": "Question one. Name three things the group does while the power is on.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 10
+    },
+    {
+     "say": "Question two. Why does the project have to go to the cloud before eleven?",
+     "voice": "narrator"
+    },
+    {
+     "pause": 10
+    },
+    {
+     "pause": 1.5
+    },
+    {
+     "say": "Now the mini-quiz. Twelve marks. Answer in the silence after each question.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 2
+    },
+    {
+     "say": "One. The short form of it will is",
+     "voice": "narrator"
+    },
+    {
+     "pause": 6
+    },
+    {
+     "say": "Two. Which one is for a decision made at the moment of speaking: will, or going to?",
+     "voice": "narrator"
+    },
+    {
+     "pause": 8
+    },
+    {
+     "say": "Three. In speech, going to before another verb sounds like",
+     "voice": "narrator"
+    },
+    {
+     "pause": 6
+    },
+    {
+     "say": "Four. The opposite of download is",
+     "voice": "narrator"
+    },
+    {
+     "pause": 6
+    },
+    {
+     "say": "Five. The opposite of spare is",
+     "voice": "narrator"
+    },
+    {
+     "pause": 6
+    },
+    {
+     "say": "Six. A machine that changes battery power into house power is an",
+     "voice": "narrator"
+    },
+    {
+     "pause": 6
+    },
+    {
+     "say": "Seven. The thing that must be done before anything else is the",
+     "voice": "narrator"
+    },
+    {
+     "pause": 6
+    },
+    {
+     "say": "Eight. Which is correct: she submitted it on Thursday, or she has submitted it on Thursday? And why?",
+     "voice": "narrator"
+    },
+    {
+     "pause": 12
+    },
+    {
+     "say": "Nine. Write a sentence with going to about tomorrow.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 15
+    },
+    {
+     "say": "Ten. Write a sentence with I'll about something you decide right now.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 15
+    },
+    {
+     "say": "Eleven. Write one sentence with bandwidth.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 15
+    },
+    {
+     "say": "Twelve. Tell the story of the passage in two sentences, from memory.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 20
+    },
+    {
+     "say": "This is the end of the review.",
+     "voice": "narrator"
+    }
+   ]
+  },
+  {
+   "number": "11",
+   "slug": "answer-key",
+   "title": "Answer key and teacher notes",
+   "minutes": 10,
+   "sheet": true,
+   "audio": false,
+   "css_id": "answer-key",
+   "markdown": "**Listening:** L1 — four students; they share one inverter, one battery, two laptops and a list · L2 — six to nine in the morning, and seven to eleven at night · L3 — he starts the big downloads · L4 — the generator in the building below failed at half past seven, and they lost three hours\n\n**Part A (MCQ):** 1-B · 2-C · 3-D · 4-A · 5-B · 6-C · 7-D · 8-B · 9-C · 10-C\n\n*Why 7 is **[D]***: the sentence is about a plan being tested, and only the paragraph after **[D]** tests one — the Tuesday the generator failed. The paragraph after **[A]** is the schedule, after **[B]** is one person's method, after **[C]** is the rules. None of those is a test of anything.\n\n*Why 8 is **B***: the eleven files are there to explain what Yousef learned from them, and the next sentence is the lesson — he starts the big ones first now. The paragraph is not a complaint about the connection and not a criticism of him.\n\n*Why 9 is **C***: the passage explains no machine, asks for nothing and compares nothing. It follows one week's list from Sunday to Sunday.\n\n*Why 10 is **C, respectful***: as in Lesson 5, watch what is **chosen to be reported** rather than what is said about it. The writer gives the rules without comment, lets Dalia have the last word, and records the one week the plan failed — including the detail that the rule saved the work. There is no *brave* and no *sadly*. The respect is in the care taken over the detail.\n\n**Part B (True/False):**\n\n1. F — It is a plan for the power: what to do while it is on, and what to do when it is off.\n2. T\n3. F — He starts the big files at six and leaves the small ones until the end.\n4. T\n5. F — The router comes first and the laptops second.\n6. F — They had sent it to the cloud at seven, so they lost only the time.\n\n**Part C (Fill in the blanks):** 1. schedule · 2. inverter · 3. queue · 4. deadline · 5. cloud · 6. spare · 7. priority\n*(Extra words: bandwidth, generator)*\n\n**2.4 A (Opposites):** 1. in use · 2. upload · 3. keep back · 4. unplug · 5. what can wait\n\n**2.4 B (Odd one out):** 1. deadline (the others make or hold electricity) · 2. spare (the others are things you do) · 3. socket (the others are about time or order)\n\n**Come back to (present perfect or past simple):** 1. failed · 2. have not lost · 3. put · 4. has kept\n\n**3.6 A (*going to* or *will*, and why):**\n\n1. is going to die — the evidence is in front of you\n2. will take / I'll take — decided at the moment of speaking\n3. are going to plug in — decided on Sunday and written on the list\n4. will come back — an opinion, with *I think*\n5. is going to submit — planned for a week\n\n**3.6 B (future forms):** 1. is going to rebuild · 2. Are … going to download (or Will … download) · 3. are not going to get · 4. will go / is going to go · 5. will not move\n\n**3.6 C (present perfect or past simple):** 1. failed · 2. have not missed · 3. queued · 4. has written\n\n**Mini-quiz:** 1. it'll · 2. will · 3. *gonna* · 4. upload · 5. in use · 6. inverter · 7. priority · 8. *She submitted it on Thursday* — Thursday is a finished time, and the present perfect cannot share a sentence with one · 9–12. teacher judgement\n\n### Teacher Notes {: #teacher-notes }\n\n**What changed from Lesson 5, and what deliberately did not.** The passage is 504 words against Lesson 5's 481, and that is the point: **the length stops climbing here.** Lessons 1 to 5 went 185, 244, 320, 400, 481 — about a quarter longer every week, which is faster than anybody consolidates. Lessons 6, 7 and 8 all sit at about 500. Difficulty still rises, but through the grammar step, the density of the vocabulary, and how much of the text is argument rather than story. The question set is untouched: ten questions, the same eight types, in the same order. She should recognise every question on sight and spend all of her attention on the text.\n\n**The one real difficulty.** Not the forms — *will* and *going to* are both easy to build — but choosing between them. Arabic marks the future with one particle and does not split it this way, so the instinct is to use whichever came first in the textbook. The rule that actually works is in 3.4: **the list is *going to*; the conversation is *will*.** If the decision existed before the sentence began, it is *going to*. If it was made inside the sentence, or is only an opinion, it is *will*. Make her say *why* in 3.6 A: the reason matters more than the answer.\n\n**Why the pronunciation part is the one to protect.** A student can write *will* perfectly and never once hear it, because in speech it is a single consonant hung on the end of the pronoun — *it'll*, *she'll*, *we'll*. The same student hears *gonna* and connects it to nothing she has been taught. Part 05 says it plainly: **write *going to*, say /ˈɡənə/.** The trap in its third section is worth two extra minutes — *I'm going to the college* keeps the full sound, because there *going* is a real verb of movement.\n\n**On the \"Come back to\" section.** It takes the present perfect from Lesson 4 and adds the rule held back the first time: it cannot share a sentence with a finished time. *I have finished it yesterday* is among the most common errors at this level, and it survives for years if nobody names it. The test is mechanical — is the time expression closed? — so she can apply it without thinking once she has seen it once.\n\n**Why this story.** Five passages have followed one person. This one follows a group, which is what the future tenses need: plans are made by people talking to each other, and *will* only makes sense when somebody is in the room to decide something in front of you. It also lets the passage be concrete about things she already knows — an inverter, a schedule that changes every month, a queue of downloads — without being *about* them. They are competent people with a method, which is both true and exactly what the grammar requires.\n\n**Success criteria for Lesson 6.** The student should be able to:\n\n- answer L1–L4 correctly on the second hearing;\n- hear *it'll be ready* and *we're gonna start* and write both out in full;\n- choose between *will* and *going to*, and say why;\n- form the negative and the question of both;\n- avoid the present perfect with *yesterday*, *last Tuesday*, *at six o'clock*;\n- use 10 of the 14 key words in her own sentence;\n- write 14 sentences of plan with fewer than 4 future errors.\n\n**If it is too easy:** keep the length where it is and raise the density instead — ask for the writing task in 18 sentences, with three *will* / *going to* choices justified in the margin.\n**If it is too hard:** drop part 05 to recognition only — hear it, do not produce it — and drill 3.4 alone for a second week. Length will not be the problem this time, which is the reason for holding it flat.\n\n**A note on spaced recall.** `03-vocabulary.mp3` ends with five Lesson 4 words — *connection, website, account, password, update*. Lesson 5 recalled Lesson 3, so the two-lesson gap holds. Lesson 5's words are due back in Lesson 7.\n\n**A note on the games.** This is the first lesson with **five** instead of two: the crossword and the word search as before, plus memory pairs, a criss-cross clued in Arabic, and a cryptogram. All five are generated from the same vocabulary block, so none of them can drill a word the lesson does not teach. The memory game has three settings — icons, meanings, mixed — and its drawings live in `icons.json` at the repository root, shared by every lesson. Lessons 1 to 5 still have two games each; giving them the other three needs drawings for about seventy more words, and that is a separate decision.\n"
+  },
+  {
+   "number": "12",
+   "slug": "passage-slow",
+   "title": "Passage, extra slow",
+   "minutes": 10,
+   "sheet": false,
+   "audio": true,
+   "segments": [
+    {
+     "say": "Slow version. The passage, read slowly, one time.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 2
+    },
+    {
+     "say": "There are four of them, and between them they have one inverter, one battery, two laptops and a list. The list is on the back of a door in a room at the college, and every Sunday evening they write next week's plan on it. The plan is not about the work. The plan is about the power. Everything else on the list follows from that.\n\nThe electricity in their part of the city comes in two blocks, and the schedule changes every month. This month it is on from six in the morning until nine, and again from seven at night until eleven. Seven hours. Dalia, who keeps the list, says the first thing you learn is that seven hours is enough, if you decide what each hour is for before it starts.\n\nSo the list has two columns. On the left is what they are going to do while the power is on: plug in both laptops, charge the battery, download the week's lecture videos, and send the group project up to the cloud. On the right is what they will do when it goes off: read, write, plan, and argue about the design. Every line has a name beside it, so nobody is waiting for somebody else to begin.\n\nYousef is in charge of the downloads. \"I am going to start the big files at six,\" he said on Sunday, \"and I'll leave the small ones until the end. If the bandwidth is bad, we will still have the lectures.\" He has learned not to queue everything at once. Last month he put eleven files in the queue at six o'clock and had four of them by nine.\n\nNour is going to finish the database work before Thursday, because the deadline is Thursday night and she is going to submit it on time this week. Hani is going to rebuild the spare laptop, the one with the broken socket, and he says it will be ready by Wednesday. Nobody believes him. He says that every week.\n\nThere are rules on the list as well, and all of them are about priority. The battery is for the router first and the laptops second. Nothing that can be done on paper is done on a screen while the power is on. And whatever else happens, the project goes to the cloud before eleven, because a file that exists in one place does not really exist.\n\nDalia will not say that the plan always works. Last Tuesday the generator in the building below them failed at half past seven, and the two blocks became one. They lost three hours. But they had sent the project up at seven, so they lost three hours of work and nothing else, which is the whole reason for the rule.\n\nOn Sunday she will write the next list, and it will look much like this one. \"We are not going to get more hours,\" she says. \"So we are going to get better at the hours we have.\"",
+     "voice": "slow"
+    }
+   ]
+  }
+ ]
+}

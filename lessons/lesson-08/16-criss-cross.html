@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Criss-cross - Lesson 8 — The Line We Share</title>
+<meta name="theme-color" content="#15607a">
+<style>
+:root{--ink:#1a1d21;--muted:#5d646e;--rule:#dfe3e8;--accent:#15607a;
+--wash:#f1f6f8;--bg:#fff;--ok:#1d6b45;--bad:#a4302a}
+@media(prefers-color-scheme:dark){:root{--ink:#e9edf1;--muted:#9aa4b0;
+--rule:#2b3138;--accent:#6fc2de;--wash:#1a2026;--bg:#10151a;--ok:#6fd19d;--bad:#e8857f}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);padding:16px;
+font:16px/1.5 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+.wrap{max-width:46rem;margin:0 auto}
+h1{font-size:20px;margin:0 0 2px;color:var(--accent)}
+.sub{color:var(--muted);font-size:14px;margin:0 0 14px}
+.bar{display:flex;gap:8px;flex-wrap:wrap;margin:14px 0}
+button{font:inherit;font-size:14px;padding:7px 14px;border-radius:99px;
+border:1px solid var(--accent);background:transparent;color:var(--accent);cursor:pointer;min-height:38px}
+button.primary{background:var(--accent);color:#fff}
+.msg{min-height:22px;font-size:14px;font-weight:600;margin-bottom:6px}
+.msg.good{color:var(--ok)}.msg.bad{color:var(--bad)}
+table.grid{border-collapse:collapse;margin:0 auto 6px}
+table.grid td{padding:0;border:0}
+.cell{width:var(--sq);height:var(--sq);position:relative;border:1px solid var(--rule);
+background:var(--wash)}
+.cell.block{border:0;background:transparent}
+.cell input{width:100%;height:100%;border:0;background:transparent;text-align:center;
+font:600 calc(var(--sq)*0.52)/1 inherit;color:var(--ink);text-transform:uppercase;padding:0}
+.cell input:focus{outline:2px solid var(--accent);outline-offset:-2px}
+.cell.right input{color:var(--ok)}
+.cell.wrong input{color:var(--bad)}
+.num{position:absolute;top:1px;left:2px;font-size:calc(var(--sq)*0.28);color:var(--muted);
+pointer-events:none}
+.clues{display:grid;grid-template-columns:1fr;gap:18px;margin-top:18px}
+@media(min-width:620px){.clues{grid-template-columns:1fr 1fr}}
+.clues h2{font-size:14px;text-transform:uppercase;letter-spacing:.05em;color:var(--muted);
+margin:0 0 6px}
+ol.clue{margin:0;padding-left:0;list-style:none}
+ol.clue li{margin-bottom:6px;font-size:14.5px;display:flex;gap:7px}
+ol.clue b{color:var(--accent);min-width:1.6em;text-align:right}
+ol.clue li.done{color:var(--muted);text-decoration:line-through}
+.ar{font-size:13px;color:var(--muted)}
+.ws td{border:0}
+.ws .cell{background:transparent;border:0;display:flex;align-items:center;
+justify-content:center;font-weight:600;font-size:calc(var(--sq)*0.5);cursor:pointer;
+user-select:none;-webkit-user-select:none;border-radius:4px}
+.ws .cell.sel{background:var(--accent);color:#fff}
+.ws .cell.found{background:var(--wash);color:var(--ok)}
+.words{display:flex;flex-wrap:wrap;gap:6px 14px;margin-top:14px}
+.words span{font-size:14.5px}
+.words span.found{color:var(--muted);text-decoration:line-through}
+.foot{margin-top:26px;border-top:1px solid var(--rule);padding-top:10px;
+font-size:13px;color:var(--muted)}
+.foot a{color:var(--accent)}
+/* memory pairs */
+.modes{display:inline-flex;border:1px solid var(--accent);border-radius:99px;overflow:hidden}
+.modes button{border:0;border-radius:0;padding:7px 15px}
+.modes button+button{border-left:1px solid var(--accent)}
+.modes button.on{background:var(--accent);color:#fff}
+.stat{font-size:14px;color:var(--muted);margin:12px 0 0}
+.stat b{color:var(--ink)}
+.mem{display:grid;grid-template-columns:repeat(4,1fr);gap:7px;margin-top:14px}
+@media(min-width:560px){.mem{grid-template-columns:repeat(5,1fr);gap:10px}}
+.card{position:relative;aspect-ratio:1;border:0;padding:0;background:none;cursor:pointer;
+min-height:0;perspective:700px}
+.card .in{position:absolute;inset:0;transition:transform .32s;transform-style:preserve-3d}
+.card.up .in{transform:rotateY(180deg)}
+.card .face{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;
+flex-direction:column;gap:3px;text-align:center;padding:5px;border:1px solid var(--rule);
+border-radius:9px;overflow:hidden;backface-visibility:hidden;-webkit-backface-visibility:hidden}
+.card .back{background:var(--wash);color:var(--accent);font:700 19px/1 inherit}
+.card .front{background:var(--bg);color:var(--ink);transform:rotateY(180deg);
+font-size:clamp(9.5px,2.5vw,12.5px);line-height:1.25;overflow-wrap:anywhere}
+.card .front .w{font-weight:700;font-size:clamp(12px,3.2vw,16px);color:var(--accent)}
+.card.done .face{border-color:var(--ok)}
+.card.done .front{color:var(--ok)}
+.card.done .front .w{color:var(--ok)}
+.card.done .ic{color:var(--ok)}
+.card.done{cursor:default}
+.ic{width:48%;height:auto;max-height:54%;color:var(--accent)}
+/* criss-cross */
+.arclue{direction:rtl;unicode-bidi:isolate;font-size:15.5px}
+.bank{display:flex;flex-wrap:wrap;gap:6px 9px;margin-top:10px}
+.bank span{border:1px solid var(--rule);border-radius:99px;padding:3px 11px;font-size:14px}
+.bank span.found{color:var(--muted);text-decoration:line-through;border-style:dashed}
+/* cryptogram */
+.cg{display:flex;flex-wrap:wrap;gap:15px 22px;margin-top:4px}
+.cw{display:flex;flex-direction:column;gap:5px}
+.cw .cl{font-size:13px;color:var(--muted);max-width:22rem}
+.cw.done .cl{color:var(--ok)}
+.cw .row{display:flex;gap:3px}
+.bx{width:var(--sq);display:flex;flex-direction:column;align-items:center;gap:2px}
+.bx input{width:100%;height:var(--sq);border:1px solid var(--rule);
+border-bottom:2px solid var(--accent);border-radius:4px 4px 0 0;background:var(--wash);
+text-align:center;color:var(--ink);font:600 calc(var(--sq)*0.5)/1 inherit;
+text-transform:uppercase;padding:0}
+.bx input:focus{outline:2px solid var(--accent);outline-offset:-2px}
+.bx.given input{background:transparent;border-bottom-color:var(--rule);color:var(--muted)}
+.bx.right input{color:var(--ok)}
+.bx.wrong input{color:var(--bad)}
+.bx .cph{font-size:calc(var(--sq)*0.36);color:var(--muted)}
+.keytab{display:flex;flex-wrap:wrap;gap:4px;margin-top:6px}
+.keytab span{border:1px solid var(--rule);border-radius:5px;padding:2px 7px;
+font-size:12.5px;color:var(--muted)}
+.keytab span b{color:var(--accent)}
+
+:root{--sq:min(5.5vw, 32px)}</style>
+</head>
+<body><div class="wrap">
+<h1>Criss-cross</h1>
+<p class="sub">Lesson 8 — The Line We Share &middot; 14 key words. Read the Arabic, write the English.</p>
+<div class="msg" id="msg"></div>
+<table class="grid"><tbody>
+<tr><td><div class="cell block"></div></td><td><div class="cell" data-r="0" data-c="1"><span class="num">1</span><input maxlength="1" inputmode="latin" autocomplete="off" aria-label="row 1 column 2"></div></td><td><div class="cell" data-r="0" data-c="2"><input maxlength="1" inputmode="latin" autocomplete="off" aria-label="row 1 column 3"></div></td><td><div class="cell" data-r="0" data-c="3"><input maxlength="1" inputmode="latin" autocomplete="off" aria-label="row 1 column 4"></div></td><td><div class="cell" data-r="0" data-c="4"><input maxlength="1" inputmode="latin" autocomplete="off" aria-label="row 1 column 5"></div></td><td><div class="cell" data-r="0" data-c="5"><input maxlength="1" inputmode="latin" autocomplete="off" aria-label="row 1 column 6"></div></td><td><div class="cell" data-r="0" data-c="6"><input maxlength="1" inputmode="latin" autocomplete="off" aria-label="row 1 column 7"></div></td><td><div class="cell block"></div></td><td><div class="cell block"></div></td><td><div class="cell block"></div></td><td><div class="cell block"></div></td><td><div class="cell block"></div></td><td><div class="cell block"></div></td><td><div class="cell block"></div></td><td><div class="cell block"></div></td><td><div class="cell block"></div></td></tr>
+<tr><td><div class="cell block"></div></td><td><div class="cell" data-r="1" data-c="1"><input maxlength="1" inputmode="latin" autocomplete="off" aria-label="row 2 column 2"></div></td><td><div class="cell block"></div></td><td><div class="cell block"></div></td><td><div class="cell block"></div></td><td><div class="cell block"></div></td><td><div class="cell block"></div></td><td><div class="cell block"></div></td><td><div class="cell block"></div></td><td><div class="cell block"></div></td><td><div class="cell block"></div></td><td><div class="cell block"></div></td><td><div class="cell block"></div></td><td><div class="cell block"></div></td><td><div class="cell block"></div></td><td><div class="cell block"></div></td></tr>
+<tr><td><div class="cell block"></div></td><td><div class="cell" data-r="2" data-c="1"><input maxlength="1" inputmode="latin" autocomplete="off" aria-label="row 3 column 2"></div></td><td><div class="cell block"></div></td><td><div class="cell block"></div></td><td><div class="cell block"></div></td><td><div class="cell block"></div></td><td><div class="cell block"></div></td><td><div class="cell block"></div></td><td><div class="cell block"></div></td><td><div class="cell block"></div></td><td><div class="cell block"></div></td><td><div class="cell block"></div></td><td><div class="cell block"></div></td><td><div class="cell block"></div></td><td><div class="cell block"></div></td><td><div class="cell block"></div></td></tr>
+<tr><td><div class="cell block"></div></td><td><div class="cell" data-r="3" data-c="1"><input maxlength="1" inputmode="latin" autocomplete="off" aria-label="row 4 column 2"></div></td><td><div class="cell block"></div></td><td><div class="cell block"></div></td><td><div class="cell block"></div></td><td><div class="cell block"></div></td><td><div class="cell block"></div></td><td><div class="cell" data-r="3" data-c="7"><span class="num">2</span><input maxlength="1" inputmode="latin" autocomplete="off" aria-label="row 4 column 8"></div></td><td><div class="cell block"></div></td><td><div class="cell block"></div></td><td><div class="cell block"></div></td><td><div class="cell block"></div></td><td><div class="cell block"></div></td><td><div class="cell block"></div></td><td><div class="cell block"></div></td><td><div class="cell block"></div></td></tr>
+<tr><td><div class="cell block"></div></td><td><div class="cell" data-r="4" data-c="1"><span class="num">3</span><input maxlength="1" inputmode="latin" autocomplete="off" aria-label="row 5 column 2"></div></td><td><div class="cell" data-r="4" data-c="2"><input maxlength="1" inputmode="latin" autocomplete="off" aria-label="row 5 column 3"></div></td><td><div class="cell" data-r="4" data-c="3"><input maxlength="1" inputmode="latin" autocomplete="off" aria-label="row 5 column 4"></div></td><td><div class="cell" data-r="4" data-c="4"><input maxlength="1" inputmode="latin" autocomplete="off" aria-label="row 5 column 5"></div></td><td><div class="cell" data-r="4" data-c="5"><input maxlength="1" inputmode="latin" autocomplete="off" aria-label="row 5 column 6"></div></td><td><div class="cell" data-r="4" data-c="6"><input maxlength="1" inputmode="latin" autocomplete="off" aria-label="row 5 column 7"></div></td><td><div class="cell" data-r="4" data-c="7"><input maxlength="1" inputmode="latin" autocomplete="off" aria-label="row 5 column 8"></div></td><td><div class="cell" data-r="4" data-c="8"><input maxlength="1" inputmode="latin" autocomplete="off" aria-label="row 5 column 9"></div></td><td><div class="cell" data-r="4" data-c="9"><input maxlength="1" inputmode="latin" autocomplete="off" aria-label="row 5 column 10"></div></td><td><div class="cell block"></div></td><td><div class="cell block"></div></td><td><div class="cell block"></div></td><td><div class="cell block"></div></td><td><div class="cell block"></div></td><td><div class="cell block"></div></td></tr>
+<tr><td><div class="cell block"></div></td><td><div class="cell" data-r="5" data-c="1"><input maxlength="1" inputmode="latin" autocomplete="off" aria-label="row 6 column 2"></div></td><td><div class="cell block"></div></td><td><div class="cell block"></div></td><td><div class="cell block"></div></td><td><div class="cell block"></div></td><td><div class="cell block"></div></td><td><div class="cell" data-r="5" data-c="7"><input maxlength="1" inputmode="latin" autocomplete="off" aria-label="row 6 column 8"></div></td><td><div class="cell block"></div></td><td><div class="cell block"></div></td><td><div class="cell block"></div></td><td><div class="cell block"></div></td><td><div class="cell block"></div></td><td><div class="cell block"></div></td><td><div class="cell block"></div></td><td><div class="cell block"></div></td></tr>
+<tr><td><div class="cell block"></div></td><td><div class="cell" data-r="6" data-c="1"><input maxlength="1" inputmode="latin" autocomplete="off" aria-label="row 7 column 2"></div></td><td><div class="cell block"></div></td><td><div class="cell block"></div></td><td><div class="cell block"></div></td><td><div class="cell block"></div></td><td><div class="cell block"></div></td><td><div class="cell" data-r="6" data-c="7"><input maxlength="1" inputmode="latin" autocomplete="off" aria-label="row 7 column 8"></div></td><td><div class="cell block"></div></td><td><div class="cell block"></div></td><td><div class="cell block"></div></td><td><div class="cell block"></div></td><td><div class="cell block"></div></td><td><div class="cell block"></div></td><td><div class="cell block"></div></td><td><div class="cell block"></div></td></tr>
+<tr><td><div class="cell block"></div></td><td><div class="cell block"></div></td><td><div class="cell" data-r="7" data-c="2"><span class="num">4</span><input maxlength="1" inputmode="latin" autocomplete="off" aria-label="row 8 column 3"></div></td><td><div class="cell" data-r="7" data-c="3"><input maxlength="1" inputmode="latin" autocomplete="off" aria-label="row 8 column 4"></div></td><td><div class="cell" data-r="7" data-c="4"><input maxlength="1" inputmode="latin" autocomplete="off" aria-label="row 8 column 5"></div></td><td><div class="cell" data-r="7" data-c="5"><input maxlength="1" inputmode="latin" autocomplete="off" aria-label="row 8 column 6"></div></td><td><div class="cell" data-r="7" data-c="6"><input maxlength="1" inputmode="latin" autocomplete="off" aria-label="row 8 column 7"></div></td><td><div class="cell" data-r="7" data-c="7"><input maxlength="1" inputmode="latin" autocomplete="off" aria-label="row 8 column 8"></div></td><td><div class="cell" data-r="7" data-c="8"><input maxlength="1" inputmode="latin" autocomplete="off" aria-label="row 8 column 9"></div></td><td><div class="cell" data-r="7" data-c="9"><span class="num">5</span><input maxlength="1" inputmode="latin" autocomplete="off" aria-label="row 8 column 10"></div></td><td><div class="cell" data-r="7" data-c="10"><input maxlength="1" inputmode="latin" autocomplete="off" aria-label="row 8 column 11"></div></td><td><div class="cell" data-r="7" data-c="11"><input maxlength="1" inputmode="latin" autocomplete="off" aria-label="row 8 column 12"></div></td><td><div class="cell" data-r="7" data-c="12"><input maxlength="1" inputmode="latin" autocomplete="off" aria-label="row 8 column 13"></div></td><td><div class="cell block"></div></td><td><div class="cell" data-r="7" data-c="14"><span class="num">6</span><input maxlength="1" inputmode="latin" autocomplete="off" aria-label="row 8 column 15"></div></td><td><div class="cell block"></div></td></tr>
+<tr><td><div class="cell block"></div></td><td><div class="cell block"></div></td><td><div class="cell" data-r="8" data-c="2"><input maxlength="1" inputmode="latin" autocomplete="off" aria-label="row 9 column 3"></div></td><td><div class="cell block"></div></td><td><div class="cell block"></div></td><td><div class="cell block"></div></td><td><div class="cell block"></div></td><td><div class="cell block"></div></td><td><div class="cell block"></div></td><td><div class="cell" data-r="8" data-c="9"><input maxlength="1" inputmode="latin" autocomplete="off" aria-label="row 9 column 10"></div></td><td><div class="cell block"></div></td><td><div class="cell block"></div></td><td><div class="cell block"></div></td><td><div class="cell block"></div></td><td><div class="cell" data-r="8" data-c="14"><input maxlength="1" inputmode="latin" autocomplete="off" aria-label="row 9 column 15"></div></td><td><div class="cell block"></div></td></tr>
+<tr><td><div class="cell" data-r="9" data-c="0"><span class="num">7</span><input maxlength="1" inputmode="latin" autocomplete="off" aria-label="row 10 column 1"></div></td><td><div class="cell" data-r="9" data-c="1"><input maxlength="1" inputmode="latin" autocomplete="off" aria-label="row 10 column 2"></div></td><td><div class="cell" data-r="9" data-c="2"><input maxlength="1" inputmode="latin" autocomplete="off" aria-label="row 10 column 3"></div></td><td><div class="cell" data-r="9" data-c="3"><input maxlength="1" inputmode="latin" autocomplete="off" aria-label="row 10 column 4"></div></td><td><div class="cell" data-r="9" data-c="4"><span class="num">8</span><input maxlength="1" inputmode="latin" autocomplete="off" aria-label="row 10 column 5"></div></td><td><div class="cell" data-r="9" data-c="5"><input maxlength="1" inputmode="latin" autocomplete="off" aria-label="row 10 column 6"></div></td><td><div class="cell" data-r="9" data-c="6"><span class="num">9</span><input maxlength="1" inputmode="latin" autocomplete="off" aria-label="row 10 column 7"></div></td><td><div class="cell" data-r="9" data-c="7"><input maxlength="1" inputmode="latin" autocomplete="off" aria-label="row 10 column 8"></div></td><td><div class="cell block"></div></td><td><div class="cell" data-r="9" data-c="9"><span class="num">10</span><input maxlength="1" inputmode="latin" autocomplete="off" aria-label="row 10 column 10"></div></td><td><div class="cell" data-r="9" data-c="10"><input maxlength="1" inputmode="latin" autocomplete="off" aria-label="row 10 column 11"></div></td><td><div class="cell" data-r="9" data-c="11"><input maxlength="1" inputmode="latin" autocomplete="off" aria-label="row 10 column 12"></div></td><td><div class="cell" data-r="9" data-c="12"><input maxlength="1" inputmode="latin" autocomplete="off" aria-label="row 10 column 13"></div></td><td><div class="cell" data-r="9" data-c="13"><input maxlength="1" inputmode="latin" autocomplete="off" aria-label="row 10 column 14"></div></td><td><div class="cell" data-r="9" data-c="14"><input maxlength="1" inputmode="latin" autocomplete="off" aria-label="row 10 column 15"></div></td><td><div class="cell block"></div></td></tr>
+<tr><td><div class="cell" data-r="10" data-c="0"><input maxlength="1" inputmode="latin" autocomplete="off" aria-label="row 11 column 1"></div></td><td><div class="cell block"></div></td><td><div class="cell" data-r="10" data-c="2"><input maxlength="1" inputmode="latin" autocomplete="off" aria-label="row 11 column 3"></div></td><td><div class="cell block"></div></td><td><div class="cell" data-r="10" data-c="4"><input maxlength="1" inputmode="latin" autocomplete="off" aria-label="row 11 column 5"></div></td><td><div class="cell block"></div></td><td><div class="cell" data-r="10" data-c="6"><input maxlength="1" inputmode="latin" autocomplete="off" aria-label="row 11 column 7"></div></td><td><div class="cell block"></div></td><td><div class="cell block"></div></td><td><div class="cell" data-r="10" data-c="9"><input maxlength="1" inputmode="latin" autocomplete="off" aria-label="row 11 column 10"></div></td><td><div class="cell block"></div></td><td><div class="cell block"></div></td><td><div class="cell block"></div></td><td><div class="cell block"></div></td><td><div class="cell" data-r="10" data-c="14"><input maxlength="1" inputmode="latin" autocomplete="off" aria-label="row 11 column 15"></div></td><td><div class="cell block"></div></td></tr>
+<tr><td><div class="cell" data-r="11" data-c="0"><input maxlength="1" inputmode="latin" autocomplete="off" aria-label="row 12 column 1"></div></td><td><div class="cell block"></div></td><td><div class="cell" data-r="11" data-c="2"><input maxlength="1" inputmode="latin" autocomplete="off" aria-label="row 12 column 3"></div></td><td><div class="cell block"></div></td><td><div class="cell" data-r="11" data-c="4"><input maxlength="1" inputmode="latin" autocomplete="off" aria-label="row 12 column 5"></div></td><td><div class="cell block"></div></td><td><div class="cell" data-r="11" data-c="6"><input maxlength="1" inputmode="latin" autocomplete="off" aria-label="row 12 column 7"></div></td><td><div class="cell block"></div></td><td><div class="cell block"></div></td><td><div class="cell block"></div></td><td><div class="cell block"></div></td><td><div class="cell block"></div></td><td><div class="cell block"></div></td><td><div class="cell block"></div></td><td><div class="cell" data-r="11" data-c="14"><input maxlength="1" inputmode="latin" autocomplete="off" aria-label="row 12 column 15"></div></td><td><div class="cell block"></div></td></tr>
+<tr><td><div class="cell" data-r="12" data-c="0"><input maxlength="1" inputmode="latin" autocomplete="off" aria-label="row 13 column 1"></div></td><td><div class="cell block"></div></td><td><div class="cell block"></div></td><td><div class="cell block"></div></td><td><div class="cell" data-r="12" data-c="4"><input maxlength="1" inputmode="latin" autocomplete="off" aria-label="row 13 column 5"></div></td><td><div class="cell block"></div></td><td><div class="cell" data-r="12" data-c="6"><input maxlength="1" inputmode="latin" autocomplete="off" aria-label="row 13 column 7"></div></td><td><div class="cell block"></div></td><td><div class="cell block"></div></td><td><div class="cell block"></div></td><td><div class="cell block"></div></td><td><div class="cell block"></div></td><td><div class="cell block"></div></td><td><div class="cell block"></div></td><td><div class="cell" data-r="12" data-c="14"><input maxlength="1" inputmode="latin" autocomplete="off" aria-label="row 13 column 15"></div></td><td><div class="cell block"></div></td></tr>
+<tr><td><div class="cell block"></div></td><td><div class="cell block"></div></td><td><div class="cell block"></div></td><td><div class="cell block"></div></td><td><div class="cell" data-r="13" data-c="4"><input maxlength="1" inputmode="latin" autocomplete="off" aria-label="row 14 column 5"></div></td><td><div class="cell block"></div></td><td><div class="cell" data-r="13" data-c="6"><input maxlength="1" inputmode="latin" autocomplete="off" aria-label="row 14 column 7"></div></td><td><div class="cell block"></div></td><td><div class="cell block"></div></td><td><div class="cell block"></div></td><td><div class="cell block"></div></td><td><div class="cell block"></div></td><td><div class="cell block"></div></td><td><div class="cell block"></div></td><td><div class="cell block"></div></td><td><div class="cell block"></div></td></tr>
+<tr><td><div class="cell block"></div></td><td><div class="cell block"></div></td><td><div class="cell block"></div></td><td><div class="cell block"></div></td><td><div class="cell block"></div></td><td><div class="cell" data-r="14" data-c="5"><span class="num">11</span><input maxlength="1" inputmode="latin" autocomplete="off" aria-label="row 15 column 6"></div></td><td><div class="cell" data-r="14" data-c="6"><input maxlength="1" inputmode="latin" autocomplete="off" aria-label="row 15 column 7"></div></td><td><div class="cell" data-r="14" data-c="7"><input maxlength="1" inputmode="latin" autocomplete="off" aria-label="row 15 column 8"></div></td><td><div class="cell" data-r="14" data-c="8"><input maxlength="1" inputmode="latin" autocomplete="off" aria-label="row 15 column 9"></div></td><td><div class="cell" data-r="14" data-c="9"><input maxlength="1" inputmode="latin" autocomplete="off" aria-label="row 15 column 10"></div></td><td><div class="cell" data-r="14" data-c="10"><input maxlength="1" inputmode="latin" autocomplete="off" aria-label="row 15 column 11"></div></td><td><div class="cell" data-r="14" data-c="11"><input maxlength="1" inputmode="latin" autocomplete="off" aria-label="row 15 column 12"></div></td><td><div class="cell" data-r="14" data-c="12"><input maxlength="1" inputmode="latin" autocomplete="off" aria-label="row 15 column 13"></div></td><td><div class="cell" data-r="14" data-c="13"><input maxlength="1" inputmode="latin" autocomplete="off" aria-label="row 15 column 14"></div></td><td><div class="cell" data-r="14" data-c="14"><input maxlength="1" inputmode="latin" autocomplete="off" aria-label="row 15 column 15"></div></td><td><div class="cell" data-r="14" data-c="15"><input maxlength="1" inputmode="latin" autocomplete="off" aria-label="row 15 column 16"></div></td></tr>
+<tr><td><div class="cell block"></div></td><td><div class="cell block"></div></td><td><div class="cell block"></div></td><td><div class="cell block"></div></td><td><div class="cell block"></div></td><td><div class="cell block"></div></td><td><div class="cell" data-r="15" data-c="6"><input maxlength="1" inputmode="latin" autocomplete="off" aria-label="row 16 column 7"></div></td><td><div class="cell block"></div></td><td><div class="cell block"></div></td><td><div class="cell block"></div></td><td><div class="cell block"></div></td><td><div class="cell block"></div></td><td><div class="cell block"></div></td><td><div class="cell block"></div></td><td><div class="cell block"></div></td><td><div class="cell block"></div></td></tr>
+</tbody></table>
+<div class="bar">
+  <button class="primary" id="check" type="button">Check</button>
+  <button id="reveal" type="button">Show a letter</button>
+  <button id="clear" type="button">Clear</button>
+</div>
+<div class="clues">
+  <div><h2>Across</h2><ol class="clue" id="across"><li data-num="1" data-dir="across"><b>1</b><span><span class="arclue" dir="rtl">يستطيع تحمّل تكلفته</span> <span class="ar">(verb, 6)</span></span></li>
+<li data-num="3" data-dir="across"><b>3</b><span><span class="arclue" dir="rtl">جار</span> <span class="ar">(noun, 9)</span></span></li>
+<li data-num="4" data-dir="across"><b>4</b><span><span class="arclue" dir="rtl">شرط</span> <span class="ar">(noun, 11)</span></span></li>
+<li data-num="7" data-dir="across"><b>7</b><span><span class="arclue" dir="rtl">موثوق</span> <span class="ar">(adjective, 8)</span></span></li>
+<li data-num="10" data-dir="across"><b>10</b><span><span class="arclue" dir="rtl">إشارة</span> <span class="ar">(noun, 6)</span></span></li>
+<li data-num="11" data-dir="across"><b>11</b><span><span class="arclue" dir="rtl">منحة دراسية</span> <span class="ar">(noun, 11)</span></span></li></ol></div>
+  <div><h2>Down</h2><ol class="clue" id="down"><li data-num="1" data-dir="down"><b>1</b><span><span class="arclue" dir="rtl">هوائي</span> <span class="ar">(noun, 7)</span></span></li>
+<li data-num="2" data-dir="down"><b>2</b><span><span class="arclue" dir="rtl">برج</span> <span class="ar">(noun, 5)</span></span></li>
+<li data-num="4" data-dir="down"><b>4</b><span><span class="arclue" dir="rtl">ينقل الإشارة</span> <span class="ar">(verb, 5)</span></span></li>
+<li data-num="5" data-dir="down"><b>5</b><span><span class="arclue" dir="rtl">شبكة متداخلة</span> <span class="ar">(noun, 4)</span></span></li>
+<li data-num="6" data-dir="down"><b>6</b><span><span class="arclue" dir="rtl">الوصلة الصاعدة</span> <span class="ar">(noun, 6)</span></span></li>
+<li data-num="7" data-dir="down"><b>7</b><span><span class="arclue" dir="rtl">سطح البناية</span> <span class="ar">(noun, 4)</span></span></li>
+<li data-num="8" data-dir="down"><b>8</b><span><span class="arclue" dir="rtl">يتقدّم بطلب</span> <span class="ar">(verb, 5)</span></span></li>
+<li data-num="9" data-dir="down"><b>9</b><span><span class="arclue" dir="rtl">زمن التأخير</span> <span class="ar">(noun, 7)</span></span></li></ol></div>
+</div>
+<p class="sub" style="margin-top:18px">All 14 words, in no order. Each
+one goes in once.</p>
+<div class="bank"><span data-word="AFFORD">afford</span>
+<span data-word="ANTENNA">antenna</span>
+<span data-word="APPLY">apply</span>
+<span data-word="LATENCY">latency</span>
+<span data-word="MESH">mesh</span>
+<span data-word="NEIGHBOUR">neighbour</span>
+<span data-word="RELAY">relay</span>
+<span data-word="RELIABLE">reliable</span>
+<span data-word="REQUIREMENT">requirement</span>
+<span data-word="ROOF">roof</span>
+<span data-word="SCHOLARSHIP">scholarship</span>
+<span data-word="SIGNAL">signal</span>
+<span data-word="TOWER">tower</span>
+<span data-word="UPLINK">uplink</span></div>
+<p class="foot">Every word here is from this lesson. &nbsp;
+<a href="README.md">Back to the lesson</a></p>
+</div>
+<script>
+const SOL = {"0,1": "A", "0,2": "F", "0,3": "F", "0,4": "O", "0,5": "R", "0,6": "D", "1,1": "N", "2,1": "T", "3,1": "E", "3,7": "T", "4,1": "N", "4,2": "E", "4,3": "I", "4,4": "G", "4,5": "H", "4,6": "B", "4,7": "O", "4,8": "U", "4,9": "R", "5,1": "N", "5,7": "W", "6,1": "A", "6,7": "E", "7,2": "R", "7,3": "E", "7,4": "Q", "7,5": "U", "7,6": "I", "7,7": "R", "7,8": "E", "7,9": "M", "7,10": "E", "7,11": "N", "7,12": "T", "7,14": "U", "8,2": "E", "8,9": "E", "8,14": "P", "9,0": "R", "9,1": "E", "9,2": "L", "9,3": "I", "9,4": "A", "9,5": "B", "9,6": "L", "9,7": "E", "9,9": "S", "9,10": "I", "9,11": "G", "9,12": "N", "9,13": "A", "9,14": "L", "10,0": "O", "10,2": "A", "10,4": "P", "10,6": "A", "10,9": "H", "10,14": "I", "11,0": "O", "11,2": "Y", "11,4": "P", "11,6": "T", "11,14": "N", "12,0": "F", "12,4": "L", "12,6": "E", "12,14": "K", "13,4": "Y", "13,6": "N", "14,5": "S", "14,6": "C", "14,7": "H", "14,8": "O", "14,9": "L", "14,10": "A", "14,11": "R", "14,12": "S", "14,13": "H", "14,14": "I", "14,15": "P", "15,6": "Y"}, ENTRIES = [{"word": "AFFORD", "r": 0, "c": 1, "dir": "across", "num": 1}, {"word": "ANTENNA", "r": 0, "c": 1, "dir": "down", "num": 1}, {"word": "TOWER", "r": 3, "c": 7, "dir": "down", "num": 2}, {"word": "NEIGHBOUR", "r": 4, "c": 1, "dir": "across", "num": 3}, {"word": "REQUIREMENT", "r": 7, "c": 2, "dir": "across", "num": 4}, {"word": "RELAY", "r": 7, "c": 2, "dir": "down", "num": 4}, {"word": "MESH", "r": 7, "c": 9, "dir": "down", "num": 5}, {"word": "UPLINK", "r": 7, "c": 14, "dir": "down", "num": 6}, {"word": "RELIABLE", "r": 9, "c": 0, "dir": "across", "num": 7}, {"word": "ROOF", "r": 9, "c": 0, "dir": "down", "num": 7}, {"word": "APPLY", "r": 9, "c": 4, "dir": "down", "num": 8}, {"word": "LATENCY", "r": 9, "c": 6, "dir": "down", "num": 9}, {"word": "SIGNAL", "r": 9, "c": 9, "dir": "across", "num": 10}, {"word": "SCHOLARSHIP", "r": 14, "c": 5, "dir": "across", "num": 11}];
+const cells = {};
+document.querySelectorAll('.cell[data-r]').forEach(d => {
+  cells[d.dataset.r + ',' + d.dataset.c] = d;
+  const i = d.querySelector('input');
+  i.addEventListener('input', () => {
+    i.value = i.value.toUpperCase().replace(/[^A-Z]/g, '');
+    d.classList.remove('right', 'wrong');
+    if (i.value) move(+d.dataset.r, +d.dataset.c, 1);
+    save(); markDone();
+  });
+  i.addEventListener('keydown', e => {
+    const r = +d.dataset.r, c = +d.dataset.c;
+    if (e.key === 'Backspace' && !i.value) { move(r, c, -1); }
+    else if (e.key === 'ArrowRight') { focus(r, c + 1); e.preventDefault(); }
+    else if (e.key === 'ArrowLeft')  { focus(r, c - 1); e.preventDefault(); }
+    else if (e.key === 'ArrowDown')  { focus(r + 1, c); e.preventDefault(); }
+    else if (e.key === 'ArrowUp')    { focus(r - 1, c); e.preventDefault(); }
+  });
+});
+let dir = 'across';
+function focus(r, c) { const d = cells[r + ',' + c]; if (d) d.querySelector('input').focus(); }
+function move(r, c, step) {
+  if (dir === 'across') focus(r, c + step); else focus(r + step, c);
+}
+document.querySelectorAll('#across li, #down li').forEach(li => {
+  li.addEventListener('click', () => {
+    dir = li.dataset.dir;
+    const e = ENTRIES.find(x => x.num == li.dataset.num && x.dir === dir);
+    if (e) focus(e.r, e.c);
+  });
+});
+function save() {
+  const v = {};
+  for (const k in cells) { const t = cells[k].querySelector('input').value; if (t) v[k] = t; }
+  try { localStorage.setItem(KEY, JSON.stringify(v)); } catch (e) {}
+}
+const KEY = 'crisscross:' + location.pathname;
+try {
+  const v = JSON.parse(localStorage.getItem(KEY) || '{}');
+  for (const k in v) if (cells[k]) cells[k].querySelector('input').value = v[k];
+} catch (e) {}
+const msg = document.getElementById('msg');
+document.getElementById('check').onclick = () => {
+  let right = 0, wrong = 0, empty = 0;
+  for (const k in cells) {
+    const d = cells[k], i = d.querySelector('input');
+    d.classList.remove('right', 'wrong');
+    if (!i.value) { empty++; continue; }
+    if (i.value === SOL[k]) { d.classList.add('right'); right++; }
+    else { d.classList.add('wrong'); wrong++; }
+  }
+  markDone();
+  msg.className = 'msg ' + (wrong ? 'bad' : (empty ? '' : 'good'));
+  msg.textContent = wrong ? wrong + ' letter' + (wrong > 1 ? 's are' : ' is') + ' wrong.'
+    : (empty ? right + ' right, ' + empty + ' still empty.' : 'All correct. Well done.');
+};
+document.getElementById('reveal').onclick = () => {
+  const empty = Object.keys(cells).filter(k => !cells[k].querySelector('input').value);
+  if (!empty.length) { msg.textContent = 'Nothing left to show.'; return; }
+  const k = empty[Math.floor(Math.random() * empty.length)];
+  cells[k].querySelector('input').value = SOL[k];
+  save(); markDone();
+  msg.className = 'msg'; msg.textContent = 'One letter filled in for you.';
+};
+document.getElementById('clear').onclick = () => {
+  for (const k in cells) {
+    cells[k].querySelector('input').value = '';
+    cells[k].classList.remove('right', 'wrong');
+  }
+  document.querySelectorAll('li.done').forEach(li => li.classList.remove('done'));
+  document.querySelectorAll('.bank span.found').forEach(s => s.classList.remove('found'));
+  save(); msg.textContent = ''; msg.className = 'msg';
+};
+function markDone() {
+  ENTRIES.forEach(e => {
+    let got = '';
+    for (let i = 0; i < e.word.length; i++) {
+      const k = e.dir === 'across' ? e.r + ',' + (e.c + i) : (e.r + i) + ',' + e.c;
+      got += (cells[k] ? cells[k].querySelector('input').value : '') || ' ';
+    }
+    const li = document.querySelector('li[data-num="' + e.num + '"][data-dir="' + e.dir + '"]');
+    if (li) li.classList.toggle('done', got === e.word);
+    const chip = document.querySelector('.bank span[data-word="' + e.word + '"]');
+    if (chip) chip.classList.toggle('found', got === e.word);
+  });
+}
+markDone();
+</script>
+</body>
+</html>

@@ -1,0 +1,2013 @@
+{
+ "lesson": 8,
+ "slug": "lesson-08",
+ "title": "Lesson 8 — The Line We Share",
+ "level": "B1 (eighth step)",
+ "topic": "A shared connection, a class at eight, and an application abroad",
+ "time": "6 sessions, 50–60 minutes each",
+ "skills": "Listening → Reading → Vocabulary → Grammar → Comprehension → Speaking → Writing",
+ "new_in_this_lesson": "the first and second conditional, the contracted 'd for would and had, the weak if-clause, and the present simple in time clauses. The passage stays at about 500 words for the third lesson running, and the question set is unchanged.",
+ "passage_words": 516,
+ "footer": "Lesson 8 — The Line We Share",
+ "voices": {
+  "reader": {
+   "voice": "en-GB-RyanNeural",
+   "rate": "-10%",
+   "pitch": "+0Hz"
+  },
+  "narrator": {
+   "voice": "en-GB-SoniaNeural",
+   "rate": "-5%",
+   "pitch": "+0Hz"
+  },
+  "slow": {
+   "voice": "en-GB-RyanNeural",
+   "rate": "-25%",
+   "pitch": "+0Hz"
+  }
+ },
+ "vocabulary": [
+  {
+   "word": "uplink",
+   "answer": "UPLINK",
+   "type": "noun",
+   "meaning": "the one connection that joins a local network to the internet",
+   "arabic": "الوصلة الصاعدة",
+   "icon": "uplink"
+  },
+  {
+   "word": "mesh",
+   "answer": "MESH",
+   "type": "noun",
+   "meaning": "a network in which every point passes the signal on to the next",
+   "arabic": "شبكة متداخلة",
+   "icon": "mesh"
+  },
+  {
+   "word": "relay",
+   "answer": "RELAY",
+   "type": "verb",
+   "meaning": "to pass a signal on to the next point",
+   "arabic": "ينقل الإشارة"
+  },
+  {
+   "word": "antenna",
+   "answer": "ANTENNA",
+   "type": "noun",
+   "meaning": "the part that sends and receives a radio signal",
+   "arabic": "هوائي",
+   "icon": "antenna"
+  },
+  {
+   "word": "signal",
+   "answer": "SIGNAL",
+   "type": "noun",
+   "meaning": "the radio waves that carry data through the air",
+   "arabic": "إشارة",
+   "icon": "signal"
+  },
+  {
+   "word": "latency",
+   "answer": "LATENCY",
+   "type": "noun",
+   "meaning": "the delay between sending something and it arriving",
+   "arabic": "زمن التأخير"
+  },
+  {
+   "word": "reliable",
+   "answer": "RELIABLE",
+   "type": "adjective",
+   "meaning": "something you can depend on, because it works every time",
+   "arabic": "موثوق"
+  },
+  {
+   "word": "tower",
+   "answer": "TOWER",
+   "type": "noun",
+   "meaning": "a tall structure that holds an antenna up high",
+   "arabic": "برج",
+   "icon": "tower"
+  },
+  {
+   "word": "neighbour",
+   "answer": "NEIGHBOUR",
+   "type": "noun",
+   "meaning": "a person who lives in the next house or flat",
+   "arabic": "جار",
+   "icon": "houses"
+  },
+  {
+   "word": "roof",
+   "answer": "ROOF",
+   "type": "noun",
+   "meaning": "the top of a building, above the highest floor",
+   "arabic": "سطح البناية",
+   "icon": "roof"
+  },
+  {
+   "word": "afford",
+   "answer": "AFFORD",
+   "type": "verb",
+   "meaning": "to have enough money to pay for something",
+   "arabic": "يستطيع تحمّل تكلفته"
+  },
+  {
+   "word": "apply",
+   "answer": "APPLY",
+   "type": "verb",
+   "meaning": "to ask officially for a place, a job or money",
+   "arabic": "يتقدّم بطلب"
+  },
+  {
+   "word": "scholarship",
+   "answer": "SCHOLARSHIP",
+   "type": "noun",
+   "meaning": "money given to a student so that she can study",
+   "arabic": "منحة دراسية"
+  },
+  {
+   "word": "requirement",
+   "answer": "REQUIREMENT",
+   "type": "noun",
+   "meaning": "something you must have or reach before you are allowed in",
+   "arabic": "شرط"
+  }
+ ],
+ "recall": [
+  {
+   "word": "download",
+   "answer": "DOWNLOAD",
+   "meaning": "to bring a file from the internet onto your own machine",
+   "icon": "download"
+  },
+  {
+   "word": "cloud",
+   "answer": "CLOUD",
+   "meaning": "storage on the internet, instead of on your own machine",
+   "icon": "cloud"
+  },
+  {
+   "word": "schedule",
+   "answer": "SCHEDULE",
+   "meaning": "a plan that says what happens at what time",
+   "icon": "calendar"
+  },
+  {
+   "word": "laptop",
+   "answer": "LAPTOP",
+   "meaning": "a computer you can carry and close",
+   "icon": "laptop"
+  },
+  {
+   "word": "socket",
+   "answer": "SOCKET",
+   "meaning": "the hole in the wall that a machine takes power from",
+   "icon": "socket"
+  }
+ ],
+ "how_to_work": [
+  "Play **01-passage.mp3** and listen twice with no text in front of you. Do not open the PDF yet.",
+  "Then work through the parts in number order. Part 04 is grammar and has no audio; part 05 needs its audio most of all, because *would* and *had* arrive as the same single sound.",
+  "Read the **Come back to** section before the conditionals, not after. The rule about *when* and *until* is the same rule the *if*-clause follows, and the conditionals are far easier once it is in place.",
+  "Open part 11, the answer key, only when parts 01 to 10 are finished. The five games come days later, not the same evening."
+ ],
+ "full_section": {
+  "parts": [
+   "01",
+   "02",
+   "06",
+   "07"
+  ],
+  "gap": 3,
+  "closing": [
+   {
+    "pause": 2
+   },
+   {
+    "say": "This is the end of lesson eight.",
+    "voice": "narrator"
+   }
+  ]
+ },
+ "games": [
+  {
+   "number": "13",
+   "slug": "crossword",
+   "title": "Crossword",
+   "style": "crossword",
+   "minutes": 15
+  },
+  {
+   "number": "14",
+   "slug": "word-search",
+   "title": "Word search",
+   "style": "word-search",
+   "minutes": 10
+  },
+  {
+   "number": "15",
+   "slug": "memory",
+   "title": "Memory pairs",
+   "style": "memory",
+   "minutes": 10,
+   "pairs": 10
+  },
+  {
+   "number": "16",
+   "slug": "criss-cross",
+   "title": "Criss-cross, Arabic clues",
+   "style": "criss-cross",
+   "minutes": 15
+  },
+  {
+   "number": "17",
+   "slug": "cryptogram",
+   "title": "Cryptogram",
+   "style": "cryptogram",
+   "minutes": 15,
+   "given": 3
+  }
+ ],
+ "parts": [
+  {
+   "number": "01",
+   "slug": "passage",
+   "title": "Passage — The Line We Share",
+   "minutes": 20,
+   "sheet": true,
+   "audio": true,
+   "print_only": {
+    "markers": [
+     "[A]",
+     "[B]",
+     "[C]",
+     "[D]"
+    ],
+    "note": "The sentence-insertion markers are printed in the passage and are never read aloud."
+   },
+   "markdown": "> **How to do the listening.** The same rule as every lesson so far: the student listens **twice with no text**, then reads.\n> Audio files: `01-passage.mp3` first, then the other parts in order. Part `05-would-and-if.mp3` is new — the contracted *'d* for *would* and *had*, and the weak *if*.\n\n### 1.1 Before listening (2 minutes, Arabic is fine here)\n\n1. If your connection failed in the middle of a class, what would you do?\n2. What do you and your neighbours share, and what rules do you keep about it?\n3. If you had one thing to make studying easier, what would you choose, and why?\n\n### 1.4 Now read the passage\n\n### Passage: *The Line We Share* (516 words)\n\nThe connection comes into the street on one line, and everything else hangs off it. From a box on the third floor it goes up to an antenna on the roof, across to a second antenna on the roof opposite, and from there into four more flats. Seven families, one uplink.\n\n**[A]** A mesh works like that: every point relays the signal on to the next, so a street can share one line instead of buying seven. No single family here could afford the line on its own, and together they can. It is cheap and it is clever, and it has one weakness that everybody who uses it learns in the first week. If the uplink fails, nothing after it works. The antennas are all fine. There is simply nothing to pass on.\n\nAya has a class at eight on Monday evenings — thirty students, a teacher in another city, and a slide deck that has to load. If the line is slow, the video stops and the voice survives, which she can work with. If the line goes down, the lesson is over for all thirty of them, because nobody has a second way in.\n\n**[B]** So she prepares for both evenings at once. She downloads the slides on Sunday night, when the line is quiet and the latency is low, and she keeps the last four weeks of recordings on the laptop. If the class fails on Monday, she will read the slides and send her questions as messages. If it does not fail, she has lost nothing but twenty minutes of a quiet Sunday.\n\nThe families have rules, which is what makes a shared line reliable at all. Nobody sends anything large between seven and ten. If somebody has to, they say so first. If two people ignore that on the same evening, everyone knows within a minute, because the latency climbs and every class in the street begins to stutter.\n\n**[C]** Aya is careful about what she says she would do with a faster line, because a wish is an easy thing to turn into an excuse. If she had a reliable fifty megabits, she says, she would stop planning around the connection and spend that hour on the work itself. She would also stop apologising at the start of every call.\n\n**[D]** There is an application open on the laptop that she has been filling in for three weeks: a university in Spain, an exchange place with a small scholarship attached, and a language requirement she is four months away from meeting. If she is accepted, she will go for one semester. If she is not, she will apply again in the spring. Either way the English has to be finished, so the English gets done. That part is hers, and it is the one part the line cannot reach.\n\nThe tower on the roof is a length of pipe, two brackets and a cable tie, and a neighbour put it up in an afternoon. If it comes down in the next storm, they will put it up again. They have done it twice.\n\n### 1.5 Read aloud\n\nRead the passage aloud **once** and record it. Watch the tune of the conditional sentences: the *if*-clause rises, the main clause falls. Read three of them aloud twice, listening for the shape rather than the words.\n",
+   "segments": [
+    {
+     "say": "Lesson eight. The Line We Share. Listening practice.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 1
+    },
+    {
+     "say": "You will hear about a street that shares one internet connection, and a student who has a class on it every Monday. Listen for what happens if the line goes down, and for what she would do with a faster one. You will hear it two times. Do not read the text. Listen only.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 2
+    },
+    {
+     "say": "Now listen.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 1.5
+    },
+    {
+     "say": "The connection comes into the street on one line, and everything else hangs off it. From a box on the third floor it goes up to an antenna on the roof, across to a second antenna on the roof opposite, and from there into four more flats. Seven families, one uplink.\n\nA mesh works like that: every point relays the signal on to the next, so a street can share one line instead of buying seven. No single family here could afford the line on its own, and together they can. It is cheap and it is clever, and it has one weakness that everybody who uses it learns in the first week. If the uplink fails, nothing after it works. The antennas are all fine. There is simply nothing to pass on.\n\nAya has a class at eight on Monday evenings — thirty students, a teacher in another city, and a slide deck that has to load. If the line is slow, the video stops and the voice survives, which she can work with. If the line goes down, the lesson is over for all thirty of them, because nobody has a second way in.\n\nSo she prepares for both evenings at once. She downloads the slides on Sunday night, when the line is quiet and the latency is low, and she keeps the last four weeks of recordings on the laptop. If the class fails on Monday, she will read the slides and send her questions as messages. If it does not fail, she has lost nothing but twenty minutes of a quiet Sunday.\n\nThe families have rules, which is what makes a shared line reliable at all. Nobody sends anything large between seven and ten. If somebody has to, they say so first. If two people ignore that on the same evening, everyone knows within a minute, because the latency climbs and every class in the street begins to stutter.\n\nAya is careful about what she says she would do with a faster line, because a wish is an easy thing to turn into an excuse. If she had a reliable fifty megabits, she says, she would stop planning around the connection and spend that hour on the work itself. She would also stop apologising at the start of every call.\n\nThere is an application open on the laptop that she has been filling in for three weeks: a university in Spain, an exchange place with a small scholarship attached, and a language requirement she is four months away from meeting. If she is accepted, she will go for one semester. If she is not, she will apply again in the spring. Either way the English has to be finished, so the English gets done. That part is hers, and it is the one part the line cannot reach.\n\nThe tower on the roof is a length of pipe, two brackets and a cable tie, and a neighbour put it up in an afternoon. If it comes down in the next storm, they will put it up again. They have done it twice.",
+     "voice": "reader"
+    },
+    {
+     "pause": 4
+    },
+    {
+     "say": "Now listen again.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 1.5
+    },
+    {
+     "say": "The connection comes into the street on one line, and everything else hangs off it. From a box on the third floor it goes up to an antenna on the roof, across to a second antenna on the roof opposite, and from there into four more flats. Seven families, one uplink.\n\nA mesh works like that: every point relays the signal on to the next, so a street can share one line instead of buying seven. No single family here could afford the line on its own, and together they can. It is cheap and it is clever, and it has one weakness that everybody who uses it learns in the first week. If the uplink fails, nothing after it works. The antennas are all fine. There is simply nothing to pass on.\n\nAya has a class at eight on Monday evenings — thirty students, a teacher in another city, and a slide deck that has to load. If the line is slow, the video stops and the voice survives, which she can work with. If the line goes down, the lesson is over for all thirty of them, because nobody has a second way in.\n\nSo she prepares for both evenings at once. She downloads the slides on Sunday night, when the line is quiet and the latency is low, and she keeps the last four weeks of recordings on the laptop. If the class fails on Monday, she will read the slides and send her questions as messages. If it does not fail, she has lost nothing but twenty minutes of a quiet Sunday.\n\nThe families have rules, which is what makes a shared line reliable at all. Nobody sends anything large between seven and ten. If somebody has to, they say so first. If two people ignore that on the same evening, everyone knows within a minute, because the latency climbs and every class in the street begins to stutter.\n\nAya is careful about what she says she would do with a faster line, because a wish is an easy thing to turn into an excuse. If she had a reliable fifty megabits, she says, she would stop planning around the connection and spend that hour on the work itself. She would also stop apologising at the start of every call.\n\nThere is an application open on the laptop that she has been filling in for three weeks: a university in Spain, an exchange place with a small scholarship attached, and a language requirement she is four months away from meeting. If she is accepted, she will go for one semester. If she is not, she will apply again in the spring. Either way the English has to be finished, so the English gets done. That part is hers, and it is the one part the line cannot reach.\n\nThe tower on the roof is a length of pipe, two brackets and a cable tie, and a neighbour put it up in an afternoon. If it comes down in the next storm, they will put it up again. They have done it twice.",
+     "voice": "reader"
+    },
+    {
+     "pause": 2
+    },
+    {
+     "say": "This is the end of the passage.",
+     "voice": "narrator"
+    }
+   ]
+  },
+  {
+   "number": "02",
+   "slug": "listening-questions",
+   "title": "Listening questions",
+   "minutes": 10,
+   "sheet": true,
+   "audio": true,
+   "markdown": "### 1.2 Listening — first time (no text)\n\n- **L1.** How does the connection reach the other building?\n- **L2.** What happens to the class if the line goes down?\n- **L3.** What does Aya do on Sunday night, and why?\n- **L4.** What is she applying for?\n\n### 1.3 Listening — second time (no text)\n\nWrite **two sentences you heard with *if***. Then write **one thing** Aya says she would do if she had a faster line, and **one word** you heard but did not understand.\n",
+   "segments": [
+    {
+     "say": "Now answer the listening questions. Write a short answer for each one.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 2
+    },
+    {
+     "say": "Question one. How does the connection reach the other building?",
+     "voice": "narrator"
+    },
+    {
+     "pause": 10
+    },
+    {
+     "say": "Question two. What happens to the class if the line goes down?",
+     "voice": "narrator"
+    },
+    {
+     "pause": 10
+    },
+    {
+     "say": "Question three. What does Aya do on Sunday night, and why?",
+     "voice": "narrator"
+    },
+    {
+     "pause": 10
+    },
+    {
+     "say": "Question four. What is she applying for?",
+     "voice": "narrator"
+    },
+    {
+     "pause": 10
+    },
+    {
+     "say": "This is the end of the listening questions.",
+     "voice": "narrator"
+    }
+   ]
+  },
+  {
+   "number": "03",
+   "slug": "vocabulary",
+   "title": "Vocabulary and Lesson 6 recall",
+   "minutes": 35,
+   "sheet": true,
+   "audio": true,
+   "markdown": "### 2.1 Key words\n\n| # | Word | Type | Simple meaning | Arabic | Example |\n|---|---|---|---|---|---|\n| 1 | uplink | noun | the one connection that joins a local network to the internet | الوصلة الصاعدة | Seven families, one **uplink**. |\n| 2 | mesh | noun | a network in which every point passes the signal on to the next | شبكة متداخلة | A **mesh** lets a street share one line. |\n| 3 | relay | verb | to pass a signal on to the next point | ينقل الإشارة | Every point **relays** the signal on to the next. |\n| 4 | antenna | noun | the part that sends and receives a radio signal | هوائي | It goes up to an **antenna** on the roof. |\n| 5 | signal | noun | the radio waves that carry data through the air | إشارة | There is simply no **signal** to pass on. |\n| 6 | latency | noun | the delay between sending something and it arriving | زمن التأخير | She downloads the slides when the **latency** is low. |\n| 7 | reliable | adjective | something you can depend on, because it works every time | موثوق | The rules are what make a shared line **reliable**. |\n| 8 | tower | noun | a tall structure that holds an antenna up high | برج | The **tower** on the roof is a length of pipe. |\n| 9 | neighbour | noun | a person who lives in the next house or flat | جار | A **neighbour** put it up in an afternoon. |\n| 10 | roof | noun | the top of a building, above the highest floor | سطح البناية | There is a second antenna on the **roof** opposite. |\n| 11 | afford | verb | to have enough money to pay for something | يستطيع تحمّل تكلفته | No single family could **afford** the line on its own. |\n| 12 | apply | verb | to ask officially for a place, a job or money | يتقدّم بطلب | If she is not accepted, she will **apply** again in the spring. |\n| 13 | scholarship | noun | money given to a student so that she can study | منحة دراسية | An exchange place with a small **scholarship** attached. |\n| 14 | requirement | noun | something you must have or reach before you are allowed in | شرط | A language **requirement** she is four months from meeting. |\n\n### 2.2 Synonyms and opposites\n\n| Word | Synonym | Opposite |\n|---|---|---|\n| reliable | dependable, steady | unreliable |\n| afford | be able to pay for | be too expensive for |\n| apply | put in a request | withdraw |\n| relay | pass on, forward | hold back |\n| latency | delay, lag | an instant reply |\n| requirement | condition, must-have | an option |\n| share | use together | keep to yourself |\n| fail | stop working | hold up |\n\n### 2.3 Expressions to learn\n\n| Expression | What it really means |\n|---|---|\n| **hangs off it** | depends completely on it |\n| **a second way in** | another route to the same place when the first fails |\n| **within a minute** | very quickly indeed |\n| **either way** | whichever of the two things happens |\n| **plan around something** | arrange everything else to fit a thing you cannot change |\n| **turn a wish into an excuse** | use what you lack as a reason to stop trying |\n| **four months away from** | needing four more months to reach |\n\n### 2.4 Vocabulary practice\n\n**A. Write the opposite:**\n\n1. reliable → \\_\\_\\_\\_\\_\\_\\_\\_\n2. afford → \\_\\_\\_\\_\\_\\_\\_\\_\n3. apply → \\_\\_\\_\\_\\_\\_\\_\\_\n4. share → \\_\\_\\_\\_\\_\\_\\_\\_\n5. latency → \\_\\_\\_\\_\\_\\_\\_\\_\n\n**B. Which word is different? Say why:**\n\n1. antenna — tower — roof — scholarship\n2. uplink — mesh — relay — requirement\n3. latency — signal — bandwidth — neighbour\n\n**C. Say it in your own words:**\n\n1. What is latency, and when do you notice it?\n2. What is a *requirement*? Name one you are working towards.\n",
+   "segments": [
+    {
+     "say": "Vocabulary practice. You will hear a word, then its meaning, then an example sentence. Repeat the word in the silence.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 2
+    },
+    {
+     "say": "Word 1.",
+     "voice": "narrator"
+    },
+    {
+     "say": "uplink",
+     "voice": "reader"
+    },
+    {
+     "pause": 3
+    },
+    {
+     "say": "uplink. the one connection that joins a local network to the internet.",
+     "voice": "reader"
+    },
+    {
+     "pause": 1
+    },
+    {
+     "say": "Seven families, one uplink.",
+     "voice": "reader"
+    },
+    {
+     "pause": 3
+    },
+    {
+     "say": "Word 2.",
+     "voice": "narrator"
+    },
+    {
+     "say": "mesh",
+     "voice": "reader"
+    },
+    {
+     "pause": 3
+    },
+    {
+     "say": "mesh. a network in which every point passes the signal on to the next.",
+     "voice": "reader"
+    },
+    {
+     "pause": 1
+    },
+    {
+     "say": "A mesh lets a street share one line.",
+     "voice": "reader"
+    },
+    {
+     "pause": 3
+    },
+    {
+     "say": "Word 3.",
+     "voice": "narrator"
+    },
+    {
+     "say": "relay",
+     "voice": "reader"
+    },
+    {
+     "pause": 3
+    },
+    {
+     "say": "relay. to pass a signal on to the next point.",
+     "voice": "reader"
+    },
+    {
+     "pause": 1
+    },
+    {
+     "say": "Every point relays the signal on to the next.",
+     "voice": "reader"
+    },
+    {
+     "pause": 3
+    },
+    {
+     "say": "Word 4.",
+     "voice": "narrator"
+    },
+    {
+     "say": "antenna",
+     "voice": "reader"
+    },
+    {
+     "pause": 3
+    },
+    {
+     "say": "antenna. the part that sends and receives a radio signal.",
+     "voice": "reader"
+    },
+    {
+     "pause": 1
+    },
+    {
+     "say": "It goes up to an antenna on the roof.",
+     "voice": "reader"
+    },
+    {
+     "pause": 3
+    },
+    {
+     "say": "Word 5.",
+     "voice": "narrator"
+    },
+    {
+     "say": "signal",
+     "voice": "reader"
+    },
+    {
+     "pause": 3
+    },
+    {
+     "say": "signal. the radio waves that carry data through the air.",
+     "voice": "reader"
+    },
+    {
+     "pause": 1
+    },
+    {
+     "say": "There is simply no signal to pass on.",
+     "voice": "reader"
+    },
+    {
+     "pause": 3
+    },
+    {
+     "say": "Word 6.",
+     "voice": "narrator"
+    },
+    {
+     "say": "latency",
+     "voice": "reader"
+    },
+    {
+     "pause": 3
+    },
+    {
+     "say": "latency. the delay between sending something and it arriving.",
+     "voice": "reader"
+    },
+    {
+     "pause": 1
+    },
+    {
+     "say": "She downloads the slides when the latency is low.",
+     "voice": "reader"
+    },
+    {
+     "pause": 3
+    },
+    {
+     "say": "Word 7.",
+     "voice": "narrator"
+    },
+    {
+     "say": "reliable",
+     "voice": "reader"
+    },
+    {
+     "pause": 3
+    },
+    {
+     "say": "reliable. something you can depend on, because it works every time.",
+     "voice": "reader"
+    },
+    {
+     "pause": 1
+    },
+    {
+     "say": "The rules are what make a shared line reliable.",
+     "voice": "reader"
+    },
+    {
+     "pause": 3
+    },
+    {
+     "say": "Word 8.",
+     "voice": "narrator"
+    },
+    {
+     "say": "tower",
+     "voice": "reader"
+    },
+    {
+     "pause": 3
+    },
+    {
+     "say": "tower. a tall structure that holds an antenna up high.",
+     "voice": "reader"
+    },
+    {
+     "pause": 1
+    },
+    {
+     "say": "The tower on the roof is a length of pipe.",
+     "voice": "reader"
+    },
+    {
+     "pause": 3
+    },
+    {
+     "say": "Word 9.",
+     "voice": "narrator"
+    },
+    {
+     "say": "neighbour",
+     "voice": "reader"
+    },
+    {
+     "pause": 3
+    },
+    {
+     "say": "neighbour. a person who lives in the next house or flat.",
+     "voice": "reader"
+    },
+    {
+     "pause": 1
+    },
+    {
+     "say": "A neighbour put it up in an afternoon.",
+     "voice": "reader"
+    },
+    {
+     "pause": 3
+    },
+    {
+     "say": "Word 10.",
+     "voice": "narrator"
+    },
+    {
+     "say": "roof",
+     "voice": "reader"
+    },
+    {
+     "pause": 3
+    },
+    {
+     "say": "roof. the top of a building, above the highest floor.",
+     "voice": "reader"
+    },
+    {
+     "pause": 1
+    },
+    {
+     "say": "There is a second antenna on the roof opposite.",
+     "voice": "reader"
+    },
+    {
+     "pause": 3
+    },
+    {
+     "say": "Word 11.",
+     "voice": "narrator"
+    },
+    {
+     "say": "afford",
+     "voice": "reader"
+    },
+    {
+     "pause": 3
+    },
+    {
+     "say": "afford. to have enough money to pay for something.",
+     "voice": "reader"
+    },
+    {
+     "pause": 1
+    },
+    {
+     "say": "No single family could afford the line on its own.",
+     "voice": "reader"
+    },
+    {
+     "pause": 3
+    },
+    {
+     "say": "Word 12.",
+     "voice": "narrator"
+    },
+    {
+     "say": "apply",
+     "voice": "reader"
+    },
+    {
+     "pause": 3
+    },
+    {
+     "say": "apply. to ask officially for a place, a job or money.",
+     "voice": "reader"
+    },
+    {
+     "pause": 1
+    },
+    {
+     "say": "If she is not accepted, she will apply again in the spring.",
+     "voice": "reader"
+    },
+    {
+     "pause": 3
+    },
+    {
+     "say": "Word 13.",
+     "voice": "narrator"
+    },
+    {
+     "say": "scholarship",
+     "voice": "reader"
+    },
+    {
+     "pause": 3
+    },
+    {
+     "say": "scholarship. money given to a student so that she can study.",
+     "voice": "reader"
+    },
+    {
+     "pause": 1
+    },
+    {
+     "say": "An exchange place with a small scholarship attached.",
+     "voice": "reader"
+    },
+    {
+     "pause": 3
+    },
+    {
+     "say": "Word 14.",
+     "voice": "narrator"
+    },
+    {
+     "say": "requirement",
+     "voice": "reader"
+    },
+    {
+     "pause": 3
+    },
+    {
+     "say": "requirement. something you must have or reach before you are allowed in.",
+     "voice": "reader"
+    },
+    {
+     "pause": 1
+    },
+    {
+     "say": "A language requirement she is four months from meeting.",
+     "voice": "reader"
+    },
+    {
+     "pause": 3
+    },
+    {
+     "pause": 1.5
+    },
+    {
+     "say": "Now five words from lesson 6. Say the meaning before you hear it.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 2
+    },
+    {
+     "say": "download",
+     "voice": "reader"
+    },
+    {
+     "pause": 5
+    },
+    {
+     "say": "to bring a file from the internet onto your own machine",
+     "voice": "reader"
+    },
+    {
+     "pause": 1
+    },
+    {
+     "say": "cloud",
+     "voice": "reader"
+    },
+    {
+     "pause": 5
+    },
+    {
+     "say": "storage on the internet, instead of on your own machine",
+     "voice": "reader"
+    },
+    {
+     "pause": 1
+    },
+    {
+     "say": "schedule",
+     "voice": "reader"
+    },
+    {
+     "pause": 5
+    },
+    {
+     "say": "a plan that says what happens at what time",
+     "voice": "reader"
+    },
+    {
+     "pause": 1
+    },
+    {
+     "say": "laptop",
+     "voice": "reader"
+    },
+    {
+     "pause": 5
+    },
+    {
+     "say": "a computer you can carry and close",
+     "voice": "reader"
+    },
+    {
+     "pause": 1
+    },
+    {
+     "say": "socket",
+     "voice": "reader"
+    },
+    {
+     "pause": 5
+    },
+    {
+     "say": "the hole in the wall that a machine takes power from",
+     "voice": "reader"
+    },
+    {
+     "pause": 1
+    },
+    {
+     "say": "This is the end of the vocabulary practice.",
+     "voice": "narrator"
+    }
+   ]
+  },
+  {
+   "number": "04",
+   "slug": "grammar-conditionals",
+   "title": "Grammar — the first and second conditional",
+   "minutes": 50,
+   "sheet": true,
+   "audio": false,
+   "markdown": "### Come back to: the future with *will* and *going to*\n\nLesson 6 taught the two futures: **going to** for a decision already made,\n**will** for a decision made as you speak, and for an opinion. Two lines to\nremind you:\n\n| She **is going to** apply in the spring. | it is decided |\n|---|---|\n| I think she **will** get in. | it is an opinion |\n\n**New this time: after *when*, *as soon as*, *before*, *after* and *until*,\nEnglish uses the present simple for future time.**\n\nThis is the rule that the whole of today's grammar rests on, so it comes first:\n\n- *I will send it **when the power comes** on.* ✓\n- *I will send it when the power **will** come on.* ✗\n- *She will apply again **after she finishes** the course.* ✓\n- *Wait **until the latency drops**, and then upload it.* ✓\n\nThe future is already marked once, in the main clause, by *will*. English does\nnot mark it twice. The time clause looks present and means future.\n\n| Time clause — present simple | Main clause — *will* |\n|---|---|\n| When the class **starts**, | she **will** turn the video off. |\n| As soon as the uplink **comes** back, | the lesson **will** continue. |\n| Before she **sends** anything large, | she **will** tell the others. |\n| Until the storm **passes**, | nobody **will** climb to the roof. |\n\n**Quick practice.** Put the verb in the right form.\n\n1. I will call you when the power \\_\\_\\_\\_\\_\\_\\_\\_ (come) on.\n2. She will apply again after she \\_\\_\\_\\_\\_\\_\\_\\_ (finish) the exam.\n3. We will wait until the latency \\_\\_\\_\\_\\_\\_\\_\\_ (drop).\n4. As soon as the slides \\_\\_\\_\\_\\_\\_\\_\\_ (load), the class \\_\\_\\_\\_\\_\\_\\_\\_ (begin).\n\n---\n\nA **conditional** sentence has two halves: the *if*-clause, which sets a\ncondition, and the main clause, which says what follows. The order does not\nmatter — *If the uplink fails, nothing works* and *Nothing works if the uplink\nfails* are the same sentence. **Put a comma in only when the *if*-clause comes\nfirst.**\n\nToday there are two of them, and the difference between them is not time. It is\n**how likely the speaker thinks it is**.\n\n### 3.1 The first conditional: real, and possible\n\n**if + present simple , will + verb**\n\nUse it for a real possibility in the future — something that may well happen:\n\n| *If*-clause | Main clause |\n|---|---|\n| If the class **fails** on Monday, | she **will read** the slides. |\n| If she **is** accepted, | she **will go** for one semester. |\n| If it **comes** down in the storm, | they **will put** it up again. |\n\nNotice that the *if*-clause follows exactly the rule you have just revised: it\nis present in form and future in meaning. *If the uplink **will** fail* is\nwrong for the same reason *when the power will come on* is wrong.\n\n**You can replace *will* with another modal** when the meaning needs it:\n\n- *If the line is slow, the video **may** stop.*\n- *If you need to send something large, you **should** say so first.*\n- *If the latency drops, we **can** start.*\n\n### 3.2 The second conditional: unreal, or unlikely\n\n**if + past simple , would + verb**\n\nUse it for something that is **not true now**, or that you think will not\nhappen. The past tense here is not past time — it is distance from reality:\n\n| *If*-clause | Main clause |\n|---|---|\n| If she **had** a reliable fifty megabits, | she **would stop** planning around it. |\n| If I **lived** nearer the college, | I **would walk**. |\n| If they **knew** which hour it was, | they **would plan** the week properly. |\n\nShe does not have fifty megabits. That is the whole point of the sentence. The\npast tense is what tells you so.\n\n**With *be*, use *were* for every person** in careful written English:\n\n- *If I **were** you, I would apply.*\n- *If the line **were** faster, she would not need Sunday night.*\n\n(*If I was you* is common in speech and is not wrong there. Write *were*.)\n\n**would** becomes **could** for ability and **might** for a weaker guess:\n*If she had the money, she **could** buy a better antenna.*\n\n### 3.3 First or second? The test — and it is not about time\n\n| | First | Second |\n|---|---|---|\n| The speaker thinks | it may well happen | it is not true, or will not happen |\n| *If*-clause | present simple | past simple |\n| Main clause | *will* | *would* |\n| Example | *If she is accepted, she will go.* | *If she had a faster line, she would stop planning.* |\n\nBoth sentences above are about the future. The tense does not tell you *when*;\nit tells you **how real the speaker thinks it is**. Applying is real — she has\nsent the form. Fifty megabits is not.\n\n### 3.4 *unless* = *if … not*\n\n**unless** replaces an *if*-clause that is negative, and then the clause itself\nturns positive:\n\n| With *if … not* | With *unless* |\n|---|---|\n| *If the uplink **does not** come back, the class is over.* | ***Unless** the uplink comes back, the class is over.* |\n| *If you **do not** tell them first, they will be annoyed.* | ***Unless** you tell them first, they will be annoyed.* |\n\nTwo negatives is the mistake to watch for: *unless the uplink does not come\nback* says the opposite of what you mean.\n\n### 3.5 Negative and question\n\n| | First | Second |\n|---|---|---|\n| Negative | If it **does not** load, she **will not** wait. | If she **did not** have the recordings, she **would not** cope. |\n| Question | **What will** you do if it fails? | **What would** you do if you had a faster line? |\n\n### 3.6 Grammar practice\n\n**A. First conditional. Put both verbs in the right form:**\n\n1. If the uplink \\_\\_\\_\\_\\_\\_\\_\\_ (fail), the class \\_\\_\\_\\_\\_\\_\\_\\_ (be) over.\n2. If she \\_\\_\\_\\_\\_\\_\\_\\_ (be) accepted, she \\_\\_\\_\\_\\_\\_\\_\\_ (go) for one semester.\n3. If two people \\_\\_\\_\\_\\_\\_\\_\\_ (ignore) the rule, everyone \\_\\_\\_\\_\\_\\_\\_\\_ (know).\n4. She \\_\\_\\_\\_\\_\\_\\_\\_ (send) her questions as messages if the lesson \\_\\_\\_\\_\\_\\_\\_\\_ (not happen).\n\n**B. Second conditional. Put both verbs in the right form:**\n\n1. If she \\_\\_\\_\\_\\_\\_\\_\\_ (have) a faster line, she \\_\\_\\_\\_\\_\\_\\_\\_ (stop) planning around it.\n2. If I \\_\\_\\_\\_\\_\\_\\_\\_ (be) you, I \\_\\_\\_\\_\\_\\_\\_\\_ (apply) this year.\n3. If they \\_\\_\\_\\_\\_\\_\\_\\_ (know) when the power was coming, they \\_\\_\\_\\_\\_\\_\\_\\_ (not need) a plan.\n4. What \\_\\_\\_\\_\\_\\_\\_\\_ you \\_\\_\\_\\_\\_\\_\\_\\_ (do) if the tower \\_\\_\\_\\_\\_\\_\\_\\_ (come) down tonight?\n\n**C. First or second? Choose, and say why:**\n\n1. If it rains tomorrow, we (will stay / would stay) inside.\n2. If I (am / were) rich, I (will buy / would buy) everyone a line.\n3. If the slides (load / loaded) in time, the class (will start / would start) at eight.\n4. If she (does not get / did not get) the place, she (will apply / would apply) again.\n\n**D. Rewrite with *unless*:**\n\n1. If the uplink does not come back, the class is over.\n2. If you do not tell them first, they will be annoyed.\n\n**E. Come back to — *when*, *before*, *until*:**\n\n1. I will upload it when the latency \\_\\_\\_\\_\\_\\_\\_\\_ (drop).\n2. She will not apply until she \\_\\_\\_\\_\\_\\_\\_\\_ (pass) the exam.\n3. Before she \\_\\_\\_\\_\\_\\_\\_\\_ (send) anything large, she will tell the others.\n"
+  },
+  {
+   "number": "05",
+   "slug": "would-and-if",
+   "title": "The contracted 'd, and the weak if-clause",
+   "minutes": 20,
+   "sheet": true,
+   "audio": true,
+   "markdown": "### 3.7 The contracted *'d*, and the weak *if*-clause (listen to `05-would-and-if.mp3`)\n\nThe second conditional has two words doing all the work — *if* and *would* — and\nin speech both of them nearly disappear.\n\n**1. *would* becomes *'d*, which is one sound: <span class=\"ipa\">/d/</span>.**\n\n| Written in full | What you hear |\n|---|---|\n| I would stop. | <span class=\"ipa\">/aɪd ˈstɒp/</span> |\n| She would go. | <span class=\"ipa\">/ʃid ˈɡəʊ/</span> |\n| They would put it up again. | <span class=\"ipa\">/ðeɪd ˈpʊt ɪt ʌp əˈɡen/</span> |\n| We would not wait. | <span class=\"ipa\">/wi ˈwʊdnt ˈweɪt/</span> |\n\nNote the last line: the **negative keeps its full form**, *wouldn't*\n<span class=\"ipa\">/ˈwʊdnt/</span>. As with *can* and *can't*, the negative is\nthe loud one.\n\n**2. *'d* is also *had*. The verb after it tells you which.**\n\nThis is the one that confuses people, and the rule is simple:\n\n| You hear | Next word is | So *'d* means | Full sentence |\n|---|---|---|---|\n| <span class=\"ipa\">/ʃid ˈɡəʊ/</span> | *go* — a bare verb | **would** | She **would** go. |\n| <span class=\"ipa\">/ʃid ˈɡɒn/</span> | *gone* — a past participle | **had** | She **had** gone. |\n\n**'d + bare verb = would. 'd + past participle = had.** Nothing else can\nhappen, so the verb after it always decides.\n\n**3. The *if*-clause is weak and runs together.**\n\n*If* is almost never stressed. It reduces to <span class=\"ipa\">/əf/</span> and\nglues itself to what follows:\n\n| Written | What you actually hear |\n|---|---|\n| If I had a faster line | <span class=\"ipa\">/əf aɪ ˈhæd ə ˈfɑːstə ˈlaɪn/</span> |\n| If she is accepted | <span class=\"ipa\">/əf ʃiz əkˈseptɪd/</span> |\n| If it comes down | <span class=\"ipa\">/əf ɪt ˈkʌmz ˈdaʊn/</span> |\n\nAnd the whole *if*-clause is said on a **rising tone**, which is what tells the\nlistener that the sentence has not finished yet. The main clause falls. Copy the\ntune, not only the words: if you let the *if*-clause fall, people will think you\nhave stopped speaking and will answer you.\n\nIn the audio you hear each line twice, and then a test: say whether the *'d* you\nhear is **would** or **had**.\n",
+   "segments": [
+    {
+     "say": "Pronunciation. The contracted D, and the weak if clause.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 1
+    },
+    {
+     "say": "First, would becomes a single D on the end of the pronoun. Listen to each line twice, then repeat it.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 2
+    },
+    {
+     "say": "I'd stop.",
+     "voice": "reader"
+    },
+    {
+     "pause": 1
+    },
+    {
+     "say": "I'd stop.",
+     "voice": "reader"
+    },
+    {
+     "pause": 3
+    },
+    {
+     "say": "She'd go for one semester.",
+     "voice": "reader"
+    },
+    {
+     "pause": 1
+    },
+    {
+     "say": "She'd go for one semester.",
+     "voice": "reader"
+    },
+    {
+     "pause": 3
+    },
+    {
+     "say": "They'd put it up again.",
+     "voice": "reader"
+    },
+    {
+     "pause": 1
+    },
+    {
+     "say": "They'd put it up again.",
+     "voice": "reader"
+    },
+    {
+     "pause": 3
+    },
+    {
+     "pause": 1
+    },
+    {
+     "say": "But the negative keeps its full form. Listen.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 1.5
+    },
+    {
+     "say": "We wouldn't wait.",
+     "voice": "reader"
+    },
+    {
+     "pause": 1
+    },
+    {
+     "say": "We wouldn't wait.",
+     "voice": "reader"
+    },
+    {
+     "pause": 3
+    },
+    {
+     "pause": 1
+    },
+    {
+     "say": "Now the hard part. That same D can be had. The verb after it tells you which. A bare verb means would. A past participle means had. Listen to the pair.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 2
+    },
+    {
+     "say": "She'd go.",
+     "voice": "reader"
+    },
+    {
+     "pause": 2
+    },
+    {
+     "say": "She'd gone.",
+     "voice": "reader"
+    },
+    {
+     "pause": 3
+    },
+    {
+     "say": "The first was would go. The second was had gone.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 2
+    },
+    {
+     "say": "Now the if clause. If is weak, and it runs into the words after it. The if clause rises, and the main clause falls. Listen to the tune, not only the words.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 2
+    },
+    {
+     "say": "If I had a faster line, I'd stop planning around it.",
+     "voice": "reader"
+    },
+    {
+     "pause": 1
+    },
+    {
+     "say": "If I had a faster line, I'd stop planning around it.",
+     "voice": "reader"
+    },
+    {
+     "pause": 3
+    },
+    {
+     "say": "If she is accepted, she'll go in September.",
+     "voice": "reader"
+    },
+    {
+     "pause": 1
+    },
+    {
+     "say": "If she is accepted, she'll go in September.",
+     "voice": "reader"
+    },
+    {
+     "pause": 3
+    },
+    {
+     "say": "If it comes down, they'll put it up again.",
+     "voice": "reader"
+    },
+    {
+     "pause": 1
+    },
+    {
+     "say": "If it comes down, they'll put it up again.",
+     "voice": "reader"
+    },
+    {
+     "pause": 3
+    },
+    {
+     "pause": 1
+    },
+    {
+     "say": "Now the test. You will hear a sentence with a D. Say whether the D is would, or had. Then you will hear the answer.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 2
+    },
+    {
+     "say": "Sentence 1.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 0.4
+    },
+    {
+     "say": "She'd apply again in the spring.",
+     "voice": "reader"
+    },
+    {
+     "pause": 4
+    },
+    {
+     "say": "The answer is would.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 1
+    },
+    {
+     "say": "Sentence 2.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 0.4
+    },
+    {
+     "say": "She'd applied before the deadline.",
+     "voice": "reader"
+    },
+    {
+     "pause": 4
+    },
+    {
+     "say": "The answer is had.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 1
+    },
+    {
+     "say": "Sentence 3.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 0.4
+    },
+    {
+     "say": "They'd finished by eight o'clock.",
+     "voice": "reader"
+    },
+    {
+     "pause": 4
+    },
+    {
+     "say": "The answer is had.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 1
+    },
+    {
+     "say": "Sentence 4.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 0.4
+    },
+    {
+     "say": "They'd share the line with us.",
+     "voice": "reader"
+    },
+    {
+     "pause": 4
+    },
+    {
+     "say": "The answer is would.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 1
+    },
+    {
+     "say": "Sentence 5.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 0.4
+    },
+    {
+     "say": "I'd downloaded the slides already.",
+     "voice": "reader"
+    },
+    {
+     "pause": 4
+    },
+    {
+     "say": "The answer is had.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 1
+    },
+    {
+     "say": "Sentence 6.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 0.4
+    },
+    {
+     "say": "I'd download them on Sunday.",
+     "voice": "reader"
+    },
+    {
+     "pause": 4
+    },
+    {
+     "say": "The answer is would.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 1
+    },
+    {
+     "say": "This is the end of the pronunciation practice.",
+     "voice": "narrator"
+    }
+   ]
+  },
+  {
+   "number": "06",
+   "slug": "comprehension",
+   "title": "Comprehension — a full TOEFL set of ten",
+   "minutes": 45,
+   "sheet": true,
+   "audio": true,
+   "markdown": "### Part A — Multiple choice\n\n> This is a full set of ten, the size of a real TOEFL reading set.\n\n**1. (Factual)** How many families share the line?\n\n- A. Two.\n- B. Four.\n- C. Seven.\n- D. Thirty.\n\n**2. (Factual)** When does Aya download the slides?\n\n- A. On Monday at eight.\n- B. On Sunday night.\n- C. During the class.\n- D. Whenever the teacher sends them.\n\n**3. (Negative factual)** According to the passage, all of the following happen when the line is only slow EXCEPT\n\n- A. the video stops.\n- B. the voice survives.\n- C. the class carries on.\n- D. the lesson ends for everybody.\n\n**4. (Vocabulary in context)** The word \"stutter\" in the passage is closest in meaning to\n\n- A. keep stopping and starting.\n- B. become louder.\n- C. disconnect completely.\n- D. cost more.\n\n**5. (Reference)** In the sentence, there is simply nothing to pass on, the words \"nothing to pass on\" refer to\n\n- A. no antenna.\n- B. no neighbours.\n- C. no signal.\n- D. no electricity.\n\n**6. (Inference)** It can be inferred from the passage that Aya\n\n- A. expects the exchange application to fail.\n- B. treats the connection as a condition to work around rather than a reason to stop.\n- C. would rather study alone than in an online class.\n- D. plans to move to a street with a better line.\n\n**7. (Sentence insertion)** Look at the four letters **[A] [B] [C] [D]** in the passage. Where would this sentence best fit?\n\n> *Planning for the bad evening costs very little on a good one.*\n\n\n- A. At **[A]**\n- B. At **[B]**\n- C. At **[C]**\n- D. At **[D]**\n\n**8. (Purpose of a paragraph)** Why does the writer describe what Aya would do with a faster line?\n\n- A. To show that she is not satisfied with her neighbours.\n- B. To explain how a mesh network is built.\n- C. To show that she separates what she cannot change from what she can.\n- D. To argue that fifty megabits should be available to everyone.\n\n**9. (Purpose of the whole passage)** What is the writer's main purpose in the whole passage?\n\n- A. To explain the technology of mesh networks.\n- B. To describe the difficulty of applying to a university abroad.\n- C. To show how one student works, and plans, around a connection that seven families share.\n- D. To persuade neighbours to agree rules about large uploads.\n\n**10. (The writer's attitude)** Which word best describes the writer's attitude towards Aya?\n\n- A. Pitying.\n- B. Doubtful.\n- C. Amused.\n- D. Respectful.\n\n### Part C — Fill in the blanks\n\nUse these words. There are **two extra words** you will not need.\n\n> *uplink · mesh · latency · reliable · antenna · tower · scholarship · requirement · relay*\n\n1. Seven families share one \\_\\_\\_\\_\\_\\_\\_\\_.\n2. In a \\_\\_\\_\\_\\_\\_\\_\\_, every point passes the signal on to the next.\n3. The \\_\\_\\_\\_\\_\\_\\_\\_ on the roof is a length of pipe and two brackets.\n4. She downloads the slides when the \\_\\_\\_\\_\\_\\_\\_\\_ is low.\n5. The rules are what make a shared line \\_\\_\\_\\_\\_\\_\\_\\_.\n6. The exchange place has a small \\_\\_\\_\\_\\_\\_\\_\\_ attached to it.\n7. There is a language \\_\\_\\_\\_\\_\\_\\_\\_ she is four months from meeting.\n\n### Part D — Summary\n\nWrite the story in **two sentences only**. Use a first conditional once and a second conditional once.\n\n> Sentence 1 — what will happen if the uplink fails on a Monday: \\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\n> Sentence 2 — what Aya would do if she had a faster line: \\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\n",
+   "segments": [
+    {
+     "say": "Now get ready to answer the questions about the passage. There are ten questions. You may look at the passage while you answer.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 2
+    },
+    {
+     "say": "Question 1.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 0.6
+    },
+    {
+     "say": "How many families share the line?",
+     "voice": "narrator"
+    },
+    {
+     "pause": 0.8
+    },
+    {
+     "say": "A. Two.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 0.5
+    },
+    {
+     "say": "B. Four.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 0.5
+    },
+    {
+     "say": "C. Seven.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 0.5
+    },
+    {
+     "say": "D. Thirty.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 0.5
+    },
+    {
+     "pause": 12
+    },
+    {
+     "say": "Question 2.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 0.6
+    },
+    {
+     "say": "When does Aya download the slides?",
+     "voice": "narrator"
+    },
+    {
+     "pause": 0.8
+    },
+    {
+     "say": "A. On Monday at eight.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 0.5
+    },
+    {
+     "say": "B. On Sunday night.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 0.5
+    },
+    {
+     "say": "C. During the class.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 0.5
+    },
+    {
+     "say": "D. Whenever the teacher sends them.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 0.5
+    },
+    {
+     "pause": 12
+    },
+    {
+     "say": "Question 3.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 0.6
+    },
+    {
+     "say": "According to the passage, all of the following happen when the line is only slow EXCEPT",
+     "voice": "narrator"
+    },
+    {
+     "pause": 0.8
+    },
+    {
+     "say": "A. the video stops.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 0.5
+    },
+    {
+     "say": "B. the voice survives.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 0.5
+    },
+    {
+     "say": "C. the class carries on.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 0.5
+    },
+    {
+     "say": "D. the lesson ends for everybody.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 0.5
+    },
+    {
+     "pause": 12
+    },
+    {
+     "say": "Question 4.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 0.6
+    },
+    {
+     "say": "The word \"stutter\" in the passage is closest in meaning to",
+     "voice": "narrator"
+    },
+    {
+     "pause": 0.8
+    },
+    {
+     "say": "A. keep stopping and starting.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 0.5
+    },
+    {
+     "say": "B. become louder.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 0.5
+    },
+    {
+     "say": "C. disconnect completely.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 0.5
+    },
+    {
+     "say": "D. cost more.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 0.5
+    },
+    {
+     "pause": 12
+    },
+    {
+     "say": "Question 5.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 0.6
+    },
+    {
+     "say": "In the sentence, there is simply nothing to pass on, the words \"nothing to pass on\" refer to",
+     "voice": "narrator"
+    },
+    {
+     "pause": 0.8
+    },
+    {
+     "say": "A. no antenna.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 0.5
+    },
+    {
+     "say": "B. no neighbours.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 0.5
+    },
+    {
+     "say": "C. no signal.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 0.5
+    },
+    {
+     "say": "D. no electricity.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 0.5
+    },
+    {
+     "pause": 12
+    },
+    {
+     "say": "Question 6.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 0.6
+    },
+    {
+     "say": "It can be inferred from the passage that Aya",
+     "voice": "narrator"
+    },
+    {
+     "pause": 0.8
+    },
+    {
+     "say": "A. expects the exchange application to fail.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 0.5
+    },
+    {
+     "say": "B. treats the connection as a condition to work around rather than a reason to stop.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 0.5
+    },
+    {
+     "say": "C. would rather study alone than in an online class.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 0.5
+    },
+    {
+     "say": "D. plans to move to a street with a better line.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 0.5
+    },
+    {
+     "pause": 12
+    },
+    {
+     "say": "Question seven.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 0.6
+    },
+    {
+     "say": "Look at the four letters [A] [B] [C] [D] in the passage. Where would this sentence best fit?",
+     "voice": "narrator"
+    },
+    {
+     "pause": 0.8
+    },
+    {
+     "say": "Planning for the bad evening costs very little on a good one.",
+     "voice": "reader"
+    },
+    {
+     "pause": 1
+    },
+    {
+     "say": "A. At [A]",
+     "voice": "narrator"
+    },
+    {
+     "pause": 0.5
+    },
+    {
+     "say": "B. At [B]",
+     "voice": "narrator"
+    },
+    {
+     "pause": 0.5
+    },
+    {
+     "say": "C. At [C]",
+     "voice": "narrator"
+    },
+    {
+     "pause": 0.5
+    },
+    {
+     "say": "D. At [D]",
+     "voice": "narrator"
+    },
+    {
+     "pause": 0.5
+    },
+    {
+     "pause": 20
+    },
+    {
+     "say": "Question eight.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 0.6
+    },
+    {
+     "say": "Why does the writer describe what Aya would do with a faster line?",
+     "voice": "narrator"
+    },
+    {
+     "pause": 0.8
+    },
+    {
+     "say": "A. To show that she is not satisfied with her neighbours.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 0.5
+    },
+    {
+     "say": "B. To explain how a mesh network is built.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 0.5
+    },
+    {
+     "say": "C. To show that she separates what she cannot change from what she can.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 0.5
+    },
+    {
+     "say": "D. To argue that fifty megabits should be available to everyone.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 0.5
+    },
+    {
+     "pause": 15
+    },
+    {
+     "say": "Question nine.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 0.6
+    },
+    {
+     "say": "What is the writer's main purpose in the whole passage?",
+     "voice": "narrator"
+    },
+    {
+     "pause": 0.8
+    },
+    {
+     "say": "A. To explain the technology of mesh networks.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 0.5
+    },
+    {
+     "say": "B. To describe the difficulty of applying to a university abroad.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 0.5
+    },
+    {
+     "say": "C. To show how one student works, and plans, around a connection that seven families share.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 0.5
+    },
+    {
+     "say": "D. To persuade neighbours to agree rules about large uploads.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 0.5
+    },
+    {
+     "pause": 20
+    },
+    {
+     "say": "Question ten.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 0.6
+    },
+    {
+     "say": "Which word best describes the writer's attitude towards Aya?",
+     "voice": "narrator"
+    },
+    {
+     "pause": 0.8
+    },
+    {
+     "say": "A. Pitying.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 0.5
+    },
+    {
+     "say": "B. Doubtful.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 0.5
+    },
+    {
+     "say": "C. Amused.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 0.5
+    },
+    {
+     "say": "D. Respectful.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 0.5
+    },
+    {
+     "pause": 15
+    },
+    {
+     "pause": 1.5
+    },
+    {
+     "say": "Last task. Write the story in two sentences only. Use a first conditional once, and a second conditional once. Sentence one: what will happen if the uplink fails on a Monday. Sentence two: what Aya would do if she had a faster line.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 90
+    },
+    {
+     "say": "This is the end of the questions.",
+     "voice": "narrator"
+    }
+   ]
+  },
+  {
+   "number": "07",
+   "slug": "true-false",
+   "title": "True / false",
+   "minutes": 15,
+   "sheet": true,
+   "audio": true,
+   "markdown": "### Part B — True / False\n\nWrite **T** or **F**. If it is false, write the correct sentence.\n\n1. Each family in the street has its own line. \\_\\_\\_\\_\n2. If the line is only slow, the voice usually survives. \\_\\_\\_\\_\n3. Aya keeps the last four weeks of recordings on her laptop. \\_\\_\\_\\_\n4. Nobody in the street sends anything large between seven and ten. \\_\\_\\_\\_\n5. Aya says a faster line would let her stop planning around the connection. \\_\\_\\_\\_\n6. If she is not accepted, she will give up and apply somewhere else. \\_\\_\\_\\_\n",
+   "segments": [
+    {
+     "say": "True or false. You will hear six sentences. Say true or false. If the sentence is false, say the correct sentence.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 2
+    },
+    {
+     "say": "Sentence 1.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 0.5
+    },
+    {
+     "say": "Each family in the street has its own line.",
+     "voice": "reader"
+    },
+    {
+     "pause": 8
+    },
+    {
+     "say": "Sentence 2.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 0.5
+    },
+    {
+     "say": "If the line is only slow, the voice usually survives.",
+     "voice": "reader"
+    },
+    {
+     "pause": 8
+    },
+    {
+     "say": "Sentence 3.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 0.5
+    },
+    {
+     "say": "Aya keeps the last four weeks of recordings on her laptop.",
+     "voice": "reader"
+    },
+    {
+     "pause": 8
+    },
+    {
+     "say": "Sentence 4.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 0.5
+    },
+    {
+     "say": "Nobody in the street sends anything large between seven and ten.",
+     "voice": "reader"
+    },
+    {
+     "pause": 8
+    },
+    {
+     "say": "Sentence 5.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 0.5
+    },
+    {
+     "say": "Aya says a faster line would let her stop planning around the connection.",
+     "voice": "reader"
+    },
+    {
+     "pause": 8
+    },
+    {
+     "say": "Sentence 6.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 0.5
+    },
+    {
+     "say": "If she is not accepted, she will give up and apply somewhere else.",
+     "voice": "reader"
+    },
+    {
+     "pause": 8
+    },
+    {
+     "say": "This is the end of the true or false questions.",
+     "voice": "narrator"
+    }
+   ]
+  },
+  {
+   "number": "08",
+   "slug": "speaking",
+   "title": "Speaking",
+   "minutes": 25,
+   "sheet": true,
+   "audio": true,
+   "markdown": "### 5.1 Speaking (record each answer, 45 seconds)\n\n1. Tell the story of the shared line in your own words. Use if at least three times.\n2. What will you do if your connection fails during your next class? Use the first conditional.\n3. If you could change one thing about where you study, what would it be, and what would change as a result?\n\n**Useful sentence starters:**\n\n- *If \\_\\_\\_\\_ happens, I will \\_\\_\\_\\_.*\n- *If I had \\_\\_\\_\\_, I would \\_\\_\\_\\_.*\n- *Unless \\_\\_\\_\\_, we will \\_\\_\\_\\_.*\n- *I will \\_\\_\\_\\_ as soon as \\_\\_\\_\\_.*\n- *If I were you, I'd \\_\\_\\_\\_.*\n",
+   "segments": [
+    {
+     "say": "Speaking practice. For each question you will have fifteen seconds to prepare and forty-five seconds to speak. Record your answer on your phone.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 2
+    },
+    {
+     "say": "Speaking question 1.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 0.6
+    },
+    {
+     "say": "Tell the story of the shared line in your own words. Use if at least three times.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 1
+    },
+    {
+     "say": "Preparation time. Fifteen seconds.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 15
+    },
+    {
+     "say": "Begin speaking now.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 45
+    },
+    {
+     "say": "Stop speaking.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 2
+    },
+    {
+     "say": "Speaking question 2.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 0.6
+    },
+    {
+     "say": "What will you do if your connection fails during your next class? Use the first conditional.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 1
+    },
+    {
+     "say": "Preparation time. Fifteen seconds.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 15
+    },
+    {
+     "say": "Begin speaking now.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 45
+    },
+    {
+     "say": "Stop speaking.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 2
+    },
+    {
+     "say": "Speaking question 3.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 0.6
+    },
+    {
+     "say": "If you could change one thing about where you study, what would it be, and what would change as a result?",
+     "voice": "narrator"
+    },
+    {
+     "pause": 1
+    },
+    {
+     "say": "Preparation time. Fifteen seconds.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 15
+    },
+    {
+     "say": "Begin speaking now.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 45
+    },
+    {
+     "say": "Stop speaking.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 2
+    },
+    {
+     "say": "This is the end of the speaking practice.",
+     "voice": "narrator"
+    }
+   ]
+  },
+  {
+   "number": "09",
+   "slug": "writing",
+   "title": "Writing — If the Connection Failed Tonight",
+   "minutes": 35,
+   "sheet": true,
+   "audio": false,
+   "markdown": "### 5.2 Writing — \"If the Connection Failed Tonight\" (14–16 sentences)\n\n**Model answer (copy the shape, change the words):**\n\n> Our building shares one line with the two beside it, and everything we do depends on it. If the uplink fails, nobody has a second way in, so I have a plan for both kinds of evening. I download everything I will need on Sunday, when the latency is low and nobody is sending anything large. If my class goes down on Monday, I will read the slides I already have and send my questions as messages. If it does not go down, I have lost twenty quiet minutes and nothing else. We keep one rule in the group, and it is enough: tell the others before you send something big. If two people ignore it on the same night, everybody knows within a minute. People sometimes ask me what I would do with a faster connection. If I had one, I would stop planning around it and put that hour into the work itself, and I would stop apologising at the start of every call. If I were honest, though, the plan is not only about the line. I will keep making it after the line improves, because a week with a plan is steadier than a week without one. As soon as I pass the language test I will send the application, and if it is refused I will send it again in the spring.\n\n**Checklist before you send it:**\n\n- [ ] I used the **first conditional** at least **four** times, with *present simple + will*.\n- [ ] I used the **second conditional** at least **twice**, with *past simple + would*.\n- [ ] I used **if I were**, not *if I was*, in writing.\n- [ ] I used **unless**, or *as soon as* / *when* with a present simple, at least once.\n- [ ] I put a comma after the *if*-clause only when it came first.\n- [ ] I used at least **5 new words** from Session 2.\n- [ ] I used at least **2 words** from Lesson 6 or Lesson 7.\n- [ ] My text has 14–16 sentences.\n"
+  },
+  {
+   "number": "10",
+   "slug": "review",
+   "title": "Review",
+   "minutes": 30,
+   "sheet": true,
+   "audio": true,
+   "markdown": "### 6.1 Listen again (no text)\n\n1. What happens to the whole street if the uplink fails?\n2. Why does Aya say she is careful about what she would do with a faster line?\n\n### 6.2 Mini-quiz (12 marks)\n\n1. The first conditional is *if* + \\_\\_\\_\\_ , \\_\\_\\_\\_ + verb. \\_\\_\\_\\_\\_\\_\\_\\_\n2. The second conditional is *if* + \\_\\_\\_\\_ , \\_\\_\\_\\_ + verb. \\_\\_\\_\\_\\_\\_\\_\\_\n3. Does the past tense in the second conditional mean past time? What does it mean? \\_\\_\\_\\_\\_\\_\\_\\_\n4. *Unless* means the same as \\_\\_\\_\\_\\_\\_\\_\\_\n5. After *when*, *until* and *as soon as*, which tense do you use for future time? \\_\\_\\_\\_\\_\\_\\_\\_\n6. In *she'd gone*, does the *'d* mean *would* or *had*? How do you know? \\_\\_\\_\\_\\_\\_\\_\\_\n7. The opposite of *reliable* is \\_\\_\\_\\_\\_\\_\\_\\_\n8. The delay between sending something and it arriving is \\_\\_\\_\\_\\_\\_\\_\\_\n9. Write a first conditional about tomorrow.\n10. Write a second conditional beginning *If I had*.\n11. Write one sentence with **requirement**.\n12. Tell the story of the passage in two sentences, from memory.\n\n### 6.3 Lesson 8 self-report\n\n| Question | Answer |\n|---|---|\n| Minutes studied this week | |\n| Hardest part (listening / reading / vocabulary / grammar / speaking / writing) | |\n| Conditional sentences I can now make without thinking | |\n| Words from Lesson 6 I have forgotten | |\n| One thing I want to repeat next week | |\n",
+   "segments": [
+    {
+     "say": "Review. Listen to the passage again, with no text, and answer these questions.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 2
+    },
+    {
+     "say": "Question one. What happens to the whole street if the uplink fails?",
+     "voice": "narrator"
+    },
+    {
+     "pause": 10
+    },
+    {
+     "say": "Question two. Why does Aya say she is careful about what she would do with a faster line?",
+     "voice": "narrator"
+    },
+    {
+     "pause": 10
+    },
+    {
+     "pause": 1.5
+    },
+    {
+     "say": "Now the mini-quiz. Twelve marks. Answer in the silence after each question.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 2
+    },
+    {
+     "say": "One. The first conditional is if, plus which tense, plus which modal?",
+     "voice": "narrator"
+    },
+    {
+     "pause": 8
+    },
+    {
+     "say": "Two. The second conditional is if, plus which tense, plus which modal?",
+     "voice": "narrator"
+    },
+    {
+     "pause": 8
+    },
+    {
+     "say": "Three. Does the past tense in the second conditional mean past time? If not, what does it mean?",
+     "voice": "narrator"
+    },
+    {
+     "pause": 10
+    },
+    {
+     "say": "Four. Unless means the same as",
+     "voice": "narrator"
+    },
+    {
+     "pause": 6
+    },
+    {
+     "say": "Five. After when, until and as soon as, which tense do you use for future time?",
+     "voice": "narrator"
+    },
+    {
+     "pause": 8
+    },
+    {
+     "say": "Six. In she'd gone, does the D mean would or had? And how do you know?",
+     "voice": "narrator"
+    },
+    {
+     "pause": 10
+    },
+    {
+     "say": "Seven. The opposite of reliable is",
+     "voice": "narrator"
+    },
+    {
+     "pause": 6
+    },
+    {
+     "say": "Eight. The delay between sending something and it arriving is",
+     "voice": "narrator"
+    },
+    {
+     "pause": 6
+    },
+    {
+     "say": "Nine. Write a first conditional about tomorrow.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 15
+    },
+    {
+     "say": "Ten. Write a second conditional beginning if I had.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 15
+    },
+    {
+     "say": "Eleven. Write one sentence with requirement.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 15
+    },
+    {
+     "say": "Twelve. Tell the story of the passage in two sentences, from memory.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 20
+    },
+    {
+     "say": "This is the end of the review.",
+     "voice": "narrator"
+    }
+   ]
+  },
+  {
+   "number": "11",
+   "slug": "answer-key",
+   "title": "Answer key and teacher notes",
+   "minutes": 10,
+   "sheet": true,
+   "audio": false,
+   "css_id": "answer-key",
+   "markdown": "**Listening:** L1 — from a box on the third floor, up to an antenna on the roof and across to a second antenna on the roof opposite · L2 — the lesson is over for all thirty students, because nobody has a second way in · L3 — she downloads the slides, because the line is quiet and the latency is low · L4 — an exchange place at a university in Spain, with a small scholarship\n\n**Part A (MCQ):** 1-C · 2-B · 3-D · 4-A · 5-C · 6-B · 7-B · 8-C · 9-C · 10-D\n\n*Why 7 is **[B]***: the sentence weighs the cost of preparing against the benefit, and only the paragraph after **[B]** does that — Sunday's download, the kept recordings, and the closing line that she has lost nothing but twenty minutes of a quiet Sunday. The paragraph after **[A]** explains the mesh, after **[C]** is the faster line she does not have, after **[D]** the application.\n\n*Why 8 is **C***: the paragraph opens by saying she is careful about the wish, because a wish is easy to turn into an excuse. The point is not the fifty megabits; it is the line she draws between what she cannot change and what she can.\n\n*Why 9 is **C***: the technology is explained only as far as the story needs, the application is one paragraph of seven, and the rules about large uploads are reported, not argued for. The passage follows one person working around a shared constraint.\n\n*Why 10 is **D, respectful***: **A is the trap.** *Pitying* would be a reasonable guess from the subject matter, and it is wrong — pity would dwell on what is missing. This writer dwells on what is done: the plan, the rules, the second antenna, the tower put up twice. The one sentence that could invite pity, about apologising at the start of every call, is given as something she intends to stop, not as something to feel sorry about. Attitude questions reward reading the **selection of detail**, not the subject.\n\n**Part B (True/False):**\n\n1. F — Seven families share one uplink through a mesh.\n2. T\n3. T\n4. T\n5. T\n6. F — She will apply again in the spring.\n\n**Part C (Fill in the blanks):** 1. uplink · 2. mesh · 3. tower · 4. latency · 5. reliable · 6. scholarship · 7. requirement\n*(Extra words: antenna, relay)*\n\n**2.4 A (Opposites):** 1. unreliable · 2. be too expensive for · 3. withdraw · 4. keep to yourself · 5. an instant reply\n\n**2.4 B (Odd one out):** 1. scholarship (the others are on or above a building) · 2. requirement (the others are parts of a network) · 3. neighbour (the others are properties of a connection)\n\n**Come back to (time clauses):** 1. comes · 2. finishes · 3. drops · 4. load … will begin\n\n**3.6 A (first conditional):** 1. fails … will be · 2. is … will go · 3. ignore … will know · 4. will send … does not happen\n\n**3.6 B (second conditional):** 1. had … would stop · 2. were … would apply · 3. knew … would not need · 4. would … do … came\n\n**3.6 C (first or second, and why):**\n\n1. will stay — rain tomorrow is a real possibility\n2. were … would buy — she is not rich; the past tense marks it as unreal\n3. load … will start — a real possibility this evening\n4. does not get … will apply — she may well not get it; it is real either way\n\n**3.6 D (*unless*):** 1. Unless the uplink comes back, the class is over. · 2. Unless you tell them first, they will be annoyed.\n\n**3.6 E (time clauses):** 1. drops · 2. passes · 3. sends\n\n**Mini-quiz:** 1. present simple, *will* · 2. past simple, *would* · 3. No — it means distance from reality: the thing is not true, or is not expected · 4. *if … not* · 5. the present simple · 6. *had*, because *gone* is a past participle; *'d* + bare verb is *would*, *'d* + past participle is *had* · 7. unreliable · 8. latency · 9–12. teacher judgement\n\n### Teacher Notes {: #teacher-notes }\n\n**What changed from Lesson 7, and what deliberately did not.** 516 words, against 510 in Lesson 7 and 504 in Lesson 6 — three lessons at one length, which was the point of the plateau. Over these three weeks the difficulty has moved entirely into the grammar and the vocabulary: the future, then the modals, now the conditionals, with the technical density climbing each time. The question set has not changed since Lesson 5 and will not change again.\n\n**The one real difficulty.** Not the forms, which are two patterns on a card. It is understanding that **the past tense in the second conditional is not past time**. Arabic does not use a past form to mark unreality, so *if she had a faster line* reads to her as a sentence about last year. Section 3.3 is the one to work: both example sentences are about the future, and the only thing the tense tells you is how real the speaker thinks it is. Ask her, for each sentence in 3.6 C, *does the speaker think this will happen?* — the answer to that chooses the tense.\n\n**The rule everything rests on.** The *Come back to* section is deliberately placed before the conditionals rather than after. *I will call you when the power comes on* and *if the power comes on, I will call you* are the same rule: the future is marked once, in the main clause, and the subordinate clause stays present. A student who has that rule finds the first conditional almost automatic; a student who has not will write *if the uplink will fail* for a year. Teach it first even if you run out of time for 3.5.\n\n**Why the pronunciation part is the one to protect.** The whole second conditional hangs on one consonant, and that consonant is ambiguous: *'d* is *would* and *'d* is *had*. The test is mechanical — a bare verb after it means *would*, a past participle means *had* — and once she has it, a large amount of spoken English stops being a guess. The weak *if* and the rising tune matter nearly as much: if she lets the *if*-clause fall, people will answer before she has finished the sentence.\n\n**Why this story, and a note on it.** The passage touches her own situation — a shared line, a class that depends on it, an exchange application with a language requirement. That is on purpose, and so is the distance: the student in it is somebody else, the detail is practical rather than personal, and nothing in it is there to be felt sorry about. The conditionals need a real constraint to be about, because a conditional sentence is how a person reasons about what is and is not within reach, and that is exactly what this passage is doing.\n\n**Success criteria for Lesson 8.** The student should be able to:\n\n- answer L1–L4 correctly on the second hearing;\n- hear *she'd gone* and *she'd go* and say which is which, and why;\n- build both conditionals and choose between them for a reason she can state;\n- use the present simple after *if*, *when*, *until*, *as soon as* and *before*;\n- write *if I were*, not *if I was*;\n- rewrite an *if … not* sentence with *unless*;\n- use 10 of the 14 key words in her own sentence;\n- write 14 sentences with fewer than 4 conditional errors.\n\n**If it is too easy:** add the third conditional (*if she had applied, she would have gone*) and the mixed conditional, both of which follow naturally from the *'d* work in part 05.\n**If it is too hard:** teach the first conditional alone this week, with the time-clause rule, and leave the second for a week of its own. The second conditional is the harder idea by a long way, and splitting them costs nothing.\n\n**A note on spaced recall.** `03-vocabulary.mp3` ends with five Lesson 6 words — *download, cloud, schedule, laptop, socket*. Lesson 7 recalled Lesson 5, so the two-lesson gap holds. Lesson 7's words are due back in Lesson 9.\n\n**Where the course is now.** Eight lessons, one progress test, a complete TOEFL question set and eight tenses or structures, all spiralled at least twice. The length has been flat for three lessons, which means the next decision is whether Lesson 9 lets it rise again or holds it a fourth time — that is a question about her, not about the material, and the self-report at 6.3 is where the answer should come from. A second progress test, covering Lessons 4 to 8, would fit naturally before Lesson 9.\n"
+  },
+  {
+   "number": "12",
+   "slug": "passage-slow",
+   "title": "Passage, extra slow",
+   "minutes": 10,
+   "sheet": false,
+   "audio": true,
+   "segments": [
+    {
+     "say": "Slow version. The passage, read slowly, one time.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 2
+    },
+    {
+     "say": "The connection comes into the street on one line, and everything else hangs off it. From a box on the third floor it goes up to an antenna on the roof, across to a second antenna on the roof opposite, and from there into four more flats. Seven families, one uplink.\n\nA mesh works like that: every point relays the signal on to the next, so a street can share one line instead of buying seven. No single family here could afford the line on its own, and together they can. It is cheap and it is clever, and it has one weakness that everybody who uses it learns in the first week. If the uplink fails, nothing after it works. The antennas are all fine. There is simply nothing to pass on.\n\nAya has a class at eight on Monday evenings — thirty students, a teacher in another city, and a slide deck that has to load. If the line is slow, the video stops and the voice survives, which she can work with. If the line goes down, the lesson is over for all thirty of them, because nobody has a second way in.\n\nSo she prepares for both evenings at once. She downloads the slides on Sunday night, when the line is quiet and the latency is low, and she keeps the last four weeks of recordings on the laptop. If the class fails on Monday, she will read the slides and send her questions as messages. If it does not fail, she has lost nothing but twenty minutes of a quiet Sunday.\n\nThe families have rules, which is what makes a shared line reliable at all. Nobody sends anything large between seven and ten. If somebody has to, they say so first. If two people ignore that on the same evening, everyone knows within a minute, because the latency climbs and every class in the street begins to stutter.\n\nAya is careful about what she says she would do with a faster line, because a wish is an easy thing to turn into an excuse. If she had a reliable fifty megabits, she says, she would stop planning around the connection and spend that hour on the work itself. She would also stop apologising at the start of every call.\n\nThere is an application open on the laptop that she has been filling in for three weeks: a university in Spain, an exchange place with a small scholarship attached, and a language requirement she is four months away from meeting. If she is accepted, she will go for one semester. If she is not, she will apply again in the spring. Either way the English has to be finished, so the English gets done. That part is hers, and it is the one part the line cannot reach.\n\nThe tower on the roof is a length of pipe, two brackets and a cable tie, and a neighbour put it up in an afternoon. If it comes down in the next storm, they will put it up again. They have done it twice.",
+     "voice": "slow"
+    }
+   ]
+  }
+ ]
+}

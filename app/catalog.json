@@ -1,7 +1,7 @@
 {
   "title": "English, A1+ to B2",
   "subtitle": "A guided course for one student, built to work offline.",
-  "generated": "2026-11-04",
+  "generated": "2026-11-05",
   "courses": [
     {
       "kind": "lesson",
@@ -1044,6 +1044,714 @@
             "file": "12-passage-slow.mp3",
             "bytes": 1268784,
             "seconds": 211.5
+          }
+        }
+      ]
+    },
+    {
+      "kind": "lesson",
+      "slug": "lesson-06",
+      "path": "lessons/lesson-06",
+      "number": 6,
+      "title": "Lesson 6 — A Plan for Tuesday",
+      "level": "B1 (sixth step)",
+      "topic": "Planning a week of study around the hours of electricity",
+      "time": "6 sessions, 50–60 minutes each",
+      "skills": "Listening → Reading → Vocabulary → Grammar → Comprehension → Speaking → Writing",
+      "new": "the future with will and going to, the short 'll and the weak going to, and the present perfect against an exact date. The passage holds at about 500 words: from here the text gets harder rather than longer, and the question set does not change at all.",
+      "minutes": 305,
+      "bytes": 20780143,
+      "howToWork": [
+        "Play **01-passage.mp3** and listen twice with no text in front of you. Do not open the PDF yet.",
+        "Then work through the parts in number order. Part 04 is grammar and has no audio; part 05 needs its audio most of all, because *will* shrinks to a single consonant and *going to* becomes one word.",
+        "Part 06 is the same ten questions, in the same eight types, as Lesson 5. Nothing in the format is new — only the text. Do it in one sitting, with a clock.",
+        "Open part 11, the answer key, only when parts 01 to 10 are finished. The five games come days later, not the same evening."
+      ],
+      "games": [
+        {
+          "number": "13",
+          "slug": "crossword",
+          "title": "Crossword",
+          "minutes": 15,
+          "file": "13-crossword.html",
+          "bytes": 43863
+        },
+        {
+          "number": "14",
+          "slug": "word-search",
+          "title": "Word search",
+          "minutes": 10,
+          "file": "14-word-search.html",
+          "bytes": 24764
+        },
+        {
+          "number": "15",
+          "slug": "memory",
+          "title": "Memory pairs",
+          "minutes": 10,
+          "file": "15-memory.html",
+          "bytes": 16692
+        },
+        {
+          "number": "16",
+          "slug": "criss-cross",
+          "title": "Criss-cross, Arabic clues",
+          "minutes": 15,
+          "file": "16-criss-cross.html",
+          "bytes": 35557
+        },
+        {
+          "number": "17",
+          "slug": "cryptogram",
+          "title": "Cryptogram",
+          "minutes": 15,
+          "file": "17-cryptogram.html",
+          "bytes": 27391
+        }
+      ],
+      "whole": {
+        "pdf": {
+          "file": "00-lesson.pdf",
+          "bytes": 99000
+        },
+        "mp3": {
+          "file": "00-full-section.mp3",
+          "bytes": 6292224,
+          "seconds": 1048.7
+        }
+      },
+      "parts": [
+        {
+          "number": "01",
+          "slug": "passage",
+          "title": "Passage — A Plan for Tuesday",
+          "minutes": 20,
+          "pdf": {
+            "file": "01-passage.pdf",
+            "bytes": 24874
+          },
+          "mp3": {
+            "file": "01-passage.mp3",
+            "bytes": 2378160,
+            "seconds": 396.4
+          }
+        },
+        {
+          "number": "02",
+          "slug": "listening-questions",
+          "title": "Listening questions",
+          "minutes": 10,
+          "pdf": {
+            "file": "02-listening-questions.pdf",
+            "bytes": 15094
+          },
+          "mp3": {
+            "file": "02-listening-questions.mp3",
+            "bytes": 412128,
+            "seconds": 68.7
+          }
+        },
+        {
+          "number": "03",
+          "slug": "vocabulary",
+          "title": "Vocabulary and Lesson 4 recall",
+          "minutes": 35,
+          "pdf": {
+            "file": "03-vocabulary.pdf",
+            "bytes": 30737
+          },
+          "mp3": {
+            "file": "03-vocabulary.mp3",
+            "bytes": 2176416,
+            "seconds": 362.7
+          }
+        },
+        {
+          "number": "04",
+          "slug": "grammar-future-will-and-going-to",
+          "title": "Grammar — the future with will and going to",
+          "minutes": 50,
+          "pdf": {
+            "file": "04-grammar-future-will-and-going-to.pdf",
+            "bytes": 32919
+          }
+        },
+        {
+          "number": "05",
+          "slug": "ll-and-gonna",
+          "title": "The short 'll and the weak going to",
+          "minutes": 20,
+          "pdf": {
+            "file": "05-ll-and-gonna.pdf",
+            "bytes": 23719
+          },
+          "mp3": {
+            "file": "05-ll-and-gonna.mp3",
+            "bytes": 1386864,
+            "seconds": 231.1
+          }
+        },
+        {
+          "number": "06",
+          "slug": "comprehension",
+          "title": "Comprehension — a full TOEFL set of ten",
+          "minutes": 45,
+          "pdf": {
+            "file": "06-comprehension.pdf",
+            "bytes": 24092
+          },
+          "mp3": {
+            "file": "06-comprehension.mp3",
+            "bytes": 2815344,
+            "seconds": 469.2
+          }
+        },
+        {
+          "number": "07",
+          "slug": "true-false",
+          "title": "True / false",
+          "minutes": 15,
+          "pdf": {
+            "file": "07-true-false.pdf",
+            "bytes": 13723
+          },
+          "mp3": {
+            "file": "07-true-false.mp3",
+            "bytes": 604944,
+            "seconds": 100.8
+          }
+        },
+        {
+          "number": "08",
+          "slug": "speaking",
+          "title": "Speaking",
+          "minutes": 25,
+          "pdf": {
+            "file": "08-speaking.pdf",
+            "bytes": 16785
+          },
+          "mp3": {
+            "file": "08-speaking.mp3",
+            "bytes": 1514016,
+            "seconds": 252.3
+          }
+        },
+        {
+          "number": "09",
+          "slug": "writing",
+          "title": "Writing — My Plan for Next Week",
+          "minutes": 35,
+          "pdf": {
+            "file": "09-writing.pdf",
+            "bytes": 16860
+          }
+        },
+        {
+          "number": "10",
+          "slug": "review",
+          "title": "Review",
+          "minutes": 30,
+          "pdf": {
+            "file": "10-review.pdf",
+            "bytes": 19896
+          },
+          "mp3": {
+            "file": "10-review.mp3",
+            "bytes": 1375776,
+            "seconds": 229.3
+          }
+        },
+        {
+          "number": "11",
+          "slug": "answer-key",
+          "title": "Answer key and teacher notes",
+          "minutes": 10,
+          "pdf": {
+            "file": "11-answer-key.pdf",
+            "bytes": 33649
+          }
+        },
+        {
+          "number": "12",
+          "slug": "passage-slow",
+          "title": "Passage, extra slow",
+          "minutes": 10,
+          "mp3": {
+            "file": "12-passage-slow.mp3",
+            "bytes": 1324656,
+            "seconds": 220.8
+          }
+        }
+      ]
+    },
+    {
+      "kind": "lesson",
+      "slug": "lesson-07",
+      "path": "lessons/lesson-07",
+      "number": 7,
+      "title": "Lesson 7 — The Bench by the Stairs",
+      "level": "B1 (seventh step)",
+      "topic": "A student repair bench: rules, faults and judgement",
+      "time": "6 sessions, 50–60 minutes each",
+      "skills": "Listening → Reading → Vocabulary → Grammar → Comprehension → Speaking → Writing",
+      "new": "the modals can, could, should, must and have to, the weak can against can't and have to said as hafta, and the state verbs that never take the continuous. The passage stays at about 500 words; the question set is unchanged.",
+      "minutes": 305,
+      "bytes": 20750044,
+      "howToWork": [
+        "Play **01-passage.mp3** and listen twice with no text in front of you. Do not open the PDF yet.",
+        "Then work through the parts in number order. Part 04 is grammar and has no audio; part 05 needs its audio most of all, because *can* and *can't* are told apart by a vowel, not by the *t*.",
+        "Section 3.5 of the grammar sheet is the one to read twice: *must not* and *do not have to* are opposites, and the passage uses both within four lines of each other.",
+        "Open part 11, the answer key, only when parts 01 to 10 are finished. The five games come days later, not the same evening."
+      ],
+      "games": [
+        {
+          "number": "13",
+          "slug": "crossword",
+          "title": "Crossword",
+          "minutes": 15,
+          "file": "13-crossword.html",
+          "bytes": 41020
+        },
+        {
+          "number": "14",
+          "slug": "word-search",
+          "title": "Word search",
+          "minutes": 10,
+          "file": "14-word-search.html",
+          "bytes": 24435
+        },
+        {
+          "number": "15",
+          "slug": "memory",
+          "title": "Memory pairs",
+          "minutes": 10,
+          "file": "15-memory.html",
+          "bytes": 15593
+        },
+        {
+          "number": "16",
+          "slug": "criss-cross",
+          "title": "Criss-cross, Arabic clues",
+          "minutes": 15,
+          "file": "16-criss-cross.html",
+          "bytes": 32102
+        },
+        {
+          "number": "17",
+          "slug": "cryptogram",
+          "title": "Cryptogram",
+          "minutes": 15,
+          "file": "17-cryptogram.html",
+          "bytes": 26485
+        }
+      ],
+      "whole": {
+        "pdf": {
+          "file": "00-lesson.pdf",
+          "bytes": 98182
+        },
+        "mp3": {
+          "file": "00-full-section.mp3",
+          "bytes": 6306480,
+          "seconds": 1051.1
+        }
+      },
+      "parts": [
+        {
+          "number": "01",
+          "slug": "passage",
+          "title": "Passage — The Bench by the Stairs",
+          "minutes": 20,
+          "pdf": {
+            "file": "01-passage.pdf",
+            "bytes": 25159
+          },
+          "mp3": {
+            "file": "01-passage.mp3",
+            "bytes": 2367360,
+            "seconds": 394.6
+          }
+        },
+        {
+          "number": "02",
+          "slug": "listening-questions",
+          "title": "Listening questions",
+          "minutes": 10,
+          "pdf": {
+            "file": "02-listening-questions.pdf",
+            "bytes": 13561
+          },
+          "mp3": {
+            "file": "02-listening-questions.mp3",
+            "bytes": 414720,
+            "seconds": 69.1
+          }
+        },
+        {
+          "number": "03",
+          "slug": "vocabulary",
+          "title": "Vocabulary and Lesson 5 recall",
+          "minutes": 35,
+          "pdf": {
+            "file": "03-vocabulary.pdf",
+            "bytes": 31463
+          },
+          "mp3": {
+            "file": "03-vocabulary.mp3",
+            "bytes": 2191968,
+            "seconds": 365.3
+          }
+        },
+        {
+          "number": "04",
+          "slug": "grammar-modals",
+          "title": "Grammar — modals: can, could, should, must, have to",
+          "minutes": 50,
+          "pdf": {
+            "file": "04-grammar-modals.pdf",
+            "bytes": 30324
+          }
+        },
+        {
+          "number": "05",
+          "slug": "can-and-hafta",
+          "title": "Weak can, hard can't, and have to",
+          "minutes": 20,
+          "pdf": {
+            "file": "05-can-and-hafta.pdf",
+            "bytes": 24848
+          },
+          "mp3": {
+            "file": "05-can-and-hafta.mp3",
+            "bytes": 1330416,
+            "seconds": 221.7
+          }
+        },
+        {
+          "number": "06",
+          "slug": "comprehension",
+          "title": "Comprehension — a full TOEFL set of ten",
+          "minutes": 45,
+          "pdf": {
+            "file": "06-comprehension.pdf",
+            "bytes": 24518
+          },
+          "mp3": {
+            "file": "06-comprehension.mp3",
+            "bytes": 2839104,
+            "seconds": 473.2
+          }
+        },
+        {
+          "number": "07",
+          "slug": "true-false",
+          "title": "True / false",
+          "minutes": 15,
+          "pdf": {
+            "file": "07-true-false.pdf",
+            "bytes": 13972
+          },
+          "mp3": {
+            "file": "07-true-false.mp3",
+            "bytes": 603936,
+            "seconds": 100.7
+          }
+        },
+        {
+          "number": "08",
+          "slug": "speaking",
+          "title": "Speaking",
+          "minutes": 25,
+          "pdf": {
+            "file": "08-speaking.pdf",
+            "bytes": 16733
+          },
+          "mp3": {
+            "file": "08-speaking.mp3",
+            "bytes": 1505664,
+            "seconds": 250.9
+          }
+        },
+        {
+          "number": "09",
+          "slug": "writing",
+          "title": "Writing — How to Do It Properly",
+          "minutes": 35,
+          "pdf": {
+            "file": "09-writing.pdf",
+            "bytes": 19607
+          }
+        },
+        {
+          "number": "10",
+          "slug": "review",
+          "title": "Review",
+          "minutes": 30,
+          "pdf": {
+            "file": "10-review.pdf",
+            "bytes": 19039
+          },
+          "mp3": {
+            "file": "10-review.mp3",
+            "bytes": 1378224,
+            "seconds": 229.7
+          }
+        },
+        {
+          "number": "11",
+          "slug": "answer-key",
+          "title": "Answer key and teacher notes",
+          "minutes": 10,
+          "pdf": {
+            "file": "11-answer-key.pdf",
+            "bytes": 33211
+          }
+        },
+        {
+          "number": "12",
+          "slug": "passage-slow",
+          "title": "Passage, extra slow",
+          "minutes": 10,
+          "mp3": {
+            "file": "12-passage-slow.mp3",
+            "bytes": 1321920,
+            "seconds": 220.3
+          }
+        }
+      ]
+    },
+    {
+      "kind": "lesson",
+      "slug": "lesson-08",
+      "path": "lessons/lesson-08",
+      "number": 8,
+      "title": "Lesson 8 — The Line We Share",
+      "level": "B1 (eighth step)",
+      "topic": "A shared connection, a class at eight, and an application abroad",
+      "time": "6 sessions, 50–60 minutes each",
+      "skills": "Listening → Reading → Vocabulary → Grammar → Comprehension → Speaking → Writing",
+      "new": "the first and second conditional, the contracted 'd for would and had, the weak if-clause, and the present simple in time clauses. The passage stays at about 500 words for the third lesson running, and the question set is unchanged.",
+      "minutes": 305,
+      "bytes": 21160403,
+      "howToWork": [
+        "Play **01-passage.mp3** and listen twice with no text in front of you. Do not open the PDF yet.",
+        "Then work through the parts in number order. Part 04 is grammar and has no audio; part 05 needs its audio most of all, because *would* and *had* arrive as the same single sound.",
+        "Read the **Come back to** section before the conditionals, not after. The rule about *when* and *until* is the same rule the *if*-clause follows, and the conditionals are far easier once it is in place.",
+        "Open part 11, the answer key, only when parts 01 to 10 are finished. The five games come days later, not the same evening."
+      ],
+      "games": [
+        {
+          "number": "13",
+          "slug": "crossword",
+          "title": "Crossword",
+          "minutes": 15,
+          "file": "13-crossword.html",
+          "bytes": 40389
+        },
+        {
+          "number": "14",
+          "slug": "word-search",
+          "title": "Word search",
+          "minutes": 10,
+          "file": "14-word-search.html",
+          "bytes": 24637
+        },
+        {
+          "number": "15",
+          "slug": "memory",
+          "title": "Memory pairs",
+          "minutes": 10,
+          "file": "15-memory.html",
+          "bytes": 16143
+        },
+        {
+          "number": "16",
+          "slug": "criss-cross",
+          "title": "Criss-cross, Arabic clues",
+          "minutes": 15,
+          "file": "16-criss-cross.html",
+          "bytes": 34525
+        },
+        {
+          "number": "17",
+          "slug": "cryptogram",
+          "title": "Cryptogram",
+          "minutes": 15,
+          "file": "17-cryptogram.html",
+          "bytes": 26950
+        }
+      ],
+      "whole": {
+        "pdf": {
+          "file": "00-lesson.pdf",
+          "bytes": 99915
+        },
+        "mp3": {
+          "file": "00-full-section.mp3",
+          "bytes": 6442128,
+          "seconds": 1073.7
+        }
+      },
+      "parts": [
+        {
+          "number": "01",
+          "slug": "passage",
+          "title": "Passage — The Line We Share",
+          "minutes": 20,
+          "pdf": {
+            "file": "01-passage.pdf",
+            "bytes": 24977
+          },
+          "mp3": {
+            "file": "01-passage.mp3",
+            "bytes": 2461824,
+            "seconds": 410.3
+          }
+        },
+        {
+          "number": "02",
+          "slug": "listening-questions",
+          "title": "Listening questions",
+          "minutes": 10,
+          "pdf": {
+            "file": "02-listening-questions.pdf",
+            "bytes": 14809
+          },
+          "mp3": {
+            "file": "02-listening-questions.mp3",
+            "bytes": 409968,
+            "seconds": 68.3
+          }
+        },
+        {
+          "number": "03",
+          "slug": "vocabulary",
+          "title": "Vocabulary and Lesson 6 recall",
+          "minutes": 35,
+          "pdf": {
+            "file": "03-vocabulary.pdf",
+            "bytes": 31301
+          },
+          "mp3": {
+            "file": "03-vocabulary.mp3",
+            "bytes": 2191104,
+            "seconds": 365.2
+          }
+        },
+        {
+          "number": "04",
+          "slug": "grammar-conditionals",
+          "title": "Grammar — the first and second conditional",
+          "minutes": 50,
+          "pdf": {
+            "file": "04-grammar-conditionals.pdf",
+            "bytes": 33644
+          }
+        },
+        {
+          "number": "05",
+          "slug": "would-and-if",
+          "title": "The contracted 'd, and the weak if-clause",
+          "minutes": 20,
+          "pdf": {
+            "file": "05-would-and-if.pdf",
+            "bytes": 25666
+          },
+          "mp3": {
+            "file": "05-would-and-if.mp3",
+            "bytes": 1336032,
+            "seconds": 222.7
+          }
+        },
+        {
+          "number": "06",
+          "slug": "comprehension",
+          "title": "Comprehension — a full TOEFL set of ten",
+          "minutes": 45,
+          "pdf": {
+            "file": "06-comprehension.pdf",
+            "bytes": 24348
+          },
+          "mp3": {
+            "file": "06-comprehension.mp3",
+            "bytes": 2860272,
+            "seconds": 476.7
+          }
+        },
+        {
+          "number": "07",
+          "slug": "true-false",
+          "title": "True / false",
+          "minutes": 15,
+          "pdf": {
+            "file": "07-true-false.pdf",
+            "bytes": 13932
+          },
+          "mp3": {
+            "file": "07-true-false.mp3",
+            "bytes": 629280,
+            "seconds": 104.9
+          }
+        },
+        {
+          "number": "08",
+          "slug": "speaking",
+          "title": "Speaking",
+          "minutes": 25,
+          "pdf": {
+            "file": "08-speaking.pdf",
+            "bytes": 16315
+          },
+          "mp3": {
+            "file": "08-speaking.mp3",
+            "bytes": 1520208,
+            "seconds": 253.4
+          }
+        },
+        {
+          "number": "09",
+          "slug": "writing",
+          "title": "Writing — If the Connection Failed Tonight",
+          "minutes": 35,
+          "pdf": {
+            "file": "09-writing.pdf",
+            "bytes": 20115
+          }
+        },
+        {
+          "number": "10",
+          "slug": "review",
+          "title": "Review",
+          "minutes": 30,
+          "pdf": {
+            "file": "10-review.pdf",
+            "bytes": 19516
+          },
+          "mp3": {
+            "file": "10-review.mp3",
+            "bytes": 1440144,
+            "seconds": 240.0
+          }
+        },
+        {
+          "number": "11",
+          "slug": "answer-key",
+          "title": "Answer key and teacher notes",
+          "minutes": 10,
+          "pdf": {
+            "file": "11-answer-key.pdf",
+            "bytes": 31813
+          }
+        },
+        {
+          "number": "12",
+          "slug": "passage-slow",
+          "title": "Passage, extra slow",
+          "minutes": 10,
+          "mp3": {
+            "file": "12-passage-slow.mp3",
+            "bytes": 1370448,
+            "seconds": 228.4
           }
         }
       ]

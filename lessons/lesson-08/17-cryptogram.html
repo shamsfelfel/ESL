@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Cryptogram - Lesson 8 — The Line We Share</title>
+<meta name="theme-color" content="#15607a">
+<style>
+:root{--ink:#1a1d21;--muted:#5d646e;--rule:#dfe3e8;--accent:#15607a;
+--wash:#f1f6f8;--bg:#fff;--ok:#1d6b45;--bad:#a4302a}
+@media(prefers-color-scheme:dark){:root{--ink:#e9edf1;--muted:#9aa4b0;
+--rule:#2b3138;--accent:#6fc2de;--wash:#1a2026;--bg:#10151a;--ok:#6fd19d;--bad:#e8857f}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);padding:16px;
+font:16px/1.5 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+.wrap{max-width:46rem;margin:0 auto}
+h1{font-size:20px;margin:0 0 2px;color:var(--accent)}
+.sub{color:var(--muted);font-size:14px;margin:0 0 14px}
+.bar{display:flex;gap:8px;flex-wrap:wrap;margin:14px 0}
+button{font:inherit;font-size:14px;padding:7px 14px;border-radius:99px;
+border:1px solid var(--accent);background:transparent;color:var(--accent);cursor:pointer;min-height:38px}
+button.primary{background:var(--accent);color:#fff}
+.msg{min-height:22px;font-size:14px;font-weight:600;margin-bottom:6px}
+.msg.good{color:var(--ok)}.msg.bad{color:var(--bad)}
+table.grid{border-collapse:collapse;margin:0 auto 6px}
+table.grid td{padding:0;border:0}
+.cell{width:var(--sq);height:var(--sq);position:relative;border:1px solid var(--rule);
+background:var(--wash)}
+.cell.block{border:0;background:transparent}
+.cell input{width:100%;height:100%;border:0;background:transparent;text-align:center;
+font:600 calc(var(--sq)*0.52)/1 inherit;color:var(--ink);text-transform:uppercase;padding:0}
+.cell input:focus{outline:2px solid var(--accent);outline-offset:-2px}
+.cell.right input{color:var(--ok)}
+.cell.wrong input{color:var(--bad)}
+.num{position:absolute;top:1px;left:2px;font-size:calc(var(--sq)*0.28);color:var(--muted);
+pointer-events:none}
+.clues{display:grid;grid-template-columns:1fr;gap:18px;margin-top:18px}
+@media(min-width:620px){.clues{grid-template-columns:1fr 1fr}}
+.clues h2{font-size:14px;text-transform:uppercase;letter-spacing:.05em;color:var(--muted);
+margin:0 0 6px}
+ol.clue{margin:0;padding-left:0;list-style:none}
+ol.clue li{margin-bottom:6px;font-size:14.5px;display:flex;gap:7px}
+ol.clue b{color:var(--accent);min-width:1.6em;text-align:right}
+ol.clue li.done{color:var(--muted);text-decoration:line-through}
+.ar{font-size:13px;color:var(--muted)}
+.ws td{border:0}
+.ws .cell{background:transparent;border:0;display:flex;align-items:center;
+justify-content:center;font-weight:600;font-size:calc(var(--sq)*0.5);cursor:pointer;
+user-select:none;-webkit-user-select:none;border-radius:4px}
+.ws .cell.sel{background:var(--accent);color:#fff}
+.ws .cell.found{background:var(--wash);color:var(--ok)}
+.words{display:flex;flex-wrap:wrap;gap:6px 14px;margin-top:14px}
+.words span{font-size:14.5px}
+.words span.found{color:var(--muted);text-decoration:line-through}
+.foot{margin-top:26px;border-top:1px solid var(--rule);padding-top:10px;
+font-size:13px;color:var(--muted)}
+.foot a{color:var(--accent)}
+/* memory pairs */
+.modes{display:inline-flex;border:1px solid var(--accent);border-radius:99px;overflow:hidden}
+.modes button{border:0;border-radius:0;padding:7px 15px}
+.modes button+button{border-left:1px solid var(--accent)}
+.modes button.on{background:var(--accent);color:#fff}
+.stat{font-size:14px;color:var(--muted);margin:12px 0 0}
+.stat b{color:var(--ink)}
+.mem{display:grid;grid-template-columns:repeat(4,1fr);gap:7px;margin-top:14px}
+@media(min-width:560px){.mem{grid-template-columns:repeat(5,1fr);gap:10px}}
+.card{position:relative;aspect-ratio:1;border:0;padding:0;background:none;cursor:pointer;
+min-height:0;perspective:700px}
+.card .in{position:absolute;inset:0;transition:transform .32s;transform-style:preserve-3d}
+.card.up .in{transform:rotateY(180deg)}
+.card .face{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;
+flex-direction:column;gap:3px;text-align:center;padding:5px;border:1px solid var(--rule);
+border-radius:9px;overflow:hidden;backface-visibility:hidden;-webkit-backface-visibility:hidden}
+.card .back{background:var(--wash);color:var(--accent);font:700 19px/1 inherit}
+.card .front{background:var(--bg);color:var(--ink);transform:rotateY(180deg);
+font-size:clamp(9.5px,2.5vw,12.5px);line-height:1.25;overflow-wrap:anywhere}
+.card .front .w{font-weight:700;font-size:clamp(12px,3.2vw,16px);color:var(--accent)}
+.card.done .face{border-color:var(--ok)}
+.card.done .front{color:var(--ok)}
+.card.done .front .w{color:var(--ok)}
+.card.done .ic{color:var(--ok)}
+.card.done{cursor:default}
+.ic{width:48%;height:auto;max-height:54%;color:var(--accent)}
+/* criss-cross */
+.arclue{direction:rtl;unicode-bidi:isolate;font-size:15.5px}
+.bank{display:flex;flex-wrap:wrap;gap:6px 9px;margin-top:10px}
+.bank span{border:1px solid var(--rule);border-radius:99px;padding:3px 11px;font-size:14px}
+.bank span.found{color:var(--muted);text-decoration:line-through;border-style:dashed}
+/* cryptogram */
+.cg{display:flex;flex-wrap:wrap;gap:15px 22px;margin-top:4px}
+.cw{display:flex;flex-direction:column;gap:5px}
+.cw .cl{font-size:13px;color:var(--muted);max-width:22rem}
+.cw.done .cl{color:var(--ok)}
+.cw .row{display:flex;gap:3px}
+.bx{width:var(--sq);display:flex;flex-direction:column;align-items:center;gap:2px}
+.bx input{width:100%;height:var(--sq);border:1px solid var(--rule);
+border-bottom:2px solid var(--accent);border-radius:4px 4px 0 0;background:var(--wash);
+text-align:center;color:var(--ink);font:600 calc(var(--sq)*0.5)/1 inherit;
+text-transform:uppercase;padding:0}
+.bx input:focus{outline:2px solid var(--accent);outline-offset:-2px}
+.bx.given input{background:transparent;border-bottom-color:var(--rule);color:var(--muted)}
+.bx.right input{color:var(--ok)}
+.bx.wrong input{color:var(--bad)}
+.bx .cph{font-size:calc(var(--sq)*0.36);color:var(--muted)}
+.keytab{display:flex;flex-wrap:wrap;gap:4px;margin-top:6px}
+.keytab span{border:1px solid var(--rule);border-radius:5px;padding:2px 7px;
+font-size:12.5px;color:var(--muted)}
+.keytab span b{color:var(--accent)}
+
+:root{--sq:min(7.5vw, 30px)}</style>
+</head>
+<body><div class="wrap">
+<h1>Cryptogram</h1>
+<p class="sub">Lesson 8 — The Line We Share &middot; 14 key words in one code. Every letter stands for the same letter in every word.</p>
+<div class="msg" id="msg"></div>
+<div class="cg">
+<div class="cw" data-word="UPLINK"><div class="cl">the one connection that joins a local network to the internet</div><div class="row"><span class="bx" data-c="N"><input maxlength="1" inputmode="latin" autocomplete="off" aria-label="letter N"><span class="cph">N</span></span><span class="bx" data-c="C"><input maxlength="1" inputmode="latin" autocomplete="off" aria-label="letter C"><span class="cph">C</span></span><span class="bx" data-c="D"><input maxlength="1" inputmode="latin" autocomplete="off" aria-label="letter D"><span class="cph">D</span></span><span class="bx" data-c="L"><input maxlength="1" inputmode="latin" autocomplete="off" aria-label="letter L"><span class="cph">L</span></span><span class="bx" data-c="X"><input maxlength="1" inputmode="latin" autocomplete="off" aria-label="letter X"><span class="cph">X</span></span><span class="bx" data-c="Y"><input maxlength="1" inputmode="latin" autocomplete="off" aria-label="letter Y"><span class="cph">Y</span></span></div></div>
+<div class="cw" data-word="MESH"><div class="cl">a network in which every point passes the signal on to the next</div><div class="row"><span class="bx" data-c="O"><input maxlength="1" inputmode="latin" autocomplete="off" aria-label="letter O"><span class="cph">O</span></span><span class="bx" data-c="T"><input maxlength="1" inputmode="latin" autocomplete="off" aria-label="letter T"><span class="cph">T</span></span><span class="bx" data-c="W"><input maxlength="1" inputmode="latin" autocomplete="off" aria-label="letter W"><span class="cph">W</span></span><span class="bx" data-c="V"><input maxlength="1" inputmode="latin" autocomplete="off" aria-label="letter V"><span class="cph">V</span></span></div></div>
+<div class="cw" data-word="RELAY"><div class="cl">to pass a signal on to the next point</div><div class="row"><span class="bx" data-c="S"><input maxlength="1" inputmode="latin" autocomplete="off" aria-label="letter S"><span class="cph">S</span></span><span class="bx" data-c="T"><input maxlength="1" inputmode="latin" autocomplete="off" aria-label="letter T"><span class="cph">T</span></span><span class="bx" data-c="D"><input maxlength="1" inputmode="latin" autocomplete="off" aria-label="letter D"><span class="cph">D</span></span><span class="bx" data-c="I"><input maxlength="1" inputmode="latin" autocomplete="off" aria-label="letter I"><span class="cph">I</span></span><span class="bx" data-c="K"><input maxlength="1" inputmode="latin" autocomplete="off" aria-label="letter K"><span class="cph">K</span></span></div></div>
+<div class="cw" data-word="ANTENNA"><div class="cl">the part that sends and receives a radio signal</div><div class="row"><span class="bx" data-c="I"><input maxlength="1" inputmode="latin" autocomplete="off" aria-label="letter I"><span class="cph">I</span></span><span class="bx" data-c="X"><input maxlength="1" inputmode="latin" autocomplete="off" aria-label="letter X"><span class="cph">X</span></span><span class="bx" data-c="Z"><input maxlength="1" inputmode="latin" autocomplete="off" aria-label="letter Z"><span class="cph">Z</span></span><span class="bx" data-c="T"><input maxlength="1" inputmode="latin" autocomplete="off" aria-label="letter T"><span class="cph">T</span></span><span class="bx" data-c="X"><input maxlength="1" inputmode="latin" autocomplete="off" aria-label="letter X"><span class="cph">X</span></span><span class="bx" data-c="X"><input maxlength="1" inputmode="latin" autocomplete="off" aria-label="letter X"><span class="cph">X</span></span><span class="bx" data-c="I"><input maxlength="1" inputmode="latin" autocomplete="off" aria-label="letter I"><span class="cph">I</span></span></div></div>
+<div class="cw" data-word="SIGNAL"><div class="cl">the radio waves that carry data through the air</div><div class="row"><span class="bx" data-c="W"><input maxlength="1" inputmode="latin" autocomplete="off" aria-label="letter W"><span class="cph">W</span></span><span class="bx" data-c="L"><input maxlength="1" inputmode="latin" autocomplete="off" aria-label="letter L"><span class="cph">L</span></span><span class="bx" data-c="J"><input maxlength="1" inputmode="latin" autocomplete="off" aria-label="letter J"><span class="cph">J</span></span><span class="bx" data-c="X"><input maxlength="1" inputmode="latin" autocomplete="off" aria-label="letter X"><span class="cph">X</span></span><span class="bx" data-c="I"><input maxlength="1" inputmode="latin" autocomplete="off" aria-label="letter I"><span class="cph">I</span></span><span class="bx" data-c="D"><input maxlength="1" inputmode="latin" autocomplete="off" aria-label="letter D"><span class="cph">D</span></span></div></div>
+<div class="cw" data-word="LATENCY"><div class="cl">the delay between sending something and it arriving</div><div class="row"><span class="bx" data-c="D"><input maxlength="1" inputmode="latin" autocomplete="off" aria-label="letter D"><span class="cph">D</span></span><span class="bx" data-c="I"><input maxlength="1" inputmode="latin" autocomplete="off" aria-label="letter I"><span class="cph">I</span></span><span class="bx" data-c="Z"><input maxlength="1" inputmode="latin" autocomplete="off" aria-label="letter Z"><span class="cph">Z</span></span><span class="bx" data-c="T"><input maxlength="1" inputmode="latin" autocomplete="off" aria-label="letter T"><span class="cph">T</span></span><span class="bx" data-c="X"><input maxlength="1" inputmode="latin" autocomplete="off" aria-label="letter X"><span class="cph">X</span></span><span class="bx" data-c="U"><input maxlength="1" inputmode="latin" autocomplete="off" aria-label="letter U"><span class="cph">U</span></span><span class="bx" data-c="K"><input maxlength="1" inputmode="latin" autocomplete="off" aria-label="letter K"><span class="cph">K</span></span></div></div>
+<div class="cw" data-word="RELIABLE"><div class="cl">something you can depend on, because it works every time</div><div class="row"><span class="bx" data-c="S"><input maxlength="1" inputmode="latin" autocomplete="off" aria-label="letter S"><span class="cph">S</span></span><span class="bx" data-c="T"><input maxlength="1" inputmode="latin" autocomplete="off" aria-label="letter T"><span class="cph">T</span></span><span class="bx" data-c="D"><input maxlength="1" inputmode="latin" autocomplete="off" aria-label="letter D"><span class="cph">D</span></span><span class="bx" data-c="L"><input maxlength="1" inputmode="latin" autocomplete="off" aria-label="letter L"><span class="cph">L</span></span><span class="bx" data-c="I"><input maxlength="1" inputmode="latin" autocomplete="off" aria-label="letter I"><span class="cph">I</span></span><span class="bx" data-c="G"><input maxlength="1" inputmode="latin" autocomplete="off" aria-label="letter G"><span class="cph">G</span></span><span class="bx" data-c="D"><input maxlength="1" inputmode="latin" autocomplete="off" aria-label="letter D"><span class="cph">D</span></span><span class="bx" data-c="T"><input maxlength="1" inputmode="latin" autocomplete="off" aria-label="letter T"><span class="cph">T</span></span></div></div>
+<div class="cw" data-word="TOWER"><div class="cl">a tall structure that holds an antenna up high</div><div class="row"><span class="bx" data-c="Z"><input maxlength="1" inputmode="latin" autocomplete="off" aria-label="letter Z"><span class="cph">Z</span></span><span class="bx" data-c="E"><input maxlength="1" inputmode="latin" autocomplete="off" aria-label="letter E"><span class="cph">E</span></span><span class="bx" data-c="M"><input maxlength="1" inputmode="latin" autocomplete="off" aria-label="letter M"><span class="cph">M</span></span><span class="bx" data-c="T"><input maxlength="1" inputmode="latin" autocomplete="off" aria-label="letter T"><span class="cph">T</span></span><span class="bx" data-c="S"><input maxlength="1" inputmode="latin" autocomplete="off" aria-label="letter S"><span class="cph">S</span></span></div></div>
+<div class="cw" data-word="NEIGHBOUR"><div class="cl">a person who lives in the next house or flat</div><div class="row"><span class="bx" data-c="X"><input maxlength="1" inputmode="latin" autocomplete="off" aria-label="letter X"><span class="cph">X</span></span><span class="bx" data-c="T"><input maxlength="1" inputmode="latin" autocomplete="off" aria-label="letter T"><span class="cph">T</span></span><span class="bx" data-c="L"><input maxlength="1" inputmode="latin" autocomplete="off" aria-label="letter L"><span class="cph">L</span></span><span class="bx" data-c="J"><input maxlength="1" inputmode="latin" autocomplete="off" aria-label="letter J"><span class="cph">J</span></span><span class="bx" data-c="V"><input maxlength="1" inputmode="latin" autocomplete="off" aria-label="letter V"><span class="cph">V</span></span><span class="bx" data-c="G"><input maxlength="1" inputmode="latin" autocomplete="off" aria-label="letter G"><span class="cph">G</span></span><span class="bx" data-c="E"><input maxlength="1" inputmode="latin" autocomplete="off" aria-label="letter E"><span class="cph">E</span></span><span class="bx" data-c="N"><input maxlength="1" inputmode="latin" autocomplete="off" aria-label="letter N"><span class="cph">N</span></span><span class="bx" data-c="S"><input maxlength="1" inputmode="latin" autocomplete="off" aria-label="letter S"><span class="cph">S</span></span></div></div>
+<div class="cw" data-word="ROOF"><div class="cl">the top of a building, above the highest floor</div><div class="row"><span class="bx" data-c="S"><input maxlength="1" inputmode="latin" autocomplete="off" aria-label="letter S"><span class="cph">S</span></span><span class="bx" data-c="E"><input maxlength="1" inputmode="latin" autocomplete="off" aria-label="letter E"><span class="cph">E</span></span><span class="bx" data-c="E"><input maxlength="1" inputmode="latin" autocomplete="off" aria-label="letter E"><span class="cph">E</span></span><span class="bx" data-c="H"><input maxlength="1" inputmode="latin" autocomplete="off" aria-label="letter H"><span class="cph">H</span></span></div></div>
+<div class="cw" data-word="AFFORD"><div class="cl">to have enough money to pay for something</div><div class="row"><span class="bx" data-c="I"><input maxlength="1" inputmode="latin" autocomplete="off" aria-label="letter I"><span class="cph">I</span></span><span class="bx" data-c="H"><input maxlength="1" inputmode="latin" autocomplete="off" aria-label="letter H"><span class="cph">H</span></span><span class="bx" data-c="H"><input maxlength="1" inputmode="latin" autocomplete="off" aria-label="letter H"><span class="cph">H</span></span><span class="bx" data-c="E"><input maxlength="1" inputmode="latin" autocomplete="off" aria-label="letter E"><span class="cph">E</span></span><span class="bx" data-c="S"><input maxlength="1" inputmode="latin" autocomplete="off" aria-label="letter S"><span class="cph">S</span></span><span class="bx" data-c="A"><input maxlength="1" inputmode="latin" autocomplete="off" aria-label="letter A"><span class="cph">A</span></span></div></div>
+<div class="cw" data-word="APPLY"><div class="cl">to ask officially for a place, a job or money</div><div class="row"><span class="bx" data-c="I"><input maxlength="1" inputmode="latin" autocomplete="off" aria-label="letter I"><span class="cph">I</span></span><span class="bx" data-c="C"><input maxlength="1" inputmode="latin" autocomplete="off" aria-label="letter C"><span class="cph">C</span></span><span class="bx" data-c="C"><input maxlength="1" inputmode="latin" autocomplete="off" aria-label="letter C"><span class="cph">C</span></span><span class="bx" data-c="D"><input maxlength="1" inputmode="latin" autocomplete="off" aria-label="letter D"><span class="cph">D</span></span><span class="bx" data-c="K"><input maxlength="1" inputmode="latin" autocomplete="off" aria-label="letter K"><span class="cph">K</span></span></div></div>
+<div class="cw" data-word="SCHOLARSHIP"><div class="cl">money given to a student so that she can study</div><div class="row"><span class="bx" data-c="W"><input maxlength="1" inputmode="latin" autocomplete="off" aria-label="letter W"><span class="cph">W</span></span><span class="bx" data-c="U"><input maxlength="1" inputmode="latin" autocomplete="off" aria-label="letter U"><span class="cph">U</span></span><span class="bx" data-c="V"><input maxlength="1" inputmode="latin" autocomplete="off" aria-label="letter V"><span class="cph">V</span></span><span class="bx" data-c="E"><input maxlength="1" inputmode="latin" autocomplete="off" aria-label="letter E"><span class="cph">E</span></span><span class="bx" data-c="D"><input maxlength="1" inputmode="latin" autocomplete="off" aria-label="letter D"><span class="cph">D</span></span><span class="bx" data-c="I"><input maxlength="1" inputmode="latin" autocomplete="off" aria-label="letter I"><span class="cph">I</span></span><span class="bx" data-c="S"><input maxlength="1" inputmode="latin" autocomplete="off" aria-label="letter S"><span class="cph">S</span></span><span class="bx" data-c="W"><input maxlength="1" inputmode="latin" autocomplete="off" aria-label="letter W"><span class="cph">W</span></span><span class="bx" data-c="V"><input maxlength="1" inputmode="latin" autocomplete="off" aria-label="letter V"><span class="cph">V</span></span><span class="bx" data-c="L"><input maxlength="1" inputmode="latin" autocomplete="off" aria-label="letter L"><span class="cph">L</span></span><span class="bx" data-c="C"><input maxlength="1" inputmode="latin" autocomplete="off" aria-label="letter C"><span class="cph">C</span></span></div></div>
+<div class="cw" data-word="REQUIREMENT"><div class="cl">something you must have or reach before you are allowed in</div><div class="row"><span class="bx" data-c="S"><input maxlength="1" inputmode="latin" autocomplete="off" aria-label="letter S"><span class="cph">S</span></span><span class="bx" data-c="T"><input maxlength="1" inputmode="latin" autocomplete="off" aria-label="letter T"><span class="cph">T</span></span><span class="bx" data-c="R"><input maxlength="1" inputmode="latin" autocomplete="off" aria-label="letter R"><span class="cph">R</span></span><span class="bx" data-c="N"><input maxlength="1" inputmode="latin" autocomplete="off" aria-label="letter N"><span class="cph">N</span></span><span class="bx" data-c="L"><input maxlength="1" inputmode="latin" autocomplete="off" aria-label="letter L"><span class="cph">L</span></span><span class="bx" data-c="S"><input maxlength="1" inputmode="latin" autocomplete="off" aria-label="letter S"><span class="cph">S</span></span><span class="bx" data-c="T"><input maxlength="1" inputmode="latin" autocomplete="off" aria-label="letter T"><span class="cph">T</span></span><span class="bx" data-c="O"><input maxlength="1" inputmode="latin" autocomplete="off" aria-label="letter O"><span class="cph">O</span></span><span class="bx" data-c="T"><input maxlength="1" inputmode="latin" autocomplete="off" aria-label="letter T"><span class="cph">T</span></span><span class="bx" data-c="X"><input maxlength="1" inputmode="latin" autocomplete="off" aria-label="letter X"><span class="cph">X</span></span><span class="bx" data-c="Z"><input maxlength="1" inputmode="latin" autocomplete="off" aria-label="letter Z"><span class="cph">Z</span></span></div></div>
+</div>
+<div class="bar">
+  <button class="primary" id="check" type="button">Check</button>
+  <button id="reveal" type="button">Show a letter</button>
+  <button id="clear" type="button">Clear</button>
+</div>
+<p class="sub" style="margin-top:4px">Your letters so far. 3 are
+given to start you off.</p>
+<div class="keytab" id="keytab"><span data-c="A">A &rarr; <b>?</b></span><span data-c="C">C &rarr; <b>?</b></span><span data-c="D">D &rarr; <b>?</b></span><span data-c="E">E &rarr; <b>?</b></span><span data-c="G">G &rarr; <b>?</b></span><span data-c="H">H &rarr; <b>?</b></span><span data-c="I">I &rarr; <b>?</b></span><span data-c="J">J &rarr; <b>?</b></span><span data-c="K">K &rarr; <b>?</b></span><span data-c="L">L &rarr; <b>?</b></span><span data-c="M">M &rarr; <b>?</b></span><span data-c="N">N &rarr; <b>?</b></span><span data-c="O">O &rarr; <b>?</b></span><span data-c="R">R &rarr; <b>?</b></span><span data-c="S">S &rarr; <b>?</b></span><span data-c="T">T &rarr; <b>?</b></span><span data-c="U">U &rarr; <b>?</b></span><span data-c="V">V &rarr; <b>?</b></span><span data-c="W">W &rarr; <b>?</b></span><span data-c="X">X &rarr; <b>?</b></span><span data-c="Y">Y &rarr; <b>?</b></span><span data-c="Z">Z &rarr; <b>?</b></span></div>
+<p class="foot">Every word here is from this lesson. &nbsp;
+<a href="README.md">Back to the lesson</a></p>
+</div>
+<script>
+const MAP = {"I": "A", "G": "B", "U": "C", "A": "D", "T": "E", "H": "F", "J": "G", "V": "H", "L": "I", "Y": "K", "D": "L", "O": "M", "X": "N", "E": "O", "C": "P", "R": "Q", "S": "R", "W": "S", "Z": "T", "N": "U", "M": "W", "K": "Y"}, GIVEN = ["I", "S", "T"];
+const KEY = 'cryptogram:' + location.pathname;
+const msg = document.getElementById('msg');
+const boxes = Array.prototype.slice.call(document.querySelectorAll('.bx'));
+let guess = {};
+
+function load() {
+  guess = {};
+  try { guess = JSON.parse(localStorage.getItem(KEY) || '{}'); } catch (e) {}
+  GIVEN.forEach(function (c) { guess[c] = MAP[c]; });
+}
+function save() {
+  try { localStorage.setItem(KEY, JSON.stringify(guess)); } catch (e) {}
+}
+function paint() {
+  boxes.forEach(function (b) {
+    const c = b.dataset.c;
+    b.querySelector('input').value = guess[c] || '';
+    b.classList.toggle('given', GIVEN.indexOf(c) >= 0);
+  });
+  document.querySelectorAll('#keytab span').forEach(function (s) {
+    s.querySelector('b').textContent = guess[s.dataset.c] || '?';
+  });
+  document.querySelectorAll('.cw').forEach(function (w) {
+    let got = '';
+    w.querySelectorAll('.bx').forEach(function (b) { got += guess[b.dataset.c] || ' '; });
+    w.classList.toggle('done', got === w.dataset.word);
+  });
+}
+boxes.forEach(function (b, n) {
+  const input = b.querySelector('input');
+  input.addEventListener('input', function () {
+    const v = input.value.toUpperCase().replace(/[^A-Z]/g, '');
+    const c = b.dataset.c;
+    if (GIVEN.indexOf(c) >= 0) { paint(); return; }
+    if (v) { guess[c] = v; } else { delete guess[c]; }
+    boxes.forEach(function (o) { o.classList.remove('right', 'wrong'); });
+    save(); paint();
+    if (v) {
+      for (let i = n + 1; i < boxes.length; i++) {
+        if (GIVEN.indexOf(boxes[i].dataset.c) < 0) {
+          boxes[i].querySelector('input').focus();
+          break;
+        }
+      }
+    }
+  });
+  input.addEventListener('keydown', function (e) {
+    if (e.key === 'Backspace' && !input.value) {
+      for (let i = n - 1; i >= 0; i--) {
+        if (GIVEN.indexOf(boxes[i].dataset.c) < 0) {
+          boxes[i].querySelector('input').focus();
+          break;
+        }
+      }
+    }
+  });
+});
+document.getElementById('check').onclick = function () {
+  let right = 0, wrong = 0, empty = 0;
+  boxes.forEach(function (b) {
+    const c = b.dataset.c;
+    b.classList.remove('right', 'wrong');
+    if (!guess[c]) { empty++; return; }
+    if (guess[c] === MAP[c]) { b.classList.add('right'); right++; }
+    else { b.classList.add('wrong'); wrong++; }
+  });
+  msg.className = 'msg ' + (wrong ? 'bad' : (empty ? '' : 'good'));
+  msg.textContent = wrong
+    ? wrong + ' letter' + (wrong > 1 ? 's are' : ' is') + ' wrong. The same letter is ' +
+      'wrong everywhere it appears, so one correction fixes several.'
+    : (empty ? right + ' right, ' + empty + ' still empty.' : 'All correct. Well done.');
+};
+document.getElementById('reveal').onclick = function () {
+  const left = Object.keys(MAP).filter(function (c) {
+    return boxes.some(function (b) { return b.dataset.c === c; }) && guess[c] !== MAP[c];
+  });
+  if (!left.length) { msg.className = 'msg'; msg.textContent = 'Nothing left to show.'; return; }
+  const c = left[Math.floor(Math.random() * left.length)];
+  guess[c] = MAP[c];
+  save(); paint();
+  boxes.forEach(function (b) { b.classList.remove('right', 'wrong'); });
+  msg.className = 'msg';
+  msg.textContent = c + ' is ' + MAP[c] + ', everywhere it appears.';
+};
+document.getElementById('clear').onclick = function () {
+  guess = {};
+  GIVEN.forEach(function (c) { guess[c] = MAP[c]; });
+  save(); paint();
+  boxes.forEach(function (b) { b.classList.remove('right', 'wrong'); });
+  msg.textContent = ''; msg.className = 'msg';
+};
+load(); paint();
+</script>
+</body>
+</html>
