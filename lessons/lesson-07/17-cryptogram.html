@@ -235,5 +235,21 @@ document.getElementById('clear').onclick = function () {
 };
 load(); paint();
 </script>
+<!-- Cloudflare Web Analytics (shams) -->
+<script>
+(function () {
+  /* The hub's "Save offline" button loads a course in a hidden iframe so its
+     service worker can install. That must not count as a visit. */
+  if (window.self !== window.top) return;
+  /* Only the live site reports: no dev-server or test traffic. */
+  if (location.hostname !== "shamsfelfel.github.io") return;
+  var s = document.createElement("script");
+  s.type = "module";
+  s.src = "https://static.cloudflareinsights.com/beacon.min.js";
+  s.setAttribute("data-cf-beacon", '{"token": "39bba56973ae4c8d9e826a2b30c1e274", "spa": false}');
+  document.body.appendChild(s);
+})();
+</script>
+<!-- End Cloudflare Web Analytics -->
 </body>
 </html>
