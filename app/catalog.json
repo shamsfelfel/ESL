@@ -1,7 +1,7 @@
 {
   "title": "English, A1+ to B2",
   "subtitle": "A guided course for one student, built to work offline.",
-  "generated": "2026-11-05",
+  "generated": "2026-11-08",
   "courses": [
     {
       "kind": "lesson",
@@ -1752,6 +1752,252 @@
             "file": "12-passage-slow.mp3",
             "bytes": 1370448,
             "seconds": 228.4
+          }
+        }
+      ]
+    },
+    {
+      "kind": "lesson",
+      "slug": "lesson-09",
+      "path": "lessons/lesson-09",
+      "number": 9,
+      "title": "Lesson 9 — Seventy Thousand Tents",
+      "level": "B1+ (ninth step)",
+      "topic": "One flooded night, and how the numbers written about it should be read",
+      "time": "7 sessions, 50–60 minutes each",
+      "skills": "Listening → Reading → Vocabulary → Grammar → The news → Comprehension → Speaking → Writing",
+      "new": "the passive voice in every tense she already knows, the agent with by and the four reasons for leaving it out, the weak was, were and been with the three sounds of -ed, and mustn't against don't have to. One new session, part 06, where the figures in the passage are traced back to the sources that gave them. The passage holds at about 500 words for the fourth lesson running (532), and the question set is unchanged.",
+      "minutes": 340,
+      "bytes": 18817446,
+      "howToWork": [
+        "Play **01-passage.mp3** and listen twice with no text in front of you. Do not open the PDF yet.",
+        "Then work through the parts in number order. Part 04 is grammar and has no audio; part 05 needs its audio more than any part in the course so far, because the passive is carried by *was*, *were*, *been* and an *-ed* you can hardly hear.",
+        "**Part 06 is new.** It is where the real figures in the passage are traced back to the offices and agencies that gave them. Do it before the comprehension questions, not after: the passive hunt in 4.4 is part 04's grammar doing a real job. If the subject of the passage is too close this week, part 06 works on its own.",
+        "Open part 12, the answer key, only when parts 01 to 11 are finished. The five games come days later, not the same evening."
+      ],
+      "games": [
+        {
+          "number": "14",
+          "slug": "crossword",
+          "title": "Crossword",
+          "minutes": 15,
+          "file": "14-crossword.html",
+          "bytes": 39017
+        },
+        {
+          "number": "15",
+          "slug": "word-search",
+          "title": "Word search",
+          "minutes": 10,
+          "file": "15-word-search.html",
+          "bytes": 24438
+        },
+        {
+          "number": "16",
+          "slug": "memory",
+          "title": "Memory pairs",
+          "minutes": 10,
+          "file": "16-memory.html",
+          "bytes": 15852
+        },
+        {
+          "number": "17",
+          "slug": "criss-cross",
+          "title": "Criss-cross, Arabic clues",
+          "minutes": 15,
+          "file": "17-criss-cross.html",
+          "bytes": 33292
+        },
+        {
+          "number": "18",
+          "slug": "cryptogram",
+          "title": "Cryptogram",
+          "minutes": 15,
+          "file": "18-cryptogram.html",
+          "bytes": 26282
+        }
+      ],
+      "whole": {
+        "pdf": {
+          "file": "00-lesson.pdf",
+          "bytes": 124447
+        },
+        "mp3": {
+          "file": "00-full-section.mp3",
+          "bytes": 5722992,
+          "seconds": 953.8
+        }
+      },
+      "parts": [
+        {
+          "number": "01",
+          "slug": "passage",
+          "title": "Listening and reading: the passage",
+          "minutes": 20,
+          "pdf": {
+            "file": "01-passage.pdf",
+            "bytes": 26269
+          },
+          "mp3": {
+            "file": "01-passage.mp3",
+            "bytes": 2631744,
+            "seconds": 438.6
+          }
+        },
+        {
+          "number": "02",
+          "slug": "listening-questions",
+          "title": "Listening questions",
+          "minutes": 10,
+          "pdf": {
+            "file": "02-listening-questions.pdf",
+            "bytes": 15693
+          },
+          "mp3": {
+            "file": "02-listening-questions.mp3",
+            "bytes": 482400,
+            "seconds": 80.4
+          }
+        },
+        {
+          "number": "03",
+          "slug": "vocabulary",
+          "title": "Vocabulary",
+          "minutes": 35,
+          "pdf": {
+            "file": "03-vocabulary.pdf",
+            "bytes": 30803
+          },
+          "mp3": {
+            "file": "03-vocabulary.mp3",
+            "bytes": 2324304,
+            "seconds": 387.4
+          }
+        },
+        {
+          "number": "04",
+          "slug": "grammar-passive",
+          "title": "Grammar: the passive voice, and the modals again",
+          "minutes": 50,
+          "pdf": {
+            "file": "04-grammar-passive.pdf",
+            "bytes": 34328
+          }
+        },
+        {
+          "number": "05",
+          "slug": "was-were-been",
+          "title": "Pronunciation: was, were, been and -ed",
+          "minutes": 20,
+          "pdf": {
+            "file": "05-was-were-been.pdf",
+            "bytes": 26109
+          },
+          "mp3": {
+            "file": "05-was-were-been.mp3",
+            "bytes": 1601424,
+            "seconds": 266.9
+          }
+        },
+        {
+          "number": "06",
+          "slug": "reading-the-news",
+          "title": "The news behind this passage",
+          "minutes": 30,
+          "pdf": {
+            "file": "06-reading-the-news.pdf",
+            "bytes": 30325
+          }
+        },
+        {
+          "number": "07",
+          "slug": "comprehension",
+          "title": "Comprehension",
+          "minutes": 45,
+          "pdf": {
+            "file": "07-comprehension.pdf",
+            "bytes": 24701
+          },
+          "mp3": {
+            "file": "07-comprehension.mp3",
+            "bytes": 1988064,
+            "seconds": 331.3
+          }
+        },
+        {
+          "number": "08",
+          "slug": "true-false",
+          "title": "True or false",
+          "minutes": 15,
+          "pdf": {
+            "file": "08-true-false.pdf",
+            "bytes": 13984
+          },
+          "mp3": {
+            "file": "08-true-false.mp3",
+            "bytes": 540000,
+            "seconds": 90.0
+          }
+        },
+        {
+          "number": "09",
+          "slug": "speaking",
+          "title": "Speaking",
+          "minutes": 25,
+          "pdf": {
+            "file": "09-speaking.pdf",
+            "bytes": 17230
+          },
+          "mp3": {
+            "file": "09-speaking.mp3",
+            "bytes": 1134288,
+            "seconds": 189.0
+          }
+        },
+        {
+          "number": "10",
+          "slug": "writing",
+          "title": "Writing",
+          "minutes": 35,
+          "pdf": {
+            "file": "10-writing.pdf",
+            "bytes": 21513
+          }
+        },
+        {
+          "number": "11",
+          "slug": "review",
+          "title": "Review and self-report",
+          "minutes": 30,
+          "pdf": {
+            "file": "11-review.pdf",
+            "bytes": 20718
+          },
+          "mp3": {
+            "file": "11-review.mp3",
+            "bytes": 332352,
+            "seconds": 55.4
+          }
+        },
+        {
+          "number": "12",
+          "slug": "answer-key",
+          "title": "Answer key and teacher notes",
+          "minutes": 10,
+          "pdf": {
+            "file": "12-answer-key.pdf",
+            "bytes": 37997
+          }
+        },
+        {
+          "number": "13",
+          "slug": "passage-slow",
+          "title": "The passage, read slowly",
+          "minutes": 15,
+          "mp3": {
+            "file": "13-passage-slow.mp3",
+            "bytes": 1496880,
+            "seconds": 249.5
           }
         }
       ]

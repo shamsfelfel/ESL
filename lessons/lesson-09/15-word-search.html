@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Word search - Lesson 9 — Seventy Thousand Tents</title>
+<meta name="theme-color" content="#15607a">
+<style>
+:root{--ink:#1a1d21;--muted:#5d646e;--rule:#dfe3e8;--accent:#15607a;
+--wash:#f1f6f8;--bg:#fff;--ok:#1d6b45;--bad:#a4302a}
+@media(prefers-color-scheme:dark){:root{--ink:#e9edf1;--muted:#9aa4b0;
+--rule:#2b3138;--accent:#6fc2de;--wash:#1a2026;--bg:#10151a;--ok:#6fd19d;--bad:#e8857f}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);padding:16px;
+font:16px/1.5 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+.wrap{max-width:46rem;margin:0 auto}
+h1{font-size:20px;margin:0 0 2px;color:var(--accent)}
+.sub{color:var(--muted);font-size:14px;margin:0 0 14px}
+.bar{display:flex;gap:8px;flex-wrap:wrap;margin:14px 0}
+button{font:inherit;font-size:14px;padding:7px 14px;border-radius:99px;
+border:1px solid var(--accent);background:transparent;color:var(--accent);cursor:pointer;min-height:38px}
+button.primary{background:var(--accent);color:#fff}
+.msg{min-height:22px;font-size:14px;font-weight:600;margin-bottom:6px}
+.msg.good{color:var(--ok)}.msg.bad{color:var(--bad)}
+table.grid{border-collapse:collapse;margin:0 auto 6px}
+table.grid td{padding:0;border:0}
+.cell{width:var(--sq);height:var(--sq);position:relative;border:1px solid var(--rule);
+background:var(--wash)}
+.cell.block{border:0;background:transparent}
+.cell input{width:100%;height:100%;border:0;background:transparent;text-align:center;
+font:600 calc(var(--sq)*0.52)/1 inherit;color:var(--ink);text-transform:uppercase;padding:0}
+.cell input:focus{outline:2px solid var(--accent);outline-offset:-2px}
+.cell.right input{color:var(--ok)}
+.cell.wrong input{color:var(--bad)}
+.num{position:absolute;top:1px;left:2px;font-size:calc(var(--sq)*0.28);color:var(--muted);
+pointer-events:none}
+.clues{display:grid;grid-template-columns:1fr;gap:18px;margin-top:18px}
+@media(min-width:620px){.clues{grid-template-columns:1fr 1fr}}
+.clues h2{font-size:14px;text-transform:uppercase;letter-spacing:.05em;color:var(--muted);
+margin:0 0 6px}
+ol.clue{margin:0;padding-left:0;list-style:none}
+ol.clue li{margin-bottom:6px;font-size:14.5px;display:flex;gap:7px}
+ol.clue b{color:var(--accent);min-width:1.6em;text-align:right}
+ol.clue li.done{color:var(--muted);text-decoration:line-through}
+.ar{font-size:13px;color:var(--muted)}
+.ws td{border:0}
+.ws .cell{background:transparent;border:0;display:flex;align-items:center;
+justify-content:center;font-weight:600;font-size:calc(var(--sq)*0.5);cursor:pointer;
+user-select:none;-webkit-user-select:none;border-radius:4px}
+.ws .cell.sel{background:var(--accent);color:#fff}
+.ws .cell.found{background:var(--wash);color:var(--ok)}
+.words{display:flex;flex-wrap:wrap;gap:6px 14px;margin-top:14px}
+.words span{font-size:14.5px}
+.words span.found{color:var(--muted);text-decoration:line-through}
+.foot{margin-top:26px;border-top:1px solid var(--rule);padding-top:10px;
+font-size:13px;color:var(--muted)}
+.foot a{color:var(--accent)}
+/* memory pairs */
+.modes{display:inline-flex;border:1px solid var(--accent);border-radius:99px;overflow:hidden}
+.modes button{border:0;border-radius:0;padding:7px 15px}
+.modes button+button{border-left:1px solid var(--accent)}
+.modes button.on{background:var(--accent);color:#fff}
+.stat{font-size:14px;color:var(--muted);margin:12px 0 0}
+.stat b{color:var(--ink)}
+.mem{display:grid;grid-template-columns:repeat(4,1fr);gap:7px;margin-top:14px}
+@media(min-width:560px){.mem{grid-template-columns:repeat(5,1fr);gap:10px}}
+.card{position:relative;aspect-ratio:1;border:0;padding:0;background:none;cursor:pointer;
+min-height:0;perspective:700px}
+.card .in{position:absolute;inset:0;transition:transform .32s;transform-style:preserve-3d}
+.card.up .in{transform:rotateY(180deg)}
+.card .face{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;
+flex-direction:column;gap:3px;text-align:center;padding:5px;border:1px solid var(--rule);
+border-radius:9px;overflow:hidden;backface-visibility:hidden;-webkit-backface-visibility:hidden}
+.card .back{background:var(--wash);color:var(--accent);font:700 19px/1 inherit}
+.card .front{background:var(--bg);color:var(--ink);transform:rotateY(180deg);
+font-size:clamp(9.5px,2.5vw,12.5px);line-height:1.25;overflow-wrap:anywhere}
+.card .front .w{font-weight:700;font-size:clamp(12px,3.2vw,16px);color:var(--accent)}
+.card.done .face{border-color:var(--ok)}
+.card.done .front{color:var(--ok)}
+.card.done .front .w{color:var(--ok)}
+.card.done .ic{color:var(--ok)}
+.card.done{cursor:default}
+.ic{width:48%;height:auto;max-height:54%;color:var(--accent)}
+/* criss-cross */
+.arclue{direction:rtl;unicode-bidi:isolate;font-size:15.5px}
+.bank{display:flex;flex-wrap:wrap;gap:6px 9px;margin-top:10px}
+.bank span{border:1px solid var(--rule);border-radius:99px;padding:3px 11px;font-size:14px}
+.bank span.found{color:var(--muted);text-decoration:line-through;border-style:dashed}
+/* cryptogram */
+.cg{display:flex;flex-wrap:wrap;gap:15px 22px;margin-top:4px}
+.cw{display:flex;flex-direction:column;gap:5px}
+.cw .cl{font-size:13px;color:var(--muted);max-width:22rem}
+.cw.done .cl{color:var(--ok)}
+.cw .row{display:flex;gap:3px}
+.bx{width:var(--sq);display:flex;flex-direction:column;align-items:center;gap:2px}
+.bx input{width:100%;height:var(--sq);border:1px solid var(--rule);
+border-bottom:2px solid var(--accent);border-radius:4px 4px 0 0;background:var(--wash);
+text-align:center;color:var(--ink);font:600 calc(var(--sq)*0.5)/1 inherit;
+text-transform:uppercase;padding:0}
+.bx input:focus{outline:2px solid var(--accent);outline-offset:-2px}
+.bx.given input{background:transparent;border-bottom-color:var(--rule);color:var(--muted)}
+.bx.right input{color:var(--ok)}
+.bx.wrong input{color:var(--bad)}
+.bx .cph{font-size:calc(var(--sq)*0.36);color:var(--muted)}
+.keytab{display:flex;flex-wrap:wrap;gap:4px;margin-top:6px}
+.keytab span{border:1px solid var(--rule);border-radius:5px;padding:2px 7px;
+font-size:12.5px;color:var(--muted)}
+.keytab span b{color:var(--accent)}
+
+:root{--sq:min(6.6vw, 30px)}</style>
+</head>
+<body><div class="wrap">
+<h1>Word search</h1>
+<p class="sub">Lesson 9 — Seventy Thousand Tents &middot; 19 words from this lesson. Find them all.</p>
+<div class="msg" id="msg"></div>
+<table class="grid ws"><tbody>
+<tr><td><div class="cell" data-r="0" data-c="0">A</div></td><td><div class="cell" data-r="0" data-c="1">N</div></td><td><div class="cell" data-r="0" data-c="2">V</div></td><td><div class="cell" data-r="0" data-c="3">H</div></td><td><div class="cell" data-r="0" data-c="4">E</div></td><td><div class="cell" data-r="0" data-c="5">G</div></td><td><div class="cell" data-r="0" data-c="6">A</div></td><td><div class="cell" data-r="0" data-c="7">B</div></td><td><div class="cell" data-r="0" data-c="8">D</div></td><td><div class="cell" data-r="0" data-c="9">N</div></td><td><div class="cell" data-r="0" data-c="10">A</div></td><td><div class="cell" data-r="0" data-c="11">S</div></td><td><div class="cell" data-r="0" data-c="12">E</div></td></tr>
+<tr><td><div class="cell" data-r="1" data-c="0">A</div></td><td><div class="cell" data-r="1" data-c="1">R</div></td><td><div class="cell" data-r="1" data-c="2">I</div></td><td><div class="cell" data-r="1" data-c="3">E</div></td><td><div class="cell" data-r="1" data-c="4">E</div></td><td><div class="cell" data-r="1" data-c="5">A</div></td><td><div class="cell" data-r="1" data-c="6">S</div></td><td><div class="cell" data-r="1" data-c="7">E</div></td><td><div class="cell" data-r="1" data-c="8">V</div></td><td><div class="cell" data-r="1" data-c="9">E</div></td><td><div class="cell" data-r="1" data-c="10">R</div></td><td><div class="cell" data-r="1" data-c="11">E</div></td><td><div class="cell" data-r="1" data-c="12">A</div></td></tr>
+<tr><td><div class="cell" data-r="2" data-c="0">A</div></td><td><div class="cell" data-r="2" data-c="1">F</div></td><td><div class="cell" data-r="2" data-c="2">E</div></td><td><div class="cell" data-r="2" data-c="3">L</div></td><td><div class="cell" data-r="2" data-c="4">R</div></td><td><div class="cell" data-r="2" data-c="5">A</div></td><td><div class="cell" data-r="2" data-c="6">B</div></td><td><div class="cell" data-r="2" data-c="7">L</div></td><td><div class="cell" data-r="2" data-c="8">L</div></td><td><div class="cell" data-r="2" data-c="9">E</div></td><td><div class="cell" data-r="2" data-c="10">B</div></td><td><div class="cell" data-r="2" data-c="11">A</div></td><td><div class="cell" data-r="2" data-c="12">L</div></td></tr>
+<tr><td><div class="cell" data-r="3" data-c="0">M</div></td><td><div class="cell" data-r="3" data-c="1">L</div></td><td><div class="cell" data-r="3" data-c="2">D</div></td><td><div class="cell" data-r="3" data-c="3">L</div></td><td><div class="cell" data-r="3" data-c="4">U</div></td><td><div class="cell" data-r="3" data-c="5">I</div></td><td><div class="cell" data-r="3" data-c="6">D</div></td><td><div class="cell" data-r="3" data-c="7">S</div></td><td><div class="cell" data-r="3" data-c="8">R</div></td><td><div class="cell" data-r="3" data-c="9">L</div></td><td><div class="cell" data-r="3" data-c="10">D</div></td><td><div class="cell" data-r="3" data-c="11">R</div></td><td><div class="cell" data-r="3" data-c="12">F</div></td></tr>
+<tr><td><div class="cell" data-r="4" data-c="0">N</div></td><td><div class="cell" data-r="4" data-c="1">O</div></td><td><div class="cell" data-r="4" data-c="2">P</div></td><td><div class="cell" data-r="4" data-c="3">E</div></td><td><div class="cell" data-r="4" data-c="4">I</div></td><td><div class="cell" data-r="4" data-c="5">A</div></td><td><div class="cell" data-r="4" data-c="6">F</div></td><td><div class="cell" data-r="4" data-c="7">L</div></td><td><div class="cell" data-r="4" data-c="8">E</div></td><td><div class="cell" data-r="4" data-c="9">R</div></td><td><div class="cell" data-r="4" data-c="10">E</div></td><td><div class="cell" data-r="4" data-c="11">A</div></td><td><div class="cell" data-r="4" data-c="12">S</div></td></tr>
+<tr><td><div class="cell" data-r="5" data-c="0">A</div></td><td><div class="cell" data-r="5" data-c="1">O</div></td><td><div class="cell" data-r="5" data-c="2">M</div></td><td><div class="cell" data-r="5" data-c="3">T</div></td><td><div class="cell" data-r="5" data-c="4">C</div></td><td><div class="cell" data-r="5" data-c="5">E</div></td><td><div class="cell" data-r="5" data-c="6">P</div></td><td><div class="cell" data-r="5" data-c="7">Y</div></td><td><div class="cell" data-r="5" data-c="8">I</div></td><td><div class="cell" data-r="5" data-c="9">T</div></td><td><div class="cell" data-r="5" data-c="10">A</div></td><td><div class="cell" data-r="5" data-c="11">O</div></td><td><div class="cell" data-r="5" data-c="12">A</div></td></tr>
+<tr><td><div class="cell" data-r="6" data-c="0">G</div></td><td><div class="cell" data-r="6" data-c="1">D</div></td><td><div class="cell" data-r="6" data-c="2">U</div></td><td><div class="cell" data-r="6" data-c="3">A</div></td><td><div class="cell" data-r="6" data-c="4">R</div></td><td><div class="cell" data-r="6" data-c="5">A</div></td><td><div class="cell" data-r="6" data-c="6">F</div></td><td><div class="cell" data-r="6" data-c="7">R</div></td><td><div class="cell" data-r="6" data-c="8">L</div></td><td><div class="cell" data-r="6" data-c="9">N</div></td><td><div class="cell" data-r="6" data-c="10">U</div></td><td><div class="cell" data-r="6" data-c="11">E</div></td><td><div class="cell" data-r="6" data-c="12">E</div></td></tr>
+<tr><td><div class="cell" data-r="7" data-c="0">R</div></td><td><div class="cell" data-r="7" data-c="1">T</div></td><td><div class="cell" data-r="7" data-c="2">P</div></td><td><div class="cell" data-r="7" data-c="3">M</div></td><td><div class="cell" data-r="7" data-c="4">L</div></td><td><div class="cell" data-r="7" data-c="5">D</div></td><td><div class="cell" data-r="7" data-c="6">L</div></td><td><div class="cell" data-r="7" data-c="7">E</div></td><td><div class="cell" data-r="7" data-c="8">A</div></td><td><div class="cell" data-r="7" data-c="9">R</div></td><td><div class="cell" data-r="7" data-c="10">E</div></td><td><div class="cell" data-r="7" data-c="11">C</div></td><td><div class="cell" data-r="7" data-c="12">E</div></td></tr>
+<tr><td><div class="cell" data-r="8" data-c="0">T</div></td><td><div class="cell" data-r="8" data-c="1">U</div></td><td><div class="cell" data-r="8" data-c="2">D</div></td><td><div class="cell" data-r="8" data-c="3">I</div></td><td><div class="cell" data-r="8" data-c="4">E</div></td><td><div class="cell" data-r="8" data-c="5">V</div></td><td><div class="cell" data-r="8" data-c="6">H</div></td><td><div class="cell" data-r="8" data-c="7">P</div></td><td><div class="cell" data-r="8" data-c="8">C</div></td><td><div class="cell" data-r="8" data-c="9">T</div></td><td><div class="cell" data-r="8" data-c="10">A</div></td><td><div class="cell" data-r="8" data-c="11">M</div></td><td><div class="cell" data-r="8" data-c="12">D</div></td></tr>
+<tr><td><div class="cell" data-r="9" data-c="0">L</div></td><td><div class="cell" data-r="9" data-c="1">P</div></td><td><div class="cell" data-r="9" data-c="2">U</div></td><td><div class="cell" data-r="9" data-c="3">T</div></td><td><div class="cell" data-r="9" data-c="4">K</div></td><td><div class="cell" data-r="9" data-c="5">S</div></td><td><div class="cell" data-r="9" data-c="6">S</div></td><td><div class="cell" data-r="9" data-c="7">E</div></td><td><div class="cell" data-r="9" data-c="8">S</div></td><td><div class="cell" data-r="9" data-c="9">L</div></td><td><div class="cell" data-r="9" data-c="10">E</div></td><td><div class="cell" data-r="9" data-c="11">R</div></td><td><div class="cell" data-r="9" data-c="12">G</div></td></tr>
+<tr><td><div class="cell" data-r="10" data-c="0">U</div></td><td><div class="cell" data-r="10" data-c="1">E</div></td><td><div class="cell" data-r="10" data-c="2">S</div></td><td><div class="cell" data-r="10" data-c="3">S</div></td><td><div class="cell" data-r="10" data-c="4">G</div></td><td><div class="cell" data-r="10" data-c="5">O</div></td><td><div class="cell" data-r="10" data-c="6">L</div></td><td><div class="cell" data-r="10" data-c="7">N</div></td><td><div class="cell" data-r="10" data-c="8">P</div></td><td><div class="cell" data-r="10" data-c="9">I</div></td><td><div class="cell" data-r="10" data-c="10">A</div></td><td><div class="cell" data-r="10" data-c="11">B</div></td><td><div class="cell" data-r="10" data-c="12">R</div></td></tr>
+<tr><td><div class="cell" data-r="11" data-c="0">A</div></td><td><div class="cell" data-r="11" data-c="1">I</div></td><td><div class="cell" data-r="11" data-c="2">T</div></td><td><div class="cell" data-r="11" data-c="3">E</div></td><td><div class="cell" data-r="11" data-c="4">A</div></td><td><div class="cell" data-r="11" data-c="5">N</div></td><td><div class="cell" data-r="11" data-c="6">T</div></td><td><div class="cell" data-r="11" data-c="7">E</div></td><td><div class="cell" data-r="11" data-c="8">R</div></td><td><div class="cell" data-r="11" data-c="9">I</div></td><td><div class="cell" data-r="11" data-c="10">D</div></td><td><div class="cell" data-r="11" data-c="11">K</div></td><td><div class="cell" data-r="11" data-c="12">E</div></td></tr>
+<tr><td><div class="cell" data-r="12" data-c="0">F</div></td><td><div class="cell" data-r="12" data-c="1">E</div></td><td><div class="cell" data-r="12" data-c="2">V</div></td><td><div class="cell" data-r="12" data-c="3">K</div></td><td><div class="cell" data-r="12" data-c="4">E</div></td><td><div class="cell" data-r="12" data-c="5">F</div></td><td><div class="cell" data-r="12" data-c="6">R</div></td><td><div class="cell" data-r="12" data-c="7">E</div></td><td><div class="cell" data-r="12" data-c="8">N</div></td><td><div class="cell" data-r="12" data-c="9">D</div></td><td><div class="cell" data-r="12" data-c="10">U</div></td><td><div class="cell" data-r="12" data-c="11">S</div></td><td><div class="cell" data-r="12" data-c="12">I</div></td></tr>
+</tbody></table>
+<div class="bar">
+  <button id="reveal">Show one word</button>
+  <button id="clear">Start again</button>
+</div>
+<div class="words" id="words"><span data-word="DISPLACED">displaced <span class="ar">مُهجَّر / نازح</span></span>
+<span data-word="DRAIN">drain <span class="ar">مصرف</span></span>
+<span data-word="DUST">dust</span>
+<span data-word="ESTIMATE">estimate <span class="ar">تقدير</span></span>
+<span data-word="FAULT">fault</span>
+<span data-word="FLOOD">flood <span class="ar">يغمر بالمياه</span></span>
+<span data-word="HEADLINE">headline <span class="ar">عنوان رئيسي</span></span>
+<span data-word="LABEL">label</span>
+<span data-word="LOG">log</span>
+<span data-word="PUMP">pump <span class="ar">يضخّ</span></span>
+<span data-word="RELIEF">relief <span class="ar">إغاثة</span></span>
+<span data-word="REPLACE">replace</span>
+<span data-word="SANDBAG">sandbag <span class="ar">كيس رمل</span></span>
+<span data-word="SEVERE">severe <span class="ar">قاسٍ / شديد</span></span>
+<span data-word="SHELTER">shelter <span class="ar">مأوى</span></span>
+<span data-word="SOAK">soak <span class="ar">يبلّل حتى الأعماق</span></span>
+<span data-word="SOURCE">source <span class="ar">مصدر</span></span>
+<span data-word="TARPAULIN">tarpaulin <span class="ar">مشمّع</span></span>
+<span data-word="VERIFY">verify <span class="ar">يتحقّق من صحته</span></span></div>
+<p class="sub" style="margin-top:14px">Tap the first letter, then the last letter.
+Words go in any direction, including backwards.</p>
+<p class="foot">Every word here is from this lesson. &nbsp;
+<a href="README.md">Back to the lesson</a></p>
+</div>
+<script>
+const WORDS = [{"word": "DISPLACED", "display": "displaced", "r": 11, "c": 10, "dr": -1, "dc": -1, "clue": "forced to leave home and live somewhere else", "arabic": "\u0645\u064f\u0647\u062c\u064e\u0651\u0631 / \u0646\u0627\u0632\u062d"}, {"word": "DRAIN", "display": "drain", "r": 8, "c": 12, "dr": 1, "dc": -1, "clue": "the pipe or the channel that carries water away", "arabic": "\u0645\u0635\u0631\u0641"}, {"word": "DUST", "display": "dust", "r": 8, "c": 2, "dr": 1, "dc": 0, "clue": "the fine dry dirt that settles on everything", "arabic": ""}, {"word": "ESTIMATE", "display": "estimate", "r": 11, "c": 3, "dr": -1, "dc": 0, "clue": "a figure given when nobody can count exactly", "arabic": "\u062a\u0642\u062f\u064a\u0631"}, {"word": "FAULT", "display": "fault", "r": 12, "c": 0, "dr": -1, "dc": 0, "clue": "the thing that is wrong with a machine", "arabic": ""}, {"word": "FLOOD", "display": "flood", "r": 2, "c": 1, "dr": 1, "dc": 0, "clue": "to cover with water that should not be there", "arabic": "\u064a\u063a\u0645\u0631 \u0628\u0627\u0644\u0645\u064a\u0627\u0647"}, {"word": "HEADLINE", "display": "headline", "r": 0, "c": 3, "dr": 1, "dc": 1, "clue": "the few words printed above a news story", "arabic": "\u0639\u0646\u0648\u0627\u0646 \u0631\u0626\u064a\u0633\u064a"}, {"word": "LABEL", "display": "label", "r": 2, "c": 12, "dr": 0, "dc": -1, "clue": "to write on something to say what it is", "arabic": ""}, {"word": "LOG", "display": "log", "r": 10, "c": 6, "dr": 0, "dc": -1, "clue": "a written record, kept in order, of what was done", "arabic": ""}, {"word": "PUMP", "display": "pump", "r": 7, "c": 2, "dr": -1, "dc": 0, "clue": "to move water, or air, with a machine", "arabic": "\u064a\u0636\u062e\u0651"}, {"word": "RELIEF", "display": "relief", "r": 1, "c": 1, "dr": 1, "dc": 1, "clue": "the help sent to people after a disaster: tents, food, blankets", "arabic": "\u0625\u063a\u0627\u062b\u0629"}, {"word": "REPLACE", "display": "replace", "r": 12, "c": 6, "dr": -1, "dc": 1, "clue": "to take an old thing out and put a new one in its place", "arabic": ""}, {"word": "SANDBAG", "display": "sandbag", "r": 0, "c": 11, "dr": 0, "dc": -1, "clue": "a bag filled with sand, laid down to hold water back", "arabic": "\u0643\u064a\u0633 \u0631\u0645\u0644"}, {"word": "SEVERE", "display": "severe", "r": 1, "c": 6, "dr": 0, "dc": 1, "clue": "very bad, and much worse than usual", "arabic": "\u0642\u0627\u0633\u064d / \u0634\u062f\u064a\u062f"}, {"word": "SHELTER", "display": "shelter", "r": 9, "c": 5, "dr": -1, "dc": 1, "clue": "any place that keeps the weather off you", "arabic": "\u0645\u0623\u0648\u0649"}, {"word": "SOAK", "display": "soak", "r": 9, "c": 6, "dr": 1, "dc": -1, "clue": "to make something completely wet, right through", "arabic": "\u064a\u0628\u0644\u0651\u0644 \u062d\u062a\u0649 \u0627\u0644\u0623\u0639\u0645\u0627\u0642"}, {"word": "SOURCE", "display": "source", "r": 4, "c": 12, "dr": 1, "dc": -1, "clue": "the person or the office a piece of news comes from", "arabic": "\u0645\u0635\u062f\u0631"}, {"word": "TARPAULIN", "display": "tarpaulin", "r": 8, "c": 9, "dr": -1, "dc": -1, "clue": "a large sheet of waterproof cloth", "arabic": "\u0645\u0634\u0645\u0651\u0639"}, {"word": "VERIFY", "display": "verify", "r": 0, "c": 2, "dr": 1, "dc": 1, "clue": "to check that something is true before you repeat it", "arabic": "\u064a\u062a\u062d\u0642\u0651\u0642 \u0645\u0646 \u0635\u062d\u062a\u0647"}];
+const size = 13;
+const cellOf = {};
+document.querySelectorAll('.ws .cell').forEach(d => cellOf[d.dataset.r + ',' + d.dataset.c] = d);
+const KEY = 'wordsearch:' + location.pathname;
+let found = [];
+try { found = JSON.parse(localStorage.getItem(KEY) || '[]'); } catch (e) {}
+let start = null;
+const msg = document.getElementById('msg');
+
+function paint() {
+  WORDS.forEach(w => {
+    if (!found.includes(w.word)) return;
+    for (let i = 0; i < w.word.length; i++) {
+      const d = cellOf[(w.r + w.dr * i) + ',' + (w.c + w.dc * i)];
+      if (d) d.classList.add('found');
+    }
+    const s = document.querySelector('[data-word="' + w.word + '"]');
+    if (s) s.classList.add('found');
+  });
+  const left = WORDS.length - found.length;
+  if (!left) { msg.className = 'msg good'; msg.textContent = 'All found. Well done.'; }
+}
+function clearSel() {
+  document.querySelectorAll('.ws .cell.sel').forEach(d => d.classList.remove('sel'));
+}
+document.querySelectorAll('.ws .cell').forEach(d => {
+  d.addEventListener('click', () => {
+    const r = +d.dataset.r, c = +d.dataset.c;
+    if (!start) { clearSel(); start = [r, c]; d.classList.add('sel'); return; }
+    const [sr, sc] = start;
+    const dr = Math.sign(r - sr), dc = Math.sign(c - sc);
+    const len = Math.max(Math.abs(r - sr), Math.abs(c - sc)) + 1;
+    const straight = (r === sr || c === sc || Math.abs(r - sr) === Math.abs(c - sc));
+    start = null; clearSel();
+    if (!straight) { msg.className = 'msg bad'; msg.textContent = 'Lines only: across, down or corner to corner.'; return; }
+    let got = '';
+    for (let i = 0; i < len; i++) {
+      const cell = cellOf[(sr + dr * i) + ',' + (sc + dc * i)];
+      got += cell ? cell.textContent.trim() : '';
+    }
+    const hit = WORDS.find(w => w.word === got || w.word === got.split('').reverse().join(''));
+    if (hit && !found.includes(hit.word)) {
+      found.push(hit.word);
+      try { localStorage.setItem(KEY, JSON.stringify(found)); } catch (e) {}
+      msg.className = 'msg good';
+      msg.textContent = hit.display + ' - ' + hit.clue;
+      paint();
+    } else if (hit) {
+      msg.className = 'msg'; msg.textContent = 'Already found.';
+    } else {
+      msg.className = 'msg bad'; msg.textContent = 'Not one of the words.';
+    }
+  });
+});
+document.getElementById('reveal').onclick = () => {
+  const left = WORDS.filter(w => !found.includes(w.word));
+  if (!left.length) { msg.textContent = 'Nothing left to find.'; return; }
+  const w = left[Math.floor(Math.random() * left.length)];
+  found.push(w.word);
+  try { localStorage.setItem(KEY, JSON.stringify(found)); } catch (e) {}
+  msg.className = 'msg'; msg.textContent = 'Shown: ' + w.display;
+  paint();
+};
+document.getElementById('clear').onclick = () => {
+  found = [];
+  try { localStorage.removeItem(KEY); } catch (e) {}
+  document.querySelectorAll('.found').forEach(d => d.classList.remove('found'));
+  msg.textContent = ''; msg.className = 'msg';
+};
+paint();
+</script>
+</body>
+</html>

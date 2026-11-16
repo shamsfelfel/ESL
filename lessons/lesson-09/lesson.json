@@ -1,0 +1,1814 @@
+{
+  "lesson": 9,
+  "slug": "lesson-09",
+  "title": "Lesson 9 — Seventy Thousand Tents",
+  "level": "B1+ (ninth step)",
+  "topic": "One flooded night, and how the numbers written about it should be read",
+  "time": "7 sessions, 50–60 minutes each",
+  "skills": "Listening → Reading → Vocabulary → Grammar → The news → Comprehension → Speaking → Writing",
+  "new_in_this_lesson": "the passive voice in every tense she already knows, the agent with by and the four reasons for leaving it out, the weak was, were and been with the three sounds of -ed, and mustn't against don't have to. One new session, part 06, where the figures in the passage are traced back to the sources that gave them. The passage holds at about 500 words for the fourth lesson running (532), and the question set is unchanged.",
+  "passage_words": 532,
+  "footer": "Lesson 9 — Seventy Thousand Tents",
+  "voices": {
+    "reader": {
+      "voice": "en-GB-RyanNeural",
+      "rate": "-10%",
+      "pitch": "+0Hz"
+    },
+    "narrator": {
+      "voice": "en-GB-SoniaNeural",
+      "rate": "-5%",
+      "pitch": "+0Hz"
+    },
+    "slow": {
+      "voice": "en-GB-RyanNeural",
+      "rate": "-25%",
+      "pitch": "+0Hz"
+    }
+  },
+  "vocabulary": [
+    {
+      "word": "flood",
+      "answer": "FLOOD",
+      "type": "verb",
+      "meaning": "to cover with water that should not be there",
+      "arabic": "يغمر بالمياه",
+      "icon": "flood"
+    },
+    {
+      "word": "severe",
+      "answer": "SEVERE",
+      "type": "adjective",
+      "meaning": "very bad, and much worse than usual",
+      "arabic": "قاسٍ / شديد"
+    },
+    {
+      "word": "soak",
+      "answer": "SOAK",
+      "type": "verb",
+      "meaning": "to make something completely wet, right through",
+      "arabic": "يبلّل حتى الأعماق",
+      "icon": "droplet"
+    },
+    {
+      "word": "shelter",
+      "answer": "SHELTER",
+      "type": "noun",
+      "meaning": "any place that keeps the weather off you",
+      "arabic": "مأوى",
+      "icon": "tent"
+    },
+    {
+      "word": "tarpaulin",
+      "answer": "TARPAULIN",
+      "type": "noun",
+      "meaning": "a large sheet of waterproof cloth",
+      "arabic": "مشمّع",
+      "icon": "tarpaulin"
+    },
+    {
+      "word": "drain",
+      "answer": "DRAIN",
+      "type": "noun",
+      "meaning": "the pipe or the channel that carries water away",
+      "arabic": "مصرف",
+      "icon": "drain"
+    },
+    {
+      "word": "pump",
+      "answer": "PUMP",
+      "type": "verb",
+      "meaning": "to move water, or air, with a machine",
+      "arabic": "يضخّ",
+      "icon": "pump"
+    },
+    {
+      "word": "sandbag",
+      "answer": "SANDBAG",
+      "type": "noun",
+      "meaning": "a bag filled with sand, laid down to hold water back",
+      "arabic": "كيس رمل",
+      "icon": "sandbag"
+    },
+    {
+      "word": "displaced",
+      "answer": "DISPLACED",
+      "type": "adjective",
+      "meaning": "forced to leave home and live somewhere else",
+      "arabic": "مُهجَّر / نازح"
+    },
+    {
+      "word": "relief",
+      "answer": "RELIEF",
+      "type": "noun",
+      "meaning": "the help sent to people after a disaster: tents, food, blankets",
+      "arabic": "إغاثة"
+    },
+    {
+      "word": "estimate",
+      "answer": "ESTIMATE",
+      "type": "noun",
+      "meaning": "a figure given when nobody can count exactly",
+      "arabic": "تقدير"
+    },
+    {
+      "word": "verify",
+      "answer": "VERIFY",
+      "type": "verb",
+      "meaning": "to check that something is true before you repeat it",
+      "arabic": "يتحقّق من صحته"
+    },
+    {
+      "word": "source",
+      "answer": "SOURCE",
+      "type": "noun",
+      "meaning": "the person or the office a piece of news comes from",
+      "arabic": "مصدر"
+    },
+    {
+      "word": "headline",
+      "answer": "HEADLINE",
+      "type": "noun",
+      "meaning": "the few words printed above a news story",
+      "arabic": "عنوان رئيسي",
+      "icon": "newspaper"
+    }
+  ],
+  "recall": [
+    {
+      "word": "replace",
+      "answer": "REPLACE",
+      "meaning": "to take an old thing out and put a new one in its place"
+    },
+    {
+      "word": "log",
+      "answer": "LOG",
+      "meaning": "a written record, kept in order, of what was done",
+      "icon": "notebook"
+    },
+    {
+      "word": "fault",
+      "answer": "FAULT",
+      "meaning": "the thing that is wrong with a machine",
+      "icon": "warning"
+    },
+    {
+      "word": "label",
+      "answer": "LABEL",
+      "meaning": "to write on something to say what it is",
+      "icon": "label"
+    },
+    {
+      "word": "dust",
+      "answer": "DUST",
+      "meaning": "the fine dry dirt that settles on everything"
+    }
+  ],
+  "how_to_work": [
+    "Play **01-passage.mp3** and listen twice with no text in front of you. Do not open the PDF yet.",
+    "Then work through the parts in number order. Part 04 is grammar and has no audio; part 05 needs its audio more than any part in the course so far, because the passive is carried by *was*, *were*, *been* and an *-ed* you can hardly hear.",
+    "**Part 06 is new.** It is where the real figures in the passage are traced back to the offices and agencies that gave them. Do it before the comprehension questions, not after: the passive hunt in 4.4 is part 04's grammar doing a real job. If the subject of the passage is too close this week, part 06 works on its own.",
+    "Open part 12, the answer key, only when parts 01 to 11 are finished. The five games come days later, not the same evening."
+  ],
+  "full_section": {
+    "parts": [
+      "01",
+      "02",
+      "07",
+      "08"
+    ],
+    "gap": 3,
+    "closing": [
+      {
+        "pause": 2
+      },
+      {
+        "say": "This is the end of lesson nine.",
+        "voice": "narrator"
+      }
+    ]
+  },
+  "games": [
+    {
+      "number": "14",
+      "slug": "crossword",
+      "title": "Crossword",
+      "style": "crossword",
+      "minutes": 15
+    },
+    {
+      "number": "15",
+      "slug": "word-search",
+      "title": "Word search",
+      "style": "word-search",
+      "minutes": 10
+    },
+    {
+      "number": "16",
+      "slug": "memory",
+      "title": "Memory pairs",
+      "style": "memory",
+      "minutes": 10,
+      "pairs": 10
+    },
+    {
+      "number": "17",
+      "slug": "criss-cross",
+      "title": "Criss-cross, Arabic clues",
+      "style": "criss-cross",
+      "minutes": 15
+    },
+    {
+      "number": "18",
+      "slug": "cryptogram",
+      "title": "Cryptogram",
+      "style": "cryptogram",
+      "minutes": 15,
+      "given": 3
+    }
+  ],
+  "parts": [
+    {
+      "number": "01",
+      "slug": "passage",
+      "title": "Listening and reading: the passage",
+      "minutes": 20,
+      "sheet": true,
+      "audio": true,
+      "print_only": {
+        "markers": [
+          "[A]",
+          "[B]",
+          "[C]",
+          "[D]"
+        ],
+        "note": "The sentence-insertion markers are printed in the passage and are never read aloud."
+      },
+      "markdown": "> **How to do the listening.** The same rule as every lesson so far: the student listens **twice with no text**, then reads.\n> Audio: `01-passage.mp3` first, then the parts in number order. The part to protect this week is `05-was-were-been.mp3` — the whole of today's grammar is held together by two words you can hardly hear.\n\n### 1.1 Before listening (3 minutes, Arabic is fine here)\n\n1. When rain gets into a room or a tent, what is damaged first, and what is damaged for good?\n2. You read *seventy thousand* in a headline. Who could have counted that, and how?\n3. Where did you hear what happened yesterday — a news site, a relative, a neighbour, a group on your phone? Which of those four would you check before repeating it?\n\n### 1.4 Now read the passage\n\n### Passage: *Seventy Thousand Tents* (532 words)\n\nThe first severe storm of the winter began at nine in the evening and did not stop for twelve hours. By midnight the lowest row of the camp was under water. The dust of four dry months had become mud in an hour. Mattresses were soaked, blankets were soaked, and the flour was ruined, because it had been left on the floor like everything else. Nobody had to be told the tents were old: many are in their fourth winter and have been patched until the patches have patches.\n\n**[A]** By the next afternoon one number was in every headline: seventy thousand tents flooded in twelve hours. The figure was given by the government media office in Gaza and was reported, in those words, by agencies abroad. It has not been independently verified. It is an estimate, made quickly, from one source — which is not a reason to throw it away, but a reason to say where it came from.\n\nNour is nineteen, studies computing, and spent that day on a smaller number. Eighty-one calls were in her log before noon. A form had been built the week before, on her phone, for exactly this: a tent number, a photograph labelled with it, the depth of the water, and whether there were children under five. The form works with no connection: the records were held until the line came back, and were then uploaded in eleven seconds.\n\n**[B]** The list was not sorted by who had called first. It was sorted by the height of the ground, because water does not take turns. Two drains were cleared by hand; the fault in the bigger one had been reported a year before. Where the ground allowed it, water was pumped away; elsewhere it was carried out in buckets. Sandbags were filled from the beach and laid along the bottom row. The one tarpaulin they found was tied over a tent with small children in it, and eight families whose tents could not be dried were moved to a shelter in a school.\n\n**[C]** Very little could be done by the civil defence, and they said so plainly: their crews had not a single tent or tarpaulin to hand out. Fifty thousand relief tents were reported to be waiting at the border. Two hundred thousand have been asked for, with heaters, for more than a million displaced people. The tents were supposed to have been replaced by caravans months ago. The caravans have not arrived.\n\n**[D]** Read that week's reports and notice how many sentences have nobody in them. Tents *were flooded*. Supplies *were not delivered*. Aid *has been blocked*. The rain is nobody's decision and needs no name. The other two are about decisions somebody made, and English lets a writer leave the name out. Put a name back and read the sentence again. If it still says the same thing, nothing was hidden. If it does not, you have found what it was built to leave out.\n\nNour's list has a column that none of the reports had. It is headed *checked*, and a row is only ticked when somebody has stood at the tent. Seventy thousand is an estimate. Eighty-one is a count.\n\n### 1.5 Read aloud\n\nRead the passage aloud **once** and record it. This week, listen to yourself on the pairs: *were soaked*, *were cleared*, *were filled*, *was pumped*. The *-ed* on those four is a single consonant and no extra syllable; in *flooded* and *reported* it is a whole syllable. Part 05 is where that is explained, but your own recording is where you will hear whether you do it.\n",
+      "segments": [
+        {
+          "say": "Lesson nine. Seventy Thousand Tents. Listening practice.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 1
+        },
+        {
+          "say": "You will hear about the first severe storm of the winter, a camp on low ground, and one number that was in every headline by the following afternoon. Listen for where that number came from, and for what was done in the camp that day. You will hear it two times. Do not read the text. Listen only.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 2
+        },
+        {
+          "say": "Now listen.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 1.5
+        },
+        {
+          "say": "The first severe storm of the winter began at nine in the evening and did not stop for twelve hours. By midnight the lowest row of the camp was under water. The dust of four dry months had become mud in an hour. Mattresses were soaked, blankets were soaked, and the flour was ruined, because it had been left on the floor like everything else. Nobody had to be told the tents were old: many are in their fourth winter and have been patched until the patches have patches.\n\nBy the next afternoon one number was in every headline: seventy thousand tents flooded in twelve hours. The figure was given by the government media office in Gaza and was reported, in those words, by agencies abroad. It has not been independently verified. It is an estimate, made quickly, from one source, which is not a reason to throw it away, but a reason to say where it came from.\n\nNour is nineteen, studies computing, and spent that day on a smaller number. Eighty-one calls were in her log before noon. A form had been built the week before, on her phone, for exactly this: a tent number, a photograph labelled with it, the depth of the water, and whether there were children under five. The form works with no connection: the records were held until the line came back, and were then uploaded in eleven seconds.\n\nThe list was not sorted by who had called first. It was sorted by the height of the ground, because water does not take turns. Two drains were cleared by hand; the fault in the bigger one had been reported a year before. Where the ground allowed it, water was pumped away; elsewhere it was carried out in buckets. Sandbags were filled from the beach and laid along the bottom row. The one tarpaulin they found was tied over a tent with small children in it, and eight families whose tents could not be dried were moved to a shelter in a school.\n\nVery little could be done by the civil defence, and they said so plainly: their crews had not a single tent or tarpaulin to hand out. Fifty thousand relief tents were reported to be waiting at the border. Two hundred thousand have been asked for, with heaters, for more than a million displaced people. The tents were supposed to have been replaced by caravans months ago. The caravans have not arrived.\n\nRead that week's reports and notice how many sentences have nobody in them. Tents were flooded. Supplies were not delivered. Aid has been blocked. The rain is nobody's decision and needs no name. The other two are about decisions somebody made, and English lets a writer leave the name out. Put a name back and read the sentence again. If it still says the same thing, nothing was hidden. If it does not, you have found what it was built to leave out.\n\nNour's list has a column that none of the reports had. It is headed checked, and a row is only ticked when somebody has stood at the tent. Seventy thousand is an estimate. Eighty-one is a count.",
+          "voice": "reader"
+        },
+        {
+          "pause": 3
+        },
+        {
+          "say": "Now listen again.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 1.5
+        },
+        {
+          "say": "The first severe storm of the winter began at nine in the evening and did not stop for twelve hours. By midnight the lowest row of the camp was under water. The dust of four dry months had become mud in an hour. Mattresses were soaked, blankets were soaked, and the flour was ruined, because it had been left on the floor like everything else. Nobody had to be told the tents were old: many are in their fourth winter and have been patched until the patches have patches.\n\nBy the next afternoon one number was in every headline: seventy thousand tents flooded in twelve hours. The figure was given by the government media office in Gaza and was reported, in those words, by agencies abroad. It has not been independently verified. It is an estimate, made quickly, from one source, which is not a reason to throw it away, but a reason to say where it came from.\n\nNour is nineteen, studies computing, and spent that day on a smaller number. Eighty-one calls were in her log before noon. A form had been built the week before, on her phone, for exactly this: a tent number, a photograph labelled with it, the depth of the water, and whether there were children under five. The form works with no connection: the records were held until the line came back, and were then uploaded in eleven seconds.\n\nThe list was not sorted by who had called first. It was sorted by the height of the ground, because water does not take turns. Two drains were cleared by hand; the fault in the bigger one had been reported a year before. Where the ground allowed it, water was pumped away; elsewhere it was carried out in buckets. Sandbags were filled from the beach and laid along the bottom row. The one tarpaulin they found was tied over a tent with small children in it, and eight families whose tents could not be dried were moved to a shelter in a school.\n\nVery little could be done by the civil defence, and they said so plainly: their crews had not a single tent or tarpaulin to hand out. Fifty thousand relief tents were reported to be waiting at the border. Two hundred thousand have been asked for, with heaters, for more than a million displaced people. The tents were supposed to have been replaced by caravans months ago. The caravans have not arrived.\n\nRead that week's reports and notice how many sentences have nobody in them. Tents were flooded. Supplies were not delivered. Aid has been blocked. The rain is nobody's decision and needs no name. The other two are about decisions somebody made, and English lets a writer leave the name out. Put a name back and read the sentence again. If it still says the same thing, nothing was hidden. If it does not, you have found what it was built to leave out.\n\nNour's list has a column that none of the reports had. It is headed checked, and a row is only ticked when somebody has stood at the tent. Seventy thousand is an estimate. Eighty-one is a count.",
+          "voice": "reader"
+        },
+        {
+          "pause": 2
+        },
+        {
+          "say": "This is the end of the passage.",
+          "voice": "narrator"
+        }
+      ]
+    },
+    {
+      "number": "02",
+      "slug": "listening-questions",
+      "title": "Listening questions",
+      "minutes": 10,
+      "sheet": true,
+      "audio": true,
+      "markdown": "### 1.2 Listening — first time (no text)\n\n- **L1.** How long did the rain go on, and what was under water by midnight?\n- **L2.** Where did the figure of seventy thousand come from?\n- **L3.** How was Nour's list sorted, and why that way?\n- **L4.** What did the civil defence have to hand out?\n\n### 1.3 Listening — second time (no text)\n\nWrite **three sentences you heard with *was* or *were* + a verb** — the passive, which is today's grammar; you do not need the name for it yet. Then write **the two numbers at the end of the passage**, and in one line what the difference between them is. Then **one word** you heard but did not understand.\n",
+      "segments": [
+        {
+          "say": "Now answer the listening questions. Write a short answer for each one.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 2
+        },
+        {
+          "say": "Question one. How long did the rain go on, and what was under water by midnight?",
+          "voice": "narrator"
+        },
+        {
+          "pause": 10
+        },
+        {
+          "say": "Question two. Where did the figure of seventy thousand come from?",
+          "voice": "narrator"
+        },
+        {
+          "pause": 10
+        },
+        {
+          "say": "Question three. How was Nour's list sorted, and why that way?",
+          "voice": "narrator"
+        },
+        {
+          "pause": 10
+        },
+        {
+          "say": "Question four. What did the civil defence have to hand out?",
+          "voice": "narrator"
+        },
+        {
+          "pause": 10
+        },
+        {
+          "say": "Now listen to the passage once more, and write three sentences you heard with was or were and a verb.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 3
+        },
+        {
+          "say": "This is the end of the listening questions.",
+          "voice": "narrator"
+        }
+      ]
+    },
+    {
+      "number": "03",
+      "slug": "vocabulary",
+      "title": "Vocabulary",
+      "minutes": 35,
+      "sheet": true,
+      "audio": true,
+      "markdown": "### 2.1 Key words\n\n| # | Word | Type | Simple meaning | Arabic | Example |\n|---|---|---|---|---|---|\n| 1 | flood | verb | to cover with water that should not be there | يغمر بالمياه | Seventy thousand tents were **flooded** in twelve hours. |\n| 2 | severe | adjective | very bad, and much worse than usual | قاسٍ / شديد | It was the first **severe** storm of the winter. |\n| 3 | soak | verb | to make something completely wet, right through | يبلّل حتى الأعماق | The mattresses and the blankets were **soaked**. |\n| 4 | shelter | noun | any place that keeps the weather off you | مأوى | Eight families were moved to a **shelter** in a school. |\n| 5 | tarpaulin | noun | a large sheet of waterproof cloth | مشمّع | A **tarpaulin** was tied over a tent with small children in it. |\n| 6 | drain | noun | the pipe or the channel that carries water away | مصرف | Two **drains** were cleared by hand. |\n| 7 | pump | verb | to move water, or air, with a machine | يضخّ | Where the ground allowed it, water was **pumped** away. |\n| 8 | sandbag | noun | a bag filled with sand, laid down to hold water back | كيس رمل | **Sandbags** were filled from the beach. |\n| 9 | displaced | adjective | forced to leave home and live somewhere else | مُهجَّر / نازح | Heaters are needed for more than a million **displaced** people. |\n| 10 | relief | noun | the help sent to people after a disaster: tents, food, blankets | إغاثة | Fifty thousand **relief** tents were reported to be waiting. |\n| 11 | estimate | noun | a figure given when nobody can count exactly | تقدير | Seventy thousand is an **estimate**, not a count. |\n| 12 | verify | verb | to check that something is true before you repeat it | يتحقّق من صحته | The figure has not been independently **verified**. |\n| 13 | source | noun | the person or the office a piece of news comes from | مصدر | It came from one **source**: a government media office. |\n| 14 | headline | noun | the few words printed above a news story | عنوان رئيسي | By the afternoon the number was in every **headline**. |\n\n### 2.2 Synonyms and opposites\n\n| Word | Synonym | Opposite |\n|---|---|---|\n| severe | harsh, serious | mild |\n| soak | drench, wet right through | dry out |\n| flood | swamp, cover over | drain |\n| verify | check, confirm | take on trust |\n| estimate | an approximate figure | an exact count |\n| relief | aid, assistance | neglect |\n| displaced | driven out, homeless | settled |\n| shelter | cover, refuge | the open air |\n\n### 2.3 Expressions to learn\n\n| Expression | What it really means |\n|---|---|\n| **under water** | covered by water that should not be there |\n| **right through** | all the way to the inside, not only on the surface |\n| **water does not take turns** | it does not wait for whoever asked first |\n| **to hand out** | to give to people one by one |\n| **to be supposed to** | to be expected to, because somebody arranged it |\n| **in those words** | repeated exactly as they were said |\n| **independently verified** | checked by somebody who does not need a particular answer |\n| **according to** | this is whose figure it is, and I am not promising it is right |\n\n### 2.4 Vocabulary practice\n\n**A. Write the opposite:**\n\n1. severe → \\_\\_\\_\\_\\_\\_\\_\\_\n2. soak → \\_\\_\\_\\_\\_\\_\\_\\_\n3. verify → \\_\\_\\_\\_\\_\\_\\_\\_\n4. an estimate → \\_\\_\\_\\_\\_\\_\\_\\_\n5. displaced → \\_\\_\\_\\_\\_\\_\\_\\_\n\n**B. Which word is different? Say why:**\n\n1. tarpaulin — sandbag — drain — headline\n2. estimate — source — verify — soak\n3. relief — shelter — tent — dust\n\n**C. Say it in your own words:**\n\n1. What is the difference between an **estimate** and a count?\n2. What does it mean to **verify** something? Name one thing you have verified this week.\n3. A friend sends you a number from a group on her phone. What is the **source**?\n",
+      "segments": [
+        {
+          "say": "Vocabulary practice. You will hear a word, then its meaning, then an example sentence. Repeat the word in the silence.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 2
+        },
+        {
+          "say": "Word 1.",
+          "voice": "narrator"
+        },
+        {
+          "say": "flood",
+          "voice": "reader"
+        },
+        {
+          "pause": 3
+        },
+        {
+          "say": "flood. to cover with water that should not be there.",
+          "voice": "reader"
+        },
+        {
+          "pause": 1
+        },
+        {
+          "say": "Seventy thousand tents were flooded in twelve hours.",
+          "voice": "reader"
+        },
+        {
+          "pause": 3
+        },
+        {
+          "say": "Word 2.",
+          "voice": "narrator"
+        },
+        {
+          "say": "severe",
+          "voice": "reader"
+        },
+        {
+          "pause": 3
+        },
+        {
+          "say": "severe. very bad, and much worse than usual.",
+          "voice": "reader"
+        },
+        {
+          "pause": 1
+        },
+        {
+          "say": "It was the first severe storm of the winter.",
+          "voice": "reader"
+        },
+        {
+          "pause": 3
+        },
+        {
+          "say": "Word 3.",
+          "voice": "narrator"
+        },
+        {
+          "say": "soak",
+          "voice": "reader"
+        },
+        {
+          "pause": 3
+        },
+        {
+          "say": "soak. to make something completely wet, right through.",
+          "voice": "reader"
+        },
+        {
+          "pause": 1
+        },
+        {
+          "say": "The mattresses and the blankets were soaked.",
+          "voice": "reader"
+        },
+        {
+          "pause": 3
+        },
+        {
+          "say": "Word 4.",
+          "voice": "narrator"
+        },
+        {
+          "say": "shelter",
+          "voice": "reader"
+        },
+        {
+          "pause": 3
+        },
+        {
+          "say": "shelter. any place that keeps the weather off you.",
+          "voice": "reader"
+        },
+        {
+          "pause": 1
+        },
+        {
+          "say": "Eight families were moved to a shelter in a school.",
+          "voice": "reader"
+        },
+        {
+          "pause": 3
+        },
+        {
+          "say": "Word 5.",
+          "voice": "narrator"
+        },
+        {
+          "say": "tarpaulin",
+          "voice": "reader"
+        },
+        {
+          "pause": 3
+        },
+        {
+          "say": "tarpaulin. a large sheet of waterproof cloth.",
+          "voice": "reader"
+        },
+        {
+          "pause": 1
+        },
+        {
+          "say": "A tarpaulin was tied over a tent with small children in it.",
+          "voice": "reader"
+        },
+        {
+          "pause": 3
+        },
+        {
+          "say": "Word 6.",
+          "voice": "narrator"
+        },
+        {
+          "say": "drain",
+          "voice": "reader"
+        },
+        {
+          "pause": 3
+        },
+        {
+          "say": "drain. the pipe or the channel that carries water away.",
+          "voice": "reader"
+        },
+        {
+          "pause": 1
+        },
+        {
+          "say": "Two drains were cleared by hand.",
+          "voice": "reader"
+        },
+        {
+          "pause": 3
+        },
+        {
+          "say": "Word 7.",
+          "voice": "narrator"
+        },
+        {
+          "say": "pump",
+          "voice": "reader"
+        },
+        {
+          "pause": 3
+        },
+        {
+          "say": "pump. to move water, or air, with a machine.",
+          "voice": "reader"
+        },
+        {
+          "pause": 1
+        },
+        {
+          "say": "Where the ground allowed it, water was pumped away.",
+          "voice": "reader"
+        },
+        {
+          "pause": 3
+        },
+        {
+          "say": "Word 8.",
+          "voice": "narrator"
+        },
+        {
+          "say": "sandbag",
+          "voice": "reader"
+        },
+        {
+          "pause": 3
+        },
+        {
+          "say": "sandbag. a bag filled with sand, laid down to hold water back.",
+          "voice": "reader"
+        },
+        {
+          "pause": 1
+        },
+        {
+          "say": "Sandbags were filled from the beach.",
+          "voice": "reader"
+        },
+        {
+          "pause": 3
+        },
+        {
+          "say": "Word 9.",
+          "voice": "narrator"
+        },
+        {
+          "say": "displaced",
+          "voice": "reader"
+        },
+        {
+          "pause": 3
+        },
+        {
+          "say": "displaced. forced to leave home and live somewhere else.",
+          "voice": "reader"
+        },
+        {
+          "pause": 1
+        },
+        {
+          "say": "Heaters are needed for more than a million displaced people.",
+          "voice": "reader"
+        },
+        {
+          "pause": 3
+        },
+        {
+          "say": "Word 10.",
+          "voice": "narrator"
+        },
+        {
+          "say": "relief",
+          "voice": "reader"
+        },
+        {
+          "pause": 3
+        },
+        {
+          "say": "relief. the help sent to people after a disaster: tents, food, blankets.",
+          "voice": "reader"
+        },
+        {
+          "pause": 1
+        },
+        {
+          "say": "Fifty thousand relief tents were reported to be waiting.",
+          "voice": "reader"
+        },
+        {
+          "pause": 3
+        },
+        {
+          "say": "Word 11.",
+          "voice": "narrator"
+        },
+        {
+          "say": "estimate",
+          "voice": "reader"
+        },
+        {
+          "pause": 3
+        },
+        {
+          "say": "estimate. a figure given when nobody can count exactly.",
+          "voice": "reader"
+        },
+        {
+          "pause": 1
+        },
+        {
+          "say": "Seventy thousand is an estimate, not a count.",
+          "voice": "reader"
+        },
+        {
+          "pause": 3
+        },
+        {
+          "say": "Word 12.",
+          "voice": "narrator"
+        },
+        {
+          "say": "verify",
+          "voice": "reader"
+        },
+        {
+          "pause": 3
+        },
+        {
+          "say": "verify. to check that something is true before you repeat it.",
+          "voice": "reader"
+        },
+        {
+          "pause": 1
+        },
+        {
+          "say": "The figure has not been independently verified.",
+          "voice": "reader"
+        },
+        {
+          "pause": 3
+        },
+        {
+          "say": "Word 13.",
+          "voice": "narrator"
+        },
+        {
+          "say": "source",
+          "voice": "reader"
+        },
+        {
+          "pause": 3
+        },
+        {
+          "say": "source. the person or the office a piece of news comes from.",
+          "voice": "reader"
+        },
+        {
+          "pause": 1
+        },
+        {
+          "say": "It came from one source: a government media office.",
+          "voice": "reader"
+        },
+        {
+          "pause": 3
+        },
+        {
+          "say": "Word 14.",
+          "voice": "narrator"
+        },
+        {
+          "say": "headline",
+          "voice": "reader"
+        },
+        {
+          "pause": 3
+        },
+        {
+          "say": "headline. the few words printed above a news story.",
+          "voice": "reader"
+        },
+        {
+          "pause": 1
+        },
+        {
+          "say": "By the afternoon the number was in every headline.",
+          "voice": "reader"
+        },
+        {
+          "pause": 3
+        },
+        {
+          "pause": 1
+        },
+        {
+          "say": "Now five words from Lesson 7, two lessons ago. All five of them are in this lesson's passage. Say each one in the silence, and then its meaning.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 2
+        },
+        {
+          "say": "Lesson 7, word 1.",
+          "voice": "narrator"
+        },
+        {
+          "say": "replace",
+          "voice": "reader"
+        },
+        {
+          "pause": 3
+        },
+        {
+          "say": "replace. to take an old thing out and put a new one in its place.",
+          "voice": "reader"
+        },
+        {
+          "pause": 2
+        },
+        {
+          "say": "Lesson 7, word 2.",
+          "voice": "narrator"
+        },
+        {
+          "say": "log",
+          "voice": "reader"
+        },
+        {
+          "pause": 3
+        },
+        {
+          "say": "log. a written record, kept in order, of what was done.",
+          "voice": "reader"
+        },
+        {
+          "pause": 2
+        },
+        {
+          "say": "Lesson 7, word 3.",
+          "voice": "narrator"
+        },
+        {
+          "say": "fault",
+          "voice": "reader"
+        },
+        {
+          "pause": 3
+        },
+        {
+          "say": "fault. the thing that is wrong with a machine.",
+          "voice": "reader"
+        },
+        {
+          "pause": 2
+        },
+        {
+          "say": "Lesson 7, word 4.",
+          "voice": "narrator"
+        },
+        {
+          "say": "label",
+          "voice": "reader"
+        },
+        {
+          "pause": 3
+        },
+        {
+          "say": "label. to write on something to say what it is.",
+          "voice": "reader"
+        },
+        {
+          "pause": 2
+        },
+        {
+          "say": "Lesson 7, word 5.",
+          "voice": "narrator"
+        },
+        {
+          "say": "dust",
+          "voice": "reader"
+        },
+        {
+          "pause": 3
+        },
+        {
+          "say": "dust. the fine dry dirt that settles on everything.",
+          "voice": "reader"
+        },
+        {
+          "pause": 2
+        },
+        {
+          "say": "This is the end of the vocabulary.",
+          "voice": "narrator"
+        }
+      ]
+    },
+    {
+      "number": "04",
+      "slug": "grammar-passive",
+      "title": "Grammar: the passive voice, and the modals again",
+      "minutes": 50,
+      "sheet": true,
+      "audio": false,
+      "markdown": "### Come back to: the modals of Lesson 7\n\nLesson 7 taught *can*, *could*, *should*, *must* and *have to*. Two lines to remind you:\n\n| She **must** label every photograph. | the speaker's own rule, and a strong one |\n|---|---|\n| She **has to** be there at eight. | somebody else's rule, from outside |\n\n**New this time: *mustn't* and *don't have to* are opposites, not the same thing.**\n\nBoth sound like \"no must\". They are not:\n\n| | What it means | Example |\n|---|---|---|\n| **mustn't** | it is forbidden — a door closed | You **mustn't** leave the flour on the floor. |\n| **don't have to** | there is no need — a door open | You **don't have to** fill the sandbags alone. |\n\n**And *may* and *might* are the weak guesses** — less sure than *will*, more sure than nothing:\n\n- *The figure **may** be too high.*\n- *The rain **might** stop before morning.*\n- *The caravans **may not** come this month.*\n\n**Quick practice.** *mustn't* or *don't have to*?\n\n1. You \\_\\_\\_\\_\\_\\_\\_\\_ repeat a number without saying where it came from.\n2. You \\_\\_\\_\\_\\_\\_\\_\\_ read all five reports — two is enough.\n3. We \\_\\_\\_\\_\\_\\_\\_\\_ put the boxes back on the floor tonight.\n\n---\n\nEverything below is one structure, and it is the one the news is written in.\n\n### 3.1 Two ways to say one event\n\n| Active | Passive |\n|---|---|\n| The rain **flooded** the tents. | The tents **were flooded**. |\n\nNothing happened differently. What changed is what the sentence **begins** with — and an English sentence is about what it begins with. The first one is about the rain. The second is about the tents.\n\n### 3.2 How the passive is made\n\n**be + past participle.** That is the whole of it.\n\n| Active | Passive |\n|---|---|\n| The storm **soaked** the blankets. | The blankets **were soaked**. |\n| Somebody **clears** the drain every winter. | The drain **is cleared** every winter. |\n| They **have asked** for two hundred thousand tents. | Two hundred thousand tents **have been asked** for. |\n\n***be* carries the tense. The participle never changes.** Hold on to that one line and the rest is bookkeeping.\n\n### 3.3 Why a writer chooses it — three good reasons, and one to watch\n\n1. **The doer is unknown.** *Two drains **were cleared**.* — by whom? Nobody wrote it down.\n2. **The doer is obvious.** *The tents **were flooded**.* — by the rain, of course.\n3. **The doer is not the point.** *Eight families **were moved** to a shelter.* — the families are the point.\n4. **The doer is being left out on purpose.** *Aid **has been blocked**.* — somebody decided that, and the sentence does not say who.\n\nThe first three are good writing. The fourth is the one to notice, and part 06 is about nothing else.\n\n### 3.4 The agent: *by*\n\nWhen the doer matters, it comes back with **by**:\n\n- *The figure **was given by** the government media office.*\n- *Very little could be done **by** the civil defence.*\n- *The tents were to have been replaced **by** caravans.*\n\nUse *by* when the name is news. Leave it out when it is not: *the tents were flooded by the rain* is correct English that nobody writes, because the rain is not news.\n\n### 3.5 The passive is not a tense\n\nThis is the part worth taking away. The passive is a **shape**, and every tense you have learned can take it. Look at your own eight lessons:\n\n| Lesson | Tense | Active | Passive |\n|---|---|---|---|\n| 1 | present simple | they clear the drain | the drain **is cleared** |\n| 2 | past simple | they cleared the drain | the drain **was cleared** |\n| 3 | past continuous | they were clearing it | it **was being cleared** |\n| 4 | present perfect | they have cleared it | it **has been cleared** |\n| 6 | future, *will* | they will clear it | it **will be cleared** |\n| 6 | *going to* | they are going to clear it | it **is going to be cleared** |\n| 7 | modals | they must clear it | it **must be cleared** |\n| 8 | first conditional | if they clear it, … | **if it is cleared**, the water will go |\n\nOne word is new in that whole right-hand column: *be*. (Lesson 5's present perfect continuous is the exception — *it has been being cleared* is not English. Say that one in the active.)\n\n### 3.6 Modal + passive\n\nThe come-back and the new thing meet here, and most of the news lives in this box:\n\n| Modal + *be* + participle | |\n|---|---|\n| The tents **must be replaced**. | an obligation, with no need to say by whom |\n| The drains **should have been cleared** last summer. | a criticism with no name in it |\n| The water **had to be pumped** away. | there was no choice |\n| The figure **may be** too high. | a possibility |\n| Eight tents **could not be dried** at all. | ability, in the negative |\n\n### 3.7 When the passive is the wrong choice\n\nThree traps. The third is a real mistake; the first two are bad writing.\n\n- **It hides a person who should be named.** *A mistake was made* is often a way of not saying who made it. In your own writing: if you know who did it, say who.\n- **It makes short sentences long.** *It was decided by the committee that the list would be sorted by height* → *The committee sorted the list by height.* Nine words saved, nothing lost.\n- **Some verbs have no passive at all.** A verb with no object cannot be turned round: *arrive, happen, rain, go, come, sleep, fall, exist*.\n  - ✗ *The storm was happened.* → *The storm happened.*\n  - ✗ *The caravans were not arrived.* → *The caravans have not arrived.*\n\n### 3.8 Grammar practice\n\n**A. Make it passive, and keep the tense:**\n\n1. The rain soaked every mattress in the row. → \\_\\_\\_\\_\\_\\_\\_\\_\n2. Volunteers fill the sandbags every winter. → \\_\\_\\_\\_\\_\\_\\_\\_\n3. Somebody has reported the fault. → \\_\\_\\_\\_\\_\\_\\_\\_\n4. They will clear the drain tomorrow. → \\_\\_\\_\\_\\_\\_\\_\\_\n5. They were carrying the water out in buckets. → \\_\\_\\_\\_\\_\\_\\_\\_\n\n**B. Put the agent in with *by*, or leave it out — and say why:**\n\n1. The figure / give / the government media office\n2. The tents / flood / the rain\n3. Each photograph / label / Nour\n4. Fifty thousand tents / hold / at the border\n\n**C. Modal + passive. Rewrite with the modal in brackets:**\n\n1. Somebody must replace these tents. (must) → \\_\\_\\_\\_\\_\\_\\_\\_\n2. Nobody could dry eight of the tents. (could not) → \\_\\_\\_\\_\\_\\_\\_\\_\n3. Somebody should have cleared the drain last summer. (should have) → \\_\\_\\_\\_\\_\\_\\_\\_\n4. Perhaps the number is too high. (may) → \\_\\_\\_\\_\\_\\_\\_\\_\n\n**D. One sentence in each pair is impossible — except in one pair, where both are good English. Which, and why?**\n\n1. (a) The storm was happened at nine. (b) The storm happened at nine.\n2. (a) The caravans have not arrived. (b) The caravans have not been arrived.\n3. (a) The water was pumped away. (b) The water was pumped away by a machine.\n\n**E. Come back to — *mustn't* or *don't have to*?**\n\n1. You \\_\\_\\_\\_\\_\\_\\_\\_ put the flour on the floor again.\n2. She \\_\\_\\_\\_\\_\\_\\_\\_ photograph every tent — the number is enough.\n3. We \\_\\_\\_\\_\\_\\_\\_\\_ repeat a figure without its source.\n\n**F. Active or passive — which is better here, and why?**\n\n1. (a) The committee decided the order. (b) The order was decided by the committee.\n2. (a) Somebody flooded the camp. (b) The camp was flooded.\n3. (a) We made mistakes in the first two days. (b) Mistakes were made in the first two days.\n"
+    },
+    {
+      "number": "05",
+      "slug": "was-were-been",
+      "title": "Pronunciation: was, were, been and -ed",
+      "minutes": 20,
+      "sheet": true,
+      "audio": true,
+      "markdown": "### 3.9 *was*, *were*, *been* — and the *-ed* you can hardly hear (listen to `05-was-were-been.mp3`)\n\nEvery passive sentence is built out of two weak pieces: a form of *be* that is almost never stressed, and an ending that is usually not even a syllable. Miss both and you hear *the tents flooded*, which is a different sentence.\n\n**1. *was* and *were* are weak.**\n\n| Written | What you hear |\n|---|---|\n| The drain was cleared. | <span class=\"ipa\">/ðə ˈdreɪn wəz ˈklɪəd/</span> |\n| The tents were flooded. | <span class=\"ipa\">/ðə ˈtents wə ˈflʌdɪd/</span> |\n| The water was pumped away. | <span class=\"ipa\">/ðə ˈwɔːtə wəz ˈpʌmpt əˈweɪ/</span> |\n\n*were* before a consonant is often only <span class=\"ipa\">/wə/</span>. The negative is the loud one again: *wasn't* <span class=\"ipa\">/ˈwɒznt/</span>, *weren't* <span class=\"ipa\">/wɜːnt/</span> — the same rule you met with *can't* in Lesson 7.\n\n**2. The three sounds of *-ed* come back (Lesson 2) — and this is where they matter, because every passive has one.**\n\n| Ending | After | Examples |\n|---|---|---|\n| <span class=\"ipa\">/t/</span> | a voiceless sound (p, k, f, s, sh, ch) | soa**ked** <span class=\"ipa\">/səʊkt/</span>, pum**ped** <span class=\"ipa\">/pʌmpt/</span>, chec**ked**, as**ked** |\n| <span class=\"ipa\">/d/</span> | a voiced sound (b, g, v, z, l, m, n, r, and all vowels) | fil**led** <span class=\"ipa\">/fɪld/</span>, clea**red**, ti**ed**, mo**ved**, verifi**ed** |\n| <span class=\"ipa\">/ɪd/</span> | **only** after *t* or *d* | floo**ded** <span class=\"ipa\">/ˈflʌdɪd/</span>, repor**ted**, nee**ded**, coun**ted** |\n\nOnly *t* and *d* buy you an extra syllable. *Soaked* is one syllable; *flooded* is two. Say the whole row aloud and count on your fingers.\n\n**3. *been* is weak, and nearly disappears.**\n\n| Written | What you hear |\n|---|---|\n| They have been patched. | <span class=\"ipa\">/ðeɪv bɪn ˈpætʃt/</span> |\n| It has not been verified. | <span class=\"ipa\">/ɪt həz nɒt bɪn ˈverɪfaɪd/</span> |\n| They should have been cleared. | <span class=\"ipa\">/ðeɪ ˈʃʊdəv bɪn ˈklɪəd/</span> |\n\n*been* is <span class=\"ipa\">/bɪn/</span>, short — never <span class=\"ipa\">/biːn/</span> in a sentence like these. In *should have been*, three words arrive as <span class=\"ipa\">/ˈʃʊdəv bɪn/</span>.\n\n**4. The pair test — and this is the one that changes the meaning.**\n\n| | |\n|---|---|\n| The tents **are** flooded. | <span class=\"ipa\">/ðə ˈtents ə ˈflʌdɪd/</span> — now, this minute |\n| The tents **were** flooded. | <span class=\"ipa\">/ðə ˈtents wə ˈflʌdɪd/</span> — then, that night |\n\nOne weak vowel apart, and a year apart in meaning. In the audio you hear each line twice, and then a test: say whether what you heard was *are* or *were*, and whether the *-ed* was <span class=\"ipa\">/t/</span>, <span class=\"ipa\">/d/</span> or <span class=\"ipa\">/ɪd/</span>.\n",
+      "segments": [
+        {
+          "say": "Pronunciation. Was, were, been, and the ed you can hardly hear.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 1
+        },
+        {
+          "say": "First, was and were are weak. Listen to each line twice, then repeat it.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 2
+        },
+        {
+          "say": "The drain was cleared.",
+          "voice": "reader"
+        },
+        {
+          "pause": 1
+        },
+        {
+          "say": "The drain was cleared.",
+          "voice": "reader"
+        },
+        {
+          "pause": 3
+        },
+        {
+          "say": "The tents were flooded.",
+          "voice": "reader"
+        },
+        {
+          "pause": 1
+        },
+        {
+          "say": "The tents were flooded.",
+          "voice": "reader"
+        },
+        {
+          "pause": 3
+        },
+        {
+          "say": "The water was pumped away.",
+          "voice": "reader"
+        },
+        {
+          "pause": 1
+        },
+        {
+          "say": "The water was pumped away.",
+          "voice": "reader"
+        },
+        {
+          "pause": 3
+        },
+        {
+          "pause": 1
+        },
+        {
+          "say": "But the negative keeps its full form, and it is the loud one. Listen.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 1.5
+        },
+        {
+          "say": "The drain wasn't cleared.",
+          "voice": "reader"
+        },
+        {
+          "pause": 1
+        },
+        {
+          "say": "The drain wasn't cleared.",
+          "voice": "reader"
+        },
+        {
+          "pause": 3
+        },
+        {
+          "say": "The tents weren't flooded.",
+          "voice": "reader"
+        },
+        {
+          "pause": 1
+        },
+        {
+          "say": "The tents weren't flooded.",
+          "voice": "reader"
+        },
+        {
+          "pause": 3
+        },
+        {
+          "pause": 1
+        },
+        {
+          "say": "Now the three sounds of the ed ending, which you first met in Lesson two. Every passive sentence has one of them. First group: a T sound, and no extra syllable.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 1.5
+        },
+        {
+          "say": "soaked",
+          "voice": "reader"
+        },
+        {
+          "pause": 2
+        },
+        {
+          "say": "pumped",
+          "voice": "reader"
+        },
+        {
+          "pause": 2
+        },
+        {
+          "say": "checked",
+          "voice": "reader"
+        },
+        {
+          "pause": 2
+        },
+        {
+          "say": "asked",
+          "voice": "reader"
+        },
+        {
+          "pause": 2
+        },
+        {
+          "say": "Second group: a D sound, and still no extra syllable.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 1.5
+        },
+        {
+          "say": "filled",
+          "voice": "reader"
+        },
+        {
+          "pause": 2
+        },
+        {
+          "say": "cleared",
+          "voice": "reader"
+        },
+        {
+          "pause": 2
+        },
+        {
+          "say": "tied",
+          "voice": "reader"
+        },
+        {
+          "pause": 2
+        },
+        {
+          "say": "moved",
+          "voice": "reader"
+        },
+        {
+          "pause": 2
+        },
+        {
+          "say": "verified",
+          "voice": "reader"
+        },
+        {
+          "pause": 2
+        },
+        {
+          "say": "Third group: a whole extra syllable, id. This happens only after T or D.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 1.5
+        },
+        {
+          "say": "flooded",
+          "voice": "reader"
+        },
+        {
+          "pause": 2
+        },
+        {
+          "say": "reported",
+          "voice": "reader"
+        },
+        {
+          "pause": 2
+        },
+        {
+          "say": "needed",
+          "voice": "reader"
+        },
+        {
+          "pause": 2
+        },
+        {
+          "say": "counted",
+          "voice": "reader"
+        },
+        {
+          "pause": 2
+        },
+        {
+          "pause": 1
+        },
+        {
+          "say": "Count the syllables in this pair.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 1
+        },
+        {
+          "say": "soaked",
+          "voice": "reader"
+        },
+        {
+          "pause": 1.5
+        },
+        {
+          "say": "flooded",
+          "voice": "reader"
+        },
+        {
+          "pause": 3
+        },
+        {
+          "say": "One, and two.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 2
+        },
+        {
+          "say": "Now been. It is short, and it nearly disappears. Listen.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 1.5
+        },
+        {
+          "say": "They have been patched.",
+          "voice": "reader"
+        },
+        {
+          "pause": 1
+        },
+        {
+          "say": "They have been patched.",
+          "voice": "reader"
+        },
+        {
+          "pause": 3
+        },
+        {
+          "say": "It has not been verified.",
+          "voice": "reader"
+        },
+        {
+          "pause": 1
+        },
+        {
+          "say": "It has not been verified.",
+          "voice": "reader"
+        },
+        {
+          "pause": 3
+        },
+        {
+          "say": "They should have been cleared.",
+          "voice": "reader"
+        },
+        {
+          "pause": 1
+        },
+        {
+          "say": "They should have been cleared.",
+          "voice": "reader"
+        },
+        {
+          "pause": 3
+        },
+        {
+          "pause": 1
+        },
+        {
+          "say": "And now the test. Is it are, or were? Say your answer in the silence.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 2
+        },
+        {
+          "say": "The tents are flooded.",
+          "voice": "reader"
+        },
+        {
+          "pause": 4
+        },
+        {
+          "say": "That was are. Now, this minute.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 1.5
+        },
+        {
+          "say": "The tents were flooded.",
+          "voice": "reader"
+        },
+        {
+          "pause": 4
+        },
+        {
+          "say": "That was were. Then, that night.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 1.5
+        },
+        {
+          "say": "The drain is cleared every winter.",
+          "voice": "reader"
+        },
+        {
+          "pause": 4
+        },
+        {
+          "say": "That was is. Every winter, so the present simple.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 1.5
+        },
+        {
+          "say": "Last question. Was the ed in this sentence a T, a D, or a whole syllable?",
+          "voice": "narrator"
+        },
+        {
+          "pause": 1
+        },
+        {
+          "say": "The fault had been reported a year before.",
+          "voice": "reader"
+        },
+        {
+          "pause": 4
+        },
+        {
+          "say": "A whole syllable. Reported. Because the verb ends in T.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 2
+        },
+        {
+          "say": "This is the end of the pronunciation practice.",
+          "voice": "narrator"
+        }
+      ]
+    },
+    {
+      "number": "06",
+      "slug": "reading-the-news",
+      "title": "The news behind this passage",
+      "minutes": 30,
+      "sheet": true,
+      "audio": false,
+      "markdown": "### 4.1 Where the numbers in this passage come from\n\n> **Read this before the table.** Nour is not a real person, and the camp in the passage is\n> not a particular camp: that part is written, as every passage in this course is written.\n> The figures below are not written. They were reported in the first days of **November\n> 2026**, the week this lesson is set in, and each one is given here with the source that\n> gave it — because a figure without a source is half a figure, and half a figure is what\n> you are usually handed.\n\n| The figure | Who gave it | When | How sure is it |\n|---|---|---|---|\n| about **70,000** tents flooded within twelve hours | Gaza's government media office | 7 Nov 2026 | one source, and a party to the conflict; not independently verified, and repeated worldwide within a day |\n| first losses of about **$3 million** | the same office | 7 Nov 2026 | an early estimate, made while the rain was still falling |\n| dozens of distress calls, and **no tent and no tarpaulin** left to hand out | the civil defence director for Gaza governorate | 7 Nov 2026 | a named official, speaking about his own service: the strongest kind of source there is |\n| about **200,000** tents and heaters needed, for more than **1 million** people | Gaza's emergency committee | Nov 2026 | a statement of need, not a measurement |\n| about **50,000** tents waiting on the Egyptian side of the border | the civil defence | 7 Nov 2026 | reported to the journalists, not seen by them |\n| about **950,000** displaced people in areas exposed to flooding | the UN | 2026 | a modelled estimate over a whole population, not a count |\n| shelter supplies covering about **18%** of the families who need them for the rainy season | aid agencies | Nov 2026 | an estimate measured against an estimate |\n| the tents were to have been **replaced by caravans** under the ceasefire's humanitarian protocol; the caravans have not entered | Gaza officials and aid groups | Nov 2026 | an agreement, which is a document, and an observation, which is a fact |\n| the emergency department at al-Shifa flooded and out of service for about **four hours** | reported from the hospital | 7 Nov 2026 | one event, narrowly and consistently reported |\n| flooding in Gaza City, Jabalia, Beit Lahia, west of Deir al-Balah, north of Nuseirat and Khan Younis | several agencies | 7 Nov 2026 | consistent across outlets that agree about little else |\n\nRead the last column again. Only one or two lines in that table are anything like a\n**count**. The rest are estimates, statements of need, or things one side said. That is not a\ncomplaint about the reporting: when a million people are living in tents and it is raining in\nthe dark, nobody can count. It is the reason the words *about*, *according to* and *not\nverified* exist, and the reason a careful writer never leaves them out.\n\n### 4.2 Five reports from that week\n\nOpen **two** of these. They are a few hundred words each. Read for the **source**, not for\nthe number.\n\n| Outlet | Date | What it is |\n|---|---|---|\n| [Al Jazeera](https://www.aljazeera.com/news/2026/11/7/rains-flood-thousands-of-tents-in-gaza) | 7 Nov 2026 | the report most other outlets followed; the figure is attributed in the first lines |\n| [Middle East Eye](https://www.middleeasteye.net/news/we-do-not-want-die-cold-gaza-families-struggle-rain-floods-shelters) | Nov 2026 | the families' own words; its title is a quotation from one of them |\n| [The Times of Israel](https://www.timesofisrael.com/rain-floods-tens-of-thousands-of-tents-in-gaza-as-storms-hit-mediterranean-coast/) | 7 Nov 2026 | the same storm and the same figure, attributed and qualified in a different voice |\n| [Common Dreams](https://www.commondreams.org/news/floods-gaza) | 7 Nov 2026 | an advocacy outlet: the facts are real and they are carrying an argument |\n| [Truthout](https://truthout.org/articles/flooding-in-gaza-destroys-70000-tents-as-israel-continues-to-block-aid/) | Nov 2026 | the same direction again; compare its title with Al Jazeera's |\n\n**The exercise.** Read the first one and the fourth one. The storm is the same storm and the\nfigure is the same figure. Write down, for each:\n\n1. who is named as the source of the figure;\n2. whether the words *about*, *estimate* or *not verified* appear anywhere;\n3. what the title tells you, and what the title asks you to conclude.\n\n### 4.3 Three questions for any number\n\n1. **Who counted it, and could they?** Seventy thousand tents, in twelve hours of rain, in\n   the dark. A government office gave that figure. Ask what method could possibly be behind\n   it, and you have your answer about how exact it is.\n2. **What exactly was counted?** Is a *flooded* tent one with a wet floor for an hour, or one\n   that cannot be slept in again? Those two counts can differ by a factor of ten, and the\n   headline does not say which it is.\n3. **Has anybody checked it who did not need a particular answer?** That is all\n   *independently verified* means. When nobody has, honest reporting writes *according to* —\n   and now you know to look for those two words.\n\nNone of this makes the number false. A number can be the best anybody has and still need a\nname beside it.\n\n### 4.4 The passive hunt\n\nIn each sentence the doer is missing. **Put one back** — a name, a word, or just *somebody* —\nand then say whether the sentence still means the same thing.\n\n1. Seventy thousand tents were flooded.\n2. The figure has not been verified.\n3. The tents were supposed to have been replaced by caravans.\n4. Fifty thousand tents are being held at the border.\n5. Mistakes were made in the first two days of the response.\n6. Two drains were cleared by hand.\n7. Aid has been blocked.\n\nSome of those are the weather, or work somebody did, and nothing changes when you put a name\nin. The others are **decisions**, and a name changes them completely — which is why\ndifferent outlets write those sentences differently, and why the same facts can be reported in\ntwo voices without either one printing a lie. That is the most useful thing in this lesson,\nand it is grammar.\n\n### 4.5 How to write a figure honestly\n\nThis is the sentence pattern to keep. You need it in part 10, and in every academic essay you\nwill ever write:\n\n> **About** seventy thousand tents **were flooded**, **according to** Gaza's government media\n> office — a figure **that has not been independently verified**.\n\nThree jobs, three pieces:\n\n| Piece | What it does |\n|---|---|\n| *about* | says out loud that this is an estimate |\n| *according to …* | says whose figure it is, so that it is not yours |\n| *that has not been verified* | says what is still not known |\n\nNow write that sentence three more times, with three other figures from 4.1. Keep all three\npieces every time.\n"
+    },
+    {
+      "number": "07",
+      "slug": "comprehension",
+      "title": "Comprehension",
+      "minutes": 45,
+      "sheet": true,
+      "audio": true,
+      "markdown": "### Part A — Multiple choice\n\n> Ten questions, eight types — the same set as every lesson since Lesson 5.\n\n**1. (Factual)** How long did the rain go on?\n\n- A. Four hours.\n- B. Twelve hours.\n- C. A whole week.\n- D. Until the following afternoon.\n\n**2. (Factual)** Where did the figure of seventy thousand come from?\n\n- A. Nour's form.\n- B. The civil defence.\n- C. A government media office in Gaza.\n- D. News agencies on the other side of the world.\n\n**3. (Negative factual)** According to the passage, all of the following were done in the camp that day EXCEPT\n\n- A. two drains were cleared by hand.\n- B. sandbags were filled from the beach.\n- C. new tents were handed out to the families whose tents were ruined.\n- D. eight families were moved to a shelter in a school.\n\n**4. (Vocabulary in context)** The phrase \"water does not take turns\" in the passage is closest in meaning to\n\n- A. water cannot be shared fairly.\n- B. water does not wait for whoever asked first.\n- C. water comes back again and again.\n- D. water is nobody's responsibility.\n\n**5. (Reference)** In the sentence *It has not been independently verified*, the word \"It\" refers to\n\n- A. the storm.\n- B. the camp.\n- C. the figure of seventy thousand.\n- D. Nour's list.\n\n**6. (Inference)** It can be inferred from the passage that Nour\n\n- A. believes the figure of seventy thousand is false.\n- B. trusts a small number she has checked more than a large one she cannot check.\n- C. thinks the news should not report numbers at all.\n- D. was asked by the media office to count the tents.\n\n**7. (Sentence insertion)** Look at the four letters **[A] [B] [C] [D]** in the passage. Where would this sentence best fit?\n\n> *Fairness and usefulness were not the same thing that morning.*\n\n\n- A. At **[A]**\n- B. At **[B]**\n- C. At **[C]**\n- D. At **[D]**\n\n**8. (Purpose of a paragraph)** Why does the writer quote three short sentences from that week's reports — *were flooded*, *were not delivered*, *has been blocked*?\n\n- A. To show that journalists write badly.\n- B. To prove which of the three sentences is true.\n- C. To show that the same grammar can state the weather or leave a decision-maker out.\n- D. To teach the student three new verbs.\n\n**9. (Purpose of the whole passage)** What is the writer's main purpose in the whole passage?\n\n- A. To describe the damage one storm did to a camp.\n- B. To explain how a form on a phone is built.\n- C. To argue that news reports about Gaza should not be believed.\n- D. To show one night's work, and how the numbers written about it should be read.\n\n**10. (The writer's attitude)** Which word best describes the writer's attitude?\n\n- A. Pitying.\n- B. Angry.\n- C. Careful.\n- D. Amused.\n\n### Part C — Fill in the blanks\n\nUse these words. There are **two extra words** you will not need.\n\n> *tarpaulin · drain · sandbags · estimate · source · headline · displaced · pump · relief*\n\n1. Two \\_\\_\\_\\_\\_\\_\\_\\_s were cleared by hand.\n2. \\_\\_\\_\\_\\_\\_\\_\\_ were filled from the beach and laid along the bottom row.\n3. A \\_\\_\\_\\_\\_\\_\\_\\_ was tied over a tent with small children in it.\n4. Seventy thousand is an \\_\\_\\_\\_\\_\\_\\_\\_, not a count.\n5. The number came from one \\_\\_\\_\\_\\_\\_\\_\\_: a government media office.\n6. By the afternoon the figure was in every \\_\\_\\_\\_\\_\\_\\_\\_.\n7. Heaters have been asked for, for more than a million \\_\\_\\_\\_\\_\\_\\_\\_ people.\n\n### Part D — Summary\n\nWrite the passage in **two sentences only**.\n\n> Sentence 1 — what was done in the camp that day, in the passive, with **no** agent: \\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\n> Sentence 2 — where the figure of seventy thousand came from, in the passive, **with** *by* and the source named: \\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\n",
+      "segments": [
+        {
+          "say": "Comprehension, part A. You will hear each question and its four answers. Mark your answer in the silence. You may read the passage while you listen.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 2
+        },
+        {
+          "say": "Question one. How long did the rain go on?",
+          "voice": "narrator"
+        },
+        {
+          "pause": 1
+        },
+        {
+          "say": "A. Four hours.",
+          "voice": "reader"
+        },
+        {
+          "pause": 0.6
+        },
+        {
+          "say": "B. Twelve hours.",
+          "voice": "reader"
+        },
+        {
+          "pause": 0.6
+        },
+        {
+          "say": "C. A whole week.",
+          "voice": "reader"
+        },
+        {
+          "pause": 0.6
+        },
+        {
+          "say": "D. Until the following afternoon.",
+          "voice": "reader"
+        },
+        {
+          "pause": 0.6
+        },
+        {
+          "pause": 8
+        },
+        {
+          "say": "Question two. Where did the figure of seventy thousand come from?",
+          "voice": "narrator"
+        },
+        {
+          "pause": 1
+        },
+        {
+          "say": "A. Nour's form.",
+          "voice": "reader"
+        },
+        {
+          "pause": 0.6
+        },
+        {
+          "say": "B. The civil defence.",
+          "voice": "reader"
+        },
+        {
+          "pause": 0.6
+        },
+        {
+          "say": "C. A government media office in Gaza.",
+          "voice": "reader"
+        },
+        {
+          "pause": 0.6
+        },
+        {
+          "say": "D. News agencies on the other side of the world.",
+          "voice": "reader"
+        },
+        {
+          "pause": 0.6
+        },
+        {
+          "pause": 8
+        },
+        {
+          "say": "Question three. According to the passage, all of the following were done in the camp that day EXCEPT",
+          "voice": "narrator"
+        },
+        {
+          "pause": 1
+        },
+        {
+          "say": "A. two drains were cleared by hand.",
+          "voice": "reader"
+        },
+        {
+          "pause": 0.6
+        },
+        {
+          "say": "B. sandbags were filled from the beach.",
+          "voice": "reader"
+        },
+        {
+          "pause": 0.6
+        },
+        {
+          "say": "C. new tents were handed out to the families whose tents were ruined.",
+          "voice": "reader"
+        },
+        {
+          "pause": 0.6
+        },
+        {
+          "say": "D. eight families were moved to a shelter in a school.",
+          "voice": "reader"
+        },
+        {
+          "pause": 0.6
+        },
+        {
+          "pause": 8
+        },
+        {
+          "say": "Question four. The phrase \"water does not take turns\" in the passage is closest in meaning to",
+          "voice": "narrator"
+        },
+        {
+          "pause": 1
+        },
+        {
+          "say": "A. water cannot be shared fairly.",
+          "voice": "reader"
+        },
+        {
+          "pause": 0.6
+        },
+        {
+          "say": "B. water does not wait for whoever asked first.",
+          "voice": "reader"
+        },
+        {
+          "pause": 0.6
+        },
+        {
+          "say": "C. water comes back again and again.",
+          "voice": "reader"
+        },
+        {
+          "pause": 0.6
+        },
+        {
+          "say": "D. water is nobody's responsibility.",
+          "voice": "reader"
+        },
+        {
+          "pause": 0.6
+        },
+        {
+          "pause": 8
+        },
+        {
+          "say": "Question five. In the sentence It has not been independently verified, the word \"It\" refers to",
+          "voice": "narrator"
+        },
+        {
+          "pause": 1
+        },
+        {
+          "say": "A. the storm.",
+          "voice": "reader"
+        },
+        {
+          "pause": 0.6
+        },
+        {
+          "say": "B. the camp.",
+          "voice": "reader"
+        },
+        {
+          "pause": 0.6
+        },
+        {
+          "say": "C. the figure of seventy thousand.",
+          "voice": "reader"
+        },
+        {
+          "pause": 0.6
+        },
+        {
+          "say": "D. Nour's list.",
+          "voice": "reader"
+        },
+        {
+          "pause": 0.6
+        },
+        {
+          "pause": 8
+        },
+        {
+          "say": "Question six. It can be inferred from the passage that Nour",
+          "voice": "narrator"
+        },
+        {
+          "pause": 1
+        },
+        {
+          "say": "A. believes the figure of seventy thousand is false.",
+          "voice": "reader"
+        },
+        {
+          "pause": 0.6
+        },
+        {
+          "say": "B. trusts a small number she has checked more than a large one she cannot check.",
+          "voice": "reader"
+        },
+        {
+          "pause": 0.6
+        },
+        {
+          "say": "C. thinks the news should not report numbers at all.",
+          "voice": "reader"
+        },
+        {
+          "pause": 0.6
+        },
+        {
+          "say": "D. was asked by the media office to count the tents.",
+          "voice": "reader"
+        },
+        {
+          "pause": 0.6
+        },
+        {
+          "pause": 8
+        },
+        {
+          "say": "Question seven. Look at the four letters A B C D in the passage. Where would this sentence best fit? Fairness and usefulness were not the same thing that morning.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 1
+        },
+        {
+          "say": "A. At [A]",
+          "voice": "reader"
+        },
+        {
+          "pause": 0.6
+        },
+        {
+          "say": "B. At [B]",
+          "voice": "reader"
+        },
+        {
+          "pause": 0.6
+        },
+        {
+          "say": "C. At [C]",
+          "voice": "reader"
+        },
+        {
+          "pause": 0.6
+        },
+        {
+          "say": "D. At [D]",
+          "voice": "reader"
+        },
+        {
+          "pause": 0.6
+        },
+        {
+          "pause": 8
+        },
+        {
+          "say": "Question eight. Why does the writer quote three short sentences from that week's reports — were flooded, were not delivered, has been blocked?",
+          "voice": "narrator"
+        },
+        {
+          "pause": 1
+        },
+        {
+          "say": "A. To show that journalists write badly.",
+          "voice": "reader"
+        },
+        {
+          "pause": 0.6
+        },
+        {
+          "say": "B. To prove which of the three sentences is true.",
+          "voice": "reader"
+        },
+        {
+          "pause": 0.6
+        },
+        {
+          "say": "C. To show that the same grammar can state the weather or leave a decision-maker out.",
+          "voice": "reader"
+        },
+        {
+          "pause": 0.6
+        },
+        {
+          "say": "D. To teach the student three new verbs.",
+          "voice": "reader"
+        },
+        {
+          "pause": 0.6
+        },
+        {
+          "pause": 8
+        },
+        {
+          "say": "Question nine. What is the writer's main purpose in the whole passage?",
+          "voice": "narrator"
+        },
+        {
+          "pause": 1
+        },
+        {
+          "say": "A. To describe the damage one storm did to a camp.",
+          "voice": "reader"
+        },
+        {
+          "pause": 0.6
+        },
+        {
+          "say": "B. To explain how a form on a phone is built.",
+          "voice": "reader"
+        },
+        {
+          "pause": 0.6
+        },
+        {
+          "say": "C. To argue that news reports about Gaza should not be believed.",
+          "voice": "reader"
+        },
+        {
+          "pause": 0.6
+        },
+        {
+          "say": "D. To show one night's work, and how the numbers written about it should be read.",
+          "voice": "reader"
+        },
+        {
+          "pause": 0.6
+        },
+        {
+          "pause": 8
+        },
+        {
+          "say": "Question ten. Which word best describes the writer's attitude?",
+          "voice": "narrator"
+        },
+        {
+          "pause": 1
+        },
+        {
+          "say": "A. Pitying.",
+          "voice": "reader"
+        },
+        {
+          "pause": 0.6
+        },
+        {
+          "say": "B. Angry.",
+          "voice": "reader"
+        },
+        {
+          "pause": 0.6
+        },
+        {
+          "say": "C. Careful.",
+          "voice": "reader"
+        },
+        {
+          "pause": 0.6
+        },
+        {
+          "say": "D. Amused.",
+          "voice": "reader"
+        },
+        {
+          "pause": 0.6
+        },
+        {
+          "pause": 8
+        },
+        {
+          "say": "This is the end of part A.",
+          "voice": "narrator"
+        }
+      ]
+    },
+    {
+      "number": "08",
+      "slug": "true-false",
+      "title": "True or false",
+      "minutes": 15,
+      "sheet": true,
+      "audio": true,
+      "markdown": "### Part B — True / False\n\nWrite **T** or **F**. If it is false, write the sentence correctly.\n\n1. The rain stopped before midnight. \\_\\_\\_\\_\n2. The figure of seventy thousand has been checked by an independent body. \\_\\_\\_\\_\n3. Nour's list was sorted by the height of the ground. \\_\\_\\_\\_\n4. The civil defence had tents and tarpaulins to hand out. \\_\\_\\_\\_\n5. The caravans that were supposed to replace the tents have arrived. \\_\\_\\_\\_\n6. A row in Nour's list is ticked only when somebody has stood at the tent. \\_\\_\\_\\_",
+      "segments": [
+        {
+          "say": "Part B. True or false. Write T or F for each sentence. If it is false, say the correct sentence aloud.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 2
+        },
+        {
+          "say": "One. The rain stopped before midnight.",
+          "voice": "reader"
+        },
+        {
+          "pause": 7
+        },
+        {
+          "say": "Two. The figure of seventy thousand has been checked by an independent body.",
+          "voice": "reader"
+        },
+        {
+          "pause": 7
+        },
+        {
+          "say": "Three. Nour's list was sorted by the height of the ground.",
+          "voice": "reader"
+        },
+        {
+          "pause": 7
+        },
+        {
+          "say": "Four. The civil defence had tents and tarpaulins to hand out.",
+          "voice": "reader"
+        },
+        {
+          "pause": 7
+        },
+        {
+          "say": "Five. The caravans that were supposed to replace the tents have arrived.",
+          "voice": "reader"
+        },
+        {
+          "pause": 7
+        },
+        {
+          "say": "Six. A row in Nour's list is ticked only when somebody has stood at the tent.",
+          "voice": "reader"
+        },
+        {
+          "pause": 7
+        },
+        {
+          "say": "This is the end of part B.",
+          "voice": "narrator"
+        }
+      ]
+    },
+    {
+      "number": "09",
+      "slug": "speaking",
+      "title": "Speaking",
+      "minutes": 25,
+      "sheet": true,
+      "audio": true,
+      "markdown": "### 6.1 Speaking (record each answer, 45 seconds)\n\n1. Tell the story of that night in your own words. Use the **passive at least four times** — and name the doer with *by* once, where the name matters.\n2. Think of one thing in your building, your street or your college. Say what **must be repaired**, what **should have been replaced** long ago, and what **has not been checked** at all. Three sentences, modal + passive in each.\n3. Take a number you have read or heard this week — any number, from anywhere. Say it honestly in one sentence: *about* how much, *according to* whom, and what is still not known about it.\n\n**Useful sentence starters:**\n\n- *The tents were flooded / have been patched / must be replaced.*\n- *It was \\_\\_\\_\\_ed by \\_\\_\\_\\_, and that name matters because \\_\\_\\_\\_.*\n- *Nothing could be done, because \\_\\_\\_\\_.*\n- *About \\_\\_\\_\\_, according to \\_\\_\\_\\_, although it has not been verified.*\n- *The drain should have been cleared \\_\\_\\_\\_.*\n",
+      "segments": [
+        {
+          "say": "Speaking practice. Record your answer to each question. Speak for forty-five seconds, and do not stop to correct yourself.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 2
+        },
+        {
+          "say": "Question one. Tell the story of that night in your own words. Use the passive at least four times, and name the doer with by once, where the name matters. You have forty-five seconds.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 45
+        },
+        {
+          "say": "Question two. Think of one thing in your building, your street or your college. Say what must be repaired, what should have been replaced long ago, and what has not been checked at all. Three sentences, forty-five seconds.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 45
+        },
+        {
+          "say": "Question three. Take a number you have read or heard this week. Say it honestly in one sentence: about how much, according to whom, and what is still not known about it.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 45
+        },
+        {
+          "say": "This is the end of the speaking practice.",
+          "voice": "narrator"
+        }
+      ]
+    },
+    {
+      "number": "10",
+      "slug": "writing",
+      "title": "Writing",
+      "minutes": 35,
+      "sheet": true,
+      "audio": false,
+      "markdown": "### 6.2 Writing — \"What Was Done That Night\" (14–16 sentences)\n\nWrite a **report**, not a story. A report says what was done and what is known, and where it gives a figure it says whose figure that is. Write about one wet night — the one in the passage, or one you remember — and keep yourself out of it except where you are the doer and the doer matters.\n\n**Model answer (copy the shape, change the words):**\n\n> The rain began in the evening and it did not stop for twelve hours. By midnight the lowest row of tents was under water, and the mattresses and blankets inside them were soaked right through. Food that had been left on the floor was ruined. Eighty-one calls were logged before noon, and each one was recorded with a tent number, a photograph and the depth of the water. The list was not sorted by who had called first; it was sorted by the height of the ground, because the lowest tents were the ones that could not wait. Two drains were cleared by hand. Where the ground allowed it the water was pumped away, and where it did not it was carried out in buckets. Sandbags were filled from the beach and laid along the bottom row. Eight families whose tents could not be dried were moved to a shelter in a school that night. The rest were given nothing, because there was nothing to give: the civil defence has said that its crews had no tents and no tarpaulins at all. About seventy thousand tents were flooded across the strip, according to Gaza's government media office — a figure that has not been independently verified. The tents should have been replaced by caravans months ago, and the caravans have not arrived. Two hundred thousand have been asked for. Eighty-one is the number we checked ourselves, and it is the only number in this report that was counted rather than estimated.\n\n**Checklist before you send it:**\n\n- [ ] I used the **passive** at least **six** times, in at least **two** different tenses.\n- [ ] I used ***by* + the doer** once, where the name actually mattered.\n- [ ] I used a **modal + passive** at least twice (*must be replaced*, *should have been cleared*).\n- [ ] I used the 4.5 pattern once, in full: ***about* … *according to* … *not verified***.\n- [ ] I read back every passive sentence and turned into the active any one where **I knew who did it and the reader should know too**.\n- [ ] No *was happened*, no *were arrived*.\n- [ ] I used at least **5 new words** from Session 2.\n- [ ] I used at least **2 words** from Lesson 7 (*replace, log, fault, label, dust*).\n- [ ] My report has 14–16 sentences.\n"
+    },
+    {
+      "number": "11",
+      "slug": "review",
+      "title": "Review and self-report",
+      "minutes": 30,
+      "sheet": true,
+      "audio": true,
+      "markdown": "### 7.1 Listen again (no text)\n\n1. What were the two numbers at the end of the passage, and what is the difference between them?\n2. Why does the writer say that putting a name back into a sentence is worth doing?\n\n### 7.2 Mini-quiz (12 marks)\n\n1. The passive is made with \\_\\_\\_\\_ + \\_\\_\\_\\_\\_\\_\\_\\_\n2. Which of those two carries the tense? \\_\\_\\_\\_\\_\\_\\_\\_\n3. Turn into the passive: *They have cleared the drain.* \\_\\_\\_\\_\\_\\_\\_\\_\n4. Turn into the passive: *Somebody must replace the tents.* \\_\\_\\_\\_\\_\\_\\_\\_\n5. Give one reason for leaving the doer out that is **good** writing, and one that is **not**. \\_\\_\\_\\_\\_\\_\\_\\_\n6. Why is *the caravans were not arrived* impossible? \\_\\_\\_\\_\\_\\_\\_\\_\n7. What is the difference between *you mustn't* and *you don't have to*? \\_\\_\\_\\_\\_\\_\\_\\_\n8. In *soaked*, *filled* and *flooded*, what are the three sounds of *-ed*? \\_\\_\\_\\_\\_\\_\\_\\_\n9. What does *independently verified* mean, and what do honest reports write instead when nobody has? \\_\\_\\_\\_\\_\\_\\_\\_\n10. Write one sentence with **estimate** and one with **source**.\n11. Write a modal + passive sentence about something near you.\n12. Tell the story of the passage in two sentences, from memory, in the passive.\n\n### 7.3 Lesson 9 self-report\n\n| Question | Answer |\n|---|---|\n| Minutes studied this week | |\n| Hardest part (listening / reading / vocabulary / grammar / the news part / speaking / writing) | |\n| Passive sentences I can now make without thinking | |\n| Words from Lesson 7 I had forgotten | |\n| **Was the passage the right length this week?** It has been about five hundred words for four lessons now — should Lesson 10 be longer? | |\n| Was the subject of this lesson too close this week? Say so plainly if it was. | |\n| One thing I want to repeat next week | |\n",
+      "segments": [
+        {
+          "say": "Review. Listen to the passage once more if you need it, and then answer these two questions with no text in front of you.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 2
+        },
+        {
+          "say": "Question one. What were the two numbers at the end of the passage, and what is the difference between them?",
+          "voice": "narrator"
+        },
+        {
+          "pause": 15
+        },
+        {
+          "say": "Question two. Why does the writer say that putting a name back into a sentence is worth doing?",
+          "voice": "narrator"
+        },
+        {
+          "pause": 15
+        },
+        {
+          "say": "This is the end of the review.",
+          "voice": "narrator"
+        }
+      ]
+    },
+    {
+      "number": "12",
+      "slug": "answer-key",
+      "title": "Answer key and teacher notes",
+      "minutes": 10,
+      "sheet": true,
+      "audio": false,
+      "css_id": "answer-key",
+      "markdown": "**Listening:** L1 — twelve hours, and by midnight the lowest row of the camp was under water · L2 — from the government media office in Gaza; it was reported in those words by agencies abroad and has not been independently verified · L3 — by the height of the ground rather than by who called first, because water does not take turns · L4 — nothing: not a single tent and not a single tarpaulin\n\n**Part A (MCQ):** 1-B · 2-C · 3-C · 4-B · 5-C · 6-B · 7-B · 8-C · 9-D · 10-C\n\n*Why 7 is **[B]***: the sentence weighs one good thing against another — fairness against usefulness — and only the paragraph after **[B]** does any weighing. That paragraph throws away the fair order (who called first) and takes the useful one (the height of the ground). After **[A]** the subject is where a figure came from; after **[C]** it is what the civil defence did not have; after **[D]** it is grammar.\n\n*Why 8 is **C***: the three quoted sentences are not there to be judged true or false, and not as vocabulary. They are there because the first one needs no name — rain decides nothing — and the other two are about decisions somebody took. One grammatical shape, two very different jobs. That is the paragraph's whole purpose.\n\n*Why 9 is **D***: the damage is one paragraph and the form is one paragraph, and the passage never tells the reader what to conclude about the reports — it tells her what to do with them. The night's work and the reading of the numbers carry equal weight, and the last three sentences tie them together: *seventy thousand is an estimate, eighty-one is a count*.\n\n*Why 10 is **C, careful***: **A and B are both traps.** *Pitying* and *angry* are the two attitudes this subject matter invites, and the writer takes neither. Pity would dwell on the ruined flour; anger would name somebody and tell you what to feel. This writer attributes every figure, says plainly what has not been verified, and leaves the one loaded sentence — *aid has been blocked* — as a piece of grammar to examine rather than an accusation to accept. Attitude questions are answered by the **selection of detail**, never by the subject.\n\n**Part B (True/False):**\n\n1. F — It went on for twelve hours; by midnight the lowest row was already under water.\n2. F — It has not been independently verified. It is an estimate from one source.\n3. T\n4. F — Their crews did not have a single tent or a single tarpaulin.\n5. F — They have not arrived.\n6. T\n\n**Part C (Fill in the blanks):** 1. drain · 2. Sandbags · 3. tarpaulin · 4. estimate · 5. source · 6. headline · 7. displaced\n*(Extra words: pump, relief)*\n\n**2.4 A (Opposites):** 1. mild · 2. dry out · 3. take on trust · 4. an exact count · 5. settled\n\n**2.4 B (Odd one out):** 1. headline (the other three hold water back or carry it away) · 2. soak (the other three are about how a figure is known) · 3. dust (the other three are about shelter and help)\n\n**Come back to (*mustn't* / *don't have to*):** 1. mustn't · 2. don't have to · 3. mustn't\n\n**3.8 A (make it passive):** 1. Every mattress in the row was soaked. · 2. The sandbags are filled every winter. · 3. The fault has been reported. · 4. The drain will be cleared tomorrow. · 5. The water was being carried out in buckets.\n\n**3.8 B (agent or no agent):** 1. *The figure was given by the government media office* — keep *by*: whose figure it is **is** the news. · 2. *The tents were flooded* — drop it; the rain is not news. · 3. *Each photograph was labelled* — drop it in a report, and keep *by Nour* only if the point is that she did it herself. · 4. *Fifty thousand tents are being held at the border* — here the agent is exactly what is missing, and the reports do not agree about it. This is a 4.4 sentence.\n\n**3.8 C (modal + passive):** 1. These tents must be replaced. · 2. Eight of the tents could not be dried. · 3. The drain should have been cleared last summer. · 4. The number may be too high.\n\n**3.8 D (impossible):** 1. (a) — *happen* takes no object, so it has no passive · 2. (b) — same reason: *arrive* takes no object · 3. neither is impossible; (b) only adds an agent, and here it is not worth the words\n\n**3.8 E (*mustn't* / *don't have to*):** 1. mustn't · 2. doesn't have to · 3. mustn't\n\n**3.8 F (active or passive):**\n\n1. (a) is better — the committee is known and the sentence is shorter\n2. (b) is better — *somebody flooded the camp* says a person did it, and it was the rain\n3. Either, and the difference is the whole point: (a) takes responsibility and (b) avoids it. In your own report, write (a)\n\n**4.4 (the passive hunt):** nothing changes in 1 and 6 — the rain, and hands that cleared a drain. A name changes 3, 5 and 7 completely, and 4 nearly as much. In 2, asking *who has not verified it?* turns a flat fact into the right question: nobody has. Those are the sentences to read twice, in any language.\n\n**Mini-quiz:** 1. *be* + the past participle · 2. *be* · 3. The drain has been cleared. · 4. The tents must be replaced. · 5. Good: the doer is unknown, obvious, or not the point. Not good: the doer is known and should be named. · 6. *arrive* takes no object, so there is nothing to move to the front · 7. *mustn't* = it is forbidden; *don't have to* = there is no need · 8. <span class=\"ipa\">/t/</span>, <span class=\"ipa\">/d/</span>, <span class=\"ipa\">/ɪd/</span> — and only *t* and *d* add a syllable · 9. checked by somebody who does not need a particular answer; when nobody has, honest reports write *according to* · 10–12. teacher judgement\n\n### Teacher Notes {: #teacher-notes }\n\n**What this lesson is, and the line it walks.** The passage is set in the first severe storm of this winter, which flooded tens of thousands of tents across Gaza on 6–7 November 2026 — the week she is studying it. That is deliberate, and so is the handling. The story and the student in it are written, as in every lesson. Every figure is real, is traced in part 06 to the source that gave it, and is marked for how sure it is. The figure everybody repeated — seventy thousand tents in twelve hours — came from one office that is a party to the conflict and has not been independently verified, and the lesson says so twice without deciding whether it is true. That distinction *is* the lesson. If the week turns out to be too close for the passage, part 06 stands on its own perfectly well: do the numbers, the sources and the passive hunt, and read the passage next week.\n\n**What changed from Lesson 8, and what did not.** 532 words, against 516, 510 and 504 — the fourth lesson at about five hundred, which holds the plateau until her self-report at 7.3 says otherwise. The question set has not moved: ten questions, eight types, the same order since Lesson 5. The grammar step is the passive, and the come-back is Lesson 7's modals, expanded with *mustn't* against *don't have to* and with *may* and *might* — which is also the bridge into 3.6, modal + passive.\n\n**The one structural change, and why it earns its place.** There is a new session: part 06, *The news behind this passage*, which makes seven sessions instead of six. It is there because this is the first lesson whose passage rests on real reporting, and a lesson that borrows real figures owes her the sources. It is also the cheapest B2 teaching in the course: hedging and attribution — *about*, *according to*, *has not been verified* — are exactly what TOEFL's integrated writing is marked on, and 4.5 gives her a sentence pattern she can reuse for the rest of her life. The agentless passive and the unsourced number turn out to be one skill, which is why the grammar and the media work sit in one lesson instead of two.\n\n**The one real difficulty.** Not the form — *be* + participle is a card. It is that **Arabic marks the passive inside the verb** (*فُعِل*), so an English passive looks to her like two verbs in a row, and *has been patched* like three. Say the rule in one line and keep saying it: **only *be* moves; the participle never changes.** Table 3.5 is the one to work, because it shows her that she has not learned a ninth tense — she has learned a shape that all eight of the tenses she already owns can take.\n\n**Why the pronunciation part is the one to protect.** The whole structure is carried by *was*, *were*, *been* and *-ed*, and all four are weak or inaudible. *The tents are flooded* against *the tents were flooded* is one unstressed vowel, and it is the difference between tonight and last winter. The three sounds of *-ed* come back here from Lesson 2 for a reason: every passive in English ends in one, so a rule she learned in week two is suddenly load-bearing.\n\n**A note on spaced recall.** `03-vocabulary.mp3` ends with five Lesson 7 words — *replace, log, fault, label, dust* — and all five appear inside this lesson's passage, so she meets them in use before she is asked for them. The two-lesson gap holds. Lesson 8's words are due back in Lesson 10.\n\n**Success criteria for Lesson 9.** The student should be able to:\n\n- answer L1–L4 correctly on the second hearing;\n- hear *are* against *were*, and *soaked* against *flooded*, and say which is which;\n- make the passive of the present simple, past simple, present perfect, future and a modal;\n- say why a writer left the doer out, choosing between the four reasons in 3.3;\n- turn an agentless passive back into the active and judge which version belongs in her own writing;\n- never write *was happened* or *were arrived*;\n- state the difference between *mustn't* and *don't have to*;\n- write one figure the 4.5 way, with all three pieces in place;\n- use 10 of the 14 key words in sentences of her own.\n\n**If it is too easy:** add the passive with two objects (*she was given a tarpaulin* / *a tarpaulin was given to her*), and the reporting passive — *it is said that*, *is reported to be* — which is where the next lesson is going anyway.\n**If it is too hard:** teach 3.1 to 3.4 this week and stop. The present and past simple passive, with and without *by*, is a full week's work on its own, and 3.5 to 3.7 lose nothing by waiting.\n\n**Where the course is now, and what Lesson 10 should do.** Nine lessons, one progress test, a complete TOEFL question set, nine structures all spiralled at least twice, and now the passive tying every earlier tense together in a single table. Two things are outstanding and both are hers to decide: whether the passage may grow past five hundred words (7.3), and whether a second progress test over Lessons 4 to 8 comes before Lesson 10 or after it. Reported speech is the natural next structure — *the office said that seventy thousand tents had been flooded* — because this lesson has already put her in the habit of asking who said a thing, and reported speech is the grammar of exactly that question.\n"
+    },
+    {
+      "number": "13",
+      "slug": "passage-slow",
+      "title": "The passage, read slowly",
+      "minutes": 15,
+      "sheet": false,
+      "audio": true,
+      "segments": [
+        {
+          "say": "Slow version. The passage, read slowly, one time.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 2
+        },
+        {
+          "say": "The first severe storm of the winter began at nine in the evening and did not stop for twelve hours. By midnight the lowest row of the camp was under water. The dust of four dry months had become mud in an hour. Mattresses were soaked, blankets were soaked, and the flour was ruined, because it had been left on the floor like everything else. Nobody had to be told the tents were old: many are in their fourth winter and have been patched until the patches have patches.\n\nBy the next afternoon one number was in every headline: seventy thousand tents flooded in twelve hours. The figure was given by the government media office in Gaza and was reported, in those words, by agencies abroad. It has not been independently verified. It is an estimate, made quickly, from one source, which is not a reason to throw it away, but a reason to say where it came from.\n\nNour is nineteen, studies computing, and spent that day on a smaller number. Eighty-one calls were in her log before noon. A form had been built the week before, on her phone, for exactly this: a tent number, a photograph labelled with it, the depth of the water, and whether there were children under five. The form works with no connection: the records were held until the line came back, and were then uploaded in eleven seconds.\n\nThe list was not sorted by who had called first. It was sorted by the height of the ground, because water does not take turns. Two drains were cleared by hand; the fault in the bigger one had been reported a year before. Where the ground allowed it, water was pumped away; elsewhere it was carried out in buckets. Sandbags were filled from the beach and laid along the bottom row. The one tarpaulin they found was tied over a tent with small children in it, and eight families whose tents could not be dried were moved to a shelter in a school.\n\nVery little could be done by the civil defence, and they said so plainly: their crews had not a single tent or tarpaulin to hand out. Fifty thousand relief tents were reported to be waiting at the border. Two hundred thousand have been asked for, with heaters, for more than a million displaced people. The tents were supposed to have been replaced by caravans months ago. The caravans have not arrived.\n\nRead that week's reports and notice how many sentences have nobody in them. Tents were flooded. Supplies were not delivered. Aid has been blocked. The rain is nobody's decision and needs no name. The other two are about decisions somebody made, and English lets a writer leave the name out. Put a name back and read the sentence again. If it still says the same thing, nothing was hidden. If it does not, you have found what it was built to leave out.\n\nNour's list has a column that none of the reports had. It is headed checked, and a row is only ticked when somebody has stood at the tent. Seventy thousand is an estimate. Eighty-one is a count.",
+          "voice": "slow"
+        },
+        {
+          "pause": 2
+        },
+        {
+          "say": "This is the end of the slow version.",
+          "voice": "narrator"
+        }
+      ]
+    }
+  ]
+}
