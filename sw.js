@@ -26,7 +26,7 @@
    that ships changes. A rebuild that changes nothing keeps the name,
    and this file stays byte-identical, so an installed reader
    re-downloads nothing: there are no timestamps in here on purpose. */
-var CACHE = 'esl-3ba06e82f18b';
+var CACHE = 'esl-7b40f6682ff2';
 
 /* THE INVARIANT ON THIS ORIGIN.
 
@@ -77,15 +77,15 @@ var PRECACHE = [
    cache instead of downloading it again -- so editing one lesson in a
    course of two hundred files costs one download, not two hundred. */
 var HASHES = [
-  '6e408c1ba956',
+  '2bd5f4f379f6',
   'ac6ff71be952',
   'eca3cd7c62a0',
-  '2a32b00b5634',
+  '6b67ac748c00',
   '7660dac79c84',
   '0d6dccd7de43',
   '00eab2380084',
   '37e6957a5c7e',
-  '6e408c1ba956',
+  '2bd5f4f379f6',
   '4621067c5a36'
 ];
 
