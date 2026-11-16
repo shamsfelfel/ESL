@@ -2066,7 +2066,7 @@
       "whole": {
         "pdf": {
           "file": "00-lesson.pdf",
-          "bytes": 124588
+          "bytes": 124590
         },
         "mp3": {
           "file": "00-full-section.mp3",
@@ -2082,7 +2082,7 @@
           "minutes": 20,
           "pdf": {
             "file": "01-passage.pdf",
-            "bytes": 30374
+            "bytes": 30373
           },
           "mp3": {
             "file": "01-passage.mp3",
@@ -2097,7 +2097,7 @@
           "minutes": 10,
           "pdf": {
             "file": "02-listening-questions.pdf",
-            "bytes": 17544
+            "bytes": 17540
           },
           "mp3": {
             "file": "02-listening-questions.mp3",
@@ -2127,7 +2127,7 @@
           "minutes": 50,
           "pdf": {
             "file": "04-grammar-past-perfect.pdf",
-            "bytes": 53355
+            "bytes": 53346
           }
         },
         {
@@ -2137,7 +2137,7 @@
           "minutes": 25,
           "pdf": {
             "file": "05-had-and-would-have.pdf",
-            "bytes": 37146
+            "bytes": 37147
           },
           "mp3": {
             "file": "05-had-and-would-have.mp3",
@@ -2152,7 +2152,7 @@
           "minutes": 45,
           "pdf": {
             "file": "06-comprehension.pdf",
-            "bytes": 29227
+            "bytes": 29225
           },
           "mp3": {
             "file": "06-comprehension.mp3",
@@ -2167,7 +2167,7 @@
           "minutes": 15,
           "pdf": {
             "file": "07-true-false.pdf",
-            "bytes": 14684
+            "bytes": 14691
           },
           "mp3": {
             "file": "07-true-false.mp3",
@@ -2182,7 +2182,7 @@
           "minutes": 25,
           "pdf": {
             "file": "08-speaking.pdf",
-            "bytes": 19542
+            "bytes": 19545
           },
           "mp3": {
             "file": "08-speaking.mp3",
@@ -2207,7 +2207,7 @@
           "minutes": 30,
           "pdf": {
             "file": "10-review.pdf",
-            "bytes": 25953
+            "bytes": 25954
           },
           "mp3": {
             "file": "10-review.mp3",
@@ -2222,7 +2222,7 @@
           "minutes": 10,
           "pdf": {
             "file": "11-answer-key.pdf",
-            "bytes": 43569
+            "bytes": 43571
           }
         },
         {
