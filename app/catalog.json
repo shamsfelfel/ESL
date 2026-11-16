@@ -2813,6 +2813,110 @@
           }
         }
       ]
+    },
+    {
+      "kind": "test",
+      "slug": "test-02",
+      "path": "tests/test-02",
+      "number": 8,
+      "title": "Progress Test 2 — after Lessons 4 to 8",
+      "level": "B1 · checks Lessons 4, 5, 6, 7 and 8",
+      "topic": "The present perfect and its continuous, the future, the modals and the conditionals",
+      "time": "about 90 minutes, in one sitting if possible",
+      "skills": "Listening → Reading → Vocabulary and grammar → Writing → Speaking",
+      "new": "two texts she has never seen, a reading passage of 560 words that argues, with eight question types, the five structures of Lessons 4 to 8 tested two gaps each, and a score that says which lesson to go back to",
+      "minutes": 100,
+      "bytes": 6892821,
+      "howToWork": [
+        "Sit the whole test in one go if you can, with a clock, and do not open part 06 until you have finished.",
+        "Start with **01-listening.mp3** and do not read the sheet before you play it. Sections 2, 3 and 4 are paper only.",
+        "Play **05-speaking.mp3** last and record your two answers.",
+        "Then open part 06, mark yourself out of 100, and read the table that says which lesson to go back to."
+      ],
+      "games": [],
+      "whole": {
+        "pdf": {
+          "file": "00-lesson.pdf",
+          "bytes": 51911
+        },
+        "mp3": {
+          "file": "00-full-section.mp3",
+          "bytes": 3359232,
+          "seconds": 559.9
+        }
+      },
+      "parts": [
+        {
+          "number": "01",
+          "slug": "listening",
+          "title": "Section 1 — Listening",
+          "minutes": 20,
+          "pdf": {
+            "file": "01-listening.pdf",
+            "bytes": 24078
+          },
+          "mp3": {
+            "file": "01-listening.mp3",
+            "bytes": 2135808,
+            "seconds": 356.0
+          }
+        },
+        {
+          "number": "02",
+          "slug": "reading",
+          "title": "Section 2 — Reading",
+          "minutes": 25,
+          "pdf": {
+            "file": "02-reading.pdf",
+            "bytes": 32080
+          }
+        },
+        {
+          "number": "03",
+          "slug": "vocabulary-and-grammar",
+          "title": "Section 3 — Vocabulary and grammar",
+          "minutes": 20,
+          "pdf": {
+            "file": "03-vocabulary-and-grammar.pdf",
+            "bytes": 26795
+          }
+        },
+        {
+          "number": "04",
+          "slug": "writing",
+          "title": "Section 4 — Writing",
+          "minutes": 15,
+          "pdf": {
+            "file": "04-writing.pdf",
+            "bytes": 23084
+          }
+        },
+        {
+          "number": "05",
+          "slug": "speaking",
+          "title": "Section 5 — Speaking",
+          "minutes": 10,
+          "pdf": {
+            "file": "05-speaking.pdf",
+            "bytes": 25521
+          },
+          "mp3": {
+            "file": "05-speaking.mp3",
+            "bytes": 1175904,
+            "seconds": 196.0
+          }
+        },
+        {
+          "number": "06",
+          "slug": "answer-key",
+          "title": "Answer key, marking and what to do next",
+          "minutes": 10,
+          "pdf": {
+            "file": "06-answer-key.pdf",
+            "bytes": 38408
+          }
+        }
+      ]
     }
   ]
 }

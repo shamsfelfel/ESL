@@ -958,3 +958,83 @@ Also checked:
 
 Nothing in this phase's scope. Building, the catalogue, the service worker
 and the README tests table are phase 08's.
+
+## Phase 08 — Build Progress Test 2, and prove the key prints separately
+
+### What I built
+
+`python build.py --build` in `tests/test-02`: seven PDFs (`00-lesson.pdf`,
+`01`–`06`), three MP3s (`01-listening` 2.0 MB, `05-speaking` 1.1 MB,
+`00-full-section` 3.2 MB) and the folder `README.md`. Folder 6.6 MB (the plan
+estimated about 7 MB). Then `make_catalog.py` (lists `test-02`, 6 parts, 6.6 MB)
+and `scripts/build-sw.py` (10 entries, cache `esl-ce4c97a2bc39`). The repository
+`README.md` tests table, the Progress Test 2 paragraph and the *For the
+student* link list are updated.
+
+### Audit (before building)
+
+- Marks: listening 5×3+5 = 20; reading 4,4,4,4,3,3,4,4 = 30; section 3
+  10+10+5+5 = 30; writing 2+3+3+2 = 10; speaking 3+3+2+2 = 10; total 100. Each
+  section heading's total matches its questions.
+- Passage 560 words, counted by me with the markers removed, equal to the
+  heading and `passage_words`. Talk is 295 words.
+- Neither text is in any earlier lesson: no Tamer, Hadeel, subtitles, or
+  film/boat situation (the only hit for *director* is Lesson 9's civil-defence
+  official, unrelated). `check_test.py` also finds no eight-word run shared.
+- Part A: deadline L6, password L4, diagnose L7, beginner L5, afford L8, spare
+  L6, publish L4, warranty L7, patient L5, reliable L8 — all five lessons.
+- Key is `in_whole: false`; every question has an answer row; no orphans.
+  Reading uses eight distinct types (negative factual sits in the listening,
+  as phase 07 decided).
+
+### The one change to `lesson.json`
+
+In part 01 the intro blockquote was shortened by one sentence ("Answer on this
+sheet." folded in, wording otherwise kept). Reason: in the first render, Q5's
+option D landed alone at the top of page 2 of `01-listening.pdf`, a page break
+inside a question. After the edit Q5 is whole on page 1 and Q6 starts page 2.
+Nothing else was changed; `--check` still clean. The audio was not affected
+(the text edited is on the sheet only), so the MP3s were not rebuilt.
+
+### The proof that the key is not in `00-lesson.pdf`
+
+    for p in "What the score means" "Which lesson to go back to" "Teacher notes" "deadline (the others"; do
+      echo "$p: whole=$(pdftotext 00-lesson.pdf - | grep -c "$p") key=$(pdftotext 06-answer-key.pdf - | grep -c "$p")"; done
+    What the score means: whole=0 key=1
+    Which lesson to go back to: whole=0 key=1
+    Teacher notes: whole=0 key=1
+    deadline (the others: whole=0 key=1
+
+`00-lesson.pdf` is 9 pages = 2+3+2+1+1 (sections 1–5); the key is its own
+4-page file.
+
+### Layout checked
+
+Page-top/bottom lines read for every sheet. No question is split. Reading: the
+passage fills page 1, questions 1–6 page 2, 7–8 page 3; the four markers print
+in the passage. The only split is Section 3 Part C, whose item 5 starts page 2
+(items, not a question; left). Part D's header is followed by its rows on the
+same page. I did not listen to the audio, so the 10 s answer gaps are checked
+only in the JSON.
+
+### Decisions under autonomy rule 1
+
+1. **Co-Authored-By trailer.** The run's preamble says copy the line in
+   `git log` (Opus 5.5); the system attribution notice for this session gives
+   `Claude Sonnet 5.5` and says it replaces earlier guidance. I used the
+   session's line.
+2. **Page-break fix by shortening text** rather than any CSS/`build.py` change,
+   both being off limits.
+3. **README**: replaced the "next thing the course needs" paragraph; stated that
+   the next need is a third test after Lesson 12 and Lesson 13's length awaiting
+   her self-report. Length "About 90 minutes" copied from Test 1's row (the five
+   section minutes are 20+25+20+15+10 = 90).
+
+### Verification
+
+`check_test.py`: every check passed. `npx playwright test`: 22 passed.
+
+### Deferred
+
+Listening to the audio (human). The README's statement that the course next
+needs a third test is my reading of the evidence, for Raed to confirm.

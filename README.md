@@ -158,12 +158,18 @@ answer the mistakes she is actually making.
 | Test | Covers | Length | Marks | Status |
 |---|---|---|---|---|
 | [Progress Test 1](tests/test-01/README.md) | Lessons 1 to 3 | About 90 minutes | 100 | Complete |
-| Progress Test 2 | Lessons 4 to 8 | — | — | Not written |
+| [Progress Test 2](tests/test-02/README.md) | Lessons 4 to 8 | About 90 minutes | 100 | Complete |
 
-**Progress Test 2 is the next thing the course needs.** It covers Lessons 4 to
-8 — the present perfect and its continuous, the future, the modals and the
-conditionals — and it was meant to come before Lesson 10. Lessons 10 to 12 were
-written first, so it is now overdue.
+**Progress Test 2** covers Lessons 4 to 8 — the present perfect and its
+continuous, the future, the modals and the conditionals. It was meant to come
+before Lesson 10 and was written after Lesson 12, so its answer key tells her to
+carry on from where she is rather than go back to Lesson 9. It is the test the
+course promised when Test 1 said a far longer reading passage would follow
+Lesson 8: its reading passage is 560 words and its listening talk about 300, both
+new, and the key maps each weak item to the lesson that teaches it. It is a
+**progress test against this course**, not a TOEFL score. What the course needs
+next is a third test after Lesson 12, and Lesson 13's length, which is waiting
+on her self-report.
 
 Both of Progress Test 1's texts are ones she has never seen, so nothing in it
 can be answered from memory of the lessons. It is a **progress test against this
@@ -291,7 +297,8 @@ lesson folder: [Lesson 1](lessons/lesson-01/README.md),
 [Lesson 10](lessons/lesson-10/README.md),
 [Lesson 11](lessons/lesson-11/README.md),
 [Lesson 12](lessons/lesson-12/README.md),
-[Progress Test 1](tests/test-01/README.md). Each one has a table of parts in
+[Progress Test 1](tests/test-01/README.md),
+[Progress Test 2](tests/test-02/README.md). Each one has a table of parts in
 study order.
 
 - **Download one numbered part at a time.** Each part is a few hundred KB. You
