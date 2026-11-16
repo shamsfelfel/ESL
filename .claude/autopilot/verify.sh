@@ -95,6 +95,22 @@ else
 fi
 rm -f /tmp/esl-str.$$
 
+# --- Progress Test 2 ---------------------------------------------------------
+# A test fails in ways a lesson cannot: marks that stop adding to 100, and an
+# answer key that prints inside 00-lesson.pdf, which is the one file a teacher
+# hands out.
+if [ -f tests/test-02/lesson.json ]; then
+  if "$PY" .claude/autopilot/check_test.py --built >/tmp/esl-t2.$$ 2>&1; then
+    note "PASS  Progress Test 2 structure"
+    sed 's/^/      /' /tmp/esl-t2.$$ | tail -14
+  else
+    note "FAIL  Progress Test 2 structure"
+    sed 's/^/      /' /tmp/esl-t2.$$ | tail -30
+    fails+=("Progress Test 2 structure")
+  fi
+  rm -f /tmp/esl-t2.$$
+fi
+
 # --- the app's catalogue ------------------------------------------------------
 check "make_catalog.py runs" "$PY" make_catalog.py
 
@@ -234,7 +250,7 @@ fi
 if [ -f .claude/autopilot/baseline ]; then
   base="$(cat .claude/autopilot/baseline)"
   touched="$(git diff --name-only "$base" HEAD 2>/dev/null \
-             | grep -E '^(lessons/lesson-0[1-9]|tests)/' | head -5)"
+             | grep -E '^(lessons/lesson-0[1-9]|tests/test-01)/' | head -5)"
   if [ -n "$touched" ]; then
     note "FAIL  finished work was modified: $(echo "$touched" | tr '\n' ' ')"
     fails+=("finished lesson modified")

@@ -71,7 +71,7 @@ BASH_RULES = [
      "timestamps, for no change in content."),
     (r"\brm\b[^|;&]*\blessons/lesson-0[1-9]\b",
      SHIPPED),
-    (r"\brm\b[^|;&]*\btests/\b",
+    (r"\brm\b[^|;&]*\btests/test-01\b",
      SHIPPED),
     (r">\s*scripts/build-sw\.py|\b(sed|tee|cp|mv)\b[^|;&]*scripts/build-sw\.py",
      "scripts/build-sw.py is vendored byte-for-byte across the seven sibling "
@@ -144,12 +144,12 @@ def main():
         # rebuild a shipped lesson with nothing to stop it. The phase prompts
         # already write it as one command.
         if re.search(r"build\.py\b.*(--build|--pdf-only|--audio-only|--only)",
-                     cmd, re.S) and not re.search(r"lesson-1[0-2]", cmd):
-            deny("Name the lesson in the same command, so this hook can see "
-                 "which one you are building: "
-                 "`cd lessons/lesson-10 && python build.py --build`. Nine "
-                 "lessons are finished and built, and a rebuild of one of them "
-                 "rewrites fifty files she has already downloaded.")
+                     cmd, re.S) and not re.search(r"lesson-1[0-2]|test-02", cmd):
+            deny("Name what you are building in the same command, so this "
+                 "hook can see which one it is: `cd lessons/lesson-10 && "
+                 "python build.py --build`, or `cd tests/test-02 && ...`. Nine "
+                 "lessons and one test are finished and built, and a rebuild "
+                 "of any of them rewrites files she has already downloaded.")
 
     if tool in ("Write", "Edit", "NotebookEdit"):
         raw = str(args.get("file_path") or args.get("path") or "")
@@ -161,7 +161,10 @@ def main():
                      "message and stop.")
             if re.search(r"(^|/)lessons/lesson-0[1-9]/", "/" + path):
                 deny(SHIPPED)
-            if re.search(r"(^|/)tests/", "/" + path):
+            # Progress Test 1 is finished and sat. Progress Test 2 is being
+            # written, so tests/test-02 is the one place under tests/ that is
+            # open -- and only its source, never what build.py writes.
+            if re.search(r"(^|/)tests/test-01/", "/" + path):
                 deny(SHIPPED)
             for rx in GENERATED_RE:
                 if rx.search(path):
@@ -189,7 +192,7 @@ def main():
                          "docs/LESSONS-10-12-BLOCKED.md and stop." % path)
             # The repository README is the course's front page, and the last
             # phase rewrites its tables once, with all three lessons in hand.
-            if path == "README.md" and os.environ.get("ESL_PHASE") not in ("6",):
+            if path == "README.md" and os.environ.get("ESL_PHASE") not in ("6", "8"):
                 deny("README.md is rewritten once, by the last phase, when all "
                      "three lessons exist and their real word counts and sizes "
                      "are known. Put what you want it to say in "
