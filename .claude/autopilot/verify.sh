@@ -185,6 +185,29 @@ else
 fi
 rm -f /tmp/esl-net.$$
 
+# --- the page-view loader -----------------------------------------------------
+# Upstream put a Cloudflare Web Analytics loader in every generated puzzle page,
+# written by _game_page in build.py, and the whole point of it is that it is on
+# every page exactly once. A new lesson built from a stale copy of build.py is
+# how that silently stops being true, so it is checked rather than assumed.
+beacon="static.cloudflareinsights.com"
+bad=""
+for f in lessons/lesson-1[0-2]/1?-*.html; do
+  [ -f "$f" ] || continue
+  c=$(grep -c "$beacon" "$f" || true)
+  [ "$c" = "1" ] || bad="$bad $f($c)"
+done
+if [ -n "$bad" ]; then
+  note "FAIL  a new game page does not carry the page-view loader exactly once:$bad"
+  fails+=("page-view loader")
+else
+  note "PASS  every new game page carries the page-view loader exactly once"
+fi
+if ! grep -q "$beacon" index.html; then
+  note "FAIL  index.html has lost its page-view loader"
+  fails+=("index.html loader")
+fi
+
 # --- repository hygiene -------------------------------------------------------
 # The phase must have committed its work: an uncommitted file is work that does
 # not survive the next phase. sw.js and app/catalog.json are exempt because the

@@ -85,9 +85,16 @@ three.
   `esl-content-v1`. Cache Storage is scoped to the origin, not the path: a
   worker that deletes caches it does not recognise takes the six sibling
   courses offline, and `esl-content-v1` holds the files she paid data for.
-- **No network request at run time.** No CDN, no web font, no analytics. The
-  games open from a phone with no connection. `edge-tts` reaching Microsoft's
-  voice endpoint at build time is the only network call this build makes.
+- **One network request at run time, and only the one.** The games open from a
+  phone with no connection, so no CDN, no web font, nothing a lesson needs in
+  order to work. The single exception arrived upstream on 16 Nov 2026 and is
+  deliberate: every generated puzzle page carries a Cloudflare Web Analytics
+  loader, written by `_game_page` in `build.py`, which fires only on
+  `shamsfelfel.github.io` and only outside an iframe. **Do not remove it, do
+  not add a second one, and do not report it as a fault** -- it is counted, and
+  the gate checks that each new game page carries exactly one. `edge-tts`
+  reaching Microsoft's voice endpoint at build time is the only other network
+  call anything here makes.
 - **Nothing in a lesson is borrowed from the real world.** These three passages
   are written stories: no real organisation, no real figure, no real link, no
   date lifted from reporting. Lesson 9 is the one lesson built on real

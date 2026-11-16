@@ -16,7 +16,10 @@
   that only the text gets harder.
 - **No real organisation, no real figure, no real link** in any of these three
   passages. They are written stories.
-- **No network request at run time.** The games open with no connection.
+- **One network request at run time, and only the one.** The games open with
+  no connection. The exception is the Cloudflare Web Analytics loader that
+  `build.py` writes into every puzzle page: deliberate, upstream, exactly
+  once per page. Do not remove it and do not report it as a fault.
 - **Every number you print is one you counted.** Word counts, part counts,
   minute totals, folder sizes: run the command and paste what it said.
 - **Do not weaken a check to make the gate green.** If something fails, say so
