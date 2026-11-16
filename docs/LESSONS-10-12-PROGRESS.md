@@ -605,3 +605,40 @@ are whole.
 
 Nothing in this phase's scope. The build, catalogue and service worker are
 phase 05's.
+
+## Phase 05 — Build Lesson 12, and read what came out
+
+**Audit (no changes to `lesson.json` needed).** Passage 530 words in heading,
+`passage_words` and the gate's own count. All five recalled words (router,
+spreadsheet, delay, assume, retrieve) are in Lesson 10's committed fourteen.
+Part 04 opens with the come-back to the past perfect, then the continuous.
+The passage has non-defining clauses before part 04 names them (*where the
+router sits*, *Karim, whose…*, *which is why*, *which is the one thing*).
+Part 06 has ten questions in eight types. Part 10 asks for reading time, words
+looked up, a length choice, and two grammar ticks with one unsure sentence each.
+
+**Build.** The first `--build` hit the background time limit and was stopped
+with an empty log; the second run finished from the audio cache (rc=0, 98 s,
+30 files, 18.7 MB; `du` 19M). `check_lessons.py --built`: every check passed,
+L12 folder 19.6 MB (under 20 MB).
+
+**Seen.** PDFs: passage page 1, part 04 page 2, answer key page 1 (rendered at
+low resolution; layout fine, the Arabic phrase in 3.1 renders). Games (from the
+build report): crossword 19 words, grid 18x16; word search 19, 13x13; memory 19
+words, 10 pairs a round, 6 drawn (the rest are the abstract words, which
+*mixed* is for); criss-cross 14, 17x16; cryptogram 14. Nothing reported as not
+fitting. Each game page carries exactly one Cloudflare loader.
+
+**Not verified.** I did not listen to the audio, and cannot. For part 05 I read
+the segment list: defining sentences are spoken straight through, the
+non-defining ones keep their commas in the text sent to the voice, with
+explicit pauses between lines. Whether the voice truly stops at each comma and
+falls before it is unconfirmed. Raed should listen to the first test in
+`05-commas-and-had-been.mp3`. If it does not pause, that is a finding, not a
+reason to edit `build.py`.
+
+**Catalogue and worker.** `make_catalog.py` lists lesson-10, lesson-11 and
+lesson-12, each 12 parts. `build-sw.py`: 10 entries, cache `esl-b26ef84d7470`.
+Playwright was not run in this phase.
+
+**Deferred.** Playwright suite; listening to part 05.

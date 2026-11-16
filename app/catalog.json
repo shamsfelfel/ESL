@@ -2475,6 +2475,242 @@
       ]
     },
     {
+      "kind": "lesson",
+      "slug": "lesson-12",
+      "path": "lessons/lesson-12",
+      "number": 12,
+      "title": "Lesson 12 — The Room That Keeps the Light",
+      "level": "B1+ → B2 (twelfth step)",
+      "topic": "A computer room that opens on the hours there is power, and the people in it",
+      "time": "6 sessions, 50–60 minutes each",
+      "skills": "Listening → Reading → Vocabulary → Grammar → Comprehension → Speaking → Writing",
+      "new": "relative clauses — who, which, that, whose and where, the object pronoun that can be left out, and the non-defining clause between two commas, which never takes that; which commenting on a whole clause, the first B2 structure in the course; the past perfect continuous against the simple; and the stop and fall you can hear at a comma, and had been said as one short sound. The passage stays at about 500 words for the seventh lesson running, and the question set is unchanged.",
+      "minutes": 305,
+      "bytes": 19412194,
+      "howToWork": [
+        "Play **01-passage.mp3** and listen twice with no text in front of you. Do not open the PDF yet.",
+        "Then work through the parts in number order. Part 04 is grammar and has no audio; part 05 needs its audio more than any other part in this lesson, because it is the one place in the course where you can hear a comma.",
+        "Read section 3.5 of part 04 twice. Two commas change what a sentence claims, and 3.5 is where you write both versions and say what each one means.",
+        "Open part 11, the answer key, only when parts 01 to 10 are finished. Answer the two questions at the end of part 10 honestly: the next lessons are written from them. The five games come days later, not the same evening."
+      ],
+      "games": [
+        {
+          "number": "13",
+          "slug": "crossword",
+          "title": "Crossword",
+          "minutes": 15,
+          "file": "13-crossword.html",
+          "bytes": 39555
+        },
+        {
+          "number": "14",
+          "slug": "word-search",
+          "title": "Word search",
+          "minutes": 10,
+          "file": "14-word-search.html",
+          "bytes": 25470
+        },
+        {
+          "number": "15",
+          "slug": "memory",
+          "title": "Memory pairs",
+          "minutes": 10,
+          "file": "15-memory.html",
+          "bytes": 14962
+        },
+        {
+          "number": "16",
+          "slug": "criss-cross",
+          "title": "Criss-cross, Arabic clues",
+          "minutes": 15,
+          "file": "16-criss-cross.html",
+          "bytes": 34493
+        },
+        {
+          "number": "17",
+          "slug": "cryptogram",
+          "title": "Cryptogram",
+          "minutes": 15,
+          "file": "17-cryptogram.html",
+          "bytes": 26101
+        }
+      ],
+      "whole": {
+        "pdf": {
+          "file": "00-lesson.pdf",
+          "bytes": 135369
+        },
+        "mp3": {
+          "file": "00-full-section.mp3",
+          "bytes": 5597712,
+          "seconds": 933.0
+        }
+      },
+      "parts": [
+        {
+          "number": "01",
+          "slug": "passage",
+          "title": "Passage — The Room That Keeps the Light",
+          "minutes": 20,
+          "pdf": {
+            "file": "01-passage.pdf",
+            "bytes": 31682
+          },
+          "mp3": {
+            "file": "01-passage.mp3",
+            "bytes": 2615328,
+            "seconds": 435.9
+          }
+        },
+        {
+          "number": "02",
+          "slug": "listening-questions",
+          "title": "Listening questions",
+          "minutes": 10,
+          "pdf": {
+            "file": "02-listening-questions.pdf",
+            "bytes": 20408
+          },
+          "mp3": {
+            "file": "02-listening-questions.mp3",
+            "bytes": 418608,
+            "seconds": 69.8
+          }
+        },
+        {
+          "number": "03",
+          "slug": "vocabulary",
+          "title": "Vocabulary and Lesson 10 recall",
+          "minutes": 35,
+          "pdf": {
+            "file": "03-vocabulary.pdf",
+            "bytes": 41177
+          },
+          "mp3": {
+            "file": "03-vocabulary.mp3",
+            "bytes": 2243520,
+            "seconds": 373.9
+          }
+        },
+        {
+          "number": "04",
+          "slug": "grammar-relative-clauses",
+          "title": "Grammar — relative clauses, and the past perfect continuous",
+          "minutes": 50,
+          "pdf": {
+            "file": "04-grammar-relative-clauses.pdf",
+            "bytes": 60071
+          }
+        },
+        {
+          "number": "05",
+          "slug": "commas-and-had-been",
+          "title": "The commas you can hear, and the weak had been",
+          "minutes": 25,
+          "pdf": {
+            "file": "05-commas-and-had-been.pdf",
+            "bytes": 35855
+          },
+          "mp3": {
+            "file": "05-commas-and-had-been.mp3",
+            "bytes": 2407824,
+            "seconds": 401.3
+          }
+        },
+        {
+          "number": "06",
+          "slug": "comprehension",
+          "title": "Comprehension — a full TOEFL set of ten",
+          "minutes": 45,
+          "pdf": {
+            "file": "06-comprehension.pdf",
+            "bytes": 30015
+          },
+          "mp3": {
+            "file": "06-comprehension.mp3",
+            "bytes": 1943856,
+            "seconds": 324.0
+          }
+        },
+        {
+          "number": "07",
+          "slug": "true-false",
+          "title": "True / false",
+          "minutes": 15,
+          "pdf": {
+            "file": "07-true-false.pdf",
+            "bytes": 15318
+          },
+          "mp3": {
+            "file": "07-true-false.mp3",
+            "bytes": 538272,
+            "seconds": 89.7
+          }
+        },
+        {
+          "number": "08",
+          "slug": "speaking",
+          "title": "Speaking",
+          "minutes": 25,
+          "pdf": {
+            "file": "08-speaking.pdf",
+            "bytes": 20145
+          },
+          "mp3": {
+            "file": "08-speaking.mp3",
+            "bytes": 1241280,
+            "seconds": 206.9
+          }
+        },
+        {
+          "number": "09",
+          "slug": "writing",
+          "title": "Writing — A Room I Know",
+          "minutes": 30,
+          "pdf": {
+            "file": "09-writing.pdf",
+            "bytes": 29944
+          }
+        },
+        {
+          "number": "10",
+          "slug": "review",
+          "title": "Review",
+          "minutes": 30,
+          "pdf": {
+            "file": "10-review.pdf",
+            "bytes": 30332
+          },
+          "mp3": {
+            "file": "10-review.mp3",
+            "bytes": 310752,
+            "seconds": 51.8
+          }
+        },
+        {
+          "number": "11",
+          "slug": "answer-key",
+          "title": "Answer key and teacher notes",
+          "minutes": 10,
+          "pdf": {
+            "file": "11-answer-key.pdf",
+            "bytes": 44705
+          }
+        },
+        {
+          "number": "12",
+          "slug": "passage-slow",
+          "title": "Passage, extra slow",
+          "minutes": 10,
+          "mp3": {
+            "file": "12-passage-slow.mp3",
+            "bytes": 1459440,
+            "seconds": 243.2
+          }
+        }
+      ]
+    },
+    {
       "kind": "test",
       "slug": "test-01",
       "path": "tests/test-01",
