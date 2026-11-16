@@ -1,0 +1,1944 @@
+{
+ "lesson": 11,
+ "slug": "lesson-11",
+ "title": "Lesson 11 — The Message That Changed Twice",
+ "level": "B1+ (eleventh step)",
+ "topic": "A claim about a deadline, three groups it travelled through, and who said it first",
+ "time": "6 sessions, 50–60 minutes each",
+ "skills": "Listening → Reading → Vocabulary → Grammar → Comprehension → Speaking → Writing",
+ "new_in_this_lesson": "reported speech — say against tell, the backshift into the past perfect, the shifts of time and place, reported questions with if and whether, and told me to and asked me not to; the reporting passive, which passes on a claim with no source; and the quick said, told her said as one word, and the that you do not hear. The passage stays at about 500 words for the sixth lesson running, and the question set is unchanged.",
+ "passage_words": 525,
+ "footer": "Lesson 11 — The Message That Changed Twice",
+ "voices": {
+  "reader": {
+   "voice": "en-GB-RyanNeural",
+   "rate": "-10%",
+   "pitch": "+0Hz"
+  },
+  "narrator": {
+   "voice": "en-GB-SoniaNeural",
+   "rate": "-5%",
+   "pitch": "+0Hz"
+  },
+  "slow": {
+   "voice": "en-GB-RyanNeural",
+   "rate": "-25%",
+   "pitch": "+0Hz"
+  }
+ },
+ "vocabulary": [
+  {
+   "word": "rumour",
+   "answer": "RUMOUR",
+   "type": "noun",
+   "meaning": "a story that many people repeat, although nobody knows if it is true",
+   "arabic": "إشاعة",
+   "icon": "warning"
+  },
+  {
+   "word": "claim",
+   "answer": "CLAIM",
+   "type": "noun",
+   "meaning": "something a person says is true, before anybody has shown that it is",
+   "arabic": "ادّعاء"
+  },
+  {
+   "word": "deny",
+   "answer": "DENY",
+   "type": "verb",
+   "meaning": "to say that something is not true, or that you did not do it",
+   "arabic": "ينفي"
+  },
+  {
+   "word": "admit",
+   "answer": "ADMIT",
+   "type": "verb",
+   "meaning": "to say that something is true, although you would prefer not to",
+   "arabic": "يعترف"
+  },
+  {
+   "word": "announce",
+   "answer": "ANNOUNCE",
+   "type": "verb",
+   "meaning": "to tell many people something officially, for the first time",
+   "arabic": "يُعلِن"
+  },
+  {
+   "word": "forward",
+   "answer": "FORWARD",
+   "type": "verb",
+   "meaning": "to send a message you received on to other people",
+   "arabic": "يُعيد إرسال الرسالة إلى غيره"
+  },
+  {
+   "word": "screenshot",
+   "answer": "SCREENSHOT",
+   "type": "noun",
+   "meaning": "a picture of what a phone or computer screen shows",
+   "arabic": "لقطة شاشة",
+   "icon": "browser"
+  },
+  {
+   "word": "official",
+   "answer": "OFFICIAL",
+   "type": "adjective",
+   "meaning": "coming from the people in charge, so it is the real one",
+   "arabic": "رسمي"
+  },
+  {
+   "word": "trace",
+   "answer": "TRACE",
+   "type": "verb",
+   "meaning": "to follow something back, step by step, to where it began",
+   "arabic": "يتتبّع حتى المصدر"
+  },
+  {
+   "word": "original",
+   "answer": "ORIGINAL",
+   "type": "noun",
+   "meaning": "the first one, from which all the copies were made",
+   "arabic": "الأصل"
+  },
+  {
+   "word": "crop",
+   "answer": "CROP",
+   "type": "verb",
+   "meaning": "to cut away the edges of a picture",
+   "arabic": "يقصّ أطراف الصورة"
+  },
+  {
+   "word": "applicant",
+   "answer": "APPLICANT",
+   "type": "noun",
+   "meaning": "a person who has asked in writing for a place, a job or a scholarship",
+   "arabic": "مُتقدِّم بطلب",
+   "icon": "person"
+  },
+  {
+   "word": "notice",
+   "answer": "NOTICE",
+   "type": "noun",
+   "meaning": "a short official piece of writing that tells people something",
+   "arabic": "إعلان رسمي",
+   "icon": "notebook"
+  },
+  {
+   "word": "extend",
+   "answer": "EXTEND",
+   "type": "verb",
+   "meaning": "to make something longer, or to move it later",
+   "arabic": "يُمدِّد",
+   "icon": "calendar"
+  }
+ ],
+ "recall": [
+  {
+   "word": "severe",
+   "answer": "SEVERE",
+   "meaning": "very bad, and much worse than usual"
+  },
+  {
+   "word": "estimate",
+   "answer": "ESTIMATE",
+   "meaning": "a figure given when nobody can count exactly"
+  },
+  {
+   "word": "verify",
+   "answer": "VERIFY",
+   "meaning": "to check that something is true before you repeat it"
+  },
+  {
+   "word": "source",
+   "answer": "SOURCE",
+   "meaning": "the person or the office a piece of news comes from"
+  },
+  {
+   "word": "headline",
+   "answer": "HEADLINE",
+   "meaning": "the few words printed above a news story",
+   "icon": "newspaper"
+  }
+ ],
+ "how_to_work": [
+  "Play **01-passage.mp3** and listen twice with no text in front of you. Do not open the PDF yet.",
+  "Then work through the parts in number order. Part 04 is grammar and has no audio; part 05 needs its audio, because in speech *told her* is one word and the *that* is usually not there at all.",
+  "Read the **Come back to** section at the top of part 04 slowly. It is short, and it is the reason this lesson exists: a sentence can pass on a claim and hide who made it.",
+  "Open part 11, the answer key, only when parts 01 to 10 are finished. The five games come days later, not the same evening."
+ ],
+ "full_section": {
+  "parts": [
+   "01",
+   "02",
+   "06",
+   "07"
+  ],
+  "gap": 3,
+  "closing": [
+   {
+    "pause": 2
+   },
+   {
+    "say": "This is the end of lesson eleven.",
+    "voice": "narrator"
+   }
+  ]
+ },
+ "games": [
+  {
+   "number": "13",
+   "slug": "crossword",
+   "title": "Crossword",
+   "style": "crossword",
+   "minutes": 15
+  },
+  {
+   "number": "14",
+   "slug": "word-search",
+   "title": "Word search",
+   "style": "word-search",
+   "minutes": 10
+  },
+  {
+   "number": "15",
+   "slug": "memory",
+   "title": "Memory pairs",
+   "style": "memory",
+   "minutes": 10,
+   "pairs": 10
+  },
+  {
+   "number": "16",
+   "slug": "criss-cross",
+   "title": "Criss-cross, Arabic clues",
+   "style": "criss-cross",
+   "minutes": 15
+  },
+  {
+   "number": "17",
+   "slug": "cryptogram",
+   "title": "Cryptogram",
+   "style": "cryptogram",
+   "minutes": 15,
+   "given": 3
+  }
+ ],
+ "parts": [
+  {
+   "number": "01",
+   "slug": "passage",
+   "title": "Passage — The Message That Changed Twice",
+   "minutes": 20,
+   "sheet": true,
+   "audio": true,
+   "print_only": {
+    "markers": [
+     "[A]",
+     "[B]",
+     "[C]",
+     "[D]"
+    ],
+    "note": "The sentence-insertion markers are printed in the passage and are never read aloud."
+   },
+   "markdown": "> **How to do the listening.** The same rule as every lesson so far: the student listens **twice with no text**, then reads.\n> Audio files: `01-passage.mp3` first, then the other parts in order. Part `05-said-told-and-that.mp3` is new — the quick *said*, *told her* said as one word, and the *that* you will not hear.\n\n### 1.1 Before listening (2 minutes, Arabic is fine here)\n\n1. Have you ever received a message that turned out to be wrong? Where had it come from?\n2. When a friend sends you news about a deadline, do you check it before you pass it on? Where would you check?\n3. What is the difference between *my friend told me* and *people are saying*?\n\n### 1.4 Now read the passage\n\n### Passage: *The Message That Changed Twice* (525 words)\n\nThe message reached Lina at ten at night, in a group of forty students. It was a screenshot of a screenshot: a blurred picture of somebody else's phone, showing a message from a group she had never heard of. The headline was in capitals: **DEADLINE EXTENDED TO THE FIFTEENTH.** Under it someone had written, \"They said the office announced it this afternoon.\"\n\n**[A]** Lina was applying for the exchange scholarship at a university abroad, and she had planned to send her form on the fourteenth. The group soon filled with thanks. Her cousin forwarded it to his group. Somebody asked whether the extra day was for every applicant, and somebody else said that it probably was.\n\n**[B]** Then Lina looked at what the picture left out. It had been cropped, so there was no name at the top and no time beside the message. She asked the group who had sent it first. Her cousin admitted that he did not know. He told her that a friend had sent it to him, and the friend said she had found it in a group of three hundred applicants. There, the admin denied that anyone had written such a thing. The claim had a date and a headline, but no source.\n\nShe did what nobody else had done. She opened the university's own page, the official one, and found the notice. It said that applications close at midnight on the fourteenth, and that the deadline would not be extended. The notice was six weeks old.\n\n**[C]** She found the original in the large group. A student there had forwarded the notice with a note: \"Midnight on the fourteenth. Don't leave it to the last day.\" Somebody had read *midnight on the fourteenth* as the night after it, and typed the fifteenth. Somebody else had added the word *extended*, because a later date seemed to need a reason. By the third group, the date was said to have moved, and nobody could trace who had said so.\n\nLina posted the link to the page with one line: the deadline is the fourteenth, and it has not moved. She asked everyone not to forward the picture again. Two people thanked her. Most said nothing, and the rumour went on through groups she was not in. For anyone who believed it, the cost would be severe: the form would close while they thought they still had a day.\n\nBy her own estimate, checking had cost two minutes and one page. So why does almost nobody verify a message before passing it on? Because forwarding feels like helping. When a friend's deadline is at risk, sending the warning on at once seems kind, and stopping to check seems slow, even a little cold.\n\n**[D]** The hardest part is that the first person to forward it was trying to be useful, and was. Her message was right, and it reminded three hundred people of a date that mattered. The mistakes came later, one small change at a time, from people who were also trying to help.\n\nA message does not need a liar to become false. It needs only enough kind people, and nobody who checks.\n\n### 1.5 Read aloud\n\nRead the passage aloud **once** and record it. Then find every sentence with *said*, *told*, *asked*, *admitted* or *denied* in it and read those sentences again: say the reporting verb quickly and quietly, and put the stress on what was claimed. Last, read the sentence that begins *By the third group* twice, and ask yourself one question about it: **said by whom?**",
+   "segments": [
+    {
+     "say": "Lesson eleven. The Message That Changed Twice. Listening practice.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 1
+    },
+    {
+     "say": "You will hear about a message that travelled through three groups on a phone, a date that changed on the way, and one student who checked. Listen for who said what, and for what she found. You will hear it two times. Do not read the text. Listen only.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 2
+    },
+    {
+     "say": "Now listen.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 1.5
+    },
+    {
+     "say": "The message reached Lina at ten at night, in a group of forty students. It was a screenshot of a screenshot: a blurred picture of somebody else's phone, showing a message from a group she had never heard of. The headline was in capitals: Deadline extended to the fifteenth. Under it someone had written, \"They said the office announced it this afternoon.\"\n\nLina was applying for the exchange scholarship at a university abroad, and she had planned to send her form on the fourteenth. The group soon filled with thanks. Her cousin forwarded it to his group. Somebody asked whether the extra day was for every applicant, and somebody else said that it probably was.\n\nThen Lina looked at what the picture left out. It had been cropped, so there was no name at the top and no time beside the message. She asked the group who had sent it first. Her cousin admitted that he did not know. He told her that a friend had sent it to him, and the friend said she had found it in a group of three hundred applicants. There, the admin denied that anyone had written such a thing. The claim had a date and a headline, but no source.\n\nShe did what nobody else had done. She opened the university's own page, the official one, and found the notice. It said that applications close at midnight on the fourteenth, and that the deadline would not be extended. The notice was six weeks old.\n\nShe found the original in the large group. A student there had forwarded the notice with a note: \"Midnight on the fourteenth. Don't leave it to the last day.\" Somebody had read midnight on the fourteenth as the night after it, and typed the fifteenth. Somebody else had added the word extended, because a later date seemed to need a reason. By the third group, the date was said to have moved, and nobody could trace who had said so.\n\nLina posted the link to the page with one line: the deadline is the fourteenth, and it has not moved. She asked everyone not to forward the picture again. Two people thanked her. Most said nothing, and the rumour went on through groups she was not in. For anyone who believed it, the cost would be severe: the form would close while they thought they still had a day.\n\nBy her own estimate, checking had cost two minutes and one page. So why does almost nobody verify a message before passing it on? Because forwarding feels like helping. When a friend's deadline is at risk, sending the warning on at once seems kind, and stopping to check seems slow, even a little cold.\n\nThe hardest part is that the first person to forward it was trying to be useful, and was. Her message was right, and it reminded three hundred people of a date that mattered. The mistakes came later, one small change at a time, from people who were also trying to help.\n\nA message does not need a liar to become false. It needs only enough kind people, and nobody who checks.",
+     "voice": "reader"
+    },
+    {
+     "pause": 4
+    },
+    {
+     "say": "Now listen again.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 1.5
+    },
+    {
+     "say": "The message reached Lina at ten at night, in a group of forty students. It was a screenshot of a screenshot: a blurred picture of somebody else's phone, showing a message from a group she had never heard of. The headline was in capitals: Deadline extended to the fifteenth. Under it someone had written, \"They said the office announced it this afternoon.\"\n\nLina was applying for the exchange scholarship at a university abroad, and she had planned to send her form on the fourteenth. The group soon filled with thanks. Her cousin forwarded it to his group. Somebody asked whether the extra day was for every applicant, and somebody else said that it probably was.\n\nThen Lina looked at what the picture left out. It had been cropped, so there was no name at the top and no time beside the message. She asked the group who had sent it first. Her cousin admitted that he did not know. He told her that a friend had sent it to him, and the friend said she had found it in a group of three hundred applicants. There, the admin denied that anyone had written such a thing. The claim had a date and a headline, but no source.\n\nShe did what nobody else had done. She opened the university's own page, the official one, and found the notice. It said that applications close at midnight on the fourteenth, and that the deadline would not be extended. The notice was six weeks old.\n\nShe found the original in the large group. A student there had forwarded the notice with a note: \"Midnight on the fourteenth. Don't leave it to the last day.\" Somebody had read midnight on the fourteenth as the night after it, and typed the fifteenth. Somebody else had added the word extended, because a later date seemed to need a reason. By the third group, the date was said to have moved, and nobody could trace who had said so.\n\nLina posted the link to the page with one line: the deadline is the fourteenth, and it has not moved. She asked everyone not to forward the picture again. Two people thanked her. Most said nothing, and the rumour went on through groups she was not in. For anyone who believed it, the cost would be severe: the form would close while they thought they still had a day.\n\nBy her own estimate, checking had cost two minutes and one page. So why does almost nobody verify a message before passing it on? Because forwarding feels like helping. When a friend's deadline is at risk, sending the warning on at once seems kind, and stopping to check seems slow, even a little cold.\n\nThe hardest part is that the first person to forward it was trying to be useful, and was. Her message was right, and it reminded three hundred people of a date that mattered. The mistakes came later, one small change at a time, from people who were also trying to help.\n\nA message does not need a liar to become false. It needs only enough kind people, and nobody who checks.",
+     "voice": "reader"
+    },
+    {
+     "pause": 2
+    },
+    {
+     "say": "This is the end of the passage.",
+     "voice": "narrator"
+    }
+   ]
+  },
+  {
+   "number": "02",
+   "slug": "listening-questions",
+   "title": "Listening questions",
+   "minutes": 10,
+   "sheet": true,
+   "audio": true,
+   "markdown": "### 1.2 Listening — first time (no text)\n\n- **L1.** Where did the message reach Lina, and what did its headline say?\n- **L2.** Why could nobody see who had sent the picture first?\n- **L3.** What did Lina find on the university's own page?\n- **L4.** Why, according to the writer, does almost nobody check a message before passing it on?\n\n### 1.3 Listening — second time (no text)\n\nWrite **two sentences you heard that report what somebody said or asked**, and for each one write who said it. Then write the sentence about what **nobody could trace**, and **one word** you heard but did not understand.",
+   "segments": [
+    {
+     "say": "Now answer the listening questions. Write a short answer for each one.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 2
+    },
+    {
+     "say": "Question one. Where did the message reach Lina, and what did its headline say?",
+     "voice": "narrator"
+    },
+    {
+     "pause": 10
+    },
+    {
+     "say": "Question two. Why could nobody see who had sent the picture first?",
+     "voice": "narrator"
+    },
+    {
+     "pause": 10
+    },
+    {
+     "say": "Question three. What did Lina find on the university's own page?",
+     "voice": "narrator"
+    },
+    {
+     "pause": 10
+    },
+    {
+     "say": "Question four. Why, according to the writer, does almost nobody check a message before passing it on?",
+     "voice": "narrator"
+    },
+    {
+     "pause": 10
+    },
+    {
+     "say": "This is the end of the listening questions.",
+     "voice": "narrator"
+    }
+   ]
+  },
+  {
+   "number": "03",
+   "slug": "vocabulary",
+   "title": "Vocabulary and Lesson 9 recall",
+   "minutes": 35,
+   "sheet": true,
+   "audio": true,
+   "markdown": "### 2.1 Key words\n\n| # | Word | Type | Simple meaning | Arabic | Example |\n|---|---|---|---|---|---|\n| 1 | rumour | noun | a story that many people repeat, although nobody knows if it is true | إشاعة | The **rumour** went on through groups she was not in. |\n| 2 | claim | noun | something a person says is true, before anybody has shown that it is | ادّعاء | The **claim** had a date and a headline, but no source. |\n| 3 | deny | verb | to say that something is not true, or that you did not do it | ينفي | The admin **denied** that anyone had written such a thing. |\n| 4 | admit | verb | to say that something is true, although you would prefer not to | يعترف | Her cousin **admitted** that he did not know. |\n| 5 | announce | verb | to tell many people something officially, for the first time | يُعلِن | They said the office **announced** it this afternoon. |\n| 6 | forward | verb | to send a message you received on to other people | يُعيد إرسال الرسالة إلى غيره | Her cousin **forwarded** it to his group. |\n| 7 | screenshot | noun | a picture of what a phone or computer screen shows | لقطة شاشة | It was a **screenshot** of a screenshot. |\n| 8 | official | adjective | coming from the people in charge, so it is the real one | رسمي | She opened the university's own page, the **official** one. |\n| 9 | trace | verb | to follow something back, step by step, to where it began | يتتبّع حتى المصدر | Nobody could **trace** who had said so. |\n| 10 | original | noun | the first one, from which all the copies were made | الأصل | She found the **original** in the large group. |\n| 11 | crop | verb | to cut away the edges of a picture | يقصّ أطراف الصورة | It had been **cropped**, so there was no name at the top. |\n| 12 | applicant | noun | a person who has asked in writing for a place, a job or a scholarship | مُتقدِّم بطلب | The friend had found it in a group of three hundred **applicants**. |\n| 13 | notice | noun | a short official piece of writing that tells people something | إعلان رسمي | She opened the official page and found the **notice**. |\n| 14 | extend | verb | to make something longer, or to move it later | يُمدِّد | The deadline would not be **extended**. |\n\n### 2.2 Synonyms and opposites\n\n| Word | Synonym | Opposite |\n|---|---|---|\n| rumour | talk, gossip | a fact somebody has checked |\n| claim | statement | proof |\n| deny | say it is not true | admit |\n| admit | accept, confess | deny |\n| announce | make public | keep quiet |\n| official | formal, from the people in charge | unofficial |\n| original | the first one | a copy |\n| extend | make longer, move later | shorten, bring forward |\n\n### 2.3 Expressions to learn\n\n| Expression | What it really means |\n|---|---|\n| **a screenshot of a screenshot** | a picture of a picture — every copy is one step further from the original |\n| **in capitals** | written in big letters, LIKE THIS |\n| **filled with** | became full of |\n| **leave it to the last day** | wait until the last possible day to do it |\n| **pass it on** | give or send it to the next person |\n| **at risk** | in danger |\n| **at once** | now, with no wait |\n| **one … at a time** | one after another, never all together |\n\n### 2.4 Vocabulary practice\n\n**A. Write the opposite:**\n\n1. deny → \\_\\_\\_\\_\\_\\_\\_\\_\n2. original → \\_\\_\\_\\_\\_\\_\\_\\_\n3. official → \\_\\_\\_\\_\\_\\_\\_\\_\n4. extend → \\_\\_\\_\\_\\_\\_\\_\\_\n5. announce → \\_\\_\\_\\_\\_\\_\\_\\_\n\n**B. Which word is different? Say why:**\n\n1. rumour — claim — notice — screenshot\n2. deny — admit — announce — crop\n3. applicant — admin — student — notice\n\n**C. Say it in your own words:**\n\n1. What is the difference between a *rumour* and a *claim*? Can a claim be true?\n2. Why does a *cropped* screenshot make a message harder to *trace*?",
+   "segments": [
+    {
+     "say": "Vocabulary practice. You will hear a word, then its meaning, then an example sentence. Repeat the word in the silence.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 2
+    },
+    {
+     "say": "Word 1.",
+     "voice": "narrator"
+    },
+    {
+     "say": "rumour",
+     "voice": "reader"
+    },
+    {
+     "pause": 3
+    },
+    {
+     "say": "rumour. a story that many people repeat, although nobody knows if it is true.",
+     "voice": "reader"
+    },
+    {
+     "pause": 1
+    },
+    {
+     "say": "The rumour went on through groups she was not in.",
+     "voice": "reader"
+    },
+    {
+     "pause": 3
+    },
+    {
+     "say": "Word 2.",
+     "voice": "narrator"
+    },
+    {
+     "say": "claim",
+     "voice": "reader"
+    },
+    {
+     "pause": 3
+    },
+    {
+     "say": "claim. something a person says is true, before anybody has shown that it is.",
+     "voice": "reader"
+    },
+    {
+     "pause": 1
+    },
+    {
+     "say": "The claim had a date and a headline, but no source.",
+     "voice": "reader"
+    },
+    {
+     "pause": 3
+    },
+    {
+     "say": "Word 3.",
+     "voice": "narrator"
+    },
+    {
+     "say": "deny",
+     "voice": "reader"
+    },
+    {
+     "pause": 3
+    },
+    {
+     "say": "deny. to say that something is not true, or that you did not do it.",
+     "voice": "reader"
+    },
+    {
+     "pause": 1
+    },
+    {
+     "say": "The admin denied that anyone had written such a thing.",
+     "voice": "reader"
+    },
+    {
+     "pause": 3
+    },
+    {
+     "say": "Word 4.",
+     "voice": "narrator"
+    },
+    {
+     "say": "admit",
+     "voice": "reader"
+    },
+    {
+     "pause": 3
+    },
+    {
+     "say": "admit. to say that something is true, although you would prefer not to.",
+     "voice": "reader"
+    },
+    {
+     "pause": 1
+    },
+    {
+     "say": "Her cousin admitted that he did not know.",
+     "voice": "reader"
+    },
+    {
+     "pause": 3
+    },
+    {
+     "say": "Word 5.",
+     "voice": "narrator"
+    },
+    {
+     "say": "announce",
+     "voice": "reader"
+    },
+    {
+     "pause": 3
+    },
+    {
+     "say": "announce. to tell many people something officially, for the first time.",
+     "voice": "reader"
+    },
+    {
+     "pause": 1
+    },
+    {
+     "say": "They said the office announced it this afternoon.",
+     "voice": "reader"
+    },
+    {
+     "pause": 3
+    },
+    {
+     "say": "Word 6.",
+     "voice": "narrator"
+    },
+    {
+     "say": "forward",
+     "voice": "reader"
+    },
+    {
+     "pause": 3
+    },
+    {
+     "say": "forward. to send a message you received on to other people.",
+     "voice": "reader"
+    },
+    {
+     "pause": 1
+    },
+    {
+     "say": "Her cousin forwarded it to his group.",
+     "voice": "reader"
+    },
+    {
+     "pause": 3
+    },
+    {
+     "say": "Word 7.",
+     "voice": "narrator"
+    },
+    {
+     "say": "screenshot",
+     "voice": "reader"
+    },
+    {
+     "pause": 3
+    },
+    {
+     "say": "screenshot. a picture of what a phone or computer screen shows.",
+     "voice": "reader"
+    },
+    {
+     "pause": 1
+    },
+    {
+     "say": "It was a screenshot of a screenshot.",
+     "voice": "reader"
+    },
+    {
+     "pause": 3
+    },
+    {
+     "say": "Word 8.",
+     "voice": "narrator"
+    },
+    {
+     "say": "official",
+     "voice": "reader"
+    },
+    {
+     "pause": 3
+    },
+    {
+     "say": "official. coming from the people in charge, so it is the real one.",
+     "voice": "reader"
+    },
+    {
+     "pause": 1
+    },
+    {
+     "say": "She opened the university's own page, the official one.",
+     "voice": "reader"
+    },
+    {
+     "pause": 3
+    },
+    {
+     "say": "Word 9.",
+     "voice": "narrator"
+    },
+    {
+     "say": "trace",
+     "voice": "reader"
+    },
+    {
+     "pause": 3
+    },
+    {
+     "say": "trace. to follow something back, step by step, to where it began.",
+     "voice": "reader"
+    },
+    {
+     "pause": 1
+    },
+    {
+     "say": "Nobody could trace who had said so.",
+     "voice": "reader"
+    },
+    {
+     "pause": 3
+    },
+    {
+     "say": "Word 10.",
+     "voice": "narrator"
+    },
+    {
+     "say": "original",
+     "voice": "reader"
+    },
+    {
+     "pause": 3
+    },
+    {
+     "say": "original. the first one, from which all the copies were made.",
+     "voice": "reader"
+    },
+    {
+     "pause": 1
+    },
+    {
+     "say": "She found the original in the large group.",
+     "voice": "reader"
+    },
+    {
+     "pause": 3
+    },
+    {
+     "say": "Word 11.",
+     "voice": "narrator"
+    },
+    {
+     "say": "crop",
+     "voice": "reader"
+    },
+    {
+     "pause": 3
+    },
+    {
+     "say": "crop. to cut away the edges of a picture.",
+     "voice": "reader"
+    },
+    {
+     "pause": 1
+    },
+    {
+     "say": "It had been cropped, so there was no name at the top.",
+     "voice": "reader"
+    },
+    {
+     "pause": 3
+    },
+    {
+     "say": "Word 12.",
+     "voice": "narrator"
+    },
+    {
+     "say": "applicant",
+     "voice": "reader"
+    },
+    {
+     "pause": 3
+    },
+    {
+     "say": "applicant. a person who has asked in writing for a place, a job or a scholarship.",
+     "voice": "reader"
+    },
+    {
+     "pause": 1
+    },
+    {
+     "say": "The friend had found it in a group of three hundred applicants.",
+     "voice": "reader"
+    },
+    {
+     "pause": 3
+    },
+    {
+     "say": "Word 13.",
+     "voice": "narrator"
+    },
+    {
+     "say": "notice",
+     "voice": "reader"
+    },
+    {
+     "pause": 3
+    },
+    {
+     "say": "notice. a short official piece of writing that tells people something.",
+     "voice": "reader"
+    },
+    {
+     "pause": 1
+    },
+    {
+     "say": "She opened the official page and found the notice.",
+     "voice": "reader"
+    },
+    {
+     "pause": 3
+    },
+    {
+     "say": "Word 14.",
+     "voice": "narrator"
+    },
+    {
+     "say": "extend",
+     "voice": "reader"
+    },
+    {
+     "pause": 3
+    },
+    {
+     "say": "extend. to make something longer, or to move it later.",
+     "voice": "reader"
+    },
+    {
+     "pause": 1
+    },
+    {
+     "say": "The deadline would not be extended.",
+     "voice": "reader"
+    },
+    {
+     "pause": 3
+    },
+    {
+     "pause": 1.5
+    },
+    {
+     "say": "Now five words from lesson 9. Say the meaning before you hear it.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 2
+    },
+    {
+     "say": "severe",
+     "voice": "reader"
+    },
+    {
+     "pause": 5
+    },
+    {
+     "say": "very bad, and much worse than usual",
+     "voice": "reader"
+    },
+    {
+     "pause": 1
+    },
+    {
+     "say": "estimate",
+     "voice": "reader"
+    },
+    {
+     "pause": 5
+    },
+    {
+     "say": "a figure given when nobody can count exactly",
+     "voice": "reader"
+    },
+    {
+     "pause": 1
+    },
+    {
+     "say": "verify",
+     "voice": "reader"
+    },
+    {
+     "pause": 5
+    },
+    {
+     "say": "to check that something is true before you repeat it",
+     "voice": "reader"
+    },
+    {
+     "pause": 1
+    },
+    {
+     "say": "source",
+     "voice": "reader"
+    },
+    {
+     "pause": 5
+    },
+    {
+     "say": "the person or the office a piece of news comes from",
+     "voice": "reader"
+    },
+    {
+     "pause": 1
+    },
+    {
+     "say": "headline",
+     "voice": "reader"
+    },
+    {
+     "pause": 5
+    },
+    {
+     "say": "the few words printed above a news story",
+     "voice": "reader"
+    },
+    {
+     "pause": 1
+    },
+    {
+     "say": "This is the end of the vocabulary practice.",
+     "voice": "narrator"
+    }
+   ]
+  },
+  {
+   "number": "04",
+   "slug": "grammar-reported-speech",
+   "title": "Grammar — reported speech, and the reporting passive",
+   "minutes": 50,
+   "sheet": true,
+   "audio": false,
+   "markdown": "### Come back to: the passive, and the sentence with no name in it\n\nLesson 9 taught the passive — *be* + past participle — and four reasons for\nleaving out the doer. Two lines to remind you:\n\n| Somebody **cropped** the picture. | active — the doer comes first |\n|---|---|\n| The picture **was cropped**. | passive — the doer is gone, and the sentence still works |\n\nThe fourth reason was the one to watch: **the doer is left out on purpose.**\n\n**New this time: the reporting passive.** It takes a verb of saying or\nthinking — *say, report, think, believe, expect* — and puts it in the passive,\nso that a claim can be passed on with **nobody** saying it:\n\n> *It **is said that** the deadline has moved.*  \n> *It **was reported that** the office had announced it.*  \n> *She **is thought to have left** already.*  \n> *By the third group, the date **was said to have moved**.* (the passage)\n\n| Pattern | Example |\n|---|---|\n| *It* + *is / was* + *said, reported, thought, believed* + *that* … | *It was said that the office had announced it.* |\n| person or thing + *is / was said to* + verb — the same time | *The office **is said to close** at two.* |\n| person or thing + *is / was said to have* + participle — earlier | *The date **was said to have moved**.* |\n\n**Why this belongs in a lesson about reported speech.** Everything else in this\npart teaches you to report somebody's words — *her cousin told her*, *the admin\ndenied*, *the friend said*. Reported speech **names the source**. The reporting\npassive **deletes it**. *The deadline was said to have moved* is grammatical,\nfluent, and tells you nothing at all about who said it — and in the passage,\nthat is exactly the sentence nobody could trace.\n\nYou have met this question before. In **Lesson 9, part 06 — *The news behind\nthis passage*** — you put three questions to every number, and the last was:\n*has anybody checked it who did not need a particular answer?* That was a\nquestion about figures. Here it arrives as grammar. Whenever you read *it is\nsaid*, *is reported to* or *is thought to*, ask the same thing Lina asked her\ngroup: **said by whom?**\n\n**Quick practice.** Make it passive, as in Lesson 9.\n\n1. Somebody cropped the picture. → The picture \\_\\_\\_\\_\\_\\_\\_\\_\n2. They will not extend the deadline. → The deadline \\_\\_\\_\\_\\_\\_\\_\\_\n3. Someone has forwarded the message to three groups. → The message \\_\\_\\_\\_\\_\\_\\_\\_\n\n---\n\n### 3.1 Two ways to pass on somebody's words\n\n| Direct speech — the exact words | Reported speech — the meaning, in your sentence |\n|---|---|\n| Her cousin said, \"I don't know.\" | Her cousin **admitted that he did not know**. |\n| The friend said, \"I found it in a big group.\" | The friend **said she had found it** in a big group. |\n| Lina asked, \"Who sent it first?\" | She **asked the group who had sent it first**. |\n| Lina said, \"Please don't forward it again.\" | She **asked everyone not to forward** the picture again. |\n\nDirect speech needs quotation marks and the speaker's exact words. Reported\nspeech is how you pass the words on **later**, from your own point of view —\nand that is why the verbs, the pronouns and the times all move. The passage is\nbuilt almost entirely from it, because it is a story about words travelling.\n\n### 3.2 *say* against *tell*\n\n***tell* needs a person. *say* does not.**\n\n| ✓ | ✓ | ✗ |\n|---|---|---|\n| He **told her** that a friend had sent it. | He **said** that a friend had sent it. | He **said her** that … |\n| She **told the group** the date. | She **said** the date **to the group**. | She **told that** … |\n\nIf you want the person after *say*, it needs *to*: *he said **to** her*. And\n*tell* also goes with a few fixed objects with no person: *tell the truth, tell\na lie, tell a story, tell the time*.\n\n### 3.3 The backshift: one step back in time\n\nWhen the reporting verb is in the past — *said, told, asked* — the verb in the\nreported words usually moves **one step back**:\n\n| They said … | She reported that … |\n|---|---|\n| present simple: \"I **don't** know.\" | past simple: he **did not** know |\n| present continuous: \"It **is moving**.\" | past continuous: it **was moving** |\n| present perfect: \"Nobody **has written** it.\" | past perfect: nobody **had written** it |\n| past simple: \"A friend **sent** it to me.\" | past perfect: a friend **had sent** it to him |\n| *will*: \"The deadline **will** not be extended.\" | *would*: it **would** not be extended |\n| *can*: \"We **can't** trace it.\" | *could*: they **couldn't** trace it |\n\nTwo of those lines end in the **past perfect** — *had* + participle, from\n**Lesson 10**. You have it already: in Lesson 10 it took a story back in time,\nand here it does the same job for somebody's words. *She said she **had found**\nit* means the finding came before the saying.\n\nThe past perfect itself cannot go back any further, so it stays: *\"I had\nalready sent it\"* → *he said he **had** already **sent** it*. So do *would*,\n*could*, *should* and *might*.\n\n### 3.4 Time, place and person move too\n\nThe words were said **then**, somewhere else, by somebody else — so the words\nthat point at *now*, *here* and *me* change with them:\n\n| Said | Reported later |\n|---|---|\n| now | then |\n| today · this afternoon | that day · that afternoon |\n| yesterday | the day before |\n| tomorrow | the next day |\n| last week · two days ago | the week before · two days before |\n| here | there |\n| this | that |\n| I · me · my | he, she · him, her · his, her |\n\n> \"They said the office announced it **this afternoon**.\" — read the next morning:  \n> *Someone wrote that the office **had announced** it **that afternoon**.*  \n> \"A friend sent it to **me**.\" → *He told her that a friend had sent it to **him**.*\n\n### 3.5 Reported questions: the question is undone\n\nA reported question is **not a question any more**. It has no question mark, no\n*do / does / did*, and the subject comes **before** the verb again.\n\n| Question | Reported | ✗ |\n|---|---|---|\n| \"**Who sent** it first?\" | She asked **who had sent** it first. | *who had she sent* |\n| \"When **does the form close**?\" | She asked when **the form closed**. | *when did the form close* |\n| \"**Is** the extra day for every applicant?\" | Somebody asked **whether** the extra day **was** for every applicant. | *asked was it* |\n| \"**Did** you check the page?\" | He asked **if** I **had checked** the page. | *asked did I check* |\n\nA question with a question word (*who, when, where, why, how*) keeps that word.\nA **yes-or-no question** has no question word, so it takes ***if*** or\n***whether***. They mean the same here; *whether* is a little more formal.\n\n### 3.6 Instructions and requests: *told me to*, *asked me not to*\n\nAn instruction is reported with a person and ***to*** + verb:\n\n| Said | Reported |\n|---|---|\n| \"Check the official page.\" | She **told them to check** the official page. |\n| \"Please don't forward the picture again.\" | She **asked everyone not to forward** the picture again. |\n| \"Don't leave it to the last day.\" | The student **told everyone not to leave** it to the last day. |\n\nThe negative is ***not to*** — never *to don't*. And it is *told them to*, not\n*said them to*: an instruction always has a person, so it takes *tell* or *ask*.\n\n### 3.7 The trap: the backshift is not automatic — and *that* disappears\n\n**1. Something still true can stay in the present.** Look at the passage:\n\n> *It said that applications **close** at midnight on the fourteenth, and that the deadline **would not be** extended.*\n\n*close* has not moved back, and that is correct: when Lina read the page, the\nform still closed on the fourteenth. *closed* would be correct too. Keeping the\npresent says **this is still true now**. So the choice says something about the\nclaim:\n\n- *The notice said the deadline **is** the fourteenth.* — and it is.\n- *The screenshot said the deadline **was** the fifteenth.* — the past, because it never was.\n\nReport a false claim in the present and you have half repeated it.\n\n**2. The reported *that* is usually dropped in speech.** *Somebody else said\n**that** it probably was* and *somebody else said it probably was* are both\ncorrect, and in speech the second is far more common. *He told her a friend had\nsent it* has no *that* at all. That is why you will not **hear** it — part 05\ntrains your ear for the gap. In formal writing, keep *that*, and keep it always\nafter *admit, deny, announce* and *report*.\n\n| ✗ | ✓ | Why |\n|---|---|---|\n| *She said me the date.* | *She told me the date.* | *tell* takes the person; *say* does not |\n| *He told that it had moved.* | *He said that it had moved.* | *tell* with no person |\n| *She asked when did the form close.* | *She asked when the form closed.* | a reported question has no question order |\n| *Somebody asked was it for everyone.* | *Somebody asked whether it was for everyone.* | yes-or-no needs *if* or *whether* |\n| *She asked them to don't forward it.* | *She asked them not to forward it.* | the negative is *not to* |\n\n### 3.8 Grammar practice\n\n**A. *say* or *tell*? Use the right form.**\n\n1. Her cousin \\_\\_\\_\\_\\_\\_\\_\\_ her that a friend had sent it.\n2. The friend \\_\\_\\_\\_\\_\\_\\_\\_ she had found it in a large group.\n3. Lina \\_\\_\\_\\_\\_\\_\\_\\_ the group that the date was wrong.\n4. What did the notice \\_\\_\\_\\_\\_\\_\\_\\_?\n5. Somebody \\_\\_\\_\\_\\_\\_\\_\\_ to me that it was true.\n6. Can you \\_\\_\\_\\_\\_\\_\\_\\_ me who sent it first?\n\n**B. Report these. Move the verb one step back, and change the time words.**\n\n1. \"I don't know who sent it.\" → Her cousin admitted that \\_\\_\\_\\_\\_\\_\\_\\_\n2. \"The office announced it this afternoon.\" → Someone wrote that \\_\\_\\_\\_\\_\\_\\_\\_\n3. \"I will check the official page.\" → Lina said that \\_\\_\\_\\_\\_\\_\\_\\_\n4. \"We can't trace the first message.\" → They said that \\_\\_\\_\\_\\_\\_\\_\\_\n5. \"Nobody here has written it.\" → The admin said that \\_\\_\\_\\_\\_\\_\\_\\_\n\n**C. Report the questions. Undo the question order.**\n\n1. \"Who sent it first?\" → She asked the group \\_\\_\\_\\_\\_\\_\\_\\_\n2. \"When does the form close?\" → I asked him \\_\\_\\_\\_\\_\\_\\_\\_\n3. \"Is the extra day for everyone?\" → Somebody asked \\_\\_\\_\\_\\_\\_\\_\\_\n4. \"Did you check the page?\" → My friend asked me \\_\\_\\_\\_\\_\\_\\_\\_\n\n**D. Report the instructions.**\n\n1. \"Please don't forward the picture.\" → She asked everyone \\_\\_\\_\\_\\_\\_\\_\\_\n2. \"Check the official page.\" → Lina told her cousin \\_\\_\\_\\_\\_\\_\\_\\_\n3. \"Don't leave it to the last day.\" → The student told everyone \\_\\_\\_\\_\\_\\_\\_\\_\n\n**E. Come back to — the reporting passive. Write each sentence two ways.**\n\n1. People say that the form closes at midnight. → It is said that \\_\\_\\_\\_\\_\\_\\_\\_ / The form is said \\_\\_\\_\\_\\_\\_\\_\\_\n2. People reported that the website had failed. → It was reported that \\_\\_\\_\\_\\_\\_\\_\\_ / The website was reported \\_\\_\\_\\_\\_\\_\\_\\_\n3. People think that she has left already. → She is thought \\_\\_\\_\\_\\_\\_\\_\\_\n\nNow put a name back into each one. Whose name would you need to know before\nyou believed it?\n\n**F. The trap. Present or past? Choose, and say why.**\n\n1. The notice said that applications (close / closed) at midnight. *(It is still true.)*\n2. The screenshot said that the deadline (is / was) the fifteenth. *(It never was.)*\n3. Put *that* back where it was dropped: *He told her a friend had sent it to him.*"
+  },
+  {
+   "number": "05",
+   "slug": "said-told-and-that",
+   "title": "The quick said, told her, and the that you do not hear",
+   "minutes": 25,
+   "sheet": true,
+   "audio": true,
+   "markdown": "### 3.9 The quick *said*, *told her*, and the *that* you do not hear (listen to `05-said-told-and-that.mp3`)\n\nReported speech is everywhere in conversation, and in conversation it is\nquick. *He told her that a friend had sent it* is nine words on paper. In speech\nthe first four run together into something like *he-TOLD'er*, the *that* is\nusually not there at all, and the stress falls on the words that carry the\nnews: *FRIEND*, *SENT*. This part teaches you where to listen.\n\n**1. The reporting verb is quick and low.**\n\n*said* keeps its vowel, <span class=\"ipa\">/sed/</span>, but it is short and quiet. The stress\ngoes to **what was claimed**, not to the verb that reports it.\n\n| Written | Stress in capitals |\n|---|---|\n| She said the deadline had moved. | she-said-the-DEADline-had-MOVED |\n| He said he didn't know. | he-said-he-DIDN'T-KNOW |\n| They said it was true. | they-said-it-was-TRUE |\n\nListen **past** *she said* to what comes after it. That is where the\ninformation is.\n\n**2. *said* against *says* — the tense is in one sound.**\n\n| Past | Present |\n|---|---|\n| She said it closes at midnight. <span class=\"ipa\">/sed/</span> | She says it closes at midnight. <span class=\"ipa\">/sez/</span> |\n| He said he sent it. <span class=\"ipa\">/sed/</span> | He says he sent it. <span class=\"ipa\">/sez/</span> |\n\nBoth begin <span class=\"ipa\">/se/</span> — *says* does not have the vowel of *day*. The only\ndifference is the last sound: <span class=\"ipa\">/d/</span> or <span class=\"ipa\">/z/</span>. It matters, because\n*she says* means she still says so; *she said* only reports that she did.\n\n**3. *told her* is one word.**\n\nIn the middle of a sentence *her*, *him* and *them* lose their first sound, and\njoin the verb before them:\n\n| Written | What you hear |\n|---|---|\n| told her | <span class=\"ipa\">/ˈtəʊldə/</span> — *told'er* |\n| told him | <span class=\"ipa\">/ˈtəʊldɪm/</span> — *told'im* |\n| told them | <span class=\"ipa\">/ˈtəʊldəm/</span> — *told'em* |\n| asked her | <span class=\"ipa\">/ˈɑːsktə/</span> — *asked'er* |\n\nSo *I told her* and *I told him* differ only in the last part: <span class=\"ipa\">/ə/</span>\nagainst <span class=\"ipa\">/ɪm/</span>. Listen for the <span class=\"ipa\">/m/</span>.\n\n**4. The *that* that disappears.**\n\n| Written | What you usually hear |\n|---|---|\n| She said that the date had moved. | she-said-the-DATE'd-MOVED |\n| He told her that a friend had sent it. | he-TOLD'er-a-FRIEND'd-SENT-it |\n\nWhen *that* is there, it is weak: <span class=\"ipa\">/ðət/</span>, never <span class=\"ipa\">/ðæt/</span>. The\nstrong <span class=\"ipa\">/ðæt/</span> is the other *that* — *I didn't know **that*** — which\npoints at something. Most of the time, after *said* and *told her*, there is no\n*that* to hear at all, and you have to supply it yourself.\n\n**5. When the reporting verb *is* stressed.**\n\nThere is one exception, and it is the lesson's whole subject. Put the stress on\nthe reporting verb and the meaning changes:\n\n| She said the deadline had MOVED. | She is passing on the news. |\n|---|---|\n| She SAID the deadline had moved. | She said it — **but it is not true**, or nobody has checked. |\n\nIn the audio you hear each line twice, then two tests: first, **did you hear\n*said* or *says*?** Then, **did you hear *her* or *him*?**",
+   "segments": [
+    {
+     "say": "Pronunciation. The quick said, told her, and the that you do not hear.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 1
+    },
+    {
+     "say": "First, the reporting verb is quick and low. The stress goes to what was claimed. Listen to each line twice, then repeat it.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 2
+    },
+    {
+     "say": "She said the deadline had moved.",
+     "voice": "reader"
+    },
+    {
+     "pause": 1
+    },
+    {
+     "say": "She said the deadline had moved.",
+     "voice": "reader"
+    },
+    {
+     "pause": 3
+    },
+    {
+     "say": "He said he didn't know.",
+     "voice": "reader"
+    },
+    {
+     "pause": 1
+    },
+    {
+     "say": "He said he didn't know.",
+     "voice": "reader"
+    },
+    {
+     "pause": 3
+    },
+    {
+     "say": "They said it was true.",
+     "voice": "reader"
+    },
+    {
+     "pause": 1
+    },
+    {
+     "say": "They said it was true.",
+     "voice": "reader"
+    },
+    {
+     "pause": 3
+    },
+    {
+     "pause": 1
+    },
+    {
+     "say": "Now said against says. The only difference is the last sound. Listen to each pair.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 2
+    },
+    {
+     "say": "She said it closes at midnight.",
+     "voice": "reader"
+    },
+    {
+     "pause": 1.5
+    },
+    {
+     "say": "She says it closes at midnight.",
+     "voice": "reader"
+    },
+    {
+     "pause": 1.5
+    },
+    {
+     "say": "She said it closes at midnight.",
+     "voice": "reader"
+    },
+    {
+     "pause": 1.5
+    },
+    {
+     "say": "She says it closes at midnight.",
+     "voice": "reader"
+    },
+    {
+     "pause": 3
+    },
+    {
+     "say": "He said he sent it.",
+     "voice": "reader"
+    },
+    {
+     "pause": 1.5
+    },
+    {
+     "say": "He says he sent it.",
+     "voice": "reader"
+    },
+    {
+     "pause": 1.5
+    },
+    {
+     "say": "He said he sent it.",
+     "voice": "reader"
+    },
+    {
+     "pause": 1.5
+    },
+    {
+     "say": "He says he sent it.",
+     "voice": "reader"
+    },
+    {
+     "pause": 3
+    },
+    {
+     "say": "In each pair, the first was said, the past. The second was says, the present.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 2
+    },
+    {
+     "pause": 1
+    },
+    {
+     "say": "Now told her. In speech, her loses its first sound and joins the verb. Listen to each pair.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 2
+    },
+    {
+     "say": "I told her.",
+     "voice": "reader"
+    },
+    {
+     "pause": 1.5
+    },
+    {
+     "say": "I told him.",
+     "voice": "reader"
+    },
+    {
+     "pause": 1.5
+    },
+    {
+     "say": "I told her.",
+     "voice": "reader"
+    },
+    {
+     "pause": 1.5
+    },
+    {
+     "say": "I told him.",
+     "voice": "reader"
+    },
+    {
+     "pause": 3
+    },
+    {
+     "say": "We told her to check.",
+     "voice": "reader"
+    },
+    {
+     "pause": 1.5
+    },
+    {
+     "say": "We told him to check.",
+     "voice": "reader"
+    },
+    {
+     "pause": 1.5
+    },
+    {
+     "say": "We told her to check.",
+     "voice": "reader"
+    },
+    {
+     "pause": 1.5
+    },
+    {
+     "say": "We told him to check.",
+     "voice": "reader"
+    },
+    {
+     "pause": 3
+    },
+    {
+     "say": "In each pair, the first was her, and the second was him. Listen for the M at the end.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 2
+    },
+    {
+     "pause": 1
+    },
+    {
+     "say": "Now the that which disappears. You will hear each sentence with that, and then without it. Both are correct. In normal speech you usually hear the second.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 2
+    },
+    {
+     "say": "With that.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 0.5
+    },
+    {
+     "say": "She said that the date had moved.",
+     "voice": "reader"
+    },
+    {
+     "pause": 2
+    },
+    {
+     "say": "Without that.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 0.5
+    },
+    {
+     "say": "She said the date had moved.",
+     "voice": "reader"
+    },
+    {
+     "pause": 1
+    },
+    {
+     "say": "She said the date had moved.",
+     "voice": "reader"
+    },
+    {
+     "pause": 3
+    },
+    {
+     "say": "With that.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 0.5
+    },
+    {
+     "say": "He told her that a friend had sent it.",
+     "voice": "reader"
+    },
+    {
+     "pause": 2
+    },
+    {
+     "say": "Without that.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 0.5
+    },
+    {
+     "say": "He told her a friend had sent it.",
+     "voice": "reader"
+    },
+    {
+     "pause": 1
+    },
+    {
+     "say": "He told her a friend had sent it.",
+     "voice": "reader"
+    },
+    {
+     "pause": 3
+    },
+    {
+     "pause": 1
+    },
+    {
+     "say": "Now the first test. Did you hear said, or says? Say said or says. Then you will hear the answer.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 2
+    },
+    {
+     "say": "Sentence 1.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 0.4
+    },
+    {
+     "say": "She said the form closes at midnight.",
+     "voice": "reader"
+    },
+    {
+     "pause": 4
+    },
+    {
+     "say": "The answer is said.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 1
+    },
+    {
+     "say": "Sentence 2.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 0.4
+    },
+    {
+     "say": "He says he sent it.",
+     "voice": "reader"
+    },
+    {
+     "pause": 4
+    },
+    {
+     "say": "The answer is says.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 1
+    },
+    {
+     "say": "Sentence 3.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 0.4
+    },
+    {
+     "say": "The notice says the date won't change.",
+     "voice": "reader"
+    },
+    {
+     "pause": 4
+    },
+    {
+     "say": "The answer is says.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 1
+    },
+    {
+     "say": "Sentence 4.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 0.4
+    },
+    {
+     "say": "She said she'd checked the page.",
+     "voice": "reader"
+    },
+    {
+     "pause": 4
+    },
+    {
+     "say": "The answer is said.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 1
+    },
+    {
+     "say": "Sentence 5.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 0.4
+    },
+    {
+     "say": "He says nobody knows.",
+     "voice": "reader"
+    },
+    {
+     "pause": 4
+    },
+    {
+     "say": "The answer is says.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 1
+    },
+    {
+     "say": "Sentence 6.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 0.4
+    },
+    {
+     "say": "The message said it was extended.",
+     "voice": "reader"
+    },
+    {
+     "pause": 4
+    },
+    {
+     "say": "The answer is said.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 1
+    },
+    {
+     "pause": 1
+    },
+    {
+     "say": "The second test. Did you hear her, or him?",
+     "voice": "narrator"
+    },
+    {
+     "pause": 2
+    },
+    {
+     "say": "Sentence 7.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 0.4
+    },
+    {
+     "say": "I told her not to forward it.",
+     "voice": "reader"
+    },
+    {
+     "pause": 4
+    },
+    {
+     "say": "The answer is her.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 1
+    },
+    {
+     "say": "Sentence 8.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 0.4
+    },
+    {
+     "say": "We told him to check the page.",
+     "voice": "reader"
+    },
+    {
+     "pause": 4
+    },
+    {
+     "say": "The answer is him.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 1
+    },
+    {
+     "say": "Sentence 9.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 0.4
+    },
+    {
+     "say": "She asked him who'd sent it.",
+     "voice": "reader"
+    },
+    {
+     "pause": 4
+    },
+    {
+     "say": "The answer is him.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 1
+    },
+    {
+     "say": "Sentence 10.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 0.4
+    },
+    {
+     "say": "They told her the date was wrong.",
+     "voice": "reader"
+    },
+    {
+     "pause": 4
+    },
+    {
+     "say": "The answer is her.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 1
+    },
+    {
+     "say": "This is the end of the pronunciation practice.",
+     "voice": "narrator"
+    }
+   ]
+  },
+  {
+   "number": "06",
+   "slug": "comprehension",
+   "title": "Comprehension — a full TOEFL set of ten",
+   "minutes": 45,
+   "sheet": true,
+   "audio": true,
+   "markdown": "### Part A — Multiple choice\n\n> This is a full set of ten, the size of a real TOEFL reading set.\n\n**1. (Factual)** What did the headline in the screenshot say?\n\n- A. That the deadline had been extended to the fifteenth.\n- B. That applications would close at midnight on the fourteenth.\n- C. That the office would announce a new date that afternoon.\n- D. That the scholarship was only for three hundred applicants.\n\n**2. (Factual)** According to the passage, why was there no name at the top of the picture?\n\n- A. The first person had sent it without a name.\n- B. The picture had been cropped.\n- C. The admin had removed the name.\n- D. Lina's phone could not show it.\n\n**3. (Negative factual)** All of the following are true of the notice on the university's page EXCEPT\n\n- A. it said that applications close at midnight on the fourteenth.\n- B. it said that the deadline would not be extended.\n- C. it was six weeks old.\n- D. it had been changed that afternoon.\n\n**4. (Vocabulary in context)** The word \"cold\" in the passage is closest in meaning to\n\n- A. low in temperature.\n- B. unfriendly, as if you did not care.\n- C. slow to understand.\n- D. unwell.\n\n**5. (Reference)** In the sentence \"There, the admin denied that anyone had written such a thing\", the word \"There\" refers to\n\n- A. Lina's group of forty students.\n- B. her cousin's group.\n- C. the group of three hundred applicants.\n- D. the university's official page.\n\n**6. (Inference)** What can be inferred about the first person who forwarded the notice?\n\n- A. She invented the fifteenth to give people more time.\n- B. She gave the right date, and the mistakes were added later by others.\n- C. She was the admin who denied writing the message.\n- D. She had heard from the office that the deadline might move.\n\n**7. (Sentence insertion)** Look at the four letters **[A] [B] [C] [D]** in the passage. Where would this sentence best fit?\n\n> *Knowing the right date was not enough; she wanted to know how the wrong one had been made.*\n\n- A. At **[A]**\n- B. At **[B]**\n- C. At **[C]**\n- D. At **[D]**\n\n**8. (Purpose of a paragraph)** Why does the writer include the paragraph that begins \"She found the original in the large group\"?\n\n- A. To show that the student in the large group had made a mistake.\n- B. To blame Lina's cousin for forwarding the picture.\n- C. To explain how the university chose its deadline.\n- D. To show, step by step, how a correct message became a wrong one.\n\n**9. (Purpose of the whole passage)** What is the writer's main purpose in the whole passage?\n\n- A. To show, through one message, how a claim changes as it is passed on, and why checking it is worth two minutes.\n- B. To explain how to apply for an exchange scholarship.\n- C. To argue that students should stop using group messages.\n- D. To describe the work of a group admin.\n\n**10. (The writer's attitude)** Which word best describes the writer's attitude towards the people who forwarded the wrong date?\n\n- A. Angry.\n- B. Amused.\n- C. Understanding.\n- D. Uninterested.\n\n### Part C — Fill in the blanks\n\nUse these words, and change the form where you need to. There are **two extra words** you will not need.\n\n> *forward · crop · trace · deny · admit · original · notice · rumour · extend*\n\n1. The picture had been \\_\\_\\_\\_\\_\\_\\_\\_, so there was no name at the top.\n2. Her cousin \\_\\_\\_\\_\\_\\_\\_\\_ that he did not know where it came from.\n3. The admin \\_\\_\\_\\_\\_\\_\\_\\_ that anyone in the group had written it.\n4. Lina found the \\_\\_\\_\\_\\_\\_\\_\\_ in the group of three hundred.\n5. Nobody could \\_\\_\\_\\_\\_\\_\\_\\_ who had first said the date had moved.\n6. The \\_\\_\\_\\_\\_\\_\\_\\_ on the official page was six weeks old.\n7. The deadline would not be \\_\\_\\_\\_\\_\\_\\_\\_.\n\n### Part D — Summary\n\nWrite the story in **two sentences only**. Use reported speech once, naming who said it, and the reporting passive once.\n\n> Sentence 1 — what somebody told Lina, with their name: \\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\n> Sentence 2 — what was said by the third group, with no name: \\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_",
+   "segments": [
+    {
+     "say": "Now get ready to answer the questions about the passage. There are ten questions. You may look at the passage while you answer.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 2
+    },
+    {
+     "say": "Question one. What did the headline in the screenshot say?",
+     "voice": "narrator"
+    },
+    {
+     "pause": 1
+    },
+    {
+     "say": "A. That the deadline had been extended to the fifteenth.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 0.5
+    },
+    {
+     "say": "B. That applications would close at midnight on the fourteenth.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 0.5
+    },
+    {
+     "say": "C. That the office would announce a new date that afternoon.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 0.5
+    },
+    {
+     "say": "D. That the scholarship was only for three hundred applicants.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 0.5
+    },
+    {
+     "pause": 8
+    },
+    {
+     "say": "Question two. According to the passage, why was there no name at the top of the picture?",
+     "voice": "narrator"
+    },
+    {
+     "pause": 1
+    },
+    {
+     "say": "A. The first person had sent it without a name.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 0.5
+    },
+    {
+     "say": "B. The picture had been cropped.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 0.5
+    },
+    {
+     "say": "C. The admin had removed the name.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 0.5
+    },
+    {
+     "say": "D. Lina's phone could not show it.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 0.5
+    },
+    {
+     "pause": 8
+    },
+    {
+     "say": "Question three. All of the following are true of the notice on the university's page EXCEPT",
+     "voice": "narrator"
+    },
+    {
+     "pause": 1
+    },
+    {
+     "say": "A. it said that applications close at midnight on the fourteenth.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 0.5
+    },
+    {
+     "say": "B. it said that the deadline would not be extended.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 0.5
+    },
+    {
+     "say": "C. it was six weeks old.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 0.5
+    },
+    {
+     "say": "D. it had been changed that afternoon.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 0.5
+    },
+    {
+     "pause": 8
+    },
+    {
+     "say": "Question four. The word \"cold\" in the passage is closest in meaning to",
+     "voice": "narrator"
+    },
+    {
+     "pause": 1
+    },
+    {
+     "say": "A. low in temperature.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 0.5
+    },
+    {
+     "say": "B. unfriendly, as if you did not care.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 0.5
+    },
+    {
+     "say": "C. slow to understand.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 0.5
+    },
+    {
+     "say": "D. unwell.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 0.5
+    },
+    {
+     "pause": 8
+    },
+    {
+     "say": "Question five. In the sentence \"There, the admin denied that anyone had written such a thing\", the word \"There\" refers to",
+     "voice": "narrator"
+    },
+    {
+     "pause": 1
+    },
+    {
+     "say": "A. Lina's group of forty students.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 0.5
+    },
+    {
+     "say": "B. her cousin's group.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 0.5
+    },
+    {
+     "say": "C. the group of three hundred applicants.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 0.5
+    },
+    {
+     "say": "D. the university's official page.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 0.5
+    },
+    {
+     "pause": 8
+    },
+    {
+     "say": "Question six. What can be inferred about the first person who forwarded the notice?",
+     "voice": "narrator"
+    },
+    {
+     "pause": 1
+    },
+    {
+     "say": "A. She invented the fifteenth to give people more time.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 0.5
+    },
+    {
+     "say": "B. She gave the right date, and the mistakes were added later by others.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 0.5
+    },
+    {
+     "say": "C. She was the admin who denied writing the message.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 0.5
+    },
+    {
+     "say": "D. She had heard from the office that the deadline might move.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 0.5
+    },
+    {
+     "pause": 8
+    },
+    {
+     "say": "Question seven. Look at the four letters [A] [B] [C] [D] in the passage. Where would this sentence best fit?",
+     "voice": "narrator"
+    },
+    {
+     "pause": 1
+    },
+    {
+     "say": "Knowing the right date was not enough; she wanted to know how the wrong one had been made.",
+     "voice": "reader"
+    },
+    {
+     "pause": 1
+    },
+    {
+     "say": "A. At [A]",
+     "voice": "narrator"
+    },
+    {
+     "pause": 0.5
+    },
+    {
+     "say": "B. At [B]",
+     "voice": "narrator"
+    },
+    {
+     "pause": 0.5
+    },
+    {
+     "say": "C. At [C]",
+     "voice": "narrator"
+    },
+    {
+     "pause": 0.5
+    },
+    {
+     "say": "D. At [D]",
+     "voice": "narrator"
+    },
+    {
+     "pause": 0.5
+    },
+    {
+     "pause": 12
+    },
+    {
+     "say": "Question eight. Why does the writer include the paragraph that begins \"She found the original in the large group\"?",
+     "voice": "narrator"
+    },
+    {
+     "pause": 1
+    },
+    {
+     "say": "A. To show that the student in the large group had made a mistake.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 0.5
+    },
+    {
+     "say": "B. To blame Lina's cousin for forwarding the picture.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 0.5
+    },
+    {
+     "say": "C. To explain how the university chose its deadline.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 0.5
+    },
+    {
+     "say": "D. To show, step by step, how a correct message became a wrong one.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 0.5
+    },
+    {
+     "pause": 8
+    },
+    {
+     "say": "Question nine. What is the writer's main purpose in the whole passage?",
+     "voice": "narrator"
+    },
+    {
+     "pause": 1
+    },
+    {
+     "say": "A. To show, through one message, how a claim changes as it is passed on, and why checking it is worth two minutes.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 0.5
+    },
+    {
+     "say": "B. To explain how to apply for an exchange scholarship.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 0.5
+    },
+    {
+     "say": "C. To argue that students should stop using group messages.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 0.5
+    },
+    {
+     "say": "D. To describe the work of a group admin.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 0.5
+    },
+    {
+     "pause": 8
+    },
+    {
+     "say": "Question ten. Which word best describes the writer's attitude towards the people who forwarded the wrong date?",
+     "voice": "narrator"
+    },
+    {
+     "pause": 1
+    },
+    {
+     "say": "A. Angry.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 0.5
+    },
+    {
+     "say": "B. Amused.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 0.5
+    },
+    {
+     "say": "C. Understanding.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 0.5
+    },
+    {
+     "say": "D. Uninterested.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 0.5
+    },
+    {
+     "pause": 8
+    },
+    {
+     "say": "This is the end of part A. Parts C and D are on the sheet. Do them when the track has finished.",
+     "voice": "narrator"
+    }
+   ]
+  },
+  {
+   "number": "07",
+   "slug": "true-false",
+   "title": "True / false",
+   "minutes": 15,
+   "sheet": true,
+   "audio": true,
+   "markdown": "### Part B — True / False\n\nWrite **T** or **F**. If it is false, write the correct sentence.\n\n1. The screenshot showed the name of the person who first sent it. \\_\\_\\_\\_\n2. Lina's cousin knew where the message had come from. \\_\\_\\_\\_\n3. The university's page said that the deadline would not be extended. \\_\\_\\_\\_\n4. Lina found out who had changed the date to the fifteenth. \\_\\_\\_\\_\n5. The first message about the deadline gave the right date. \\_\\_\\_\\_\n6. Most people in the group thanked Lina for the link. \\_\\_\\_\\_",
+   "segments": [
+    {
+     "say": "True or false. You will hear six sentences. Say true or false. If the sentence is false, say the correct sentence.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 2
+    },
+    {
+     "say": "One. The screenshot showed the name of the person who first sent it.",
+     "voice": "reader"
+    },
+    {
+     "pause": 7
+    },
+    {
+     "say": "Two. Lina's cousin knew where the message had come from.",
+     "voice": "reader"
+    },
+    {
+     "pause": 7
+    },
+    {
+     "say": "Three. The university's page said that the deadline would not be extended.",
+     "voice": "reader"
+    },
+    {
+     "pause": 7
+    },
+    {
+     "say": "Four. Lina found out who had changed the date to the fifteenth.",
+     "voice": "reader"
+    },
+    {
+     "pause": 7
+    },
+    {
+     "say": "Five. The first message about the deadline gave the right date.",
+     "voice": "reader"
+    },
+    {
+     "pause": 7
+    },
+    {
+     "say": "Six. Most people in the group thanked Lina for the link.",
+     "voice": "reader"
+    },
+    {
+     "pause": 7
+    },
+    {
+     "say": "This is the end of the true or false questions.",
+     "voice": "narrator"
+    }
+   ]
+  },
+  {
+   "number": "08",
+   "slug": "speaking",
+   "title": "Speaking",
+   "minutes": 25,
+   "sheet": true,
+   "audio": true,
+   "markdown": "### 5.1 Speaking (record each answer, 45 seconds)\n\n1. Tell the story of the message in your own words. Report at least three things that people said or asked, and say who said each one.\n2. Tell me about a piece of news you heard that turned out to be wrong. What did people say, and who said it first?\n3. Do you check a message before you forward it? Say what you did the last time, and what a friend told you or asked you.\n\n**Useful sentence starters:**\n\n- *She told me that \\_\\_\\_\\_.*\n- *He said he had \\_\\_\\_\\_.*\n- *They asked me whether \\_\\_\\_\\_.*\n- *She asked us not to \\_\\_\\_\\_.*\n- *It was said that \\_\\_\\_\\_ — but nobody knew who had said it.*",
+   "segments": [
+    {
+     "say": "Speaking practice. Record your answer to each question on your phone. You have a few seconds to think, and then forty-five seconds to speak.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 2
+    },
+    {
+     "say": "Question one. Tell the story of the message in your own words. Report at least three things that people said or asked, and say who said each one.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 5
+    },
+    {
+     "say": "Begin speaking now.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 45
+    },
+    {
+     "say": "Question two. Tell me about a piece of news you heard that turned out to be wrong. What did people say, and who said it first?",
+     "voice": "narrator"
+    },
+    {
+     "pause": 5
+    },
+    {
+     "say": "Begin speaking now.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 45
+    },
+    {
+     "say": "Question three. Do you check a message before you forward it? Say what you did the last time, and what a friend told you or asked you.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 5
+    },
+    {
+     "say": "Begin speaking now.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 45
+    },
+    {
+     "say": "This is the end of the speaking practice.",
+     "voice": "narrator"
+    }
+   ]
+  },
+  {
+   "number": "09",
+   "slug": "writing",
+   "title": "Writing — Who Said It?",
+   "minutes": 30,
+   "sheet": true,
+   "audio": false,
+   "markdown": "### 5.2 Writing — \"Who Said It?\" (4 lines, reported twice, and one sentence)\n\nThis is not an essay. It is the same four pieces of news written three ways,\nand the point is what each way tells the reader — and what it hides.\n\n**Step 1.** Invent **four lines of direct speech**: things two people you\nknow might say about a class, a form or a deadline. Write them with quotation\nmarks and a name. Make three of them statements and one a question.\n\n**Step 2.** Report all four, **naming who said each one**. Use *said*, *told*,\n*asked*, and at least one of *admitted*, *denied* or *announced*. Move the verbs\nback where they need to move (3.3), and leave one in the present if it is\nstill true (3.7).\n\n**Step 3.** Report the same four again, **with the reporting passive** —\n*it was said that …*, *… is said to …*, *it was reported that …* — so that\nnobody is named.\n\n**Step 4.** Write **one sentence**: which of the two versions would you rather\nread in a message from a friend, and why?\n\n**Model answer (copy the shape, change the words):**\n\n> **Step 1.** Samir: \"The library closes at four today.\" · Samir: \"I've sent my form already.\" · Dana: \"The exam won't be online.\" · Dana: \"Is the room still free on Sunday?\"\n>\n> **Step 2.** Samir told me that the library closes at four that day. He said he had sent his form already. Dana announced that the exam would not be online, and she asked whether the room was still free on Sunday.\n>\n> **Step 3.** It was said that the library closed at four. The form was said to have been sent already. It was reported that the exam would not be online. It was asked whether the room was still free on Sunday.\n>\n> **Step 4.** I would rather read the first version from a friend, because if it turns out to be wrong, I know who to ask.\n\nRead Step 3 again. Every sentence is correct English, and not one of them can\nbe checked — that is what the reporting passive does. The last one sounds\nstiff, too: a question is nearly always reported with the person who asked it.\n\n**Checklist before you send it:**\n\n- [ ] Step 1 has **four** lines, each with a name and quotation marks, and one of them is a question.\n- [ ] In Step 2, *tell* always has a person after it, and *say* never does.\n- [ ] Each verb moved back one step — or I can say why it stayed (still true).\n- [ ] The time words moved too: *today* → *that day*, *tomorrow* → *the next day*.\n- [ ] The question in Step 2 has no question order and no question mark.\n- [ ] Step 3 uses *it was said that* or *is said to* — and names nobody.\n- [ ] Step 4 says **which** version and **why**, in one sentence.\n- [ ] I used at least **2 new words** from Session 2, and **1 word** from Lesson 9 or Lesson 10."
+  },
+  {
+   "number": "10",
+   "slug": "review",
+   "title": "Review",
+   "minutes": 30,
+   "sheet": true,
+   "audio": true,
+   "markdown": "### 6.1 Listen again (no text)\n\n1. Where had the date of the fifteenth come from, and why could nobody trace it?\n2. Why does the writer say that the first person to forward it was trying to be useful, and was?\n\n### 6.2 Mini-quiz (12 marks)\n\n1. Which verb needs a person after it, *say* or *tell*? \\_\\_\\_\\_\\_\\_\\_\\_\n2. Report it: \"I don't know.\" → He admitted that \\_\\_\\_\\_\\_\\_\\_\\_\n3. Report it: \"A friend sent it to me.\" → She said that \\_\\_\\_\\_\\_\\_\\_\\_\n4. Report the question: \"When does the form close?\" → I asked \\_\\_\\_\\_\\_\\_\\_\\_\n5. Which two words report a yes-or-no question? \\_\\_\\_\\_ and \\_\\_\\_\\_\\_\\_\\_\n6. Report the instruction: \"Don't forward it.\" → She asked us \\_\\_\\_\\_\\_\\_\\_\\_\n7. *yesterday* becomes \\_\\_\\_\\_\\_\\_\\_\\_ and *here* becomes \\_\\_\\_\\_\\_\\_\\_\\_ in reported speech.\n8. Why is *The notice said applications close at midnight* correct, with no backshift? \\_\\_\\_\\_\\_\\_\\_\\_\n9. Rewrite with the reporting passive: *People say the office has moved the date.* \\_\\_\\_\\_\\_\\_\\_\\_\n10. What does the reporting passive leave out, and what question should you ask when you read it? \\_\\_\\_\\_\\_\\_\\_\\_\n11. You hear *he told'er*. What are the two words? \\_\\_\\_\\_\\_\\_\\_\\_\n12. Tell the story of the passage in two sentences, from memory, with one reported question in it.\n\n### 6.3 Lesson 11 self-report\n\n| Question | Answer |\n|---|---|\n| Minutes studied this week | |\n| Hardest part (listening / reading / vocabulary / grammar / speaking / writing) | |\n| Reported speech I can now make without thinking (say / tell / questions / instructions) | |\n| Words from Lesson 9 I had forgotten | |\n| **Was the passage the right length this week?** It has been about five hundred words for six lessons now — should Lesson 12 be longer? | |\n| **When a message says *it is said* or *people are saying*, do you now ask who said it?** Always / usually / sometimes / not yet | |\n| One thing I want to repeat next week | |",
+   "segments": [
+    {
+     "say": "Review. Listen to the passage again, with no text, and answer these questions.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 2
+    },
+    {
+     "say": "Question one. Where had the date of the fifteenth come from, and why could nobody trace it?",
+     "voice": "narrator"
+    },
+    {
+     "pause": 15
+    },
+    {
+     "say": "Question two. Why does the writer say that the first person to forward it was trying to be useful, and was?",
+     "voice": "narrator"
+    },
+    {
+     "pause": 15
+    },
+    {
+     "say": "This is the end of the review.",
+     "voice": "narrator"
+    }
+   ]
+  },
+  {
+   "number": "11",
+   "slug": "answer-key",
+   "title": "Answer key and teacher notes",
+   "minutes": 10,
+   "sheet": true,
+   "audio": false,
+   "css_id": "answer-key",
+   "markdown": "**Listening:** L1 — in a group of forty students, at ten at night; the headline said the deadline had been extended to the fifteenth · L2 — the picture had been cropped, so there was no name at the top and no time beside the message · L3 — the notice: applications close at midnight on the fourteenth, and the deadline would not be extended; the notice was six weeks old · L4 — because forwarding feels like helping: sending a warning on at once seems kind, and stopping to check seems slow, even a little cold\n\n**Part A (MCQ):** 1-A · 2-B · 3-D · 4-B · 5-C · 6-B · 7-C · 8-D · 9-A · 10-C\n\n*Why 1 is* **A**: the headline is printed in capitals in the first paragraph — *deadline extended to the fifteenth*. **B** is what the **official notice** said, and the trap for a reader who remembers the right date instead of the claim. **C** twists the line under the headline: it said the office **had** announced it, not that it would. **D** takes *three hundred* from a different paragraph, where it is the size of a group.\n\n*Why 2 is* **B**: *It had been cropped, so there was no name at the top and no time beside the message.* **A** is the opposite of what happened: the first person's message was a normal one, and the name was lost later. **C** confuses two people: the admin **denied** that anyone had written it; nobody says she removed anything. **D** is not in the passage.\n\n*Why 3 is* **D**: the notice was **six weeks old** — nothing about it had changed that afternoon, which is exactly why the claim under the headline was false. **A**, **B** and **C** are all in the paragraph that begins *She did what nobody else had done*, nearly word for word.\n\n*Why 4 is* **B**: *stopping to check seems slow, even a little cold* — it is about how checking **looks to other people**: as if you did not care about your friend's deadline. **A** is the word's first meaning and the trap for a reader who knows only that one. **C** goes with *slow*, the word just before it, but *cold* adds something new. **D** is a different idea again (*I have a cold*).\n\n*Why 5 is* **C**: the sentence before ends *a group of three hundred applicants*, and *There* points back to the last place named. **A** and **B** are the two groups named earlier in the story, and the trap for a reader who takes *There* to mean the group the story is happening in. **D** comes in the next paragraph, after *There* has already been used.\n\n*Why 6 is* **B**: this is the question the whole passage turns on — **who said it first?** The passage never states it in one sentence; you have to put two together. In the paragraph after **[C]**, the student in the large group *had forwarded the notice* with the right date, and only then *somebody* changed it; in the paragraph after **[D]**, *her message was right*. So the first person was not the source of the mistake. **A** is the obvious guess and it is wrong: the fifteenth came from somebody who misread *midnight on the fourteenth*. **C** mixes up two people in the same group. **D** has no support: the office said nothing of the kind, and the notice said the opposite.\n\n*Why 7 is* **[C]**: the sentence says she wanted to know **how the wrong date had been made**, and only the paragraph after **[C]** answers that — the original, the misreading, the added word *extended*. It has to come **after** she has found the right date (*knowing the right date was not enough*), which happens in the paragraph before **[C]**. At **[A]** and **[B]** she does not know the right date yet. At **[D]** the story of the mistake has already been told, and the passage has moved on to why people forward.\n\n*Why 8 is* **D**: the paragraph follows the message from the original — correct — through two small changes, one misreading and one added word, to the untraceable *was said to have moved*. That is the *how*. **A** is the trap: the student in the large group is in this paragraph, but her message was right. **B** is not there: the cousin is in a different paragraph, and nobody is blamed. **C** is not in the passage at all.\n\n*Why 9 is* **A**: the first half of the passage follows the claim, and the second half asks why nobody checks, and answers it: two minutes and one page, against the feeling that forwarding is helping. **C** is the trap: the passage is about group messages, but it never says to stop using them — the first person's message in a group was useful. **B** is too narrow: the scholarship is the setting, not the subject. **D** is one person in one sentence.\n\n*Why 10 is* **C, understanding**: **A is the trap.** The passage is about a false claim that could have cost people a scholarship, and a reader who expects anger will find some in *the rumour went on*. But read how the writer explains the forwarding: *forwarding feels like helping*, *sending the warning on at once seems kind*, and the mistakes came *from people who were also trying to help*. The last line refuses to blame anyone: *a message does not need a liar to become false*. The writer understands why they did it and still shows it was wrong. **B** and **D** are not supported by anything in the passage.\n\n**Part B (True/False):**\n\n1. F — It had been cropped, so there was no name at the top.\n2. F — He admitted that he did not know.\n3. T\n4. F — She found out **how** the date had changed, but nobody could trace **who** had said it had moved. What she verified was the date, on the official page.\n5. T\n6. F — Two people thanked her; most said nothing.\n\n**Part C (Fill in the blanks):** 1. cropped · 2. admitted · 3. denied · 4. original · 5. trace · 6. notice · 7. extended\n*(Extra words: forward, rumour)*\n\n**Part D (Summary), a model:** 1. Her cousin told her that a friend had sent him the picture. · 2. By the third group, the date was said to have moved, and nobody knew who had said so.\n\n**2.4 A (Opposites):** 1. admit · 2. a copy · 3. unofficial · 4. shorten, bring forward · 5. keep quiet\n\n**2.4 B (Odd one out):** 1. screenshot (the others are things people say or write; a screenshot is a picture) · 2. crop (it is done to a picture; the others are ways of saying something) · 3. notice (it is a piece of writing; the others are people)\n\n**Come back to (quick practice):** 1. The picture was cropped. · 2. The deadline will not be extended. · 3. The message has been forwarded to three groups.\n\n**3.8 A:** 1. told · 2. said · 3. told · 4. say · 5. said · 6. tell\n\n**3.8 B:** 1. he didn't know who had sent it · 2. the office had announced it that afternoon · 3. she would check the official page · 4. they couldn't trace the first message · 5. nobody there had written it\n\n**3.8 C:** 1. who had sent it first · 2. when the form closed · 3. whether (or if) the extra day was for everyone · 4. if (or whether) I had checked the page\n\n**3.8 D:** 1. not to forward the picture · 2. to check the official page · 3. not to leave it to the last day\n\n**3.8 E:** 1. It is said that the form closes at midnight. / The form is said to close at midnight. · 2. It was reported that the website had failed. / The website was reported to have failed. · 3. She is thought to have left already. — Names: teacher judgement; the point is that each sentence could hide anybody, from the office itself to a stranger in a group.\n\n**3.8 F:** 1. close — it is still true, so it can stay in the present (*closed* is also correct) · 2. was — the claim was never true, and the present would repeat it as if it were · 3. He told her **that** a friend had sent it to him.\n\n**3.9 tests (part 05):** First test — 1. said · 2. says · 3. says · 4. said · 5. says · 6. said. Second test — 7. her · 8. him · 9. him · 10. her\n\n**Mini-quiz:** 1. *tell* · 2. he didn't know · 3. a friend had sent it to her · 4. when the form closed · 5. *if* and *whether* · 6. not to forward it · 7. *the day before* · *there* · 8. because it is still true — the form still closes at midnight · 9. It is said that the office has moved the date. / The office is said to have moved the date. · 10. it leaves out who said it; ask *said by whom?* · 11. *told her* · 12. teacher judgement\n\n### Teacher Notes {: #teacher-notes }\n\n**What changed from Lesson 10, and what deliberately did not.** The passage is 525 words, against 520 in Lesson 10 — six lessons now at about five hundred. Twelve parts, five games, ten questions in the eight types: nothing in the format moves. The new thing is one structure, reported speech, and it stands on the past perfect that Lesson 10 taught: two lines of the backshift table in 3.3 end in *had* + participle, and the sheet says where it came from.\n\n**Why reported speech and the reporting passive share a lesson.** Reported speech names the source; the reporting passive deletes it. *The date was said to have moved* is fluent, grammatical and empty, and the passage's whole plot is that nobody could trace who said it. This is Lesson 9's part 06 again — *has anybody checked it who did not need a particular answer?* — arriving as grammar instead of as a table of figures, and the come-back at the top of part 04 says so in as many words. If she takes one thing from the lesson, it should be the question *said by whom?*\n\n**The one real difficulty.** Not the backshift — it is mechanical, and the table in 3.3 holds it. The difficulty is the **reported question**. Arabic keeps the order of a question after *سأل*, and the error *she asked when did the form close* will come back for weeks. Exercise 3.8 C is the one to do slowly, aloud, and to come back to. The second difficulty is *say* against *tell*: *she said me* is the commonest mistake in reported speech at every level, and it is worth correcting every time.\n\n**The trap is a real one, and it is about honesty as much as grammar.** Section 3.7 teaches that the backshift is not automatic — a thing still true can stay in the present — and then pushes it one step further: reporting a false claim in the present half repeats it. That is the same lesson as the passage's, at the size of one verb.\n\n**Why the pronunciation part matters.** Reported speech in conversation is fast, and the parts she is taught to write — *that*, *her*, the reporting verb — are exactly the parts that disappear in speech. Section 3.9 trains her to hear *said* against *says* (a tense in one sound), *told'er* against *told'im*, and to stop waiting for a *that* that is usually not said. Its last point — stress on the reporting verb means *she said it, but it isn't so* — is the lesson's subject in one stress.\n\n**Why this story, and a note on it.** It is a written story, and on this subject that matters more than usual: a passage about how a false claim travels must not itself be one. The student, the groups, the university, the dates and the numbers of people are invented; the university has no name on purpose, and the link Lina posts is not a real link. The argument against itself is the point of the second movement: the first person who forwarded the notice was useful, and the mistakes came from people who were trying to help. Nobody in the story is a liar.\n\n**Success criteria for Lesson 11.** The student should be able to:\n\n- answer L1–L4 correctly on the second hearing;\n- choose *say* or *tell*, and put the person after *tell* and nowhere after *say*;\n- move a verb one step back, including into the past perfect, and say when it may stay in the present;\n- move *today*, *yesterday*, *here* and *this* when she reports them;\n- report a question with no question order, using *if* or *whether* for a yes-or-no question;\n- report an instruction with *told me to* and *asked me not to*;\n- write a reporting passive two ways, and say what it leaves out;\n- hear *said* against *says*, and *told her* against *told him*;\n- use 10 of the 14 key words in her own sentences.\n\n**If it is too easy:** add reporting verbs that carry a judgement — *claim*, *insist*, *suggest*, *warn* — and how each one changes what the reader believes (*he said it was true* against *he claimed it was true*).\n**If it is too hard:** teach 3.1 to 3.6 this week and leave the reporting passive for the start of Lesson 12, where the non-defining clause will give it a natural partner: *the message, which nobody could trace, was said to have come from the office*.\n\n**A note on spaced recall.** `03-vocabulary.mp3` ends with five Lesson 9 words — *severe, estimate, verify, source, headline* — and all five are also in the passage. Three of them, *estimate*, *verify* and *source*, are the words this lesson's subject actually needs, so the recall is the spiral doing what it was built for. Lesson 10 recalled Lesson 8, so the two-lesson gap holds. Lesson 10's words are due back in Lesson 12.\n\n**Where the course is now.** Eleven lessons and one progress test. The self-report at 6.3 keeps the question about length, and adds the one this lesson is for: whether she now asks who said it. That question has no wrong answer, but *not yet* is the honest one to expect after a single week."
+  },
+  {
+   "number": "12",
+   "slug": "passage-slow",
+   "title": "Passage, extra slow",
+   "minutes": 10,
+   "sheet": false,
+   "audio": true,
+   "segments": [
+    {
+     "say": "Slow version. The passage, read slowly, one time.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 2
+    },
+    {
+     "say": "The message reached Lina at ten at night, in a group of forty students. It was a screenshot of a screenshot: a blurred picture of somebody else's phone, showing a message from a group she had never heard of. The headline was in capitals: Deadline extended to the fifteenth. Under it someone had written, \"They said the office announced it this afternoon.\"\n\nLina was applying for the exchange scholarship at a university abroad, and she had planned to send her form on the fourteenth. The group soon filled with thanks. Her cousin forwarded it to his group. Somebody asked whether the extra day was for every applicant, and somebody else said that it probably was.\n\nThen Lina looked at what the picture left out. It had been cropped, so there was no name at the top and no time beside the message. She asked the group who had sent it first. Her cousin admitted that he did not know. He told her that a friend had sent it to him, and the friend said she had found it in a group of three hundred applicants. There, the admin denied that anyone had written such a thing. The claim had a date and a headline, but no source.\n\nShe did what nobody else had done. She opened the university's own page, the official one, and found the notice. It said that applications close at midnight on the fourteenth, and that the deadline would not be extended. The notice was six weeks old.\n\nShe found the original in the large group. A student there had forwarded the notice with a note: \"Midnight on the fourteenth. Don't leave it to the last day.\" Somebody had read midnight on the fourteenth as the night after it, and typed the fifteenth. Somebody else had added the word extended, because a later date seemed to need a reason. By the third group, the date was said to have moved, and nobody could trace who had said so.\n\nLina posted the link to the page with one line: the deadline is the fourteenth, and it has not moved. She asked everyone not to forward the picture again. Two people thanked her. Most said nothing, and the rumour went on through groups she was not in. For anyone who believed it, the cost would be severe: the form would close while they thought they still had a day.\n\nBy her own estimate, checking had cost two minutes and one page. So why does almost nobody verify a message before passing it on? Because forwarding feels like helping. When a friend's deadline is at risk, sending the warning on at once seems kind, and stopping to check seems slow, even a little cold.\n\nThe hardest part is that the first person to forward it was trying to be useful, and was. Her message was right, and it reminded three hundred people of a date that mattered. The mistakes came later, one small change at a time, from people who were also trying to help.\n\nA message does not need a liar to become false. It needs only enough kind people, and nobody who checks.",
+     "voice": "slow"
+    }
+   ]
+  }
+ ]
+}

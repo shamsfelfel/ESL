@@ -214,3 +214,175 @@ all well over five seconds.
 ### Deferred
 
 Nothing.
+
+## Phase 02 — Write Lesson 11, *The Message That Changed Twice*
+
+### What was built
+
+- `lessons/lesson-11/lesson.json` — 12 parts, 5 games (13–17), 14 key words,
+  5 recalled from Lesson 9, ten comprehension questions in Lesson 8's order.
+- `lessons/lesson-11/build.py` — `cp` of `lessons/lesson-10/build.py`, md5
+  `dcc39c1fe972293dce23d2296f5772da` for both.
+- This section.
+
+**Nothing was built.** `lessons/lesson-11/` holds only `lesson.json` and
+`build.py`. No change to `icons.json`, `app/catalog.json`, `sw.js`, the
+repository `README.md`, or anything under `lessons/lesson-0*` or `tests/`.
+
+### The lesson, in brief
+
+| | |
+|---|---|
+| Passage | *The Message That Changed Twice*, **525 words**: the gate's counter, `passage_words` and the heading all say 525. The teacher notes in part 11 also quote it, interpolated from the same count |
+| Grammar (04) | `grammar-reported-speech`. Come back to (L9 passive) → the reporting passive (*it is said that*, *is said to*, *was said to have*). The link is stated outright: reported speech names the source and the reporting passive deletes it, tied by name to Lesson 9 part 06, 4.3 (*has anybody checked it…*). Then 3.1 direct vs reported → 3.2 *say/tell* → 3.3 backshift, with the past perfect credited to Lesson 10 → 3.4 time, place and person → 3.5 reported questions, *if/whether* → 3.6 *told me to / asked me not to* → 3.7 the trap (still-true present; dropped *that*), with a ✗/✓ table → 3.8 practice A–F |
+| Pronunciation (05) | `said-told-and-that`, section 3.9: quick *said* with stress on the claim; *said/says* minimal pairs; *told her/told him* pairs (*told'er*); *that* with and without; contrastive stress (*she SAID it had moved*) on the sheet only. Two tests: 6 *said/says*, 4 *her/him*, answers spoken and in the key |
+| Key words | rumour, claim, deny, admit, announce, forward, screenshot, official (the brief's eight) + trace, original, crop, applicant, notice, extend |
+| Recall (L9) | severe, estimate, verify, source, headline. Meanings and icons copied from Lesson 9's `lesson.json` by the generator. All five are in the passage |
+| Drawings | rumour→`warning`, screenshot→`browser`, applicant→`person`, notice→`notebook`, extend→`calendar`, headline (recall)→`newspaper`: 6, the memory game's minimum |
+| Answers Q1–10 | A B D B C B C D A C |
+| `full_section` | 01, 02, 06, 07 |
+
+Reported speech in the passage before part 04 names it: *somebody asked
+whether…*, *somebody else said that it probably was*, *she asked the group who
+had sent it first*, *admitted that he did not know*, *told her that a friend had
+sent it*, *the friend said she had found it*, *denied that anyone had written*,
+*it said that applications close… and that the deadline would not be extended*
+(the still-true present that 3.7 points back to), *asked everyone not to
+forward*. The reporting passive is in it once, at the turn: *the date was said
+to have moved, and nobody could trace who had said so*.
+
+The story: a screenshot of a screenshot reaches Lina's group of forty
+with the headline *deadline extended to the fifteenth* and *they said the office
+announced it this afternoon*. It had been cropped, so it has no name and no
+time. Her cousin, his friend and the 300-applicant group's admin each pass it
+back. The official notice says midnight on the fourteenth, will not be
+extended, and is six weeks old. The original in the large group was right; one
+person misread *midnight on the fourteenth* and another added *extended*. Second
+movement: two minutes and one page; forwarding feels like helping; the first
+person was useful, and was. Closing line: *A message does not need a liar to
+become false. It needs only enough kind people, and nobody who checks.*
+
+### Verified, and how (real output)
+
+`python build.py --check` in `lessons/lesson-11`, exit 0:
+
+```
+Lesson
+  file         : lesson.json - valid
+  title        : Lesson 11 — The Message That Changed Twice
+  parts        : 12 (11 with a sheet, 9 with audio)
+  games        : 5 (crossword, word-search, memory, criss-cross, cryptogram)
+  words        : 19 for the games, 6 of them with a drawing
+
+Ready. Run:  python build.py --plan
+```
+
+`python build.py --plan`, tail:
+
+```
+  00   whole lesson                      00-lesson.pdf (new)                00-full-section.mp3        17m 04.0s  ~  5.9 MB  parts 01, 02, 06, 07
+
+  9 parts with audio: 36.7 minutes in the numbered parts.
+  About 18,184 characters to synthesize; 178 spoken segments are not cached yet.
+  Estimated folder size once built: ~18.5 MB.
+```
+
+`python .claude/autopilot/check_lessons.py`, exit 0:
+
+```
+      L11 passage 525 words (declared 525)
+      L11 ten questions, eight types
+      structure: every check passed (L10, L11)
+```
+
+`python scripts/course_state.py`: `152 distinct key words`, `collisions: none`.
+
+Also checked:
+- Every key word and recall word occurs in the spoken passage (an assert in the generator).
+- Every sheet rendered with the build's own Markdown settings (`tables`, `attr_list`, `sane_lists`) leaves no literal `*` and no `{:`. This is the stray-asterisk fault phase 01 found in Lesson 10.
+- `lesson.json` contains no string naming a model or vendor, and no `http` (grep count 0).
+
+**Calibration for phase 03.** Phase 01 found `--plan` under-estimates by
+0.6–0.8 MB (Lesson 10: plan 18.3, `du` 19.0). Expect Lesson 11 at about
+19.1–19.3 MB by `du`, under the gate's 20.5 MB. If that is too close to "about
+19 MB", the first place to save is part 05's two *with that / without that*
+blocks, then the 3 s gaps in part 03.
+
+### Decisions made under autonomy rule 1
+
+1. **The university has no name.** I invented a name, then searched the web for
+   it. "Velmora University" turned up an English-diploma institute called
+   *Velmora International Campus*. A second invention, "Arvendale", reads as a
+   misspelling of the real Avondale University. In a passage about checking
+   claims, a name that might belong to somebody real is the one mistake the
+   brief warns about. *Chose:* "the exchange scholarship at a university
+   abroad". It is plainly invented, and the teacher notes say the university is
+   unnamed on purpose. *Alternative:* keep searching for a name with no hits.
+   Rejected, because "no hits today" is weak proof, and the story needs no
+   name.
+2. **Only one inference question.** The prompt calls *who said it first* and
+   *what the student actually verified* the best inference questions, but
+   Lessons 6–10 all have exactly one Inference slot (Q6), and the gate wants
+   Lesson 8's order. *Chose:* Q6 asks who said it first; the passage never
+   says it in one sentence, so it has to be put together from the paragraphs
+   after [C] and [D]. *What she verified* is True/False item 4 (*Lina found out
+   who had changed the date* → F, with the key spelling out that she verified
+   the date, not the person) and review question 6.1.1. *Alternative:* turn a
+   Factual question into an inference. Rejected, because it would break the
+   fixed order.
+3. **The six extra key words**: trace, original, crop, applicant, notice,
+   extend. All checked against `--words`, and none is a Lesson 12 anchor.
+   *applicant* is derived from Lesson 8's *apply*. It is a different word
+   (the gate's exact-match test passes), it is one she needs for her own
+   application, and it reads as the spiral rather than a repeat. *Alternative:*
+   *caption*, rejected as less useful to her. *deadline* (L6) and *scholarship*
+   (L8) are in the passage as ordinary words, not key words.
+4. **Recall**: severe, estimate, verify, source, headline. The prompt asked for
+   *estimate*, *verify* and *source*. *headline* fits the story (the
+   screenshot's capitals) and brings the one recalled drawing. *severe* is the
+   cost to anyone who believed the fifteenth. *flood* was considered for a
+   figurative use and rejected, because the recall audio speaks Lesson 9's
+   literal meaning (*to cover with water*).
+5. **No new icons**, for the same reason as phase 00: the acceptance criterion
+   is a `git status` with only the lesson files and this doc. Four of the six
+   drawings are close but not exact (*screenshot→browser*, *notice→notebook*,
+   *rumour→warning*, *extend→calendar*). If drawings are added later,
+   *screenshot* (a phone outline) and *forward* (a curved arrow) would be worth
+   the most.
+6. **Contrastive stress** (*she SAID it had moved*, meaning it isn't true) is
+   on the sheet only, not in the audio. The neural voice cannot be trusted to
+   put stress where the text asks, and a track that demonstrates the wrong
+   stress is worse than none.
+7. **Timing follows Lesson 10 (and so Lesson 9's leaner audio)**: 8 s answer
+   gaps in 06 (12 s for insertion), Parts C and D on the sheet only, 5 s think
+   time in speaking, two listen-again questions in 10. Part minutes copy Lesson
+   10, with 04 at 50 and 05 at 25.
+8. **The writing model (09) reports a question with the reporting passive**
+   (*it was asked whether…*). It is correct but stiff, and the sheet says so.
+   That stiffness is part of the lesson: a question is nearly always reported
+   with the person who asked it.
+9. **The printed headline** is bold capitals, *DEADLINE EXTENDED TO THE
+   FIFTEENTH*. The spoken text has it in sentence case, so the voice does not
+   spell out the capitals.
+
+### For the next phases
+
+- **Phase 03 (build Lesson 11):** 178 segments to synthesise, ~18,200
+  characters. When reading the render, check part 05's IPA spans and the
+  hard line breaks in the quoted examples in part 04 (the Come back to block and
+  3.4).
+- **Lesson 12's recall** comes from Lesson 10's committed fourteen (see Phase
+  00). Lesson 11's words are due back in Lesson 13.
+- Lesson 11's teacher notes offer Lesson 12 a link: if the reporting passive is
+  deferred, the non-defining clause partners it (*the message, which nobody
+  could trace, was said to have come from the office*).
+- The self-report keeps the length question ("six lessons now — should Lesson
+  12 be longer?") and adds *do you now ask who said it?*
+- The lesson was written by a generator script outside the repository. If you
+  edit the passage by hand, move the heading, `passage_words` and the teacher
+  note's "The passage is 525 words" together.
+
+### Deferred
+
+Nothing in this phase's scope. The build, catalogue and service worker are
+phase 03's.
