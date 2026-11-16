@@ -2239,6 +2239,242 @@
       ]
     },
     {
+      "kind": "lesson",
+      "slug": "lesson-11",
+      "path": "lessons/lesson-11",
+      "number": 11,
+      "title": "Lesson 11 — The Message That Changed Twice",
+      "level": "B1+ (eleventh step)",
+      "topic": "A claim about a deadline, three groups it travelled through, and who said it first",
+      "time": "6 sessions, 50–60 minutes each",
+      "skills": "Listening → Reading → Vocabulary → Grammar → Comprehension → Speaking → Writing",
+      "new": "reported speech — say against tell, the backshift into the past perfect, the shifts of time and place, reported questions with if and whether, and told me to and asked me not to; the reporting passive, which passes on a claim with no source; and the quick said, told her said as one word, and the that you do not hear. The passage stays at about 500 words for the sixth lesson running, and the question set is unchanged.",
+      "minutes": 305,
+      "bytes": 19155574,
+      "howToWork": [
+        "Play **01-passage.mp3** and listen twice with no text in front of you. Do not open the PDF yet.",
+        "Then work through the parts in number order. Part 04 is grammar and has no audio; part 05 needs its audio, because in speech *told her* is one word and the *that* is usually not there at all.",
+        "Read the **Come back to** section at the top of part 04 slowly. It is short, and it is the reason this lesson exists: a sentence can pass on a claim and hide who made it.",
+        "Open part 11, the answer key, only when parts 01 to 10 are finished. The five games come days later, not the same evening."
+      ],
+      "games": [
+        {
+          "number": "13",
+          "slug": "crossword",
+          "title": "Crossword",
+          "minutes": 15,
+          "file": "13-crossword.html",
+          "bytes": 39547
+        },
+        {
+          "number": "14",
+          "slug": "word-search",
+          "title": "Word search",
+          "minutes": 10,
+          "file": "14-word-search.html",
+          "bytes": 25287
+        },
+        {
+          "number": "15",
+          "slug": "memory",
+          "title": "Memory pairs",
+          "minutes": 10,
+          "file": "15-memory.html",
+          "bytes": 14902
+        },
+        {
+          "number": "16",
+          "slug": "criss-cross",
+          "title": "Criss-cross, Arabic clues",
+          "minutes": 15,
+          "file": "16-criss-cross.html",
+          "bytes": 32155
+        },
+        {
+          "number": "17",
+          "slug": "cryptogram",
+          "title": "Cryptogram",
+          "minutes": 15,
+          "file": "17-cryptogram.html",
+          "bytes": 27009
+        }
+      ],
+      "whole": {
+        "pdf": {
+          "file": "00-lesson.pdf",
+          "bytes": 128007
+        },
+        "mp3": {
+          "file": "00-full-section.mp3",
+          "bytes": 5691024,
+          "seconds": 948.5
+        }
+      },
+      "parts": [
+        {
+          "number": "01",
+          "slug": "passage",
+          "title": "Passage — The Message That Changed Twice",
+          "minutes": 20,
+          "pdf": {
+            "file": "01-passage.pdf",
+            "bytes": 32613
+          },
+          "mp3": {
+            "file": "01-passage.mp3",
+            "bytes": 2618064,
+            "seconds": 436.3
+          }
+        },
+        {
+          "number": "02",
+          "slug": "listening-questions",
+          "title": "Listening questions",
+          "minutes": 10,
+          "pdf": {
+            "file": "02-listening-questions.pdf",
+            "bytes": 16853
+          },
+          "mp3": {
+            "file": "02-listening-questions.mp3",
+            "bytes": 442800,
+            "seconds": 73.8
+          }
+        },
+        {
+          "number": "03",
+          "slug": "vocabulary",
+          "title": "Vocabulary and Lesson 9 recall",
+          "minutes": 35,
+          "pdf": {
+            "file": "03-vocabulary.pdf",
+            "bytes": 36916
+          },
+          "mp3": {
+            "file": "03-vocabulary.mp3",
+            "bytes": 2193840,
+            "seconds": 365.6
+          }
+        },
+        {
+          "number": "04",
+          "slug": "grammar-reported-speech",
+          "title": "Grammar — reported speech, and the reporting passive",
+          "minutes": 50,
+          "pdf": {
+            "file": "04-grammar-reported-speech.pdf",
+            "bytes": 53306
+          }
+        },
+        {
+          "number": "05",
+          "slug": "said-told-and-that",
+          "title": "The quick said, told her, and the that you do not hear",
+          "minutes": 25,
+          "pdf": {
+            "file": "05-said-told-and-that.pdf",
+            "bytes": 37578
+          },
+          "mp3": {
+            "file": "05-said-told-and-that.mp3",
+            "bytes": 2065968,
+            "seconds": 344.3
+          }
+        },
+        {
+          "number": "06",
+          "slug": "comprehension",
+          "title": "Comprehension — a full TOEFL set of ten",
+          "minutes": 45,
+          "pdf": {
+            "file": "06-comprehension.pdf",
+            "bytes": 30002
+          },
+          "mp3": {
+            "file": "06-comprehension.mp3",
+            "bytes": 1999440,
+            "seconds": 333.2
+          }
+        },
+        {
+          "number": "07",
+          "slug": "true-false",
+          "title": "True / false",
+          "minutes": 15,
+          "pdf": {
+            "file": "07-true-false.pdf",
+            "bytes": 15258
+          },
+          "mp3": {
+            "file": "07-true-false.mp3",
+            "bytes": 549216,
+            "seconds": 91.5
+          }
+        },
+        {
+          "number": "08",
+          "slug": "speaking",
+          "title": "Speaking",
+          "minutes": 25,
+          "pdf": {
+            "file": "08-speaking.pdf",
+            "bytes": 20049
+          },
+          "mp3": {
+            "file": "08-speaking.mp3",
+            "bytes": 1194480,
+            "seconds": 199.1
+          }
+        },
+        {
+          "number": "09",
+          "slug": "writing",
+          "title": "Writing — Who Said It?",
+          "minutes": 30,
+          "pdf": {
+            "file": "09-writing.pdf",
+            "bytes": 27583
+          }
+        },
+        {
+          "number": "10",
+          "slug": "review",
+          "title": "Review",
+          "minutes": 30,
+          "pdf": {
+            "file": "10-review.pdf",
+            "bytes": 27246
+          },
+          "mp3": {
+            "file": "10-review.mp3",
+            "bytes": 324864,
+            "seconds": 54.1
+          }
+        },
+        {
+          "number": "11",
+          "slug": "answer-key",
+          "title": "Answer key and teacher notes",
+          "minutes": 10,
+          "pdf": {
+            "file": "11-answer-key.pdf",
+            "bytes": 45647
+          }
+        },
+        {
+          "number": "12",
+          "slug": "passage-slow",
+          "title": "Passage, extra slow",
+          "minutes": 10,
+          "mp3": {
+            "file": "12-passage-slow.mp3",
+            "bytes": 1465920,
+            "seconds": 244.3
+          }
+        }
+      ]
+    },
+    {
       "kind": "test",
       "slug": "test-01",
       "path": "tests/test-01",

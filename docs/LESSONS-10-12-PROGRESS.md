@@ -386,3 +386,30 @@ blocks, then the 3 s gaps in part 03.
 
 Nothing in this phase's scope. The build, catalogue and service worker are
 phase 03's.
+
+## Phase 03 — Build Lesson 11 and read what came out
+
+### What was built
+
+`python build.py --build` in `lessons/lesson-11` (658 s, exit 0; 178 segments synthesised): 11 sheets plus `00-lesson.pdf`, 9 part MP3s plus `00-full-section.mp3` and `12-passage-slow.mp3`, five games (13–17) and the generated `README.md`. 30 files, 18.4 MB by the build's count; `du -sb` 19,331,573 bytes (check script: 19.3 MB, under the 20.5 MB ceiling). `make_catalog.py` lists `lesson-11  12 parts  18.3 MB`; `build-sw.py` wrote 10 entries, cache `esl-c2ba519fa9d5`. `check_lessons.py --built` passes (L11 passage 525 words declared 525, ten questions eight types, folder 19.3 MB).
+
+### Audit — no changes needed to `lesson.json`
+
+- Passage counted by me: 525 words; heading, `passage_words` agree; inside 500–535.
+- **Is anything in it real?** No. Only invented Lina, her cousin, his friend, an admin, and "the exchange scholarship at a university abroad", unnamed on purpose. No organisation, figure (forty, three hundred, six weeks, two minutes are story numbers), link or reporting-derived date.
+- 14 key words all in the passage; `course_state.py` reports 152 distinct words, collisions: none. Five recalled words (severe, estimate, verify, source, headline) are all from Lesson 9, in the passage and used in parts 02–11.
+- Part 04 opens with the come-back to Lesson 9's passive, says reported speech names the source and the reporting passive deletes it, and credits Lesson 10 for the past perfect.
+- Part 06: ten questions in the eight types; the key explains each distractor. Reported speech is in the passage before part 04 names it.
+
+### What I looked at
+
+PDFs rendered to PNG: 01 passage p1 (markers [A]–[C] printed, no stray `*`), 04 grammar p1 (come-back, tables, italics fine), 11 answer key p1. All 12 PDFs grep clean of `*`. Games in headless Chromium at 420 px: all five load with no page error and no non-file request; the crossword shows 19 numbered clues with Arabic glosses the right way round; memory shows 10 pairs, 6 drawings in the source. No grid-fit warning in the build log (the only grep hit was a quiz option, "could not show it"). I did not listen to the MP3s; the pauses are the timings set in phase 02 (8 s, 12 s for insertion), as in Lesson 10.
+
+### Notes
+
+- `npx playwright test` result is in the commit session output; no file under `lessons/lesson-0*` or `tests/` changed.
+- Part 05 IPA spans and part 04 line breaks: part 04 p1 checked; part 05 not viewed.
+
+### Deferred
+
+Nothing.
