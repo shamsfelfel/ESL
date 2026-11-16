@@ -642,3 +642,133 @@ lesson-12, each 12 parts. `build-sw.py`: 10 entries, cache `esl-b26ef84d7470`.
 Playwright was not run in this phase.
 
 **Deferred.** Playwright suite; listening to part 05.
+
+## Phase 06 — Sweep the three lessons, and bring the README up to date
+
+### What was done
+
+Four sweeps over Lessons 10 to 12, a browser walk-through of the app, the
+repository `README.md` brought up to date, and `docs/LESSONS-10-12-HANDOVER.md`
+written. **No lesson was changed or rebuilt.** Files touched: `README.md`,
+`docs/LESSONS-10-12-HANDOVER.md`, this file. `make_catalog.py` and
+`build-sw.py` ran and changed nothing (`git status` clean after both).
+
+The sweep scripts lived in `/tmp/sweep/`, outside the repository.
+
+### 1. Spiral
+
+All three part 04s open with `### Come back to:`, each with a two-line reminder
+table, a **New this time** expansion, and a three-item quick practice.
+
+| Lesson | Comes back to | Expansion at the top | Size of the block |
+|---|---|---|---|
+| 10 | L8 first and second conditional | third conditional named and shown in **one** example; full treatment deferred to 3.6 (table of all three, "one form, two jobs", the two Lesson 8 rules) | 1,245 chars |
+| 11 | L9 passive | reporting passive: 4 examples, a 3-row pattern table, the link to L9 part 06's *has anybody checked it* | 2,396 chars |
+| 12 | L10 past perfect | past perfect continuous: 3 examples, a contrast table, ties to L5, L6 and L7 | 2,233 chars |
+
+**Weakest: Lesson 10.** At the top it mostly restates Lesson 8 and points
+forward; the expansion is real but lives in 3.6. Phase 00 chose that on purpose
+(the third conditional needs *had* + participle, which is not taught until
+3.1). Left as is; see decisions below.
+
+### 2. Vocabulary
+
+`python scripts/course_state.py` (default output) ends:
+
+```
+166 distinct key words. No word may be taught twice; --words is the index.
+collisions: none
+```
+
+`--words` itself does **not** print a collisions line; it ends
+`166 key words across 12 lessons.` The `collisions: none` line comes from the
+default output.
+
+Recall, counted by a word-form regex over every part's Markdown and spoken text:
+
+| Lesson | Recalled (from) | All in the source lesson's committed 14 | Parts other than 03 where each is found |
+|---|---|---|---|
+| 10 | uplink, latency, neighbour, afford, reliable (L8) | yes | 4, 3, 4, 3, 3 |
+| 11 | severe, estimate, verify, source, headline (L9) | yes | 3, 3, 3, 4, 5 |
+| 12 | router, spreadsheet, delay, assume, retrieve (L10) | yes | 5, 6, 3, 3, 3 |
+
+All 15 recalled words are in the passage, so they are heard in 01 (twice) and
+12. 9 of 15 appear only in the passage, its slow reading and the answer key,
+not in an exercise. Lesson 8, for comparison, has three recalled words
+(*cloud, schedule, socket*) that appear in parts 03 and 11 only.
+
+Key words in their own passage: 42 of 42. The regex first missed L11's *deny,
+admit, crop*; they occur as *denied, admitted, cropped* (checked by hand).
+
+### 3. Numbers
+
+74 printed figures across the three lessons, plus the 51 sizes the app shows
+(step 5): **125 checked, 0 disagreements.** Per lesson: my own count against
+`passage_words` and the heading (520/520/520, 525/525/525, 530/530/530); the
+teacher note's "The passage is N words" and its previous-lesson figure (532,
+520, 525); "N lessons now" in parts 10 and 11 and "Nth lesson running" in
+`new_in_this_lesson` and the generated README (five/fifth, six/sixth,
+seven/seventh, all right for L6 onwards); "about 530" in L12 part 10; "ten
+questions" against 10 counted, eight types against the labels; "twelve parts"
+in part 11 against 12 parts; "305 minutes" against the sum of part minutes
+(305, 305, 305); the audio total against MP3 frame headers (35:33, 35:42, 36:36,
+all equal to the second); the full-section minutes and MB (15/5.2, 16/5.4,
+16/5.3); `00-lesson.pdf` KB (122, 125, 132); five game sizes each; folder total
+(18.1, 18.4, 18.7 MiB); L12's "25 pages" against `pdfinfo`.
+
+### 4. Duplicates (token Jaccard, stop words removed)
+
+- **Stems:** 1,635 pairs (each new lesson's ten against themselves and Lessons
+  6 to 12). The 1.00 pairs are the fixed TOEFL frames (Q7 insertion and Q9
+  whole passage, word for word the same in three or more of Lessons 6 to 12),
+  and the 0.71 pairs are the Q10
+  attitude frame with a different name. Counting only stems that carry content
+  (factual, negative factual, vocabulary, reference, inference, paragraph
+  purpose), the top pair is **0.40, L12 Q3 against L7 Q3**. They share only
+  *All of the following … EXCEPT* and ask about different things (sockets,
+  bench rules). No change.
+- **True/false:** 585 pairs; top **0.23, L10 #2 against L10 #3** (*Huda had
+  checked the backup every month* / *the copy had finished before the disk
+  began to fail*). Two different facts; no change.
+- **Part C word lists:** 9 words each; Jaccard 0.00 between every pair of
+  Lessons 6 to 12.
+
+### 5. App
+
+`make_catalog.py`: 13 entries, 247 part files, 45 games, 220.6 MB; `build-sw.py`:
+unchanged, cache `esl-b26ef84d7470`; `--check` in step; Playwright 22 passed.
+Driven in headless Chromium at 412 px against `scripts/dev-server.py 8088`:
+13 cards in order (Lessons 1 to 12, then the test); L10, L11 and L12 each 12
+parts + 5 games; the 51 "Save" sizes on those pages equal the files on disk
+(0 mismatches); L12 parts 04 and 07 saved into `esl-content-v1`; with the
+context offline, the lesson page opened, the saved sheet came back 200 with
+60,071 bytes (= disk), the saved MP3 answered a range request with 206, an
+unsaved part gave 503; cache names `esl-b26ef84d7470`, `esl-content-v1` and
+a planted sibling cache, which survived; 0 requests to another origin.
+
+### Defects found and not fixed
+
+1. **L10 part 04, 3.6**: the two quoted third conditionals have no hard line
+   break, so the PDF prints them as one run-on line (`pdftotext` line 208).
+2. Part D's two answer lines run together in L10 and L11 part 06. Lessons 6
+   to 9 do exactly the same, so this is house behaviour; L12 breaks them.
+
+### Decisions made under autonomy rule 1
+
+1. **Defect 1 not fixed.** `--only 04` leaves `00-lesson.pdf` alone, so a
+   partial rebuild would leave the combined PDF stale. A clean fix is a full
+   `--pdf-only` of Lesson 10, which rewrites 12 PDFs, 5 games and the README
+   for one line break. *Chose:* record it, and put it first in the handover.
+   *Alternative:* fix and rebuild now.
+2. **L10's come-back not rewritten.** Phase 00's reason holds, and the
+   expansion exists in 3.6. *Alternative:* move a short form table to the top.
+3. **Defect 2 left**, to match the six lessons already on her phone.
+4. **Progress Test 2** is a row in the tests table marked *Not written*, with
+   a paragraph saying it is the next thing the course needs. *Alternative:* prose only.
+5. **The README's "a hundred PDFs and eighty MP3s"** was counted (151 and
+   122) and changed to "a hundred and fifty … a hundred and twenty".
+   `lessons/` and `tests/` were counted together, since the sentence names both.
+
+### Deferred
+
+Listening to any part 05 by ear (no phase could), and the two defects above.

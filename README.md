@@ -74,6 +74,9 @@ Four rules hold for the whole course:
 | 7 | Modals: *can*, *could*, *should*, *must*, *have to* | Present perfect continuous → the state verbs that never take it |
 | 8 | First and second conditional | Future → the present simple in time clauses (*when*, *until*, *as soon as*) |
 | 9 | The passive voice, in every tense she already has | Modals → *mustn't* against *don't have to*, *may* and *might*, and modal + passive |
+| 10 | Past perfect | First and second conditional → the third conditional, for a past that did not happen |
+| 11 | Reported speech | The passive → the reporting passive (*it is said that*, *was said to have*), which passes on a claim with no source |
+| 12 | Relative clauses, defining and non-defining | Past perfect → the past perfect continuous, for how long something had been going on |
 
 Every tense therefore gets at least two turns: the lesson that introduces it,
 the later lesson that comes back to it, and usually a third appearance in a
@@ -108,11 +111,14 @@ that reason, not by coincidence.
 | [Lesson 7](lessons/lesson-07/README.md) | [The Bench by the Stairs](lessons/lesson-07/README.md) | B1 | A student repair bench: rules, faults and judgement | Modals — *can*, *could*, *should*, *must*, *have to* — weak *can* against *can't*, *have to* said as *hafta*, and the state verbs that never take the continuous. 510-word passage. | Complete |
 | [Lesson 8](lessons/lesson-08/README.md) | [The Line We Share](lessons/lesson-08/README.md) | B1 | A shared connection, a class at eight, and an application abroad | The first and second conditional, the contracted `'d` for *would* and *had*, the weak *if*-clause, and the present simple in time clauses. 516-word passage. | Complete |
 | [Lesson 9](lessons/lesson-09/README.md) | [Seventy Thousand Tents](lessons/lesson-09/README.md) | B1+ | The first winter storm, a flooded camp, and the numbers reported about it | The passive voice in every tense she already has, the agent with *by* and the four reasons for leaving it out, the weak *was*, *were* and *been* with the three sounds of `-ed`, and *mustn't* against *don't have to* — plus a new session, part 06, which traces the passage's real figures back to the sources that gave them. 532-word passage. | Complete |
+| [Lesson 10](lessons/lesson-10/README.md) | [An Hour Too Late](lessons/lesson-10/README.md) | B1+ | A shop's accounts, a disk that failed, and a backup that finished too late | The past perfect against the past simple, with *by the time*, *already*, *just* and *never … before*; the third conditional, the same form doing a second job; the weak *had*, the `'d` and *would have* said as *woulda*. 520-word passage. | Complete |
+| [Lesson 11](lessons/lesson-11/README.md) | [The Message That Changed Twice](lessons/lesson-11/README.md) | B1+ | A claim about a deadline, three groups it travelled through, and who said it first | Reported speech: *say* against *tell*, the backshift into the past perfect, reported questions with *if* and *whether*, *told me to* and *asked me not to*; the reporting passive, which passes on a claim with no source; the quick *said*, *told her* as one word, and the *that* you do not hear. 525-word passage. | Complete |
+| [Lesson 12](lessons/lesson-12/README.md) | [The Room That Keeps the Light](lessons/lesson-12/README.md) | B1+ → B2 | A computer room that opens on the hours there is power, and the people in it | Relative clauses — *who*, *which*, *that*, *whose*, *where*, the object pronoun that can be left out, and the non-defining clause between two commas; *which* commenting on a whole clause, the first B2 structure in the course; the past perfect continuous; the stop and fall you can hear at a comma. 530-word passage. | Complete |
 
 **The question set is now complete.** Ten questions, eight types, introduced one
 at a time across five lessons. From Lesson 6 nothing new is added to the format;
 only the text gets harder. That was the promise made in Lesson 1, and it has now
-been kept for four lessons running.
+been kept for seven lessons running.
 
 ### The length stops climbing at Lesson 6
 
@@ -120,14 +126,16 @@ The first five passages ran 185, 244, 320, 400, 481 words — about a quarter
 longer every week, and 2.6 times longer in five weeks. That is faster than
 anybody consolidates, and the plan to take Lesson 6 to 550 words was wrong.
 
-**Lessons 6 to 9 therefore hold at about 500 words: 504, 510, 516, 532.** Four
-lessons at one length is deliberate. Difficulty still rises every week, but
-through everything except length —
+**Lessons 6 to 12 therefore hold at about 500 words: 504, 510, 516, 532, 520,
+525, 530.** Seven lessons at one length is deliberate, and every one of them
+sits between 500 and 535. Difficulty still rises every week, but through
+everything except length —
 
-- the grammar step: the future, then the modals, then the conditionals, then
-  the passive;
+- the grammar step: the future, then the modals, the conditionals, the
+  passive, the past perfect, reported speech and relative clauses;
 - denser and more technical vocabulary (*capacitor*, *latency*, *bandwidth*,
-  *static*, *inverter*, *tarpaulin*, *estimate*, *verify*);
+  *static*, *inverter*, *tarpaulin*, *estimate*, *verify*, *overwrite*,
+  *snapshot*, *screenshot*, *adapter*);
 - text that argues and weighs rather than only narrates;
 - the passage read at a slightly more natural pace, with the slow reading still
   kept back as the last numbered part.
@@ -135,21 +143,30 @@ through everything except length —
 The question set does not move at all, so none of the new difficulty is spent on
 working out what is being asked.
 
-Lesson 10 is not written yet, and whether the length rises there is a question
-about the student rather than about the material: the self-report at the end of
-each lesson is where the answer should come from, and Lesson 9 asks her the
-question outright. A second progress test, covering Lessons 4 to 8, still fits
-naturally before it. Later lessons are built at most four lessons ahead of the
-student, so each one can still answer the mistakes she is actually making.
+Whether the length rises after Lesson 12 is still a question about the student
+rather than about the material, and it is still hers to answer. Lessons 9, 10
+and 11 each ask it in the self-report. Lesson 12 asks it so that the answer can
+be used: how many minutes her first reading with the text took, how many words
+she had to look up, and one choice for Lesson 13 — about 530 words, about 600,
+about 700 (the length of a real TOEFL passage), or shorter for now. Lesson 13's
+length comes from that answer, not from a plan made before it. Later lessons
+are built at most four lessons ahead of the student, so each one can still
+answer the mistakes she is actually making.
 
 ## Tests
 
 | Test | Covers | Length | Marks | Status |
 |---|---|---|---|---|
 | [Progress Test 1](tests/test-01/README.md) | Lessons 1 to 3 | About 90 minutes | 100 | Complete |
+| Progress Test 2 | Lessons 4 to 8 | — | — | Not written |
 
-Both of the test's texts are ones she has never seen, so nothing in it can be
-answered from memory of the lessons. It is a **progress test against this
+**Progress Test 2 is the next thing the course needs.** It covers Lessons 4 to
+8 — the present perfect and its continuous, the future, the modals and the
+conditionals — and it was meant to come before Lesson 10. Lessons 10 to 12 were
+written first, so it is now overdue.
+
+Both of Progress Test 1's texts are ones she has never seen, so nothing in it
+can be answered from memory of the lessons. It is a **progress test against this
 course**, not a TOEFL score: it says whether the first three lessons have stuck
 and which lesson to go back to. Its answer key carries the marking tables and a
 section that maps each weak section to the lesson that fixes it. The key is the
@@ -163,7 +180,7 @@ from that lesson's own vocabulary, so nothing in them is new, and each is a
 single HTML file with no libraries — they open from the app, from the folder or
 from a phone with no connection, and the puzzles remember where you stopped.
 
-**Lessons 1 to 5 have two games each. Lessons 6 to 9 have five.**
+**Lessons 1 to 5 have two games each. Lessons 6 to 12 have five.**
 
 | No. | Game | What it drills | Direction |
 |---|---|---|---|
@@ -173,9 +190,10 @@ from a phone with no connection, and the puzzles remember where you stopped.
 | 16 | Criss-cross | A second crossword over the 14 key words only, clued by the **Arabic** gloss, with the word bank given | Arabic → English word: the gentler direction, and a different grid |
 | 17 | Cryptogram | One substitution cipher across all 14 key words, clued by their English meanings | Spelling, plus deduction — every letter stands for the same letter in every word |
 
-The numbers in the first column are Lessons 6 to 8. A game is numbered after
-the lesson's last part, so Lesson 9 — which has thirteen parts rather than
-twelve — carries the same five games as 14 to 18.
+The numbers in the first column are those of the twelve-part lessons — 6 to 8
+and 10 to 12. A game is numbered after the lesson's last part, so Lesson 9 —
+which has thirteen parts rather than twelve — carries the same five games as
+14 to 18.
 
 They are generated by `build.py` from the `vocabulary` block in `lesson.json`,
 never written by hand, so a game cannot drill a word the lesson does not teach.
@@ -238,9 +256,9 @@ worker:
 | `esl-<hash>` | the app shell. The worker fills it and clears it. The name is a content hash, so a rebuild that changes nothing re-downloads nothing. |
 | `esl-content-v1` | the PDFs and audio **she chose** to save. `app/app.js` owns it; the worker reads it and never writes to or empties it. A file she paid data for must not disappear on an update — not on this app's update, and not on a sibling course's. |
 
-`lessons/` and `tests/` are deliberately not precached: a hundred PDFs and
-eighty MP3s are a download she makes one part at a time, not something an
-install does to her connection behind her back.
+`lessons/` and `tests/` are deliberately not precached: a hundred and fifty
+PDFs and a hundred and twenty MP3s are a download she makes one part at a
+time, not something an install does to her connection behind her back.
 
 Two more settings follow from how the course is used. Ranged requests are
 answered with real 206 slices out of the cache, because a phone's audio player
@@ -270,6 +288,9 @@ lesson folder: [Lesson 1](lessons/lesson-01/README.md),
 [Lesson 7](lessons/lesson-07/README.md),
 [Lesson 8](lessons/lesson-08/README.md),
 [Lesson 9](lessons/lesson-09/README.md),
+[Lesson 10](lessons/lesson-10/README.md),
+[Lesson 11](lessons/lesson-11/README.md),
+[Lesson 12](lessons/lesson-12/README.md),
 [Progress Test 1](tests/test-01/README.md). Each one has a table of parts in
 study order.
 
@@ -281,7 +302,7 @@ study order.
 - **The answer key is a separate file on purpose.** It is the last numbered
   part. Open it only when the parts before it are finished.
 - **The games come after the answer key.** Play them a few days later, not the
-  same evening: the gap is what moves a word into memory. In Lessons 6 to 8
+  same evening: the gap is what moves a word into memory. From Lesson 6 on
   there are five of them, so spread them over the week rather than doing them
   in one sitting.
 
