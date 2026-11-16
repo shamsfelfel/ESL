@@ -22,7 +22,7 @@ that is what downloading all of it costs.
 
 ## The whole lesson in one file
 
-- [00-lesson.pdf](00-lesson.pdf) — every part sheet in one printable document, without answer key, marking and what to do next, 9 pages, 51 KB. **The large option.**
+- [00-lesson.pdf](00-lesson.pdf) — every part sheet in one printable document, without answer key, marking and what to do next, 51 KB. **The large option.**
 - [00-full-section.mp3](00-full-section.mp3) — the question tracks end to end, like a real exam section, 9 minutes, 3.2 MB. **The large option.**
 
 ## How to work through this lesson

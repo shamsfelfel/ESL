@@ -2826,7 +2826,7 @@
       "skills": "Listening → Reading → Vocabulary and grammar → Writing → Speaking",
       "new": "two texts she has never seen, a reading passage of 560 words that argues, with eight question types, the five structures of Lessons 4 to 8 tested two gaps each, and a score that says which lesson to go back to",
       "minutes": 100,
-      "bytes": 6892821,
+      "bytes": 6892636,
       "howToWork": [
         "Sit the whole test in one go if you can, with a clock, and do not open part 06 until you have finished.",
         "Start with **01-listening.mp3** and do not read the sheet before you play it. Sections 2, 3 and 4 are paper only.",
@@ -2913,7 +2913,7 @@
           "minutes": 10,
           "pdf": {
             "file": "06-answer-key.pdf",
-            "bytes": 38408
+            "bytes": 38223
           }
         }
       ]
