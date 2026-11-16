@@ -2003,6 +2003,242 @@
       ]
     },
     {
+      "kind": "lesson",
+      "slug": "lesson-10",
+      "path": "lessons/lesson-10",
+      "number": 10,
+      "title": "Lesson 10 — An Hour Too Late",
+      "level": "B1+ (tenth step)",
+      "topic": "A shop's accounts, a disk that failed, and a backup that finished too late",
+      "time": "6 sessions, 50–60 minutes each",
+      "skills": "Listening → Reading → Vocabulary → Grammar → Comprehension → Speaking → Writing",
+      "new": "the past perfect, taught against the past simple to put two past actions in order, with by the time, already, just and never before; the third conditional, the same form doing a second job; and the weak had, the 'd and would have said as woulda. The passage stays at about 500 words for the fifth lesson running, and the question set is unchanged.",
+      "minutes": 305,
+      "bytes": 18816365,
+      "howToWork": [
+        "Play **01-passage.mp3** and listen twice with no text in front of you. Do not open the PDF yet.",
+        "Then work through the parts in number order. Part 04 is grammar and has no audio; part 05 needs its audio more than any other part in this lesson, because a third conditional is nine words on paper and two in speech.",
+        "Read section 3.4 of part 04 twice. The past perfect is easy to make and easy to overuse, and 3.4 is where you learn when **not** to use it.",
+        "Open part 11, the answer key, only when parts 01 to 10 are finished. The five games come days later, not the same evening."
+      ],
+      "games": [
+        {
+          "number": "13",
+          "slug": "crossword",
+          "title": "Crossword",
+          "minutes": 15,
+          "file": "13-crossword.html",
+          "bytes": 41888
+        },
+        {
+          "number": "14",
+          "slug": "word-search",
+          "title": "Word search",
+          "minutes": 10,
+          "file": "14-word-search.html",
+          "bytes": 24935
+        },
+        {
+          "number": "15",
+          "slug": "memory",
+          "title": "Memory pairs",
+          "minutes": 10,
+          "file": "15-memory.html",
+          "bytes": 14054
+        },
+        {
+          "number": "16",
+          "slug": "criss-cross",
+          "title": "Criss-cross, Arabic clues",
+          "minutes": 15,
+          "file": "16-criss-cross.html",
+          "bytes": 35119
+        },
+        {
+          "number": "17",
+          "slug": "cryptogram",
+          "title": "Cryptogram",
+          "minutes": 15,
+          "file": "17-cryptogram.html",
+          "bytes": 27559
+        }
+      ],
+      "whole": {
+        "pdf": {
+          "file": "00-lesson.pdf",
+          "bytes": 124588
+        },
+        "mp3": {
+          "file": "00-full-section.mp3",
+          "bytes": 5414544,
+          "seconds": 902.4
+        }
+      },
+      "parts": [
+        {
+          "number": "01",
+          "slug": "passage",
+          "title": "Passage — An Hour Too Late",
+          "minutes": 20,
+          "pdf": {
+            "file": "01-passage.pdf",
+            "bytes": 30374
+          },
+          "mp3": {
+            "file": "01-passage.mp3",
+            "bytes": 2453328,
+            "seconds": 408.9
+          }
+        },
+        {
+          "number": "02",
+          "slug": "listening-questions",
+          "title": "Listening questions",
+          "minutes": 10,
+          "pdf": {
+            "file": "02-listening-questions.pdf",
+            "bytes": 17544
+          },
+          "mp3": {
+            "file": "02-listening-questions.mp3",
+            "bytes": 403344,
+            "seconds": 67.2
+          }
+        },
+        {
+          "number": "03",
+          "slug": "vocabulary",
+          "title": "Vocabulary and Lesson 8 recall",
+          "minutes": 35,
+          "pdf": {
+            "file": "03-vocabulary.pdf",
+            "bytes": 36627
+          },
+          "mp3": {
+            "file": "03-vocabulary.mp3",
+            "bytes": 2207376,
+            "seconds": 367.9
+          }
+        },
+        {
+          "number": "04",
+          "slug": "grammar-past-perfect",
+          "title": "Grammar — the past perfect, and the third conditional",
+          "minutes": 50,
+          "pdf": {
+            "file": "04-grammar-past-perfect.pdf",
+            "bytes": 53355
+          }
+        },
+        {
+          "number": "05",
+          "slug": "had-and-would-have",
+          "title": "The weak had, the 'd, and would have",
+          "minutes": 25,
+          "pdf": {
+            "file": "05-had-and-would-have.pdf",
+            "bytes": 37146
+          },
+          "mp3": {
+            "file": "05-had-and-would-have.mp3",
+            "bytes": 2395296,
+            "seconds": 399.2
+          }
+        },
+        {
+          "number": "06",
+          "slug": "comprehension",
+          "title": "Comprehension — a full TOEFL set of ten",
+          "minutes": 45,
+          "pdf": {
+            "file": "06-comprehension.pdf",
+            "bytes": 29227
+          },
+          "mp3": {
+            "file": "06-comprehension.mp3",
+            "bytes": 1910016,
+            "seconds": 318.3
+          }
+        },
+        {
+          "number": "07",
+          "slug": "true-false",
+          "title": "True / false",
+          "minutes": 15,
+          "pdf": {
+            "file": "07-true-false.pdf",
+            "bytes": 14684
+          },
+          "mp3": {
+            "file": "07-true-false.mp3",
+            "bytes": 566784,
+            "seconds": 94.5
+          }
+        },
+        {
+          "number": "08",
+          "slug": "speaking",
+          "title": "Speaking",
+          "minutes": 25,
+          "pdf": {
+            "file": "08-speaking.pdf",
+            "bytes": 19542
+          },
+          "mp3": {
+            "file": "08-speaking.mp3",
+            "bytes": 1192608,
+            "seconds": 198.8
+          }
+        },
+        {
+          "number": "09",
+          "slug": "writing",
+          "title": "Writing — What Went Wrong, and When",
+          "minutes": 30,
+          "pdf": {
+            "file": "09-writing.pdf",
+            "bytes": 24345
+          }
+        },
+        {
+          "number": "10",
+          "slug": "review",
+          "title": "Review",
+          "minutes": 30,
+          "pdf": {
+            "file": "10-review.pdf",
+            "bytes": 25953
+          },
+          "mp3": {
+            "file": "10-review.mp3",
+            "bytes": 307440,
+            "seconds": 51.2
+          }
+        },
+        {
+          "number": "11",
+          "slug": "answer-key",
+          "title": "Answer key and teacher notes",
+          "minutes": 10,
+          "pdf": {
+            "file": "11-answer-key.pdf",
+            "bytes": 43569
+          }
+        },
+        {
+          "number": "12",
+          "slug": "passage-slow",
+          "title": "Passage, extra slow",
+          "minutes": 10,
+          "mp3": {
+            "file": "12-passage-slow.mp3",
+            "bytes": 1365120,
+            "seconds": 227.5
+          }
+        }
+      ]
+    },
+    {
       "kind": "test",
       "slug": "test-01",
       "path": "tests/test-01",

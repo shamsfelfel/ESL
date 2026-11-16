@@ -155,3 +155,62 @@ at roughly 18.9–19.1 MB by `du`, under the gate's 20.5 MB.
 
 - Nothing in this phase's scope. The build, catalogue and service worker are
   phase 01's.
+
+## Phase 01 — Build Lesson 10 and read what came out
+
+### What was built
+
+`python build.py --build` in `lessons/lesson-10` (665 s, exit 0): 11 sheets
+plus `00-lesson.pdf`, 9 part MP3s plus `00-full-section.mp3`, five games
+(13–17) and the lesson's generated `README.md`. 30 files, 18.1 MB by the
+build's own count (`du -sb` 18,999,658 bytes); the check script reports
+19.0 MB, under its ceiling. `make_catalog.py` and `scripts/build-sw.py` ran
+clean (sw: 10 entries, cache `esl-b68aac1ea4cd`); the catalogue lists
+`lesson-10`, 12 parts, 17.9 MB. `npx playwright test`: 22 passed.
+`check_lessons.py --built`: passes (L10 passage 520 words, ten questions
+eight types, folder 19.0 MB).
+
+### Audit of `lesson.json` against the brief — changes made
+
+1. **Part 04 §3.3, example for *just*** contradicted the story: *The copy had
+   just finished when the disk stopped* (the copy finished at 01:10, the disk
+   stopped next morning). Now *She had just sat down when the screen froze.*
+2. **Stray asterisks in the PDFs** (found by reading the render, not by
+   `--check`). Nested emphasis the Markdown renderer mis-parses printed
+   literal `*` in 04 and 11 (and so in `00-lesson.pdf`): the *by the time*
+   example, three participle-table rows (*had sent, had never done, had
+   existed*) and the `*Why N is **X***:` lead-ins in the answer key (10 of
+   them). Rewritten without nesting; rebuilt with `--pdf-only`; every PDF
+   then grepped clean of `*`.
+
+Verified and found sound: passage is 520 words by my own count, equal to
+`passage_words` and the heading; all 14 key words and all 5 recalled words
+occur in the passage; part 04 opens with the come-back and teaches the trap in
+3.4; the past perfect is in the passage before part 04 names it; part 06 has
+ten questions in the eight types with each distractor named in the key.
+
+### What I looked at
+
+PDFs: 03 vocabulary p1 (Arabic reads correctly, right-to-left, not reversed),
+04 grammar p2, 06 comprehension p1 (no question split across a page; footer
+carries "Lesson 10 — An Hour Too Late · page n of N"); 11 answer key and 04
+checked as text. Games, rendered in headless Chromium at 420 px: crossword
+(19 words, clues in order), word search (all 19 listed, grid built), memory (24
+cards, 6 drawings in the source), criss-cross and cryptogram (14 key words
+each, by design). No page error and no non-file request. Audio: pauses are
+10 s in part 02, 8 s (12 s for insertion) in 06, 7 s in 07, 45 s in 08 —
+all well over five seconds.
+
+### Notes
+
+- `make_catalog.py` moved the byte figures of lessons 1–9 (Linux vs the
+  Windows working copy's CRLF), as predicted; left as is. No file under
+  `lessons/lesson-0*` or `tests/` changed.
+- `app/catalog.json` and `sw.js` were already modified in the working tree
+  when this phase began; they were regenerated here.
+- Games 16 and 17 use the 14 key words, not the 19; crossword, word search
+  and memory use 19.
+
+### Deferred
+
+Nothing.
