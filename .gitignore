@@ -7,3 +7,8 @@ __pycache__/
 
 # The generated PDFs and MP3s under lessons/ ARE committed on purpose, so the
 # student can download one file without running anything.
+
+# Node tooling for the shared service-worker suite
+node_modules/
+test-results/
+playwright-report/

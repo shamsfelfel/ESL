@@ -18,7 +18,7 @@ and it works offline once a lesson has been saved.
 | Entry level | A1+ |
 | Target level | CEFR B2 |
 | Exam | TOEFL iBT (B2 ≈ 72–94) |
-| Shape | One lesson a week, split into five or six sessions of 45–55 minutes |
+| Shape | One lesson a week, split into five to seven sessions of 45–55 minutes |
 | Skills, in their fixed order | Listening → Reading → Speaking → Writing |
 | Question types | TOEFL iBT types from Lesson 1 on |
 | Subject matter | Mainly information technology and computing, plus everyday life |
@@ -35,6 +35,10 @@ The sessions always run in the same order:
 
 listening → reading → vocabulary → grammar → comprehension →
 speaking → writing → review
+
+— with one addition from Lesson 9 on: a session on **the news behind the
+passage**, between the grammar and the comprehension, whenever a passage rests
+on real reporting.
 
 Four rules hold for the whole course:
 
@@ -69,10 +73,27 @@ Four rules hold for the whole course:
 | 6 | Future: *will* / *going to* | Present perfect → *for* and *since* against an exact date |
 | 7 | Modals: *can*, *could*, *should*, *must*, *have to* | Present perfect continuous → the state verbs that never take it |
 | 8 | First and second conditional | Future → the present simple in time clauses (*when*, *until*, *as soon as*) |
+| 9 | The passive voice, in every tense she already has | Modals → *mustn't* against *don't have to*, *may* and *might*, and modal + passive |
 
 Every tense therefore gets at least two turns: the lesson that introduces it,
 the later lesson that comes back to it, and usually a third appearance in a
 contrast table. Vocabulary spirals the same way, on a fixed two-lesson gap.
+
+### When a lesson borrows real figures
+
+Lesson 9 is the first whose passage rests on reporting from the week she is
+studying it, and it set a rule for every lesson that does the same after it.
+The story and the people in it are written, as in every lesson. Every figure in
+it is real, and no figure appears without the source that gave it, the date, and
+a plain statement of how sure it is — a count, an estimate, a statement of need,
+or a thing one side said. That is what part 06 of Lesson 9 is: a table of the
+figures, five of the reports they came from, and three questions to put to any
+number.
+
+It is also where the lesson's grammar earns its keep. A sentence with no doer in
+it and a number with no source beside it are the same problem, and noticing
+either one is the same skill. The passive voice is taught in the same lesson for
+that reason, not by coincidence.
 
 ## Lessons
 
@@ -86,11 +107,12 @@ contrast table. Vocabulary spirals the same way, on a fixed two-lesson gap.
 | [Lesson 6](lessons/lesson-06/README.md) | [A Plan for Tuesday](lessons/lesson-06/README.md) | B1 | Planning a week of study around the hours of electricity | The future with *will* and *going to*, the short `'ll` and the weak *going to*, the present perfect against an exact date — and the first lesson with five games. 504-word passage. | Complete |
 | [Lesson 7](lessons/lesson-07/README.md) | [The Bench by the Stairs](lessons/lesson-07/README.md) | B1 | A student repair bench: rules, faults and judgement | Modals — *can*, *could*, *should*, *must*, *have to* — weak *can* against *can't*, *have to* said as *hafta*, and the state verbs that never take the continuous. 510-word passage. | Complete |
 | [Lesson 8](lessons/lesson-08/README.md) | [The Line We Share](lessons/lesson-08/README.md) | B1 | A shared connection, a class at eight, and an application abroad | The first and second conditional, the contracted `'d` for *would* and *had*, the weak *if*-clause, and the present simple in time clauses. 516-word passage. | Complete |
+| [Lesson 9](lessons/lesson-09/README.md) | [Seventy Thousand Tents](lessons/lesson-09/README.md) | B1+ | The first winter storm, a flooded camp, and the numbers reported about it | The passive voice in every tense she already has, the agent with *by* and the four reasons for leaving it out, the weak *was*, *were* and *been* with the three sounds of `-ed`, and *mustn't* against *don't have to* — plus a new session, part 06, which traces the passage's real figures back to the sources that gave them. 532-word passage. | Complete |
 
 **The question set is now complete.** Ten questions, eight types, introduced one
 at a time across five lessons. From Lesson 6 nothing new is added to the format;
 only the text gets harder. That was the promise made in Lesson 1, and it has now
-been kept for three lessons running.
+been kept for four lessons running.
 
 ### The length stops climbing at Lesson 6
 
@@ -98,25 +120,27 @@ The first five passages ran 185, 244, 320, 400, 481 words — about a quarter
 longer every week, and 2.6 times longer in five weeks. That is faster than
 anybody consolidates, and the plan to take Lesson 6 to 550 words was wrong.
 
-**Lessons 6, 7 and 8 therefore hold at about 500 words: 504, 510, 516.** Three
+**Lessons 6 to 9 therefore hold at about 500 words: 504, 510, 516, 532.** Four
 lessons at one length is deliberate. Difficulty still rises every week, but
 through everything except length —
 
-- the grammar step: the future, then the modals, then the conditionals;
+- the grammar step: the future, then the modals, then the conditionals, then
+  the passive;
 - denser and more technical vocabulary (*capacitor*, *latency*, *bandwidth*,
-  *static*, *inverter*);
+  *static*, *inverter*, *tarpaulin*, *estimate*, *verify*);
 - text that argues and weighs rather than only narrates;
-- the passage read at a slightly more natural pace, with part 12 still slow.
+- the passage read at a slightly more natural pace, with the slow reading still
+  kept back as the last numbered part.
 
 The question set does not move at all, so none of the new difficulty is spent on
 working out what is being asked.
 
-Lesson 9 is not written yet, and whether the length rises again there is a
-question about the student rather than about the material: the self-report at
-6.3 of each lesson is where the answer should come from. A second progress test,
-covering Lessons 4 to 8, would fit naturally before it. Later lessons are built
-at most four lessons ahead of the student, so each one can still answer the
-mistakes she is actually making.
+Lesson 10 is not written yet, and whether the length rises there is a question
+about the student rather than about the material: the self-report at the end of
+each lesson is where the answer should come from, and Lesson 9 asks her the
+question outright. A second progress test, covering Lessons 4 to 8, still fits
+naturally before it. Later lessons are built at most four lessons ahead of the
+student, so each one can still answer the mistakes she is actually making.
 
 ## Tests
 
@@ -139,7 +163,7 @@ from that lesson's own vocabulary, so nothing in them is new, and each is a
 single HTML file with no libraries — they open from the app, from the folder or
 from a phone with no connection, and the puzzles remember where you stopped.
 
-**Lessons 1 to 5 have two games each. Lessons 6, 7 and 8 have five.**
+**Lessons 1 to 5 have two games each. Lessons 6 to 9 have five.**
 
 | No. | Game | What it drills | Direction |
 |---|---|---|---|
@@ -148,6 +172,10 @@ from a phone with no connection, and the puzzles remember where you stopped.
 | 15 | Memory pairs | Ten pairs a round: a word against a drawing of it, or against its short English meaning | Recall, both ways, with no writing at all |
 | 16 | Criss-cross | A second crossword over the 14 key words only, clued by the **Arabic** gloss, with the word bank given | Arabic → English word: the gentler direction, and a different grid |
 | 17 | Cryptogram | One substitution cipher across all 14 key words, clued by their English meanings | Spelling, plus deduction — every letter stands for the same letter in every word |
+
+The numbers in the first column are Lessons 6 to 8. A game is numbered after
+the lesson's last part, so Lesson 9 — which has thirteen parts rather than
+twelve — carries the same five games as 14 to 18.
 
 They are generated by `build.py` from the `vocabulary` block in `lesson.json`,
 never written by hand, so a game cannot drill a word the lesson does not teach.
@@ -184,6 +212,50 @@ The app is built from four files at the root — `index.html`, `sw.js`,
 measures the files that were actually built; a part that has not been built does
 not appear, so the app never offers a download that does not exist.
 
+### The service worker
+
+`sw.js` used to be written by hand here, with its cache name bumped by hand —
+and a worker whose name never changes never reinstalls, so an installed phone
+kept stale assets for ever. It is now generated:
+
+```bash
+python scripts/build-sw.py           # rewrite sw.js, after make_catalog.py
+python scripts/build-sw.py --check   # verify sw.js is in step
+npx playwright test                  # the shared invariant suite
+```
+
+`scripts/build-sw.py` is the **same file in all seven apps on
+<https://shamsfelfel.github.io/>** — the hub and six courses — maintained in the
+hub repository and vendored here byte-for-byte, so this course still builds and
+deploys with nothing else checked out. Everything specific to it lives in
+[`sw.config.json`](sw.config.json), which is data, not code.
+
+This course is the one with two caches, and the config says so rather than the
+worker:
+
+| | |
+|---|---|
+| `esl-<hash>` | the app shell. The worker fills it and clears it. The name is a content hash, so a rebuild that changes nothing re-downloads nothing. |
+| `esl-content-v1` | the PDFs and audio **she chose** to save. `app/app.js` owns it; the worker reads it and never writes to or empties it. A file she paid data for must not disappear on an update — not on this app's update, and not on a sibling course's. |
+
+`lessons/` and `tests/` are deliberately not precached: a hundred PDFs and
+eighty MP3s are a download she makes one part at a time, not something an
+install does to her connection behind her back.
+
+Two more settings follow from how the course is used. Ranged requests are
+answered with real 206 slices out of the cache, because a phone's audio player
+asks for byte ranges when she seeks and a whole cached response answered as 200
+is treated as unseekable. And nothing fetched on a cache miss is kept unless the
+app ships it, so a lesson file she only streamed once is not quietly saved.
+
+`activate` deletes only caches whose name starts with `esl-`, and never the two
+above. Cache Storage is scoped to the origin and not to the path, so this app
+can see all seven apps' caches; a worker that deleted everything it did not
+recognise would take the other six offline on every deployment.
+`e2e/sw-invariants.spec.js` — the same file in every app — plants a sibling's
+cache, plants a file in the content cache, forces a reinstall, and fails if
+either is gone.
+
 ## How to use this repository
 
 ### For the student
@@ -197,6 +269,7 @@ lesson folder: [Lesson 1](lessons/lesson-01/README.md),
 [Lesson 6](lessons/lesson-06/README.md),
 [Lesson 7](lessons/lesson-07/README.md),
 [Lesson 8](lessons/lesson-08/README.md),
+[Lesson 9](lessons/lesson-09/README.md),
 [Progress Test 1](tests/test-01/README.md). Each one has a table of parts in
 study order.
 

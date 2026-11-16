@@ -1,0 +1,16 @@
+{
+  "name": "english-second-language",
+  "version": "1.0.0",
+  "description": "English A1+ to B2 — one student's course, offline first, served from https://shamsfelfel.github.io/ESL/",
+  "private": true,
+  "scripts": {
+    "catalog": "python make_catalog.py",
+    "build": "python make_catalog.py && python scripts/build-sw.py",
+    "check": "python scripts/build-sw.py --check",
+    "serve": "python scripts/dev-server.py",
+    "test": "playwright test"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.64.1"
+  }
+}
