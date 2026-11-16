@@ -1,7 +1,7 @@
 {
   "title": "English, A1+ to B2",
   "subtitle": "A guided course for one student, built to work offline.",
-  "generated": "2026-11-08",
+  "generated": "2026-11-16",
   "courses": [
     {
       "kind": "lesson",
@@ -15,7 +15,7 @@
       "skills": "Listening → Reading → Vocabulary → Grammar → Comprehension → Speaking → Writing",
       "new": "present simple, time expressions (at six o'clock, every morning, in the evening), and the five core TOEFL question types",
       "minutes": 245,
-      "bytes": 11284773,
+      "bytes": 11284404,
       "howToWork": [
         "Play **01-passage.mp3** and listen twice with no text in front of you. Do not open the PDF yet.",
         "Then work through the parts in number order, one part at a time. Play the MP3 of a part before you open its sheet.",
@@ -29,7 +29,7 @@
           "title": "Crossword",
           "minutes": 15,
           "file": "12-crossword.html",
-          "bytes": 26721
+          "bytes": 26527
         },
         {
           "number": "13",
@@ -37,7 +37,7 @@
           "title": "Word search",
           "minutes": 10,
           "file": "13-word-search.html",
-          "bytes": 19401
+          "bytes": 19226
         }
       ],
       "whole": {
@@ -212,7 +212,7 @@
       "skills": "Listening → Reading → Vocabulary → Grammar → Comprehension → Speaking → Writing",
       "new": "the past simple (studied, took, lost), a longer passage of 244 words, sentence insertion, a two-sentence written summary, and the first spaced recall of Lesson 1 vocabulary",
       "minutes": 290,
-      "bytes": 16454581,
+      "bytes": 16454196,
       "howToWork": [
         "Play **01-passage.mp3** and listen twice with no text in front of you. Do not open the PDF yet.",
         "Then work through the parts in number order. Part 04 is grammar and has no audio; part 05 needs its audio, because the three sounds of *-ed* cannot be heard from the page.",
@@ -226,7 +226,7 @@
           "title": "Crossword",
           "minutes": 15,
           "file": "13-crossword.html",
-          "bytes": 38927
+          "bytes": 38724
         },
         {
           "number": "14",
@@ -234,7 +234,7 @@
           "title": "Word search",
           "minutes": 10,
           "file": "14-word-search.html",
-          "bytes": 21030
+          "bytes": 20848
         }
       ],
       "whole": {
@@ -424,7 +424,7 @@
       "skills": "Listening → Reading → Vocabulary → Grammar → Comprehension → Speaking → Writing",
       "new": "the past continuous, the weak sounds of was and were, a longer passage of 320 words, and one new question type: purpose of a paragraph",
       "minutes": 300,
-      "bytes": 17884432,
+      "bytes": 17884048,
       "howToWork": [
         "Play **01-passage.mp3** and listen twice with no text in front of you. Do not open the PDF yet.",
         "Then work through the parts in number order. Part 04 is grammar and has no audio; part 05 needs its audio, because the weak sounds of *was* and *were* cannot be heard from the page.",
@@ -438,7 +438,7 @@
           "title": "Crossword",
           "minutes": 15,
           "file": "13-crossword.html",
-          "bytes": 34482
+          "bytes": 34280
         },
         {
           "number": "14",
@@ -446,7 +446,7 @@
           "title": "Word search",
           "minutes": 10,
           "file": "14-word-search.html",
-          "bytes": 20845
+          "bytes": 20663
         }
       ],
       "whole": {
@@ -636,7 +636,7 @@
       "skills": "Listening → Reading → Vocabulary → Grammar → Comprehension → Speaking → Writing",
       "new": "the present perfect with for, since, never, already and yet, the short forms of have and has, a longer passage of 400 words, and one new question type: the purpose of the whole passage",
       "minutes": 300,
-      "bytes": 19191996,
+      "bytes": 19191612,
       "howToWork": [
         "Play **01-passage.mp3** and listen twice with no text in front of you. Do not open the PDF yet.",
         "Then work through the parts in number order. Part 04 is grammar and has no audio; part 05 needs its audio, because *have* and *has* nearly disappear in speech and cannot be heard from the page.",
@@ -650,7 +650,7 @@
           "title": "Crossword",
           "minutes": 15,
           "file": "13-crossword.html",
-          "bytes": 36998
+          "bytes": 36796
         },
         {
           "number": "14",
@@ -658,7 +658,7 @@
           "title": "Word search",
           "minutes": 10,
           "file": "14-word-search.html",
-          "bytes": 20919
+          "bytes": 20737
         }
       ],
       "whole": {
@@ -848,7 +848,7 @@
       "skills": "Listening → Reading → Vocabulary → Grammar → Comprehension → Speaking → Writing",
       "new": "the present perfect continuous with for and since, the -ing ending and the weak been, a longer passage of 481 words, and the last new question type: the writer's attitude. The comprehension set reaches ten questions, the size of a real TOEFL set.",
       "minutes": 305,
-      "bytes": 20381779,
+      "bytes": 20381395,
       "howToWork": [
         "Play **01-passage.mp3** and listen twice with no text in front of you. Do not open the PDF yet.",
         "Then work through the parts in number order. Part 04 is grammar and has no audio; part 05 needs its audio most of all, because *has*, *been* and *-ing* all shrink in speech.",
@@ -862,7 +862,7 @@
           "title": "Crossword",
           "minutes": 15,
           "file": "13-crossword.html",
-          "bytes": 36170
+          "bytes": 35968
         },
         {
           "number": "14",
@@ -870,7 +870,7 @@
           "title": "Word search",
           "minutes": 10,
           "file": "14-word-search.html",
-          "bytes": 21062
+          "bytes": 20880
         }
       ],
       "whole": {
@@ -1060,7 +1060,7 @@
       "skills": "Listening → Reading → Vocabulary → Grammar → Comprehension → Speaking → Writing",
       "new": "the future with will and going to, the short 'll and the weak going to, and the present perfect against an exact date. The passage holds at about 500 words: from here the text gets harder rather than longer, and the question set does not change at all.",
       "minutes": 305,
-      "bytes": 20780143,
+      "bytes": 20778919,
       "howToWork": [
         "Play **01-passage.mp3** and listen twice with no text in front of you. Do not open the PDF yet.",
         "Then work through the parts in number order. Part 04 is grammar and has no audio; part 05 needs its audio most of all, because *will* shrinks to a single consonant and *going to* becomes one word.",
@@ -1074,7 +1074,7 @@
           "title": "Crossword",
           "minutes": 15,
           "file": "13-crossword.html",
-          "bytes": 43863
+          "bytes": 43606
         },
         {
           "number": "14",
@@ -1082,7 +1082,7 @@
           "title": "Word search",
           "minutes": 10,
           "file": "14-word-search.html",
-          "bytes": 24764
+          "bytes": 24531
         },
         {
           "number": "15",
@@ -1090,7 +1090,7 @@
           "title": "Memory pairs",
           "minutes": 10,
           "file": "15-memory.html",
-          "bytes": 16692
+          "bytes": 16462
         },
         {
           "number": "16",
@@ -1098,7 +1098,7 @@
           "title": "Criss-cross, Arabic clues",
           "minutes": 15,
           "file": "16-criss-cross.html",
-          "bytes": 35557
+          "bytes": 35292
         },
         {
           "number": "17",
@@ -1106,7 +1106,7 @@
           "title": "Cryptogram",
           "minutes": 15,
           "file": "17-cryptogram.html",
-          "bytes": 27391
+          "bytes": 27152
         }
       ],
       "whole": {
@@ -1296,7 +1296,7 @@
       "skills": "Listening → Reading → Vocabulary → Grammar → Comprehension → Speaking → Writing",
       "new": "the modals can, could, should, must and have to, the weak can against can't and have to said as hafta, and the state verbs that never take the continuous. The passage stays at about 500 words; the question set is unchanged.",
       "minutes": 305,
-      "bytes": 20750044,
+      "bytes": 20748826,
       "howToWork": [
         "Play **01-passage.mp3** and listen twice with no text in front of you. Do not open the PDF yet.",
         "Then work through the parts in number order. Part 04 is grammar and has no audio; part 05 needs its audio most of all, because *can* and *can't* are told apart by a vowel, not by the *t*.",
@@ -1310,7 +1310,7 @@
           "title": "Crossword",
           "minutes": 15,
           "file": "13-crossword.html",
-          "bytes": 41020
+          "bytes": 40765
         },
         {
           "number": "14",
@@ -1318,7 +1318,7 @@
           "title": "Word search",
           "minutes": 10,
           "file": "14-word-search.html",
-          "bytes": 24435
+          "bytes": 24202
         },
         {
           "number": "15",
@@ -1326,7 +1326,7 @@
           "title": "Memory pairs",
           "minutes": 10,
           "file": "15-memory.html",
-          "bytes": 15593
+          "bytes": 15363
         },
         {
           "number": "16",
@@ -1334,7 +1334,7 @@
           "title": "Criss-cross, Arabic clues",
           "minutes": 15,
           "file": "16-criss-cross.html",
-          "bytes": 32102
+          "bytes": 31841
         },
         {
           "number": "17",
@@ -1342,7 +1342,7 @@
           "title": "Cryptogram",
           "minutes": 15,
           "file": "17-cryptogram.html",
-          "bytes": 26485
+          "bytes": 26246
         }
       ],
       "whole": {
@@ -1532,7 +1532,7 @@
       "skills": "Listening → Reading → Vocabulary → Grammar → Comprehension → Speaking → Writing",
       "new": "the first and second conditional, the contracted 'd for would and had, the weak if-clause, and the present simple in time clauses. The passage stays at about 500 words for the third lesson running, and the question set is unchanged.",
       "minutes": 305,
-      "bytes": 21160403,
+      "bytes": 21159182,
       "howToWork": [
         "Play **01-passage.mp3** and listen twice with no text in front of you. Do not open the PDF yet.",
         "Then work through the parts in number order. Part 04 is grammar and has no audio; part 05 needs its audio most of all, because *would* and *had* arrive as the same single sound.",
@@ -1546,7 +1546,7 @@
           "title": "Crossword",
           "minutes": 15,
           "file": "13-crossword.html",
-          "bytes": 40389
+          "bytes": 40135
         },
         {
           "number": "14",
@@ -1554,7 +1554,7 @@
           "title": "Word search",
           "minutes": 10,
           "file": "14-word-search.html",
-          "bytes": 24637
+          "bytes": 24404
         },
         {
           "number": "15",
@@ -1562,7 +1562,7 @@
           "title": "Memory pairs",
           "minutes": 10,
           "file": "15-memory.html",
-          "bytes": 16143
+          "bytes": 15913
         },
         {
           "number": "16",
@@ -1570,7 +1570,7 @@
           "title": "Criss-cross, Arabic clues",
           "minutes": 15,
           "file": "16-criss-cross.html",
-          "bytes": 34525
+          "bytes": 34260
         },
         {
           "number": "17",
@@ -1578,7 +1578,7 @@
           "title": "Cryptogram",
           "minutes": 15,
           "file": "17-cryptogram.html",
-          "bytes": 26950
+          "bytes": 26711
         }
       ],
       "whole": {
@@ -1768,7 +1768,7 @@
       "skills": "Listening → Reading → Vocabulary → Grammar → The news → Comprehension → Speaking → Writing",
       "new": "the passive voice in every tense she already knows, the agent with by and the four reasons for leaving it out, the weak was, were and been with the three sounds of -ed, and mustn't against don't have to. One new session, part 06, where the figures in the passage are traced back to the sources that gave them. The passage holds at about 500 words for the fourth lesson running (532), and the question set is unchanged.",
       "minutes": 340,
-      "bytes": 18817446,
+      "bytes": 18816226,
       "howToWork": [
         "Play **01-passage.mp3** and listen twice with no text in front of you. Do not open the PDF yet.",
         "Then work through the parts in number order. Part 04 is grammar and has no audio; part 05 needs its audio more than any part in the course so far, because the passive is carried by *was*, *were*, *been* and an *-ed* you can hardly hear.",
@@ -1782,7 +1782,7 @@
           "title": "Crossword",
           "minutes": 15,
           "file": "14-crossword.html",
-          "bytes": 39017
+          "bytes": 38762
         },
         {
           "number": "15",
@@ -1790,7 +1790,7 @@
           "title": "Word search",
           "minutes": 10,
           "file": "15-word-search.html",
-          "bytes": 24438
+          "bytes": 24205
         },
         {
           "number": "16",
@@ -1798,7 +1798,7 @@
           "title": "Memory pairs",
           "minutes": 10,
           "file": "16-memory.html",
-          "bytes": 15852
+          "bytes": 15622
         },
         {
           "number": "17",
@@ -1806,7 +1806,7 @@
           "title": "Criss-cross, Arabic clues",
           "minutes": 15,
           "file": "17-criss-cross.html",
-          "bytes": 33292
+          "bytes": 33029
         },
         {
           "number": "18",
@@ -1814,7 +1814,7 @@
           "title": "Cryptogram",
           "minutes": 15,
           "file": "18-cryptogram.html",
-          "bytes": 26282
+          "bytes": 26043
         }
       ],
       "whole": {
