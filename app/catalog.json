@@ -2014,7 +2014,7 @@
       "skills": "Listening → Reading → Vocabulary → Grammar → Comprehension → Speaking → Writing",
       "new": "the past perfect, taught against the past simple to put two past actions in order, with by the time, already, just and never before; the third conditional, the same form doing a second job; and the weak had, the 'd and would have said as woulda. The passage stays at about 500 words for the fifth lesson running, and the question set is unchanged.",
       "minutes": 305,
-      "bytes": 18816365,
+      "bytes": 18819850,
       "howToWork": [
         "Play **01-passage.mp3** and listen twice with no text in front of you. Do not open the PDF yet.",
         "Then work through the parts in number order. Part 04 is grammar and has no audio; part 05 needs its audio more than any other part in this lesson, because a third conditional is nine words on paper and two in speech.",
@@ -2028,7 +2028,7 @@
           "title": "Crossword",
           "minutes": 15,
           "file": "13-crossword.html",
-          "bytes": 41888
+          "bytes": 42585
         },
         {
           "number": "14",
@@ -2036,7 +2036,7 @@
           "title": "Word search",
           "minutes": 10,
           "file": "14-word-search.html",
-          "bytes": 24935
+          "bytes": 25632
         },
         {
           "number": "15",
@@ -2044,7 +2044,7 @@
           "title": "Memory pairs",
           "minutes": 10,
           "file": "15-memory.html",
-          "bytes": 14054
+          "bytes": 14751
         },
         {
           "number": "16",
@@ -2052,7 +2052,7 @@
           "title": "Criss-cross, Arabic clues",
           "minutes": 15,
           "file": "16-criss-cross.html",
-          "bytes": 35119
+          "bytes": 35816
         },
         {
           "number": "17",
@@ -2060,7 +2060,7 @@
           "title": "Cryptogram",
           "minutes": 15,
           "file": "17-cryptogram.html",
-          "bytes": 27559
+          "bytes": 28256
         }
       ],
       "whole": {

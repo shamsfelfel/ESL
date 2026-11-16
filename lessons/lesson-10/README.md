@@ -28,7 +28,7 @@ that is what downloading all of it costs.
 
 ## The whole lesson in one file
 
-- [00-lesson.pdf](00-lesson.pdf) — every part sheet in one printable document, answer key last, 24 pages, 122 KB. **The large option.**
+- [00-lesson.pdf](00-lesson.pdf) — every part sheet in one printable document, answer key last, 122 KB. **The large option.**
 - [00-full-section.mp3](00-full-section.mp3) — the question tracks end to end, like a real exam section, 15 minutes, 5.2 MB. **The large option.**
 
 ## After the lesson: five word games
@@ -39,11 +39,11 @@ already filled in.
 
 | No. | Game | Minutes | Size |
 |---|---|---|---|
-| 13 | [Crossword](13-crossword.html) | 15 | 41 KB |
-| 14 | [Word search](14-word-search.html) | 10 | 24 KB |
+| 13 | [Crossword](13-crossword.html) | 15 | 42 KB |
+| 14 | [Word search](14-word-search.html) | 10 | 25 KB |
 | 15 | [Memory pairs](15-memory.html) | 10 | 14 KB |
-| 16 | [Criss-cross, Arabic clues](16-criss-cross.html) | 15 | 34 KB |
-| 17 | [Cryptogram](17-cryptogram.html) | 15 | 27 KB |
+| 16 | [Criss-cross, Arabic clues](16-criss-cross.html) | 15 | 35 KB |
+| 17 | [Cryptogram](17-cryptogram.html) | 15 | 28 KB |
 
 ## How to work through this lesson
 
