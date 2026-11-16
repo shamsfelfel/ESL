@@ -1,0 +1,2049 @@
+{
+ "lesson": 10,
+ "slug": "lesson-10",
+ "title": "Lesson 10 — An Hour Too Late",
+ "level": "B1+ (tenth step)",
+ "topic": "A shop's accounts, a disk that failed, and a backup that finished too late",
+ "time": "6 sessions, 50–60 minutes each",
+ "skills": "Listening → Reading → Vocabulary → Grammar → Comprehension → Speaking → Writing",
+ "new_in_this_lesson": "the past perfect, taught against the past simple to put two past actions in order, with by the time, already, just and never before; the third conditional, the same form doing a second job; and the weak had, the 'd and would have said as woulda. The passage stays at about 500 words for the fifth lesson running, and the question set is unchanged.",
+ "passage_words": 520,
+ "footer": "Lesson 10 — An Hour Too Late",
+ "voices": {
+  "reader": {
+   "voice": "en-GB-RyanNeural",
+   "rate": "-10%",
+   "pitch": "+0Hz"
+  },
+  "narrator": {
+   "voice": "en-GB-SoniaNeural",
+   "rate": "-5%",
+   "pitch": "+0Hz"
+  },
+  "slow": {
+   "voice": "en-GB-RyanNeural",
+   "rate": "-25%",
+   "pitch": "+0Hz"
+  }
+ },
+ "vocabulary": [
+  {
+   "word": "restore",
+   "answer": "RESTORE",
+   "type": "verb",
+   "meaning": "to bring files back from a copy, so that they can be used again",
+   "arabic": "يستعيد الملفات من النسخة الاحتياطية",
+   "icon": "refresh"
+  },
+  {
+   "word": "overwrite",
+   "answer": "OVERWRITE",
+   "type": "verb",
+   "meaning": "to save new data on top of old data, so that the old data is gone",
+   "arabic": "يكتب فوق البيانات القديمة فيمحوها"
+  },
+  {
+   "word": "corrupt",
+   "answer": "CORRUPT",
+   "type": "adjective",
+   "meaning": "damaged inside, so that it will not open or work properly",
+   "arabic": "تالف",
+   "icon": "warning"
+  },
+  {
+   "word": "retrieve",
+   "answer": "RETRIEVE",
+   "type": "verb",
+   "meaning": "to get something back from a place where it was lost or hard to reach",
+   "arabic": "يستردّ",
+   "icon": "download"
+  },
+  {
+   "word": "snapshot",
+   "answer": "SNAPSHOT",
+   "type": "noun",
+   "meaning": "a copy of all the files exactly as they were at one moment",
+   "arabic": "نسخة محفوظة من لحظة معيّنة"
+  },
+  {
+   "word": "invoice",
+   "answer": "INVOICE",
+   "type": "noun",
+   "meaning": "a paper that tells a customer what to pay, and for what",
+   "arabic": "فاتورة"
+  },
+  {
+   "word": "delay",
+   "answer": "DELAY",
+   "type": "noun",
+   "meaning": "a time when something is later or slower than it should be",
+   "arabic": "تأخير"
+  },
+  {
+   "word": "confirm",
+   "answer": "CONFIRM",
+   "type": "verb",
+   "meaning": "to say or show that something is true or certain",
+   "arabic": "يؤكّد"
+  },
+  {
+   "word": "disk",
+   "answer": "DISK",
+   "type": "noun",
+   "meaning": "the part inside a computer that keeps the files when the power is off",
+   "arabic": "قرص التخزين"
+  },
+  {
+   "word": "spreadsheet",
+   "answer": "SPREADSHEET",
+   "type": "noun",
+   "meaning": "a file of numbers in rows and columns that can add itself up",
+   "arabic": "جدول بيانات"
+  },
+  {
+   "word": "receipt",
+   "answer": "RECEIPT",
+   "type": "noun",
+   "meaning": "a paper that shows somebody has paid",
+   "arabic": "إيصال"
+  },
+  {
+   "word": "supplier",
+   "answer": "SUPPLIER",
+   "type": "noun",
+   "meaning": "a business that sells goods to a shop",
+   "arabic": "مورّد"
+  },
+  {
+   "word": "router",
+   "answer": "ROUTER",
+   "type": "noun",
+   "meaning": "the box that sends data between your computers and the internet",
+   "arabic": "جهاز التوجيه (الراوتر)",
+   "icon": "router"
+  },
+  {
+   "word": "assume",
+   "answer": "ASSUME",
+   "type": "verb",
+   "meaning": "to believe something is true without checking it",
+   "arabic": "يفترض"
+  }
+ ],
+ "recall": [
+  {
+   "word": "uplink",
+   "answer": "UPLINK",
+   "meaning": "the one connection that joins a local network to the internet",
+   "icon": "uplink"
+  },
+  {
+   "word": "latency",
+   "answer": "LATENCY",
+   "meaning": "the delay between sending something and it arriving"
+  },
+  {
+   "word": "neighbour",
+   "answer": "NEIGHBOUR",
+   "meaning": "a person who lives in the next house or flat",
+   "icon": "houses"
+  },
+  {
+   "word": "afford",
+   "answer": "AFFORD",
+   "meaning": "to have enough money to pay for something"
+  },
+  {
+   "word": "reliable",
+   "answer": "RELIABLE",
+   "meaning": "something you can depend on, because it works every time"
+  }
+ ],
+ "how_to_work": [
+  "Play **01-passage.mp3** and listen twice with no text in front of you. Do not open the PDF yet.",
+  "Then work through the parts in number order. Part 04 is grammar and has no audio; part 05 needs its audio more than any other part in this lesson, because a third conditional is nine words on paper and two in speech.",
+  "Read section 3.4 of part 04 twice. The past perfect is easy to make and easy to overuse, and 3.4 is where you learn when **not** to use it.",
+  "Open part 11, the answer key, only when parts 01 to 10 are finished. The five games come days later, not the same evening."
+ ],
+ "full_section": {
+  "parts": [
+   "01",
+   "02",
+   "06",
+   "07"
+  ],
+  "gap": 3,
+  "closing": [
+   {
+    "pause": 2
+   },
+   {
+    "say": "This is the end of lesson ten.",
+    "voice": "narrator"
+   }
+  ]
+ },
+ "games": [
+  {
+   "number": "13",
+   "slug": "crossword",
+   "title": "Crossword",
+   "style": "crossword",
+   "minutes": 15
+  },
+  {
+   "number": "14",
+   "slug": "word-search",
+   "title": "Word search",
+   "style": "word-search",
+   "minutes": 10
+  },
+  {
+   "number": "15",
+   "slug": "memory",
+   "title": "Memory pairs",
+   "style": "memory",
+   "minutes": 10,
+   "pairs": 10
+  },
+  {
+   "number": "16",
+   "slug": "criss-cross",
+   "title": "Criss-cross, Arabic clues",
+   "style": "criss-cross",
+   "minutes": 15
+  },
+  {
+   "number": "17",
+   "slug": "cryptogram",
+   "title": "Cryptogram",
+   "style": "cryptogram",
+   "minutes": 15,
+   "given": 3
+  }
+ ],
+ "parts": [
+  {
+   "number": "01",
+   "slug": "passage",
+   "title": "Passage — An Hour Too Late",
+   "minutes": 20,
+   "sheet": true,
+   "audio": true,
+   "print_only": {
+    "markers": [
+     "[A]",
+     "[B]",
+     "[C]",
+     "[D]"
+    ],
+    "note": "The sentence-insertion markers are printed in the passage and are never read aloud."
+   },
+   "markdown": "> **How to do the listening.** The same rule as every lesson so far: the student listens **twice with no text**, then reads.\n> Audio files: `01-passage.mp3` first, then the other parts in order. Part `05-had-and-would-have.mp3` is new — the weak *had*, the *'d*, and *would have* said as one short sound.\n\n### 1.1 Before listening (2 minutes, Arabic is fine here)\n\n1. Have you ever lost a file you needed? What had happened just before you lost it?\n2. Where do you keep a second copy of your important work? Have you ever opened that copy?\n3. What is the difference between *having* a backup and *knowing* that it works?\n\n### 1.4 Now read the passage\n\n### Passage: *An Hour Too Late* (520 words)\n\nHuda keeps the accounts for her uncle's shop, a narrow room selling notebooks, ink and phone credit. Everything lives on one old laptop under the counter: a spreadsheet of every sale, a folder of every invoice from every supplier, and the receipts she types in each evening. At midnight a small program sends a copy of the whole folder through the router to storage on the internet.\n\n**[A]** Midnight was not her choice. The shop shares one uplink with the bakery and the pharmacy next door, and until late the line is full of their orders. After twelve the latency drops, and nobody notices a delay while the copy runs. Until one Tuesday, it had run every night for two years, and she had never once looked at it.\n\nThat Tuesday she opened the laptop at eight and heard a noise she had not heard before, a dry click, again and again. Then the screen froze. By the time she found a neighbour who could drive her to the repair bench, the disk had gone quiet.\n\n**[B]** The technician could retrieve most of the old files, but the files from that week were corrupt, and the spreadsheet would not open at all. \"You have a backup,\" he said, and she nodded, because she had assumed she did. He asked her to confirm the time of the last copy, so she opened the log on her phone.\n\nIt was all there in four lines. The copy had started at ten past midnight and had finished at ten past one. The disk, he showed her, had begun to fail at about midnight, so everything the program had sent in that hour was already damaged. Worse, it kept only one copy, and each night it overwrote the night before. Until ten past one, a good copy of the week had existed; then the damage took its place.\n\n**[C]** Afterwards she changed three things. The program now keeps a snapshot for every night of the last two weeks, so a bad night cannot overwrite a good one. A second disk sits in a drawer at home, and on Fridays she copies the folder onto it by hand. And on the first day of every month she does the thing she had never done: she chooses one old file and tries to restore it, to prove the copy can be used.\n\n\"If I had tested it even once,\" she says, \"I would have known it kept only one night.\" If the copy had run an hour earlier, it would have saved the accounts instead of the damage. But it could not run earlier, because the line was busy, and the shop could not afford a line of its own.\n\n**[D]** That is the part she finds hardest to accept. The shop had done the right thing. It had a backup, the backup ran every night, and it was reliable in every way she had thought to check. It still lost a week, and every supplier had to send its invoices again.\n\nA backup nobody has ever restored from is not a backup. It is a hope with a timetable.\n\n### 1.5 Read aloud\n\nRead the passage aloud **once** and record it. Then find every *had* in it and read those sentences again, saying *had* short and quiet — the word after it carries the stress, not *had*. Last, read the two *if* sentences in the paragraph that begins *If I had tested it* twice each, and listen for how little is left of *would have*.",
+   "segments": [
+    {
+     "say": "Lesson ten. An Hour Too Late. Listening practice.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 1
+    },
+    {
+     "say": "You will hear about a woman who keeps the accounts for a small shop, a disk that stopped one morning, and a backup that finished an hour too late. Listen for what happened first, and for what she changed afterwards. You will hear it two times. Do not read the text. Listen only.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 2
+    },
+    {
+     "say": "Now listen.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 1.5
+    },
+    {
+     "say": "Huda keeps the accounts for her uncle's shop, a narrow room selling notebooks, ink and phone credit. Everything lives on one old laptop under the counter: a spreadsheet of every sale, a folder of every invoice from every supplier, and the receipts she types in each evening. At midnight a small program sends a copy of the whole folder through the router to storage on the internet.\n\nMidnight was not her choice. The shop shares one uplink with the bakery and the pharmacy next door, and until late the line is full of their orders. After twelve the latency drops, and nobody notices a delay while the copy runs. Until one Tuesday, it had run every night for two years, and she had never once looked at it.\n\nThat Tuesday she opened the laptop at eight and heard a noise she had not heard before, a dry click, again and again. Then the screen froze. By the time she found a neighbour who could drive her to the repair bench, the disk had gone quiet.\n\nThe technician could retrieve most of the old files, but the files from that week were corrupt, and the spreadsheet would not open at all. \"You have a backup,\" he said, and she nodded, because she had assumed she did. He asked her to confirm the time of the last copy, so she opened the log on her phone.\n\nIt was all there in four lines. The copy had started at ten past midnight and had finished at ten past one. The disk, he showed her, had begun to fail at about midnight, so everything the program had sent in that hour was already damaged. Worse, it kept only one copy, and each night it overwrote the night before. Until ten past one, a good copy of the week had existed; then the damage took its place.\n\nAfterwards she changed three things. The program now keeps a snapshot for every night of the last two weeks, so a bad night cannot overwrite a good one. A second disk sits in a drawer at home, and on Fridays she copies the folder onto it by hand. And on the first day of every month she does the thing she had never done: she chooses one old file and tries to restore it, to prove the copy can be used.\n\n\"If I had tested it even once,\" she says, \"I would have known it kept only one night.\" If the copy had run an hour earlier, it would have saved the accounts instead of the damage. But it could not run earlier, because the line was busy, and the shop could not afford a line of its own.\n\nThat is the part she finds hardest to accept. The shop had done the right thing. It had a backup, the backup ran every night, and it was reliable in every way she had thought to check. It still lost a week, and every supplier had to send its invoices again.\n\nA backup nobody has ever restored from is not a backup. It is a hope with a timetable.",
+     "voice": "reader"
+    },
+    {
+     "pause": 4
+    },
+    {
+     "say": "Now listen again.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 1.5
+    },
+    {
+     "say": "Huda keeps the accounts for her uncle's shop, a narrow room selling notebooks, ink and phone credit. Everything lives on one old laptop under the counter: a spreadsheet of every sale, a folder of every invoice from every supplier, and the receipts she types in each evening. At midnight a small program sends a copy of the whole folder through the router to storage on the internet.\n\nMidnight was not her choice. The shop shares one uplink with the bakery and the pharmacy next door, and until late the line is full of their orders. After twelve the latency drops, and nobody notices a delay while the copy runs. Until one Tuesday, it had run every night for two years, and she had never once looked at it.\n\nThat Tuesday she opened the laptop at eight and heard a noise she had not heard before, a dry click, again and again. Then the screen froze. By the time she found a neighbour who could drive her to the repair bench, the disk had gone quiet.\n\nThe technician could retrieve most of the old files, but the files from that week were corrupt, and the spreadsheet would not open at all. \"You have a backup,\" he said, and she nodded, because she had assumed she did. He asked her to confirm the time of the last copy, so she opened the log on her phone.\n\nIt was all there in four lines. The copy had started at ten past midnight and had finished at ten past one. The disk, he showed her, had begun to fail at about midnight, so everything the program had sent in that hour was already damaged. Worse, it kept only one copy, and each night it overwrote the night before. Until ten past one, a good copy of the week had existed; then the damage took its place.\n\nAfterwards she changed three things. The program now keeps a snapshot for every night of the last two weeks, so a bad night cannot overwrite a good one. A second disk sits in a drawer at home, and on Fridays she copies the folder onto it by hand. And on the first day of every month she does the thing she had never done: she chooses one old file and tries to restore it, to prove the copy can be used.\n\n\"If I had tested it even once,\" she says, \"I would have known it kept only one night.\" If the copy had run an hour earlier, it would have saved the accounts instead of the damage. But it could not run earlier, because the line was busy, and the shop could not afford a line of its own.\n\nThat is the part she finds hardest to accept. The shop had done the right thing. It had a backup, the backup ran every night, and it was reliable in every way she had thought to check. It still lost a week, and every supplier had to send its invoices again.\n\nA backup nobody has ever restored from is not a backup. It is a hope with a timetable.",
+     "voice": "reader"
+    },
+    {
+     "pause": 2
+    },
+    {
+     "say": "This is the end of the passage.",
+     "voice": "narrator"
+    }
+   ]
+  },
+  {
+   "number": "02",
+   "slug": "listening-questions",
+   "title": "Listening questions",
+   "minutes": 10,
+   "sheet": true,
+   "audio": true,
+   "markdown": "### 1.2 Listening — first time (no text)\n\n- **L1.** What does Huda keep on the laptop under the counter?\n- **L2.** Why does the copy run at midnight?\n- **L3.** What did the log show?\n- **L4.** Name one thing she changed afterwards.\n\n### 1.3 Listening — second time (no text)\n\nWrite **two sentences you heard with *had***, and for each one say which thing happened first. Then write the sentence Huda says about what she **would have known**, and **one word** you heard but did not understand.",
+   "segments": [
+    {
+     "say": "Now answer the listening questions. Write a short answer for each one.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 2
+    },
+    {
+     "say": "Question one. What does Huda keep on the laptop under the counter?",
+     "voice": "narrator"
+    },
+    {
+     "pause": 10
+    },
+    {
+     "say": "Question two. Why does the copy run at midnight?",
+     "voice": "narrator"
+    },
+    {
+     "pause": 10
+    },
+    {
+     "say": "Question three. What did the log show?",
+     "voice": "narrator"
+    },
+    {
+     "pause": 10
+    },
+    {
+     "say": "Question four. Name one thing she changed afterwards.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 10
+    },
+    {
+     "say": "This is the end of the listening questions.",
+     "voice": "narrator"
+    }
+   ]
+  },
+  {
+   "number": "03",
+   "slug": "vocabulary",
+   "title": "Vocabulary and Lesson 8 recall",
+   "minutes": 35,
+   "sheet": true,
+   "audio": true,
+   "markdown": "### 2.1 Key words\n\n| # | Word | Type | Simple meaning | Arabic | Example |\n|---|---|---|---|---|---|\n| 1 | restore | verb | to bring files back from a copy, so that they can be used again | يستعيد الملفات من النسخة الاحتياطية | Once a month she tries to **restore** one old file. |\n| 2 | overwrite | verb | to save new data on top of old data, so that the old data is gone | يكتب فوق البيانات القديمة فيمحوها | Each night the program **overwrote** the night before. |\n| 3 | corrupt | adjective | damaged inside, so that it will not open or work properly | تالف | The files from that week were **corrupt**. |\n| 4 | retrieve | verb | to get something back from a place where it was lost or hard to reach | يستردّ | The technician could **retrieve** most of the old files. |\n| 5 | snapshot | noun | a copy of all the files exactly as they were at one moment | نسخة محفوظة من لحظة معيّنة | The program now keeps a **snapshot** for every night. |\n| 6 | invoice | noun | a paper that tells a customer what to pay, and for what | فاتورة | Every supplier had to send its **invoices** again. |\n| 7 | delay | noun | a time when something is later or slower than it should be | تأخير | After twelve, nobody notices a **delay** while the copy runs. |\n| 8 | confirm | verb | to say or show that something is true or certain | يؤكّد | He asked her to **confirm** the time of the last copy. |\n| 9 | disk | noun | the part inside a computer that keeps the files when the power is off | قرص التخزين | By the time she found a neighbour, the **disk** had gone quiet. |\n| 10 | spreadsheet | noun | a file of numbers in rows and columns that can add itself up | جدول بيانات | The **spreadsheet** would not open at all. |\n| 11 | receipt | noun | a paper that shows somebody has paid | إيصال | She types in the **receipts** each evening. |\n| 12 | supplier | noun | a business that sells goods to a shop | مورّد | She keeps every invoice from every **supplier**. |\n| 13 | router | noun | the box that sends data between your computers and the internet | جهاز التوجيه (الراوتر) | A small program sends a copy through the **router**. |\n| 14 | assume | verb | to believe something is true without checking it | يفترض | She nodded, because she had **assumed** she did. |\n\n### 2.2 Synonyms and opposites\n\n| Word | Synonym | Opposite |\n|---|---|---|\n| restore | bring back, recover | lose |\n| corrupt | damaged, broken | whole, healthy |\n| retrieve | get back | leave behind |\n| confirm | prove, make certain | doubt |\n| assume | suppose, take for granted | check, know for sure |\n| delay | hold-up, wait | arriving on time |\n| invoice | a bill | a receipt — the paper that comes *after* you pay |\n| overwrite | write over | keep both |\n\n### 2.3 Expressions to learn\n\n| Expression | What it really means |\n|---|---|\n| **under the counter** | behind the place in a shop where you pay, out of the customers' sight |\n| **never once** | not even one time — stronger than *never* |\n| **again and again** | many times, one after another |\n| **it was all there** | every piece of the answer was in one place |\n| **take its place** | be where something else used to be |\n| **by hand** | done by a person, not by a program |\n| **the right thing** | what a careful, sensible person would do |\n\n### 2.4 Vocabulary practice\n\n**A. Write the opposite:**\n\n1. corrupt → \\_\\_\\_\\_\\_\\_\\_\\_\n2. confirm → \\_\\_\\_\\_\\_\\_\\_\\_\n3. assume → \\_\\_\\_\\_\\_\\_\\_\\_\n4. retrieve → \\_\\_\\_\\_\\_\\_\\_\\_\n5. restore → \\_\\_\\_\\_\\_\\_\\_\\_\n\n**B. Which word is different? Say why:**\n\n1. invoice — receipt — supplier — router\n2. restore — retrieve — get back — overwrite\n3. disk — router — laptop — supplier\n\n**C. Say it in your own words:**\n\n1. What is the difference between an *invoice* and a *receipt*? Which one comes first?\n2. What is a *snapshot*, and why does keeping one for every night stop a bad night from overwriting a good one?",
+   "segments": [
+    {
+     "say": "Vocabulary practice. You will hear a word, then its meaning, then an example sentence. Repeat the word in the silence.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 2
+    },
+    {
+     "say": "Word 1.",
+     "voice": "narrator"
+    },
+    {
+     "say": "restore",
+     "voice": "reader"
+    },
+    {
+     "pause": 3
+    },
+    {
+     "say": "restore. to bring files back from a copy, so that they can be used again.",
+     "voice": "reader"
+    },
+    {
+     "pause": 1
+    },
+    {
+     "say": "Once a month she tries to restore one old file.",
+     "voice": "reader"
+    },
+    {
+     "pause": 3
+    },
+    {
+     "say": "Word 2.",
+     "voice": "narrator"
+    },
+    {
+     "say": "overwrite",
+     "voice": "reader"
+    },
+    {
+     "pause": 3
+    },
+    {
+     "say": "overwrite. to save new data on top of old data, so that the old data is gone.",
+     "voice": "reader"
+    },
+    {
+     "pause": 1
+    },
+    {
+     "say": "Each night the program overwrote the night before.",
+     "voice": "reader"
+    },
+    {
+     "pause": 3
+    },
+    {
+     "say": "Word 3.",
+     "voice": "narrator"
+    },
+    {
+     "say": "corrupt",
+     "voice": "reader"
+    },
+    {
+     "pause": 3
+    },
+    {
+     "say": "corrupt. damaged inside, so that it will not open or work properly.",
+     "voice": "reader"
+    },
+    {
+     "pause": 1
+    },
+    {
+     "say": "The files from that week were corrupt.",
+     "voice": "reader"
+    },
+    {
+     "pause": 3
+    },
+    {
+     "say": "Word 4.",
+     "voice": "narrator"
+    },
+    {
+     "say": "retrieve",
+     "voice": "reader"
+    },
+    {
+     "pause": 3
+    },
+    {
+     "say": "retrieve. to get something back from a place where it was lost or hard to reach.",
+     "voice": "reader"
+    },
+    {
+     "pause": 1
+    },
+    {
+     "say": "The technician could retrieve most of the old files.",
+     "voice": "reader"
+    },
+    {
+     "pause": 3
+    },
+    {
+     "say": "Word 5.",
+     "voice": "narrator"
+    },
+    {
+     "say": "snapshot",
+     "voice": "reader"
+    },
+    {
+     "pause": 3
+    },
+    {
+     "say": "snapshot. a copy of all the files exactly as they were at one moment.",
+     "voice": "reader"
+    },
+    {
+     "pause": 1
+    },
+    {
+     "say": "The program now keeps a snapshot for every night.",
+     "voice": "reader"
+    },
+    {
+     "pause": 3
+    },
+    {
+     "say": "Word 6.",
+     "voice": "narrator"
+    },
+    {
+     "say": "invoice",
+     "voice": "reader"
+    },
+    {
+     "pause": 3
+    },
+    {
+     "say": "invoice. a paper that tells a customer what to pay, and for what.",
+     "voice": "reader"
+    },
+    {
+     "pause": 1
+    },
+    {
+     "say": "Every supplier had to send its invoices again.",
+     "voice": "reader"
+    },
+    {
+     "pause": 3
+    },
+    {
+     "say": "Word 7.",
+     "voice": "narrator"
+    },
+    {
+     "say": "delay",
+     "voice": "reader"
+    },
+    {
+     "pause": 3
+    },
+    {
+     "say": "delay. a time when something is later or slower than it should be.",
+     "voice": "reader"
+    },
+    {
+     "pause": 1
+    },
+    {
+     "say": "After twelve, nobody notices a delay while the copy runs.",
+     "voice": "reader"
+    },
+    {
+     "pause": 3
+    },
+    {
+     "say": "Word 8.",
+     "voice": "narrator"
+    },
+    {
+     "say": "confirm",
+     "voice": "reader"
+    },
+    {
+     "pause": 3
+    },
+    {
+     "say": "confirm. to say or show that something is true or certain.",
+     "voice": "reader"
+    },
+    {
+     "pause": 1
+    },
+    {
+     "say": "He asked her to confirm the time of the last copy.",
+     "voice": "reader"
+    },
+    {
+     "pause": 3
+    },
+    {
+     "say": "Word 9.",
+     "voice": "narrator"
+    },
+    {
+     "say": "disk",
+     "voice": "reader"
+    },
+    {
+     "pause": 3
+    },
+    {
+     "say": "disk. the part inside a computer that keeps the files when the power is off.",
+     "voice": "reader"
+    },
+    {
+     "pause": 1
+    },
+    {
+     "say": "By the time she found a neighbour, the disk had gone quiet.",
+     "voice": "reader"
+    },
+    {
+     "pause": 3
+    },
+    {
+     "say": "Word 10.",
+     "voice": "narrator"
+    },
+    {
+     "say": "spreadsheet",
+     "voice": "reader"
+    },
+    {
+     "pause": 3
+    },
+    {
+     "say": "spreadsheet. a file of numbers in rows and columns that can add itself up.",
+     "voice": "reader"
+    },
+    {
+     "pause": 1
+    },
+    {
+     "say": "The spreadsheet would not open at all.",
+     "voice": "reader"
+    },
+    {
+     "pause": 3
+    },
+    {
+     "say": "Word 11.",
+     "voice": "narrator"
+    },
+    {
+     "say": "receipt",
+     "voice": "reader"
+    },
+    {
+     "pause": 3
+    },
+    {
+     "say": "receipt. a paper that shows somebody has paid.",
+     "voice": "reader"
+    },
+    {
+     "pause": 1
+    },
+    {
+     "say": "She types in the receipts each evening.",
+     "voice": "reader"
+    },
+    {
+     "pause": 3
+    },
+    {
+     "say": "Word 12.",
+     "voice": "narrator"
+    },
+    {
+     "say": "supplier",
+     "voice": "reader"
+    },
+    {
+     "pause": 3
+    },
+    {
+     "say": "supplier. a business that sells goods to a shop.",
+     "voice": "reader"
+    },
+    {
+     "pause": 1
+    },
+    {
+     "say": "She keeps every invoice from every supplier.",
+     "voice": "reader"
+    },
+    {
+     "pause": 3
+    },
+    {
+     "say": "Word 13.",
+     "voice": "narrator"
+    },
+    {
+     "say": "router",
+     "voice": "reader"
+    },
+    {
+     "pause": 3
+    },
+    {
+     "say": "router. the box that sends data between your computers and the internet.",
+     "voice": "reader"
+    },
+    {
+     "pause": 1
+    },
+    {
+     "say": "A small program sends a copy through the router.",
+     "voice": "reader"
+    },
+    {
+     "pause": 3
+    },
+    {
+     "say": "Word 14.",
+     "voice": "narrator"
+    },
+    {
+     "say": "assume",
+     "voice": "reader"
+    },
+    {
+     "pause": 3
+    },
+    {
+     "say": "assume. to believe something is true without checking it.",
+     "voice": "reader"
+    },
+    {
+     "pause": 1
+    },
+    {
+     "say": "She nodded, because she had assumed she did.",
+     "voice": "reader"
+    },
+    {
+     "pause": 3
+    },
+    {
+     "pause": 1.5
+    },
+    {
+     "say": "Now five words from lesson 8. Say the meaning before you hear it.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 2
+    },
+    {
+     "say": "uplink",
+     "voice": "reader"
+    },
+    {
+     "pause": 5
+    },
+    {
+     "say": "the one connection that joins a local network to the internet",
+     "voice": "reader"
+    },
+    {
+     "pause": 1
+    },
+    {
+     "say": "latency",
+     "voice": "reader"
+    },
+    {
+     "pause": 5
+    },
+    {
+     "say": "the delay between sending something and it arriving",
+     "voice": "reader"
+    },
+    {
+     "pause": 1
+    },
+    {
+     "say": "neighbour",
+     "voice": "reader"
+    },
+    {
+     "pause": 5
+    },
+    {
+     "say": "a person who lives in the next house or flat",
+     "voice": "reader"
+    },
+    {
+     "pause": 1
+    },
+    {
+     "say": "afford",
+     "voice": "reader"
+    },
+    {
+     "pause": 5
+    },
+    {
+     "say": "to have enough money to pay for something",
+     "voice": "reader"
+    },
+    {
+     "pause": 1
+    },
+    {
+     "say": "reliable",
+     "voice": "reader"
+    },
+    {
+     "pause": 5
+    },
+    {
+     "say": "something you can depend on, because it works every time",
+     "voice": "reader"
+    },
+    {
+     "pause": 1
+    },
+    {
+     "say": "This is the end of the vocabulary practice.",
+     "voice": "narrator"
+    }
+   ]
+  },
+  {
+   "number": "04",
+   "slug": "grammar-past-perfect",
+   "title": "Grammar — the past perfect, and the third conditional",
+   "minutes": 50,
+   "sheet": true,
+   "audio": false,
+   "markdown": "### Come back to: the first and second conditional\n\nLesson 8 taught two conditionals, and the difference between them was not time.\nIt was **how real the speaker thinks it is**. Two lines to remind you:\n\n| If the line **is** busy, the copy **will** wait. | first — real, and possible |\n|---|---|\n| If the shop **had** its own line, the copy **would** run at ten. | second — not true now |\n\n**New this time: a third conditional, for a past that did not happen.**\n\n> *If the copy **had run** an hour earlier, it **would have saved** the accounts.*\n\nIt did not run earlier, and it did not save them. The sentence is about a past\nthat is closed — and its *if*-clause is built from today's new tense, the past\nperfect. So learn the past perfect first, in 3.1 to 3.5, and the third\nconditional is waiting for you in 3.6, where it will take two minutes instead of\ntwenty.\n\n**Quick practice.** First or second? Put both verbs in the right form.\n\n1. If the disk \\_\\_\\_\\_\\_\\_\\_\\_ (fail) tonight, the snapshot \\_\\_\\_\\_\\_\\_\\_\\_ (save) the week.\n2. If she \\_\\_\\_\\_\\_\\_\\_\\_ (have) a line of her own, she \\_\\_\\_\\_\\_\\_\\_\\_ (run) the copy at ten.\n3. If the shop \\_\\_\\_\\_\\_\\_\\_\\_ (be) bigger, it \\_\\_\\_\\_\\_\\_\\_\\_ (pay) for a line of its own. *(It is not.)*\n\n---\n\n### 3.1 Two things in the past — which came first?\n\nYou have had the past simple since Lesson 2. Told in order, the past simple is\nall a story needs:\n\n> *She opened the laptop. She heard a click. The screen froze.*\n\nThe order of telling is the order of happening, and nothing more is needed.\n\nBut a story does not always go forwards. At the repair bench, the technician\nshows Huda the log — and the log is about the night **before**:\n\n> *He showed her the log. The copy **had finished** at ten past one.*\n\nTold in that order, the second sentence happened **first**. The **past\nperfect** is the signal: it says *go back — this happened earlier than the\nlast thing I told you*.\n\n| Earlier | Later |\n|---|---|\n| The disk **had begun** to fail at midnight. | She **opened** the laptop at eight. |\n| She **had assumed** she had a backup. | The technician **asked** about it. |\n| It **had run** every night for two years. | One Tuesday it **failed** her. |\n\n**The only reason this tense exists is to put two past actions in order.** If\nthere is only one past action, or if you tell them in order, you do not need it.\n\n### 3.2 How it is made\n\n**had + past participle** — the same for every person.\n\n| Positive | Short form | Negative | Question |\n|---|---|---|---|\n| She **had finished**. | She**'d** finished. | She **had not** (**hadn't**) finished. | **Had** she finished? |\n| They **had sent** it. | They**'d** sent it. | They **hadn't** sent it. | **Had** they sent it? |\n\n*had* never changes, and the participle never changes. *had* is also the past\nof *have*, so *she had had a backup for two years* is correct — the first *had*\nmakes the tense, the second is the verb.\n\n### 3.3 The words that travel with it\n\n| Word | What it does | Example |\n|---|---|---|\n| **by the time** | the main clause was finished before this moment | ***By the time** she found a neighbour, the disk **had gone** quiet.* |\n| **already** | earlier than you expected | *When she opened the laptop, the damage **had already** happened.* |\n| **just** | a very short time before | *The copy **had just** finished when the disk stopped.* |\n| **never … before** | not once, until that moment | *She **had never** heard that noise **before**.* |\n\nNotice the first line: after ***by the time*** the verb is the **past simple**\n(*found*), and the past perfect goes in the other clause. *By the time she had\nfound* is the mistake.\n\n**when against after.** *when* can mean *at the same moment*, so it needs the\npast perfect to show an order:\n\n- *When she arrived, the technician **left**.* — she saw him go.\n- *When she arrived, the technician **had left**.* — he was already gone; she never saw him.\n\n***after*** already says which came first, so the past simple is enough. The\npast perfect is allowed, but it adds nothing:\n\n- *After the copy **finished**, the disk stopped.* ✓\n- *After the copy **had finished**, the disk stopped.* ✓ (also correct, and no clearer)\n\n### 3.4 The trap: three *hads* is worse than none\n\nOnce you have the past perfect, it is tempting to put it everywhere a story is\nin the past. Don't. **The past perfect is for when the order of telling and the\norder of happening disagree.** When they agree, it is wrong — or at best heavy.\n\n| ✗ Wrong, or heavy | ✓ Better | Why |\n|---|---|---|\n| *She had arrived, had opened the laptop and had seen the error.* | *She arrived, opened the laptop and saw the error.* | told in order — nothing to go back to |\n| *Yesterday I had lost my phone.* | *Yesterday I lost my phone.* | only one past action |\n| *The disk had failed, so she had taken it to the bench.* | *The disk failed, so she took it to the bench.* | *so* already gives the order |\n| *She took it to the bench. It made a noise all morning.* | *She took it to the bench. It **had made** a noise all morning.* | the noise came first, but is told second |\n| *When she opened the log, the copy finished.* | *When she opened the log, the copy **had finished** hours before.* | without it, the two happen together |\n\nThe last two lines are the ones where the past perfect is **needed**. The first\nthree are the ones where it is a mistake. And notice how a real writer does it:\n**one** past perfect takes the story back, and then the past simple carries on\nfrom there. *She had saved it on a memory card. The card broke in her bag.* The\nsecond sentence does not need another *had* — the reader has already gone back.\n\n### 3.5 The participles in today's passage\n\nYou met five irregular past forms in Lesson 3 and nine irregular participles in\nLesson 4. This is the lesson that needs them most, because every past perfect\nends in one. ✱ marks the irregular ones — learn those; the rest add *-ed*.\n\n| Verb | Past simple | Past participle | In the passage |\n|---|---|---|---|\n| run ✱ | ran | **run** | *it **had run** every night* |\n| hear ✱ | heard | **heard** | *a noise she **had not heard** before* |\n| go ✱ | went | **gone** | *the disk **had gone** quiet* |\n| begin ✱ | began | **begun** | *the disk **had begun** to fail* |\n| send ✱ | sent | **sent** | *everything the program **had sent*** |\n| do ✱ | did | **done** | *the thing she **had never done*** |\n| think ✱ | thought | **thought** | *every way she **had thought** to check* |\n| look | looked | looked | *she **had never once looked** at it* |\n| assume | assumed | assumed | *she **had assumed** she did* |\n| start | started | started | *the copy **had started** at ten past midnight* |\n| finish | finished | finished | *and **had finished** at ten past one* |\n| exist | existed | existed | *a good copy of the week **had existed*** |\n| test | tested | tested | *if I **had tested** it even once* |\n\nWatch *run*: its participle is the same as the plain verb, so *had run* is\nright and *had ran* is wrong. And *begin — began — begun* is the one most\npeople get wrong in writing: *had began* is a mistake.\n\n### 3.6 The third conditional: the same form, a second job\n\nHere is the Lesson 8 table again, with a third line:\n\n| | *If*-clause | Main clause | The speaker thinks |\n|---|---|---|---|\n| First | if + present simple | *will* + verb | it may well happen |\n| Second | if + past simple | *would* + verb | it is not true now |\n| **Third** | **if + had + participle** | ***would have* + participle** | **it did not happen, and now it cannot** |\n\n> *If I **had tested** it even once, I **would have known** it kept only one night.*\n> *If the copy **had run** an hour earlier, it **would have saved** the accounts.*\n\nShe did not test it. The copy did not run earlier. The third conditional is how\nEnglish talks about a past that went the other way — and most of the time it is\nthe grammar of **regret**.\n\nSo the same *had* + participle does **two jobs**:\n\n| Job 1 — the earlier past (3.1) | Job 2 — a past that did not happen (3.6) |\n|---|---|\n| *The copy **had finished** at ten past one.* | *If the copy **had finished** before midnight, the week would have survived.* |\n| It happened. | It did not happen. |\n\nTwo rules from Lesson 8 still hold:\n\n- **No *would* in the *if*-clause.** *If I **would have** tested it* ✗ — *If I **had** tested it* ✓. It is the same rule as *if the uplink **will** fail* ✗.\n- ***'d* + participle = had; *'d* + bare verb = would.** *If I'd tested it, I'd have known* has two *'d*s: the first is *had* (before *tested*), the second is *would* (before *have*).\n\n*would* can become *could* or *might*: *If she had kept a snapshot, she **could have** restored it.*\n\n### 3.7 Grammar practice\n\n**A. Past simple or past perfect? Use the past perfect only where it is needed.**\n\n1. When the technician opened the log, the copy \\_\\_\\_\\_\\_\\_\\_\\_ (finish) hours before.\n2. She \\_\\_\\_\\_\\_\\_\\_\\_ (open) the laptop, \\_\\_\\_\\_\\_\\_\\_\\_ (hear) a click and \\_\\_\\_\\_\\_\\_\\_\\_ (call) her uncle.\n3. By the time she \\_\\_\\_\\_\\_\\_\\_\\_ (find) a neighbour, the disk \\_\\_\\_\\_\\_\\_\\_\\_ (go) quiet.\n4. She \\_\\_\\_\\_\\_\\_\\_\\_ (never / see) a corrupt spreadsheet before that Tuesday.\n5. After the copy \\_\\_\\_\\_\\_\\_\\_\\_ (finish), the disk stopped.\n\n**B. Too many *hads*. Rewrite each one so it reads like good English.**\n\n1. She had gone to the bench, had shown him the disk and had asked for help.\n2. Last week I had lost my notes.\n3. The power had come back, so we had started the class.\n\n**C. Join the two sentences with the word given. Put the earlier action in the past perfect.**\n\n1. The copy finished. Then she opened the laptop. *(by the time)*\n2. He left. Then she arrived at the bench. *(when)*\n3. She typed in the receipts. Then the power went off. *(already)*\n\n**D. Third conditional. Put both verbs in the right form.**\n\n1. If she \\_\\_\\_\\_\\_\\_\\_\\_ (test) the backup, she \\_\\_\\_\\_\\_\\_\\_\\_ (know) it kept only one night.\n2. If the program \\_\\_\\_\\_\\_\\_\\_\\_ (keep) a snapshot, she \\_\\_\\_\\_\\_\\_\\_\\_ (retrieve) the week.\n3. If the copy \\_\\_\\_\\_\\_\\_\\_\\_ (run) an hour earlier, it \\_\\_\\_\\_\\_\\_\\_\\_ (save) the accounts.\n4. What \\_\\_\\_\\_\\_\\_\\_\\_ you \\_\\_\\_\\_\\_\\_\\_\\_ (do) if you \\_\\_\\_\\_\\_\\_\\_\\_ (be) Huda?\n\n**E. Come back to — first, second or third? Choose, and say why.**\n\n1. If the disk fails tonight, the snapshot (will save / would save / would have saved) the week.\n2. If she had a line of her own, the copy (will run / would run / would have run) at ten.\n3. If she had looked at the log once, she (will see / would see / would have seen) the problem."
+  },
+  {
+   "number": "05",
+   "slug": "had-and-would-have",
+   "title": "The weak had, the 'd, and would have",
+   "minutes": 25,
+   "sheet": true,
+   "audio": true,
+   "markdown": "### 3.8 The weak *had*, the *'d*, and *would have* (listen to `05-had-and-would-have.mp3`)\n\nA third conditional is a long sentence on paper and a short one in speech.\n*If I had tested it, I would have known* is nine words written — and in a\nnormal voice you hear two of them clearly: *tested* and *known*. Everything else\nis weak. This part teaches you what to listen for in the gaps.\n\n**1. *had* in the middle of a sentence is weak.**\n\n| Written | What you hear |\n|---|---|\n| The copy had finished. | <span class=\"ipa\">/ðə ˈkɒpi əd ˈfɪnɪʃt/</span> |\n| It had begun to fail. | <span class=\"ipa\">/ɪt əd bɪˈɡʌn tə ˈfeɪl/</span> |\n| She had assumed she did. | <span class=\"ipa\">/ʃi əd əˈsjuːmd ʃi ˈdɪd/</span> |\n\nAfter *I*, *you*, *she*, *we* and *they* it shrinks again, to a single\n<span class=\"ipa\">/d/</span>: *she'd*, *I'd*, *they'd*.\n\n**2. The pair that matters: *she finished* against *she'd finished*.**\n\n| Past simple | Past perfect |\n|---|---|\n| She finished. <span class=\"ipa\">/ʃi ˈfɪnɪʃt/</span> | She'd finished. <span class=\"ipa\">/ʃid ˈfɪnɪʃt/</span> |\n| They started. <span class=\"ipa\">/ðeɪ ˈstɑːtɪd/</span> | They'd started. <span class=\"ipa\">/ðeɪd ˈstɑːtɪd/</span> |\n| I tested it. <span class=\"ipa\">/aɪ ˈtestɪd ɪt/</span> | I'd tested it. <span class=\"ipa\">/aɪd ˈtestɪd ɪt/</span> |\n| We sent it. <span class=\"ipa\">/wi ˈsent ɪt/</span> | We'd sent it. <span class=\"ipa\">/wid ˈsent ɪt/</span> |\n\nThe whole difference is one <span class=\"ipa\">/d/</span>. *She'd finished* is\n**not** *she finished* with a longer vowel: the tongue touches the top of the\nmouth, behind the teeth, and stops the air for a moment before *finished*.\nListen for that small stop. It is the only thing that tells you the story has\ngone back.\n\n**3. When *had* is strong.**\n\n*had* is said in full, <span class=\"ipa\">/hæd/</span>, when it is the negative\n— *hadn't* <span class=\"ipa\">/ˈhædnt/</span> — or when it ends a short answer:\n*Had she tested it? — No, she **hadn't**.* The negative is the loud one again,\nas *can't* was in Lesson 7 and *wasn't* in Lesson 9.\n\n**4. *would have* → *would've* → \"woulda\".**\n\n| Written | Said slowly | Said normally |\n|---|---|---|\n| would have | <span class=\"ipa\">/wʊd hæv/</span> | <span class=\"ipa\">/ˈwʊdəv/</span>, often just <span class=\"ipa\">/ˈwʊdə/</span> |\n| wouldn't have | <span class=\"ipa\">/ˈwʊdnt hæv/</span> | <span class=\"ipa\">/ˈwʊdntəv/</span> |\n| could have | <span class=\"ipa\">/kʊd hæv/</span> | <span class=\"ipa\">/ˈkʊdəv/</span> |\n| should have | <span class=\"ipa\">/ʃʊd hæv/</span> | <span class=\"ipa\">/ˈʃʊdəv/</span> — you heard it in Lesson 9's *should have been* |\n\n*have* loses its <span class=\"ipa\">/h/</span> and its vowel and becomes a tiny\n<span class=\"ipa\">/əv/</span>, and in fast speech even the <span class=\"ipa\">/v/</span>\ngoes. **Write it as *would have* or *would've* — never *would of*.** It sounds\nthe same, and it is one of the commonest mistakes in English written by people\nwho learned it by ear.\n\n**5. The whole sentence.**\n\n| Written | What you hear — stress in capitals |\n|---|---|\n| If I had tested it, I would have known. | <span class=\"ipa\">/ɪf aɪd ˈtestɪd ɪt aɪdəv ˈnəʊn/</span> — if-I'd-TESTED-it, I'd've-KNOWN |\n| If the copy had run earlier, it would have saved the week. | if-the-COPY'd-RUN-EARlier, it'd've-SAVED-the-WEEK |\n\nThe stressed words are the verbs that carry the meaning — *tested*, *known*,\n*run*, *saved*. *had* and *would have* are left almost silent, and you have to\nrebuild them from the shape: a participle after the first *'d* means *had*; a\n*have* after the second means *would*.\n\nIn the audio you hear each line twice, and then two tests: first, **did you\nhear *had* or not?** Then, **did you hear *would* or *would have*?**",
+   "segments": [
+    {
+     "say": "Pronunciation. The weak had, the D, and would have.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 1
+    },
+    {
+     "say": "First, had in the middle of a sentence is weak. Listen to each line twice, then repeat it.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 2
+    },
+    {
+     "say": "The copy had finished.",
+     "voice": "reader"
+    },
+    {
+     "pause": 1
+    },
+    {
+     "say": "The copy had finished.",
+     "voice": "reader"
+    },
+    {
+     "pause": 3
+    },
+    {
+     "say": "It had begun to fail.",
+     "voice": "reader"
+    },
+    {
+     "pause": 1
+    },
+    {
+     "say": "It had begun to fail.",
+     "voice": "reader"
+    },
+    {
+     "pause": 3
+    },
+    {
+     "say": "She had assumed she did.",
+     "voice": "reader"
+    },
+    {
+     "pause": 1
+    },
+    {
+     "say": "She had assumed she did.",
+     "voice": "reader"
+    },
+    {
+     "pause": 3
+    },
+    {
+     "pause": 1
+    },
+    {
+     "say": "Now the pair that matters. The only difference is one small D sound before the verb. Listen to each pair.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 2
+    },
+    {
+     "say": "She finished.",
+     "voice": "reader"
+    },
+    {
+     "pause": 1.5
+    },
+    {
+     "say": "She'd finished.",
+     "voice": "reader"
+    },
+    {
+     "pause": 1.5
+    },
+    {
+     "say": "She finished.",
+     "voice": "reader"
+    },
+    {
+     "pause": 1.5
+    },
+    {
+     "say": "She'd finished.",
+     "voice": "reader"
+    },
+    {
+     "pause": 3
+    },
+    {
+     "say": "They started.",
+     "voice": "reader"
+    },
+    {
+     "pause": 1.5
+    },
+    {
+     "say": "They'd started.",
+     "voice": "reader"
+    },
+    {
+     "pause": 1.5
+    },
+    {
+     "say": "They started.",
+     "voice": "reader"
+    },
+    {
+     "pause": 1.5
+    },
+    {
+     "say": "They'd started.",
+     "voice": "reader"
+    },
+    {
+     "pause": 3
+    },
+    {
+     "say": "I tested it.",
+     "voice": "reader"
+    },
+    {
+     "pause": 1.5
+    },
+    {
+     "say": "I'd tested it.",
+     "voice": "reader"
+    },
+    {
+     "pause": 1.5
+    },
+    {
+     "say": "I tested it.",
+     "voice": "reader"
+    },
+    {
+     "pause": 1.5
+    },
+    {
+     "say": "I'd tested it.",
+     "voice": "reader"
+    },
+    {
+     "pause": 3
+    },
+    {
+     "say": "We sent it.",
+     "voice": "reader"
+    },
+    {
+     "pause": 1.5
+    },
+    {
+     "say": "We'd sent it.",
+     "voice": "reader"
+    },
+    {
+     "pause": 1.5
+    },
+    {
+     "say": "We sent it.",
+     "voice": "reader"
+    },
+    {
+     "pause": 1.5
+    },
+    {
+     "say": "We'd sent it.",
+     "voice": "reader"
+    },
+    {
+     "pause": 3
+    },
+    {
+     "say": "In each pair, the first was the past simple. The second was the past perfect. Listen for the small stop before the verb.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 2
+    },
+    {
+     "say": "But the negative keeps its full form, and it is the loud one. Listen.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 1.5
+    },
+    {
+     "say": "No, she hadn't.",
+     "voice": "reader"
+    },
+    {
+     "pause": 1
+    },
+    {
+     "say": "No, she hadn't.",
+     "voice": "reader"
+    },
+    {
+     "pause": 3
+    },
+    {
+     "say": "She hadn't tested it.",
+     "voice": "reader"
+    },
+    {
+     "pause": 1
+    },
+    {
+     "say": "She hadn't tested it.",
+     "voice": "reader"
+    },
+    {
+     "pause": 3
+    },
+    {
+     "pause": 1
+    },
+    {
+     "say": "Now would have. In normal speech it becomes would've, and often only woulda. Listen to it slowly, and then at normal speed.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 2
+    },
+    {
+     "say": "Slowly.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 0.5
+    },
+    {
+     "say": "I would have known.",
+     "voice": "reader"
+    },
+    {
+     "pause": 2
+    },
+    {
+     "say": "Normal speed.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 0.5
+    },
+    {
+     "say": "I would've known.",
+     "voice": "reader"
+    },
+    {
+     "pause": 1
+    },
+    {
+     "say": "I would've known.",
+     "voice": "reader"
+    },
+    {
+     "pause": 3
+    },
+    {
+     "say": "Slowly.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 0.5
+    },
+    {
+     "say": "It would have saved the week.",
+     "voice": "reader"
+    },
+    {
+     "pause": 2
+    },
+    {
+     "say": "Normal speed.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 0.5
+    },
+    {
+     "say": "It would've saved the week.",
+     "voice": "reader"
+    },
+    {
+     "pause": 1
+    },
+    {
+     "say": "It would've saved the week.",
+     "voice": "reader"
+    },
+    {
+     "pause": 3
+    },
+    {
+     "say": "Slowly.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 0.5
+    },
+    {
+     "say": "She could have restored it.",
+     "voice": "reader"
+    },
+    {
+     "pause": 2
+    },
+    {
+     "say": "Normal speed.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 0.5
+    },
+    {
+     "say": "She could've restored it.",
+     "voice": "reader"
+    },
+    {
+     "pause": 1
+    },
+    {
+     "say": "She could've restored it.",
+     "voice": "reader"
+    },
+    {
+     "pause": 3
+    },
+    {
+     "pause": 1
+    },
+    {
+     "say": "Now the whole third conditional. Listen for the two verbs that are stressed, and let the rest be small.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 2
+    },
+    {
+     "say": "If I'd tested it, I'd have known.",
+     "voice": "reader"
+    },
+    {
+     "pause": 1
+    },
+    {
+     "say": "If I'd tested it, I'd have known.",
+     "voice": "reader"
+    },
+    {
+     "pause": 4
+    },
+    {
+     "say": "If the copy had run earlier, it would have saved the week.",
+     "voice": "reader"
+    },
+    {
+     "pause": 1
+    },
+    {
+     "say": "If the copy had run earlier, it would have saved the week.",
+     "voice": "reader"
+    },
+    {
+     "pause": 4
+    },
+    {
+     "say": "If she'd kept a snapshot, she could have restored it.",
+     "voice": "reader"
+    },
+    {
+     "pause": 1
+    },
+    {
+     "say": "If she'd kept a snapshot, she could have restored it.",
+     "voice": "reader"
+    },
+    {
+     "pause": 4
+    },
+    {
+     "pause": 1
+    },
+    {
+     "say": "Now the first test. Did you hear had, or not? Say had, or no had. Then you will hear the answer.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 2
+    },
+    {
+     "say": "Sentence 1.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 0.4
+    },
+    {
+     "say": "She'd finished the accounts.",
+     "voice": "reader"
+    },
+    {
+     "pause": 4
+    },
+    {
+     "say": "The answer is had.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 1
+    },
+    {
+     "say": "Sentence 2.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 0.4
+    },
+    {
+     "say": "They started the copy at midnight.",
+     "voice": "reader"
+    },
+    {
+     "pause": 4
+    },
+    {
+     "say": "The answer is no had.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 1
+    },
+    {
+     "say": "Sentence 3.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 0.4
+    },
+    {
+     "say": "I'd sent the invoice.",
+     "voice": "reader"
+    },
+    {
+     "pause": 4
+    },
+    {
+     "say": "The answer is had.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 1
+    },
+    {
+     "say": "Sentence 4.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 0.4
+    },
+    {
+     "say": "We tested it on Friday.",
+     "voice": "reader"
+    },
+    {
+     "pause": 4
+    },
+    {
+     "say": "The answer is no had.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 1
+    },
+    {
+     "say": "Sentence 5.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 0.4
+    },
+    {
+     "say": "She'd opened the log.",
+     "voice": "reader"
+    },
+    {
+     "pause": 4
+    },
+    {
+     "say": "The answer is had.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 1
+    },
+    {
+     "say": "Sentence 6.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 0.4
+    },
+    {
+     "say": "They checked the router.",
+     "voice": "reader"
+    },
+    {
+     "pause": 4
+    },
+    {
+     "say": "The answer is no had.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 1
+    },
+    {
+     "pause": 1
+    },
+    {
+     "say": "The second test. Did you hear would, or would have?",
+     "voice": "narrator"
+    },
+    {
+     "pause": 2
+    },
+    {
+     "say": "Sentence 7.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 0.4
+    },
+    {
+     "say": "It would have saved the week.",
+     "voice": "reader"
+    },
+    {
+     "pause": 4
+    },
+    {
+     "say": "The answer is would have.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 1
+    },
+    {
+     "say": "Sentence 8.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 0.4
+    },
+    {
+     "say": "It would save the week.",
+     "voice": "reader"
+    },
+    {
+     "pause": 4
+    },
+    {
+     "say": "The answer is would.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 1
+    },
+    {
+     "say": "Sentence 9.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 0.4
+    },
+    {
+     "say": "She'd have known.",
+     "voice": "reader"
+    },
+    {
+     "pause": 4
+    },
+    {
+     "say": "The answer is would have.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 1
+    },
+    {
+     "say": "Sentence 10.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 0.4
+    },
+    {
+     "say": "She'd know.",
+     "voice": "reader"
+    },
+    {
+     "pause": 4
+    },
+    {
+     "say": "The answer is would.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 1
+    },
+    {
+     "say": "This is the end of the pronunciation practice.",
+     "voice": "narrator"
+    }
+   ]
+  },
+  {
+   "number": "06",
+   "slug": "comprehension",
+   "title": "Comprehension — a full TOEFL set of ten",
+   "minutes": 45,
+   "sheet": true,
+   "audio": true,
+   "markdown": "### Part A — Multiple choice\n\n> This is a full set of ten, the size of a real TOEFL reading set.\n\n**1. (Factual)** When does the backup program run?\n\n- A. At eight in the morning.\n- B. At midnight.\n- C. Every Friday.\n- D. On the first day of every month.\n\n**2. (Factual)** According to the log, when did the copy finish?\n\n- A. At about midnight.\n- B. At ten past midnight.\n- C. At ten past one.\n- D. At eight o'clock.\n\n**3. (Negative factual)** All of the following are things Huda changed afterwards EXCEPT\n\n- A. the program keeps a snapshot for every night of the last two weeks.\n- B. she copies the folder onto a second disk by hand on Fridays.\n- C. she tries to restore one old file every month.\n- D. the shop pays for a line of its own, so the copy runs earlier.\n\n**4. (Vocabulary in context)** The word \"froze\" in the passage is closest in meaning to\n\n- A. became very cold.\n- B. stopped moving and would not change.\n- C. went completely dark.\n- D. showed an error message.\n\n**5. (Reference)** In the sentence, each night it overwrote the night before, the word \"it\" refers to\n\n- A. the disk.\n- B. the log.\n- C. the program.\n- D. the router.\n\n**6. (Inference)** It can be inferred from the passage that, before that Tuesday, Huda\n\n- A. knew that the program kept only one copy.\n- B. had never checked whether the backup could actually be used.\n- C. had been told by the technician to test the backup.\n- D. believed the line was too slow for any backup at all.\n\n**7. (Sentence insertion)** Look at the four letters **[A] [B] [C] [D]** in the passage. Where would this sentence best fit?\n\n> *A lost week is an expensive lesson, and she did not intend to pay for it twice.*\n\n- A. At **[A]**\n- B. At **[B]**\n- C. At **[C]**\n- D. At **[D]**\n\n**8. (Purpose of a paragraph)** Why does the writer include the paragraph that begins \"It was all there in four lines\"?\n\n- A. To explain how a router sends files over the internet.\n- B. To show exactly how the backup came to copy the damage instead of the accounts.\n- C. To show that the technician had made a mistake.\n- D. To describe how long a backup usually takes.\n\n**9. (Purpose of the whole passage)** What is the writer's main purpose in the whole passage?\n\n- A. To explain how to choose a backup program for a small shop.\n- B. To show, through one shop's lost week, that a backup has to be tested before it can be trusted.\n- C. To complain that a shared line makes small shops lose their data.\n- D. To describe the work of a repair technician.\n\n**10. (The writer's attitude)** Which word best describes the writer's attitude towards Huda?\n\n- A. Blaming.\n- B. Fair-minded.\n- C. Amused.\n- D. Uninterested.\n\n### Part C — Fill in the blanks\n\nUse these words. There are **two extra words** you will not need.\n\n> *retrieve · corrupt · overwrite · snapshot · restore · router · supplier · invoice · receipt*\n\n1. The technician could \\_\\_\\_\\_\\_\\_\\_\\_ most of the old files.\n2. The files from that week were \\_\\_\\_\\_\\_\\_\\_\\_, and the spreadsheet would not open.\n3. Each night the old program would \\_\\_\\_\\_\\_\\_\\_\\_ the copy from the night before.\n4. Now the program keeps a \\_\\_\\_\\_\\_\\_\\_\\_ for every night of the last two weeks.\n5. Once a month she tries to \\_\\_\\_\\_\\_\\_\\_\\_ one old file.\n6. At midnight a program sends the copy through the \\_\\_\\_\\_\\_\\_\\_\\_.\n7. Every \\_\\_\\_\\_\\_\\_\\_\\_ had to send its invoices again.\n\n### Part D — Summary\n\nWrite the story in **two sentences only**. Use the past perfect once and a third conditional once.\n\n> Sentence 1 — what the log showed, with the past perfect: \\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\n> Sentence 2 — what would have happened if the copy had run earlier: \\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_",
+   "segments": [
+    {
+     "say": "Now get ready to answer the questions about the passage. There are ten questions. You may look at the passage while you answer.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 2
+    },
+    {
+     "say": "Question one. When does the backup program run?",
+     "voice": "narrator"
+    },
+    {
+     "pause": 1
+    },
+    {
+     "say": "A. At eight in the morning.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 0.5
+    },
+    {
+     "say": "B. At midnight.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 0.5
+    },
+    {
+     "say": "C. Every Friday.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 0.5
+    },
+    {
+     "say": "D. On the first day of every month.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 0.5
+    },
+    {
+     "pause": 8
+    },
+    {
+     "say": "Question two. According to the log, when did the copy finish?",
+     "voice": "narrator"
+    },
+    {
+     "pause": 1
+    },
+    {
+     "say": "A. At about midnight.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 0.5
+    },
+    {
+     "say": "B. At ten past midnight.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 0.5
+    },
+    {
+     "say": "C. At ten past one.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 0.5
+    },
+    {
+     "say": "D. At eight o'clock.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 0.5
+    },
+    {
+     "pause": 8
+    },
+    {
+     "say": "Question three. All of the following are things Huda changed afterwards EXCEPT",
+     "voice": "narrator"
+    },
+    {
+     "pause": 1
+    },
+    {
+     "say": "A. the program keeps a snapshot for every night of the last two weeks.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 0.5
+    },
+    {
+     "say": "B. she copies the folder onto a second disk by hand on Fridays.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 0.5
+    },
+    {
+     "say": "C. she tries to restore one old file every month.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 0.5
+    },
+    {
+     "say": "D. the shop pays for a line of its own, so the copy runs earlier.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 0.5
+    },
+    {
+     "pause": 8
+    },
+    {
+     "say": "Question four. The word \"froze\" in the passage is closest in meaning to",
+     "voice": "narrator"
+    },
+    {
+     "pause": 1
+    },
+    {
+     "say": "A. became very cold.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 0.5
+    },
+    {
+     "say": "B. stopped moving and would not change.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 0.5
+    },
+    {
+     "say": "C. went completely dark.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 0.5
+    },
+    {
+     "say": "D. showed an error message.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 0.5
+    },
+    {
+     "pause": 8
+    },
+    {
+     "say": "Question five. In the sentence, each night it overwrote the night before, the word \"it\" refers to",
+     "voice": "narrator"
+    },
+    {
+     "pause": 1
+    },
+    {
+     "say": "A. the disk.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 0.5
+    },
+    {
+     "say": "B. the log.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 0.5
+    },
+    {
+     "say": "C. the program.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 0.5
+    },
+    {
+     "say": "D. the router.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 0.5
+    },
+    {
+     "pause": 8
+    },
+    {
+     "say": "Question six. It can be inferred from the passage that, before that Tuesday, Huda",
+     "voice": "narrator"
+    },
+    {
+     "pause": 1
+    },
+    {
+     "say": "A. knew that the program kept only one copy.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 0.5
+    },
+    {
+     "say": "B. had never checked whether the backup could actually be used.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 0.5
+    },
+    {
+     "say": "C. had been told by the technician to test the backup.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 0.5
+    },
+    {
+     "say": "D. believed the line was too slow for any backup at all.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 0.5
+    },
+    {
+     "pause": 8
+    },
+    {
+     "say": "Question seven. Look at the four letters [A] [B] [C] [D] in the passage. Where would this sentence best fit?",
+     "voice": "narrator"
+    },
+    {
+     "pause": 1
+    },
+    {
+     "say": "A lost week is an expensive lesson, and she did not intend to pay for it twice.",
+     "voice": "reader"
+    },
+    {
+     "pause": 1
+    },
+    {
+     "say": "A. At [A]",
+     "voice": "narrator"
+    },
+    {
+     "pause": 0.5
+    },
+    {
+     "say": "B. At [B]",
+     "voice": "narrator"
+    },
+    {
+     "pause": 0.5
+    },
+    {
+     "say": "C. At [C]",
+     "voice": "narrator"
+    },
+    {
+     "pause": 0.5
+    },
+    {
+     "say": "D. At [D]",
+     "voice": "narrator"
+    },
+    {
+     "pause": 0.5
+    },
+    {
+     "pause": 12
+    },
+    {
+     "say": "Question eight. Why does the writer include the paragraph that begins \"It was all there in four lines\"?",
+     "voice": "narrator"
+    },
+    {
+     "pause": 1
+    },
+    {
+     "say": "A. To explain how a router sends files over the internet.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 0.5
+    },
+    {
+     "say": "B. To show exactly how the backup came to copy the damage instead of the accounts.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 0.5
+    },
+    {
+     "say": "C. To show that the technician had made a mistake.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 0.5
+    },
+    {
+     "say": "D. To describe how long a backup usually takes.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 0.5
+    },
+    {
+     "pause": 8
+    },
+    {
+     "say": "Question nine. What is the writer's main purpose in the whole passage?",
+     "voice": "narrator"
+    },
+    {
+     "pause": 1
+    },
+    {
+     "say": "A. To explain how to choose a backup program for a small shop.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 0.5
+    },
+    {
+     "say": "B. To show, through one shop's lost week, that a backup has to be tested before it can be trusted.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 0.5
+    },
+    {
+     "say": "C. To complain that a shared line makes small shops lose their data.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 0.5
+    },
+    {
+     "say": "D. To describe the work of a repair technician.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 0.5
+    },
+    {
+     "pause": 8
+    },
+    {
+     "say": "Question ten. Which word best describes the writer's attitude towards Huda?",
+     "voice": "narrator"
+    },
+    {
+     "pause": 1
+    },
+    {
+     "say": "A. Blaming.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 0.5
+    },
+    {
+     "say": "B. Fair-minded.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 0.5
+    },
+    {
+     "say": "C. Amused.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 0.5
+    },
+    {
+     "say": "D. Uninterested.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 0.5
+    },
+    {
+     "pause": 8
+    },
+    {
+     "say": "This is the end of part A. Parts C and D are on the sheet. Do them when the track has finished.",
+     "voice": "narrator"
+    }
+   ]
+  },
+  {
+   "number": "07",
+   "slug": "true-false",
+   "title": "True / false",
+   "minutes": 15,
+   "sheet": true,
+   "audio": true,
+   "markdown": "### Part B — True / False\n\nWrite **T** or **F**. If it is false, write the correct sentence.\n\n1. The copy runs at midnight because the line is quieter then. \\_\\_\\_\\_\n2. Before the disk failed, Huda had checked the backup every month. \\_\\_\\_\\_\n3. The copy had finished before the disk began to fail. \\_\\_\\_\\_\n4. The old program kept only one copy, and each night replaced the one before. \\_\\_\\_\\_\n5. Huda now copies the folder onto a second disk every Friday. \\_\\_\\_\\_\n6. The suppliers had to send their invoices again. \\_\\_\\_\\_",
+   "segments": [
+    {
+     "say": "True or false. You will hear six sentences. Say true or false. If the sentence is false, say the correct sentence.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 2
+    },
+    {
+     "say": "One. The copy runs at midnight because the line is quieter then.",
+     "voice": "reader"
+    },
+    {
+     "pause": 7
+    },
+    {
+     "say": "Two. Before the disk failed, Huda had checked the backup every month.",
+     "voice": "reader"
+    },
+    {
+     "pause": 7
+    },
+    {
+     "say": "Three. The copy had finished before the disk began to fail.",
+     "voice": "reader"
+    },
+    {
+     "pause": 7
+    },
+    {
+     "say": "Four. The old program kept only one copy, and each night replaced the one before.",
+     "voice": "reader"
+    },
+    {
+     "pause": 7
+    },
+    {
+     "say": "Five. Huda now copies the folder onto a second disk every Friday.",
+     "voice": "reader"
+    },
+    {
+     "pause": 7
+    },
+    {
+     "say": "Six. The suppliers had to send their invoices again.",
+     "voice": "reader"
+    },
+    {
+     "pause": 7
+    },
+    {
+     "say": "This is the end of the true or false questions.",
+     "voice": "narrator"
+    }
+   ]
+  },
+  {
+   "number": "08",
+   "slug": "speaking",
+   "title": "Speaking",
+   "minutes": 25,
+   "sheet": true,
+   "audio": true,
+   "markdown": "### 5.1 Speaking (record each answer, 45 seconds)\n\n1. Tell the story of the backup in your own words. Use the past perfect at least three times, and only where it puts two things in order.\n2. Tell me about a time something went wrong for you. What had happened just before it went wrong?\n3. Think of one thing you did not do last year. If you had done it, what would have been different? Use the third conditional.\n\n**Useful sentence starters:**\n\n- *By the time \\_\\_\\_\\_, \\_\\_\\_\\_ had already \\_\\_\\_\\_.*\n- *I had never \\_\\_\\_\\_ before.*\n- *When I arrived, \\_\\_\\_\\_ had \\_\\_\\_\\_.*\n- *If I had \\_\\_\\_\\_, I would have \\_\\_\\_\\_.*\n- *If I hadn't \\_\\_\\_\\_, I wouldn't have \\_\\_\\_\\_.*",
+   "segments": [
+    {
+     "say": "Speaking practice. Record your answer to each question on your phone. You have a few seconds to think, and then forty-five seconds to speak.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 2
+    },
+    {
+     "say": "Question one. Tell the story of the backup in your own words. Use the past perfect at least three times, and only where it puts two things in order.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 5
+    },
+    {
+     "say": "Begin speaking now.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 45
+    },
+    {
+     "say": "Question two. Tell me about a time something went wrong for you. What had happened just before it went wrong?",
+     "voice": "narrator"
+    },
+    {
+     "pause": 5
+    },
+    {
+     "say": "Begin speaking now.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 45
+    },
+    {
+     "say": "Question three. Think of one thing you did not do last year. If you had done it, what would have been different? Use the third conditional.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 5
+    },
+    {
+     "say": "Begin speaking now.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 45
+    },
+    {
+     "say": "This is the end of the speaking practice.",
+     "voice": "narrator"
+    }
+   ]
+  },
+  {
+   "number": "09",
+   "slug": "writing",
+   "title": "Writing — What Went Wrong, and When",
+   "minutes": 30,
+   "sheet": true,
+   "audio": false,
+   "markdown": "### 5.2 Writing — \"What Went Wrong, and When\" (7 sentences)\n\nThis is not an essay. It is three versions of one short story, and the point is\nthe difference between them.\n\n**Step 1.** Think of something that went wrong for you — a file, a class, a\njourney, a plan. Write **three sentences in the past simple**, in the order you\nwant to *tell* them, which does not have to be the order they *happened*.\n\n**Step 2.** Write the same three sentences again, and change **one** verb — only\none — into the past perfect, so that a reader knows without stopping which thing\nhappened first.\n\n**Step 3.** Write **one third-conditional sentence** about it: what would have\nbeen different if one thing had gone the other way.\n\n**Model answer (copy the shape, change the words):**\n\n> **Step 1.** On Sunday I could not open my presentation. I saved it on a memory card. The card broke in my bag.\n>\n> **Step 2.** On Sunday I could not open my presentation. I **had saved** it on a memory card. The card broke in my bag.\n>\n> **Step 3.** If I **had kept** a second copy in the cloud, I **would have opened** it on my phone.\n\nIn Step 1 a reader cannot be sure when I saved it — before Sunday, or after I\nfailed to open it? In Step 2 the one *had* answers that, and the third sentence\ndoes not need another: once the past perfect has taken the story back, the past\nsimple carries on from there (3.4).\n\n**Checklist before you send it:**\n\n- [ ] Step 1 has **three** sentences, every verb in the **past simple**.\n- [ ] Step 2 changes **one** verb only, and that verb is the earlier action.\n- [ ] I can say in one sentence what the *had* in Step 2 makes clear.\n- [ ] I did **not** use the past perfect for a story told in order.\n- [ ] Step 3 is *if* + *had* + participle, *would have* + participle — and there is no *would* in the *if*-clause.\n- [ ] Every participle is right: *begun* not *began*, *run* not *ran*, *gone* not *went*.\n- [ ] I used at least **2 new words** from Session 2, and **1 word** from Lesson 8 or Lesson 9."
+  },
+  {
+   "number": "10",
+   "slug": "review",
+   "title": "Review",
+   "minutes": 30,
+   "sheet": true,
+   "audio": true,
+   "markdown": "### 6.1 Listen again (no text)\n\n1. What did the log show, and why did that mean the backup was no use?\n2. Why does the writer say the shop had done the right thing?\n\n### 6.2 Mini-quiz (12 marks)\n\n1. The past perfect is made with \\_\\_\\_\\_ + \\_\\_\\_\\_\\_\\_\\_\\_\n2. In *When she arrived, the technician had left*, who went first? \\_\\_\\_\\_\\_\\_\\_\\_\n3. Why is *She had arrived, had opened the laptop and had seen the error* bad English? \\_\\_\\_\\_\\_\\_\\_\\_\n4. The third conditional is *if* + \\_\\_\\_\\_ , \\_\\_\\_\\_ + participle. \\_\\_\\_\\_\\_\\_\\_\\_\n5. In *If I'd tested it, I'd have known*, what does each *'d* mean, and how do you know? \\_\\_\\_\\_\\_\\_\\_\\_\n6. Give the past participle of *begin*, *run* and *send*. \\_\\_\\_\\_\\_\\_\\_\\_\n7. You hear *woulda*. What is it, and how do you write it? \\_\\_\\_\\_\\_\\_\\_\\_\n8. A copy of all the files exactly as they were at one moment is a \\_\\_\\_\\_\\_\\_\\_\\_\n9. What is the difference between an *invoice* and a *receipt*? \\_\\_\\_\\_\\_\\_\\_\\_\n10. Write one sentence with **by the time**.\n11. Write a third conditional about something you did not do last week.\n12. Tell the story of the passage in two sentences, from memory, with one past perfect in it.\n\n### 6.3 Lesson 10 self-report\n\n| Question | Answer |\n|---|---|\n| Minutes studied this week | |\n| Hardest part (listening / reading / vocabulary / grammar / speaking / writing) | |\n| Past perfect sentences I can now make without thinking | |\n| Words from Lesson 8 I had forgotten | |\n| **Was the passage the right length this week?** It has been about five hundred words for five lessons now — should Lesson 11 be longer? | |\n| **When you read a sentence with *had* in it, do you know which thing happened first without stopping?** Always / usually / only if I stop / not yet | |\n| One thing I want to repeat next week | |",
+   "segments": [
+    {
+     "say": "Review. Listen to the passage again, with no text, and answer these questions.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 2
+    },
+    {
+     "say": "Question one. What did the log show, and why did that mean the backup was no use?",
+     "voice": "narrator"
+    },
+    {
+     "pause": 15
+    },
+    {
+     "say": "Question two. Why does the writer say the shop had done the right thing?",
+     "voice": "narrator"
+    },
+    {
+     "pause": 15
+    },
+    {
+     "say": "This is the end of the review.",
+     "voice": "narrator"
+    }
+   ]
+  },
+  {
+   "number": "11",
+   "slug": "answer-key",
+   "title": "Answer key and teacher notes",
+   "minutes": 10,
+   "sheet": true,
+   "audio": false,
+   "css_id": "answer-key",
+   "markdown": "**Listening:** L1 — the shop's accounts: a spreadsheet of every sale, a folder of every invoice from every supplier, and the receipts she types in each evening · L2 — the shop shares one uplink with the bakery and the pharmacy, and the line is full of their orders until late; after twelve the latency drops · L3 — the copy had started at ten past midnight and had finished at ten past one, and the disk had begun to fail at about midnight · L4 — any one of: a snapshot for every night of the last two weeks; a second disk at home, copied by hand on Fridays; restoring one old file on the first day of every month\n\n**Part A (MCQ):** 1-B · 2-C · 3-D · 4-B · 5-C · 6-B · 7-C · 8-B · 9-B · 10-B\n\n*Why 1 is **B***: the last sentence of the first paragraph says it outright — *At midnight a small program sends a copy*. **A**, eight, is when she opened the laptop on the Tuesday. **C** and **D** are the two new habits from after the failure — the Friday copy and the monthly test — and they are there to catch a reader who remembers the numbers but not which part of the story they came from.\n\n*Why 2 is **C***: *had finished at ten past one*. **B**, ten past midnight, is when the copy **started** — the other half of the same sentence. **A**, about midnight, is when the **disk** began to fail. **D** is the next morning. Three times are close together in one paragraph, and the question is whether you kept them apart.\n\n*Why 3 is **D***: the shop **could not** afford a line of its own — that is the reason the copy could not run earlier, and the passage says so in the paragraph with the two *if* sentences. **A**, **B** and **C** are the three changes in the paragraph after **[C]**, nearly word for word.\n\n*Why 4 is **B***: the screen *froze*, and then the disk went quiet — the picture stopped and stayed. **A** is the word's first meaning, about ice, and is the trap for a reader who knows only that one. **C** is what a dead screen does, but a frozen screen still shows its picture. **D** is not in the passage.\n\n*Why 5 is **C***: the sentence before has two subjects — *the disk*, which began to fail, and *the program*, which had sent everything — and it is the **program** that keeps copies and writes over them; the paragraph after **[C]** confirms it: *the program now keeps a snapshot*. **A**, the disk, is the trap: it comes first in the sentence before, and it is what failed — but the copies are not on the disk, and a disk does not decide what to keep. **B**, the log, only records the times. **D** is in the first paragraph and only carries the copy.\n\n*Why 6 is **B***: she *had never once looked at it*, and she says *If I had tested it even once, I would have known* — a third conditional, which means she did not. **A** is the opposite: *I would have known* means she did not know. **C** gets the order wrong; the technician comes after the failure, and nobody tells her to test it. **D** is contradicted: the copy ran every night for two years.\n\n*Why 7 is **[C]***: the sentence is about not paying for the lesson twice, and only the paragraph after **[C]** is about what she does so that it cannot happen again: the snapshots, the second disk, the monthly test. At **[D]** it would come just before *That is the part she finds hardest to accept*, and *that* would then point at her decision instead of at the shop having done the right thing. At **[A]** and **[B]** nothing has been lost yet.\n\n*Why 8 is **B***: the paragraph puts the three times in order — copy started, disk began to fail, copy finished — and then adds the one fact that makes it a disaster: the program kept only one copy and wrote over it each night. That is the *how*. **C** is the trap: the technician is the one who explains it, and he made no mistake. **A** and **D** are details the paragraph does not give.\n\n*Why 9 is **B***: the passage builds towards its last two sentences, and the second movement is about what she changes. **C** is the trap: the shared line is part of the story, and it is why the copy runs at midnight, but the writer does not complain about it — the last paragraph says the shop *had done the right thing*. **A** is too general: no program is compared or chosen. **D** is one person in one paragraph.\n\n*Why 10 is **B, fair-minded***: **A is the trap.** The last line — *a hope with a timetable* — is sharp, and a reader who looks only at that will call the writer blaming. But the paragraph before it says plainly that *the shop had done the right thing*, and the backup *was reliable in every way she had thought to check*. The writer holds both at once: she was not careless, and it was still not enough. That is fairness, not blame. **C** and **D** are not supported by anything in the passage.\n\n**Part B (True/False):**\n\n1. T\n2. F — She had never once looked at it.\n3. F — The disk began to fail at about midnight; the copy did not finish until ten past one.\n4. T\n5. T\n6. T\n\n**Part C (Fill in the blanks):** 1. retrieve · 2. corrupt · 3. overwrite · 4. snapshot · 5. restore · 6. router · 7. supplier\n*(Extra words: invoice, receipt)*\n\n**2.4 A (Opposites):** 1. whole, healthy · 2. doubt · 3. check, know for sure · 4. leave behind · 5. lose\n\n**2.4 B (Odd one out):** 1. router (the others are about buying and selling) · 2. overwrite (the others bring data back; overwrite makes it disappear) · 3. supplier (the others are machines or parts of one)\n\n**Come back to (first or second):** 1. fails … will save — real, and possible · 2. had … would run — she does not have one · 3. were … would pay — the shop is not bigger, so this is unreal\n\n**3.7 A:** 1. had finished · 2. opened … heard … called — told in order, so no past perfect · 3. found … had gone · 4. had never seen · 5. finished (*had finished* is also correct, and no clearer)\n\n**3.7 B:** 1. She went to the bench, showed him the disk and asked for help. · 2. Last week I lost my notes. · 3. The power came back, so we started the class.\n\n**3.7 C:** 1. By the time she opened the laptop, the copy had finished. · 2. When she arrived at the bench, he had left. · 3. She had already typed in the receipts when the power went off.\n\n**3.7 D:** 1. had tested … would have known · 2. had kept … could have retrieved (*would have retrieved* is also accepted) · 3. had run … would have saved · 4. would … have done … had been\n\n**3.7 E:** 1. will save — the disk may well fail tonight · 2. would run — she does not have a line of her own, now · 3. would have seen — she did not look; that past is closed\n\n**3.8 tests (part 05):** First test — 1. had · 2. no had · 3. had · 4. no had · 5. had · 6. no had. Second test — 7. would have · 8. would · 9. would have · 10. would\n\n**Mini-quiz:** 1. *had* + past participle · 2. the technician — he had left before she arrived · 3. it is told in the order it happened, so there is nothing to go back to; the past simple is right, and three *hads* is heavy · 4. *had* + participle, *would have* · 5. the first *'d* is *had*, because *tested* is a participle; the second is *would*, because *have* is a bare verb · 6. begun, run, sent · 7. *would have* — written *would have* or *would've*, never *would of* · 8. snapshot · 9. an invoice asks for payment; a receipt shows that payment was made, so the invoice comes first · 10–12. teacher judgement\n\n### Teacher Notes {: #teacher-notes }\n\n**What changed from Lesson 9, and what deliberately did not.** The passage is 520 words, against 532 in Lesson 9 — five lessons now at about five hundred. The thirteen-part shape of Lesson 9 does not carry over: that lesson's extra session existed because its passage rested on real reporting, and this one is a written story with no borrowed figures, so the lesson is back to twelve parts. The question set is unchanged. The new thing is one tense, and it is the tense the next two lessons stand on.\n\n**Why the past perfect, and why now.** Lesson 11 is reported speech, and its backshift needs the past perfect (*she said she **had** sent it*); Lesson 12 comes back to it as the past perfect continuous. It is also the only tense in the course so far that has a reason to exist rather than a time to describe — it orders two past events — which is why section 3.1 teaches it against the past simple instead of on its own.\n\n**The one real difficulty.** Not the form; Arabic has a close match in *كان قد* + past, and the form will come quickly. The difficulty is **restraint**. A student who has just learned the past perfect will put it into every past sentence, and section 3.4 is there to stop that. Ask her of each sentence she writes: *does the reader need to go back in time here?* If not, the past simple is right. Exercise 3.7 B is the one to do slowly.\n\n**Why the pronunciation part is the one to protect.** The third conditional is the longest structure in the course so far, and in speech it is the shortest: *if I'd tested it, I'd've known* has two stressed words and four weak ones. Section 3.8 trains her to hear the small /d/ that is the whole difference between *she finished* and *she'd finished*, and to rebuild *would have* from *woulda*. It also contains the one written mistake that comes from hearing — *would of* — and it is worth saying out loud that it is a mistake even native speakers make.\n\n**Why this story, and a note on it.** It is a written story: the shop, the woman, the times in the log are invented, and nothing in it rests on reporting. The subject is close to her own — work kept on one machine, a connection that is only good at night — and the passage's last line is meant to be useful rather than frightening. The argument against itself is the point: the shop did the right thing and still lost a week, which is why the second movement is about testing, not about blame.\n\n**Success criteria for Lesson 10.** The student should be able to:\n\n- answer L1–L4 correctly on the second hearing;\n- say, for any sentence with *had* in it, which of two past actions came first;\n- choose the past simple for a story told in order, and the past perfect only where the order of telling and of happening disagree;\n- use *by the time*, *already*, *just* and *never … before* with the right tense in each clause;\n- write the past participle of *run*, *go*, *begin*, *send*, *do* and *think* correctly;\n- build a third conditional with no *would* in the *if*-clause;\n- hear *she'd finished* against *she finished*, and *would have* against *would*;\n- use 10 of the 14 key words in her own sentences.\n\n**If it is too easy:** add the mixed conditional (*if she had tested it, she would still have the week's accounts now*), which joins this lesson's third conditional to Lesson 8's second.\n**If it is too hard:** teach 3.1 to 3.5 alone this week and leave the third conditional (3.6) for the start of Lesson 11, where the past perfect will be needed again anyway.\n\n**A note on spaced recall.** `03-vocabulary.mp3` ends with five Lesson 8 words — *uplink, latency, neighbour, afford, reliable* — and all five are also in the passage, so she hears them inside the lesson and not only in a list. Lesson 9 recalled Lesson 7, so the two-lesson gap holds. Lesson 9's words are due back in Lesson 11.\n\n**Where the course is now.** Ten lessons and one progress test. Whether the length rises in Lesson 11 is still a question about her, and the self-report at 6.3 asks it again, alongside the question this lesson needs answered: whether she can read a *had* without stopping. If she cannot yet, Lesson 11's reported speech will be harder than it should be, and part 04 of this lesson is the one to go back to."
+  },
+  {
+   "number": "12",
+   "slug": "passage-slow",
+   "title": "Passage, extra slow",
+   "minutes": 10,
+   "sheet": false,
+   "audio": true,
+   "segments": [
+    {
+     "say": "Slow version. The passage, read slowly, one time.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 2
+    },
+    {
+     "say": "Huda keeps the accounts for her uncle's shop, a narrow room selling notebooks, ink and phone credit. Everything lives on one old laptop under the counter: a spreadsheet of every sale, a folder of every invoice from every supplier, and the receipts she types in each evening. At midnight a small program sends a copy of the whole folder through the router to storage on the internet.\n\nMidnight was not her choice. The shop shares one uplink with the bakery and the pharmacy next door, and until late the line is full of their orders. After twelve the latency drops, and nobody notices a delay while the copy runs. Until one Tuesday, it had run every night for two years, and she had never once looked at it.\n\nThat Tuesday she opened the laptop at eight and heard a noise she had not heard before, a dry click, again and again. Then the screen froze. By the time she found a neighbour who could drive her to the repair bench, the disk had gone quiet.\n\nThe technician could retrieve most of the old files, but the files from that week were corrupt, and the spreadsheet would not open at all. \"You have a backup,\" he said, and she nodded, because she had assumed she did. He asked her to confirm the time of the last copy, so she opened the log on her phone.\n\nIt was all there in four lines. The copy had started at ten past midnight and had finished at ten past one. The disk, he showed her, had begun to fail at about midnight, so everything the program had sent in that hour was already damaged. Worse, it kept only one copy, and each night it overwrote the night before. Until ten past one, a good copy of the week had existed; then the damage took its place.\n\nAfterwards she changed three things. The program now keeps a snapshot for every night of the last two weeks, so a bad night cannot overwrite a good one. A second disk sits in a drawer at home, and on Fridays she copies the folder onto it by hand. And on the first day of every month she does the thing she had never done: she chooses one old file and tries to restore it, to prove the copy can be used.\n\n\"If I had tested it even once,\" she says, \"I would have known it kept only one night.\" If the copy had run an hour earlier, it would have saved the accounts instead of the damage. But it could not run earlier, because the line was busy, and the shop could not afford a line of its own.\n\nThat is the part she finds hardest to accept. The shop had done the right thing. It had a backup, the backup ran every night, and it was reliable in every way she had thought to check. It still lost a week, and every supplier had to send its invoices again.\n\nA backup nobody has ever restored from is not a backup. It is a hope with a timetable.",
+     "voice": "slow"
+    }
+   ]
+  }
+ ]
+}
