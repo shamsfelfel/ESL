@@ -772,3 +772,189 @@ a planted sibling cache, which survived; 0 requests to another origin.
 ### Deferred
 
 Listening to any part 05 by ear (no phase could), and the two defects above.
+
+## Phase 07 — Write Progress Test 2, after Lessons 4 to 8
+
+### What was built
+
+- `tests/test-02/lesson.json`: six parts (`listening`, `reading`,
+  `vocabulary-and-grammar`, `writing`, `speaking`, `answer-key`), 20 + 30 + 30 +
+  10 + 10 = 100 marks, minutes 20/25/20/15/10/10 as in Test 1. `"lesson": 8`
+  (Test 1 has 3, the lesson it follows; `make_catalog.py` uses it as `number`).
+  `full_section` is `["01", "05"]`. The key is part 06 with `"in_whole": false`.
+- `tests/test-02/build.py`: `cp` of `tests/test-01/build.py`, md5
+  `6c5578ee6136be9016645a3452d527e8` for both.
+- This section.
+
+**Nothing was built.** `tests/test-02/` holds only `lesson.json` and
+`build.py`. The repository `README.md` (its tests table still says *Not
+written*), `app/catalog.json` and `sw.js` are phase 08's. No file under
+`lessons/` or `tests/test-01/` was touched.
+
+The file was written by a generator kept outside the repository
+(`/tmp/t2/gen.py` and `texts.py`). The passage count is computed once and
+interpolated into `passage_words`, the heading, `new_in_this_lesson`, the
+score paragraph and the teacher notes. **If you edit the passage by hand, move
+all five.**
+
+### The test, in brief
+
+| | |
+|---|---|
+| Section 1 | A talk of **295 words**, *Tamer* and five classmates writing English subtitles for a director's short film about her grandfather's boat. Read twice by the reader voice (-10%, the rate every lesson uses), narrator says so. Five MC at 3 (Factual, Factual, Negative factual, Vocabulary in context, Inference) + one short answer at 5 (the group's rule, and why). The text carries the present perfect continuous, the present perfect with *yet* and *already*, *going to*, *will*, *can* and *must not*, a first and a second conditional, and the present simple after *when* |
+| Section 2 | *The Second Draft*, **560 words**: an argument that good writing is rewritten, with one example (Hadeel, a third-year business student, and her tutor's twenty-minute instruction), a concession and an answered objection (exams), and a conclusion. The longest text in the course (the longest lesson is 532). `[A]`–`[D]` in `print_only`, closed by a `### Questions 1 to 8` heading |
+| Reading types | 1 Factual (4) · 2 Vocabulary in context (4) · 3 Reference (4) · 4 Inference (4) · 5 Sentence insertion (3) · 6 Purpose of a paragraph (3) · 7 Purpose of the whole passage (4) · 8 The writer's attitude (4) = 30 |
+| Answers | Listening B C D A A + short answer. Reading C A B D B C D A |
+| Part A | deadline, password, diagnose, beginner, afford, spare, publish, warranty, patient, reliable: two from each of Lessons 4 to 8 |
+| Part B | 1 *since* · 2 *already* (L4) · 3 *has been revising* · 4 *have known*, the state verb (L5/L7) · 5 *will*, decided now · 6 *arrive* after *as soon as* (L6/L8) · 7 *mustn't* · 8 *don't have to* (L7) · 9 *rains*, no *will* after *if* · 10 *lived*, the second conditional (L8) |
+| Part C | On paper: *'s* = has (L4), which of *been*/*waiting* is weak (L5), write *I'll* (L6), which of *can*/*can't* is strong (L7), *'d* = would (L8) |
+| Part D | deadline, patient, warranty, customer, queue, each with its reason in the key |
+| Section 4 | 60 to 80 words, a message to a friend who is also applying abroad: present perfect continuous, present perfect, future, one conditional, three course words. Mark table 2/3/3/2 |
+| Section 5 | Two prompts, 15 s preparation and 45 s speaking each, each naming its grammar. Table 3/3/2/2 as Test 1 |
+
+### Verified, and how (real output)
+
+`cd tests/test-02 && python build.py --check`, rc=0:
+
+```
+Lesson
+  file         : lesson.json - valid
+  title        : Progress Test 2 — after Lessons 4 to 8
+  parts        : 6 (6 with a sheet, 2 with audio)
+  games        : 0 (none)
+  words        : 0 for the games, 0 of them with a drawing
+
+Ready. Run:  python build.py --plan
+```
+
+`python build.py --plan`, tail:
+
+```
+  01   Section 1 — Listening        20   01-listening.pdf (new)             01-listening.mp3            6m 51.9s  ~  2.4 MB   19 tts calls
+  05   Section 5 — Speaking         10   05-speaking.pdf (new)              05-speaking.mp3             3m 15.9s  ~  1.1 MB   10 tts calls
+  00   whole lesson                      00-lesson.pdf (new)                00-full-section.mp3        10m 16.2s  ~  3.5 MB  parts 01, 05
+
+  2 parts with audio: 10.1 minutes in the numbered parts.
+  About 4,856 characters to synthesize; 29 spoken segments are not cached yet.
+  Estimated folder size once built: ~7.0 MB.
+```
+
+Test 1's built folder is 7.0 MB by its README. The plan leaves out PDFs
+(none exist yet); Test 1's seven came to about 0.18 MB, so expect roughly
+7.2 MB on disk, well under the gate's 10 MB.
+
+`md5sum`:
+
+```
+6c5578ee6136be9016645a3452d527e8  tests/test-01/build.py
+6c5578ee6136be9016645a3452d527e8  tests/test-02/build.py
+```
+
+`python .claude/autopilot/check_test.py`, rc=0:
+
+```
+      the answer key is kept out of 00-lesson.pdf (in_whole: false)
+      listening: 6 questions adding to 20
+      reading: 8 questions adding to 30
+      section 3: four parts adding to 30 [10, 10, 5, 5]
+      the five sections add up to 100
+      reading passage 560 words (declared 560)
+      reading: 8 distinct question types
+      the reading passage shares no eight-word run with any lesson or Test 1
+      the listening text shares no eight-word run with any lesson or Test 1
+      Part A: ten words, all taught in Lessons 4, 5, 6, 7, 8
+      the key has a marking row for each of the 14 questions
+      Progress Test 2: every check passed
+```
+
+Also checked:
+- Every sheet rendered with the build's Markdown settings (`tables`,
+  `attr_list`, `sane_lists`) leaves 0 literal `*`, `{:` and `\_`. The first
+  draft had two stray `*` in the key: Test 1's `*Why 8 is **A***` pattern
+  mis-parses when the paragraph after it contains more bold. Both lead-ins are
+  now `*Why N is* **X**:`.
+- No `http` and no model or vendor name in `lesson.json` (grep count 0).
+- Names: Tamer and Hadeel (and Ahmad, Salma, Amal in Part B) appear in no
+  lesson or in Test 1. *Rana* was my first choice for the reading and is
+  Lesson 5's character, so it was replaced. *subtitle*, *draft* and *tutor*
+  appear nowhere in the course.
+- Each question was printed with its keyed option and read against the text.
+- `check_lessons.py` still passes (L10–L12); `course_state.py`: 166 words,
+  collisions: none.
+
+### Decisions made under autonomy rule 1
+
+1. **The brief says Test 2 is not in this run**; the phase prompt and commit
+   `562df41` extend the lane to it. The phase prompt is the later and more
+   specific instruction, so I followed it.
+2. **Negative factual is the type that sits out of the reading.** The two
+   types Lessons 4 and 5 added (whole passage, attitude) had to be in, and so
+   did the ones an argument tests best (reference, inference, insertion,
+   paragraph purpose). Negative factual is the oldest of the nine and is still
+   in the paper, as listening question 3. *Alternative:* drop Reference, which
+   is cheap to ask but is the type that catches pronoun-tracking across a long
+   argument. Marks: 3 for insertion and paragraph purpose, as Test 1.
+3. **Part B maps two gaps to a later lesson than the prompt's grouping.** The
+   state verbs (gap 4) are taught in **Lesson 7** part 04's *Come back to*, and
+   the present simple after *as soon as* (gap 6) in **Lesson 8** part 04's
+   *Come back to*. Neither is in Lesson 5 or 6. The gaps stay where the prompt
+   put them. The which-lesson table sends her to where each rule is actually
+   taught, and says why. (*mustn't*/*don't have to* is Lesson 7 3.5, and
+   Lesson 9 comes back to it.)
+4. **The Lesson 7 gaps are both the *mustn't* / *don't have to* trap**, one
+   each way, rather than one trap and one of *can/could/should/have to*. The
+   trap changes the meaning of a rule, and Section 5 question 2 asks for
+   *have to*. *Alternative:* gap 8 as *had to*.
+5. **Part C leaves out *gonna* and *hafta*.** Writing either is something she
+   should not do, and which one is strong is not the question for them. The
+   five items are one per lesson: *'s* = has, the weak *been*, *'ll*, *can* against
+   *can't*, *'d* = would.
+6. **Size: three cuts to bring the plan from 8.8 MB to 7.0 MB.** The first
+   draft planned 8.8 MB, because a 295-word talk read twice is 2.3 times Test
+   1's. (a) **Two speaking prompts**, which the prompt allows, covering all five
+   structures between them. (b) **Only the question stem is spoken**, as in
+   TOEFL; the four options are on the sheet. Test 1 read them aloud. (c)
+   **10 s answer gaps**, against Test 1's 12 and the lessons' 8. The
+   talk is still played twice in full, at the lessons' -10% reader rate.
+   *Alternative:* cut the talk to about 220 words, rejected because the prompt
+   says about 300.
+7. **The listening is still played twice**, as this phase's prompt says,
+   though Test 1's teacher notes said it would be played once from the test
+   after Lesson 6. The teacher notes say so, and give a rule: play the next
+   test's listening once if she scores 17 or more of 20 here.
+8. **"Go to Lesson 9" in the score bands** is as the prompt asks. The teacher
+   notes add that the test was written after Lesson 12, so if she is past
+   Lesson 9 it means "carry on". The which-lesson table applies either way.
+9. **Narrator wording differs from Test 1.** The gate checks every spoken line
+   in Section 1, including instructions. My first copy of Test 1's *Now answer
+   questions one to six on your sheet…* and *Do not read anything. Listen
+   only.* failed it, as did the stem *It can be inferred from the…*. I
+   reworded them; the gate was not touched. Section 5 keeps Test 1's fixed
+   frame (*Preparation time. Fifteen seconds. Begin speaking now.*), which the
+   gate does not check, so both tests are staged alike.
+10. **The passage ends at a `### Questions 1 to 8` heading**, not Test 1's
+    `---`. The gate's passage reader runs to the next `###`, and would count
+    the questions as passage words without it.
+11. **Part A's lessons are in the which-lesson table**, word by word, not in
+    the `**Part A:**` key line, which the gate parses as bare words. Test 1's
+    table says the lesson number is "in the key above" but its key never
+    prints it. That is Test 1's slip and is left alone.
+
+### For phase 08 (build it)
+
+- 29 segments to synthesise, about 4,900 characters; a few minutes.
+- `make_catalog.py` should list a fourteenth entry, `test-02`, after `test-01`
+  (`number` 8). Update the repository `README.md` tests table: Covers Lessons
+  4 to 8, about 90 minutes, 100 marks, Complete. Rewrite the *Progress Test 2 is
+  the next thing the course needs* paragraph.
+- Check in the render: `00-lesson.pdf` must **not** contain the answer key
+  (`pdftotext 00-lesson.pdf - | grep -c "What the score means"` should be 0).
+  Check the two `\_` lines of the short answer in part 01, the arrows in
+  Part C 3, and the long which-lesson table in part 06.
+- Listen, if anyone can: the two readings of the talk in `01-listening.mp3`
+  and the 10 s gaps.
+
+### Deferred
+
+Nothing in this phase's scope. Building, the catalogue, the service worker
+and the README tests table are phase 08's.

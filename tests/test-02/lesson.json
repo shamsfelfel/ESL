@@ -1,0 +1,347 @@
+{
+  "lesson": 8,
+  "slug": "test-02",
+  "title": "Progress Test 2 — after Lessons 4 to 8",
+  "level": "B1 · checks Lessons 4, 5, 6, 7 and 8",
+  "topic": "The present perfect and its continuous, the future, the modals and the conditionals",
+  "time": "about 90 minutes, in one sitting if possible",
+  "skills": "Listening → Reading → Vocabulary and grammar → Writing → Speaking",
+  "new_in_this_lesson": "two texts she has never seen, a reading passage of 560 words that argues, with eight question types, the five structures of Lessons 4 to 8 tested two gaps each, and a score that says which lesson to go back to",
+  "passage_words": 560,
+  "footer": "Progress Test 2 — after Lessons 4 to 8",
+  "voices": {
+    "reader": {
+      "voice": "en-GB-RyanNeural",
+      "rate": "-10%",
+      "pitch": "+0Hz"
+    },
+    "narrator": {
+      "voice": "en-GB-SoniaNeural",
+      "rate": "-5%",
+      "pitch": "+0Hz"
+    },
+    "slow": {
+      "voice": "en-GB-RyanNeural",
+      "rate": "-25%",
+      "pitch": "+0Hz"
+    }
+  },
+  "how_to_work": [
+    "Sit the whole test in one go if you can, with a clock, and do not open part 06 until you have finished.",
+    "Start with **01-listening.mp3** and do not read the sheet before you play it. Sections 2, 3 and 4 are paper only.",
+    "Play **05-speaking.mp3** last and record your two answers.",
+    "Then open part 06, mark yourself out of 100, and read the table that says which lesson to go back to."
+  ],
+  "full_section": {
+    "parts": [
+      "01",
+      "05"
+    ],
+    "gap": 3,
+    "closing": [
+      {
+        "pause": 2
+      },
+      {
+        "say": "This is the end of progress test two.",
+        "voice": "narrator"
+      }
+    ]
+  },
+  "parts": [
+    {
+      "number": "01",
+      "slug": "listening",
+      "title": "Section 1 — Listening",
+      "minutes": 20,
+      "sheet": true,
+      "audio": true,
+      "markdown": "### Section 1 — Listening (20 marks, about 20 minutes)\n\n> **Keep this sheet face down until the talk has been played twice.** Play `01-listening.mp3`. You will hear a talk of about three hundred words **two times**. Then you will hear each question once; the answers to choose from are only on this sheet. Answer on this sheet.\n\n**1. (Factual, 3 marks)** How long has Tamer been working on the subtitles?\n\n- A. For two weeks.\n- B. For three weeks.\n- C. Since the end of the month.\n- D. For twenty-four minutes.\n\n**2. (Factual, 3 marks)** Why has the group not done the last eight minutes yet?\n\n- A. The power has been off in the evenings.\n- B. The director has not sent those minutes.\n- C. The old man speaks quickly and uses words nobody in the class knows.\n- D. Two students have changed the same lines.\n\n**3. (Negative factual, 3 marks)** According to the talk, all of the following are true EXCEPT\n\n- A. there are six students in the group.\n- B. the film is twenty-four minutes long.\n- C. the film will be shown in the college hall.\n- D. each student has eight minutes of the film.\n\n**4. (Vocabulary in context, 3 marks)** The word \"audience\" in the last sentence is closest in meaning to\n\n- A. the people who watch the film.\n- B. the students in the group.\n- C. the director's family.\n- D. the old man in the film.\n\n**5. (Inference, 3 marks)** What can be inferred about Tamer from the talk?\n\n- A. He wants to see whether people can read the subtitles in time.\n- B. He does not want his name at the end of the film.\n- C. He has written subtitles for other films before.\n- D. He thinks the group will not finish on time.\n\n**6. (Short answer, 5 marks)** What rule has the group made, and why did they make it?\n\n> \\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\n>\n> \\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_",
+      "segments": [
+        {
+          "say": "Progress test two. Section one. Listening.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 1
+        },
+        {
+          "say": "You are going to hear a talk about a group of students who are writing subtitles for a short film. It will be played twice. Keep your sheet face down, and listen without reading.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 2
+        },
+        {
+          "say": "Now listen.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 1.5
+        },
+        {
+          "say": "For the last three weeks, Tamer has been working on something he has never done before: subtitles. A young director has made a short film about her grandfather's boat, and she has asked Tamer's translation class to write the English subtitles for it.\n\nThere are six students in the group, and the film is twenty-four minutes long, so each of them has four minutes. That sounds easy. It is not. A man on the screen speaks for two seconds, and the subtitle has to say the same thing in a line that the eye can read in those two seconds. Tamer has learned that a good subtitle is nearly always shorter than the sentence it translates.\n\nSo far the group has finished sixteen minutes. They have not done the last eight yet, because the old man in those scenes speaks quickly and uses old words for the sea that nobody in the class has heard before.\n\nThey have also made one rule. You can change your own lines as often as you like, but you must not change another person's line without asking. In the first week, two students changed the same line three times each, and by Thursday nobody could remember what the old man really meant.\n\nThe director is going to show the film in the college hall at the end of the month. Tamer thinks the group will finish on time if the power stays on in the evenings. If they had another week, he says, they would watch the whole film together and read every line aloud.\n\nWhen the film is shown, the six names will appear at the end, after the director's. Tamer has already decided where he will sit: at the back, where he can watch the audience read. ",
+          "voice": "reader"
+        },
+        {
+          "pause": 4
+        },
+        {
+          "say": "Now listen again.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 1.5
+        },
+        {
+          "say": "For the last three weeks, Tamer has been working on something he has never done before: subtitles. A young director has made a short film about her grandfather's boat, and she has asked Tamer's translation class to write the English subtitles for it.\n\nThere are six students in the group, and the film is twenty-four minutes long, so each of them has four minutes. That sounds easy. It is not. A man on the screen speaks for two seconds, and the subtitle has to say the same thing in a line that the eye can read in those two seconds. Tamer has learned that a good subtitle is nearly always shorter than the sentence it translates.\n\nSo far the group has finished sixteen minutes. They have not done the last eight yet, because the old man in those scenes speaks quickly and uses old words for the sea that nobody in the class has heard before.\n\nThey have also made one rule. You can change your own lines as often as you like, but you must not change another person's line without asking. In the first week, two students changed the same line three times each, and by Thursday nobody could remember what the old man really meant.\n\nThe director is going to show the film in the college hall at the end of the month. Tamer thinks the group will finish on time if the power stays on in the evenings. If they had another week, he says, they would watch the whole film together and read every line aloud.\n\nWhen the film is shown, the six names will appear at the end, after the director's. Tamer has already decided where he will sit: at the back, where he can watch the audience read. ",
+          "voice": "reader"
+        },
+        {
+          "pause": 3
+        },
+        {
+          "say": "The talk has finished. Turn your sheet over now and find the six questions. You will hear each question once, and the answers to choose from are printed there.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 2
+        },
+        {
+          "say": "Question 1.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 0.6
+        },
+        {
+          "say": "How long has Tamer been working on the subtitles?",
+          "voice": "narrator"
+        },
+        {
+          "pause": 10
+        },
+        {
+          "say": "Question 2.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 0.6
+        },
+        {
+          "say": "Why has the group not done the last eight minutes yet?",
+          "voice": "narrator"
+        },
+        {
+          "pause": 10
+        },
+        {
+          "say": "Question 3.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 0.6
+        },
+        {
+          "say": "According to the talk, all of the following are true EXCEPT",
+          "voice": "narrator"
+        },
+        {
+          "pause": 10
+        },
+        {
+          "say": "Question 4.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 0.6
+        },
+        {
+          "say": "The word \"audience\" in the last sentence is closest in meaning to",
+          "voice": "narrator"
+        },
+        {
+          "pause": 10
+        },
+        {
+          "say": "Question 5.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 0.6
+        },
+        {
+          "say": "What can be inferred about Tamer from the talk?",
+          "voice": "narrator"
+        },
+        {
+          "pause": 10
+        },
+        {
+          "say": "Question 6.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 0.6
+        },
+        {
+          "say": "What rule has the group made, and why did they make it?",
+          "voice": "narrator"
+        },
+        {
+          "pause": 15
+        },
+        {
+          "say": "This is the end of section one.",
+          "voice": "narrator"
+        }
+      ]
+    },
+    {
+      "number": "02",
+      "slug": "reading",
+      "title": "Section 2 — Reading",
+      "minutes": 25,
+      "sheet": true,
+      "audio": false,
+      "print_only": {
+        "markers": [
+          "[A]",
+          "[B]",
+          "[C]",
+          "[D]"
+        ],
+        "note": "The sentence-insertion markers are printed only. This section has no audio at all: it is a reading test."
+      },
+      "markdown": "### Section 2 — Reading (30 marks, about 25 minutes)\n\n### Passage: *The Second Draft* (560 words)\n\nMany students believe that a good writer is someone who gets every sentence right the first time. They sit in front of an empty page and wait for the perfect opening, and when it does not come, they decide that they cannot write. It is an easy belief to understand, because we only ever see the finished work of other writers, never the pages they threw away. A finished essay hides its own history. But it is wrong. Good writing is not simply written. It is rewritten.\n\nConsider what really happens in a first draft. When a writer begins, she does not yet know exactly what she thinks. **[A]** She finds out by writing. The first paragraph is often only a way of warming up, and the real argument tends to appear somewhere in the middle, half hidden. A second draft is the moment when the writer finally sees that argument and moves it to the front, where the reader needs it.\n\nHadeel, a third-year student of business, has been writing essays in English for two years. For most of that time she wrote every sentence slowly, deleting it again and again until it looked right. Her essays were correct, but they were short, and they rarely said anything surprising. Last term her tutor gave her an unusual instruction: write the whole essay in twenty minutes, without stopping and without deleting a word, and then spend an hour rewriting it. **[B]** The first version was a mess. The second was the best essay she has written so far, and she has worked this way ever since. Her tutor never asked her to care less about correct English. She asked her to care about it later.\n\nWhy does this work? Writing and checking are two different jobs, and they need two different kinds of attention. If you try to do both at once, each one interrupts the other. Checking looks backwards, at what is already on the page; writing looks forwards, at what is not there yet. **[C]** A writer who stops to correct every word is like a driver who brakes every few metres to look at the map: she will arrive in the end, but she will arrive late, and tired. If the two jobs are kept apart, each of them can be done properly.\n\nNone of this means that a first draft should be careless. You should still know roughly where you are going before you start, and you must not hand in the first version as if it were the last. There is also a fair objection: in an exam, there is no time for a second draft. That is true, and it is exactly why the habit matters. A student who has rewritten fifty essays at home will write a better first draft in the exam room, because she has learned what her first ideas usually look like and what they usually need. **[D]**\n\nSo the first draft does not have to be good. It only has to exist. Waiting for the perfect sentence is not care; it is fear with good manners. If more students believed this, fewer of them would sit in front of an empty page, and more of them would finish. The sentence you write today will probably not be the sentence you keep. That is not a failure. It is simply how writing is done.\n\n### Questions 1 to 8\n\n**1. (Factual, 4 marks)** What did Hadeel's tutor ask her to do?\n\n- A. Write slowly, and delete each sentence until it looked right.\n- B. Read fifty essays at home before the exam.\n- C. Write the whole essay in twenty minutes without stopping, and then rewrite it for an hour.\n- D. Write a short essay that said something surprising.\n\n**2. (Vocabulary in context, 4 marks)** The word \"rarely\" in paragraph 3 is closest in meaning to\n\n- A. not often.\n- B. always.\n- C. slowly.\n- D. correctly.\n\n**3. (Reference, 4 marks)** In paragraph 5, in *what they usually need*, the word \"they\" refers to\n\n- A. students.\n- B. her first ideas.\n- C. fifty essays.\n- D. exams.\n\n**4. (Inference, 4 marks)** It can be inferred from paragraph 3 that, before last term, Hadeel\n\n- A. wrote long essays full of mistakes.\n- B. had never written an essay in English.\n- C. did not trust her tutor.\n- D. spent more of her effort on correcting than on ideas.\n\n**5. (Sentence insertion, 3 marks)** Look at the four letters **[A] [B] [C] [D]** in the passage. Where would this sentence best fit?\n\n> *In other words, she had to stop judging her sentences while she was still writing them.*\n\n- A. At **[A]**\n- B. At **[B]**\n- C. At **[C]**\n- D. At **[D]**\n\n**6. (Purpose of a paragraph, 3 marks)** Paragraph 5 is mainly there to\n\n- A. tell the rest of Hadeel's story.\n- B. explain how exams are marked.\n- C. answer an objection to the writer's argument.\n- D. show that a first draft can be careless.\n\n**7. (Purpose of the whole passage, 4 marks)** The writer's main purpose in the passage is to\n\n- A. describe Hadeel's progress at university.\n- B. explain how to pass an English exam.\n- C. complain about tutors who give unusual instructions.\n- D. argue that good writing comes from rewriting, not from getting every sentence right the first time.\n\n**8. (The writer's attitude, 4 marks)** The writer's attitude towards the belief that good writers get it right the first time is best described as\n\n- A. disagreeing with it, but understanding why people hold it.\n- B. angry with the students who hold it.\n- C. agreeing with it, but only in exams.\n- D. not yet decided."
+    },
+    {
+      "number": "03",
+      "slug": "vocabulary-and-grammar",
+      "title": "Section 3 — Vocabulary and grammar",
+      "minutes": 20,
+      "sheet": true,
+      "audio": false,
+      "markdown": "### Section 3 — Vocabulary and grammar (30 marks, about 20 minutes)\n\n**Part A — Vocabulary (10 marks, 1 each).** Write one word in each gap.\n\n1. The last day or hour when work can be given in is the \\_\\_\\_\\_.\n2. The secret word that opens your account is your \\_\\_\\_\\_.\n3. To find out what is wrong with a machine before you try to mend it is to \\_\\_\\_\\_ it.\n4. A person who has only just started to learn something is a \\_\\_\\_\\_.\n5. To have enough money to pay for something is to be able to \\_\\_\\_\\_ it.\n6. Kept ready in case it is needed, like a second battery in your bag = \\_\\_\\_\\_.\n7. To put something on the internet for everyone to read is to \\_\\_\\_\\_ it.\n8. The maker's promise to mend a machine free for a set time is a \\_\\_\\_\\_.\n9. Able to wait without getting angry = \\_\\_\\_\\_.\n10. Something you can depend on, because it works every time, is \\_\\_\\_\\_.\n\n**Part B — Grammar (10 marks, 1 each).** Put the verb in the right form, or choose the right word.\n\n1. Ahmad has had the same phone \\_\\_\\_\\_ he started university. (*for* / *since*)\n2. You do not need to send it again. I have \\_\\_\\_\\_ read it. (*yet* / *already*)\n3. Salma is tired because she \\_\\_\\_\\_ (revise) since six o'clock this morning.\n4. I \\_\\_\\_\\_ (know) Salma for ten years.\n5. The phone is ringing. \"I \\_\\_\\_\\_ answer it,\" says Amal. (*will* / *am going to*)\n6. I will call you as soon as the results \\_\\_\\_\\_ (arrive).\n7. You \\_\\_\\_\\_ touch the laptop while it is updating, or you may lose everything. (*mustn't* / *don't have to*)\n8. The course is free, so you \\_\\_\\_\\_ pay anything. (*mustn't* / *don't have to*)\n9. If it \\_\\_\\_\\_ (rain) tomorrow, we will stay at home.\n10. If I \\_\\_\\_\\_ (live) in Spain, I would speak Spanish every day.\n\n**Part C — Short forms and weak words (5 marks, 1 each).** Answer on paper. You do not need the audio for this part.\n\n1. *She's finished the course.* Here *'s* means \\_\\_\\_\\_. (*is* / *has*)\n2. *They have been waiting for an hour.* Which word is weak and quick, *been* or *waiting*? \\_\\_\\_\\_\n3. Write the short form: *I will send it tonight.* → \\_\\_\\_\\_ send it tonight.\n4. Which one has the strong, long vowel: *I can come* or *I can't come*? \\_\\_\\_\\_\n5. *I'd go if I could.* Here *'d* means \\_\\_\\_\\_. (*would* / *had*)\n\n**Part D — Which word is different? (5 marks, 1 each.)** Circle it.\n\n1. keyboard — mouse — battery — deadline\n2. publish — install — delete — patient\n3. antenna — tower — signal — warranty\n4. generator — inverter — socket — customer\n5. reliable — spare — free — queue"
+    },
+    {
+      "number": "04",
+      "slug": "writing",
+      "title": "Section 4 — Writing",
+      "minutes": 15,
+      "sheet": true,
+      "audio": false,
+      "markdown": "### Section 4 — Writing (10 marks, about 15 minutes)\n\nWrite **60 to 80 words** about this:\n\n> **A message to a friend who is also applying to study abroad.** Tell her how your English is going.\n\n**You must use:**\n\n- the present perfect continuous once, for something you have been doing for a while, with *for* or *since* (*I have been reading…*);\n- the present perfect once, for something you have finished, or have not finished yet (*I have already…*, *I have not … yet*);\n- the future once, for what you will do or are going to do next;\n- one conditional, first or second (*If I pass, I will…*, *If I had more time, I would…*), with no *will* after *if*;\n- at least **three** words from Lessons 4 to 8.\n\n**How it is marked**\n\n| | Marks |\n|---|---|\n| The message answers the task, in 60 to 80 words | 2 |\n| Present perfect continuous and present perfect used correctly | 3 |\n| Future and conditional used correctly | 3 |\n| Three or more course words used correctly, with capital letters and full stops | 2 |"
+    },
+    {
+      "number": "05",
+      "slug": "speaking",
+      "title": "Section 5 — Speaking",
+      "minutes": 10,
+      "sheet": true,
+      "audio": true,
+      "markdown": "### Section 5 — Speaking (10 marks, about 10 minutes)\n\nPlay `05-speaking.mp3`. You have **15 seconds to prepare** and **45 seconds to speak** for each question. Record both answers on your phone and send them to your teacher. Each question names the grammar it is listening for.\n\n1. Tell me about something you have been doing for a long time. How long have you been doing it, what have you already finished, and what are you going to do next? Use *have been*, *already* or *yet*, and *going to*. *(The present perfect continuous, the present perfect and the future.)*\n2. If your application is accepted, what will you have to do before you leave? And if you could change one rule at the place where you study, what would it be? Use *if* twice: once with *will*, and once with *would*. *(The first and second conditional, and have to.)*\n\n**How it is marked**\n\n| | Marks |\n|---|---|\n| The answer is on the question and long enough | 3 |\n| The grammar each question asks for is used correctly | 3 |\n| Course vocabulary from Lessons 4 to 8 is used | 2 |\n| Speech is clear, without long stops | 2 |",
+      "segments": [
+        {
+          "say": "Progress test two. Section five. Speaking.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 1
+        },
+        {
+          "say": "There are two questions. For each one you have fifteen seconds to prepare and forty-five seconds to speak. Record both answers and send them to your teacher.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 2
+        },
+        {
+          "say": "Speaking question 1.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 0.6
+        },
+        {
+          "say": "Tell me about something you have been doing for a long time. How long have you been doing it, what have you already finished, and what are you going to do next? Use have been, already or yet, and going to.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 1
+        },
+        {
+          "say": "Preparation time. Fifteen seconds.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 15
+        },
+        {
+          "say": "Begin speaking now.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 45
+        },
+        {
+          "say": "Stop speaking.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 2
+        },
+        {
+          "say": "Speaking question 2.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 0.6
+        },
+        {
+          "say": "If your application is accepted, what will you have to do before you leave? And if you could change one rule at the place where you study, what would it be? Use if twice: once with will, and once with would.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 1
+        },
+        {
+          "say": "Preparation time. Fifteen seconds.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 15
+        },
+        {
+          "say": "Begin speaking now.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 45
+        },
+        {
+          "say": "Stop speaking.",
+          "voice": "narrator"
+        },
+        {
+          "pause": 2
+        },
+        {
+          "say": "This is the end of section five, and the end of the spoken part of the test.",
+          "voice": "narrator"
+        }
+      ]
+    },
+    {
+      "number": "06",
+      "slug": "answer-key",
+      "title": "Answer key, marking and what to do next",
+      "minutes": 10,
+      "sheet": true,
+      "audio": false,
+      "css_id": "answer-key",
+      "in_whole": false,
+      "markdown": "**Section 1 — Listening (20 marks)**\n\n| Q | Answer | Marks |\n|---|---|---|\n| 1 | B | 3 |\n| 2 | C | 3 |\n| 3 | D | 3 |\n| 4 | A | 3 |\n| 5 | A | 3 |\n| 6 | You can change your own lines, but you must not change another person's line without asking (3 marks). They made it because in the first week two students changed the same line three times each, and nobody could remember what the old man really meant (2 marks). | 5 |\n\n**Section 2 — Reading (30 marks)**\n\n| Q | Answer | Marks |\n|---|---|---|\n| 1 | C | 4 |\n| 2 | A | 4 |\n| 3 | B | 4 |\n| 4 | D | 4 |\n| 5 | B | 3 |\n| 6 | C | 3 |\n| 7 | D | 4 |\n| 8 | A | 4 |\n\n*Why 5 is* **[B]**: *In other words* has to say again, more plainly, the sentence just before it, and *she had to* needs a woman who was told to do something. At **[B]** the sentence before it is the tutor's instruction to Hadeel, so it fits both ways. **[C]** is the tempting wrong answer, because paragraph 4 is also about judging and writing at the same time; but there it would follow a general sentence about *you* and *checking*, with no *she* to refer to and no instruction to restate. At **[A]** it would cut *she does not yet know* off from *she finds out by writing*.\n\n*Why 8 is* **A**: the writer says the belief *is wrong*, and also that *it is an easy belief to understand*, and says why. **B** is the trap: *it is wrong* sounds strong, but the writer never blames the students who believe it. **C** misreads paragraph 5, which defends rewriting even for exams.\n\n**Section 3 — Vocabulary and grammar (30 marks)**\n\n**Part A:** 1. deadline · 2. password · 3. diagnose · 4. beginner · 5. afford · 6. spare · 7. publish · 8. warranty · 9. patient · 10. reliable\n\n**Part B:** 1. since · 2. already · 3. has been revising (or *'s been revising*) · 4. have known (or *'ve known*; *have been knowing* is wrong) · 5. will (or *'ll*) · 6. arrive (not *will arrive*) · 7. mustn't · 8. don't have to · 9. rains (not *will rain*) · 10. lived\n\n**Part C:** 1. has · 2. been · 3. I'll · 4. *I can't come* · 5. would\n\n**Part D:** 1. deadline (the others are parts of a computer) · 2. patient (the others are things you do to a program or a page) · 3. warranty (the others carry a radio signal) · 4. customer (the others are about electricity in a home) · 5. queue (the others are adjectives)\n\n**Section 4 — Writing (10 marks)** and **Section 5 — Speaking (10 marks)**: mark with the tables on those sheets.\n\n### What the score means {: #what-the-score-means }\n\n| Score | What to do next |\n|---|---|\n| 85–100 | Strong. Go to Lesson 9 at full speed. |\n| 70–84 | On track for B2. Go to Lesson 9. |\n| 55–69 | Revise the weakest section below, then go to Lesson 9. |\n| Under 55 | Repeat the one lesson from 4 to 8 that the table below names most often for your mistakes, then sit Sections 2 and 3 again before going on. |\n\nThis is a **progress test against this course**, not a TOEFL score. It says whether Lessons 4 to 8 have stuck, and which one to go back to. Progress Test 1 promised a far longer reading passage after Lesson 8, and Section 2 is it: 560 words, the longest text in the course so far. A real TOEFL iBT estimate still needs a longer listening section and a second reading passage.\n\n### Which lesson to go back to {: #which-lesson }\n\n| Weak section or item | Go back to |\n|---|---|\n| Section 1 — Listening | Lessons 6, 7 and 8, parts 01 and 02. Listen with no text, twice, every day for a week. |\n| Section 2, questions 1 to 4 (factual, vocabulary, reference, inference) | Lesson 7 part 06 and Lesson 8 part 06: the two passages that argue rather than tell a story. |\n| Section 2, question 5 (sentence insertion) | Lesson 8 part 06, question 7. Read the sentences on both sides of each letter, not only the one before it. |\n| Section 2, question 6 (purpose of a paragraph) | Lesson 7 part 06 and Lesson 8 part 06, question 8. |\n| Section 2, question 7 (purpose of the whole passage) | Lesson 4 part 06, question 9, where the type was new. |\n| Section 2, question 8 (the writer's attitude) | Lesson 5 part 06, question 10, where the type was new. |\n| Part A, *password*, *publish* | Lesson 4 part 03. |\n| Part A, *beginner*, *patient* | Lesson 5 part 03. |\n| Part A, *deadline*, *spare* | Lesson 6 part 03. |\n| Part A, *diagnose*, *warranty* | Lesson 7 part 03. |\n| Part A, *afford*, *reliable* | Lesson 8 part 03. |\n| Part B 1, *for* and *since* | Lesson 4 part 04, section 3.2, and practice C in 3.6. |\n| Part B 2, *yet* and *already* | Lesson 4 part 04, section 3.2. |\n| Part B 3, the present perfect continuous | Lesson 5 part 04, sections 3.1 and 3.2. |\n| Part B 4, a state verb that never takes *-ing* | Lesson 7 part 04, *Come back to*, the table of state verbs. Lesson 5 teaches the tense; Lesson 7 teaches the verbs that refuse it. |\n| Part B 5, *will* or *going to* | Lesson 6 part 04, sections 3.3 and 3.4. |\n| Part B 6, the present simple after *as soon as* | Lesson 8 part 04, *Come back to*. The future is Lesson 6's, but this rule is taught at the start of Lesson 8. |\n| Part B 7 and 8, *mustn't* and *don't have to* | Lesson 7 part 04, section 3.5. |\n| Part B 9, no *will* in the *if*-clause | Lesson 8 part 04, section 3.1. |\n| Part B 10, the second conditional | Lesson 8 part 04, sections 3.2 and 3.3. |\n| Part C 1, *'s* = *has* | Lesson 4 part 05. |\n| Part C 2, the weak *been* | Lesson 5 part 05. |\n| Part C 3, *'ll* | Lesson 6 part 05. |\n| Part C 4, *can* against *can't* | Lesson 7 part 05. |\n| Part C 5, *'d* = *would* or *had* | Lesson 8 part 05. |\n| Part D | Part 03 of the lessons the row's words come from: row 1, Lessons 5 and 6; row 2, Lessons 4 and 5; row 3, Lessons 7 and 8; row 4, Lessons 4 and 6; row 5, Lessons 4, 6 and 8. |\n| Section 4 — Writing | Lesson 5 part 09 for the present perfect continuous, Lesson 6 part 09 for the future, Lesson 8 part 09 for the conditional. Then write the same task again. |\n| Section 5 — Speaking | Question 1: Lessons 5 and 6, part 08. Question 2: Lessons 7 and 8, part 08. Record, listen to yourself, record again. |\n\n### Teacher notes {: #teacher-notes }\n\n**What this test is for.** It checks Lessons 4 to 8, the five lessons that built her tenses after the past: the present perfect, its continuous, the future, the modals and the conditionals. Both texts are new, with new people, so nothing here can be answered from memory of a lesson.\n\n**It comes late.** It was meant to come straight after Lesson 8 and was written after Lesson 12. If she has already gone past Lesson 9, read *go to Lesson 9* in the score table as *carry on from where you are*. The table of lessons to go back to still applies exactly, because Lessons 9 to 12 come back to these structures and do not teach them again.\n\n**Where the marks sit.** Half the paper (Sections 1 and 2) is the TOEFL-type question set. The reading passage is 560 words, a little longer than the passages in Lessons 6 to 12, and it argues. Its eight questions use eight different types, including the two that Lessons 4 and 5 added: the purpose of the whole passage and the writer's attitude. *Negative factual* is the one left out of the reading. It is the oldest of the nine and is still tested here, as listening question 3.\n\n**The grammar items to watch.** Part B 4, 6 and 9 are the three an Arabic speaker gets wrong because the sentence sounds possible: *I have been knowing*, *as soon as the results will arrive*, *if it will rain*. Two of the three rules are taught in the *Come back to* box at the start of a later lesson, not in the lesson that introduced the tense, and the table above points there. If 7 and 8 are both wrong, she has *mustn't* and *don't have to* the wrong way round, which changes the meaning of a rule. Go back to Lesson 7 section 3.5 before anything else.\n\n**Part C is on paper on purpose.** It asks what a short form means or which word is strong, not what she can hear. That way it can be marked with no audio, and nobody needs to guess at a voice. Listening to the same sounds belongs to each lesson's part 05.\n\n**The listening is still played twice.** Progress Test 1 said it would be played once from the test after Lesson 6. It is not, because the text is now about three hundred words instead of about a hundred and thirty, and that is enough of a step for one test. If she scores 17 or more out of 20 in Section 1, play the next test's listening once. Only the question is spoken, and the four answers are on the sheet, as in TOEFL itself. Progress Test 1 read the answers aloud as well. Here they are left to the sheet, which keeps the whole test near Test 1's size even though the talk is more than twice as long.\n\n**Marking the open sections.** Sections 4 and 5 are 20 of the 100 marks and are teacher judgement against the small tables on their sheets. Mark them before adding the objective score, so a strong message does not soften a weak tense count."
+    }
+  ]
+}
