@@ -413,3 +413,195 @@ PDFs rendered to PNG: 01 passage p1 (markers [A]–[C] printed, no stray `*`), 0
 ### Deferred
 
 Nothing.
+
+## Phase 04 — Write Lesson 12, *The Room That Keeps the Light*
+
+### What was built
+
+- `lessons/lesson-12/lesson.json`: 12 parts, 5 games (13–17), 14 key words,
+  5 recalled from Lesson 10, ten comprehension questions in Lesson 8's order.
+- `lessons/lesson-12/build.py`: `cp` of `lessons/lesson-11/build.py`. All three
+  new lessons' copies have md5 `6c5578ee6136be9016645a3452d527e8`. **Note:** this
+  is not the `dcc39c1f…` recorded in Phases 00 and 02. Commit `23d4e92` (the
+  page-view loader) changed `build.py` upstream after those phases, and Lessons
+  10 and 11 were rebuilt on the new copy. Lesson 12 copies the current one.
+- This section.
+
+**Nothing was built.** `lessons/lesson-12/` holds only `lesson.json` and
+`build.py`. No change to `icons.json`, `app/catalog.json`, `sw.js`, the
+repository `README.md`, or anything under `lessons/lesson-0*` or `tests/`.
+
+### The lesson, in brief
+
+| | |
+|---|---|
+| Passage | *The Room That Keeps the Light*, **530 words**. The gate's counter, `passage_words`, the heading and the teacher notes ("The passage is 530 words", interpolated from the same count) all agree |
+| Grammar (04) | `grammar-relative-clauses`. Come back to (L10 past perfect) → the past perfect continuous against the simple (*had charged / had been charging*), tied to L5's *have been -ing*, L6's *for/since* and L7's state verbs → 3.1 what a relative clause does, and not repeating the pronoun (the Arabic resumptive *ـه*) → 3.2 defining *who/which/that/whose/where* → 3.3 dropping the object pronoun (three examples from the passage) → 3.4 non-defining: two commas, never *that*, never dropped → 3.5 **the trap**: three defining/non-defining pairs with what each claims, then *Now you*, where she writes both and says what each claims → 3.6 *which* about a whole clause, against *which* = one noun → 3.7 practice A–G |
+| Pronunciation (05) | `commas-and-had-been`, section 3.8: no stop in a defining clause; stop, fall and stop in a non-defining one; the same words both ways (*the students (,) who had been waiting (,)*; *my brother (,) who works in Spain (,)*); the stop before a comment-*which*; *she'd been waiting* /ʃid bɪn ˈweɪtɪŋ/; *she'd been waiting / she'd waited / she was waiting*. Two tests: 6 *commas / no commas*, 4 *had been / no had been*. Answers spoken and in the key |
+| Key words | corridor, volunteer, borrow, lend, charger, shelf, maintain, arrange (the brief's eight) + rota, slot, lean, loose, reward, adapter |
+| Recall (L10) | router, spreadsheet, delay, assume, retrieve. Meanings and icons copied from Lesson 10's `lesson.json` by the generator. All five are in the passage |
+| Drawings | volunteer→`person`, charger→`plug`, rota→`notebook`, slot→`calendar`, plus the recalled router→`router` and retrieve→`download`: 6, the memory game's minimum. Abstract and undrawn: maintain, arrange, reward |
+| Answers Q1–10 | A C D C B D B C B A |
+| `full_section` | 01, 02, 06, 07 |
+
+The five recalled words, and the lines of `lessons/lesson-10/lesson.json`
+(as committed) they came from:
+
+```
+54:   "word": "retrieve",
+76:   "word": "delay",
+97:   "word": "spreadsheet",
+118:   "word": "router",
+126:   "word": "assume",
+```
+
+Relative clauses in the passage, before part 04 names them:
+- **Defining:** *a pen that nobody has managed to take home*, *the woman who keeps the list*, *a student whose own laptop died*, *everyone who comes twice*, *the socket that only works if you lean on the plug*, *the room where everyone ends up*, *a lecturer whose flat has no power*, *a first-year who comes to charge a phone*, *students who had been waiting since eight*, *those who live closest*, *a list that nobody can read at a glance*.
+- **Object pronoun dropped:** *an adapter he borrowed*, *the one everyone is cross with*, *the one thing the room is short of*.
+- **Non-defining (four):** *the back wall, where the router sits*; *Karim, whose laptop charges faster*; *Karim, who could take the best slot of all,*; *electricity, which is the one thing the room is short of*.
+- **Comment-*which* (two):** *goes last, which is why the final twenty minutes are always his*; *it stopped at eleven, which meant the last hour was on battery* (the brief's own example).
+- **Past perfect continuous (two):** *had been waiting since eight*, *had been keeping the list for five months*.
+
+The story: Room 14, at the end of a corridor, opens eight to noon and six to
+ten. Reem, a volunteer whose own laptop died, keeps the rota. Socket seven only
+works if you lean on the plug, number three is loose, and the back wall by the
+router is best. Karim's laptop charges in twenty minutes, so he goes last;
+*Nobody arranged that. The list simply made it obvious.* Second movement:
+goodwill did not work, because everyone assumed someone else would stand up
+first. A list makes the waiting visible. Reem refuses a spreadsheet because it
+needs electricity. The cost: she settles every argument, and when the
+generator stopped at eleven two students blamed her. The unfairness: the list
+rewards whoever is nearest the door at eight. It closes: *Her own name is not on
+it. The room keeps the light, and Reem keeps the room.*
+
+### Verified, and how (real output)
+
+`python build.py --check` in `lessons/lesson-12`, exit 0:
+
+```
+Lesson
+  file         : lesson.json - valid
+  title        : Lesson 12 — The Room That Keeps the Light
+  parts        : 12 (11 with a sheet, 9 with audio)
+  games        : 5 (crossword, word-search, memory, criss-cross, cryptogram)
+  words        : 19 for the games, 6 of them with a drawing
+
+Ready. Run:  python build.py --plan
+```
+
+`python build.py --plan`, tail:
+
+```
+  00   whole lesson                      00-lesson.pdf (new)                00-full-section.mp3        16m 49.5s  ~  5.8 MB  parts 01, 02, 06, 07
+
+  9 parts with audio: 37.9 minutes in the numbered parts.
+  About 18,887 characters to synthesize; 171 spoken segments are not cached yet.
+  Estimated folder size once built: ~18.8 MB.
+```
+
+`md5sum`:
+
+```
+6c5578ee6136be9016645a3452d527e8  lessons/lesson-11/build.py
+6c5578ee6136be9016645a3452d527e8  lessons/lesson-12/build.py
+```
+
+`python .claude/autopilot/check_lessons.py`, exit 0:
+
+```
+      L12 passage 530 words (declared 530)
+      L12 ten questions, eight types
+      structure: every check passed (L10, L11, L12)
+```
+
+`python scripts/course_state.py`: `166 distinct key words`, `collisions: none`.
+
+Also checked:
+- Every key word and recall word occurs in the spoken passage (an assert in the generator).
+- Every sheet rendered with the build's Markdown settings leaves no literal `*`, `{:` or `\_` (count 0). The first draft had eight stray `*` in part 04 from italics wrapped around bold (`*…**clause***`). Those examples are now plain text with the clause in bold. The editor had also stripped the two-space line breaks from the quoted examples; the generator now adds them to consecutive `> ` lines.
+- `lesson.json` has no string naming a model or vendor, and no `http` (grep count 0).
+
+**Calibration for phase 05.** `--plan` under-estimated by 0.7 MB on Lesson 10 and
+0.8 MB on Lesson 11. Expect Lesson 12 at about 19.5–19.6 MB by `du`, under the
+gate's 20.5 MB. The first draft planned ~19.2 MB. Part 05 lost one line from
+each of its demonstration blocks and one repeat, and the longest spoken options
+in Q2 and Q9 were shortened, which brought it to 18.8 MB. Both tests in part 05
+are whole.
+
+### Decisions made under autonomy rule 1
+
+1. **The six extra key words**: rota, slot, lean, loose, reward, adapter. All
+   checked against `--words`. *charger* is the brief's anchor and a different
+   word from L1's *charge*, as L11's *applicant* is from L8's *apply*. *socket*
+   (L6), *generator* (L6), *battery* (L5), *laptop* (L6) and *queue* (L6) appear
+   in the passage as ordinary words, not key words. *loose* sits next to L2's
+   *lose*, and 2.2 teaches the difference (/luːs/ against /luːz/). I picked
+   concrete words where I could, so only three of the fourteen are abstract
+   (*maintain, arrange, reward*), as the brief allows.
+   *Alternatives considered:* *goodwill* and *fair* (both abstract, which would
+   make five) and *printer* (too easy).
+2. **Recall**: router, spreadsheet, delay, assume, retrieve. Each one does work
+   in the story: the router is why the back wall is best, Reem refuses a
+   spreadsheet because it needs power, a late start is a delay to the first
+   slot, everyone *assumed* somebody else would stand up, and Reem *retrieves*
+   the chargers left under the desks. *retrieve* is used in its Lesson 10
+   meaning (*to get something back from a place where it was lost or hard to
+   reach*), so the recall audio's meaning fits. *restore* was rejected: its
+   Lesson 10 meaning is about files, and the room has no use for it.
+3. **No new icons**, as in Phases 00 and 02. Four key words have existing
+   drawings that fit (person, plug, notebook for the list, calendar for the
+   slot). With router and download from the recall, that makes six. *shelf*,
+   *corridor* and *adapter* would draw well if icons are added later.
+4. **The university and the place are unnamed.** Phase 02 found that invented
+   university names collide with real ones. The room is "Room 14", and the
+   people are Reem, Karim, an unnamed lecturer and a first-year. Exercise
+   sentences that first named a real town (3.7 F, and a part 05 test sentence)
+   now say "by the sea". *Spain* stays in *my brother who works in Spain*,
+   because that is her own destination and makes no claim.
+5. **The writing task's last sentence.** The brief says "one sentence using
+   *which* to comment on the whole of the sentence before it". *Chose:* a sixth
+   sentence ending in *, which …* that comments on the whole clause before the
+   comma, which is the B2 use part 04 teaches. A *which* cannot reach back past
+   a full stop in written English, and 3.6 says so. *Alternative:* a sentence
+   starting *Which means…*, which part 04 itself marks as wrong in an essay.
+6. **The trap exercise** (3.5 *Now you*) has three sentences. She writes each
+   with and without commas, and writes what each version claims. The third,
+   *my brother (,) who works in Spain (,)*, is the one where the difference is
+   about her own life. It is also spoken both ways in part 05.
+7. **Q7 answer is B, not C.** Lessons 10 and 11 both had C for sentence
+   insertion. The inserted sentence (*Not everyone, though, needs the whole
+   forty minutes.*) fits only after the forty-minute slot is explained and
+   before Karim.
+8. **Q10 asks about the writer's attitude towards Reem** (answer *respectful*),
+   with *sorry for her* as the named trap, as the phase prompt suggests. Q8 asks
+   about the goodwill paragraph, which exists to make the argument.
+9. **The self-report (6.3 and a new 6.4)** keeps the usual table and adds the
+   two questions the next run needs, written so the answers are usable. For
+   length: her reading time in minutes, how many words she had to look up, and
+   one choice from 530 / 600 / 700 / shorter. For grammar: a table of the
+   twelve grammar points, two ticks, and **one sentence she is not sure of**
+   for each tick. The teacher notes say to read the sentences before the
+   ticks.
+10. **Timing follows Lessons 10 and 11**: 8 s answer gaps in 06 (12 s for
+    insertion), Parts C and D on the sheet only, 5 s think time in speaking,
+    two listen-again questions in 10. Part minutes copy Lesson 11 (04 at 50,
+    05 at 25).
+
+### For the next phase
+
+- **Phase 05 (build Lesson 12):** 171 segments to synthesise, ~18,900
+  characters. When you read the render, check part 04's two-column tables in
+  3.5 (long cells), the bold-only quoted examples in 3.3, 3.4 and 3.6, the IPA
+  spans in parts 03 (2.2) and 05, and the Arabic phrase in 3.1. **Listen to
+  part 05's first test**, sentences 1–6. It only works if the voice really
+  pauses at the commas. If it does not, that is a finding to record, not a
+  reason to edit `build.py`.
+- The lesson was written by a generator script outside the repository. If you
+  edit the passage by hand, move the heading, `passage_words` and the teacher
+  note's "The passage is 530 words" together.
+- Lesson 11's words are due back in Lesson 13.
+
+### Deferred
+
+Nothing in this phase's scope. The build, catalogue and service worker are
+phase 05's.

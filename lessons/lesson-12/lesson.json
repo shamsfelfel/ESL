@@ -1,0 +1,1964 @@
+{
+ "lesson": 12,
+ "slug": "lesson-12",
+ "title": "Lesson 12 — The Room That Keeps the Light",
+ "level": "B1+ → B2 (twelfth step)",
+ "topic": "A computer room that opens on the hours there is power, and the people in it",
+ "time": "6 sessions, 50–60 minutes each",
+ "skills": "Listening → Reading → Vocabulary → Grammar → Comprehension → Speaking → Writing",
+ "new_in_this_lesson": "relative clauses — who, which, that, whose and where, the object pronoun that can be left out, and the non-defining clause between two commas, which never takes that; which commenting on a whole clause, the first B2 structure in the course; the past perfect continuous against the simple; and the stop and fall you can hear at a comma, and had been said as one short sound. The passage stays at about 500 words for the seventh lesson running, and the question set is unchanged.",
+ "passage_words": 530,
+ "footer": "Lesson 12 — The Room That Keeps the Light",
+ "voices": {
+  "reader": {
+   "voice": "en-GB-RyanNeural",
+   "rate": "-10%",
+   "pitch": "+0Hz"
+  },
+  "narrator": {
+   "voice": "en-GB-SoniaNeural",
+   "rate": "-5%",
+   "pitch": "+0Hz"
+  },
+  "slow": {
+   "voice": "en-GB-RyanNeural",
+   "rate": "-25%",
+   "pitch": "+0Hz"
+  }
+ },
+ "vocabulary": [
+  {
+   "word": "corridor",
+   "answer": "CORRIDOR",
+   "type": "noun",
+   "meaning": "a long narrow passage inside a building, with doors along it",
+   "arabic": "ممرّ"
+  },
+  {
+   "word": "volunteer",
+   "answer": "VOLUNTEER",
+   "type": "noun",
+   "meaning": "a person who does a job without being paid, because they want to",
+   "arabic": "متطوّع",
+   "icon": "person"
+  },
+  {
+   "word": "borrow",
+   "answer": "BORROW",
+   "type": "verb",
+   "meaning": "to take something that belongs to another person, and give it back later",
+   "arabic": "يستعير"
+  },
+  {
+   "word": "lend",
+   "answer": "LEND",
+   "type": "verb",
+   "meaning": "to give something to a person for a time, and get it back later",
+   "arabic": "يُعير"
+  },
+  {
+   "word": "charger",
+   "answer": "CHARGER",
+   "type": "noun",
+   "meaning": "the cable and plug that put power back into a battery",
+   "arabic": "شاحن",
+   "icon": "plug"
+  },
+  {
+   "word": "shelf",
+   "answer": "SHELF",
+   "type": "noun",
+   "meaning": "a flat board fixed to a wall, for putting things on",
+   "arabic": "رفّ"
+  },
+  {
+   "word": "maintain",
+   "answer": "MAINTAIN",
+   "type": "verb",
+   "meaning": "to keep something working and in good order, by looking after it again and again",
+   "arabic": "يحافظ على الشيء ويصونه"
+  },
+  {
+   "word": "arrange",
+   "answer": "ARRANGE",
+   "type": "verb",
+   "meaning": "to put things in order, or to plan how something will happen",
+   "arabic": "يرتّب، ينظّم"
+  },
+  {
+   "word": "rota",
+   "answer": "ROTA",
+   "type": "noun",
+   "meaning": "a list that says who does something, or gets something, and when",
+   "arabic": "جدول الأدوار",
+   "icon": "notebook"
+  },
+  {
+   "word": "slot",
+   "answer": "SLOT",
+   "type": "noun",
+   "meaning": "a short time that is kept for one person or one thing",
+   "arabic": "فترة زمنية مخصّصة",
+   "icon": "calendar"
+  },
+  {
+   "word": "lean",
+   "answer": "LEAN",
+   "type": "verb",
+   "meaning": "to put your weight against something, so that it holds you or stays in place",
+   "arabic": "يتّكئ، يضغط بثقله"
+  },
+  {
+   "word": "loose",
+   "answer": "LOOSE",
+   "type": "adjective",
+   "meaning": "not fixed firmly in its place, so that it moves or falls out",
+   "arabic": "مرتخٍ، غير مثبّت"
+  },
+  {
+   "word": "reward",
+   "answer": "REWARD",
+   "type": "verb",
+   "meaning": "to give something good to a person because of what they did",
+   "arabic": "يكافئ"
+  },
+  {
+   "word": "adapter",
+   "answer": "ADAPTER",
+   "type": "noun",
+   "meaning": "a small part that lets a plug fit a socket it was not made for",
+   "arabic": "محوِّل (أداپتر)"
+  }
+ ],
+ "recall": [
+  {
+   "word": "router",
+   "answer": "ROUTER",
+   "meaning": "the box that sends data between your computers and the internet",
+   "icon": "router"
+  },
+  {
+   "word": "spreadsheet",
+   "answer": "SPREADSHEET",
+   "meaning": "a file of numbers in rows and columns that can add itself up"
+  },
+  {
+   "word": "delay",
+   "answer": "DELAY",
+   "meaning": "a time when something is later or slower than it should be"
+  },
+  {
+   "word": "assume",
+   "answer": "ASSUME",
+   "meaning": "to believe something is true without checking it"
+  },
+  {
+   "word": "retrieve",
+   "answer": "RETRIEVE",
+   "meaning": "to get something back from a place where it was lost or hard to reach",
+   "icon": "download"
+  }
+ ],
+ "how_to_work": [
+  "Play **01-passage.mp3** and listen twice with no text in front of you. Do not open the PDF yet.",
+  "Then work through the parts in number order. Part 04 is grammar and has no audio; part 05 needs its audio more than any other part in this lesson, because it is the one place in the course where you can hear a comma.",
+  "Read section 3.5 of part 04 twice. Two commas change what a sentence claims, and 3.5 is where you write both versions and say what each one means.",
+  "Open part 11, the answer key, only when parts 01 to 10 are finished. Answer the two questions at the end of part 10 honestly: the next lessons are written from them. The five games come days later, not the same evening."
+ ],
+ "full_section": {
+  "parts": [
+   "01",
+   "02",
+   "06",
+   "07"
+  ],
+  "gap": 3,
+  "closing": [
+   {
+    "pause": 2
+   },
+   {
+    "say": "This is the end of lesson twelve.",
+    "voice": "narrator"
+   }
+  ]
+ },
+ "games": [
+  {
+   "number": "13",
+   "slug": "crossword",
+   "title": "Crossword",
+   "style": "crossword",
+   "minutes": 15
+  },
+  {
+   "number": "14",
+   "slug": "word-search",
+   "title": "Word search",
+   "style": "word-search",
+   "minutes": 10
+  },
+  {
+   "number": "15",
+   "slug": "memory",
+   "title": "Memory pairs",
+   "style": "memory",
+   "minutes": 10,
+   "pairs": 10
+  },
+  {
+   "number": "16",
+   "slug": "criss-cross",
+   "title": "Criss-cross, Arabic clues",
+   "style": "criss-cross",
+   "minutes": 15
+  },
+  {
+   "number": "17",
+   "slug": "cryptogram",
+   "title": "Cryptogram",
+   "style": "cryptogram",
+   "minutes": 15,
+   "given": 3
+  }
+ ],
+ "parts": [
+  {
+   "number": "01",
+   "slug": "passage",
+   "title": "Passage — The Room That Keeps the Light",
+   "minutes": 20,
+   "sheet": true,
+   "audio": true,
+   "print_only": {
+    "markers": [
+     "[A]",
+     "[B]",
+     "[C]",
+     "[D]"
+    ],
+    "note": "The sentence-insertion markers are printed in the passage and are never read aloud."
+   },
+   "markdown": "> **How to do the listening.** The same rule as every lesson so far: the student listens **twice with no text**, then reads.  \n> Audio files: `01-passage.mp3` first, then the other parts in order. Part `05-commas-and-had-been.mp3` is new — the commas you can hear, and *had been* said as one short sound.\n\n### 1.1 Before listening (2 minutes, Arabic is fine here)\n\n1. Is there a room you share with other people because it has something you need — power, a connection, quiet? Who decides who uses it, and when?\n2. When something is shared, which works better: a list everyone can see, or people being kind to each other? Why?\n3. Is *first come, first served* fair? Who does it help, and who does it leave out?\n\n### 1.4 Now read the passage\n\n### Passage: *The Room That Keeps the Light* (530 words)\n\nRoom 14 is at the end of the long corridor on the second floor. It opens only while there is electricity: eight until noon, and six until ten. On its door hangs a rota in a plastic sleeve, and beside it, on a string, a pen that nobody has managed to take home.\n\n**[A]** The woman who keeps the list is Reem. She is a volunteer, a student whose own laptop died last spring, and she arrives at a quarter to eight to arrange the morning. Every name on the rota gets a slot of forty minutes at one of twelve sockets, in the order people reach the door. When the power is late, the delay comes out of the first slot.\n\nThe sockets are not equal, and everyone who comes twice learns which is which. The socket that only works if you lean on the plug is number seven, so whoever gets it works with an elbow on the desk. Number three is loose and drops your charger when somebody walks past. The best are the four along the back wall, where the router sits on a shelf.\n\n**[B]** Then there is Karim, whose laptop charges faster than anyone's. He uses an adapter he borrowed from his brother, and in twenty minutes his battery is full. So Karim, who could take the best slot of all, goes last, which is why the final twenty minutes are always his. Nobody arranged that. The list simply made it obvious.\n\nIt is the room where everyone ends up: students writing theses, a lecturer whose flat has no power until night, a first-year who comes to charge a phone and stays to read. People lend each other chargers, and every evening Reem retrieves the ones left under the desks.\n\n**[C]** Before the rota, the room ran on goodwill, and goodwill did not work. Everyone meant to share, and everyone assumed somebody else would stand up first. The quick took the sockets; the polite went home with empty batteries. A list on a door makes the waiting visible, so nobody has to ask. Someone once offered to turn it into a spreadsheet. Reem said no, because a spreadsheet needs electricity, which is the one thing the room is short of.\n\nThe list costs her, though. She maintains it twice a day, settles every argument, and is the one everyone is cross with when the generator stops early. Last Tuesday it stopped at eleven, which meant the last hour was on battery. Students who had been waiting since eight lost their slots, and two of them blamed her. She had been keeping the list for five months, and that night she nearly gave it up.\n\n**[D]** And the list is not quite fair. It rewards whoever is nearest the door at eight, and those who live closest often need the room least. Reem knows this. But every new rule makes the list longer, and a list that nobody can read at a glance soon stops being followed.\n\nSo the rota stays on the door, a little unfair and much better than nothing. Her own name is not on it. The room keeps the light, and Reem keeps the room.\n\n### 1.5 Read aloud\n\nRead the passage aloud **once** and record it. Then find the four sentences with a name or a noun followed by a comma and *who*, *whose*, *which* or *where* — *the four along the back wall, where the router sits* is the first — and read them again, with a small stop at each comma and your voice falling before it. Last, read *Students who had been waiting since eight lost their slots* twice, with no stop at all, and say *had been* as quickly as you can.",
+   "segments": [
+    {
+     "say": "Lesson twelve. The Room That Keeps the Light. Listening practice.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 1
+    },
+    {
+     "say": "You will hear about a university computer room that opens only while there is electricity, the people who use it, and the list on its door. Listen for who the people are, and for what the writer thinks of the list. You will hear it two times. Do not read the text. Listen only.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 2
+    },
+    {
+     "say": "Now listen.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 1.5
+    },
+    {
+     "say": "Room 14 is at the end of the long corridor on the second floor. It opens only while there is electricity: eight until noon, and six until ten. On its door hangs a rota in a plastic sleeve, and beside it, on a string, a pen that nobody has managed to take home.\n\nThe woman who keeps the list is Reem. She is a volunteer, a student whose own laptop died last spring, and she arrives at a quarter to eight to arrange the morning. Every name on the rota gets a slot of forty minutes at one of twelve sockets, in the order people reach the door. When the power is late, the delay comes out of the first slot.\n\nThe sockets are not equal, and everyone who comes twice learns which is which. The socket that only works if you lean on the plug is number seven, so whoever gets it works with an elbow on the desk. Number three is loose and drops your charger when somebody walks past. The best are the four along the back wall, where the router sits on a shelf.\n\nThen there is Karim, whose laptop charges faster than anyone's. He uses an adapter he borrowed from his brother, and in twenty minutes his battery is full. So Karim, who could take the best slot of all, goes last, which is why the final twenty minutes are always his. Nobody arranged that. The list simply made it obvious.\n\nIt is the room where everyone ends up: students writing theses, a lecturer whose flat has no power until night, a first-year who comes to charge a phone and stays to read. People lend each other chargers, and every evening Reem retrieves the ones left under the desks.\n\nBefore the rota, the room ran on goodwill, and goodwill did not work. Everyone meant to share, and everyone assumed somebody else would stand up first. The quick took the sockets; the polite went home with empty batteries. A list on a door makes the waiting visible, so nobody has to ask. Someone once offered to turn it into a spreadsheet. Reem said no, because a spreadsheet needs electricity, which is the one thing the room is short of.\n\nThe list costs her, though. She maintains it twice a day, settles every argument, and is the one everyone is cross with when the generator stops early. Last Tuesday it stopped at eleven, which meant the last hour was on battery. Students who had been waiting since eight lost their slots, and two of them blamed her. She had been keeping the list for five months, and that night she nearly gave it up.\n\nAnd the list is not quite fair. It rewards whoever is nearest the door at eight, and those who live closest often need the room least. Reem knows this. But every new rule makes the list longer, and a list that nobody can read at a glance soon stops being followed.\n\nSo the rota stays on the door, a little unfair and much better than nothing. Her own name is not on it. The room keeps the light, and Reem keeps the room.",
+     "voice": "reader"
+    },
+    {
+     "pause": 4
+    },
+    {
+     "say": "Now listen again.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 1.5
+    },
+    {
+     "say": "Room 14 is at the end of the long corridor on the second floor. It opens only while there is electricity: eight until noon, and six until ten. On its door hangs a rota in a plastic sleeve, and beside it, on a string, a pen that nobody has managed to take home.\n\nThe woman who keeps the list is Reem. She is a volunteer, a student whose own laptop died last spring, and she arrives at a quarter to eight to arrange the morning. Every name on the rota gets a slot of forty minutes at one of twelve sockets, in the order people reach the door. When the power is late, the delay comes out of the first slot.\n\nThe sockets are not equal, and everyone who comes twice learns which is which. The socket that only works if you lean on the plug is number seven, so whoever gets it works with an elbow on the desk. Number three is loose and drops your charger when somebody walks past. The best are the four along the back wall, where the router sits on a shelf.\n\nThen there is Karim, whose laptop charges faster than anyone's. He uses an adapter he borrowed from his brother, and in twenty minutes his battery is full. So Karim, who could take the best slot of all, goes last, which is why the final twenty minutes are always his. Nobody arranged that. The list simply made it obvious.\n\nIt is the room where everyone ends up: students writing theses, a lecturer whose flat has no power until night, a first-year who comes to charge a phone and stays to read. People lend each other chargers, and every evening Reem retrieves the ones left under the desks.\n\nBefore the rota, the room ran on goodwill, and goodwill did not work. Everyone meant to share, and everyone assumed somebody else would stand up first. The quick took the sockets; the polite went home with empty batteries. A list on a door makes the waiting visible, so nobody has to ask. Someone once offered to turn it into a spreadsheet. Reem said no, because a spreadsheet needs electricity, which is the one thing the room is short of.\n\nThe list costs her, though. She maintains it twice a day, settles every argument, and is the one everyone is cross with when the generator stops early. Last Tuesday it stopped at eleven, which meant the last hour was on battery. Students who had been waiting since eight lost their slots, and two of them blamed her. She had been keeping the list for five months, and that night she nearly gave it up.\n\nAnd the list is not quite fair. It rewards whoever is nearest the door at eight, and those who live closest often need the room least. Reem knows this. But every new rule makes the list longer, and a list that nobody can read at a glance soon stops being followed.\n\nSo the rota stays on the door, a little unfair and much better than nothing. Her own name is not on it. The room keeps the light, and Reem keeps the room.",
+     "voice": "reader"
+    },
+    {
+     "pause": 2
+    },
+    {
+     "say": "This is the end of the passage.",
+     "voice": "narrator"
+    }
+   ]
+  },
+  {
+   "number": "02",
+   "slug": "listening-questions",
+   "title": "Listening questions",
+   "minutes": 10,
+   "sheet": true,
+   "audio": true,
+   "markdown": "### 1.2 Listening — first time (no text)\n\n- **L1.** When is Room 14 open, and what hangs on its door?\n- **L2.** Who keeps the list, and why does nobody pay her?\n- **L3.** Why does Karim go last?\n- **L4.** What happened last Tuesday, and what did it cost?\n\n### 1.3 Listening — second time (no text)\n\nWrite **two sentences you heard with *who*, *whose* or *where*** in the middle of them, and **one** where the voice stopped at a comma before *which*. Then write the sentence that tells you **how long the students had been waiting**, and **one word** you heard but did not understand.",
+   "segments": [
+    {
+     "say": "Now answer the listening questions. Write a short answer for each one.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 2
+    },
+    {
+     "say": "Question one. When is Room 14 open, and what hangs on its door?",
+     "voice": "narrator"
+    },
+    {
+     "pause": 10
+    },
+    {
+     "say": "Question two. Who keeps the list, and why does nobody pay her?",
+     "voice": "narrator"
+    },
+    {
+     "pause": 10
+    },
+    {
+     "say": "Question three. Why does Karim go last?",
+     "voice": "narrator"
+    },
+    {
+     "pause": 10
+    },
+    {
+     "say": "Question four. What happened last Tuesday, and what did it cost?",
+     "voice": "narrator"
+    },
+    {
+     "pause": 10
+    },
+    {
+     "say": "This is the end of the listening questions.",
+     "voice": "narrator"
+    }
+   ]
+  },
+  {
+   "number": "03",
+   "slug": "vocabulary",
+   "title": "Vocabulary and Lesson 10 recall",
+   "minutes": 35,
+   "sheet": true,
+   "audio": true,
+   "markdown": "### 2.1 Key words\n\n| # | Word | Type | Simple meaning | Arabic | Example |\n|---|---|---|---|---|---|\n| 1 | corridor | noun | a long narrow passage inside a building, with doors along it | ممرّ | Room 14 is at the end of the long **corridor** on the second floor. |\n| 2 | volunteer | noun | a person who does a job without being paid, because they want to | متطوّع | She is a **volunteer**, and nobody pays her to keep the list. |\n| 3 | borrow | verb | to take something that belongs to another person, and give it back later | يستعير | He uses an adapter he **borrowed** from his brother. |\n| 4 | lend | verb | to give something to a person for a time, and get it back later | يُعير | People **lend** each other chargers. |\n| 5 | charger | noun | the cable and plug that put power back into a battery | شاحن | Number three is loose and drops your **charger**. |\n| 6 | shelf | noun | a flat board fixed to a wall, for putting things on | رفّ | The router sits on a **shelf** along the back wall. |\n| 7 | maintain | verb | to keep something working and in good order, by looking after it again and again | يحافظ على الشيء ويصونه | She **maintains** the list twice a day. |\n| 8 | arrange | verb | to put things in order, or to plan how something will happen | يرتّب، ينظّم | She arrives at a quarter to eight to **arrange** the morning. |\n| 9 | rota | noun | a list that says who does something, or gets something, and when | جدول الأدوار | On the door hangs a **rota** in a plastic sleeve. |\n| 10 | slot | noun | a short time that is kept for one person or one thing | فترة زمنية مخصّصة | Every name gets a **slot** of forty minutes. |\n| 11 | lean | verb | to put your weight against something, so that it holds you or stays in place | يتّكئ، يضغط بثقله | Socket seven only works if you **lean** on the plug. |\n| 12 | loose | adjective | not fixed firmly in its place, so that it moves or falls out | مرتخٍ، غير مثبّت | Number three is **loose** and drops your charger. |\n| 13 | reward | verb | to give something good to a person because of what they did | يكافئ | The list **rewards** whoever is nearest the door at eight. |\n| 14 | adapter | noun | a small part that lets a plug fit a socket it was not made for | محوِّل (أداپتر) | Karim uses an **adapter** he borrowed from his brother. |\n\nThree of these — *maintain*, *arrange* and *reward* — are words for ideas, not things, and there is no drawing for them in the memory game. That is normal from here on: at B2, more of the words you need are about what people do and why.\n\n### 2.2 Synonyms and opposites\n\n| Word | Synonym | Opposite |\n|---|---|---|\n| borrow | take for a while | lend — the same thing, seen from the other side |\n| lend | give for a while | borrow |\n| loose | not tight, not fixed | tight, firm |\n| maintain | look after, keep up | neglect, let it fall apart |\n| arrange | organise, put in order | mix up |\n| reward | pay back, thank | punish |\n| volunteer | unpaid helper | paid worker |\n| lean on | press on, rest against | let go of |\n\n**Careful: *loose* is not *lose*.** *loose* <span class=\"ipa\">/luːs/</span> is an adjective and ends in an *s* sound: *a loose socket*. *lose* <span class=\"ipa\">/luːz/</span> is the verb from Lesson 2 and ends in a *z* sound: *you lose your slot*. On Tuesday the students who had been waiting since eight *lost* their slots — the past of *lose*.\n\n### 2.3 Expressions to learn\n\n| Expression | What it really means |\n|---|---|\n| **which is which** | how to tell one from the other |\n| **end up** | arrive somewhere in the end, often without planning to |\n| **stand up first** | be the first person to act |\n| **short of** | not having enough of something |\n| **cross with** | angry with a person |\n| **at a glance** | with one quick look |\n| **give it up** | stop doing it for good |\n\n### 2.4 Vocabulary practice\n\n**A. Write the opposite:**\n\n1. borrow → \\_\\_\\_\\_\\_\\_\\_\\_\n2. loose → \\_\\_\\_\\_\\_\\_\\_\\_\n3. reward → \\_\\_\\_\\_\\_\\_\\_\\_\n4. maintain → \\_\\_\\_\\_\\_\\_\\_\\_\n5. volunteer → \\_\\_\\_\\_\\_\\_\\_\\_\n\n**B. Which word is different? Say why:**\n\n1. charger — adapter — plug — corridor\n2. borrow — lend — give back — rota\n3. shelf — corridor — wall — slot\n\n**C. Say it in your own words:**\n\n1. What is the difference between *borrow* and *lend*? In *Karim borrowed an adapter from his brother*, who lent it?\n2. What is a *rota*, and how is it different from a list of names?",
+   "segments": [
+    {
+     "say": "Vocabulary practice. You will hear a word, then its meaning, then an example sentence. Repeat the word in the silence.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 2
+    },
+    {
+     "say": "Word 1.",
+     "voice": "narrator"
+    },
+    {
+     "say": "corridor",
+     "voice": "reader"
+    },
+    {
+     "pause": 3
+    },
+    {
+     "say": "corridor. a long narrow passage inside a building, with doors along it.",
+     "voice": "reader"
+    },
+    {
+     "pause": 1
+    },
+    {
+     "say": "Room 14 is at the end of the long corridor on the second floor.",
+     "voice": "reader"
+    },
+    {
+     "pause": 3
+    },
+    {
+     "say": "Word 2.",
+     "voice": "narrator"
+    },
+    {
+     "say": "volunteer",
+     "voice": "reader"
+    },
+    {
+     "pause": 3
+    },
+    {
+     "say": "volunteer. a person who does a job without being paid, because they want to.",
+     "voice": "reader"
+    },
+    {
+     "pause": 1
+    },
+    {
+     "say": "She is a volunteer, and nobody pays her to keep the list.",
+     "voice": "reader"
+    },
+    {
+     "pause": 3
+    },
+    {
+     "say": "Word 3.",
+     "voice": "narrator"
+    },
+    {
+     "say": "borrow",
+     "voice": "reader"
+    },
+    {
+     "pause": 3
+    },
+    {
+     "say": "borrow. to take something that belongs to another person, and give it back later.",
+     "voice": "reader"
+    },
+    {
+     "pause": 1
+    },
+    {
+     "say": "He uses an adapter he borrowed from his brother.",
+     "voice": "reader"
+    },
+    {
+     "pause": 3
+    },
+    {
+     "say": "Word 4.",
+     "voice": "narrator"
+    },
+    {
+     "say": "lend",
+     "voice": "reader"
+    },
+    {
+     "pause": 3
+    },
+    {
+     "say": "lend. to give something to a person for a time, and get it back later.",
+     "voice": "reader"
+    },
+    {
+     "pause": 1
+    },
+    {
+     "say": "People lend each other chargers.",
+     "voice": "reader"
+    },
+    {
+     "pause": 3
+    },
+    {
+     "say": "Word 5.",
+     "voice": "narrator"
+    },
+    {
+     "say": "charger",
+     "voice": "reader"
+    },
+    {
+     "pause": 3
+    },
+    {
+     "say": "charger. the cable and plug that put power back into a battery.",
+     "voice": "reader"
+    },
+    {
+     "pause": 1
+    },
+    {
+     "say": "Number three is loose and drops your charger.",
+     "voice": "reader"
+    },
+    {
+     "pause": 3
+    },
+    {
+     "say": "Word 6.",
+     "voice": "narrator"
+    },
+    {
+     "say": "shelf",
+     "voice": "reader"
+    },
+    {
+     "pause": 3
+    },
+    {
+     "say": "shelf. a flat board fixed to a wall, for putting things on.",
+     "voice": "reader"
+    },
+    {
+     "pause": 1
+    },
+    {
+     "say": "The router sits on a shelf along the back wall.",
+     "voice": "reader"
+    },
+    {
+     "pause": 3
+    },
+    {
+     "say": "Word 7.",
+     "voice": "narrator"
+    },
+    {
+     "say": "maintain",
+     "voice": "reader"
+    },
+    {
+     "pause": 3
+    },
+    {
+     "say": "maintain. to keep something working and in good order, by looking after it again and again.",
+     "voice": "reader"
+    },
+    {
+     "pause": 1
+    },
+    {
+     "say": "She maintains the list twice a day.",
+     "voice": "reader"
+    },
+    {
+     "pause": 3
+    },
+    {
+     "say": "Word 8.",
+     "voice": "narrator"
+    },
+    {
+     "say": "arrange",
+     "voice": "reader"
+    },
+    {
+     "pause": 3
+    },
+    {
+     "say": "arrange. to put things in order, or to plan how something will happen.",
+     "voice": "reader"
+    },
+    {
+     "pause": 1
+    },
+    {
+     "say": "She arrives at a quarter to eight to arrange the morning.",
+     "voice": "reader"
+    },
+    {
+     "pause": 3
+    },
+    {
+     "say": "Word 9.",
+     "voice": "narrator"
+    },
+    {
+     "say": "rota",
+     "voice": "reader"
+    },
+    {
+     "pause": 3
+    },
+    {
+     "say": "rota. a list that says who does something, or gets something, and when.",
+     "voice": "reader"
+    },
+    {
+     "pause": 1
+    },
+    {
+     "say": "On the door hangs a rota in a plastic sleeve.",
+     "voice": "reader"
+    },
+    {
+     "pause": 3
+    },
+    {
+     "say": "Word 10.",
+     "voice": "narrator"
+    },
+    {
+     "say": "slot",
+     "voice": "reader"
+    },
+    {
+     "pause": 3
+    },
+    {
+     "say": "slot. a short time that is kept for one person or one thing.",
+     "voice": "reader"
+    },
+    {
+     "pause": 1
+    },
+    {
+     "say": "Every name gets a slot of forty minutes.",
+     "voice": "reader"
+    },
+    {
+     "pause": 3
+    },
+    {
+     "say": "Word 11.",
+     "voice": "narrator"
+    },
+    {
+     "say": "lean",
+     "voice": "reader"
+    },
+    {
+     "pause": 3
+    },
+    {
+     "say": "lean. to put your weight against something, so that it holds you or stays in place.",
+     "voice": "reader"
+    },
+    {
+     "pause": 1
+    },
+    {
+     "say": "Socket seven only works if you lean on the plug.",
+     "voice": "reader"
+    },
+    {
+     "pause": 3
+    },
+    {
+     "say": "Word 12.",
+     "voice": "narrator"
+    },
+    {
+     "say": "loose",
+     "voice": "reader"
+    },
+    {
+     "pause": 3
+    },
+    {
+     "say": "loose. not fixed firmly in its place, so that it moves or falls out.",
+     "voice": "reader"
+    },
+    {
+     "pause": 1
+    },
+    {
+     "say": "Number three is loose and drops your charger.",
+     "voice": "reader"
+    },
+    {
+     "pause": 3
+    },
+    {
+     "say": "Word 13.",
+     "voice": "narrator"
+    },
+    {
+     "say": "reward",
+     "voice": "reader"
+    },
+    {
+     "pause": 3
+    },
+    {
+     "say": "reward. to give something good to a person because of what they did.",
+     "voice": "reader"
+    },
+    {
+     "pause": 1
+    },
+    {
+     "say": "The list rewards whoever is nearest the door at eight.",
+     "voice": "reader"
+    },
+    {
+     "pause": 3
+    },
+    {
+     "say": "Word 14.",
+     "voice": "narrator"
+    },
+    {
+     "say": "adapter",
+     "voice": "reader"
+    },
+    {
+     "pause": 3
+    },
+    {
+     "say": "adapter. a small part that lets a plug fit a socket it was not made for.",
+     "voice": "reader"
+    },
+    {
+     "pause": 1
+    },
+    {
+     "say": "Karim uses an adapter he borrowed from his brother.",
+     "voice": "reader"
+    },
+    {
+     "pause": 3
+    },
+    {
+     "pause": 1.5
+    },
+    {
+     "say": "Now five words from lesson 10. Say the meaning before you hear it.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 2
+    },
+    {
+     "say": "router",
+     "voice": "reader"
+    },
+    {
+     "pause": 5
+    },
+    {
+     "say": "the box that sends data between your computers and the internet",
+     "voice": "reader"
+    },
+    {
+     "pause": 1
+    },
+    {
+     "say": "spreadsheet",
+     "voice": "reader"
+    },
+    {
+     "pause": 5
+    },
+    {
+     "say": "a file of numbers in rows and columns that can add itself up",
+     "voice": "reader"
+    },
+    {
+     "pause": 1
+    },
+    {
+     "say": "delay",
+     "voice": "reader"
+    },
+    {
+     "pause": 5
+    },
+    {
+     "say": "a time when something is later or slower than it should be",
+     "voice": "reader"
+    },
+    {
+     "pause": 1
+    },
+    {
+     "say": "assume",
+     "voice": "reader"
+    },
+    {
+     "pause": 5
+    },
+    {
+     "say": "to believe something is true without checking it",
+     "voice": "reader"
+    },
+    {
+     "pause": 1
+    },
+    {
+     "say": "retrieve",
+     "voice": "reader"
+    },
+    {
+     "pause": 5
+    },
+    {
+     "say": "to get something back from a place where it was lost or hard to reach",
+     "voice": "reader"
+    },
+    {
+     "pause": 1
+    },
+    {
+     "say": "This is the end of the vocabulary practice.",
+     "voice": "narrator"
+    }
+   ]
+  },
+  {
+   "number": "04",
+   "slug": "grammar-relative-clauses",
+   "title": "Grammar — relative clauses, and the past perfect continuous",
+   "minutes": 50,
+   "sheet": true,
+   "audio": false,
+   "markdown": "### Come back to: the past perfect, and how long it had been going on\n\nLesson 10 taught the past perfect — *had* + past participle — for the\n**earlier** of two past actions. Two lines to remind you:\n\n| The generator **stopped** at eleven. | past simple — one past moment |\n|---|---|\n| By eleven, Karim **had charged** his laptop. | past perfect — finished **before** that moment |\n\n**New this time: the past perfect continuous.** *had been* + *-ing*. It looks\nat the same earlier time, but it is about **how long** something was going on\nup to a past moment — not about whether it was finished.\n\n> *Students **who had been waiting since eight** lost their slots.* (the passage)  \n> *She **had been keeping** the list for five months.* (the passage)  \n> *The generator **had been running** for three hours when it stopped.*\n\n| | Past perfect | Past perfect continuous |\n|---|---|---|\n| Form | *had* + participle | *had been* + *-ing* |\n| It tells you | the action was **complete** | the action was **going on**, and for how long |\n| Example | *The generator **had run** for three hours, so the tank was empty.* | *The generator **had been running** for three hours when it stopped.* |\n| Example | *Karim **had charged** his laptop, so he went home.* | *Karim **had been charging** his laptop for ten minutes when the power went.* |\n\n*had charged* — the battery was full. *had been charging* — it was not full yet;\nthe power cut it off in the middle. The first is a result. The second is a\nlength of time, and often an interruption.\n\nYou have met this shape twice before. It is Lesson 5's *have been* + *-ing*\n(*she has been keeping the list since October*), moved one step back in time,\nand it takes *for* and *since* in the same way as in Lesson 6. And Lesson 7's\nrule still holds: a **state verb** never takes it. *She had known about the\nproblem for months* — never *had been knowing*.\n\n**Quick practice.** Past perfect or past perfect continuous?\n\n1. By the time the room opened, she \\_\\_\\_\\_\\_\\_\\_\\_ (arrange) the whole morning. *(finished)*\n2. They \\_\\_\\_\\_\\_\\_\\_\\_ (wait) for two hours when the generator stopped. *(how long)*\n3. He was tired, because he \\_\\_\\_\\_\\_\\_\\_\\_ (lean) on the plug all morning. *(how long)*\n\n---\n\n### 3.1 What a relative clause does\n\nA relative clause is a small sentence **inside** a bigger one. It tells you\nsomething about a noun, and it starts with *who*, *which*, *that*, *whose* or\n*where*:\n\n> *The woman **who keeps the list** is Reem.*  \n> *The socket **that only works if you lean on the plug** is number seven.*\n\nWithout it, you would need two sentences: *A woman keeps the list. The woman is\nReem.* The relative clause joins them, and *who* takes the place of *the woman*\nin the second one. **It replaces the word — so you do not say it again.**\n\n| ✗ | ✓ |\n|---|---|\n| *The woman who **she** keeps the list is Reem.* | *The woman who keeps the list is Reem.* |\n| *The adapter that he borrowed **it** was his brother's.* | *The adapter that he borrowed was his brother's.* |\n\nArabic keeps that second pronoun: in *المحوّل الذي استعاره* the final *ـه* is\nthe *it* that English must leave out. That is why this is the mistake to\nwatch for.\n\n### 3.2 Defining clauses: *who, which, that, whose, where*\n\nA **defining** clause tells you **which one** — without it, you would not know\nwhich person or thing is meant. It has **no commas**.\n\n| Word | For | Example |\n|---|---|---|\n| *who* | people | everyone **who comes twice** learns which is which |\n| *which* | things | the socket **which only works if you lean on the plug** — the passage uses *that* |\n| *that* | things, and often people | a pen **that nobody has managed to take home** |\n| *whose* | belonging — *his, her, its, their* | a lecturer **whose flat has no power until night** |\n| *where* | places | the room **where everyone ends up** |\n\n*that* can replace *who* and *which* in a defining clause, and in speech it\nusually does. *whose* is for people and things: *the socket whose plug falls\nout*. *where* means *in which* or *at which*: *the room where everyone ends up*\n= *the room in which everyone ends up*.\n\n### 3.3 The pronoun you can leave out\n\nLook at who does the action **inside** the clause.\n\n| The relative pronoun is the subject | The relative pronoun is the object |\n|---|---|\n| *the woman **who** keeps the list* — **she** keeps it | *the adapter **(that)** he borrowed* — **he** borrowed it |\n| *the socket **that** only works …* — **it** works | *a list **(that)** nobody can read at a glance* — **nobody** reads it |\n\nWhen the clause already has its own subject — *he*, *nobody* — the pronoun is\nthe object, and **you can drop it**. The passage does, three times:\n\n> He uses an adapter **he borrowed** from his brother.  \n> the one **everyone is cross with**  \n> the one thing **the room is short of**\n\nYou cannot drop it when it is the subject: *the woman keeps the list is Reem* is\nnot English. If you can hear a second subject straight after the noun — *an\nadapter **he**…*, *the one **everyone**…* — a *that* has been left out. Put it\nback when you read, and the sentence comes apart.\n\n### 3.4 Non-defining clauses: two commas, and never *that*\n\nA **non-defining** clause does not tell you which one. You know already. It\n**adds a fact** about a person or thing that is already clear, and it sits\nbetween **two commas** (or a comma and the full stop):\n\n> So Karim, **who could take the best slot of all,** goes last.  \n> Then there is Karim, **whose laptop charges faster than anyone's.**  \n> The best are the four along the back wall, **where the router sits on a shelf.**  \n> A spreadsheet needs electricity, **which is the one thing the room is short of.**\n\nTake the clause out and the sentence still says who or what: *So Karim goes\nlast.* There is only one Karim.\n\nThree rules, and the course will hold you to all three:\n\n1. **Two commas** — one before, one after (unless the sentence ends there).\n2. **Never *that*.** *Karim, that could take the best slot* ✗ → *Karim, who could* ✓.\n3. **Never drop the pronoun.** *The list, nobody can read at a glance, …* ✗.\n\nNames, and anything there is only one of — *my mother*, *Room 14*, *the\nuniversity* — almost always take a non-defining clause, because there is\nnothing to choose between.\n\n### 3.5 The trap: the commas change the meaning\n\nThe commas are not decoration. They change **what the sentence claims**.\n\n| Defining — no commas | Non-defining — two commas |\n|---|---|\n| The student **who keeps the list** arrives at a quarter to eight. | The student, **who keeps the list,** arrives at a quarter to eight. |\n| There are several students. The clause **picks one out**: the one who keeps the list. | There is **one** student we already know about. The clause **adds a fact** about her. |\n| The students **who had been waiting since eight** lost their slots. | The students, **who had been waiting since eight,** lost their slots. |\n| **Some** students lost their slots — only the ones who had been waiting since eight. | **All** the students lost their slots — and, by the way, they had all been waiting since eight. |\n| The sockets **which are on the back wall** are the best. | The sockets, **which are on the back wall,** are the best. |\n| Some sockets are on the back wall, and those are the best. | All the sockets are on the back wall, and they are all the best — which the passage says is not true. |\n\nRead the second pair again. With commas, Reem's whole room lost its slots on\nTuesday; without them, only the people who had been there since eight. Two\nsmall marks, and a different number of angry students.\n\n**Now you.** Write each sentence twice — once with commas, once without — and\nunder each, write in one line **what it claims**.\n\n1. The students (who live closest) need the room least.\n2. The chargers (which were left under the desks) were put on the shelf.\n3. My brother (who works in Spain) is coming home.\n\nNumber 3 is the one to think about: with no commas, you have more than one\nbrother.\n\n### 3.6 *which* about a whole clause — the B2 use\n\nEverything so far has described **one noun**. But *which* can also comment on\n**everything before it** — the whole clause, not one word in it:\n\n> Last Tuesday the generator stopped at eleven, **which meant the last hour was on battery.**  \n> So Karim goes last, **which is why the final twenty minutes are always his.**\n\nWhat does *which* point at in the first sentence? Not *eleven*, and not *the\ngenerator*. It points at **the generator stopping at eleven** — the whole event.\nThat is the difference:\n\n| *which* = one noun | *which* = the whole clause |\n|---|---|\n| *A spreadsheet needs **electricity**, which is the one thing the room is short of.* | *The generator stopped at eleven, **which** meant the last hour was on battery.* |\n| *which* = electricity | *which* = the fact that it stopped at eleven |\n\nThis *which* is always non-defining, so it always has its comma. It cannot be\n*that*, and it cannot be *what*:\n\n| ✗ | ✓ |\n|---|---|\n| *It stopped at eleven, **that** meant the last hour was on battery.* | *…, **which** meant …* |\n| *It stopped at eleven, **what** meant …* | *…, **which** meant …* |\n| *It stopped at eleven. **Which** meant the last hour was on battery.* | one sentence, with a comma — the full stop is fine in a chat message, not in an essay |\n\nIt is the B2 structure in this lesson because it lets you **give a fact and say\nwhat it means in one sentence** — which is what an essay, and a TOEFL answer,\nkeeps asking you to do. The useful verbs after it: *which meant*, *which is\nwhy*, *which made*, *which surprised*, *which explains*.\n\n### 3.7 Grammar practice\n\n**A. *who, which, where* or *whose*? Use each one at least once.**\n\n1. Reem is the volunteer \\_\\_\\_\\_\\_\\_\\_\\_ keeps the list.\n2. Karim is the student \\_\\_\\_\\_\\_\\_\\_\\_ laptop charges fastest.\n3. Room 14 is the room \\_\\_\\_\\_\\_\\_\\_\\_ everyone ends up.\n4. Number seven is the socket \\_\\_\\_\\_\\_\\_\\_\\_ only works if you lean on the plug.\n5. The lecturer, \\_\\_\\_\\_\\_\\_\\_\\_ flat has no power until night, marks exams there.\n\n**B. Join the two sentences with a defining clause. Do not repeat the noun.**\n\n1. A pen hangs on the door. Nobody has managed to take it home.\n2. The students lost their slots. They had been waiting since eight.\n3. I need the charger. You lent it to me yesterday.\n\n**C. Which *that* can you leave out? Cross it out, or write *must stay*.**\n\n1. the adapter that he borrowed from his brother\n2. the socket that only works if you lean on the plug\n3. a list that nobody can read at a glance\n4. the students that had been waiting since eight\n\n**D. Add a non-defining clause with the information in brackets. Put in both commas.**\n\n1. Reem arrives at a quarter to eight. *(Her own laptop died last spring.)*\n2. Room 14 is on the second floor. *(It opens only while there is electricity.)*\n3. The router sits on the shelf. *(Everyone depends on it.)*\n\n**E. Comment on the whole clause with *which*.**\n\n1. The generator stopped at eleven. *(This meant the last hour was on battery.)*\n2. Karim's laptop charges in twenty minutes. *(This is why he goes last.)*\n3. The list rewards whoever is nearest the door. *(This is not quite fair.)*\n\n**F. Find the mistake and correct it.**\n\n1. Karim, that could take the best slot, goes last.\n2. The woman who she keeps the list is Reem.\n3. The generator stopped at eleven, what meant the last hour was on battery.\n4. My sister, lives by the sea, is studying medicine.\n\n**G. Come back to — past perfect or past perfect continuous?**\n\n1. By eleven, Karim \\_\\_\\_\\_\\_\\_\\_\\_ (finish) charging, so he lost nothing.\n2. The students \\_\\_\\_\\_\\_\\_\\_\\_ (wait) since eight when the power went.\n3. She \\_\\_\\_\\_\\_\\_\\_\\_ (keep) the list for five months, and that night she nearly gave it up.\n4. They \\_\\_\\_\\_\\_\\_\\_\\_ (know) about the problem for weeks. *(careful: a state verb)*"
+  },
+  {
+   "number": "05",
+   "slug": "commas-and-had-been",
+   "title": "The commas you can hear, and the weak had been",
+   "minutes": 25,
+   "sheet": true,
+   "audio": true,
+   "markdown": "### 3.8 The commas you can hear, and the weak *had been* (listen to `05-commas-and-had-been.mp3`)\n\nThis is the one place in the course where **punctuation is a sound**. In part\n04 you saw that two commas change what a sentence claims. In speech there are\nno commas — so a speaker shows them with the voice, and a listener who does\nnot hear them understands a different sentence.\n\n**1. The defining clause: no stop.**\n\nA defining clause is said straight through, as one piece. The voice does not\nstop and does not fall until the end.\n\n| Written | What you hear — no stop |\n|---|---|\n| The woman who keeps the list is Reem. | the-WOman-who-keeps-the-LIST-is-REEM |\n| The students who had been waiting lost their slots. | the-STUdents-who'd-been-WAITing-lost-their-SLOTS |\n\n**2. The non-defining clause: stop, fall, stop.**\n\nA non-defining clause is said like an aside, a little lower and a little\nquicker, with a **short stop** at each comma. The voice **falls** on the word\nbefore the first comma, as if that part were finished.\n\n| Written | What you hear — ‖ is a stop |\n|---|---|\n| Karim, who could take the best slot, goes last. | KARim ‖ who-could-take-the-BEST-SLOT ‖ goes-LAST |\n| The students, who had been waiting, lost their slots. | the-STUdents ‖ who'd-been-WAITing ‖ lost-their-SLOTS |\n\nSo *the students who had been waiting* and *the students, who had been\nwaiting,* are different sentences out loud too: one is a single piece, and the\nother breaks in three. When you hear the break, you know the clause is **extra**\n— and that everybody in the first part is included.\n\n**3. The *which* that comments on a whole clause.**\n\nIt always comes after a stop and a fall, because the sentence before it was\ncomplete:\n\n| Written | What you hear |\n|---|---|\n| It stopped at eleven, which meant the last hour was on battery. | it-stopped-at-eLEVen ‖ which-meant-the-LAST-HOUR-was-on-BATtery |\n\n**4. *had been* is weak — *she'd been waiting* is three syllables.**\n\n| Written | Said slowly | Said normally |\n|---|---|---|\n| she had been waiting | <span class=\"ipa\">/ʃi hæd biːn ˈweɪtɪŋ/</span> — six syllables | <span class=\"ipa\">/ʃid bɪn ˈweɪtɪŋ/</span> — *she'd-bin-WAIT-ing* |\n| they had been waiting | <span class=\"ipa\">/ðeɪ hæd biːn ˈweɪtɪŋ/</span> | <span class=\"ipa\">/ðeɪd bɪn ˈweɪtɪŋ/</span> |\n| she had been keeping | <span class=\"ipa\">/ʃi hæd biːn ˈkiːpɪŋ/</span> | <span class=\"ipa\">/ʃid bɪn ˈkiːpɪŋ/</span> |\n\n*had* becomes a <span class=\"ipa\">/d/</span> on the word before it, as in Lesson\n10. *been* loses its long vowel and becomes <span class=\"ipa\">/bɪn/</span> — the\nsame weak *been* as in Lesson 5's *has been* and Lesson 9's *had been*. Only the\n*-ing* verb is stressed.\n\n**5. *she'd been waiting* against *she'd waited* and *she was waiting*.**\n\n| You hear | It is | It means |\n|---|---|---|\n| she'd-bin-WAIT-ing | past perfect continuous | how long, up to a past moment |\n| she'd-WAIT-ed | past perfect | finished, before a past moment |\n| she-was-WAIT-ing | past continuous (Lesson 3) | going on at a past moment |\n\nThe <span class=\"ipa\">/bɪn/</span> is the sound to listen for. If it is there,\nthe sentence is about **how long**.\n\nIn the audio you hear each line twice, and then two tests: first, **did you\nhear the commas or not?** Then, **did you hear *had been* or not?**",
+   "segments": [
+    {
+     "say": "Pronunciation. The commas you can hear, and the weak had been.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 1
+    },
+    {
+     "say": "First, the defining clause. It is said straight through, with no stop. Listen to each line twice, then repeat it.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 2
+    },
+    {
+     "say": "The woman who keeps the list is Reem.",
+     "voice": "reader"
+    },
+    {
+     "pause": 1
+    },
+    {
+     "say": "The woman who keeps the list is Reem.",
+     "voice": "reader"
+    },
+    {
+     "pause": 3
+    },
+    {
+     "say": "The students who had been waiting lost their slots.",
+     "voice": "reader"
+    },
+    {
+     "pause": 1
+    },
+    {
+     "say": "The students who had been waiting lost their slots.",
+     "voice": "reader"
+    },
+    {
+     "pause": 3
+    },
+    {
+     "pause": 1
+    },
+    {
+     "say": "Now the non-defining clause. Listen for a short stop at each comma, and for the voice falling before the first one.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 2
+    },
+    {
+     "say": "Karim, who could take the best slot, goes last.",
+     "voice": "reader"
+    },
+    {
+     "pause": 1
+    },
+    {
+     "say": "Karim, who could take the best slot, goes last.",
+     "voice": "reader"
+    },
+    {
+     "pause": 3
+    },
+    {
+     "say": "Reem, whose own laptop died last spring, keeps the list.",
+     "voice": "reader"
+    },
+    {
+     "pause": 1
+    },
+    {
+     "say": "Reem, whose own laptop died last spring, keeps the list.",
+     "voice": "reader"
+    },
+    {
+     "pause": 3
+    },
+    {
+     "pause": 1
+    },
+    {
+     "say": "Now the same words, said two ways. The first has no commas. The second has two. Listen for the difference, and think about what each one claims.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 2
+    },
+    {
+     "say": "No commas.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 0.5
+    },
+    {
+     "say": "The students who had been waiting lost their slots.",
+     "voice": "reader"
+    },
+    {
+     "pause": 2
+    },
+    {
+     "say": "Two commas.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 0.5
+    },
+    {
+     "say": "The students, who had been waiting, lost their slots.",
+     "voice": "reader"
+    },
+    {
+     "pause": 3
+    },
+    {
+     "say": "No commas.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 0.5
+    },
+    {
+     "say": "My brother who works in Spain is coming home.",
+     "voice": "reader"
+    },
+    {
+     "pause": 2
+    },
+    {
+     "say": "Two commas.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 0.5
+    },
+    {
+     "say": "My brother, who works in Spain, is coming home.",
+     "voice": "reader"
+    },
+    {
+     "pause": 3
+    },
+    {
+     "say": "With no commas, only some of the students lost their slots, and you have more than one brother. With two commas, all the students lost their slots, and you have one brother.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 2
+    },
+    {
+     "pause": 1
+    },
+    {
+     "say": "Now which about a whole clause. There is always a stop before it.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 2
+    },
+    {
+     "say": "The generator stopped at eleven, which meant the last hour was on battery.",
+     "voice": "reader"
+    },
+    {
+     "pause": 1
+    },
+    {
+     "say": "The generator stopped at eleven, which meant the last hour was on battery.",
+     "voice": "reader"
+    },
+    {
+     "pause": 3
+    },
+    {
+     "say": "Karim goes last, which is why the final twenty minutes are his.",
+     "voice": "reader"
+    },
+    {
+     "pause": 1
+    },
+    {
+     "say": "Karim goes last, which is why the final twenty minutes are his.",
+     "voice": "reader"
+    },
+    {
+     "pause": 3
+    },
+    {
+     "pause": 1
+    },
+    {
+     "say": "Now had been. In normal speech, she had been waiting becomes she'd been waiting, three short syllables before the verb. Listen to it slowly, and then at normal speed.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 2
+    },
+    {
+     "say": "Slowly.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 0.5
+    },
+    {
+     "say": "She had been waiting since eight.",
+     "voice": "reader"
+    },
+    {
+     "pause": 2
+    },
+    {
+     "say": "Normal speed.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 0.5
+    },
+    {
+     "say": "She'd been waiting since eight.",
+     "voice": "reader"
+    },
+    {
+     "pause": 1
+    },
+    {
+     "say": "She'd been waiting since eight.",
+     "voice": "reader"
+    },
+    {
+     "pause": 3
+    },
+    {
+     "say": "Slowly.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 0.5
+    },
+    {
+     "say": "She had been keeping the list for five months.",
+     "voice": "reader"
+    },
+    {
+     "pause": 2
+    },
+    {
+     "say": "Normal speed.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 0.5
+    },
+    {
+     "say": "She'd been keeping the list for five months.",
+     "voice": "reader"
+    },
+    {
+     "pause": 1
+    },
+    {
+     "say": "She'd been keeping the list for five months.",
+     "voice": "reader"
+    },
+    {
+     "pause": 3
+    },
+    {
+     "pause": 1
+    },
+    {
+     "say": "Now listen to three sentences that sound almost the same. Only the first one has been in it.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 2
+    },
+    {
+     "say": "She'd been waiting.",
+     "voice": "reader"
+    },
+    {
+     "pause": 1.5
+    },
+    {
+     "say": "She'd waited.",
+     "voice": "reader"
+    },
+    {
+     "pause": 1.5
+    },
+    {
+     "say": "She was waiting.",
+     "voice": "reader"
+    },
+    {
+     "pause": 1.5
+    },
+    {
+     "pause": 1
+    },
+    {
+     "say": "Now the first test. Did you hear commas, or no commas? Listen for the stops. Say commas, or no commas. Then you will hear the answer.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 2
+    },
+    {
+     "say": "Sentence 1.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 0.4
+    },
+    {
+     "say": "The students who had been waiting lost their slots.",
+     "voice": "reader"
+    },
+    {
+     "pause": 4
+    },
+    {
+     "say": "The answer is no commas.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 1
+    },
+    {
+     "say": "Sentence 2.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 0.4
+    },
+    {
+     "say": "Reem, who keeps the list, arrived early.",
+     "voice": "reader"
+    },
+    {
+     "pause": 4
+    },
+    {
+     "say": "The answer is commas.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 1
+    },
+    {
+     "say": "Sentence 3.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 0.4
+    },
+    {
+     "say": "The chargers which were under the desks went on the shelf.",
+     "voice": "reader"
+    },
+    {
+     "pause": 4
+    },
+    {
+     "say": "The answer is no commas.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 1
+    },
+    {
+     "say": "Sentence 4.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 0.4
+    },
+    {
+     "say": "My sister, who lives by the sea, is a teacher.",
+     "voice": "reader"
+    },
+    {
+     "pause": 4
+    },
+    {
+     "say": "The answer is commas.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 1
+    },
+    {
+     "say": "Sentence 5.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 0.4
+    },
+    {
+     "say": "The sockets, which are on the back wall, are the best.",
+     "voice": "reader"
+    },
+    {
+     "pause": 4
+    },
+    {
+     "say": "The answer is commas.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 1
+    },
+    {
+     "say": "Sentence 6.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 0.4
+    },
+    {
+     "say": "The student who keeps the list arrived early.",
+     "voice": "reader"
+    },
+    {
+     "pause": 4
+    },
+    {
+     "say": "The answer is no commas.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 1
+    },
+    {
+     "pause": 1
+    },
+    {
+     "say": "The second test. Did you hear had been, or no had been?",
+     "voice": "narrator"
+    },
+    {
+     "pause": 2
+    },
+    {
+     "say": "Sentence 7.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 0.4
+    },
+    {
+     "say": "She'd been waiting since eight.",
+     "voice": "reader"
+    },
+    {
+     "pause": 4
+    },
+    {
+     "say": "The answer is had been.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 1
+    },
+    {
+     "say": "Sentence 8.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 0.4
+    },
+    {
+     "say": "She'd waited since eight.",
+     "voice": "reader"
+    },
+    {
+     "pause": 4
+    },
+    {
+     "say": "The answer is no had been.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 1
+    },
+    {
+     "say": "Sentence 9.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 0.4
+    },
+    {
+     "say": "They'd been charging their laptops.",
+     "voice": "reader"
+    },
+    {
+     "pause": 4
+    },
+    {
+     "say": "The answer is had been.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 1
+    },
+    {
+     "say": "Sentence 10.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 0.4
+    },
+    {
+     "say": "They were charging their laptops.",
+     "voice": "reader"
+    },
+    {
+     "pause": 4
+    },
+    {
+     "say": "The answer is no had been.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 1
+    },
+    {
+     "say": "This is the end of the pronunciation practice.",
+     "voice": "narrator"
+    }
+   ]
+  },
+  {
+   "number": "06",
+   "slug": "comprehension",
+   "title": "Comprehension — a full TOEFL set of ten",
+   "minutes": 45,
+   "sheet": true,
+   "audio": true,
+   "markdown": "### Part A — Multiple choice\n\n> This is a full set of ten, the size of a real TOEFL reading set.\n\n**1. (Factual)** When is Room 14 open?\n\n- A. From eight until noon, and from six until ten.\n- B. Only in the morning, from a quarter to eight.\n- C. All day, whenever the generator is working.\n- D. Only in the evening, when the lecturers have gone home.\n\n**2. (Factual)** Why does Karim go last?\n\n- A. He always reaches the door after everyone else.\n- B. Reem put him last because his adapter is borrowed.\n- C. His laptop charges so fast that twenty minutes are enough.\n- D. Socket seven only works at the end of the morning.\n\n**3. (Negative factual)** All of the following are true of the sockets EXCEPT\n\n- A. number seven only works if you lean on the plug.\n- B. number three drops your charger when somebody walks past.\n- C. the four along the back wall are the best.\n- D. the best ones are kept for the students who travel furthest.\n\n**4. (Vocabulary in context)** The word \"cross\" in the passage is closest in meaning to\n\n- A. going from one side to the other.\n- B. tired.\n- C. angry.\n- D. disappointed in yourself.\n\n**5. (Reference)** In the sentence, Someone once offered to turn it into a spreadsheet, the word \"it\" refers to\n\n- A. the door.\n- B. the list.\n- C. goodwill.\n- D. the room.\n\n**6. (Inference)** It can be inferred from the passage that Reem's own name is not on the rota because\n\n- A. the students who blamed her took it off.\n- B. Karim always takes her slot.\n- C. she arrives after the room has opened.\n- D. she has no laptop of her own to charge.\n\n**7. (Sentence insertion)** Look at the four letters **[A] [B] [C] [D]** in the passage. Where would this sentence best fit?\n\n> *Not everyone, though, needs the whole forty minutes.*\n\n- A. At **[A]**\n- B. At **[B]**\n- C. At **[C]**\n- D. At **[D]**\n\n**8. (Purpose of a paragraph)** Why does the writer include the paragraph that begins \"Before the rota, the room ran on goodwill\"?\n\n- A. To describe what the room looked like before it had sockets.\n- B. To complain that the polite students went home too early.\n- C. To argue that a list on a door works better than people's good intentions.\n- D. To explain why a spreadsheet would be better than a paper list.\n\n**9. (Purpose of the whole passage)** What is the writer's main purpose in the whole passage?\n\n- A. To show that a rota is always fairer than goodwill.\n- B. To describe a shared room, and argue that its rota is not quite fair but better than goodwill.\n- C. To complain about the electricity at the university.\n- D. To tell the story of the Tuesday the generator stopped at eleven.\n\n**10. (The writer's attitude)** Which word best describes the writer's attitude towards Reem?\n\n- A. Respectful.\n- B. Critical.\n- C. Sorry for her.\n- D. Uninterested.\n\n### Part C — Fill in the blanks\n\nUse these words. There are **two extra words** you will not need.\n\n> *rota · slot · lean · loose · adapter · corridor · shelf · charger · reward*\n\n1. Room 14 is at the end of the long \\_\\_\\_\\_\\_\\_\\_\\_ on the second floor.\n2. Every name on the \\_\\_\\_\\_\\_\\_\\_\\_ gets a place in the order people reach the door.\n3. Each person gets a \\_\\_\\_\\_\\_\\_\\_\\_ of forty minutes.\n4. Socket seven only works if you \\_\\_\\_\\_\\_\\_\\_\\_ on the plug.\n5. Number three is \\_\\_\\_\\_\\_\\_\\_\\_, and things fall out of it.\n6. Karim uses an \\_\\_\\_\\_\\_\\_\\_\\_ he borrowed from his brother.\n7. The router sits on a \\_\\_\\_\\_\\_\\_\\_\\_ by the back wall.\n\n### Part D — Summary\n\nWrite the passage in **two sentences only**. Use one non-defining clause, and one *which* that comments on a whole clause.\n\n> Sentence 1 — Reem and the list, with a non-defining clause: \\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_  \n> Sentence 2 — what the list does and what it gets wrong, with *, which*: \\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_",
+   "segments": [
+    {
+     "say": "Now get ready to answer the questions about the passage. There are ten questions. You may look at the passage while you answer.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 2
+    },
+    {
+     "say": "Question one. When is Room 14 open?",
+     "voice": "narrator"
+    },
+    {
+     "pause": 1
+    },
+    {
+     "say": "A. From eight until noon, and from six until ten.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 0.5
+    },
+    {
+     "say": "B. Only in the morning, from a quarter to eight.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 0.5
+    },
+    {
+     "say": "C. All day, whenever the generator is working.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 0.5
+    },
+    {
+     "say": "D. Only in the evening, when the lecturers have gone home.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 0.5
+    },
+    {
+     "pause": 8
+    },
+    {
+     "say": "Question two. Why does Karim go last?",
+     "voice": "narrator"
+    },
+    {
+     "pause": 1
+    },
+    {
+     "say": "A. He always reaches the door after everyone else.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 0.5
+    },
+    {
+     "say": "B. Reem put him last because his adapter is borrowed.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 0.5
+    },
+    {
+     "say": "C. His laptop charges so fast that twenty minutes are enough.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 0.5
+    },
+    {
+     "say": "D. Socket seven only works at the end of the morning.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 0.5
+    },
+    {
+     "pause": 8
+    },
+    {
+     "say": "Question three. All of the following are true of the sockets EXCEPT",
+     "voice": "narrator"
+    },
+    {
+     "pause": 1
+    },
+    {
+     "say": "A. number seven only works if you lean on the plug.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 0.5
+    },
+    {
+     "say": "B. number three drops your charger when somebody walks past.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 0.5
+    },
+    {
+     "say": "C. the four along the back wall are the best.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 0.5
+    },
+    {
+     "say": "D. the best ones are kept for the students who travel furthest.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 0.5
+    },
+    {
+     "pause": 8
+    },
+    {
+     "say": "Question four. The word \"cross\" in the passage is closest in meaning to",
+     "voice": "narrator"
+    },
+    {
+     "pause": 1
+    },
+    {
+     "say": "A. going from one side to the other.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 0.5
+    },
+    {
+     "say": "B. tired.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 0.5
+    },
+    {
+     "say": "C. angry.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 0.5
+    },
+    {
+     "say": "D. disappointed in yourself.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 0.5
+    },
+    {
+     "pause": 8
+    },
+    {
+     "say": "Question five. In the sentence, Someone once offered to turn it into a spreadsheet, the word \"it\" refers to",
+     "voice": "narrator"
+    },
+    {
+     "pause": 1
+    },
+    {
+     "say": "A. the door.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 0.5
+    },
+    {
+     "say": "B. the list.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 0.5
+    },
+    {
+     "say": "C. goodwill.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 0.5
+    },
+    {
+     "say": "D. the room.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 0.5
+    },
+    {
+     "pause": 8
+    },
+    {
+     "say": "Question six. It can be inferred from the passage that Reem's own name is not on the rota because",
+     "voice": "narrator"
+    },
+    {
+     "pause": 1
+    },
+    {
+     "say": "A. the students who blamed her took it off.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 0.5
+    },
+    {
+     "say": "B. Karim always takes her slot.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 0.5
+    },
+    {
+     "say": "C. she arrives after the room has opened.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 0.5
+    },
+    {
+     "say": "D. she has no laptop of her own to charge.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 0.5
+    },
+    {
+     "pause": 8
+    },
+    {
+     "say": "Question seven. Look at the four letters [A] [B] [C] [D] in the passage. Where would this sentence best fit?",
+     "voice": "narrator"
+    },
+    {
+     "pause": 1
+    },
+    {
+     "say": "Not everyone, though, needs the whole forty minutes.",
+     "voice": "reader"
+    },
+    {
+     "pause": 1
+    },
+    {
+     "say": "A. At [A]",
+     "voice": "narrator"
+    },
+    {
+     "pause": 0.5
+    },
+    {
+     "say": "B. At [B]",
+     "voice": "narrator"
+    },
+    {
+     "pause": 0.5
+    },
+    {
+     "say": "C. At [C]",
+     "voice": "narrator"
+    },
+    {
+     "pause": 0.5
+    },
+    {
+     "say": "D. At [D]",
+     "voice": "narrator"
+    },
+    {
+     "pause": 0.5
+    },
+    {
+     "pause": 12
+    },
+    {
+     "say": "Question eight. Why does the writer include the paragraph that begins \"Before the rota, the room ran on goodwill\"?",
+     "voice": "narrator"
+    },
+    {
+     "pause": 1
+    },
+    {
+     "say": "A. To describe what the room looked like before it had sockets.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 0.5
+    },
+    {
+     "say": "B. To complain that the polite students went home too early.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 0.5
+    },
+    {
+     "say": "C. To argue that a list on a door works better than people's good intentions.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 0.5
+    },
+    {
+     "say": "D. To explain why a spreadsheet would be better than a paper list.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 0.5
+    },
+    {
+     "pause": 8
+    },
+    {
+     "say": "Question nine. What is the writer's main purpose in the whole passage?",
+     "voice": "narrator"
+    },
+    {
+     "pause": 1
+    },
+    {
+     "say": "A. To show that a rota is always fairer than goodwill.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 0.5
+    },
+    {
+     "say": "B. To describe a shared room, and argue that its rota is not quite fair but better than goodwill.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 0.5
+    },
+    {
+     "say": "C. To complain about the electricity at the university.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 0.5
+    },
+    {
+     "say": "D. To tell the story of the Tuesday the generator stopped at eleven.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 0.5
+    },
+    {
+     "pause": 8
+    },
+    {
+     "say": "Question ten. Which word best describes the writer's attitude towards Reem?",
+     "voice": "narrator"
+    },
+    {
+     "pause": 1
+    },
+    {
+     "say": "A. Respectful.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 0.5
+    },
+    {
+     "say": "B. Critical.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 0.5
+    },
+    {
+     "say": "C. Sorry for her.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 0.5
+    },
+    {
+     "say": "D. Uninterested.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 0.5
+    },
+    {
+     "pause": 8
+    },
+    {
+     "say": "This is the end of part A. Parts C and D are on the sheet. Do them when the track has finished.",
+     "voice": "narrator"
+    }
+   ]
+  },
+  {
+   "number": "07",
+   "slug": "true-false",
+   "title": "True / false",
+   "minutes": 15,
+   "sheet": true,
+   "audio": true,
+   "markdown": "### Part B — True / False\n\nWrite **T** or **F**. If it is false, write the correct sentence.\n\n1. Reem is paid to keep the list. \\_\\_\\_\\_\n2. Socket number seven only works if you lean on the plug. \\_\\_\\_\\_\n3. Karim borrowed his adapter from his brother. \\_\\_\\_\\_\n4. Before the rota, everyone stood up and shared the sockets. \\_\\_\\_\\_\n5. Reem wanted to turn the rota into a spreadsheet. \\_\\_\\_\\_\n6. The students who lost their slots had been waiting since eight. \\_\\_\\_\\_",
+   "segments": [
+    {
+     "say": "True or false. You will hear six sentences. Say true or false. If the sentence is false, say the correct sentence.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 2
+    },
+    {
+     "say": "One. Reem is paid to keep the list.",
+     "voice": "reader"
+    },
+    {
+     "pause": 7
+    },
+    {
+     "say": "Two. Socket number seven only works if you lean on the plug.",
+     "voice": "reader"
+    },
+    {
+     "pause": 7
+    },
+    {
+     "say": "Three. Karim borrowed his adapter from his brother.",
+     "voice": "reader"
+    },
+    {
+     "pause": 7
+    },
+    {
+     "say": "Four. Before the rota, everyone stood up and shared the sockets.",
+     "voice": "reader"
+    },
+    {
+     "pause": 7
+    },
+    {
+     "say": "Five. Reem wanted to turn the rota into a spreadsheet.",
+     "voice": "reader"
+    },
+    {
+     "pause": 7
+    },
+    {
+     "say": "Six. The students who lost their slots had been waiting since eight.",
+     "voice": "reader"
+    },
+    {
+     "pause": 7
+    },
+    {
+     "say": "This is the end of the true or false questions.",
+     "voice": "narrator"
+    }
+   ]
+  },
+  {
+   "number": "08",
+   "slug": "speaking",
+   "title": "Speaking",
+   "minutes": 25,
+   "sheet": true,
+   "audio": true,
+   "markdown": "### 5.1 Speaking (record each answer, 45 seconds)\n\n1. Describe Room 14 in your own words: the people, the sockets and the list. Use at least three relative clauses, and one of them with commas.\n2. Describe a place you share with other people, at home or at university. Who keeps it working, and what is the thing everyone wants? Use *who*, *where* and *whose*.\n3. Tell me about a time you had been waiting for something for a long time when it changed. How long had you been waiting? Then say what that meant, with *which*.\n\n**Useful sentence starters:**\n\n- *The person who \\_\\_\\_\\_ is \\_\\_\\_\\_.*\n- *It is the place where \\_\\_\\_\\_.*\n- *\\_\\_\\_\\_, whose \\_\\_\\_\\_, \\_\\_\\_\\_.*\n- *I had been waiting for \\_\\_\\_\\_ when \\_\\_\\_\\_.*\n- *\\_\\_\\_\\_, which meant that \\_\\_\\_\\_.*",
+   "segments": [
+    {
+     "say": "Speaking practice. Record your answer to each question on your phone. You have a few seconds to think, and then forty-five seconds to speak.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 2
+    },
+    {
+     "say": "Question one. Describe Room 14 in your own words: the people, the sockets and the list. Use at least three relative clauses, and one of them with commas.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 5
+    },
+    {
+     "say": "Begin speaking now.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 45
+    },
+    {
+     "say": "Question two. Describe a place you share with other people, at home or at university. Who keeps it working, and what is the thing everyone wants? Use who, where and whose.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 5
+    },
+    {
+     "say": "Begin speaking now.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 45
+    },
+    {
+     "say": "Question three. Tell me about a time you had been waiting for something for a long time when it changed. How long had you been waiting? Then say what that meant, with which.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 5
+    },
+    {
+     "say": "Begin speaking now.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 45
+    },
+    {
+     "say": "This is the end of the speaking practice.",
+     "voice": "narrator"
+    }
+   ]
+  },
+  {
+   "number": "09",
+   "slug": "writing",
+   "title": "Writing — A Room I Know",
+   "minutes": 30,
+   "sheet": true,
+   "audio": false,
+   "markdown": "### 5.2 Writing — \"A Room I Know\" (6 sentences)\n\nDescribe a room you know well — at home, at university, at a relative's house,\nanywhere you spend time. It is not an essay. It is six sentences, and each one\nhas a job.\n\n**Sentences 1 to 5.** Describe the room through its **people and its objects**,\nas the passage does. Each sentence carries **one** relative clause. Use at\nleast three different words from *who, which, that, whose, where*, and make **at\nleast one** of the five **non-defining**, with two commas.\n\n**Sentence 6.** Write one more sentence about the room, and end it with a\n***which*** that comments on the **whole** of the clause before the comma — not on\none noun in it. *…, which means …*, *…, which is why …*.\n\n**Model answer (copy the shape, change the words):**\n\n> 1. The reading room is on the ground floor, next to the office **where we pay our fees**.  \n> 2. The man **who opens it every morning** has worked there for twenty years.  \n> 3. The big table**, which nobody is allowed to eat at,** stands under the only window.  \n> 4. The books **students need most** are kept on a low shelf by the door.  \n> 5. My friend Dana**, whose brother works in the library,** always knows when the room will close early.  \n> 6. On Thursdays it closes at two**, which is why I do my reading on Wednesday evenings.**\n\nLook at sentence 4: the *that* has been dropped (*the books **that** students\nneed most*), because *students* is the subject inside the clause. And sentence\n6: *which* does not mean *two* or *Thursdays*. It means **the room closing at two\non Thursdays** — the whole clause.\n\n**Checklist before you send it:**\n\n- [ ] Sentences 1 to 5 each have **one** relative clause, and I can underline it.\n- [ ] I used at least **three** of *who, which, that, whose, where*.\n- [ ] At least **one** clause is non-defining, with **two commas** — and it does not start with *that*.\n- [ ] For each non-defining clause, I checked: if I take it out, do you still know who or what I mean? (You should.)\n- [ ] I did not repeat the noun inside the clause: *the man who **he** opens it* ✗.\n- [ ] Sentence 6 ends with *, which* and the *which* means the whole clause, not one word.\n- [ ] I used at least **2 new words** from Session 2, and **1 word** from Lesson 10 or Lesson 11."
+  },
+  {
+   "number": "10",
+   "slug": "review",
+   "title": "Review",
+   "minutes": 30,
+   "sheet": true,
+   "audio": true,
+   "markdown": "### 6.1 Listen again (no text)\n\n1. Why does Karim go last, and who decided that he should?\n2. What does the writer say the list does well, and what does it get wrong?\n\n### 6.2 Mini-quiz (12 marks)\n\n1. Which relative word is for places, and which is for belonging? \\_\\_\\_\\_\\_\\_\\_\\_\n2. In *the adapter he borrowed*, which word has been left out, and why is that allowed? \\_\\_\\_\\_\\_\\_\\_\\_\n3. Why can you not leave out *who* in *the woman who keeps the list*? \\_\\_\\_\\_\\_\\_\\_\\_\n4. What is wrong with *Karim, that could take the best slot, goes last*? \\_\\_\\_\\_\\_\\_\\_\\_\n5. What is the difference in meaning? *The students who had been waiting lost their slots.* / *The students, who had been waiting, lost their slots.* \\_\\_\\_\\_\\_\\_\\_\\_\n6. In *It stopped at eleven, which meant the last hour was on battery*, what does *which* refer to? \\_\\_\\_\\_\\_\\_\\_\\_\n7. *had charged* or *had been charging*? *He \\_\\_\\_\\_\\_\\_\\_\\_ for ten minutes when the power went.*\n8. You hear *she'd-bin-WAIT-ing*. Write it in full. \\_\\_\\_\\_\\_\\_\\_\\_\n9. How does a speaker show a non-defining clause, when there are no commas to see? \\_\\_\\_\\_\\_\\_\\_\\_\n10. *borrow* or *lend*? *Can you \\_\\_\\_\\_\\_\\_\\_\\_ me your charger?*\n11. *loose* or *lose*? *If you are late, you \\_\\_\\_\\_\\_\\_\\_\\_ your slot.*\n12. Describe Room 14 in two sentences from memory, with one non-defining clause.\n\n### 6.3 Lesson 12 self-report\n\n| Question | Answer |\n|---|---|\n| Minutes studied this week | |\n| Hardest part (listening / reading / vocabulary / grammar / speaking / writing) | |\n| Relative clauses I can now make without thinking (who / which / that / whose / where / with commas / *, which* about a whole clause) | |\n| Words from Lesson 10 I had forgotten | |\n| When I hear a sentence, can I tell if it had commas? Always / usually / only if I hear it twice / not yet | |\n| One thing I want to repeat next week | |\n\n### 6.4 Two questions for the next lessons\n\nThis is the last lesson of three, and the next ones are written from your\nanswers to these two questions. Answer them honestly: there is no right answer,\nand *I don't know* is more useful than a polite one.\n\n**1. The length.** Every passage since Lesson 6 has been between 500 and 535\nwords. This one is 530.\n\n- The first time you read this passage **with the text**, how many minutes did it take? \\_\\_\\_\\_\\_\\_\\_\\_\n- How many words in it did you have to look up or guess? \\_\\_\\_\\_\\_\\_\\_\\_\n- For Lesson 13, choose **one**: **(a)** keep it at about 530 words · **(b)** about 600 · **(c)** about 700, the length of a real TOEFL passage · **(d)** shorter, for now\n\n**2. The grammar to teach again before a test.** These are the twelve grammar\npoints of Lessons 1 to 12. Tick the **two** you would most want taught again\nbefore a test, and for each one write **one sentence** you are not sure is\ncorrect.\n\n| ✓ | Lesson | Grammar point |\n|---|---|---|\n| | 1 | present simple |\n| | 2 | past simple |\n| | 3 | past continuous |\n| | 4 | present perfect |\n| | 5 | present perfect continuous |\n| | 6 | the future: *will* and *going to* |\n| | 7 | modals: *can, could, should, must, have to* |\n| | 8 | first and second conditional |\n| | 9 | the passive |\n| | 10 | past perfect and the third conditional |\n| | 11 | reported speech |\n| | 12 | relative clauses |\n\n> A sentence I am not sure about (1): \\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_  \n> A sentence I am not sure about (2): \\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_",
+   "segments": [
+    {
+     "say": "Review. Listen to the passage again, with no text, and answer these questions.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 2
+    },
+    {
+     "say": "Question one. Why does Karim go last, and who decided that he should?",
+     "voice": "narrator"
+    },
+    {
+     "pause": 15
+    },
+    {
+     "say": "Question two. What does the writer say the list does well, and what does it get wrong?",
+     "voice": "narrator"
+    },
+    {
+     "pause": 15
+    },
+    {
+     "say": "This is the end of the review.",
+     "voice": "narrator"
+    }
+   ]
+  },
+  {
+   "number": "11",
+   "slug": "answer-key",
+   "title": "Answer key and teacher notes",
+   "minutes": 10,
+   "sheet": true,
+   "audio": false,
+   "css_id": "answer-key",
+   "markdown": "**Listening:** L1 — eight until noon and six until ten, only while there is electricity; a rota in a plastic sleeve, and a pen on a string · L2 — Reem; she is a volunteer · L3 — his laptop charges faster than anyone's, so he needs only the final twenty minutes · L4 — the generator stopped at eleven, an hour early, so the last hour was on battery; the students who had been waiting since eight lost their slots, and two of them blamed Reem\n\n**Part A (MCQ):** 1-A · 2-C · 3-D · 4-C · 5-B · 6-D · 7-B · 8-C · 9-B · 10-A\n\n*Why 1 is* **A**: the first paragraph gives both times: *eight until noon, and six until ten*. **B** mixes up the opening time with the time Reem arrives, a quarter to eight. **C** is wrong because the room opens *only* while there is electricity, and the passage gives fixed hours. **D** borrows the lecturer, *whose flat has no power until night*, and turns her into the room's hours.\n\n*Why 2 is* **C**: *Karim, whose laptop charges faster than anyone's* needs only twenty minutes, so he takes the end of the morning. **A** is not said anywhere. **B** is the trap: the adapter is borrowed, but that has nothing to do with his place on the list, and *Nobody arranged that* — Reem did not put him anywhere. **D** mixes him up with socket seven, which belongs to whoever gets it.\n\n*Why 3 is* **D**: nothing in the passage keeps the best sockets for anyone, and the list goes *in the order people reach the door*. That is exactly what the second-last paragraph says is unfair. **A**, **B** and **C** are the three sockets of the third paragraph, nearly word for word.\n\n*Why 4 is* **C**: *the one everyone is cross with when the generator stops early* — they are angry with her, and the next sentence shows it: *two of them blamed her*. **A** is the trap: it is the commonest meaning of *cross*, the verb (*cross the road*), and a reader who knows only that one will choose it. **B** and **D** are feelings that might fit the scene, but not the word.\n\n*Why 5 is* **B**: the sentence before is about *a list on a door*, and the *it* that could be turned into a spreadsheet is that list — the rota. **A** is the trap: *door* is the last noun before *it*, but a door cannot become a spreadsheet. **C**, goodwill, is two sentences back and is what the rota replaced. **D** is not what anyone offered to change.\n\n*Why 6 is* **D**: she is *a student whose own laptop died last spring*, and the last paragraph says *Her own name is not on it*. Put together: she keeps a list of people waiting to charge, and she has nothing to charge. **A** is wrong: two students blamed her, but nobody took anything off the list. **B** is not in the passage. **C** is the opposite of the passage: she arrives at a quarter to eight, before it opens.\n\n*Why 7 is* **B**: the sentence says *not everyone needs the whole forty minutes*, so it must come straight after the forty-minute slot has been explained and straight before somebody who needs less — *Then there is Karim, whose laptop charges faster than anyone's*. At **[A]** the forty minutes have not been mentioned yet. At **[C]** it would come before *Before the rota*, and the paragraph is about goodwill, not about time. At **[D]** it would sit before *the list is not quite fair*, and it is a tempting place, but the paragraph is about who reaches the door first, not about how long people need.\n\n*Why 8 is* **C**: the paragraph is the passage's argument: goodwill *did not work*, because *everyone assumed somebody else would stand up first*, and *a list on a door makes the waiting visible*. **A** reads *before* as a description of the room, but the paragraph is about how people behaved. **B** is the trap: the polite students do go home with empty batteries, but the writer is not blaming them — they are the reason the list is needed. **D** is the opposite: Reem says no to the spreadsheet.\n\n*Why 9 is* **B**: the passage spends its first half on the people and objects of the room and its second half weighing the rota — what it does well, what it costs Reem, and where it is unfair — and ends *a little unfair and much better than nothing*. **A** is the trap: the passage says the opposite, *the list is not quite fair*. **C** is not a complaint the writer makes; the electricity is simply the fact the room is built around. **D** is one paragraph.\n\n*Why 10 is* **A**: the writer gives Reem the last word — *Reem keeps the room* — and shows her doing a hard job well, settling arguments, knowing the list's weakness (*Reem knows this*). **C is the trap.** The cost paragraph — *two of them blamed her*, *she nearly gave it up*, *her own name is not on it* — invites pity, and a reader who looks only at those lines will choose it. But the writer does not describe her as a victim; she is the person who makes the room work, and that is respect. **B** confuses the list with the person: the writer is critical of the list's fairness, never of her. **D** is not supported by anything.\n\n**Part B (True/False):**\n\n1. F — She is a volunteer; nobody pays her.\n2. T\n3. T\n4. F — Everyone assumed somebody else would stand up first; the quick took the sockets.\n5. F — Someone else offered; Reem said no, because a spreadsheet needs electricity.\n6. T\n\n**Part C (Fill in the blanks):** 1. corridor · 2. rota · 3. slot · 4. lean · 5. loose · 6. adapter · 7. shelf\n*(Extra words: charger, reward)*\n\n**2.4 A (Opposites):** 1. lend · 2. tight, firm · 3. punish · 4. neglect, let it fall apart · 5. paid worker\n\n**2.4 B (Odd one out):** 1. corridor (the others are parts of putting power into a laptop) · 2. rota (the others are about lending things; a rota is a list) · 3. slot (the others are places or parts of a building; a slot is a length of time)\n\n**2.4 C:** 1. you *borrow* from somebody and *lend* to somebody; the thing moves away from the person who lends it. Karim's brother lent it. · 2. a rota says **who** gets something and **when**, in turn; a list of names only says who.\n\n**Come back to (past perfect or continuous):** 1. had arranged · 2. had been waiting · 3. had been leaning\n\n**3.5 (Now you):** 1. no commas — only the students who live closest need the room least; with commas — all the students live closest, and they all need it least, which makes no sense here, so no commas is right · 2. no commas — only the chargers from under the desks went on the shelf; with commas — all the chargers had been left under the desks, and all went on the shelf · 3. no commas — I have more than one brother, and I mean the one in Spain; with commas — I have one brother, and he happens to work in Spain\n\n**3.7 A:** 1. who (or that) · 2. whose · 3. where · 4. which (or that) · 5. whose\n\n**3.7 B:** 1. A pen (that) nobody has managed to take home hangs on the door. · 2. The students who had been waiting since eight lost their slots. · 3. I need the charger (that) you lent me yesterday.\n\n**3.7 C:** 1. can go — *the adapter he borrowed* · 2. must stay — *that* is the subject of *works* · 3. can go — *a list nobody can read at a glance* · 4. must stay — *that* is the subject of *had been waiting*\n\n**3.7 D:** 1. Reem, whose own laptop died last spring, arrives at a quarter to eight. · 2. Room 14, which opens only while there is electricity, is on the second floor. · 3. The router, which everyone depends on, sits on the shelf.\n\n**3.7 E:** 1. The generator stopped at eleven, which meant the last hour was on battery. · 2. Karim's laptop charges in twenty minutes, which is why he goes last. · 3. The list rewards whoever is nearest the door, which is not quite fair.\n\n**3.7 F:** 1. *that* → *who*: a non-defining clause never takes *that* · 2. take out *she*: *who* has already replaced it · 3. *what* → *which* · 4. *My sister, who lives by the sea, is studying medicine.* — the pronoun cannot be dropped, and never in a non-defining clause\n\n**3.7 G:** 1. had finished · 2. had been waiting · 3. had been keeping (*had kept* is also correct, and puts the stress on the five months as finished) · 4. had known — *know* is a state verb, so never *had been knowing*\n\n**3.8 tests (part 05):** First test — 1. no commas · 2. commas · 3. no commas · 4. commas · 5. commas · 6. no commas. Second test — 7. had been · 8. no had been · 9. had been · 10. no had been\n\n**Mini-quiz:** 1. *where* for places, *whose* for belonging · 2. *that* (or *which*); *he* is the subject inside the clause, so the pronoun is the object, and an object pronoun can go · 3. *who* is the subject of *keeps*; without it the sentence has no subject for the clause · 4. a non-defining clause never begins with *that*: *Karim, who could…* · 5. no commas — only some students, the ones who had been waiting, lost their slots; commas — all of them lost their slots, and all had been waiting · 6. the whole clause: the generator stopping at eleven · 7. had been charging · 8. she had been waiting · 9. a short stop at each comma, and the voice falling before the first one · 10. lend · 11. lose · 12. teacher judgement\n\n### Teacher Notes {: #teacher-notes }\n\n**What changed from Lesson 11, and what deliberately did not.** The passage is 530 words, against 525 in Lesson 11 — seven lessons now at about five hundred. The shape is twelve parts, as in Lessons 10 and 11. The question set is unchanged. The new thing is one structure, and it is the first in the course that belongs to B2 rather than B1: *which* commenting on a whole clause.\n\n**Why relative clauses, and why now.** Lessons 9 and 11 were both about sources — who counted, who said. The non-defining clause is the structure that puts a source inside a sentence without breaking it (*the message, which came from a group of forty people, said…*), and the comment-*which* is how an essay gives a fact and its meaning in one breath. Both are things she will need in an application written in English. The come-back, the past perfect continuous, finishes the job Lesson 10 started: *had* + participle for a finished earlier action, *had been* + *-ing* for how long it had been going on.\n\n**The one real difficulty.** Not the words *who* and *which*; she will have those in a day. The difficulty is the **commas**, and Arabic does not help: it has nothing that works like the defining / non-defining contrast, and it keeps a pronoun inside the clause that English drops (3.1). Section 3.5 is the one to do slowly. Ask her, of every relative clause she writes: *if I take it out, do you still know who I mean?* If yes, it needs commas. Exercise 3.5's *my brother who works in Spain* is the sentence to say out loud together.\n\n**Why the pronunciation part is the one to protect.** It is the only place in the course where punctuation can be heard. A listener who misses the stop before *who* hears *the students, who had been waiting,* as *the students who had been waiting*, and understands that only some of them lost their slots. The first test in 3.8 is exactly that, six times. The second is the weak *had been*, which she has met as *has been* (Lesson 5) and *had been* in the passive (Lesson 9): it is the same /bɪn/ every time.\n\n**Why this story, and a note on it.** It is a written story: the university, Room 14, Reem, Karim and the hours of power are invented, the university is unnamed on purpose, and nothing in it rests on reporting. The subject is close to her own life — a room that exists because the power does not — and the writer's attitude to Reem is the question worth discussing after part 06: she is given the last word, not pity. The argument against itself is in the second movement: the rota works better than goodwill, and it is still a small unfairness, because it rewards whoever is nearest the door at eight.\n\n**Success criteria for Lesson 12.** The student should be able to:\n\n- answer L1–L4 correctly on the second hearing;\n- choose *who, which, that, whose* or *where*, and not repeat the noun inside the clause;\n- drop an object pronoun, and say why a subject pronoun cannot be dropped;\n- write a non-defining clause with two commas and without *that*;\n- say what a sentence claims with commas and without them;\n- use *which* to comment on a whole clause, with its comma;\n- choose the past perfect or the past perfect continuous, and keep state verbs out of the continuous;\n- hear whether a clause had commas, and hear *she'd been waiting* against *she'd waited*;\n- use 10 of the 14 key words in her own sentences.\n\n**If it is too easy:** add relative clauses after a preposition — *the one everyone is cross with* against the formal *the person with whom everyone is cross* — and *whoever*, *whatever*, which the passage uses once (*whoever is nearest the door*).\n**If it is too hard:** teach 3.1 to 3.4 this week, defining and non-defining only, and leave 3.6, the comment-*which*, for the start of the next lesson. It is the B2 step, and it will still be there.\n\n**A note on spaced recall.** `03-vocabulary.mp3` ends with five Lesson 10 words — *router, spreadsheet, delay, assume, retrieve* — and all five are also in the passage, so she hears them inside the lesson and not only in a list. Lesson 11 recalled Lesson 9, so the two-lesson gap holds. Lesson 11's words are due back in Lesson 13.\n\n**Where the course is now.** Twelve lessons and one progress test, and the end of this run of three. Progress Test 2, covering Lessons 4 to 8, is still owed. The two questions at 6.4 are the ones the next lessons need answered before they are written: whether the length should rise above 530 at last, with her own reading time beside the answer, and which two of the twelve grammar points she wants taught again before a test, each with a sentence she is unsure of. Read her sentences before her ticks: the sentence shows what is actually wrong, and the tick only shows what she is worried about."
+  },
+  {
+   "number": "12",
+   "slug": "passage-slow",
+   "title": "Passage, extra slow",
+   "minutes": 10,
+   "sheet": false,
+   "audio": true,
+   "segments": [
+    {
+     "say": "Slow version. The passage, read slowly, one time.",
+     "voice": "narrator"
+    },
+    {
+     "pause": 2
+    },
+    {
+     "say": "Room 14 is at the end of the long corridor on the second floor. It opens only while there is electricity: eight until noon, and six until ten. On its door hangs a rota in a plastic sleeve, and beside it, on a string, a pen that nobody has managed to take home.\n\nThe woman who keeps the list is Reem. She is a volunteer, a student whose own laptop died last spring, and she arrives at a quarter to eight to arrange the morning. Every name on the rota gets a slot of forty minutes at one of twelve sockets, in the order people reach the door. When the power is late, the delay comes out of the first slot.\n\nThe sockets are not equal, and everyone who comes twice learns which is which. The socket that only works if you lean on the plug is number seven, so whoever gets it works with an elbow on the desk. Number three is loose and drops your charger when somebody walks past. The best are the four along the back wall, where the router sits on a shelf.\n\nThen there is Karim, whose laptop charges faster than anyone's. He uses an adapter he borrowed from his brother, and in twenty minutes his battery is full. So Karim, who could take the best slot of all, goes last, which is why the final twenty minutes are always his. Nobody arranged that. The list simply made it obvious.\n\nIt is the room where everyone ends up: students writing theses, a lecturer whose flat has no power until night, a first-year who comes to charge a phone and stays to read. People lend each other chargers, and every evening Reem retrieves the ones left under the desks.\n\nBefore the rota, the room ran on goodwill, and goodwill did not work. Everyone meant to share, and everyone assumed somebody else would stand up first. The quick took the sockets; the polite went home with empty batteries. A list on a door makes the waiting visible, so nobody has to ask. Someone once offered to turn it into a spreadsheet. Reem said no, because a spreadsheet needs electricity, which is the one thing the room is short of.\n\nThe list costs her, though. She maintains it twice a day, settles every argument, and is the one everyone is cross with when the generator stops early. Last Tuesday it stopped at eleven, which meant the last hour was on battery. Students who had been waiting since eight lost their slots, and two of them blamed her. She had been keeping the list for five months, and that night she nearly gave it up.\n\nAnd the list is not quite fair. It rewards whoever is nearest the door at eight, and those who live closest often need the room least. Reem knows this. But every new rule makes the list longer, and a list that nobody can read at a glance soon stops being followed.\n\nSo the rota stays on the door, a little unfair and much better than nothing. Her own name is not on it. The room keeps the light, and Reem keeps the room.",
+     "voice": "slow"
+    }
+   ]
+  }
+ ]
+}
